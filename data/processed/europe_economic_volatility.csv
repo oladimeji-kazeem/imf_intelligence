@@ -1,0 +1,221 @@
+iso,country,indicator,standard_deviation,mean,profile_observations,profile_first_year,profile_latest_year,unit,scale,coefficient_of_variation,variability_order,variability_interpretation
+AUT,Austria,current_account,2.1091,0.5376,45,1980,2024,Percent of GDP,Units,3.923177083333334,4.0,Lower standard deviation means lower historical variability; sample windows may differ.
+BEL,Belgium,current_account,2.5847,1.5338,46,1980,2025,Percent of GDP,Units,1.6851610379449733,7.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CZE,Czech Republic,current_account,2.421,-1.9565,31,1995,2025,Percent of GDP,Units,,5.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DNK,Denmark,current_account,4.4456,3.2496,46,1980,2025,Percent of GDP,Units,1.3680452978828164,17.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FIN,Finland,current_account,3.3974,0.4672,46,1980,2025,Percent of GDP,Units,7.271832191780822,12.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FRA,France,current_account,1.2283,-0.0155,46,1980,2025,Percent of GDP,Units,,1.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DEU,Germany,current_account,3.4133,3.2949,46,1980,2025,Percent of GDP,Units,1.0359343227412061,13.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GRC,Greece,current_account,3.5113,-5.0873,46,1980,2025,Percent of GDP,Units,,14.0,Lower standard deviation means lower historical variability; sample windows may differ.
+HUN,Hungary,current_account,4.0504,-3.2249,46,1980,2025,Percent of GDP,Units,,15.0,Lower standard deviation means lower historical variability; sample windows may differ.
+IRL,Ireland,current_account,6.3414,-0.5535,46,1980,2025,Percent of GDP,Units,,19.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ITA,Italy,current_account,1.9498,-0.0785,46,1980,2025,Percent of GDP,Units,,3.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NLD,"Netherlands, The",current_account,2.5564,5.0529,46,1980,2025,Percent of GDP,Units,0.5059272892794237,6.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NOR,Norway,current_account,6.9635,7.744,46,1980,2025,Percent of GDP,Units,0.8992122933884298,20.0,Lower standard deviation means lower historical variability; sample windows may differ.
+POL,"Poland, Republic of",current_account,2.6413,-2.6135,46,1980,2025,Percent of GDP,Units,,8.0,Lower standard deviation means lower historical variability; sample windows may differ.
+PRT,Portugal,current_account,4.877,-3.6754,46,1980,2025,Percent of GDP,Units,,18.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ROU,Romania,current_account,4.4225,-3.7834,46,1980,2025,Percent of GDP,Units,,16.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ESP,Spain,current_account,3.2656,-1.4955,46,1980,2025,Percent of GDP,Units,,9.0,Lower standard deviation means lower historical variability; sample windows may differ.
+SWE,Sweden,current_account,3.3067,2.9566,46,1980,2025,Percent of GDP,Units,1.1184130420077116,10.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CHE,Switzerland,current_account,3.3757,6.3106,46,1980,2025,Percent of GDP,Units,0.5349253636738187,11.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GBR,United Kingdom,current_account,1.5743,-1.9434,46,1980,2025,Percent of GDP,Units,,2.0,Lower standard deviation means lower historical variability; sample windows may differ.
+AUT,Austria,exports_volume_growth,5.3018,4.3293,45,1980,2024,Percent,Units,1.2246321576236343,7.0,Lower standard deviation means lower historical variability; sample windows may differ.
+BEL,Belgium,exports_volume_growth,4.901,2.7251,46,1980,2025,Percent,Units,1.798466111335364,5.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CZE,Czech Republic,exports_volume_growth,7.4581,6.5837,30,1996,2025,Percent,Units,1.1328128559928308,14.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DNK,Denmark,exports_volume_growth,3.8704,4.3889,46,1980,2025,Percent,Units,0.8818610585795986,2.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FIN,Finland,exports_volume_growth,6.4713,4.2447,46,1980,2025,Percent,Units,1.5245600395787688,13.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FRA,France,exports_volume_growth,5.1573,3.9167,46,1980,2025,Percent,Units,1.316746240457528,6.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DEU,Germany,exports_volume_growth,5.9955,4.472,46,1980,2025,Percent,Units,1.3406753130590339,10.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GRC,Greece,exports_volume_growth,9.6658,4.627,46,1980,2025,Percent,Units,2.088999351631727,19.0,Lower standard deviation means lower historical variability; sample windows may differ.
+HUN,Hungary,exports_volume_growth,9.291,6.8126,45,1981,2025,Percent,Units,1.3637964947303527,18.0,Lower standard deviation means lower historical variability; sample windows may differ.
+IRL,Ireland,exports_volume_growth,7.5344,9.7896,46,1980,2025,Percent,Units,0.7696330800032688,15.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ITA,Italy,exports_volume_growth,6.0166,3.4492,46,1980,2025,Percent,Units,1.7443465151339443,11.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NLD,"Netherlands, The",exports_volume_growth,3.918,4.4538,45,1981,2025,Percent,Units,0.8796982352148727,3.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NOR,Norway,exports_volume_growth,3.4339,3.102,46,1980,2025,Percent,Units,1.1069954867827208,1.0,Lower standard deviation means lower historical variability; sample windows may differ.
+POL,"Poland, Republic of",exports_volume_growth,5.8077,7.4603,30,1996,2025,Percent,Units,0.7784807581464551,9.0,Lower standard deviation means lower historical variability; sample windows may differ.
+PRT,Portugal,exports_volume_growth,7.9045,5.7714,46,1980,2025,Percent,Units,1.3695983643483383,16.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ROU,Romania,exports_volume_growth,11.9369,4.7688,46,1980,2025,Percent,Units,2.5031244757591007,20.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ESP,Spain,exports_volume_growth,6.1918,5.0951,46,1980,2025,Percent,Units,1.2152460206865419,12.0,Lower standard deviation means lower historical variability; sample windows may differ.
+SWE,Sweden,exports_volume_growth,8.8851,3.7773,45,1981,2025,Percent,Units,2.352235723929791,17.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CHE,Switzerland,exports_volume_growth,5.7921,4.0098,46,1980,2025,Percent,Units,1.4444860092772704,8.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GBR,United Kingdom,exports_volume_growth,4.8223,3.4362,46,1980,2025,Percent,Units,1.4033816425120773,4.0,Lower standard deviation means lower historical variability; sample windows may differ.
+AUT,Austria,fiscal_balance,1.8448,-2.8703,37,1988,2024,Percent of GDP,Units,,2.0,Lower standard deviation means lower historical variability; sample windows may differ.
+BEL,Belgium,fiscal_balance,4.1217,-4.9546,46,1980,2025,Percent of GDP,Units,,18.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CZE,Czech Republic,fiscal_balance,2.6969,-3.1292,31,1995,2025,Percent of GDP,Units,,9.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DNK,Denmark,fiscal_balance,3.3485,-0.2773,46,1980,2025,Percent of GDP,Units,,14.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FIN,Finland,fiscal_balance,3.7979,0.1712,46,1980,2025,Percent of GDP,Units,22.183995327102803,16.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FRA,France,fiscal_balance,1.8711,-3.7301,46,1980,2025,Percent of GDP,Units,,3.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DEU,Germany,fiscal_balance,2.2459,-2.052,35,1991,2025,Percent of GDP,Units,,6.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GRC,Greece,fiscal_balance,4.0797,-6.573,46,1980,2025,Percent of GDP,Units,,17.0,Lower standard deviation means lower historical variability; sample windows may differ.
+HUN,Hungary,fiscal_balance,2.2442,-5.0554,31,1995,2025,Percent of GDP,Units,,5.0,Lower standard deviation means lower historical variability; sample windows may differ.
+IRL,Ireland,fiscal_balance,7.1841,-2.195,31,1995,2025,Percent of GDP,Units,,20.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ITA,Italy,fiscal_balance,3.2182,-5.082,38,1988,2025,Percent of GDP,Units,,13.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NLD,"Netherlands, The",fiscal_balance,2.3903,-2.5222,46,1980,2025,Percent of GDP,Units,,7.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NOR,Norway,fiscal_balance,5.881,7.8459,46,1980,2025,Percent of GDP,Units,0.7495634662690067,19.0,Lower standard deviation means lower historical variability; sample windows may differ.
+POL,"Poland, Republic of",fiscal_balance,1.8784,-4.107,31,1995,2025,Percent of GDP,Units,,4.0,Lower standard deviation means lower historical variability; sample windows may differ.
+PRT,Portugal,fiscal_balance,3.0131,-4.6606,40,1986,2025,Percent of GDP,Units,,11.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ROU,Romania,fiscal_balance,2.5947,-3.6707,36,1990,2025,Percent of GDP,Units,,8.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ESP,Spain,fiscal_balance,3.1969,-4.2256,46,1980,2025,Percent of GDP,Units,,12.0,Lower standard deviation means lower historical variability; sample windows may differ.
+SWE,Sweden,fiscal_balance,3.4196,-1.0343,46,1980,2025,Percent of GDP,Units,,15.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CHE,Switzerland,fiscal_balance,1.3137,-0.3153,43,1983,2025,Percent of GDP,Units,,1.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GBR,United Kingdom,fiscal_balance,2.8996,-3.8166,46,1980,2025,Percent of GDP,Units,,10.0,Lower standard deviation means lower historical variability; sample windows may differ.
+AUT,Austria,government_debt,9.5236,71.3034,37,1988,2024,Percent of GDP,Units,0.1335644583568245,5.0,Lower standard deviation means lower historical variability; sample windows may differ.
+BEL,Belgium,government_debt,14.6061,110.202,46,1980,2025,Percent of GDP,Units,0.13253933685414057,12.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CZE,Czech Republic,government_debt,10.527,30.8982,31,1995,2025,Percent of GDP,Units,0.3406994582208672,7.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DNK,Denmark,government_debt,13.4034,47.7671,34,1992,2025,Percent of GDP,Units,0.28059898968118224,10.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FIN,Finland,government_debt,22.0133,45.0464,46,1980,2025,Percent of GDP,Units,0.48868056048874053,14.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FRA,France,government_debt,29.1652,67.5524,46,1980,2025,Percent of GDP,Units,0.43174187741664244,18.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DEU,Germany,government_debt,9.7847,62.9146,35,1991,2025,Percent of GDP,Units,0.1555235191831467,6.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GRC,Greece,government_debt,52.9232,114.8807,46,1980,2025,Percent of GDP,Units,0.4606796441874048,20.0,Lower standard deviation means lower historical variability; sample windows may differ.
+HUN,Hungary,government_debt,8.7106,69.6223,31,1995,2025,Percent of GDP,Units,0.12511221261004019,4.0,Lower standard deviation means lower historical variability; sample windows may differ.
+IRL,Ireland,government_debt,27.3677,57.2815,31,1995,2025,Percent of GDP,Units,0.4777755470788998,16.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ITA,Italy,government_debt,14.6681,120.1849,38,1988,2025,Percent of GDP,Units,0.12204611394609473,13.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NLD,"Netherlands, The",government_debt,10.648,58.9082,46,1980,2025,Percent of GDP,Units,0.1807558200725875,8.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NOR,Norway,government_debt,8.1997,38.3605,46,1980,2025,Percent of GDP,Units,0.21375373105147222,3.0,Lower standard deviation means lower historical variability; sample windows may differ.
+POL,"Poland, Republic of",government_debt,6.0771,48.2163,31,1995,2025,Percent of GDP,Units,0.12603828995588628,1.0,Lower standard deviation means lower historical variability; sample windows may differ.
+PRT,Portugal,government_debt,29.2175,88.0045,36,1990,2025,Percent of GDP,Units,0.33200006817833183,19.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ROU,Romania,government_debt,13.7777,34.6352,26,2000,2025,Percent of GDP,Units,0.3977947290617638,11.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ESP,Spain,government_debt,29.1095,63.6043,46,1980,2025,Percent of GDP,Units,0.4576655980806329,17.0,Lower standard deviation means lower historical variability; sample windows may differ.
+SWE,Sweden,government_debt,11.5747,46.9212,33,1993,2025,Percent of GDP,Units,0.24668380177830065,9.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CHE,Switzerland,government_debt,6.1541,45.61,36,1990,2025,Percent of GDP,Units,0.13492874369655777,2.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GBR,United Kingdom,government_debt,25.1223,57.874,46,1980,2025,Percent of GDP,Units,0.43408611811867154,15.0,Lower standard deviation means lower historical variability; sample windows may differ.
+AUT,Austria,imports_volume_growth,5.4066,3.8221,45,1980,2024,Percent,Units,1.414562674969258,9.0,Lower standard deviation means lower historical variability; sample windows may differ.
+BEL,Belgium,imports_volume_growth,5.3162,2.669,46,1980,2025,Percent,Units,1.9918321468714875,7.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CZE,Czech Republic,imports_volume_growth,7.0865,6.4648,30,1996,2025,Percent,Units,1.0961669347852987,12.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DNK,Denmark,imports_volume_growth,4.9796,4.1542,46,1980,2025,Percent,Units,1.1986904819219102,4.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FIN,Finland,imports_volume_growth,6.2378,3.8711,46,1980,2025,Percent,Units,1.611376611299114,10.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FRA,France,imports_volume_growth,4.8753,3.8597,46,1980,2025,Percent,Units,1.2631292587506802,3.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DEU,Germany,imports_volume_growth,5.1732,4.1049,46,1980,2025,Percent,Units,1.260249945187459,6.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GRC,Greece,imports_volume_growth,7.1339,4.2501,46,1980,2025,Percent,Units,1.6785252111715019,13.0,Lower standard deviation means lower historical variability; sample windows may differ.
+HUN,Hungary,imports_volume_growth,8.0597,6.3018,45,1981,2025,Percent,Units,1.2789520454473324,14.0,Lower standard deviation means lower historical variability; sample windows may differ.
+IRL,Ireland,imports_volume_growth,9.6516,8.199,46,1980,2025,Percent,Units,1.1771679473106478,18.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ITA,Italy,imports_volume_growth,6.6126,3.3956,46,1980,2025,Percent,Units,1.9474025209094121,11.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NLD,"Netherlands, The",imports_volume_growth,4.6285,4.2477,45,1981,2025,Percent,Units,1.0896485156673024,2.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NOR,Norway,imports_volume_growth,5.0839,3.4359,46,1980,2025,Percent,Units,1.479641433103408,5.0,Lower standard deviation means lower historical variability; sample windows may differ.
+POL,"Poland, Republic of",imports_volume_growth,8.4719,7.7091,30,1996,2025,Percent,Units,1.0989479965235889,16.0,Lower standard deviation means lower historical variability; sample windows may differ.
+PRT,Portugal,imports_volume_growth,8.6678,5.1601,46,1980,2025,Percent,Units,1.6797736477975234,17.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ROU,Romania,imports_volume_growth,13.5327,7.1824,46,1980,2025,Percent,Units,1.884147360213856,20.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ESP,Spain,imports_volume_growth,8.0925,5.5832,46,1980,2025,Percent,Units,1.4494375985098151,15.0,Lower standard deviation means lower historical variability; sample windows may differ.
+SWE,Sweden,imports_volume_growth,9.8302,3.498,45,1981,2025,Percent,Units,2.8102344196683817,19.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CHE,Switzerland,imports_volume_growth,4.4948,3.877,46,1980,2025,Percent,Units,1.1593500128965695,1.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GBR,United Kingdom,imports_volume_growth,5.3353,3.9857,46,1980,2025,Percent,Units,1.338610532654239,8.0,Lower standard deviation means lower historical variability; sample windows may differ.
+AUT,Austria,inflation,1.8282,2.6953,46,1980,2025,Percent,Units,0.6782918413534672,2.0,Lower standard deviation means lower historical variability; sample windows may differ.
+BEL,Belgium,inflation,2.2662,2.8777,46,1980,2025,Percent,Units,0.7875039093720679,5.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CZE,Czech Republic,inflation,3.5692,3.7528,30,1996,2025,Percent,Units,0.9510765295246215,11.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DNK,Denmark,inflation,2.7886,2.9475,46,1980,2025,Percent,Units,0.9460899067005939,6.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FIN,Finland,inflation,2.9202,3.1698,46,1980,2025,Percent,Units,0.9212568616316487,7.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FRA,France,inflation,3.2662,3.0823,46,1980,2025,Percent,Units,1.0596632384907374,10.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DEU,Germany,inflation,1.8153,2.3215,46,1980,2025,Percent,Units,0.7819513245746285,1.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GRC,Greece,inflation,8.0504,7.9071,46,1980,2025,Percent,Units,1.0181229527892652,17.0,Lower standard deviation means lower historical variability; sample windows may differ.
+HUN,Hungary,inflation,8.3322,9.6903,46,1980,2025,Percent,Units,0.8598495402619114,18.0,Lower standard deviation means lower historical variability; sample windows may differ.
+IRL,Ireland,inflation,4.6471,3.6652,46,1980,2025,Percent,Units,1.2678980683182364,14.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ITA,Italy,inflation,4.9456,4.5712,46,1980,2025,Percent,Units,1.08190409520476,15.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NLD,"Netherlands, The",inflation,2.0359,2.4171,44,1981,2025,Percent,Units,0.8422903479376112,4.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NOR,Norway,inflation,2.9554,3.7411,46,1980,2025,Percent,Units,0.7899815562267782,8.0,Lower standard deviation means lower historical variability; sample windows may differ.
+POL,"Poland, Republic of",inflation,93.7322,34.2113,45,1980,2025,Percent,Units,2.739802346008483,20.0,Lower standard deviation means lower historical variability; sample windows may differ.
+PRT,Portugal,inflation,7.1724,6.1243,46,1980,2025,Percent,Units,1.1711379259670494,16.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ROU,Romania,inflation,59.6283,32.3823,46,1980,2025,Percent,Units,1.8413855717475287,19.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ESP,Spain,inflation,3.9674,4.5188,46,1980,2025,Percent,Units,0.8779764539258211,13.0,Lower standard deviation means lower historical variability; sample windows may differ.
+SWE,Sweden,inflation,3.6685,3.7179,46,1980,2025,Percent,Units,0.9867129293418326,12.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CHE,Switzerland,inflation,1.8362,1.5637,46,1980,2025,Percent,Units,1.1742661635863656,3.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GBR,United Kingdom,inflation,3.1706,3.6819,46,1980,2025,Percent,Units,0.8611314810288165,9.0,Lower standard deviation means lower historical variability; sample windows may differ.
+AUT,Austria,nominal_gdp_local,120.9337,246.7159,46,1980,2025,Domestic currency,Billions,0.49017392069177546,4.0,Lower standard deviation means lower historical variability; sample windows may differ.
+BEL,Belgium,nominal_gdp_local,151.7687,300.5489,46,1980,2025,Domestic currency,Billions,0.5049717367123951,5.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CZE,Czech Republic,nominal_gdp_local,1870.6063,4272.9826,31,1995,2025,Domestic currency,Billions,0.43777531413303666,19.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DNK,Denmark,nominal_gdp_local,726.3939,1501.0854,46,1980,2025,Domestic currency,Billions,0.483912440957723,13.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FIN,Finland,nominal_gdp_local,73.2549,150.072,46,1980,2025,Domestic currency,Billions,0.48813169678554297,1.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FRA,France,nominal_gdp_local,692.7272,1625.7854,46,1980,2025,Domestic currency,Billions,0.4260877235088961,12.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DEU,Germany,nominal_gdp_local,1020.9337,2313.7867,46,1980,2025,Domestic currency,Billions,0.4412393329082581,15.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GRC,Greece,nominal_gdp_local,78.5967,132.7886,46,1980,2025,Domestic currency,Billions,0.5918934306107603,2.0,Lower standard deviation means lower historical variability; sample windows may differ.
+HUN,Hungary,nominal_gdp_local,22951.8272,22787.1851,46,1980,2025,Domestic currency,Billions,1.007225205714417,20.0,Lower standard deviation means lower historical variability; sample windows may differ.
+IRL,Ireland,nominal_gdp_local,161.4043,171.1342,46,1980,2025,Domestic currency,Billions,0.9431446198363624,6.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ITA,Italy,nominal_gdp_local,567.4789,1248.7542,46,1980,2025,Domestic currency,Billions,0.45443602912406617,11.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NLD,"Netherlands, The",nominal_gdp_local,270.4967,523.4372,46,1980,2025,Domestic currency,Billions,0.5167701111040637,8.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NOR,Norway,nominal_gdp_local,1559.071,2112.6226,46,1980,2025,Domestic currency,Billions,0.7379789461686151,17.0,Lower standard deviation means lower historical variability; sample windows may differ.
+POL,"Poland, Republic of",nominal_gdp_local,1082.4008,1098.4863,46,1980,2025,Domestic currency,Billions,0.9853566676252584,16.0,Lower standard deviation means lower historical variability; sample windows may differ.
+PRT,Portugal,nominal_gdp_local,79.0304,131.342,46,1980,2025,Domestic currency,Billions,0.6017146076654839,3.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ROU,Romania,nominal_gdp_local,525.4138,420.3902,46,1980,2025,Domestic currency,Billions,1.2498240919983388,10.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ESP,Spain,nominal_gdp_local,445.51,759.6471,46,1980,2025,Domestic currency,Billions,0.5864696909920408,9.0,Lower standard deviation means lower historical variability; sample windows may differ.
+SWE,Sweden,nominal_gdp_local,1674.9517,2921.7137,46,1980,2025,Domestic currency,Billions,0.573277148955423,18.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CHE,Switzerland,nominal_gdp_local,187.4269,520.5909,46,1980,2025,Domestic currency,Billions,0.3600272305950795,7.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GBR,United Kingdom,nominal_gdp_local,759.4525,1327.7283,46,1980,2025,Domestic currency,Billions,0.5719939086935181,14.0,Lower standard deviation means lower historical variability; sample windows may differ.
+AUT,Austria,nominal_gdp_usd,149.2753,286.5212,46,1980,2025,US dollars,Billions,0.5209921639306271,8.0,Lower standard deviation means lower historical variability; sample windows may differ.
+BEL,Belgium,nominal_gdp_usd,184.4961,350.3226,46,1980,2025,US dollars,Billions,0.5266462968703703,12.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CZE,Czech Republic,nominal_gdp_usd,94.736,187.3313,31,1995,2025,US dollars,Billions,0.5057136741163917,5.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DNK,Denmark,nominal_gdp_usd,119.439,233.9085,46,1980,2025,US dollars,Billions,0.5106227435086796,7.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FIN,Finland,nominal_gdp_usd,85.9525,180.0731,46,1980,2025,US dollars,Billions,0.47732004391549876,3.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FRA,France,nominal_gdp_usd,868.869,1899.6621,46,1980,2025,US dollars,Billions,0.4573808152513018,18.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DEU,Germany,nominal_gdp_usd,1270.868,2681.4865,46,1980,2025,US dollars,Billions,0.4739415991838855,20.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GRC,Greece,nominal_gdp_usd,85.6377,171.0521,46,1980,2025,US dollars,Billions,0.5006527251053918,2.0,Lower standard deviation means lower historical variability; sample windows may differ.
+HUN,Hungary,nominal_gdp_usd,63.9094,93.4666,46,1980,2025,US dollars,Billions,0.6837672494773533,1.0,Lower standard deviation means lower historical variability; sample windows may differ.
+IRL,Ireland,nominal_gdp_usd,180.6893,199.681,46,1980,2025,US dollars,Billions,0.9048897992297714,11.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ITA,Italy,nominal_gdp_usd,649.6977,1519.3135,46,1980,2025,US dollars,Billions,0.4276258323249284,17.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NLD,"Netherlands, The",nominal_gdp_usd,330.8203,607.8464,46,1980,2025,US dollars,Billions,0.5442498302202661,15.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NOR,Norway,nominal_gdp_usd,178.011,278.198,46,1980,2025,US dollars,Billions,0.6398716022401312,10.0,Lower standard deviation means lower historical variability; sample windows may differ.
+POL,"Poland, Republic of",nominal_gdp_usd,262.6192,326.1822,46,1980,2025,US dollars,Billions,0.805130384184054,13.0,Lower standard deviation means lower historical variability; sample windows may differ.
+PRT,Portugal,nominal_gdp_usd,89.2771,158.7993,46,1980,2025,US dollars,Billions,0.5622008409356969,4.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ROU,Romania,nominal_gdp_usd,107.7447,127.8343,46,1980,2025,US dollars,Billions,0.8428465599608242,6.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ESP,Spain,nominal_gdp_usd,517.4265,922.1623,46,1980,2025,US dollars,Billions,0.5611013375845012,16.0,Lower standard deviation means lower historical variability; sample windows may differ.
+SWE,Sweden,nominal_gdp_usd,173.5766,366.3576,46,1980,2025,US dollars,Billions,0.4737900892461355,9.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CHE,Switzerland,nominal_gdp_usd,268.1886,460.6632,46,1980,2025,US dollars,Billions,0.5821793449096867,14.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GBR,United Kingdom,nominal_gdp_usd,996.4978,2004.1569,46,1980,2025,US dollars,Billions,0.49721546252192134,19.0,Lower standard deviation means lower historical variability; sample windows may differ.
+AUT,Austria,primary_balance,1.9458,-0.7908,37,1988,2024,Percent of GDP,Units,,4.0,Lower standard deviation means lower historical variability; sample windows may differ.
+BEL,Belgium,primary_balance,3.6412,0.6968,46,1980,2025,Percent of GDP,Units,5.225602755453502,17.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CZE,Czech Republic,primary_balance,2.7956,-2.4945,31,1995,2025,Percent of GDP,Units,,11.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DNK,Denmark,primary_balance,2.879,1.6203,46,1980,2025,Percent of GDP,Units,1.7768314509658705,12.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FIN,Finland,primary_balance,3.6161,-0.0004,46,1980,2025,Percent of GDP,Units,,16.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FRA,France,primary_balance,1.8535,-1.6147,46,1980,2025,Percent of GDP,Units,,3.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DEU,Germany,primary_balance,1.9896,-0.1378,35,1991,2025,Percent of GDP,Units,,5.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GRC,Greece,primary_balance,3.7599,-0.9674,38,1988,2025,Percent of GDP,Units,,18.0,Lower standard deviation means lower historical variability; sample windows may differ.
+HUN,Hungary,primary_balance,2.4289,-1.0577,31,1995,2025,Percent of GDP,Units,,7.0,Lower standard deviation means lower historical variability; sample windows may differ.
+IRL,Ireland,primary_balance,7.0192,-0.435,31,1995,2025,Percent of GDP,Units,,20.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ITA,Italy,primary_balance,2.6669,0.7471,38,1988,2025,Percent of GDP,Units,3.5696693883014325,9.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NLD,"Netherlands, The",primary_balance,2.3049,0.0097,31,1995,2025,Percent of GDP,Units,237.6185567010309,6.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NOR,Norway,primary_balance,5.9087,5.9023,46,1980,2025,Percent of GDP,Units,1.0010843230605018,19.0,Lower standard deviation means lower historical variability; sample windows may differ.
+POL,"Poland, Republic of",primary_balance,1.8381,-1.5753,31,1995,2025,Percent of GDP,Units,,2.0,Lower standard deviation means lower historical variability; sample windows may differ.
+PRT,Portugal,primary_balance,2.6801,-0.5841,40,1986,2025,Percent of GDP,Units,,10.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ROU,Romania,primary_balance,2.5324,-2.011,35,1991,2025,Percent of GDP,Units,,8.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ESP,Spain,primary_balance,3.198,-1.9802,46,1980,2025,Percent of GDP,Units,,14.0,Lower standard deviation means lower historical variability; sample windows may differ.
+SWE,Sweden,primary_balance,3.4151,0.2846,46,1980,2025,Percent of GDP,Units,11.999648629655656,15.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CHE,Switzerland,primary_balance,1.3161,0.2972,43,1983,2025,Percent of GDP,Units,4.428331090174966,1.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GBR,United Kingdom,primary_balance,2.8968,-1.9342,46,1980,2025,Percent of GDP,Units,,13.0,Lower standard deviation means lower historical variability; sample windows may differ.
+AUT,Austria,real_gdp_growth,2.007,1.7765,46,1980,2025,Percent,Units,1.1297495074584858,4.0,Lower standard deviation means lower historical variability; sample windows may differ.
+BEL,Belgium,real_gdp_growth,1.8246,1.8702,46,1980,2025,Percent,Units,0.9756175810073788,3.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CZE,Czech Republic,real_gdp_growth,2.805,2.2761,30,1996,2025,Percent,Units,1.232371161196784,12.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DNK,Denmark,real_gdp_growth,2.013,1.86,46,1980,2025,Percent,Units,1.0822580645161288,5.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FIN,Finland,real_gdp_growth,2.9802,1.9262,46,1980,2025,Percent,Units,1.5471913612293635,13.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FRA,France,real_gdp_growth,2.0293,1.755,46,1980,2025,Percent,Units,1.1562962962962964,6.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DEU,Germany,real_gdp_growth,2.0636,1.5438,46,1980,2025,Percent,Units,1.336701645290841,7.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GRC,Greece,real_gdp_growth,3.8681,1.0506,46,1980,2025,Percent,Units,3.681800875690082,17.0,Lower standard deviation means lower historical variability; sample windows may differ.
+HUN,Hungary,real_gdp_growth,3.436,1.5876,46,1980,2025,Percent,Units,2.164273116654069,16.0,Lower standard deviation means lower historical variability; sample windows may differ.
+IRL,Ireland,real_gdp_growth,5.1613,5.0823,46,1980,2025,Percent,Units,1.015544143399642,20.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ITA,Italy,real_gdp_growth,2.6543,1.289,46,1980,2025,Percent,Units,2.0591931730023276,10.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NLD,"Netherlands, The",real_gdp_growth,2.121,2.1022,45,1981,2025,Percent,Units,1.0089430120825802,8.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NOR,Norway,real_gdp_growth,1.745,2.4287,46,1980,2025,Percent,Units,0.7184913739860831,1.0,Lower standard deviation means lower historical variability; sample windows may differ.
+POL,"Poland, Republic of",real_gdp_growth,3.976,2.6537,46,1980,2025,Percent,Units,1.4982854128198364,18.0,Lower standard deviation means lower historical variability; sample windows may differ.
+PRT,Portugal,real_gdp_growth,3.0408,2.1816,46,1980,2025,Percent,Units,1.3938393839383938,15.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ROU,Romania,real_gdp_growth,4.9395,1.8292,46,1980,2025,Percent,Units,2.7003608134703696,19.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ESP,Spain,real_gdp_growth,2.9885,2.2304,46,1980,2025,Percent,Units,1.3398941893830705,14.0,Lower standard deviation means lower historical variability; sample windows may differ.
+SWE,Sweden,real_gdp_growth,2.1386,2.1915,46,1980,2025,Percent,Units,0.9758612822267853,9.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CHE,Switzerland,real_gdp_growth,1.7758,1.867,46,1980,2025,Percent,Units,0.9511515800749867,2.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GBR,United Kingdom,real_gdp_growth,2.7862,2.009,46,1980,2025,Percent,Units,1.3868591338974614,11.0,Lower standard deviation means lower historical variability; sample windows may differ.
+AUT,Austria,unemployment,1.1844,4.4993,46,1980,2025,Percent,Units,0.2632409485920032,3.0,Lower standard deviation means lower historical variability; sample windows may differ.
+BEL,Belgium,unemployment,1.5718,8.0248,46,1980,2025,Percent,Units,0.19586780978965207,6.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CZE,Czech Republic,unemployment,2.2741,5.3221,31,1995,2025,Percent,Units,0.42729373743447135,10.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DNK,Denmark,unemployment,1.6968,5.369,46,1980,2025,Percent,Units,0.3160365058670144,7.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FIN,Finland,unemployment,3.0539,8.4367,46,1980,2025,Percent,Units,0.3619780245830716,15.0,Lower standard deviation means lower historical variability; sample windows may differ.
+FRA,France,unemployment,1.1184,8.9163,46,1980,2025,Percent,Units,0.12543319538373543,2.0,Lower standard deviation means lower historical variability; sample windows may differ.
+DEU,Germany,unemployment,2.3284,6.58,46,1980,2025,Percent,Units,0.3538601823708206,11.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GRC,Greece,unemployment,5.9776,11.9467,46,1980,2025,Percent,Units,0.5003557467752601,20.0,Lower standard deviation means lower historical variability; sample windows may differ.
+HUN,Hungary,unemployment,3.5849,5.4866,46,1980,2025,Percent,Units,0.6533919002661029,16.0,Lower standard deviation means lower historical variability; sample windows may differ.
+IRL,Ireland,unemployment,5.4195,10.1956,41,1985,2025,Percent,Units,0.5315528267095609,19.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ITA,Italy,unemployment,1.7115,9.1898,46,1980,2025,Percent,Units,0.18623909116629306,8.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NLD,"Netherlands, The",unemployment,1.4694,5.6603,46,1980,2025,Percent,Units,0.2595975478331537,5.0,Lower standard deviation means lower historical variability; sample windows may differ.
+NOR,Norway,unemployment,1.0297,3.8109,46,1980,2025,Percent,Units,0.2701986407410323,1.0,Lower standard deviation means lower historical variability; sample windows may differ.
+POL,"Poland, Republic of",unemployment,5.3675,10.1294,36,1990,2025,Percent,Units,0.5298931822220466,18.0,Lower standard deviation means lower historical variability; sample windows may differ.
+PRT,Portugal,unemployment,3.0532,8.0438,46,1980,2025,Percent,Units,0.37957184415326095,14.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ROU,Romania,unemployment,2.0119,6.7665,41,1985,2025,Percent,Units,0.2973324466119855,9.0,Lower standard deviation means lower historical variability; sample windows may differ.
+ESP,Spain,unemployment,4.8311,16.7329,46,1980,2025,Percent,Units,0.2887186321558128,17.0,Lower standard deviation means lower historical variability; sample windows may differ.
+SWE,Sweden,unemployment,2.4424,6.7785,46,1980,2025,Percent,Units,0.360315704064321,13.0,Lower standard deviation means lower historical variability; sample windows may differ.
+CHE,Switzerland,unemployment,1.3259,2.521,46,1980,2025,Percent,Units,0.5259420864736216,4.0,Lower standard deviation means lower historical variability; sample windows may differ.
+GBR,United Kingdom,unemployment,2.4031,7.0056,46,1980,2025,Percent,Units,0.34302557953637086,12.0,Lower standard deviation means lower historical variability; sample windows may differ.

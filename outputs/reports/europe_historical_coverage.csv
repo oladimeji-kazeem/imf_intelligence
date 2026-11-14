@@ -1,0 +1,221 @@
+iso,country,indicator,available_observations,first_year,latest_year
+AUT,Austria,current_account,45,1980,2024
+AUT,Austria,exports_volume_growth,45,1980,2024
+AUT,Austria,fiscal_balance,37,1988,2024
+AUT,Austria,government_debt,37,1988,2024
+AUT,Austria,imports_volume_growth,45,1980,2024
+AUT,Austria,inflation,46,1980,2025
+AUT,Austria,nominal_gdp_local,46,1980,2025
+AUT,Austria,nominal_gdp_usd,46,1980,2025
+AUT,Austria,primary_balance,37,1988,2024
+AUT,Austria,real_gdp_growth,46,1980,2025
+AUT,Austria,unemployment,46,1980,2025
+BEL,Belgium,current_account,46,1980,2025
+BEL,Belgium,exports_volume_growth,46,1980,2025
+BEL,Belgium,fiscal_balance,46,1980,2025
+BEL,Belgium,government_debt,46,1980,2025
+BEL,Belgium,imports_volume_growth,46,1980,2025
+BEL,Belgium,inflation,46,1980,2025
+BEL,Belgium,nominal_gdp_local,46,1980,2025
+BEL,Belgium,nominal_gdp_usd,46,1980,2025
+BEL,Belgium,primary_balance,46,1980,2025
+BEL,Belgium,real_gdp_growth,46,1980,2025
+BEL,Belgium,unemployment,46,1980,2025
+CHE,Switzerland,current_account,46,1980,2025
+CHE,Switzerland,exports_volume_growth,46,1980,2025
+CHE,Switzerland,fiscal_balance,43,1983,2025
+CHE,Switzerland,government_debt,36,1990,2025
+CHE,Switzerland,imports_volume_growth,46,1980,2025
+CHE,Switzerland,inflation,46,1980,2025
+CHE,Switzerland,nominal_gdp_local,46,1980,2025
+CHE,Switzerland,nominal_gdp_usd,46,1980,2025
+CHE,Switzerland,primary_balance,43,1983,2025
+CHE,Switzerland,real_gdp_growth,46,1980,2025
+CHE,Switzerland,unemployment,46,1980,2025
+CZE,Czech Republic,current_account,31,1995,2025
+CZE,Czech Republic,exports_volume_growth,30,1996,2025
+CZE,Czech Republic,fiscal_balance,31,1995,2025
+CZE,Czech Republic,government_debt,31,1995,2025
+CZE,Czech Republic,imports_volume_growth,30,1996,2025
+CZE,Czech Republic,inflation,30,1996,2025
+CZE,Czech Republic,nominal_gdp_local,31,1995,2025
+CZE,Czech Republic,nominal_gdp_usd,31,1995,2025
+CZE,Czech Republic,primary_balance,31,1995,2025
+CZE,Czech Republic,real_gdp_growth,30,1996,2025
+CZE,Czech Republic,unemployment,31,1995,2025
+DEU,Germany,current_account,46,1980,2025
+DEU,Germany,exports_volume_growth,46,1980,2025
+DEU,Germany,fiscal_balance,35,1991,2025
+DEU,Germany,government_debt,35,1991,2025
+DEU,Germany,imports_volume_growth,46,1980,2025
+DEU,Germany,inflation,46,1980,2025
+DEU,Germany,nominal_gdp_local,46,1980,2025
+DEU,Germany,nominal_gdp_usd,46,1980,2025
+DEU,Germany,primary_balance,35,1991,2025
+DEU,Germany,real_gdp_growth,46,1980,2025
+DEU,Germany,unemployment,46,1980,2025
+DNK,Denmark,current_account,46,1980,2025
+DNK,Denmark,exports_volume_growth,46,1980,2025
+DNK,Denmark,fiscal_balance,46,1980,2025
+DNK,Denmark,government_debt,34,1992,2025
+DNK,Denmark,imports_volume_growth,46,1980,2025
+DNK,Denmark,inflation,46,1980,2025
+DNK,Denmark,nominal_gdp_local,46,1980,2025
+DNK,Denmark,nominal_gdp_usd,46,1980,2025
+DNK,Denmark,primary_balance,46,1980,2025
+DNK,Denmark,real_gdp_growth,46,1980,2025
+DNK,Denmark,unemployment,46,1980,2025
+ESP,Spain,current_account,46,1980,2025
+ESP,Spain,exports_volume_growth,46,1980,2025
+ESP,Spain,fiscal_balance,46,1980,2025
+ESP,Spain,government_debt,46,1980,2025
+ESP,Spain,imports_volume_growth,46,1980,2025
+ESP,Spain,inflation,46,1980,2025
+ESP,Spain,nominal_gdp_local,46,1980,2025
+ESP,Spain,nominal_gdp_usd,46,1980,2025
+ESP,Spain,primary_balance,46,1980,2025
+ESP,Spain,real_gdp_growth,46,1980,2025
+ESP,Spain,unemployment,46,1980,2025
+FIN,Finland,current_account,46,1980,2025
+FIN,Finland,exports_volume_growth,46,1980,2025
+FIN,Finland,fiscal_balance,46,1980,2025
+FIN,Finland,government_debt,46,1980,2025
+FIN,Finland,imports_volume_growth,46,1980,2025
+FIN,Finland,inflation,46,1980,2025
+FIN,Finland,nominal_gdp_local,46,1980,2025
+FIN,Finland,nominal_gdp_usd,46,1980,2025
+FIN,Finland,primary_balance,46,1980,2025
+FIN,Finland,real_gdp_growth,46,1980,2025
+FIN,Finland,unemployment,46,1980,2025
+FRA,France,current_account,46,1980,2025
+FRA,France,exports_volume_growth,46,1980,2025
+FRA,France,fiscal_balance,46,1980,2025
+FRA,France,government_debt,46,1980,2025
+FRA,France,imports_volume_growth,46,1980,2025
+FRA,France,inflation,46,1980,2025
+FRA,France,nominal_gdp_local,46,1980,2025
+FRA,France,nominal_gdp_usd,46,1980,2025
+FRA,France,primary_balance,46,1980,2025
+FRA,France,real_gdp_growth,46,1980,2025
+FRA,France,unemployment,46,1980,2025
+GBR,United Kingdom,current_account,46,1980,2025
+GBR,United Kingdom,exports_volume_growth,46,1980,2025
+GBR,United Kingdom,fiscal_balance,46,1980,2025
+GBR,United Kingdom,government_debt,46,1980,2025
+GBR,United Kingdom,imports_volume_growth,46,1980,2025
+GBR,United Kingdom,inflation,46,1980,2025
+GBR,United Kingdom,nominal_gdp_local,46,1980,2025
+GBR,United Kingdom,nominal_gdp_usd,46,1980,2025
+GBR,United Kingdom,primary_balance,46,1980,2025
+GBR,United Kingdom,real_gdp_growth,46,1980,2025
+GBR,United Kingdom,unemployment,46,1980,2025
+GRC,Greece,current_account,46,1980,2025
+GRC,Greece,exports_volume_growth,46,1980,2025
+GRC,Greece,fiscal_balance,46,1980,2025
+GRC,Greece,government_debt,46,1980,2025
+GRC,Greece,imports_volume_growth,46,1980,2025
+GRC,Greece,inflation,46,1980,2025
+GRC,Greece,nominal_gdp_local,46,1980,2025
+GRC,Greece,nominal_gdp_usd,46,1980,2025
+GRC,Greece,primary_balance,38,1988,2025
+GRC,Greece,real_gdp_growth,46,1980,2025
+GRC,Greece,unemployment,46,1980,2025
+HUN,Hungary,current_account,46,1980,2025
+HUN,Hungary,exports_volume_growth,45,1981,2025
+HUN,Hungary,fiscal_balance,31,1995,2025
+HUN,Hungary,government_debt,31,1995,2025
+HUN,Hungary,imports_volume_growth,45,1981,2025
+HUN,Hungary,inflation,46,1980,2025
+HUN,Hungary,nominal_gdp_local,46,1980,2025
+HUN,Hungary,nominal_gdp_usd,46,1980,2025
+HUN,Hungary,primary_balance,31,1995,2025
+HUN,Hungary,real_gdp_growth,46,1980,2025
+HUN,Hungary,unemployment,46,1980,2025
+IRL,Ireland,current_account,46,1980,2025
+IRL,Ireland,exports_volume_growth,46,1980,2025
+IRL,Ireland,fiscal_balance,31,1995,2025
+IRL,Ireland,government_debt,31,1995,2025
+IRL,Ireland,imports_volume_growth,46,1980,2025
+IRL,Ireland,inflation,46,1980,2025
+IRL,Ireland,nominal_gdp_local,46,1980,2025
+IRL,Ireland,nominal_gdp_usd,46,1980,2025
+IRL,Ireland,primary_balance,31,1995,2025
+IRL,Ireland,real_gdp_growth,46,1980,2025
+IRL,Ireland,unemployment,41,1985,2025
+ITA,Italy,current_account,46,1980,2025
+ITA,Italy,exports_volume_growth,46,1980,2025
+ITA,Italy,fiscal_balance,38,1988,2025
+ITA,Italy,government_debt,38,1988,2025
+ITA,Italy,imports_volume_growth,46,1980,2025
+ITA,Italy,inflation,46,1980,2025
+ITA,Italy,nominal_gdp_local,46,1980,2025
+ITA,Italy,nominal_gdp_usd,46,1980,2025
+ITA,Italy,primary_balance,38,1988,2025
+ITA,Italy,real_gdp_growth,46,1980,2025
+ITA,Italy,unemployment,46,1980,2025
+NLD,"Netherlands, The",current_account,46,1980,2025
+NLD,"Netherlands, The",exports_volume_growth,45,1981,2025
+NLD,"Netherlands, The",fiscal_balance,46,1980,2025
+NLD,"Netherlands, The",government_debt,46,1980,2025
+NLD,"Netherlands, The",imports_volume_growth,45,1981,2025
+NLD,"Netherlands, The",inflation,44,1981,2025
+NLD,"Netherlands, The",nominal_gdp_local,46,1980,2025
+NLD,"Netherlands, The",nominal_gdp_usd,46,1980,2025
+NLD,"Netherlands, The",primary_balance,31,1995,2025
+NLD,"Netherlands, The",real_gdp_growth,45,1981,2025
+NLD,"Netherlands, The",unemployment,46,1980,2025
+NOR,Norway,current_account,46,1980,2025
+NOR,Norway,exports_volume_growth,46,1980,2025
+NOR,Norway,fiscal_balance,46,1980,2025
+NOR,Norway,government_debt,46,1980,2025
+NOR,Norway,imports_volume_growth,46,1980,2025
+NOR,Norway,inflation,46,1980,2025
+NOR,Norway,nominal_gdp_local,46,1980,2025
+NOR,Norway,nominal_gdp_usd,46,1980,2025
+NOR,Norway,primary_balance,46,1980,2025
+NOR,Norway,real_gdp_growth,46,1980,2025
+NOR,Norway,unemployment,46,1980,2025
+POL,"Poland, Republic of",current_account,46,1980,2025
+POL,"Poland, Republic of",exports_volume_growth,30,1996,2025
+POL,"Poland, Republic of",fiscal_balance,31,1995,2025
+POL,"Poland, Republic of",government_debt,31,1995,2025
+POL,"Poland, Republic of",imports_volume_growth,30,1996,2025
+POL,"Poland, Republic of",inflation,45,1980,2025
+POL,"Poland, Republic of",nominal_gdp_local,46,1980,2025
+POL,"Poland, Republic of",nominal_gdp_usd,46,1980,2025
+POL,"Poland, Republic of",primary_balance,31,1995,2025
+POL,"Poland, Republic of",real_gdp_growth,46,1980,2025
+POL,"Poland, Republic of",unemployment,36,1990,2025
+PRT,Portugal,current_account,46,1980,2025
+PRT,Portugal,exports_volume_growth,46,1980,2025
+PRT,Portugal,fiscal_balance,40,1986,2025
+PRT,Portugal,government_debt,36,1990,2025
+PRT,Portugal,imports_volume_growth,46,1980,2025
+PRT,Portugal,inflation,46,1980,2025
+PRT,Portugal,nominal_gdp_local,46,1980,2025
+PRT,Portugal,nominal_gdp_usd,46,1980,2025
+PRT,Portugal,primary_balance,40,1986,2025
+PRT,Portugal,real_gdp_growth,46,1980,2025
+PRT,Portugal,unemployment,46,1980,2025
+ROU,Romania,current_account,46,1980,2025
+ROU,Romania,exports_volume_growth,46,1980,2025
+ROU,Romania,fiscal_balance,36,1990,2025
+ROU,Romania,government_debt,26,2000,2025
+ROU,Romania,imports_volume_growth,46,1980,2025
+ROU,Romania,inflation,46,1980,2025
+ROU,Romania,nominal_gdp_local,46,1980,2025
+ROU,Romania,nominal_gdp_usd,46,1980,2025
+ROU,Romania,primary_balance,35,1991,2025
+ROU,Romania,real_gdp_growth,46,1980,2025
+ROU,Romania,unemployment,41,1985,2025
+SWE,Sweden,current_account,46,1980,2025
+SWE,Sweden,exports_volume_growth,45,1981,2025
+SWE,Sweden,fiscal_balance,46,1980,2025
+SWE,Sweden,government_debt,33,1993,2025
+SWE,Sweden,imports_volume_growth,45,1981,2025
+SWE,Sweden,inflation,46,1980,2025
+SWE,Sweden,nominal_gdp_local,46,1980,2025
+SWE,Sweden,nominal_gdp_usd,46,1980,2025
+SWE,Sweden,primary_balance,46,1980,2025
+SWE,Sweden,real_gdp_growth,46,1980,2025
+SWE,Sweden,unemployment,46,1980,2025

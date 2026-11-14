@@ -1,0 +1,121 @@
+iso,country,ranking_indicator,latest_value,unit,scale,reference_year,rank,ranking_direction,ranking_interpretation,ranking_basis,countries_compared
+AUT,Austria,real_gdp_growth,0.849,Percent,Units,2025,15,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+BEL,Belgium,real_gdp_growth,0.983,Percent,Units,2025,13,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+CZE,Czech Republic,real_gdp_growth,2.628,Percent,Units,2025,4,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+DNK,Denmark,real_gdp_growth,3.454,Percent,Units,2025,3,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+FIN,Finland,real_gdp_growth,0.843,Percent,Units,2025,16,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+FRA,France,real_gdp_growth,0.89,Percent,Units,2025,14,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+DEU,Germany,real_gdp_growth,0.229,Percent,Units,2025,20,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+GRC,Greece,real_gdp_growth,2.073,Percent,Units,2025,6,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+HUN,Hungary,real_gdp_growth,0.493,Percent,Units,2025,19,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+IRL,Ireland,real_gdp_growth,7.97,Percent,Units,2025,1,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+ITA,Italy,real_gdp_growth,0.54,Percent,Units,2025,18,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+NLD,"Netherlands, The",real_gdp_growth,1.564,Percent,Units,2025,9,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+NOR,Norway,real_gdp_growth,1.058,Percent,Units,2025,12,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+POL,"Poland, Republic of",real_gdp_growth,3.657,Percent,Units,2025,2,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+PRT,Portugal,real_gdp_growth,1.861,Percent,Units,2025,7,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+ROU,Romania,real_gdp_growth,0.678,Percent,Units,2025,17,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+ESP,Spain,real_gdp_growth,2.592,Percent,Units,2025,5,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+SWE,Sweden,real_gdp_growth,1.397,Percent,Units,2025,10,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+CHE,Switzerland,real_gdp_growth,1.616,Percent,Units,2025,8,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+GBR,United Kingdom,real_gdp_growth,1.213,Percent,Units,2025,11,higher_is_better,Higher real GDP growth,Latest historical value; same-year comparison,20
+AUT,Austria,inflation,3.572,Percent,Units,2025,17,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+BEL,Belgium,inflation,3.024,Percent,Units,2025,14,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+CZE,Czech Republic,inflation,2.459,Percent,Units,2025,9,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+DNK,Denmark,inflation,1.824,Percent,Units,2025,5,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+FIN,Finland,inflation,1.82,Percent,Units,2025,4,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+FRA,France,inflation,0.926,Percent,Units,2025,2,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+DEU,Germany,inflation,2.264,Percent,Units,2025,8,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+GRC,Greece,inflation,2.889,Percent,Units,2025,12,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+HUN,Hungary,inflation,4.436,Percent,Units,2025,19,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+IRL,Ireland,inflation,2.065,Percent,Units,2025,6,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+ITA,Italy,inflation,1.635,Percent,Units,2025,3,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+NLD,"Netherlands, The",inflation,2.985,Percent,Units,2025,13,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+NOR,Norway,inflation,3.04,Percent,Units,2025,15,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+POL,"Poland, Republic of",inflation,3.6,Percent,Units,2025,18,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+PRT,Portugal,inflation,2.195,Percent,Units,2025,7,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+ROU,Romania,inflation,7.327,Percent,Units,2025,20,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+ESP,Spain,inflation,2.691,Percent,Units,2025,11,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+SWE,Sweden,inflation,2.61,Percent,Units,2025,10,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+CHE,Switzerland,inflation,0.153,Percent,Units,2025,1,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+GBR,United Kingdom,inflation,3.373,Percent,Units,2025,16,lower_is_better,Lower CPI inflation,Latest historical value; same-year comparison,20
+AUT,Austria,government_debt,79.956,Percent of GDP,Units,2024,1,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,1
+BEL,Belgium,government_debt,107.857,Percent of GDP,Units,2025,16,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+CZE,Czech Republic,government_debt,44.166,Percent of GDP,Units,2025,5,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+DNK,Denmark,government_debt,27.423,Percent of GDP,Units,2025,1,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+FIN,Finland,government_debt,88.418,Percent of GDP,Units,2025,12,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+FRA,France,government_debt,115.534,Percent of GDP,Units,2025,17,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+DEU,Germany,government_debt,62.658,Percent of GDP,Units,2025,10,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+GRC,Greece,government_debt,146.559,Percent of GDP,Units,2025,19,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+HUN,Hungary,government_debt,74.572,Percent of GDP,Units,2025,11,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+IRL,Ireland,government_debt,34.842,Percent of GDP,Units,2025,3,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+ITA,Italy,government_debt,137.105,Percent of GDP,Units,2025,18,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+NLD,"Netherlands, The",government_debt,44.725,Percent of GDP,Units,2025,6,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+NOR,Norway,government_debt,54.0,Percent of GDP,Units,2025,7,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+POL,"Poland, Republic of",government_debt,59.682,Percent of GDP,Units,2025,8,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+PRT,Portugal,government_debt,89.67,Percent of GDP,Units,2025,13,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+ROU,Romania,government_debt,60.447,Percent of GDP,Units,2025,9,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+ESP,Spain,government_debt,100.513,Percent of GDP,Units,2025,14,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+SWE,Sweden,government_debt,34.548,Percent of GDP,Units,2025,2,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+CHE,Switzerland,government_debt,40.058,Percent of GDP,Units,2025,4,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+GBR,United Kingdom,government_debt,102.056,Percent of GDP,Units,2025,15,lower_is_better,Lower government debt-to-GDP,Latest historical value; same-year comparison,19
+AUT,Austria,fiscal_balance,-4.645,Percent of GDP,Units,2024,1,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,1
+BEL,Belgium,fiscal_balance,-5.174,Percent of GDP,Units,2025,16,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+CZE,Czech Republic,fiscal_balance,-2.143,Percent of GDP,Units,2025,9,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+DNK,Denmark,fiscal_balance,2.916,Percent of GDP,Units,2025,2,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+FIN,Finland,fiscal_balance,-3.838,Percent of GDP,Units,2025,13,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+FRA,France,fiscal_balance,-5.065,Percent of GDP,Units,2025,15,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+DEU,Germany,fiscal_balance,-2.916,Percent of GDP,Units,2025,11,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+GRC,Greece,fiscal_balance,1.727,Percent of GDP,Units,2025,4,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+HUN,Hungary,fiscal_balance,-4.664,Percent of GDP,Units,2025,14,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+IRL,Ireland,fiscal_balance,1.906,Percent of GDP,Units,2025,3,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+ITA,Italy,fiscal_balance,-3.073,Percent of GDP,Units,2025,12,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+NLD,"Netherlands, The",fiscal_balance,-1.614,Percent of GDP,Units,2025,8,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+NOR,Norway,fiscal_balance,10.61,Percent of GDP,Units,2025,1,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+POL,"Poland, Republic of",fiscal_balance,-7.258,Percent of GDP,Units,2025,18,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+PRT,Portugal,fiscal_balance,0.671,Percent of GDP,Units,2025,5,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+ROU,Romania,fiscal_balance,-7.62,Percent of GDP,Units,2025,19,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+ESP,Spain,fiscal_balance,-2.386,Percent of GDP,Units,2025,10,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+SWE,Sweden,fiscal_balance,-1.289,Percent of GDP,Units,2025,7,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+CHE,Switzerland,fiscal_balance,0.233,Percent of GDP,Units,2025,6,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+GBR,United Kingdom,fiscal_balance,-5.27,Percent of GDP,Units,2025,17,higher_is_better,Stronger overall fiscal balance,Latest historical value; same-year comparison,19
+AUT,Austria,primary_balance,-3.654,Percent of GDP,Units,2024,1,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,1
+BEL,Belgium,primary_balance,-3.399,Percent of GDP,Units,2025,16,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+CZE,Czech Republic,primary_balance,-1.473,Percent of GDP,Units,2025,12,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+DNK,Denmark,primary_balance,2.32,Percent of GDP,Units,2025,4,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+FIN,Finland,primary_balance,-3.52,Percent of GDP,Units,2025,17,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+FRA,France,primary_balance,-2.987,Percent of GDP,Units,2025,15,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+DEU,Germany,primary_balance,-2.059,Percent of GDP,Units,2025,13,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+GRC,Greece,primary_balance,4.885,Percent of GDP,Units,2025,2,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+HUN,Hungary,primary_balance,-1.352,Percent of GDP,Units,2025,11,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+IRL,Ireland,primary_balance,2.195,Percent of GDP,Units,2025,5,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+ITA,Italy,primary_balance,0.537,Percent of GDP,Units,2025,6,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+NLD,"Netherlands, The",primary_balance,-1.265,Percent of GDP,Units,2025,10,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+NOR,Norway,primary_balance,5.67,Percent of GDP,Units,2025,1,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+POL,"Poland, Republic of",primary_balance,-4.75,Percent of GDP,Units,2025,18,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+PRT,Portugal,primary_balance,2.405,Percent of GDP,Units,2025,3,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+ROU,Romania,primary_balance,-5.03,Percent of GDP,Units,2025,19,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+ESP,Spain,primary_balance,-0.531,Percent of GDP,Units,2025,8,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+SWE,Sweden,primary_balance,-1.228,Percent of GDP,Units,2025,9,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+CHE,Switzerland,primary_balance,0.206,Percent of GDP,Units,2025,7,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+GBR,United Kingdom,primary_balance,-2.665,Percent of GDP,Units,2025,14,higher_is_better,Stronger primary fiscal balance,Latest historical value; same-year comparison,19
+AUT,Austria,unemployment,5.692,Percent,Units,2025,11,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+BEL,Belgium,unemployment,6.175,Percent,Units,2025,15,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+CZE,Czech Republic,unemployment,2.786,Percent,Units,2025,1,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+DNK,Denmark,unemployment,2.9,Percent,Units,2025,3,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+FIN,Finland,unemployment,9.675,Percent,Units,2025,19,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+FRA,France,unemployment,7.717,Percent,Units,2025,16,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+DEU,Germany,unemployment,3.767,Percent,Units,2025,5,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+GRC,Greece,unemployment,8.862,Percent,Units,2025,17,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+HUN,Hungary,unemployment,4.4,Percent,Units,2025,7,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+IRL,Ireland,unemployment,4.658,Percent,Units,2025,9,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+ITA,Italy,unemployment,6.05,Percent,Units,2025,13,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+NLD,"Netherlands, The",unemployment,3.876,Percent,Units,2025,6,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+NOR,Norway,unemployment,4.483,Percent,Units,2025,8,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+POL,"Poland, Republic of",unemployment,3.135,Percent,Units,2025,4,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+PRT,Portugal,unemployment,6.042,Percent,Units,2025,12,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+ROU,Romania,unemployment,6.117,Percent,Units,2025,14,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+ESP,Spain,unemployment,10.508,Percent,Units,2025,20,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+SWE,Sweden,unemployment,8.867,Percent,Units,2025,18,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+CHE,Switzerland,unemployment,2.838,Percent,Units,2025,2,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20
+GBR,United Kingdom,unemployment,4.875,Percent,Units,2025,10,lower_is_better,Lower unemployment,Latest historical value; same-year comparison,20

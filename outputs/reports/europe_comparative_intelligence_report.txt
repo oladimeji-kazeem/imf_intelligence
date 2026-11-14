@@ -1,0 +1,59 @@
+EUROPEAN ECONOMIC COMPARATIVE INTELLIGENCE
+============================================================
+
+DATASET SUMMARY
+------------------------------------------------------------
+Countries: 20
+Indicators: 11
+Country-indicator comparisons: 220
+
+DATA INTEGRITY CHECKS
+------------------------------------------------------------
+Matched profile records: 220
+Snapshot year inconsistencies: 0
+Coverage year inconsistencies: 0
+Observation count inconsistencies: 0
+Ranking records: 120
+
+LATEST SNAPSHOT YEAR DISTRIBUTION
+------------------------------------------------------------
+indicator              snapshot_year
+current_account        2024              1
+                       2025             19
+exports_volume_growth  2024              1
+                       2025             19
+fiscal_balance         2024              1
+                       2025             19
+government_debt        2024              1
+                       2025             19
+imports_volume_growth  2024              1
+                       2025             19
+inflation              2025             20
+nominal_gdp_local      2025             20
+nominal_gdp_usd        2025             20
+primary_balance        2024              1
+                       2025             19
+real_gdp_growth        2025             20
+unemployment           2025             20
+
+RANKING COVERAGE
+------------------------------------------------------------
+ranking_indicator  reference_year
+fiscal_balance     2024               1
+                   2025              19
+government_debt    2024               1
+                   2025              19
+inflation          2025              20
+primary_balance    2024               1
+                   2025              19
+real_gdp_growth    2025              20
+unemployment       2025              20
+
+METHODOLOGICAL NOTES
+------------------------------------------------------------
+Rankings are calculated separately by indicator and reference year.
+Historical volatility is based on the available historical sample.
+Historical sample windows differ between countries and indicators.
+Current account and trade growth are not given directional rankings.
+Nominal GDP is retained as economic size, not treated as a direct measure of economic strength.
+These rankings are descriptive comparisons, not sovereign credit ratings.

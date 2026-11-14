@@ -1,0 +1,221 @@
+iso,country,indicator,weo_code,latest_observation_year,latest_value,unit,scale
+AUT,Austria,current_account,BCA_NGDPD,2024,1.527,Percent of GDP,Units
+AUT,Austria,exports_volume_growth,TX_RPCH,2024,-2.292,Percent,Units
+AUT,Austria,fiscal_balance,GGXCNL_NGDP,2024,-4.645,Percent of GDP,Units
+AUT,Austria,government_debt,GGXWDG_NGDP,2024,79.956,Percent of GDP,Units
+AUT,Austria,imports_volume_growth,TM_RPCH,2024,-2.582,Percent,Units
+AUT,Austria,inflation,PCPIPCH,2025,3.572,Percent,Units
+AUT,Austria,nominal_gdp_local,NGDP,2025,513.662,Domestic currency,Billions
+AUT,Austria,nominal_gdp_usd,NGDPD,2025,580.101,US dollars,Billions
+AUT,Austria,primary_balance,GGXONLB_NGDP,2024,-3.654,Percent of GDP,Units
+AUT,Austria,real_gdp_growth,NGDP_RPCH,2025,0.849,Percent,Units
+AUT,Austria,unemployment,LUR,2025,5.692,Percent,Units
+BEL,Belgium,current_account,BCA_NGDPD,2025,-1.912,Percent of GDP,Units
+BEL,Belgium,exports_volume_growth,TX_RPCH,2025,-3.187,Percent,Units
+BEL,Belgium,fiscal_balance,GGXCNL_NGDP,2025,-5.174,Percent of GDP,Units
+BEL,Belgium,government_debt,GGXWDG_NGDP,2025,107.857,Percent of GDP,Units
+BEL,Belgium,imports_volume_growth,TM_RPCH,2025,-2.514,Percent,Units
+BEL,Belgium,inflation,PCPIPCH,2025,3.024,Percent,Units
+BEL,Belgium,nominal_gdp_local,NGDP,2025,642.016,Domestic currency,Billions
+BEL,Belgium,nominal_gdp_usd,NGDPD,2025,725.056,US dollars,Billions
+BEL,Belgium,primary_balance,GGXONLB_NGDP,2025,-3.399,Percent of GDP,Units
+BEL,Belgium,real_gdp_growth,NGDP_RPCH,2025,0.983,Percent,Units
+BEL,Belgium,unemployment,LUR,2025,6.175,Percent,Units
+CHE,Switzerland,current_account,BCA_NGDPD,2025,5.621,Percent of GDP,Units
+CHE,Switzerland,exports_volume_growth,TX_RPCH,2025,6.037,Percent,Units
+CHE,Switzerland,fiscal_balance,GGXCNL_NGDP,2025,0.233,Percent of GDP,Units
+CHE,Switzerland,government_debt,GGXWDG_NGDP,2025,40.058,Percent of GDP,Units
+CHE,Switzerland,imports_volume_growth,TM_RPCH,2025,11.711,Percent,Units
+CHE,Switzerland,inflation,PCPIPCH,2025,0.153,Percent,Units
+CHE,Switzerland,nominal_gdp_local,NGDP,2025,881.816,Domestic currency,Billions
+CHE,Switzerland,nominal_gdp_usd,NGDPD,2025,1060.696,US dollars,Billions
+CHE,Switzerland,primary_balance,GGXONLB_NGDP,2025,0.206,Percent of GDP,Units
+CHE,Switzerland,real_gdp_growth,NGDP_RPCH,2025,1.616,Percent,Units
+CHE,Switzerland,unemployment,LUR,2025,2.838,Percent,Units
+CZE,Czech Republic,current_account,BCA_NGDPD,2025,0.73,Percent of GDP,Units
+CZE,Czech Republic,exports_volume_growth,TX_RPCH,2025,3.218,Percent,Units
+CZE,Czech Republic,fiscal_balance,GGXCNL_NGDP,2025,-2.143,Percent of GDP,Units
+CZE,Czech Republic,government_debt,GGXWDG_NGDP,2025,44.166,Percent of GDP,Units
+CZE,Czech Republic,imports_volume_growth,TM_RPCH,2025,4.474,Percent,Units
+CZE,Czech Republic,inflation,PCPIPCH,2025,2.459,Percent,Units
+CZE,Czech Republic,nominal_gdp_local,NGDP,2025,8573.124,Domestic currency,Billions
+CZE,Czech Republic,nominal_gdp_usd,NGDPD,2025,391.789,US dollars,Billions
+CZE,Czech Republic,primary_balance,GGXONLB_NGDP,2025,-1.473,Percent of GDP,Units
+CZE,Czech Republic,real_gdp_growth,NGDP_RPCH,2025,2.628,Percent,Units
+CZE,Czech Republic,unemployment,LUR,2025,2.786,Percent,Units
+DEU,Germany,current_account,BCA_NGDPD,2025,4.462,Percent of GDP,Units
+DEU,Germany,exports_volume_growth,TX_RPCH,2025,-0.812,Percent,Units
+DEU,Germany,fiscal_balance,GGXCNL_NGDP,2025,-2.916,Percent of GDP,Units
+DEU,Germany,government_debt,GGXWDG_NGDP,2025,62.658,Percent of GDP,Units
+DEU,Germany,imports_volume_growth,TM_RPCH,2025,2.958,Percent,Units
+DEU,Germany,inflation,PCPIPCH,2025,2.264,Percent,Units
+DEU,Germany,nominal_gdp_local,NGDP,2025,4529.71,Domestic currency,Billions
+DEU,Germany,nominal_gdp_usd,NGDPD,2025,5115.594,US dollars,Billions
+DEU,Germany,primary_balance,GGXONLB_NGDP,2025,-2.059,Percent of GDP,Units
+DEU,Germany,real_gdp_growth,NGDP_RPCH,2025,0.229,Percent,Units
+DEU,Germany,unemployment,LUR,2025,3.767,Percent,Units
+DNK,Denmark,current_account,BCA_NGDPD,2025,12.25,Percent of GDP,Units
+DNK,Denmark,exports_volume_growth,TX_RPCH,2025,3.5,Percent,Units
+DNK,Denmark,fiscal_balance,GGXCNL_NGDP,2025,2.916,Percent of GDP,Units
+DNK,Denmark,government_debt,GGXWDG_NGDP,2025,27.423,Percent of GDP,Units
+DNK,Denmark,imports_volume_growth,TM_RPCH,2025,-1.175,Percent,Units
+DNK,Denmark,inflation,PCPIPCH,2025,1.824,Percent,Units
+DNK,Denmark,nominal_gdp_local,NGDP,2025,3118.537,Domestic currency,Billions
+DNK,Denmark,nominal_gdp_usd,NGDPD,2025,470.948,US dollars,Billions
+DNK,Denmark,primary_balance,GGXONLB_NGDP,2025,2.32,Percent of GDP,Units
+DNK,Denmark,real_gdp_growth,NGDP_RPCH,2025,3.454,Percent,Units
+DNK,Denmark,unemployment,LUR,2025,2.9,Percent,Units
+ESP,Spain,current_account,BCA_NGDPD,2025,3.244,Percent of GDP,Units
+ESP,Spain,exports_volume_growth,TX_RPCH,2025,2.843,Percent,Units
+ESP,Spain,fiscal_balance,GGXCNL_NGDP,2025,-2.386,Percent of GDP,Units
+ESP,Spain,government_debt,GGXWDG_NGDP,2025,100.513,Percent of GDP,Units
+ESP,Spain,imports_volume_growth,TM_RPCH,2025,5.494,Percent,Units
+ESP,Spain,inflation,PCPIPCH,2025,2.691,Percent,Units
+ESP,Spain,nominal_gdp_local,NGDP,2025,1690.012,Domestic currency,Billions
+ESP,Spain,nominal_gdp_usd,NGDPD,2025,1908.602,US dollars,Billions
+ESP,Spain,primary_balance,GGXONLB_NGDP,2025,-0.531,Percent of GDP,Units
+ESP,Spain,real_gdp_growth,NGDP_RPCH,2025,2.592,Percent,Units
+ESP,Spain,unemployment,LUR,2025,10.508,Percent,Units
+FIN,Finland,current_account,BCA_NGDPD,2025,1.037,Percent of GDP,Units
+FIN,Finland,exports_volume_growth,TX_RPCH,2025,5.211,Percent,Units
+FIN,Finland,fiscal_balance,GGXCNL_NGDP,2025,-3.838,Percent of GDP,Units
+FIN,Finland,government_debt,GGXWDG_NGDP,2025,88.418,Percent of GDP,Units
+FIN,Finland,imports_volume_growth,TM_RPCH,2025,2.87,Percent,Units
+FIN,Finland,inflation,PCPIPCH,2025,1.82,Percent,Units
+FIN,Finland,nominal_gdp_local,NGDP,2025,281.783,Domestic currency,Billions
+FIN,Finland,nominal_gdp_usd,NGDPD,2025,318.23,US dollars,Billions
+FIN,Finland,primary_balance,GGXONLB_NGDP,2025,-3.52,Percent of GDP,Units
+FIN,Finland,real_gdp_growth,NGDP_RPCH,2025,0.843,Percent,Units
+FIN,Finland,unemployment,LUR,2025,9.675,Percent,Units
+FRA,France,current_account,BCA_NGDPD,2025,-0.387,Percent of GDP,Units
+FRA,France,exports_volume_growth,TX_RPCH,2025,2.416,Percent,Units
+FRA,France,fiscal_balance,GGXCNL_NGDP,2025,-5.065,Percent of GDP,Units
+FRA,France,government_debt,GGXWDG_NGDP,2025,115.534,Percent of GDP,Units
+FRA,France,imports_volume_growth,TM_RPCH,2025,2.957,Percent,Units
+FRA,France,inflation,PCPIPCH,2025,0.926,Percent,Units
+FRA,France,nominal_gdp_local,NGDP,2025,2995.19,Domestic currency,Billions
+FRA,France,nominal_gdp_usd,NGDPD,2025,3382.595,US dollars,Billions
+FRA,France,primary_balance,GGXONLB_NGDP,2025,-2.987,Percent of GDP,Units
+FRA,France,real_gdp_growth,NGDP_RPCH,2025,0.89,Percent,Units
+FRA,France,unemployment,LUR,2025,7.717,Percent,Units
+GBR,United Kingdom,current_account,BCA_NGDPD,2025,-3.01,Percent of GDP,Units
+GBR,United Kingdom,exports_volume_growth,TX_RPCH,2025,1.246,Percent,Units
+GBR,United Kingdom,fiscal_balance,GGXCNL_NGDP,2025,-5.27,Percent of GDP,Units
+GBR,United Kingdom,government_debt,GGXWDG_NGDP,2025,102.056,Percent of GDP,Units
+GBR,United Kingdom,imports_volume_growth,TM_RPCH,2025,3.732,Percent,Units
+GBR,United Kingdom,inflation,PCPIPCH,2025,3.373,Percent,Units
+GBR,United Kingdom,nominal_gdp_local,NGDP,2025,3044.594,Domestic currency,Billions
+GBR,United Kingdom,nominal_gdp_usd,NGDPD,2025,4012.224,US dollars,Billions
+GBR,United Kingdom,primary_balance,GGXONLB_NGDP,2025,-2.665,Percent of GDP,Units
+GBR,United Kingdom,real_gdp_growth,NGDP_RPCH,2025,1.213,Percent,Units
+GBR,United Kingdom,unemployment,LUR,2025,4.875,Percent,Units
+GRC,Greece,current_account,BCA_NGDPD,2025,-5.674,Percent of GDP,Units
+GRC,Greece,exports_volume_growth,TX_RPCH,2025,1.774,Percent,Units
+GRC,Greece,fiscal_balance,GGXCNL_NGDP,2025,1.727,Percent of GDP,Units
+GRC,Greece,government_debt,GGXWDG_NGDP,2025,146.559,Percent of GDP,Units
+GRC,Greece,imports_volume_growth,TM_RPCH,2025,5.515,Percent,Units
+GRC,Greece,inflation,PCPIPCH,2025,2.889,Percent,Units
+GRC,Greece,nominal_gdp_local,NGDP,2025,248.354,Domestic currency,Billions
+GRC,Greece,nominal_gdp_usd,NGDPD,2025,280.476,US dollars,Billions
+GRC,Greece,primary_balance,GGXONLB_NGDP,2025,4.885,Percent of GDP,Units
+GRC,Greece,real_gdp_growth,NGDP_RPCH,2025,2.073,Percent,Units
+GRC,Greece,unemployment,LUR,2025,8.862,Percent,Units
+HUN,Hungary,current_account,BCA_NGDPD,2025,1.701,Percent of GDP,Units
+HUN,Hungary,exports_volume_growth,TX_RPCH,2025,1.143,Percent,Units
+HUN,Hungary,fiscal_balance,GGXCNL_NGDP,2025,-4.664,Percent of GDP,Units
+HUN,Hungary,government_debt,GGXWDG_NGDP,2025,74.572,Percent of GDP,Units
+HUN,Hungary,imports_volume_growth,TM_RPCH,2025,2.127,Percent,Units
+HUN,Hungary,inflation,PCPIPCH,2025,4.436,Percent,Units
+HUN,Hungary,nominal_gdp_local,NGDP,2025,87045.554,Domestic currency,Billions
+HUN,Hungary,nominal_gdp_usd,NGDPD,2025,247.126,US dollars,Billions
+HUN,Hungary,primary_balance,GGXONLB_NGDP,2025,-1.352,Percent of GDP,Units
+HUN,Hungary,real_gdp_growth,NGDP_RPCH,2025,0.493,Percent,Units
+HUN,Hungary,unemployment,LUR,2025,4.4,Percent,Units
+IRL,Ireland,current_account,BCA_NGDPD,2025,8.014,Percent of GDP,Units
+IRL,Ireland,exports_volume_growth,TX_RPCH,2025,7.52,Percent,Units
+IRL,Ireland,fiscal_balance,GGXCNL_NGDP,2025,1.906,Percent of GDP,Units
+IRL,Ireland,government_debt,GGXWDG_NGDP,2025,34.842,Percent of GDP,Units
+IRL,Ireland,imports_volume_growth,TM_RPCH,2025,9.615,Percent,Units
+IRL,Ireland,inflation,PCPIPCH,2025,2.065,Percent,Units
+IRL,Ireland,nominal_gdp_local,NGDP,2025,602.441,Domestic currency,Billions
+IRL,Ireland,nominal_gdp_usd,NGDPD,2025,680.362,US dollars,Billions
+IRL,Ireland,primary_balance,GGXONLB_NGDP,2025,2.195,Percent of GDP,Units
+IRL,Ireland,real_gdp_growth,NGDP_RPCH,2025,7.97,Percent,Units
+IRL,Ireland,unemployment,LUR,2025,4.658,Percent,Units
+ITA,Italy,current_account,BCA_NGDPD,2025,1.109,Percent of GDP,Units
+ITA,Italy,exports_volume_growth,TX_RPCH,2025,1.239,Percent,Units
+ITA,Italy,fiscal_balance,GGXCNL_NGDP,2025,-3.073,Percent of GDP,Units
+ITA,Italy,government_debt,GGXWDG_NGDP,2025,137.105,Percent of GDP,Units
+ITA,Italy,imports_volume_growth,TM_RPCH,2025,3.639,Percent,Units
+ITA,Italy,inflation,PCPIPCH,2025,1.635,Percent,Units
+ITA,Italy,nominal_gdp_local,NGDP,2025,2258.049,Domestic currency,Billions
+ITA,Italy,nominal_gdp_usd,NGDPD,2025,2550.111,US dollars,Billions
+ITA,Italy,primary_balance,GGXONLB_NGDP,2025,0.537,Percent of GDP,Units
+ITA,Italy,real_gdp_growth,NGDP_RPCH,2025,0.54,Percent,Units
+ITA,Italy,unemployment,LUR,2025,6.05,Percent,Units
+NLD,"Netherlands, The",current_account,BCA_NGDPD,2025,7.631,Percent of GDP,Units
+NLD,"Netherlands, The",exports_volume_growth,TX_RPCH,2025,2.507,Percent,Units
+NLD,"Netherlands, The",fiscal_balance,GGXCNL_NGDP,2025,-1.614,Percent of GDP,Units
+NLD,"Netherlands, The",government_debt,GGXWDG_NGDP,2025,44.725,Percent of GDP,Units
+NLD,"Netherlands, The",imports_volume_growth,TM_RPCH,2025,2.248,Percent,Units
+NLD,"Netherlands, The",inflation,PCPIPCH,2025,2.985,Percent,Units
+NLD,"Netherlands, The",nominal_gdp_local,NGDP,2025,1170.579,Domestic currency,Billions
+NLD,"Netherlands, The",nominal_gdp_usd,NGDPD,2025,1321.985,US dollars,Billions
+NLD,"Netherlands, The",primary_balance,GGXONLB_NGDP,2025,-1.265,Percent of GDP,Units
+NLD,"Netherlands, The",real_gdp_growth,NGDP_RPCH,2025,1.564,Percent,Units
+NLD,"Netherlands, The",unemployment,LUR,2025,3.876,Percent,Units
+NOR,Norway,current_account,BCA_NGDPD,2025,14.227,Percent of GDP,Units
+NOR,Norway,exports_volume_growth,TX_RPCH,2025,2.652,Percent,Units
+NOR,Norway,fiscal_balance,GGXCNL_NGDP,2025,10.61,Percent of GDP,Units
+NOR,Norway,government_debt,GGXWDG_NGDP,2025,54.0,Percent of GDP,Units
+NOR,Norway,imports_volume_growth,TM_RPCH,2025,2.556,Percent,Units
+NOR,Norway,inflation,PCPIPCH,2025,3.04,Percent,Units
+NOR,Norway,nominal_gdp_local,NGDP,2025,5511.333,Domestic currency,Billions
+NOR,Norway,nominal_gdp_usd,NGDPD,2025,530.148,US dollars,Billions
+NOR,Norway,primary_balance,GGXONLB_NGDP,2025,5.67,Percent of GDP,Units
+NOR,Norway,real_gdp_growth,NGDP_RPCH,2025,1.058,Percent,Units
+NOR,Norway,unemployment,LUR,2025,4.483,Percent,Units
+POL,"Poland, Republic of",current_account,BCA_NGDPD,2025,-0.955,Percent of GDP,Units
+POL,"Poland, Republic of",exports_volume_growth,TX_RPCH,2025,5.466,Percent,Units
+POL,"Poland, Republic of",fiscal_balance,GGXCNL_NGDP,2025,-7.258,Percent of GDP,Units
+POL,"Poland, Republic of",government_debt,GGXWDG_NGDP,2025,59.682,Percent of GDP,Units
+POL,"Poland, Republic of",imports_volume_growth,TM_RPCH,2025,6.821,Percent,Units
+POL,"Poland, Republic of",inflation,PCPIPCH,2025,3.6,Percent,Units
+POL,"Poland, Republic of",nominal_gdp_local,NGDP,2025,3912.673,Domestic currency,Billions
+POL,"Poland, Republic of",nominal_gdp_usd,NGDPD,2025,1040.549,US dollars,Billions
+POL,"Poland, Republic of",primary_balance,GGXONLB_NGDP,2025,-4.75,Percent of GDP,Units
+POL,"Poland, Republic of",real_gdp_growth,NGDP_RPCH,2025,3.657,Percent,Units
+POL,"Poland, Republic of",unemployment,LUR,2025,3.135,Percent,Units
+PRT,Portugal,current_account,BCA_NGDPD,2025,1.158,Percent of GDP,Units
+PRT,Portugal,exports_volume_growth,TX_RPCH,2025,0.256,Percent,Units
+PRT,Portugal,fiscal_balance,GGXCNL_NGDP,2025,0.671,Percent of GDP,Units
+PRT,Portugal,government_debt,GGXWDG_NGDP,2025,89.67,Percent of GDP,Units
+PRT,Portugal,imports_volume_growth,TM_RPCH,2025,4.83,Percent,Units
+PRT,Portugal,inflation,PCPIPCH,2025,2.195,Percent,Units
+PRT,Portugal,nominal_gdp_local,NGDP,2025,306.75,Domestic currency,Billions
+PRT,Portugal,nominal_gdp_usd,NGDPD,2025,346.425,US dollars,Billions
+PRT,Portugal,primary_balance,GGXONLB_NGDP,2025,2.405,Percent of GDP,Units
+PRT,Portugal,real_gdp_growth,NGDP_RPCH,2025,1.861,Percent,Units
+PRT,Portugal,unemployment,LUR,2025,6.042,Percent,Units
+ROU,Romania,current_account,BCA_NGDPD,2025,-7.862,Percent of GDP,Units
+ROU,Romania,exports_volume_growth,TX_RPCH,2025,4.319,Percent,Units
+ROU,Romania,fiscal_balance,GGXCNL_NGDP,2025,-7.62,Percent of GDP,Units
+ROU,Romania,government_debt,GGXWDG_NGDP,2025,60.447,Percent of GDP,Units
+ROU,Romania,imports_volume_growth,TM_RPCH,2025,5.016,Percent,Units
+ROU,Romania,inflation,PCPIPCH,2025,7.327,Percent,Units
+ROU,Romania,nominal_gdp_local,NGDP,2025,1916.405,Domestic currency,Billions
+ROU,Romania,nominal_gdp_usd,NGDPD,2025,429.289,US dollars,Billions
+ROU,Romania,primary_balance,GGXONLB_NGDP,2025,-5.03,Percent of GDP,Units
+ROU,Romania,real_gdp_growth,NGDP_RPCH,2025,0.678,Percent,Units
+ROU,Romania,unemployment,LUR,2025,6.117,Percent,Units
+SWE,Sweden,current_account,BCA_NGDPD,2025,6.743,Percent of GDP,Units
+SWE,Sweden,exports_volume_growth,TX_RPCH,2025,4.054,Percent,Units
+SWE,Sweden,fiscal_balance,GGXCNL_NGDP,2025,-1.289,Percent of GDP,Units
+SWE,Sweden,government_debt,GGXWDG_NGDP,2025,34.548,Percent of GDP,Units
+SWE,Sweden,imports_volume_growth,TM_RPCH,2025,3.948,Percent,Units
+SWE,Sweden,inflation,PCPIPCH,2025,2.61,Percent,Units
+SWE,Sweden,nominal_gdp_local,NGDP,2025,6644.105,Domestic currency,Billions
+SWE,Sweden,nominal_gdp_usd,NGDPD,2025,676.54,US dollars,Billions
+SWE,Sweden,primary_balance,GGXONLB_NGDP,2025,-1.228,Percent of GDP,Units
+SWE,Sweden,real_gdp_growth,NGDP_RPCH,2025,1.397,Percent,Units
+SWE,Sweden,unemployment,LUR,2025,8.867,Percent,Units

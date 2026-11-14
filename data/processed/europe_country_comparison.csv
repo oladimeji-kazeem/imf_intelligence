@@ -1,0 +1,221 @@
+iso,country,indicator,weo_code,unit,scale,profile_observations,profile_first_year,profile_latest_year,mean,median,standard_deviation,minimum,maximum,snapshot_year,latest_value,coverage_observations,coverage_first_year,coverage_latest_year,snapshot_year_consistent,coverage_years_consistent,observation_count_consistent
+AUT,Austria,current_account,BCA_NGDPD,Percent of GDP,Units,45,1980,2024,0.5376,0.846,2.1091,-4.802,4.52,2024,1.527,45,1980,2024,True,True,True
+BEL,Belgium,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,1.5338,1.637,2.5847,-4.094,7.764,2025,-1.912,46,1980,2025,True,True,True
+CZE,Czech Republic,current_account,BCA_NGDPD,Percent of GDP,Units,31,1995,2025,-1.9565,-2.071,2.421,-6.078,1.759,2025,0.73,31,1995,2025,True,True,True
+DNK,Denmark,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,3.2496,3.0885,4.4456,-5.117,12.25,2025,12.25,46,1980,2025,True,True,True
+FIN,Finland,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,0.4672,-0.604,3.3974,-5.355,7.821,2025,1.037,46,1980,2025,True,True,True
+FRA,France,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,-0.0155,-0.356,1.2283,-2.132,3.895,2025,-0.387,46,1980,2025,True,True,True
+DEU,Germany,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,3.2949,4.154,3.4133,-1.785,8.882,2025,4.462,46,1980,2025,True,True,True
+GRC,Greece,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,-5.0873,-3.8385,3.5113,-14.679,-0.127,2025,-5.674,46,1980,2025,True,True,True
+HUN,Hungary,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,-3.2249,-2.3405,4.0504,-12.112,4.372,2025,1.701,46,1980,2025,True,True,True
+IRL,Ireland,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,-0.5535,0.0405,6.3414,-20.729,17.052,2025,8.014,46,1980,2025,True,True,True
+ITA,Italy,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,-0.0785,-0.2365,1.9498,-3.545,3.761,2025,1.109,46,1980,2025,True,True,True
+NLD,"Netherlands, The",current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,5.0529,4.8155,2.5564,-0.441,10.384,2025,7.631,46,1980,2025,True,True,True
+NOR,Norway,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,7.744,6.017,6.9635,-6.389,27.831,2025,14.227,46,1980,2025,True,True,True
+POL,"Poland, Republic of",current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,-2.6135,-2.396,2.6413,-7.404,4.915,2025,-0.955,46,1980,2025,True,True,True
+PRT,Portugal,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,-3.6754,-1.9735,4.877,-14.428,3.078,2025,1.158,46,1980,2025,True,True,True
+ROU,Romania,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,-3.7834,-4.6005,4.4225,-13.56,6.486,2025,-7.862,46,1980,2025,True,True,True
+ESP,Spain,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,-1.4955,-1.5205,3.2656,-9.351,3.341,2025,3.244,46,1980,2025,True,True,True
+SWE,Sweden,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,2.9566,3.6475,3.3067,-3.09,8.08,2025,6.743,46,1980,2025,True,True,True
+CHE,Switzerland,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,6.3106,6.0035,3.3757,-0.514,13.466,2025,5.621,46,1980,2025,True,True,True
+GBR,United Kingdom,current_account,BCA_NGDPD,Percent of GDP,Units,46,1980,2025,-1.9434,-2.009,1.5743,-5.103,1.698,2025,-3.01,46,1980,2025,True,True,True
+AUT,Austria,exports_volume_growth,TX_RPCH,Percent,Units,45,1980,2024,4.3293,5.063,5.3018,-14.368,13.525,2024,-2.292,45,1980,2024,True,True,True
+BEL,Belgium,exports_volume_growth,TX_RPCH,Percent,Units,46,1980,2025,2.7251,2.937,4.901,-11.34,13.657,2025,-3.187,46,1980,2025,True,True,True
+CZE,Czech Republic,exports_volume_growth,TX_RPCH,Percent,Units,30,1996,2025,6.5837,5.542,7.4581,-9.827,29.678,2025,3.218,30,1996,2025,True,True,True
+DNK,Denmark,exports_volume_growth,TX_RPCH,Percent,Units,46,1980,2025,4.3889,4.3875,3.8704,-9.166,12.578,2025,3.5,46,1980,2025,True,True,True
+FIN,Finland,exports_volume_growth,TX_RPCH,Percent,Units,46,1980,2025,4.2447,4.257,6.4713,-20.113,16.67,2025,5.211,46,1980,2025,True,True,True
+FRA,France,exports_volume_growth,TX_RPCH,Percent,Units,46,1980,2025,3.9167,3.695,5.1573,-16.877,13.309,2025,2.416,46,1980,2025,True,True,True
+DEU,Germany,exports_volume_growth,TX_RPCH,Percent,Units,46,1980,2025,4.472,4.6255,5.9955,-14.491,14.256,2025,-0.812,46,1980,2025,True,True,True
+GRC,Greece,exports_volume_growth,TX_RPCH,Percent,Units,46,1980,2025,4.627,4.4465,9.6658,-21.324,25.306,2025,1.774,46,1980,2025,True,True,True
+HUN,Hungary,exports_volume_growth,TX_RPCH,Percent,Units,45,1981,2025,6.8126,6.452,9.291,-13.877,36.499,2025,1.143,45,1981,2025,True,True,True
+IRL,Ireland,exports_volume_growth,TX_RPCH,Percent,Units,46,1980,2025,9.7896,9.4925,7.5344,-3.841,39.426,2025,7.52,46,1980,2025,True,True,True
+ITA,Italy,exports_volume_growth,TX_RPCH,Percent,Units,46,1980,2025,3.4492,3.4065,6.0166,-17.832,14.086,2025,1.239,46,1980,2025,True,True,True
+NLD,"Netherlands, The",exports_volume_growth,TX_RPCH,Percent,Units,45,1981,2025,4.4538,4.929,3.918,-8.749,12.132,2025,2.507,45,1981,2025,True,True,True
+NOR,Norway,exports_volume_growth,TX_RPCH,Percent,Units,46,1980,2025,3.102,2.4575,3.4339,-4.22,11.172,2025,2.652,46,1980,2025,True,True,True
+POL,"Poland, Republic of",exports_volume_growth,TX_RPCH,Percent,Units,30,1996,2025,7.4603,6.875,5.8077,-6.036,23.21,2025,5.466,30,1996,2025,True,True,True
+PRT,Portugal,exports_volume_growth,TX_RPCH,Percent,Units,46,1980,2025,5.7714,5.717,7.9045,-18.545,20.796,2025,0.256,46,1980,2025,True,True,True
+ROU,Romania,exports_volume_growth,TX_RPCH,Percent,Units,46,1980,2025,4.7688,6.864,11.9369,-39.401,23.18,2025,4.319,46,1980,2025,True,True,True
+ESP,Spain,exports_volume_growth,TX_RPCH,Percent,Units,46,1980,2025,5.0951,4.7065,6.1918,-20.273,16.67,2025,2.843,46,1980,2025,True,True,True
+SWE,Sweden,exports_volume_growth,TX_RPCH,Percent,Units,45,1981,2025,3.7773,4.0,8.8851,-15.925,22.652,2025,4.054,45,1981,2025,True,True,True
+CHE,Switzerland,exports_volume_growth,TX_RPCH,Percent,Units,46,1980,2025,4.0098,3.584,5.7921,-8.167,15.256,2025,6.037,46,1980,2025,True,True,True
+GBR,United Kingdom,exports_volume_growth,TX_RPCH,Percent,Units,46,1980,2025,3.4362,3.7215,4.8223,-13.465,14.854,2025,1.246,46,1980,2025,True,True,True
+AUT,Austria,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,37,1988,2024,-2.8703,-2.584,1.8448,-8.204,0.536,2024,-4.645,37,1988,2024,True,True,True
+BEL,Belgium,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,46,1980,2025,-4.9546,-4.2405,4.1217,-16.028,0.24,2025,-5.174,46,1980,2025,True,True,True
+CZE,Czech Republic,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,31,1995,2025,-3.1292,-3.061,2.6969,-12.278,1.46,2025,-2.143,31,1995,2025,True,True,True
+DNK,Denmark,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,46,1980,2025,-0.2773,0.024,3.3485,-9.232,5.308,2025,2.916,46,1980,2025,True,True,True
+FIN,Finland,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,46,1980,2025,0.1712,0.0605,3.7979,-8.092,7.138,2025,-3.838,46,1980,2025,True,True,True
+FRA,France,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,46,1980,2025,-3.7301,-3.503,1.8711,-8.93,0.757,2025,-5.065,46,1980,2025,True,True,True
+DEU,Germany,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,35,1991,2025,-2.052,-2.632,2.2459,-9.437,1.874,2025,-2.916,35,1991,2025,True,True,True
+GRC,Greece,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,46,1980,2025,-6.573,-6.872,4.0797,-15.424,1.727,2025,1.727,46,1980,2025,True,True,True
+HUN,Hungary,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,31,1995,2025,-5.0554,-5.085,2.2442,-9.269,-1.792,2025,-4.664,31,1995,2025,True,True,True
+IRL,Ireland,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,31,1995,2025,-2.195,0.089,7.1841,-32.165,4.855,2025,1.906,31,1995,2025,True,True,True
+ITA,Italy,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,38,1988,2025,-5.082,-3.4055,3.2182,-11.141,-1.326,2025,-3.073,38,1988,2025,True,True,True
+NLD,"Netherlands, The",fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,46,1980,2025,-2.5222,-2.247,2.3903,-8.724,1.896,2025,-1.614,46,1980,2025,True,True,True
+NOR,Norway,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,46,1980,2025,7.8459,6.951,5.881,-2.462,24.668,2025,10.61,46,1980,2025,True,True,True
+POL,"Poland, Republic of",fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,31,1995,2025,-4.107,-4.24,1.8784,-7.43,-0.245,2025,-7.258,31,1995,2025,True,True,True
+PRT,Portugal,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,40,1986,2025,-4.6606,-4.502,3.0131,-11.418,1.121,2025,0.671,40,1986,2025,True,True,True
+ROU,Romania,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,36,1990,2025,-3.6707,-3.3565,2.5947,-9.596,3.23,2025,-7.62,36,1990,2025,True,True,True
+ESP,Spain,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,46,1980,2025,-4.2256,-4.0825,3.1969,-11.497,2.122,2025,-2.386,46,1980,2025,True,True,True
+SWE,Sweden,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,46,1980,2025,-1.0343,-0.3395,3.4196,-10.875,3.699,2025,-1.289,46,1980,2025,True,True,True
+CHE,Switzerland,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,43,1983,2025,-0.3153,0.178,1.3137,-3.085,1.788,2025,0.233,43,1983,2025,True,True,True
+GBR,United Kingdom,fiscal_balance,GGXCNL_NGDP,Percent of GDP,Units,46,1980,2025,-3.8166,-3.1615,2.8996,-12.87,1.401,2025,-5.27,46,1980,2025,True,True,True
+AUT,Austria,government_debt,GGXWDG_NGDP,Percent of GDP,Units,37,1988,2024,71.3034,69.197,9.5236,56.239,85.615,2024,79.956,37,1988,2024,True,True,True
+BEL,Belgium,government_debt,GGXWDG_NGDP,Percent of GDP,Units,46,1980,2025,110.202,106.0635,14.6061,76.796,138.925,2025,107.857,46,1980,2025,True,True,True
+CZE,Czech Republic,government_debt,GGXWDG_NGDP,Percent of GDP,Units,31,1995,2025,30.8982,31.678,10.527,11.506,44.166,2025,44.166,31,1995,2025,True,True,True
+DNK,Denmark,government_debt,GGXWDG_NGDP,Percent of GDP,Units,34,1992,2025,47.7671,46.169,13.4034,27.423,78.673,2025,27.423,34,1992,2025,True,True,True
+FIN,Finland,government_debt,GGXWDG_NGDP,Percent of GDP,Units,46,1980,2025,45.0464,43.359,22.0133,10.893,88.418,2025,88.418,46,1980,2025,True,True,True
+FRA,France,government_debt,GGXWDG_NGDP,Percent of GDP,Units,46,1980,2025,67.5524,63.732,29.1652,21.3,115.534,2025,115.534,46,1980,2025,True,True,True
+DEU,Germany,government_debt,GGXWDG_NGDP,Percent of GDP,Units,35,1991,2025,62.9146,63.344,9.7847,39.015,81.034,2025,62.658,35,1991,2025,True,True,True
+GRC,Greece,government_debt,GGXWDG_NGDP,Percent of GDP,Units,46,1980,2025,114.8807,105.4135,52.9232,22.844,209.927,2025,146.559,46,1980,2025,True,True,True
+HUN,Hungary,government_debt,GGXWDG_NGDP,Percent of GDP,Units,31,1995,2025,69.6223,72.002,8.7106,52.205,83.868,2025,74.572,31,1995,2025,True,True,True
+IRL,Ireland,government_debt,GGXWDG_NGDP,Percent of GDP,Units,31,1995,2025,57.2815,52.441,27.3677,23.67,118.98,2025,34.842,31,1995,2025,True,True,True
+ITA,Italy,government_debt,GGXWDG_NGDP,Percent of GDP,Units,38,1988,2025,120.1849,118.827,14.6681,95.722,154.381,2025,137.105,38,1988,2025,True,True,True
+NLD,"Netherlands, The",government_debt,GGXWDG_NGDP,Percent of GDP,Units,46,1980,2025,58.9082,58.5015,10.648,42.741,76.665,2025,44.725,46,1980,2025,True,True,True
+NOR,Norway,government_debt,GGXWDG_NGDP,Percent of GDP,Units,46,1980,2025,38.3605,38.338,8.1997,23.77,54.0,2025,54.0,46,1980,2025,True,True,True
+POL,"Poland, Republic of",government_debt,GGXWDG_NGDP,Percent of GDP,Units,31,1995,2025,48.2163,48.576,6.0771,36.275,59.682,2025,59.682,31,1995,2025,True,True,True
+PRT,Portugal,government_debt,GGXWDG_NGDP,Percent of GDP,Units,36,1990,2025,88.0045,74.576,29.2175,54.193,134.096,2025,89.67,36,1990,2025,True,True,True
+ROU,Romania,government_debt,GGXWDG_NGDP,Percent of GDP,Units,26,2000,2025,34.6352,36.2925,13.7777,12.431,60.447,2025,60.447,26,2000,2025,True,True,True
+ESP,Spain,government_debt,GGXWDG_NGDP,Percent of GDP,Units,46,1980,2025,63.6043,55.793,29.1095,16.107,119.179,2025,100.513,46,1980,2025,True,True,True
+SWE,Sweden,government_debt,GGXWDG_NGDP,Percent of GDP,Units,33,1993,2025,46.9212,43.179,11.5747,32.244,68.942,2025,34.548,33,1993,2025,True,True,True
+CHE,Switzerland,government_debt,GGXWDG_NGDP,Percent of GDP,Units,36,1990,2025,45.61,43.706,6.1541,33.065,57.226,2025,40.058,36,1990,2025,True,True,True
+GBR,United Kingdom,government_debt,GGXWDG_NGDP,Percent of GDP,Units,46,1980,2025,57.874,43.12,25.1223,28.499,104.442,2025,102.056,46,1980,2025,True,True,True
+AUT,Austria,imports_volume_growth,TM_RPCH,Percent,Units,45,1980,2024,3.8221,5.192,5.4066,-11.899,14.14,2024,-2.582,45,1980,2024,True,True,True
+BEL,Belgium,imports_volume_growth,TM_RPCH,Percent,Units,46,1980,2025,2.669,2.9765,5.3162,-12.25,14.624,2025,-2.514,46,1980,2025,True,True,True
+CZE,Czech Republic,imports_volume_growth,TM_RPCH,Percent,Units,30,1996,2025,6.4648,5.898,7.0865,-11.076,25.583,2025,4.474,30,1996,2025,True,True,True
+DNK,Denmark,imports_volume_growth,TM_RPCH,Percent,Units,46,1980,2025,4.1542,4.146,4.9796,-12.18,13.942,2025,-1.175,46,1980,2025,True,True,True
+FIN,Finland,imports_volume_growth,TM_RPCH,Percent,Units,46,1980,2025,3.8711,4.314,6.2378,-16.997,14.861,2025,2.87,46,1980,2025,True,True,True
+FRA,France,imports_volume_growth,TM_RPCH,Percent,Units,46,1980,2025,3.8597,3.93,4.8753,-12.571,15.64,2025,2.957,46,1980,2025,True,True,True
+DEU,Germany,imports_volume_growth,TM_RPCH,Percent,Units,46,1980,2025,4.1049,4.697,5.1732,-10.107,13.443,2025,2.958,46,1980,2025,True,True,True
+GRC,Greece,imports_volume_growth,TM_RPCH,Percent,Units,46,1980,2025,4.2501,4.8995,7.1339,-19.61,18.809,2025,5.515,46,1980,2025,True,True,True
+HUN,Hungary,imports_volume_growth,TM_RPCH,Percent,Units,45,1981,2025,6.3018,5.876,8.0597,-14.203,23.784,2025,2.127,45,1981,2025,True,True,True
+IRL,Ireland,imports_volume_growth,TM_RPCH,Percent,Units,46,1980,2025,8.199,6.866,9.6516,-9.215,40.367,2025,9.615,46,1980,2025,True,True,True
+ITA,Italy,imports_volume_growth,TM_RPCH,Percent,Units,46,1980,2025,3.3956,3.7825,6.6126,-13.385,15.951,2025,3.639,46,1980,2025,True,True,True
+NLD,"Netherlands, The",imports_volume_growth,TM_RPCH,Percent,Units,45,1981,2025,4.2477,4.245,4.6285,-7.892,15.408,2025,2.248,45,1981,2025,True,True,True
+NOR,Norway,imports_volume_growth,TM_RPCH,Percent,Units,46,1980,2025,3.4359,2.8575,5.0839,-10.112,13.689,2025,2.556,46,1980,2025,True,True,True
+POL,"Poland, Republic of",imports_volume_growth,TM_RPCH,Percent,Units,30,1996,2025,7.7091,7.1845,8.4719,-12.685,28.007,2025,6.821,30,1996,2025,True,True,True
+PRT,Portugal,imports_volume_growth,TM_RPCH,Percent,Units,46,1980,2025,5.1601,5.085,8.6678,-15.258,27.402,2025,4.83,46,1980,2025,True,True,True
+ROU,Romania,imports_volume_growth,TM_RPCH,Percent,Units,46,1980,2025,7.1824,8.6295,13.5327,-29.608,41.818,2025,5.016,46,1980,2025,True,True,True
+ESP,Spain,imports_volume_growth,TM_RPCH,Percent,Units,46,1980,2025,5.5832,6.418,8.0925,-18.173,24.787,2025,5.494,46,1980,2025,True,True,True
+SWE,Sweden,imports_volume_growth,TM_RPCH,Percent,Units,45,1981,2025,3.498,4.226,9.8302,-20.96,25.522,2025,3.948,45,1981,2025,True,True,True
+CHE,Switzerland,imports_volume_growth,TM_RPCH,Percent,Units,46,1980,2025,3.877,4.5435,4.4948,-6.62,11.95,2025,11.711,46,1980,2025,True,True,True
+GBR,United Kingdom,imports_volume_growth,TM_RPCH,Percent,Units,46,1980,2025,3.9857,4.8215,5.3353,-16.136,13.857,2025,3.732,46,1980,2025,True,True,True
+AUT,Austria,inflation,PCPIPCH,Percent,Units,46,1980,2025,2.6953,2.16,1.8282,0.402,8.621,2025,3.572,46,1980,2025,True,True,True
+BEL,Belgium,inflation,PCPIPCH,Percent,Units,46,1980,2025,2.8777,2.318,2.2662,-0.004,10.331,2025,3.024,46,1980,2025,True,True,True
+CZE,Czech Republic,inflation,PCPIPCH,Percent,Units,30,1996,2025,3.7528,2.484,3.5692,0.1,15.072,2025,2.459,30,1996,2025,True,True,True
+DNK,Denmark,inflation,PCPIPCH,Percent,Units,46,1980,2025,2.9475,2.0345,2.7886,0.04,11.718,2025,1.824,46,1980,2025,True,True,True
+FIN,Finland,inflation,PCPIPCH,Percent,Units,46,1980,2025,3.1698,2.0365,2.9202,-0.155,12.0,2025,1.82,46,1980,2025,True,True,True
+FRA,France,inflation,PCPIPCH,Percent,Units,46,1980,2025,3.0823,2.078,3.2662,0.084,13.333,2025,0.926,46,1980,2025,True,True,True
+DEU,Germany,inflation,PCPIPCH,Percent,Units,46,1980,2025,2.3215,1.907,1.8153,-0.125,8.666,2025,2.264,46,1980,2025,True,True,True
+GRC,Greece,inflation,PCPIPCH,Percent,Units,46,1980,2025,7.9071,4.035,8.0504,-1.392,24.873,2025,2.889,46,1980,2025,True,True,True
+HUN,Hungary,inflation,PCPIPCH,Percent,Units,46,1980,2025,9.6903,6.5765,8.3322,-0.229,34.234,2025,4.436,46,1980,2025,True,True,True
+IRL,Ireland,inflation,PCPIPCH,Percent,Units,46,1980,2025,3.6652,2.436,4.6471,-1.692,20.243,2025,2.065,46,1980,2025,True,True,True
+ITA,Italy,inflation,PCPIPCH,Percent,Units,46,1980,2025,4.5712,2.7115,4.9456,-0.171,21.8,2025,1.635,46,1980,2025,True,True,True
+NLD,"Netherlands, The",inflation,PCPIPCH,Percent,Units,44,1981,2025,2.4171,2.1675,2.0359,-1.0,11.628,2025,2.985,44,1981,2025,True,True,True
+NOR,Norway,inflation,PCPIPCH,Percent,Units,46,1980,2025,3.7411,2.525,2.9554,0.455,13.635,2025,3.04,46,1980,2025,True,True,True
+POL,"Poland, Republic of",inflation,PCPIPCH,Percent,Units,45,1980,2025,34.2113,7.3,93.7322,-0.9,585.8,2025,3.6,45,1980,2025,True,True,True
+PRT,Portugal,inflation,PCPIPCH,Percent,Units,46,1980,2025,6.1243,2.9905,7.1724,-0.903,29.3,2025,2.195,46,1980,2025,True,True,True
+ROU,Romania,inflation,PCPIPCH,Percent,Units,46,1980,2025,32.3823,5.954,59.6283,-1.555,256.105,2025,7.327,46,1980,2025,True,True,True
+ESP,Spain,inflation,PCPIPCH,Percent,Units,46,1980,2025,4.5188,3.391,3.9674,-0.631,15.578,2025,2.691,46,1980,2025,True,True,True
+SWE,Sweden,inflation,PCPIPCH,Percent,Units,46,1980,2025,3.7179,2.022,3.6685,0.206,17.45,2025,2.61,46,1980,2025,True,True,True
+CHE,Switzerland,inflation,PCPIPCH,Percent,Units,46,1980,2025,1.5637,0.893,1.8362,-1.142,6.491,2025,0.153,46,1980,2025,True,True,True
+GBR,United Kingdom,inflation,PCPIPCH,Percent,Units,46,1980,2025,3.6819,2.5765,3.1706,0.04,16.849,2025,3.373,46,1980,2025,True,True,True
+AUT,Austria,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,246.7159,227.815,120.9337,75.565,513.662,2025,513.662,46,1980,2025,True,True,True
+BEL,Belgium,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,300.5489,277.228,151.7687,89.375,642.016,2025,642.016,46,1980,2025,True,True,True
+CZE,Czech Republic,nominal_gdp_local,NGDP,Domestic currency,Billions,31,1995,2025,4272.9826,4037.564,1870.6063,1607.591,8573.124,2025,8573.124,31,1995,2025,True,True,True
+DNK,Denmark,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,1501.0854,1425.1865,726.3939,399.085,3118.537,2025,3118.537,46,1980,2025,True,True,True
+FIN,Finland,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,150.072,150.077,73.2549,33.682,281.783,2025,281.783,46,1980,2025,True,True,True
+FRA,France,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,1625.7854,1600.3215,692.7272,447.416,2995.19,2025,2995.19,46,1980,2025,True,True,True
+DEU,Germany,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,2313.7867,2232.085,1020.9337,795.079,4529.71,2025,4529.71,46,1980,2025,True,True,True
+GRC,Greece,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,132.7886,163.221,78.5967,7.011,248.354,2025,248.354,46,1980,2025,True,True,True
+HUN,Hungary,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,22787.1851,18274.8775,22951.8272,752.053,87045.554,2025,87045.554,46,1980,2025,True,True,True
+IRL,Ireland,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,171.1342,140.7875,161.4043,13.219,602.441,2025,602.441,46,1980,2025,True,True,True
+ITA,Italy,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,1248.7542,1377.454,567.4789,211.921,2258.049,2025,2258.049,46,1980,2025,True,True,True
+NLD,"Netherlands, The",nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,523.4372,508.901,270.4967,174.826,1170.579,2025,1170.579,46,1980,2025,True,True,True
+NOR,Norway,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,2112.6226,1591.806,1559.071,316.983,5935.036,2025,5511.333,46,1980,2025,True,True,True
+POL,"Poland, Republic of",nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,1098.4863,832.3805,1082.4008,0.252,3912.673,2025,3912.673,46,1980,2025,True,True,True
+PRT,Portugal,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,131.342,144.311,79.0304,8.137,306.75,2025,306.75,46,1980,2025,True,True,True
+ROU,Romania,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,420.3902,172.095,525.4138,0.081,1916.405,2025,1916.405,46,1980,2025,True,True,True
+ESP,Spain,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,759.6471,776.2135,445.51,99.321,1690.012,2025,1690.012,46,1980,2025,True,True,True
+SWE,Sweden,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,2921.7137,2652.4185,1674.9517,592.779,6644.105,2025,6644.105,46,1980,2025,True,True,True
+CHE,Switzerland,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,520.5909,491.83,187.4269,208.313,881.816,2025,881.816,46,1980,2025,True,True,True
+GBR,United Kingdom,nominal_gdp_local,NGDP,Domestic currency,Billions,46,1980,2025,1327.7283,1223.532,759.4525,258.927,3044.594,2025,3044.594,46,1980,2025,True,True,True
+AUT,Austria,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,286.5212,250.314,149.2753,66.64,580.101,2025,580.101,46,1980,2025,True,True,True
+BEL,Belgium,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,350.3226,303.153,184.4961,81.237,725.056,2025,725.056,46,1980,2025,True,True,True
+CZE,Czech Republic,nominal_gdp_usd,NGDPD,US dollars,Billions,31,1995,2025,187.3313,207.095,94.736,60.565,391.789,2025,391.789,31,1995,2025,True,True,True
+DNK,Denmark,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,233.9085,202.952,119.439,58.869,470.948,2025,470.948,46,1980,2025,True,True,True
+FIN,Finland,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,180.0731,156.648,85.9525,51.056,318.23,2025,318.23,46,1980,2025,True,True,True
+FRA,France,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,1899.6621,1716.9425,868.869,526.671,3382.595,2025,3382.595,46,1980,2025,True,True,True
+DEU,Germany,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,2681.4865,2564.675,1270.868,654.289,5115.594,2025,5115.594,46,1980,2025,True,True,True
+GRC,Greece,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,171.0521,170.679,85.6377,47.269,351.083,2025,280.476,46,1980,2025,True,True,True
+HUN,Hungary,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,93.4666,76.413,63.9094,21.243,247.126,2025,247.126,46,1980,2025,True,True,True
+IRL,Ireland,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,199.681,146.5675,180.6893,19.883,680.362,2025,680.362,46,1980,2025,True,True,True
+ITA,Italy,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,1519.3135,1448.8345,649.6977,430.169,2550.111,2025,2550.111,46,1980,2025,True,True,True
+NLD,"Netherlands, The",nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,607.8464,528.742,330.8203,142.779,1321.985,2025,1321.985,46,1980,2025,True,True,True
+NOR,Norway,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,278.198,212.277,178.011,61.418,617.322,2025,530.148,46,1980,2025,True,True,True
+POL,"Poland, Republic of",nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,326.1822,209.1275,262.6192,53.921,1040.549,2025,1040.549,46,1980,2025,True,True,True
+PRT,Portugal,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,158.7993,149.9425,89.2771,25.951,346.425,2025,346.425,46,1980,2025,True,True,True
+ROU,Romania,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,127.8343,59.5075,107.7447,19.779,429.289,2025,429.289,46,1980,2025,True,True,True
+ESP,Spain,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,922.1623,808.0865,517.4265,172.597,1908.602,2025,1908.602,46,1980,2025,True,True,True
+SWE,Sweden,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,366.3576,313.012,173.5766,103.682,676.54,2025,676.54,46,1980,2025,True,True,True
+CHE,Switzerland,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,460.6632,362.4625,268.1886,111.03,1060.696,2025,1060.696,46,1980,2025,True,True,True
+GBR,United Kingdom,nominal_gdp_usd,NGDPD,US dollars,Billions,46,1980,2025,2004.1569,1920.326,996.4978,503.818,4012.224,2025,4012.224,46,1980,2025,True,True,True
+AUT,Austria,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,37,1988,2024,-0.7908,-0.18,1.9458,-7.082,1.975,2024,-3.654,37,1988,2024,True,True,True
+BEL,Belgium,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,46,1980,2025,0.6968,1.083,3.6412,-8.441,6.239,2025,-3.399,46,1980,2025,True,True,True
+CZE,Czech Republic,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,31,1995,2025,-2.4945,-2.518,2.7956,-12.019,2.091,2025,-1.473,31,1995,2025,True,True,True
+DNK,Denmark,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,46,1980,2025,1.6203,1.9685,2.879,-5.953,7.128,2025,2.32,46,1980,2025,True,True,True
+FIN,Finland,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,46,1980,2025,-0.0004,-0.3345,3.6161,-8.534,7.619,2025,-3.52,46,1980,2025,True,True,True
+FRA,France,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,46,1980,2025,-1.6147,-1.179,1.8535,-7.665,1.38,2025,-2.987,46,1980,2025,True,True,True
+DEU,Germany,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,35,1991,2025,-0.1378,-0.021,1.9896,-6.349,2.594,2025,-2.059,35,1991,2025,True,True,True
+GRC,Greece,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,38,1988,2025,-0.9674,-0.3725,3.7599,-10.314,4.885,2025,4.885,38,1988,2025,True,True,True
+HUN,Hungary,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,31,1995,2025,-1.0577,-0.686,2.4289,-5.668,3.068,2025,-1.352,31,1995,2025,True,True,True
+IRL,Ireland,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,31,1995,2025,-0.435,1.623,7.0192,-29.97,6.464,2025,2.195,31,1995,2025,True,True,True
+ITA,Italy,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,38,1988,2025,0.7471,1.3255,2.6669,-6.101,5.648,2025,0.537,38,1988,2025,True,True,True
+NLD,"Netherlands, The",primary_balance,GGXONLB_NGDP,Percent of GDP,Units,31,1995,2025,0.0097,0.043,2.3049,-4.462,3.751,2025,-1.265,31,1995,2025,True,True,True
+NOR,Norway,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,46,1980,2025,5.9023,5.5035,5.9087,-4.831,23.449,2025,5.67,46,1980,2025,True,True,True
+POL,"Poland, Republic of",primary_balance,GGXONLB_NGDP,Percent of GDP,Units,31,1995,2025,-1.5753,-1.47,1.8381,-5.563,1.316,2025,-4.75,31,1995,2025,True,True,True
+PRT,Portugal,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,40,1986,2025,-0.5841,-0.503,2.6801,-8.705,3.48,2025,2.405,40,1986,2025,True,True,True
+ROU,Romania,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,35,1991,2025,-2.011,-1.443,2.5324,-8.276,3.27,2025,-5.03,35,1991,2025,True,True,True
+ESP,Spain,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,46,1980,2025,-1.9802,-1.5485,3.198,-9.923,3.375,2025,-0.531,46,1980,2025,True,True,True
+SWE,Sweden,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,46,1980,2025,0.2846,0.4685,3.4151,-9.904,6.465,2025,-1.228,46,1980,2025,True,True,True
+CHE,Switzerland,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,43,1983,2025,0.2972,0.5,1.3161,-2.571,2.32,2025,0.206,43,1983,2025,True,True,True
+GBR,United Kingdom,primary_balance,GGXONLB_NGDP,Percent of GDP,Units,46,1980,2025,-1.9342,-1.4905,2.8968,-11.747,3.061,2025,-2.665,46,1980,2025,True,True,True
+AUT,Austria,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,1.7765,2.1315,2.007,-6.318,5.331,2025,0.849,46,1980,2025,True,True,True
+BEL,Belgium,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,1.8702,1.828,1.8246,-4.793,6.254,2025,0.983,46,1980,2025,True,True,True
+CZE,Czech Republic,real_gdp_growth,NGDP_RPCH,Percent,Units,30,1996,2025,2.2761,2.6715,2.805,-5.305,6.623,2025,2.628,30,1996,2025,True,True,True
+DNK,Denmark,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,1.86,1.786,2.013,-4.978,6.499,2025,3.454,46,1980,2025,True,True,True
+FIN,Finland,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,1.9262,2.658,2.9802,-8.076,6.398,2025,0.843,46,1980,2025,True,True,True
+FRA,France,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,1.755,1.8275,2.0293,-7.607,6.791,2025,0.89,46,1980,2025,True,True,True
+DEU,Germany,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,1.5438,1.7015,2.0636,-5.546,5.723,2025,0.229,46,1980,2025,True,True,True
+GRC,Greece,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,1.0506,2.0035,3.8681,-9.877,8.654,2025,2.073,46,1980,2025,True,True,True
+HUN,Hungary,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,1.5876,2.492,3.436,-11.892,7.219,2025,0.493,46,1980,2025,True,True,True
+IRL,Ireland,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,5.0823,4.982,5.1613,-5.094,24.649,2025,7.97,46,1980,2025,True,True,True
+ITA,Italy,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,1.289,1.468,2.6543,-8.868,8.931,2025,0.54,46,1980,2025,True,True,True
+NLD,"Netherlands, The",real_gdp_growth,NGDP_RPCH,Percent,Units,45,1981,2025,2.1022,2.26,2.121,-3.877,6.278,2025,1.564,45,1981,2025,True,True,True
+NOR,Norway,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,2.4287,2.173,1.745,-1.613,6.075,2025,1.058,46,1980,2025,True,True,True
+POL,"Poland, Republic of",real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,2.6537,3.7345,3.976,-10.0,7.086,2025,3.657,46,1980,2025,True,True,True
+PRT,Portugal,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,2.1816,2.189,3.0408,-8.205,7.859,2025,1.861,46,1980,2025,True,True,True
+ROU,Romania,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,1.8292,2.8905,4.9395,-12.927,10.428,2025,0.678,46,1980,2025,True,True,True
+ESP,Spain,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,2.2304,2.674,2.9885,-10.94,6.683,2025,2.592,46,1980,2025,True,True,True
+SWE,Sweden,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,2.1915,2.3,2.1386,-4.256,5.751,2025,1.397,46,1980,2025,True,True,True
+CHE,Switzerland,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,1.867,1.647,1.7758,-2.334,6.156,2025,1.616,46,1980,2025,True,True,True
+GBR,United Kingdom,real_gdp_growth,NGDP_RPCH,Percent,Units,46,1980,2025,2.009,2.312,2.7862,-10.046,8.518,2025,1.213,46,1980,2025,True,True,True
+AUT,Austria,unemployment,LUR,Percent,Units,46,1980,2025,4.4993,4.7295,1.1844,1.6,6.475,2025,5.692,46,1980,2025,True,True,True
+BEL,Belgium,unemployment,LUR,Percent,Units,46,1980,2025,8.0248,8.221,1.5718,5.375,11.5,2025,6.175,46,1980,2025,True,True,True
+CZE,Czech Republic,unemployment,LUR,Percent,Units,31,1995,2025,5.3221,5.306,2.2741,1.959,8.757,2025,2.786,31,1995,2025,True,True,True
+DNK,Denmark,unemployment,LUR,Percent,Units,46,1980,2025,5.369,5.054,1.6968,2.508,9.533,2025,2.9,46,1980,2025,True,True,True
+FIN,Finland,unemployment,LUR,Percent,Units,46,1980,2025,8.4367,8.1125,3.0539,3.108,16.7,2025,9.675,46,1980,2025,True,True,True
+FRA,France,unemployment,LUR,Percent,Units,46,1980,2025,8.9163,8.8625,1.1184,6.349,10.892,2025,7.717,46,1980,2025,True,True,True
+DEU,Germany,unemployment,LUR,Percent,Units,46,1980,2025,6.58,7.066,2.3284,2.95,11.008,2025,3.767,46,1980,2025,True,True,True
+GRC,Greece,unemployment,LUR,Percent,Units,46,1980,2025,11.9467,10.05,5.9776,2.663,27.475,2025,8.862,46,1980,2025,True,True,True
+HUN,Hungary,unemployment,LUR,Percent,Units,46,1980,2025,5.4866,5.872,3.5849,0.041,11.29,2025,4.4,46,1980,2025,True,True,True
+IRL,Ireland,unemployment,LUR,Percent,Units,41,1985,2025,10.1956,8.392,5.4195,4.183,19.0,2025,4.658,41,1985,2025,True,True,True
+ITA,Italy,unemployment,LUR,Percent,Units,46,1980,2025,9.1898,8.8625,1.7115,6.05,12.792,2025,6.05,46,1980,2025,True,True,True
+NLD,"Netherlands, The",unemployment,LUR,Percent,Units,46,1980,2025,5.6603,5.7735,1.4694,3.137,8.338,2025,3.876,46,1980,2025,True,True,True
+NOR,Norway,unemployment,LUR,Percent,Units,46,1980,2025,3.8109,3.7505,1.0297,1.65,5.948,2025,4.483,46,1980,2025,True,True,True
+POL,"Poland, Republic of",unemployment,LUR,Percent,Units,36,1990,2025,10.1294,10.016,5.3675,2.82,20.235,2025,3.135,36,1990,2025,True,True,True
+PRT,Portugal,unemployment,LUR,Percent,Units,46,1980,2025,8.0438,7.4245,3.0532,3.86,17.216,2025,6.042,46,1980,2025,True,True,True
+ROU,Romania,unemployment,LUR,Percent,Units,41,1985,2025,6.7665,7.175,2.0119,3.4,10.994,2025,6.117,41,1985,2025,True,True,True
+ESP,Spain,unemployment,LUR,Percent,Units,46,1980,2025,16.7329,16.764,4.8311,8.233,26.095,2025,10.508,46,1980,2025,True,True,True
+SWE,Sweden,unemployment,LUR,Percent,Units,46,1980,2025,6.7785,7.1335,2.4424,2.025,11.15,2025,8.867,46,1980,2025,True,True,True
+CHE,Switzerland,unemployment,LUR,Percent,Units,46,1980,2025,2.521,2.7445,1.3259,0.19,5.199,2025,2.838,46,1980,2025,True,True,True
+GBR,United Kingdom,unemployment,LUR,Percent,Units,46,1980,2025,7.0056,6.6,2.4031,3.8,11.75,2025,4.875,46,1980,2025,True,True,True

@@ -1,0 +1,4 @@
+observation_status,total_records,available_values,missing_values,missing_percentage
+historical_actual,10114,9540,574,5.68
+imf_estimate,226,226,0,0.0
+imf_projection,1100,1100,0,0.0
