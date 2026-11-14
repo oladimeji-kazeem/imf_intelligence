@@ -41,7 +41,22 @@ europe = pd.read_csv(INPUT_FILE)
 
 # Standardise column names for matching.
 weo.columns = weo.columns.astype(str).str.strip()
+column_mapping = {
+    "INDICATOR.ID": "WEO Subject Code",
+    "INDICATOR": "Subject Descriptor",
+    "UNIT": "Units",
+    "SCALE": "Scale",
+    "COUNTRY.ID": "ISO"
+}
+for modern_col, legacy_col in column_mapping.items():
+    if modern_col in weo.columns and legacy_col not in weo.columns:
+        weo[legacy_col] = weo[modern_col]
+
 europe.columns = europe.columns.astype(str).str.strip()
+if "ISO" in europe.columns and "iso" not in europe.columns:
+    europe["iso"] = europe["ISO"]
+if "WEO Subject Code" in europe.columns and "weo_code" not in europe.columns:
+    europe["weo_code"] = europe["WEO Subject Code"]
 
 required_weo = [
     "ISO",
