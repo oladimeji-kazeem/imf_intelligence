@@ -1,0 +1,95 @@
+source:
+  provider: "International Monetary Fund"
+  dataset: "World Economic Outlook"
+  vintage: "October 2026"
+  workbook: "WEOOct2026all.xlsx"
+  worksheet: "Countries"
+
+indicators:
+  real_gdp_growth:
+    weo_code: "NGDP_RPCH"
+    description: "GDP growth at constant prices"
+    unit: "Percent"
+    scale: "Units"
+    transformation: "None"
+    interpretation: "Annual real GDP growth"
+
+  nominal_gdp_local:
+    weo_code: "NGDP"
+    description: "GDP at current prices"
+    unit: "Domestic currency"
+    scale: "Billions"
+    transformation: "None"
+    interpretation: "Nominal GDP in domestic currency"
+
+  nominal_gdp_usd:
+    weo_code: "NGDPD"
+    description: "GDP at current prices"
+    unit: "US dollars"
+    scale: "Billions"
+    transformation: "None"
+    interpretation: "Nominal GDP in US dollars"
+
+  inflation:
+    weo_code: "PCPIPCH"
+    description: "Consumer price index, period average"
+    unit: "Percent"
+    scale: "Units"
+    transformation: "None"
+    interpretation: "Annual average consumer price inflation"
+
+  government_debt:
+    weo_code: "GGXWDG_NGDP"
+    description: "General government gross debt"
+    unit: "Percent of GDP"
+    scale: "Units"
+    transformation: "None"
+    interpretation: "Gross government debt relative to GDP"
+
+  fiscal_balance:
+    weo_code: "GGXCNL_NGDP"
+    description: "General government net lending or borrowing"
+    unit: "Percent of GDP"
+    scale: "Units"
+    transformation: "None"
+    interpretation: "Overall fiscal balance"
+
+  primary_balance:
+    weo_code: "GGXONLB_NGDP"
+    description: "Primary net lending or borrowing"
+    unit: "Percent of GDP"
+    scale: "Units"
+    transformation: "None"
+    interpretation: "Fiscal balance excluding interest payments"
+
+  unemployment:
+    weo_code: "LUR"
+    description: "Unemployment rate"
+    unit: "Percent"
+    scale: "Units"
+    transformation: "None"
+    interpretation: "Unemployment rate"
+
+  current_account:
+    weo_code: "BCA_NGDPD"
+    description: "Current account balance"
+    unit: "Percent of GDP"
+    scale: "Units"
+    transformation: "None"
+    interpretation: "Current account balance relative to GDP"
+
+  exports_volume_growth:
+    weo_code: "TX_RPCH"
+    description: "Exports of goods and services, volume"
+    unit: "Percent"
+    scale: "Units"
+    transformation: "None"
+    interpretation: "Annual export volume growth"
+
+  imports_volume_growth:
+    weo_code: "TM_RPCH"
+    description: "Imports of goods and services, volume"
+    unit: "Percent"
+    scale: "Units"
+    transformation: "None"
+    interpretation: "Annual import volume growth"

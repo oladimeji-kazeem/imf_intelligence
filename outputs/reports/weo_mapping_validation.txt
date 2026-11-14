@@ -1,0 +1,28 @@
+IMF WEO MAPPING VALIDATION REPORT
+=================================================================
+
+Workbook: WEOOct2026all.xlsx
+Rows: 8668
+Columns: 86
+SHA-256: 2aa4f70a05931197b41ed7e0202dc56eee8d816858ac14521e4f8f5dbc38696c
+
+Passed: 11
+Failed: 0
+Warnings: 0
+
+        internal_name     weo_code                       status                                                                          descriptor             units    scale
+      real_gdp_growth    NGDP_RPCH PASSED - 197 COUNTRY RECORDS                       Gross domestic product (GDP), Constant prices, Percent change           Percent    Units
+    nominal_gdp_local         NGDP PASSED - 197 COUNTRY RECORDS                     Gross domestic product (GDP), Current prices, Domestic currency Domestic currency Billions
+      nominal_gdp_usd        NGDPD PASSED - 197 COUNTRY RECORDS                             Gross domestic product (GDP), Current prices, US dollar         US dollar Billions
+            inflation      PCPIPCH PASSED - 197 COUNTRY RECORDS               All Items, Consumer price index (CPI), Period average, percent change           Percent    Units
+      government_debt  GGXWDG_NGDP PASSED - 197 COUNTRY RECORDS                                      Gross debt, General government, Percent of GDP           Percent    Units
+       fiscal_balance  GGXCNL_NGDP PASSED - 197 COUNTRY RECORDS             Net lending (+) / net borrowing (-), General government, Percent of GDP           Percent    Units
+      primary_balance GGXONLB_NGDP PASSED - 197 COUNTRY RECORDS     Primary net lending (+) / net borrowing (-), General government, Percent of GDP           Percent    Units
+         unemployment          LUR PASSED - 197 COUNTRY RECORDS                                                                   Unemployment rate               nan    Units
+      current_account    BCA_NGDPD PASSED - 197 COUNTRY RECORDS                         Current account balance (credit less debit), Percent of GDP           Percent    Units
+exports_volume_growth      TX_RPCH PASSED - 197 COUNTRY RECORDS          Exports of goods and services, Volume, Free on board (FOB), Percent change               nan      nan
+imports_volume_growth      TM_RPCH PASSED - 197 COUNTRY RECORDS Imports of goods and services, Volume, Cost insurance freight (CIF), Percent change               nan      nan
+
+COLUMN DIAGNOSTICS
+Unnamed columns: []
+Duplicate columns: []

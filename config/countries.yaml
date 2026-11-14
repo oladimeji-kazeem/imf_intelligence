@@ -1,0 +1,40 @@
+regions:
+  europe:
+    name: Europe
+    countries:
+      - DEU
+      - FRA
+      - GBR
+      - ITA
+      - ESP
+      - NLD
+      - BEL
+      - CHE
+      - AUT
+      - SWE
+      - NOR
+      - DNK
+      - FIN
+      - IRL
+      - PRT
+      - GRC
+      - POL
+      - CZE
+      - HUN
+      - ROU
+
+  africa:
+    name: Africa
+    countries:
+      - NGA
+      - ZAF
+      - GHA
+      - KEN
+      - EGY
+      - MAR
+      - CIV
+      - SEN
+      - ETH
+      - UGA
+
+initial_region: europe

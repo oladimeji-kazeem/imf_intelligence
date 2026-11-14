@@ -1,0 +1,23 @@
+Internal Indicator,WEO Subject Code,Subject Descriptor,Units,Scale
+nominal_gdp,NGDP,"Gross domestic product (GDP), Current prices, Domestic currency",Domestic currency,Billions
+nominal_gdp,NGDPD,"Gross domestic product (GDP), Current prices, US dollar",US dollar,Billions
+nominal_gdp,PPPGDP,"Gross domestic product (GDP), Current prices, Purchasing power parity (PPP) international dollar, ICP benchmarks 2017-2021",,Billions
+nominal_gdp,NGDPPC,"Gross domestic product (GDP), Current prices, Per capita, Domestic currency",Domestic currency,Units
+nominal_gdp,NGDPDPC,"Gross domestic product (GDP), Current prices, Per capita, US dollar",US dollar,Units
+nominal_gdp,NGDP_FY,"Gross domestic product (GDP), Current prices, Fiscal year, Domestic currency",Domestic currency,Billions
+fiscal_balance,GGXCNL,"Net lending (+) / net borrowing (-), General government, Domestic currency",Domestic currency,Billions
+fiscal_balance,GGXCNL_NGDP,"Net lending (+) / net borrowing (-), General government, Percent of GDP",Percent,Units
+fiscal_balance,GGXONLB,"Primary net lending (+) / net borrowing (-), General government, Domestic currency",Domestic currency,Billions
+fiscal_balance,GGXONLB_NGDP,"Primary net lending (+) / net borrowing (-), General government, Percent of GDP",Percent,Units
+fiscal_balance,GGXONLB,"Primary net lending (+) / net borrowing (-), General government, Domestic currency",,
+fiscal_balance,GGXONLB_NGDP,"Primary net lending (+) / net borrowing (-), General government, Percent of GDP",,
+unemployment,LUR,Unemployment rate,,Units
+unemployment,LUR,Unemployment rate,,
+current_account,BCA,"Current account balance (credit less debit), US dollar",US dollar,Billions
+current_account,BCA_NGDPD,"Current account balance (credit less debit), Percent of GDP",Percent,Units
+current_account,BCA,"Current account balance (credit less debit), US dollar",,
+current_account,BCA_NGDPD,"Current account balance (credit less debit), Percent of GDP",,
+exports,TX_RPCH,"Exports of goods and services, Volume, Free on board (FOB), Percent change",,
+exports,TX_RPCH,"Exports of goods and services, Volume, Free on board (FOB), Percent change",Percent,Units
+imports,TM_RPCH,"Imports of goods and services, Volume, Cost insurance freight (CIF), Percent change",,
+imports,TM_RPCH,"Imports of goods and services, Volume, Cost insurance freight (CIF), Percent change",Percent,Units

@@ -1,0 +1,2524 @@
+ISO,COUNTRY,WEO Subject Code,LATEST_ACTUAL_ANNUAL_DATA
+AND,"Andorra, Principality of",PPPGDP,
+AND,"Andorra, Principality of",PPPPC,
+AND,"Andorra, Principality of",NGAP_NPGDP,
+AND,"Andorra, Principality of",PPPSH,
+AND,"Andorra, Principality of",PPPEX,
+AND,"Andorra, Principality of",NID_NGDP,
+AND,"Andorra, Principality of",NGSD_NGDP,
+AND,"Andorra, Principality of",TM_RPCH,
+AND,"Andorra, Principality of",TMG_RPCH,
+AND,"Andorra, Principality of",TX_RPCH,
+AND,"Andorra, Principality of",TXG_RPCH,
+AND,"Andorra, Principality of",GGSB,
+AND,"Andorra, Principality of",GGSB_NPGDP,
+AND,"Andorra, Principality of",GGXWDN,
+AND,"Andorra, Principality of",GGXWDN_NGDP,
+AUS,Australia,PPPGDP,
+AUS,Australia,PPPPC,
+AUS,Australia,PPPSH,
+AUS,Australia,PPPEX,
+AUT,Austria,PPPGDP,
+AUT,Austria,PPPPC,
+AUT,Austria,PPPSH,
+AUT,Austria,PPPEX,
+BEL,Belgium,PPPGDP,
+BEL,Belgium,PPPPC,
+BEL,Belgium,PPPSH,
+BEL,Belgium,PPPEX,
+CAN,Canada,PPPGDP,
+CAN,Canada,PPPPC,
+CAN,Canada,PPPSH,
+CAN,Canada,PPPEX,
+HRV,"Croatia, Republic of",PPPGDP,
+HRV,"Croatia, Republic of",PPPPC,
+HRV,"Croatia, Republic of",NGAP_NPGDP,
+HRV,"Croatia, Republic of",PPPSH,
+HRV,"Croatia, Republic of",PPPEX,
+CYP,Cyprus,PPPGDP,
+CYP,Cyprus,PPPPC,
+CYP,Cyprus,PPPSH,
+CYP,Cyprus,PPPEX,
+CZE,Czech Republic,PPPGDP,
+CZE,Czech Republic,PPPPC,
+CZE,Czech Republic,NGAP_NPGDP,
+CZE,Czech Republic,PPPSH,
+CZE,Czech Republic,PPPEX,
+DNK,Denmark,PPPGDP,
+DNK,Denmark,PPPPC,
+DNK,Denmark,PPPSH,
+DNK,Denmark,PPPEX,
+EST,"Estonia, Republic of",PPPGDP,
+EST,"Estonia, Republic of",PPPPC,
+EST,"Estonia, Republic of",PPPSH,
+EST,"Estonia, Republic of",PPPEX,
+FIN,Finland,PPPGDP,
+FIN,Finland,PPPPC,
+FIN,Finland,PPPSH,
+FIN,Finland,PPPEX,
+FRA,France,PPPGDP,
+FRA,France,PPPPC,
+FRA,France,PPPSH,
+FRA,France,PPPEX,
+DEU,Germany,PPPGDP,
+DEU,Germany,PPPPC,
+DEU,Germany,PPPSH,
+DEU,Germany,PPPEX,
+GRC,Greece,PPPGDP,
+GRC,Greece,PPPPC,
+GRC,Greece,PPPSH,
+GRC,Greece,PPPEX,
+GRC,Greece,GGXWDN,
+GRC,Greece,GGXWDN_NGDP,
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",PPPGDP,
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",PPPPC,
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",NGAP_NPGDP,
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",PPPSH,
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",PPPEX,
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",GGR,FY2025/26
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",GGR_NGDP,FY2025/26
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",GGX,FY2025/26
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",GGX_NGDP,FY2025/26
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",GGXCNL,FY2025/26
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",GGXCNL_NGDP,FY2025/26
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",GGSB,FY2025/26
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",GGSB_NPGDP,FY2025/26
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",GGXONLB,FY2025/26
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",GGXONLB_NGDP,FY2025/26
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",GGXWDN,
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",GGXWDN_NGDP,
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",GGXWDG,FY2025/26
+HKG,"Hong Kong Special Administrative Region, People's Republic of China",GGXWDG_NGDP,FY2025/26
+ISL,Iceland,PPPGDP,
+ISL,Iceland,PPPPC,
+ISL,Iceland,NGAP_NPGDP,
+ISL,Iceland,PPPSH,
+ISL,Iceland,PPPEX,
+IRL,Ireland,PPPGDP,
+IRL,Ireland,PPPPC,
+IRL,Ireland,PPPSH,
+IRL,Ireland,PPPEX,
+ISR,Israel,PPPGDP,
+ISR,Israel,PPPPC,
+ISR,Israel,NGAP_NPGDP,
+ISR,Israel,PPPSH,
+ISR,Israel,PPPEX,
+ITA,Italy,PPPGDP,
+ITA,Italy,PPPPC,
+ITA,Italy,PPPSH,
+ITA,Italy,PPPEX,
+JPN,Japan,PPPGDP,
+JPN,Japan,PPPPC,
+JPN,Japan,PPPSH,
+JPN,Japan,PPPEX,
+KOR,"Korea, Republic of",PPPGDP,
+KOR,"Korea, Republic of",PPPPC,
+KOR,"Korea, Republic of",PPPSH,
+KOR,"Korea, Republic of",PPPEX,
+LVA,"Latvia, Republic of",PPPGDP,
+LVA,"Latvia, Republic of",PPPPC,
+LVA,"Latvia, Republic of",NGAP_NPGDP,
+LVA,"Latvia, Republic of",PPPSH,
+LVA,"Latvia, Republic of",PPPEX,
+LIE,"Liechtenstein, Principality of",PPPGDP,
+LIE,"Liechtenstein, Principality of",PPPPC,
+LIE,"Liechtenstein, Principality of",NGAP_NPGDP,
+LIE,"Liechtenstein, Principality of",PPPSH,
+LIE,"Liechtenstein, Principality of",PPPEX,
+LIE,"Liechtenstein, Principality of",NID_NGDP,
+LIE,"Liechtenstein, Principality of",NGSD_NGDP,
+LIE,"Liechtenstein, Principality of",TM_RPCH,
+LIE,"Liechtenstein, Principality of",TMG_RPCH,
+LIE,"Liechtenstein, Principality of",TX_RPCH,
+LIE,"Liechtenstein, Principality of",TXG_RPCH,
+LIE,"Liechtenstein, Principality of",GGSB,
+LIE,"Liechtenstein, Principality of",GGSB_NPGDP,
+LIE,"Liechtenstein, Principality of",GGXWDN,
+LIE,"Liechtenstein, Principality of",GGXWDN_NGDP,
+LTU,"Lithuania, Republic of",PPPGDP,
+LTU,"Lithuania, Republic of",PPPPC,
+LTU,"Lithuania, Republic of",NGAP_NPGDP,
+LTU,"Lithuania, Republic of",PPPSH,
+LTU,"Lithuania, Republic of",PPPEX,
+LTU,"Lithuania, Republic of",TMG_RPCH,
+LTU,"Lithuania, Republic of",TXG_RPCH,
+LUX,Luxembourg,PPPGDP,
+LUX,Luxembourg,PPPPC,
+LUX,Luxembourg,PPPSH,
+LUX,Luxembourg,PPPEX,
+MAC,"Macao Special Administrative Region, People's Republic of China",PPPGDP,
+MAC,"Macao Special Administrative Region, People's Republic of China",PPPPC,
+MAC,"Macao Special Administrative Region, People's Republic of China",NGAP_NPGDP,
+MAC,"Macao Special Administrative Region, People's Republic of China",PPPSH,
+MAC,"Macao Special Administrative Region, People's Republic of China",PPPEX,
+MAC,"Macao Special Administrative Region, People's Republic of China",NGSD_NGDP,
+MAC,"Macao Special Administrative Region, People's Republic of China",TM_RPCH,
+MAC,"Macao Special Administrative Region, People's Republic of China",TMG_RPCH,
+MAC,"Macao Special Administrative Region, People's Republic of China",TX_RPCH,
+MAC,"Macao Special Administrative Region, People's Republic of China",TXG_RPCH,
+MAC,"Macao Special Administrative Region, People's Republic of China",GGSB,
+MAC,"Macao Special Administrative Region, People's Republic of China",GGSB_NPGDP,
+MAC,"Macao Special Administrative Region, People's Republic of China",GGXWDN,
+MAC,"Macao Special Administrative Region, People's Republic of China",GGXWDN_NGDP,
+MAC,"Macao Special Administrative Region, People's Republic of China",GGXWDG_NGDP,
+MLT,Malta,PPPGDP,
+MLT,Malta,PPPPC,
+MLT,Malta,PPPSH,
+MLT,Malta,PPPEX,
+NLD,"Netherlands, The",PPPGDP,
+NLD,"Netherlands, The",PPPPC,
+NLD,"Netherlands, The",PPPSH,
+NLD,"Netherlands, The",PPPEX,
+NZL,New Zealand,PPPGDP,
+NZL,New Zealand,PPPPC,
+NZL,New Zealand,PPPSH,
+NZL,New Zealand,PPPEX,
+NOR,Norway,PPPGDP,
+NOR,Norway,PPPPC,
+NOR,Norway,PPPSH,
+NOR,Norway,PPPEX,
+PRT,Portugal,PPPGDP,
+PRT,Portugal,PPPPC,
+PRT,Portugal,PPPSH,
+PRT,Portugal,PPPEX,
+PRI,Puerto Rico,NGDP_R,FY2024/25
+PRI,Puerto Rico,NGDP_RPCH,FY2024/25
+PRI,Puerto Rico,NGDP,FY2024/25
+PRI,Puerto Rico,NGDPD,FY2024/25
+PRI,Puerto Rico,PPPGDP,
+PRI,Puerto Rico,NGDP_D,FY2024/25
+PRI,Puerto Rico,NGDPRPC,FY2024/25
+PRI,Puerto Rico,NGDPRPPPPC,FY2024/25
+PRI,Puerto Rico,NGDPPC,FY2024/25
+PRI,Puerto Rico,NGDPDPC,FY2024/25
+PRI,Puerto Rico,PPPPC,
+PRI,Puerto Rico,NGAP_NPGDP,
+PRI,Puerto Rico,PPPSH,
+PRI,Puerto Rico,PPPEX,
+PRI,Puerto Rico,NID_NGDP,FY2024/25
+PRI,Puerto Rico,NGSD_NGDP,
+PRI,Puerto Rico,TM_RPCH,
+PRI,Puerto Rico,TMG_RPCH,
+PRI,Puerto Rico,TX_RPCH,
+PRI,Puerto Rico,TXG_RPCH,
+PRI,Puerto Rico,GGR,FY2023/24
+PRI,Puerto Rico,GGR_NGDP,FY2023/24
+PRI,Puerto Rico,GGX,FY2023/24
+PRI,Puerto Rico,GGX_NGDP,FY2023/24
+PRI,Puerto Rico,GGXCNL,FY2023/24
+PRI,Puerto Rico,GGXCNL_NGDP,FY2023/24
+PRI,Puerto Rico,GGSB,
+PRI,Puerto Rico,GGSB_NPGDP,
+PRI,Puerto Rico,GGXONLB,FY2023/24
+PRI,Puerto Rico,GGXONLB_NGDP,FY2023/24
+PRI,Puerto Rico,GGXWDN,
+PRI,Puerto Rico,GGXWDN_NGDP,
+PRI,Puerto Rico,GGXWDG,FY2023/24
+PRI,Puerto Rico,GGXWDG_NGDP,FY2023/24
+PRI,Puerto Rico,NGDP_FY,FY2024/25
+PRI,Puerto Rico,BCA,
+PRI,Puerto Rico,BCA_NGDPD,
+SMR,"San Marino, Republic of",PPPGDP,
+SMR,"San Marino, Republic of",PPPPC,
+SMR,"San Marino, Republic of",NGAP_NPGDP,
+SMR,"San Marino, Republic of",PPPSH,
+SMR,"San Marino, Republic of",PPPEX,
+SMR,"San Marino, Republic of",NGSD_NGDP,
+SMR,"San Marino, Republic of",TM_RPCH,
+SMR,"San Marino, Republic of",TMG_RPCH,
+SMR,"San Marino, Republic of",TX_RPCH,
+SMR,"San Marino, Republic of",TXG_RPCH,
+SMR,"San Marino, Republic of",LE,
+SMR,"San Marino, Republic of",GGSB,
+SMR,"San Marino, Republic of",GGSB_NPGDP,
+SMR,"San Marino, Republic of",GGXWDN,
+SMR,"San Marino, Republic of",GGXWDN_NGDP,
+SGP,Singapore,PPPGDP,
+SGP,Singapore,PPPPC,
+SGP,Singapore,NGAP_NPGDP,
+SGP,Singapore,PPPSH,
+SGP,Singapore,PPPEX,
+SGP,Singapore,GGR,FY2024/25
+SGP,Singapore,GGR_NGDP,FY2024/25
+SGP,Singapore,GGX,FY2024/25
+SGP,Singapore,GGX_NGDP,FY2024/25
+SGP,Singapore,GGXCNL,FY2024/25
+SGP,Singapore,GGXCNL_NGDP,FY2024/25
+SGP,Singapore,GGSB,FY2024/25
+SGP,Singapore,GGSB_NPGDP,FY2024/25
+SGP,Singapore,GGXONLB,
+SGP,Singapore,GGXONLB_NGDP,
+SGP,Singapore,GGXWDN,
+SGP,Singapore,GGXWDN_NGDP,
+SGP,Singapore,GGXWDG,FY2024/25
+SGP,Singapore,GGXWDG_NGDP,FY2024/25
+SVK,Slovak Republic,PPPGDP,
+SVK,Slovak Republic,PPPPC,
+SVK,Slovak Republic,PPPSH,
+SVK,Slovak Republic,PPPEX,
+SVN,"Slovenia, Republic of",PPPGDP,
+SVN,"Slovenia, Republic of",PPPPC,
+SVN,"Slovenia, Republic of",PPPSH,
+SVN,"Slovenia, Republic of",PPPEX,
+ESP,Spain,PPPGDP,
+ESP,Spain,PPPPC,
+ESP,Spain,PPPSH,
+ESP,Spain,PPPEX,
+SWE,Sweden,PPPGDP,
+SWE,Sweden,PPPPC,
+SWE,Sweden,PPPSH,
+SWE,Sweden,PPPEX,
+CHE,Switzerland,PPPGDP,
+CHE,Switzerland,PPPPC,
+CHE,Switzerland,NGAP_NPGDP,
+CHE,Switzerland,PPPSH,
+CHE,Switzerland,PPPEX,
+TWN,Taiwan Province of China,PPPGDP,
+TWN,Taiwan Province of China,PPPPC,
+TWN,Taiwan Province of China,NGAP_NPGDP,
+TWN,Taiwan Province of China,PPPSH,
+TWN,Taiwan Province of China,PPPEX,
+TWN,Taiwan Province of China,GGXONLB,
+TWN,Taiwan Province of China,GGXONLB_NGDP,
+GBR,United Kingdom,PPPGDP,
+GBR,United Kingdom,PPPPC,
+GBR,United Kingdom,PPPSH,
+GBR,United Kingdom,PPPEX,
+USA,United States,PPPGDP,
+USA,United States,PPPPC,
+USA,United States,PPPSH,
+USA,United States,PPPEX,
+BGD,Bangladesh,NGDP_R,FY2025/26
+BGD,Bangladesh,NGDP_RPCH,FY2025/26
+BGD,Bangladesh,NGDP,FY2025/26
+BGD,Bangladesh,NGDPD,FY2025/26
+BGD,Bangladesh,PPPGDP,
+BGD,Bangladesh,NGDP_D,FY2025/26
+BGD,Bangladesh,NGDPRPC,FY2025/26
+BGD,Bangladesh,NGDPRPPPPC,FY2025/26
+BGD,Bangladesh,NGDPPC,FY2025/26
+BGD,Bangladesh,NGDPDPC,FY2025/26
+BGD,Bangladesh,PPPPC,
+BGD,Bangladesh,NGAP_NPGDP,
+BGD,Bangladesh,PPPSH,
+BGD,Bangladesh,PPPEX,
+BGD,Bangladesh,NID_NGDP,FY2025/26
+BGD,Bangladesh,NGSD_NGDP,FY2025/26
+BGD,Bangladesh,PCPI,FY2025/26
+BGD,Bangladesh,PCPIPCH,FY2025/26
+BGD,Bangladesh,PCPIE,FY2025/26
+BGD,Bangladesh,PCPIEPCH,FY2025/26
+BGD,Bangladesh,TM_RPCH,FY2025/26
+BGD,Bangladesh,TMG_RPCH,FY2025/26
+BGD,Bangladesh,TX_RPCH,FY2025/26
+BGD,Bangladesh,TXG_RPCH,FY2025/26
+BGD,Bangladesh,LUR,
+BGD,Bangladesh,LE,
+BGD,Bangladesh,LP,FY2025/26
+BGD,Bangladesh,GGR,FY2025/26
+BGD,Bangladesh,GGR_NGDP,FY2025/26
+BGD,Bangladesh,GGX,FY2025/26
+BGD,Bangladesh,GGX_NGDP,FY2025/26
+BGD,Bangladesh,GGXCNL,FY2025/26
+BGD,Bangladesh,GGXCNL_NGDP,FY2025/26
+BGD,Bangladesh,GGSB,
+BGD,Bangladesh,GGSB_NPGDP,
+BGD,Bangladesh,GGXONLB,FY2025/26
+BGD,Bangladesh,GGXONLB_NGDP,FY2025/26
+BGD,Bangladesh,GGXWDN,
+BGD,Bangladesh,GGXWDN_NGDP,
+BGD,Bangladesh,GGXWDG,FY2025/26
+BGD,Bangladesh,GGXWDG_NGDP,FY2025/26
+BGD,Bangladesh,NGDP_FY,FY2025/26
+BGD,Bangladesh,BCA,FY2025/26
+BGD,Bangladesh,BCA_NGDPD,FY2025/26
+BTN,Bhutan,NGDP_R,FY2024/25
+BTN,Bhutan,NGDP_RPCH,FY2024/25
+BTN,Bhutan,NGDP,FY2024/25
+BTN,Bhutan,NGDPD,FY2024/25
+BTN,Bhutan,PPPGDP,
+BTN,Bhutan,NGDP_D,FY2024/25
+BTN,Bhutan,NGDPRPC,FY2024/25
+BTN,Bhutan,NGDPRPPPPC,FY2024/25
+BTN,Bhutan,NGDPPC,FY2024/25
+BTN,Bhutan,NGDPDPC,FY2024/25
+BTN,Bhutan,PPPPC,
+BTN,Bhutan,NGAP_NPGDP,
+BTN,Bhutan,PPPSH,
+BTN,Bhutan,PPPEX,
+BTN,Bhutan,NID_NGDP,FY2024/25
+BTN,Bhutan,NGSD_NGDP,FY2024/25
+BTN,Bhutan,PCPI,FY2025/26
+BTN,Bhutan,PCPIPCH,FY2025/26
+BTN,Bhutan,PCPIE,FY2025/26
+BTN,Bhutan,PCPIEPCH,FY2025/26
+BTN,Bhutan,TM_RPCH,FY2024/25
+BTN,Bhutan,TMG_RPCH,FY2024/25
+BTN,Bhutan,TX_RPCH,FY2024/25
+BTN,Bhutan,TXG_RPCH,FY2024/25
+BTN,Bhutan,LE,
+BTN,Bhutan,LP,FY2023/24
+BTN,Bhutan,GGR,FY2024/25
+BTN,Bhutan,GGR_NGDP,FY2024/25
+BTN,Bhutan,GGX,FY2024/25
+BTN,Bhutan,GGX_NGDP,FY2024/25
+BTN,Bhutan,GGXCNL,FY2024/25
+BTN,Bhutan,GGXCNL_NGDP,FY2024/25
+BTN,Bhutan,GGSB,
+BTN,Bhutan,GGSB_NPGDP,
+BTN,Bhutan,GGXONLB,FY2024/25
+BTN,Bhutan,GGXONLB_NGDP,FY2024/25
+BTN,Bhutan,GGXWDN,
+BTN,Bhutan,GGXWDN_NGDP,
+BTN,Bhutan,GGXWDG,FY2024/25
+BTN,Bhutan,GGXWDG_NGDP,FY2024/25
+BTN,Bhutan,NGDP_FY,FY2024/25
+BTN,Bhutan,BCA,FY2024/25
+BTN,Bhutan,BCA_NGDPD,FY2024/25
+BRN,Brunei Darussalam,PPPGDP,
+BRN,Brunei Darussalam,PPPPC,
+BRN,Brunei Darussalam,NGAP_NPGDP,
+BRN,Brunei Darussalam,PPPSH,
+BRN,Brunei Darussalam,PPPEX,
+BRN,Brunei Darussalam,NGSD_NGDP,
+BRN,Brunei Darussalam,LE,
+BRN,Brunei Darussalam,GGSB,
+BRN,Brunei Darussalam,GGSB_NPGDP,
+BRN,Brunei Darussalam,GGXWDN,
+BRN,Brunei Darussalam,GGXWDN_NGDP,
+KHM,Cambodia,PPPGDP,
+KHM,Cambodia,PPPPC,
+KHM,Cambodia,NGAP_NPGDP,
+KHM,Cambodia,PPPSH,
+KHM,Cambodia,PPPEX,
+KHM,Cambodia,LUR,
+KHM,Cambodia,LE,
+KHM,Cambodia,GGSB,
+KHM,Cambodia,GGSB_NPGDP,
+KHM,Cambodia,GGXWDN,
+KHM,Cambodia,GGXWDN_NGDP,
+CHN,"China, People's Republic of",PPPGDP,
+CHN,"China, People's Republic of",PPPPC,
+CHN,"China, People's Republic of",NGAP_NPGDP,
+CHN,"China, People's Republic of",PPPSH,
+CHN,"China, People's Republic of",PPPEX,
+CHN,"China, People's Republic of",LE,
+CHN,"China, People's Republic of",GGXWDN,
+CHN,"China, People's Republic of",GGXWDN_NGDP,
+FJI,"Fiji, Republic of",PPPGDP,
+FJI,"Fiji, Republic of",PPPPC,
+FJI,"Fiji, Republic of",NGAP_NPGDP,
+FJI,"Fiji, Republic of",PPPSH,
+FJI,"Fiji, Republic of",PPPEX,
+FJI,"Fiji, Republic of",NGSD_NGDP,
+FJI,"Fiji, Republic of",TM_RPCH,
+FJI,"Fiji, Republic of",TMG_RPCH,
+FJI,"Fiji, Republic of",TX_RPCH,
+FJI,"Fiji, Republic of",TXG_RPCH,
+FJI,"Fiji, Republic of",LE,
+FJI,"Fiji, Republic of",GGR,FY2024/25
+FJI,"Fiji, Republic of",GGR_NGDP,FY2024/25
+FJI,"Fiji, Republic of",GGX,FY2024/25
+FJI,"Fiji, Republic of",GGX_NGDP,FY2024/25
+FJI,"Fiji, Republic of",GGXCNL,FY2024/25
+FJI,"Fiji, Republic of",GGXCNL_NGDP,FY2024/25
+FJI,"Fiji, Republic of",GGSB,
+FJI,"Fiji, Republic of",GGSB_NPGDP,
+FJI,"Fiji, Republic of",GGXONLB,FY2024/25
+FJI,"Fiji, Republic of",GGXONLB_NGDP,FY2024/25
+FJI,"Fiji, Republic of",GGXWDN,FY2024/25
+FJI,"Fiji, Republic of",GGXWDN_NGDP,FY2024/25
+FJI,"Fiji, Republic of",GGXWDG,FY2024/25
+FJI,"Fiji, Republic of",GGXWDG_NGDP,FY2024/25
+IND,India,NGDP_R,FY2025/26
+IND,India,NGDP_RPCH,FY2025/26
+IND,India,NGDP,FY2025/26
+IND,India,NGDPD,FY2025/26
+IND,India,PPPGDP,
+IND,India,NGDP_D,FY2025/26
+IND,India,NGDPRPC,FY2025/26
+IND,India,NGDPRPPPPC,FY2025/26
+IND,India,NGDPPC,FY2025/26
+IND,India,NGDPDPC,FY2025/26
+IND,India,PPPPC,
+IND,India,NGAP_NPGDP,
+IND,India,PPPSH,
+IND,India,PPPEX,
+IND,India,NID_NGDP,FY2025/26
+IND,India,NGSD_NGDP,FY2025/26
+IND,India,PCPI,FY2025/26
+IND,India,PCPIPCH,FY2025/26
+IND,India,PCPIE,FY2025/26
+IND,India,PCPIEPCH,FY2025/26
+IND,India,TM_RPCH,FY2025/26
+IND,India,TMG_RPCH,FY2025/26
+IND,India,TX_RPCH,FY2025/26
+IND,India,TXG_RPCH,FY2025/26
+IND,India,LUR,FY2024/25
+IND,India,LE,
+IND,India,LP,FY2012/13
+IND,India,GGR,FY2024/25
+IND,India,GGR_NGDP,FY2024/25
+IND,India,GGX,FY2024/25
+IND,India,GGX_NGDP,FY2024/25
+IND,India,GGXCNL,FY2024/25
+IND,India,GGXCNL_NGDP,FY2024/25
+IND,India,GGSB,FY2024/25
+IND,India,GGSB_NPGDP,FY2024/25
+IND,India,GGXONLB,FY2024/25
+IND,India,GGXONLB_NGDP,FY2024/25
+IND,India,GGXWDN,
+IND,India,GGXWDN_NGDP,
+IND,India,GGXWDG,FY2024/25
+IND,India,GGXWDG_NGDP,FY2024/25
+IND,India,NGDP_FY,FY2025/26
+IND,India,BCA,FY2025/26
+IND,India,BCA_NGDPD,FY2025/26
+IDN,Indonesia,PPPGDP,
+IDN,Indonesia,PPPPC,
+IDN,Indonesia,NGAP_NPGDP,
+IDN,Indonesia,PPPSH,
+IDN,Indonesia,PPPEX,
+IDN,Indonesia,LE,
+KIR,Kiribati,PPPGDP,
+KIR,Kiribati,PPPPC,
+KIR,Kiribati,NGAP_NPGDP,
+KIR,Kiribati,PPPSH,
+KIR,Kiribati,PPPEX,
+KIR,Kiribati,NID_NGDP,
+KIR,Kiribati,NGSD_NGDP,
+KIR,Kiribati,LUR,
+KIR,Kiribati,LE,
+KIR,Kiribati,GGSB,
+KIR,Kiribati,GGSB_NPGDP,
+KIR,Kiribati,GGXWDN,
+KIR,Kiribati,GGXWDN_NGDP,
+LAO,Lao People's Democratic Republic,PPPGDP,
+LAO,Lao People's Democratic Republic,PPPPC,
+LAO,Lao People's Democratic Republic,NGAP_NPGDP,
+LAO,Lao People's Democratic Republic,PPPSH,
+LAO,Lao People's Democratic Republic,PPPEX,
+LAO,Lao People's Democratic Republic,NID_NGDP,
+LAO,Lao People's Democratic Republic,NGSD_NGDP,
+LAO,Lao People's Democratic Republic,LUR,
+LAO,Lao People's Democratic Republic,LE,
+LAO,Lao People's Democratic Republic,GGSB,
+LAO,Lao People's Democratic Republic,GGSB_NPGDP,
+LAO,Lao People's Democratic Republic,GGXWDN,
+LAO,Lao People's Democratic Republic,GGXWDN_NGDP,
+MYS,Malaysia,PPPGDP,
+MYS,Malaysia,PPPPC,
+MYS,Malaysia,NGAP_NPGDP,
+MYS,Malaysia,PPPSH,
+MYS,Malaysia,PPPEX,
+MYS,Malaysia,LE,
+MYS,Malaysia,GGXWDN,
+MYS,Malaysia,GGXWDN_NGDP,
+MDV,Maldives,PPPGDP,
+MDV,Maldives,PPPPC,
+MDV,Maldives,NGAP_NPGDP,
+MDV,Maldives,PPPSH,
+MDV,Maldives,PPPEX,
+MDV,Maldives,LUR,
+MDV,Maldives,LE,
+MDV,Maldives,GGSB,
+MDV,Maldives,GGSB_NPGDP,
+MDV,Maldives,GGXWDN,
+MDV,Maldives,GGXWDN_NGDP,
+MHL,"Marshall Islands, Republic of the",NGDP_R,FY2024/25
+MHL,"Marshall Islands, Republic of the",NGDP_RPCH,FY2024/25
+MHL,"Marshall Islands, Republic of the",NGDP,FY2024/25
+MHL,"Marshall Islands, Republic of the",NGDPD,FY2024/25
+MHL,"Marshall Islands, Republic of the",PPPGDP,
+MHL,"Marshall Islands, Republic of the",NGDP_D,FY2024/25
+MHL,"Marshall Islands, Republic of the",NGDPRPC,FY2024/25
+MHL,"Marshall Islands, Republic of the",NGDPRPPPPC,FY2024/25
+MHL,"Marshall Islands, Republic of the",NGDPPC,FY2024/25
+MHL,"Marshall Islands, Republic of the",NGDPDPC,FY2024/25
+MHL,"Marshall Islands, Republic of the",PPPPC,
+MHL,"Marshall Islands, Republic of the",NGAP_NPGDP,
+MHL,"Marshall Islands, Republic of the",PPPSH,
+MHL,"Marshall Islands, Republic of the",PPPEX,
+MHL,"Marshall Islands, Republic of the",NID_NGDP,
+MHL,"Marshall Islands, Republic of the",NGSD_NGDP,
+MHL,"Marshall Islands, Republic of the",PCPI,FY2024/25
+MHL,"Marshall Islands, Republic of the",PCPIPCH,FY2024/25
+MHL,"Marshall Islands, Republic of the",PCPIE,FY2024/25
+MHL,"Marshall Islands, Republic of the",PCPIEPCH,FY2024/25
+MHL,"Marshall Islands, Republic of the",TM_RPCH,
+MHL,"Marshall Islands, Republic of the",TMG_RPCH,
+MHL,"Marshall Islands, Republic of the",TX_RPCH,FY2024/25
+MHL,"Marshall Islands, Republic of the",TXG_RPCH,
+MHL,"Marshall Islands, Republic of the",LUR,
+MHL,"Marshall Islands, Republic of the",LE,
+MHL,"Marshall Islands, Republic of the",LP,FY2024/25
+MHL,"Marshall Islands, Republic of the",GGR,FY2024/25
+MHL,"Marshall Islands, Republic of the",GGR_NGDP,FY2024/25
+MHL,"Marshall Islands, Republic of the",GGX,FY2024/25
+MHL,"Marshall Islands, Republic of the",GGX_NGDP,FY2024/25
+MHL,"Marshall Islands, Republic of the",GGXCNL,FY2024/25
+MHL,"Marshall Islands, Republic of the",GGXCNL_NGDP,FY2024/25
+MHL,"Marshall Islands, Republic of the",GGSB,
+MHL,"Marshall Islands, Republic of the",GGSB_NPGDP,
+MHL,"Marshall Islands, Republic of the",GGXONLB,FY2024/25
+MHL,"Marshall Islands, Republic of the",GGXONLB_NGDP,FY2024/25
+MHL,"Marshall Islands, Republic of the",GGXWDN,
+MHL,"Marshall Islands, Republic of the",GGXWDN_NGDP,
+MHL,"Marshall Islands, Republic of the",GGXWDG,FY2024/25
+MHL,"Marshall Islands, Republic of the",GGXWDG_NGDP,FY2024/25
+MHL,"Marshall Islands, Republic of the",NGDP_FY,FY2024/25
+MHL,"Marshall Islands, Republic of the",BCA,FY2024/25
+MHL,"Marshall Islands, Republic of the",BCA_NGDPD,FY2024/25
+FSM,"Micronesia, Federated States of",NGDP_R,FY2024/25
+FSM,"Micronesia, Federated States of",NGDP_RPCH,FY2024/25
+FSM,"Micronesia, Federated States of",NGDP,FY2024/25
+FSM,"Micronesia, Federated States of",NGDPD,FY2024/25
+FSM,"Micronesia, Federated States of",PPPGDP,
+FSM,"Micronesia, Federated States of",NGDP_D,FY2024/25
+FSM,"Micronesia, Federated States of",NGDPRPC,FY2024/25
+FSM,"Micronesia, Federated States of",NGDPRPPPPC,FY2024/25
+FSM,"Micronesia, Federated States of",NGDPPC,FY2024/25
+FSM,"Micronesia, Federated States of",NGDPDPC,FY2024/25
+FSM,"Micronesia, Federated States of",PPPPC,
+FSM,"Micronesia, Federated States of",NGAP_NPGDP,
+FSM,"Micronesia, Federated States of",PPPSH,
+FSM,"Micronesia, Federated States of",PPPEX,
+FSM,"Micronesia, Federated States of",NID_NGDP,
+FSM,"Micronesia, Federated States of",NGSD_NGDP,
+FSM,"Micronesia, Federated States of",PCPI,FY2024/25
+FSM,"Micronesia, Federated States of",PCPIPCH,FY2024/25
+FSM,"Micronesia, Federated States of",PCPIE,FY2024/25
+FSM,"Micronesia, Federated States of",PCPIEPCH,FY2024/25
+FSM,"Micronesia, Federated States of",TM_RPCH,
+FSM,"Micronesia, Federated States of",TMG_RPCH,
+FSM,"Micronesia, Federated States of",TX_RPCH,
+FSM,"Micronesia, Federated States of",TXG_RPCH,
+FSM,"Micronesia, Federated States of",LUR,
+FSM,"Micronesia, Federated States of",LE,
+FSM,"Micronesia, Federated States of",LP,FY2022/23
+FSM,"Micronesia, Federated States of",GGR,FY2023/24
+FSM,"Micronesia, Federated States of",GGR_NGDP,FY2023/24
+FSM,"Micronesia, Federated States of",GGX,FY2023/24
+FSM,"Micronesia, Federated States of",GGX_NGDP,FY2023/24
+FSM,"Micronesia, Federated States of",GGXCNL,FY2023/24
+FSM,"Micronesia, Federated States of",GGXCNL_NGDP,FY2023/24
+FSM,"Micronesia, Federated States of",GGSB,
+FSM,"Micronesia, Federated States of",GGSB_NPGDP,
+FSM,"Micronesia, Federated States of",GGXONLB,FY2023/24
+FSM,"Micronesia, Federated States of",GGXONLB_NGDP,FY2023/24
+FSM,"Micronesia, Federated States of",GGXWDN,
+FSM,"Micronesia, Federated States of",GGXWDN_NGDP,
+FSM,"Micronesia, Federated States of",GGXWDG,FY2023/24
+FSM,"Micronesia, Federated States of",GGXWDG_NGDP,FY2023/24
+FSM,"Micronesia, Federated States of",NGDP_FY,FY2024/25
+FSM,"Micronesia, Federated States of",BCA,FY2022/23
+FSM,"Micronesia, Federated States of",BCA_NGDPD,FY2022/23
+MNG,Mongolia,PPPGDP,
+MNG,Mongolia,PPPPC,
+MNG,Mongolia,NGAP_NPGDP,
+MNG,Mongolia,PPPSH,
+MNG,Mongolia,PPPEX,
+MNG,Mongolia,LE,
+MNG,Mongolia,GGSB,
+MNG,Mongolia,GGSB_NPGDP,
+MNG,Mongolia,GGXWDN,
+MNG,Mongolia,GGXWDN_NGDP,
+MMR,Myanmar,NGDP_R,FY2021/22
+MMR,Myanmar,NGDP_RPCH,FY2021/22
+MMR,Myanmar,NGDP,FY2021/22
+MMR,Myanmar,NGDPD,FY2021/22
+MMR,Myanmar,PPPGDP,
+MMR,Myanmar,NGDP_D,FY2021/22
+MMR,Myanmar,NGDPRPC,FY2021/22
+MMR,Myanmar,NGDPRPPPPC,FY2021/22
+MMR,Myanmar,NGDPPC,FY2021/22
+MMR,Myanmar,NGDPDPC,FY2021/22
+MMR,Myanmar,PPPPC,
+MMR,Myanmar,NGAP_NPGDP,
+MMR,Myanmar,PPPSH,
+MMR,Myanmar,PPPEX,
+MMR,Myanmar,NID_NGDP,FY2021/22
+MMR,Myanmar,NGSD_NGDP,FY2021/22
+MMR,Myanmar,PCPI,FY2023/24
+MMR,Myanmar,PCPIPCH,FY2023/24
+MMR,Myanmar,PCPIE,FY2023/24
+MMR,Myanmar,PCPIEPCH,FY2023/24
+MMR,Myanmar,TM_RPCH,FY2022/23
+MMR,Myanmar,TMG_RPCH,FY2022/23
+MMR,Myanmar,TX_RPCH,FY2022/23
+MMR,Myanmar,TXG_RPCH,FY2022/23
+MMR,Myanmar,LUR,
+MMR,Myanmar,LE,
+MMR,Myanmar,GGR,FY2019/20
+MMR,Myanmar,GGR_NGDP,FY2019/20
+MMR,Myanmar,GGX,FY2019/20
+MMR,Myanmar,GGX_NGDP,FY2019/20
+MMR,Myanmar,GGXCNL,FY2019/20
+MMR,Myanmar,GGXCNL_NGDP,FY2019/20
+MMR,Myanmar,GGSB,
+MMR,Myanmar,GGSB_NPGDP,
+MMR,Myanmar,GGXONLB,FY2019/20
+MMR,Myanmar,GGXONLB_NGDP,FY2019/20
+MMR,Myanmar,GGXWDN,
+MMR,Myanmar,GGXWDN_NGDP,
+MMR,Myanmar,GGXWDG,FY2019/20
+MMR,Myanmar,GGXWDG_NGDP,FY2019/20
+MMR,Myanmar,NGDP_FY,FY2021/22
+MMR,Myanmar,BCA,FY2021/22
+MMR,Myanmar,BCA_NGDPD,FY2021/22
+NRU,"Naoero, Republic of",NGDP_R,FY2020/21
+NRU,"Naoero, Republic of",NGDP_RPCH,FY2020/21
+NRU,"Naoero, Republic of",NGDP,FY2020/21
+NRU,"Naoero, Republic of",NGDPD,FY2020/21
+NRU,"Naoero, Republic of",PPPGDP,
+NRU,"Naoero, Republic of",NGDP_D,FY2020/21
+NRU,"Naoero, Republic of",NGDPRPC,FY2020/21
+NRU,"Naoero, Republic of",NGDPRPPPPC,FY2020/21
+NRU,"Naoero, Republic of",NGDPPC,FY2020/21
+NRU,"Naoero, Republic of",NGDPDPC,FY2020/21
+NRU,"Naoero, Republic of",PPPPC,
+NRU,"Naoero, Republic of",NGAP_NPGDP,
+NRU,"Naoero, Republic of",PPPSH,
+NRU,"Naoero, Republic of",PPPEX,
+NRU,"Naoero, Republic of",NID_NGDP,
+NRU,"Naoero, Republic of",NGSD_NGDP,
+NRU,"Naoero, Republic of",PCPI,FY2023/24
+NRU,"Naoero, Republic of",PCPIPCH,FY2023/24
+NRU,"Naoero, Republic of",PCPIE,FY2023/24
+NRU,"Naoero, Republic of",PCPIEPCH,FY2023/24
+NRU,"Naoero, Republic of",TM_RPCH,
+NRU,"Naoero, Republic of",TMG_RPCH,
+NRU,"Naoero, Republic of",TX_RPCH,
+NRU,"Naoero, Republic of",TXG_RPCH,
+NRU,"Naoero, Republic of",LUR,
+NRU,"Naoero, Republic of",LE,
+NRU,"Naoero, Republic of",LP,FY2019/20
+NRU,"Naoero, Republic of",GGR,FY2024/25
+NRU,"Naoero, Republic of",GGR_NGDP,FY2024/25
+NRU,"Naoero, Republic of",GGX,FY2024/25
+NRU,"Naoero, Republic of",GGX_NGDP,FY2024/25
+NRU,"Naoero, Republic of",GGXCNL,FY2024/25
+NRU,"Naoero, Republic of",GGXCNL_NGDP,FY2024/25
+NRU,"Naoero, Republic of",GGSB,
+NRU,"Naoero, Republic of",GGSB_NPGDP,
+NRU,"Naoero, Republic of",GGXONLB,
+NRU,"Naoero, Republic of",GGXONLB_NGDP,
+NRU,"Naoero, Republic of",GGXWDN,
+NRU,"Naoero, Republic of",GGXWDN_NGDP,
+NRU,"Naoero, Republic of",GGXWDG,FY2024/25
+NRU,"Naoero, Republic of",GGXWDG_NGDP,FY2024/25
+NRU,"Naoero, Republic of",NGDP_FY,FY2020/21
+NRU,"Naoero, Republic of",BCA,FY2024/25
+NRU,"Naoero, Republic of",BCA_NGDPD,FY2024/25
+NPL,Nepal,NGDP_R,FY2025/26
+NPL,Nepal,NGDP_RPCH,FY2025/26
+NPL,Nepal,NGDP,FY2025/26
+NPL,Nepal,NGDPD,FY2025/26
+NPL,Nepal,PPPGDP,
+NPL,Nepal,NGDP_D,FY2025/26
+NPL,Nepal,NGDPRPC,FY2025/26
+NPL,Nepal,NGDPRPPPPC,FY2025/26
+NPL,Nepal,NGDPPC,FY2025/26
+NPL,Nepal,NGDPDPC,FY2025/26
+NPL,Nepal,PPPPC,
+NPL,Nepal,NGAP_NPGDP,
+NPL,Nepal,PPPSH,
+NPL,Nepal,PPPEX,
+NPL,Nepal,NID_NGDP,FY2025/26
+NPL,Nepal,NGSD_NGDP,FY2025/26
+NPL,Nepal,PCPI,FY2025/26
+NPL,Nepal,PCPIPCH,FY2025/26
+NPL,Nepal,PCPIE,FY2025/26
+NPL,Nepal,PCPIEPCH,FY2025/26
+NPL,Nepal,TM_RPCH,
+NPL,Nepal,TMG_RPCH,
+NPL,Nepal,TX_RPCH,
+NPL,Nepal,TXG_RPCH,
+NPL,Nepal,LUR,
+NPL,Nepal,LE,
+NPL,Nepal,GGR,FY2025/26
+NPL,Nepal,GGR_NGDP,FY2025/26
+NPL,Nepal,GGX,FY2025/26
+NPL,Nepal,GGX_NGDP,FY2025/26
+NPL,Nepal,GGXCNL,FY2025/26
+NPL,Nepal,GGXCNL_NGDP,FY2025/26
+NPL,Nepal,GGSB,
+NPL,Nepal,GGSB_NPGDP,
+NPL,Nepal,GGXONLB,FY2025/26
+NPL,Nepal,GGXONLB_NGDP,FY2025/26
+NPL,Nepal,GGXWDN,
+NPL,Nepal,GGXWDN_NGDP,
+NPL,Nepal,GGXWDG,FY2025/26
+NPL,Nepal,GGXWDG_NGDP,FY2025/26
+NPL,Nepal,NGDP_FY,FY2025/26
+NPL,Nepal,BCA,FY2025/26
+NPL,Nepal,BCA_NGDPD,FY2025/26
+PLW,"Palau, Republic of",NGDP_R,FY2024/25
+PLW,"Palau, Republic of",NGDP_RPCH,FY2024/25
+PLW,"Palau, Republic of",NGDP,FY2024/25
+PLW,"Palau, Republic of",NGDPD,FY2024/25
+PLW,"Palau, Republic of",PPPGDP,
+PLW,"Palau, Republic of",NGDP_D,FY2024/25
+PLW,"Palau, Republic of",NGDPRPC,FY2024/25
+PLW,"Palau, Republic of",NGDPRPPPPC,FY2024/25
+PLW,"Palau, Republic of",NGDPPC,FY2024/25
+PLW,"Palau, Republic of",NGDPDPC,FY2024/25
+PLW,"Palau, Republic of",PPPPC,
+PLW,"Palau, Republic of",NGAP_NPGDP,
+PLW,"Palau, Republic of",PPPSH,
+PLW,"Palau, Republic of",PPPEX,
+PLW,"Palau, Republic of",NID_NGDP,FY2024/25
+PLW,"Palau, Republic of",NGSD_NGDP,
+PLW,"Palau, Republic of",TM_RPCH,FY2024/25
+PLW,"Palau, Republic of",TMG_RPCH,FY2024/25
+PLW,"Palau, Republic of",TX_RPCH,FY2024/25
+PLW,"Palau, Republic of",TXG_RPCH,FY2024/25
+PLW,"Palau, Republic of",LUR,
+PLW,"Palau, Republic of",LE,
+PLW,"Palau, Republic of",GGR,FY2024/25
+PLW,"Palau, Republic of",GGR_NGDP,FY2024/25
+PLW,"Palau, Republic of",GGX,FY2024/25
+PLW,"Palau, Republic of",GGX_NGDP,FY2024/25
+PLW,"Palau, Republic of",GGXCNL,FY2024/25
+PLW,"Palau, Republic of",GGXCNL_NGDP,FY2024/25
+PLW,"Palau, Republic of",GGSB,
+PLW,"Palau, Republic of",GGSB_NPGDP,
+PLW,"Palau, Republic of",GGXONLB,
+PLW,"Palau, Republic of",GGXONLB_NGDP,
+PLW,"Palau, Republic of",GGXWDN,
+PLW,"Palau, Republic of",GGXWDN_NGDP,
+PLW,"Palau, Republic of",GGXWDG,FY2024/25
+PLW,"Palau, Republic of",GGXWDG_NGDP,FY2024/25
+PLW,"Palau, Republic of",NGDP_FY,FY2024/25
+PLW,"Palau, Republic of",BCA,FY2024/25
+PLW,"Palau, Republic of",BCA_NGDPD,FY2024/25
+PNG,Papua New Guinea,PPPGDP,
+PNG,Papua New Guinea,PPPPC,
+PNG,Papua New Guinea,NGAP_NPGDP,
+PNG,Papua New Guinea,PPPSH,
+PNG,Papua New Guinea,PPPEX,
+PNG,Papua New Guinea,NID_NGDP,
+PNG,Papua New Guinea,NGSD_NGDP,
+PNG,Papua New Guinea,LUR,
+PNG,Papua New Guinea,LE,
+PNG,Papua New Guinea,GGSB,
+PNG,Papua New Guinea,GGSB_NPGDP,
+PNG,Papua New Guinea,GGXWDN,
+PNG,Papua New Guinea,GGXWDN_NGDP,
+PHL,Philippines,PPPGDP,
+PHL,Philippines,PPPPC,
+PHL,Philippines,NGAP_NPGDP,
+PHL,Philippines,PPPSH,
+PHL,Philippines,PPPEX,
+PHL,Philippines,LE,
+PHL,Philippines,GGXWDN,
+PHL,Philippines,GGXWDN_NGDP,
+WSM,Samoa,NGDP_R,FY2024/25
+WSM,Samoa,NGDP_RPCH,FY2024/25
+WSM,Samoa,NGDP,FY2024/25
+WSM,Samoa,NGDPD,FY2024/25
+WSM,Samoa,PPPGDP,
+WSM,Samoa,NGDP_D,FY2024/25
+WSM,Samoa,NGDPRPC,FY2024/25
+WSM,Samoa,NGDPRPPPPC,FY2024/25
+WSM,Samoa,NGDPPC,FY2024/25
+WSM,Samoa,NGDPDPC,FY2024/25
+WSM,Samoa,PPPPC,
+WSM,Samoa,NGAP_NPGDP,
+WSM,Samoa,PPPSH,
+WSM,Samoa,PPPEX,
+WSM,Samoa,NID_NGDP,
+WSM,Samoa,NGSD_NGDP,
+WSM,Samoa,PCPI,FY2025/26
+WSM,Samoa,PCPIPCH,FY2025/26
+WSM,Samoa,PCPIE,FY2025/26
+WSM,Samoa,PCPIEPCH,FY2025/26
+WSM,Samoa,TM_RPCH,
+WSM,Samoa,TMG_RPCH,
+WSM,Samoa,TX_RPCH,
+WSM,Samoa,TXG_RPCH,
+WSM,Samoa,LUR,
+WSM,Samoa,LE,
+WSM,Samoa,GGR,FY2025/26
+WSM,Samoa,GGR_NGDP,FY2025/26
+WSM,Samoa,GGX,FY2025/26
+WSM,Samoa,GGX_NGDP,FY2025/26
+WSM,Samoa,GGXCNL,FY2025/26
+WSM,Samoa,GGXCNL_NGDP,FY2025/26
+WSM,Samoa,GGSB,
+WSM,Samoa,GGSB_NPGDP,
+WSM,Samoa,GGXONLB,
+WSM,Samoa,GGXONLB_NGDP,
+WSM,Samoa,GGXWDN,
+WSM,Samoa,GGXWDN_NGDP,
+WSM,Samoa,GGXWDG,FY2025/26
+WSM,Samoa,GGXWDG_NGDP,FY2025/26
+WSM,Samoa,NGDP_FY,FY2024/25
+WSM,Samoa,BCA,FY2024/25
+WSM,Samoa,BCA_NGDPD,FY2024/25
+SLB,Solomon Islands,PPPGDP,
+SLB,Solomon Islands,PPPPC,
+SLB,Solomon Islands,NGAP_NPGDP,
+SLB,Solomon Islands,PPPSH,
+SLB,Solomon Islands,PPPEX,
+SLB,Solomon Islands,LUR,
+SLB,Solomon Islands,LE,
+SLB,Solomon Islands,GGSB,
+SLB,Solomon Islands,GGSB_NPGDP,
+SLB,Solomon Islands,GGXWDN,
+SLB,Solomon Islands,GGXWDN_NGDP,
+LKA,Sri Lanka,PPPGDP,
+LKA,Sri Lanka,PPPPC,
+LKA,Sri Lanka,NGAP_NPGDP,
+LKA,Sri Lanka,PPPSH,
+LKA,Sri Lanka,PPPEX,
+LKA,Sri Lanka,LE,
+LKA,Sri Lanka,GGSB,
+LKA,Sri Lanka,GGSB_NPGDP,
+LKA,Sri Lanka,GGXWDN,
+LKA,Sri Lanka,GGXWDN_NGDP,
+THA,Thailand,PPPGDP,
+THA,Thailand,PPPPC,
+THA,Thailand,NGAP_NPGDP,
+THA,Thailand,PPPSH,
+THA,Thailand,PPPEX,
+THA,Thailand,LE,
+THA,Thailand,GGR,FY2024/25
+THA,Thailand,GGR_NGDP,FY2024/25
+THA,Thailand,GGX,FY2024/25
+THA,Thailand,GGX_NGDP,FY2024/25
+THA,Thailand,GGXCNL,FY2024/25
+THA,Thailand,GGXCNL_NGDP,FY2024/25
+THA,Thailand,GGSB,FY2024/25
+THA,Thailand,GGSB_NPGDP,FY2024/25
+THA,Thailand,GGXONLB,FY2024/25
+THA,Thailand,GGXONLB_NGDP,FY2024/25
+THA,Thailand,GGXWDN,
+THA,Thailand,GGXWDN_NGDP,
+THA,Thailand,GGXWDG,FY2024/25
+THA,Thailand,GGXWDG_NGDP,FY2024/25
+TLS,"Timor-Leste, Democratic Republic of",PPPGDP,
+TLS,"Timor-Leste, Democratic Republic of",PPPPC,
+TLS,"Timor-Leste, Democratic Republic of",NGAP_NPGDP,
+TLS,"Timor-Leste, Democratic Republic of",PPPSH,
+TLS,"Timor-Leste, Democratic Republic of",PPPEX,
+TLS,"Timor-Leste, Democratic Republic of",NGSD_NGDP,
+TLS,"Timor-Leste, Democratic Republic of",TM_RPCH,
+TLS,"Timor-Leste, Democratic Republic of",TMG_RPCH,
+TLS,"Timor-Leste, Democratic Republic of",TX_RPCH,
+TLS,"Timor-Leste, Democratic Republic of",TXG_RPCH,
+TLS,"Timor-Leste, Democratic Republic of",LUR,
+TLS,"Timor-Leste, Democratic Republic of",LE,
+TLS,"Timor-Leste, Democratic Republic of",GGSB,
+TLS,"Timor-Leste, Democratic Republic of",GGSB_NPGDP,
+TLS,"Timor-Leste, Democratic Republic of",GGXWDN,
+TLS,"Timor-Leste, Democratic Republic of",GGXWDN_NGDP,
+TON,Tonga,NGDP_R,FY2024/25
+TON,Tonga,NGDP_RPCH,FY2024/25
+TON,Tonga,NGDP,FY2024/25
+TON,Tonga,NGDPD,FY2024/25
+TON,Tonga,PPPGDP,
+TON,Tonga,NGDP_D,FY2024/25
+TON,Tonga,NGDPRPC,FY2024/25
+TON,Tonga,NGDPRPPPPC,FY2024/25
+TON,Tonga,NGDPPC,FY2024/25
+TON,Tonga,NGDPDPC,FY2024/25
+TON,Tonga,PPPPC,
+TON,Tonga,NGAP_NPGDP,
+TON,Tonga,PPPSH,
+TON,Tonga,PPPEX,
+TON,Tonga,NID_NGDP,
+TON,Tonga,NGSD_NGDP,
+TON,Tonga,PCPI,FY2024/25
+TON,Tonga,PCPIPCH,FY2024/25
+TON,Tonga,PCPIE,FY2024/25
+TON,Tonga,PCPIEPCH,FY2024/25
+TON,Tonga,TM_RPCH,FY2024/25
+TON,Tonga,TMG_RPCH,FY2024/25
+TON,Tonga,TX_RPCH,FY2024/25
+TON,Tonga,TXG_RPCH,FY2024/25
+TON,Tonga,LUR,
+TON,Tonga,LE,
+TON,Tonga,LP,FY2019/20
+TON,Tonga,GGR,FY2024/25
+TON,Tonga,GGR_NGDP,FY2024/25
+TON,Tonga,GGX,FY2024/25
+TON,Tonga,GGX_NGDP,FY2024/25
+TON,Tonga,GGXCNL,FY2024/25
+TON,Tonga,GGXCNL_NGDP,FY2024/25
+TON,Tonga,GGSB,
+TON,Tonga,GGSB_NPGDP,
+TON,Tonga,GGXONLB,FY2024/25
+TON,Tonga,GGXONLB_NGDP,FY2024/25
+TON,Tonga,GGXWDN,
+TON,Tonga,GGXWDN_NGDP,
+TON,Tonga,GGXWDG,FY2024/25
+TON,Tonga,GGXWDG_NGDP,FY2024/25
+TON,Tonga,NGDP_FY,FY2024/25
+TON,Tonga,BCA,FY2023/24
+TON,Tonga,BCA_NGDPD,FY2023/24
+TUV,Tuvalu,PPPGDP,
+TUV,Tuvalu,PPPPC,
+TUV,Tuvalu,NGAP_NPGDP,
+TUV,Tuvalu,PPPSH,
+TUV,Tuvalu,PPPEX,
+TUV,Tuvalu,NID_NGDP,
+TUV,Tuvalu,NGSD_NGDP,
+TUV,Tuvalu,TM_RPCH,
+TUV,Tuvalu,TMG_RPCH,
+TUV,Tuvalu,TX_RPCH,
+TUV,Tuvalu,TXG_RPCH,
+TUV,Tuvalu,LUR,
+TUV,Tuvalu,LE,
+TUV,Tuvalu,GGSB,
+TUV,Tuvalu,GGSB_NPGDP,
+TUV,Tuvalu,GGXWDN,
+TUV,Tuvalu,GGXWDN_NGDP,
+VUT,Vanuatu,PPPGDP,
+VUT,Vanuatu,PPPPC,
+VUT,Vanuatu,NGAP_NPGDP,
+VUT,Vanuatu,PPPSH,
+VUT,Vanuatu,PPPEX,
+VUT,Vanuatu,NGSD_NGDP,
+VUT,Vanuatu,TM_RPCH,
+VUT,Vanuatu,TMG_RPCH,
+VUT,Vanuatu,TX_RPCH,
+VUT,Vanuatu,TXG_RPCH,
+VUT,Vanuatu,LUR,
+VUT,Vanuatu,LE,
+VUT,Vanuatu,GGSB,
+VUT,Vanuatu,GGSB_NPGDP,
+VUT,Vanuatu,GGXWDN,
+VUT,Vanuatu,GGXWDN_NGDP,
+VNM,Vietnam,PPPGDP,
+VNM,Vietnam,PPPPC,
+VNM,Vietnam,NGAP_NPGDP,
+VNM,Vietnam,PPPSH,
+VNM,Vietnam,PPPEX,
+VNM,Vietnam,LE,
+VNM,Vietnam,GGSB_NPGDP,
+VNM,Vietnam,GGXWDN,
+VNM,Vietnam,GGXWDN_NGDP,
+ALB,Albania,PPPGDP,
+ALB,Albania,PPPPC,
+ALB,Albania,NGAP_NPGDP,
+ALB,Albania,PPPSH,
+ALB,Albania,PPPEX,
+ALB,Albania,LE,
+ALB,Albania,GGSB,
+ALB,Albania,GGSB_NPGDP,
+BLR,"Belarus, Republic of",PPPGDP,
+BLR,"Belarus, Republic of",PPPPC,
+BLR,"Belarus, Republic of",NGAP_NPGDP,
+BLR,"Belarus, Republic of",PPPSH,
+BLR,"Belarus, Republic of",PPPEX,
+BLR,"Belarus, Republic of",LE,
+BLR,"Belarus, Republic of",GGXWDN,
+BLR,"Belarus, Republic of",GGXWDN_NGDP,
+BIH,Bosnia and Herzegovina,PPPGDP,
+BIH,Bosnia and Herzegovina,PPPPC,
+BIH,Bosnia and Herzegovina,NGAP_NPGDP,
+BIH,Bosnia and Herzegovina,PPPSH,
+BIH,Bosnia and Herzegovina,PPPEX,
+BIH,Bosnia and Herzegovina,LE,
+BGR,Bulgaria,PPPGDP,
+BGR,Bulgaria,PPPPC,
+BGR,Bulgaria,NGAP_NPGDP,
+BGR,Bulgaria,PPPSH,
+BGR,Bulgaria,PPPEX,
+BGR,Bulgaria,LE,
+HUN,Hungary,PPPGDP,
+HUN,Hungary,PPPPC,
+HUN,Hungary,NGAP_NPGDP,
+HUN,Hungary,PPPSH,
+HUN,Hungary,PPPEX,
+HUN,Hungary,LE,
+KOS,"Kosovo, Republic of",PPPGDP,
+KOS,"Kosovo, Republic of",PPPPC,
+KOS,"Kosovo, Republic of",NGAP_NPGDP,
+KOS,"Kosovo, Republic of",PPPSH,
+KOS,"Kosovo, Republic of",PPPEX,
+KOS,"Kosovo, Republic of",LE,
+KOS,"Kosovo, Republic of",GGXWDN,
+KOS,"Kosovo, Republic of",GGXWDN_NGDP,
+MDA,"Moldova, Republic of",PPPGDP,
+MDA,"Moldova, Republic of",PPPPC,
+MDA,"Moldova, Republic of",NGAP_NPGDP,
+MDA,"Moldova, Republic of",PPPSH,
+MDA,"Moldova, Republic of",PPPEX,
+MDA,"Moldova, Republic of",LE,
+MDA,"Moldova, Republic of",GGSB,
+MDA,"Moldova, Republic of",GGSB_NPGDP,
+MDA,"Moldova, Republic of",GGXWDN,
+MDA,"Moldova, Republic of",GGXWDN_NGDP,
+MNE,Montenegro,PPPGDP,
+MNE,Montenegro,PPPPC,
+MNE,Montenegro,NGAP_NPGDP,
+MNE,Montenegro,PPPSH,
+MNE,Montenegro,PPPEX,
+MNE,Montenegro,LUR,
+MNE,Montenegro,LE,
+MNE,Montenegro,GGSB,
+MNE,Montenegro,GGSB_NPGDP,
+MNE,Montenegro,GGXWDN,
+MNE,Montenegro,GGXWDN_NGDP,
+MKD,"North Macedonia, Republic of",PPPGDP,
+MKD,"North Macedonia, Republic of",PPPPC,
+MKD,"North Macedonia, Republic of",NGAP_NPGDP,
+MKD,"North Macedonia, Republic of",PPPSH,
+MKD,"North Macedonia, Republic of",PPPEX,
+MKD,"North Macedonia, Republic of",NID_NGDP,
+MKD,"North Macedonia, Republic of",LE,
+MKD,"North Macedonia, Republic of",GGSB,
+MKD,"North Macedonia, Republic of",GGSB_NPGDP,
+POL,"Poland, Republic of",PPPGDP,
+POL,"Poland, Republic of",PPPPC,
+POL,"Poland, Republic of",NGAP_NPGDP,
+POL,"Poland, Republic of",PPPSH,
+POL,"Poland, Republic of",PPPEX,
+POL,"Poland, Republic of",LE,
+ROU,Romania,PPPGDP,
+ROU,Romania,PPPPC,
+ROU,Romania,NGAP_NPGDP,
+ROU,Romania,PPPSH,
+ROU,Romania,PPPEX,
+ROU,Romania,LE,
+RUS,Russian Federation,PPPGDP,
+RUS,Russian Federation,PPPPC,
+RUS,Russian Federation,NGAP_NPGDP,
+RUS,Russian Federation,PPPSH,
+RUS,Russian Federation,PPPEX,
+RUS,Russian Federation,LE,
+RUS,Russian Federation,GGXWDN,
+RUS,Russian Federation,GGXWDN_NGDP,
+SRB,"Serbia, Republic of",PPPGDP,
+SRB,"Serbia, Republic of",PPPPC,
+SRB,"Serbia, Republic of",NGAP_NPGDP,
+SRB,"Serbia, Republic of",PPPSH,
+SRB,"Serbia, Republic of",PPPEX,
+SRB,"Serbia, Republic of",LE,
+TUR,"Türkiye, Republic of",PPPGDP,
+TUR,"Türkiye, Republic of",PPPPC,
+TUR,"Türkiye, Republic of",NGAP_NPGDP,
+TUR,"Türkiye, Republic of",PPPSH,
+TUR,"Türkiye, Republic of",PPPEX,
+TUR,"Türkiye, Republic of",LE,
+UKR,Ukraine,PPPGDP,
+UKR,Ukraine,PPPPC,
+UKR,Ukraine,NGAP_NPGDP,
+UKR,Ukraine,PPPSH,
+UKR,Ukraine,PPPEX,
+UKR,Ukraine,LE,
+UKR,Ukraine,GGXWDN,
+UKR,Ukraine,GGXWDN_NGDP,
+ATG,Antigua and Barbuda,PPPGDP,
+ATG,Antigua and Barbuda,PPPPC,
+ATG,Antigua and Barbuda,NGAP_NPGDP,
+ATG,Antigua and Barbuda,PPPSH,
+ATG,Antigua and Barbuda,PPPEX,
+ATG,Antigua and Barbuda,LUR,
+ATG,Antigua and Barbuda,LE,
+ATG,Antigua and Barbuda,GGSB,
+ATG,Antigua and Barbuda,GGSB_NPGDP,
+ATG,Antigua and Barbuda,GGXWDN,
+ATG,Antigua and Barbuda,GGXWDN_NGDP,
+ARG,Argentina,PPPGDP,
+ARG,Argentina,PPPPC,
+ARG,Argentina,NGAP_NPGDP,
+ARG,Argentina,PPPSH,
+ARG,Argentina,PPPEX,
+ARG,Argentina,LE,
+ARG,Argentina,GGXWDN,
+ARG,Argentina,GGXWDN_NGDP,
+ABW,"Aruba, Kingdom of the Netherlands",PPPGDP,
+ABW,"Aruba, Kingdom of the Netherlands",PPPPC,
+ABW,"Aruba, Kingdom of the Netherlands",NGAP_NPGDP,
+ABW,"Aruba, Kingdom of the Netherlands",PPPSH,
+ABW,"Aruba, Kingdom of the Netherlands",PPPEX,
+ABW,"Aruba, Kingdom of the Netherlands",NID_NGDP,
+ABW,"Aruba, Kingdom of the Netherlands",TM_RPCH,
+ABW,"Aruba, Kingdom of the Netherlands",TMG_RPCH,
+ABW,"Aruba, Kingdom of the Netherlands",TX_RPCH,
+ABW,"Aruba, Kingdom of the Netherlands",TXG_RPCH,
+ABW,"Aruba, Kingdom of the Netherlands",LE,
+ABW,"Aruba, Kingdom of the Netherlands",GGSB,
+ABW,"Aruba, Kingdom of the Netherlands",GGSB_NPGDP,
+ABW,"Aruba, Kingdom of the Netherlands",GGXWDN,
+ABW,"Aruba, Kingdom of the Netherlands",GGXWDN_NGDP,
+BHS,"Bahamas, The",PPPGDP,
+BHS,"Bahamas, The",PPPPC,
+BHS,"Bahamas, The",NGAP_NPGDP,
+BHS,"Bahamas, The",PPPSH,
+BHS,"Bahamas, The",PPPEX,
+BHS,"Bahamas, The",LE,
+BHS,"Bahamas, The",GGR,FY2024/25
+BHS,"Bahamas, The",GGR_NGDP,FY2024/25
+BHS,"Bahamas, The",GGX,FY2024/25
+BHS,"Bahamas, The",GGX_NGDP,FY2024/25
+BHS,"Bahamas, The",GGXCNL,FY2024/25
+BHS,"Bahamas, The",GGXCNL_NGDP,FY2024/25
+BHS,"Bahamas, The",GGSB,
+BHS,"Bahamas, The",GGSB_NPGDP,
+BHS,"Bahamas, The",GGXONLB,FY2024/25
+BHS,"Bahamas, The",GGXONLB_NGDP,FY2024/25
+BHS,"Bahamas, The",GGXWDN,
+BHS,"Bahamas, The",GGXWDN_NGDP,
+BHS,"Bahamas, The",GGXWDG,FY2024/25
+BHS,"Bahamas, The",GGXWDG_NGDP,FY2024/25
+BRB,Barbados,PPPGDP,
+BRB,Barbados,PPPPC,
+BRB,Barbados,NGAP_NPGDP,
+BRB,Barbados,PPPSH,
+BRB,Barbados,PPPEX,
+BRB,Barbados,LE,
+BRB,Barbados,GGR,FY2025/26
+BRB,Barbados,GGR_NGDP,FY2025/26
+BRB,Barbados,GGX,FY2025/26
+BRB,Barbados,GGX_NGDP,FY2025/26
+BRB,Barbados,GGXCNL,FY2025/26
+BRB,Barbados,GGXCNL_NGDP,FY2025/26
+BRB,Barbados,GGSB,FY2025/26
+BRB,Barbados,GGSB_NPGDP,FY2025/26
+BRB,Barbados,GGXONLB,FY2025/26
+BRB,Barbados,GGXONLB_NGDP,FY2025/26
+BRB,Barbados,GGXWDN,FY2025/26
+BRB,Barbados,GGXWDN_NGDP,FY2025/26
+BRB,Barbados,GGXWDG,FY2025/26
+BRB,Barbados,GGXWDG_NGDP,FY2025/26
+BLZ,Belize,PPPGDP,
+BLZ,Belize,PPPPC,
+BLZ,Belize,NGAP_NPGDP,
+BLZ,Belize,PPPSH,
+BLZ,Belize,PPPEX,
+BLZ,Belize,LE,
+BLZ,Belize,GGSB,
+BLZ,Belize,GGSB_NPGDP,
+BLZ,Belize,GGXWDN,
+BLZ,Belize,GGXWDN_NGDP,
+BOL,Bolivia,PPPGDP,
+BOL,Bolivia,PPPPC,
+BOL,Bolivia,NGAP_NPGDP,
+BOL,Bolivia,PPPSH,
+BOL,Bolivia,PPPEX,
+BOL,Bolivia,LE,
+BOL,Bolivia,GGSB,
+BOL,Bolivia,GGSB_NPGDP,
+BRA,Brazil,PPPGDP,
+BRA,Brazil,PPPPC,
+BRA,Brazil,NGAP_NPGDP,
+BRA,Brazil,PPPSH,
+BRA,Brazil,PPPEX,
+BRA,Brazil,LE,
+CHL,Chile,PPPGDP,
+CHL,Chile,PPPPC,
+CHL,Chile,NGAP_NPGDP,
+CHL,Chile,PPPSH,
+CHL,Chile,PPPEX,
+CHL,Chile,LE,
+COL,Colombia,PPPGDP,
+COL,Colombia,PPPPC,
+COL,Colombia,NGAP_NPGDP,
+COL,Colombia,PPPSH,
+COL,Colombia,PPPEX,
+COL,Colombia,LE,
+CRI,Costa Rica,PPPGDP,
+CRI,Costa Rica,PPPPC,
+CRI,Costa Rica,NGAP_NPGDP,
+CRI,Costa Rica,PPPSH,
+CRI,Costa Rica,PPPEX,
+CRI,Costa Rica,LE,
+DMA,Dominica,PPPGDP,
+DMA,Dominica,PPPPC,
+DMA,Dominica,NGAP_NPGDP,
+DMA,Dominica,PPPSH,
+DMA,Dominica,PPPEX,
+DMA,Dominica,LUR,
+DMA,Dominica,LE,
+DMA,Dominica,GGR,FY2025/26
+DMA,Dominica,GGR_NGDP,FY2025/26
+DMA,Dominica,GGX,FY2025/26
+DMA,Dominica,GGX_NGDP,FY2025/26
+DMA,Dominica,GGXCNL,FY2025/26
+DMA,Dominica,GGXCNL_NGDP,FY2025/26
+DMA,Dominica,GGSB,
+DMA,Dominica,GGSB_NPGDP,
+DMA,Dominica,GGXONLB,FY2025/26
+DMA,Dominica,GGXONLB_NGDP,FY2025/26
+DMA,Dominica,GGXWDN,
+DMA,Dominica,GGXWDN_NGDP,
+DMA,Dominica,GGXWDG,FY2025/26
+DMA,Dominica,GGXWDG_NGDP,FY2025/26
+DOM,Dominican Republic,PPPGDP,
+DOM,Dominican Republic,PPPPC,
+DOM,Dominican Republic,NGAP_NPGDP,
+DOM,Dominican Republic,PPPSH,
+DOM,Dominican Republic,PPPEX,
+DOM,Dominican Republic,LE,
+ECU,Ecuador,PPPGDP,
+ECU,Ecuador,PPPPC,
+ECU,Ecuador,NGAP_NPGDP,
+ECU,Ecuador,PPPSH,
+ECU,Ecuador,PPPEX,
+ECU,Ecuador,LE,
+ECU,Ecuador,GGXWDN,
+ECU,Ecuador,GGXWDN_NGDP,
+SLV,El Salvador,PPPGDP,
+SLV,El Salvador,PPPPC,
+SLV,El Salvador,NGAP_NPGDP,
+SLV,El Salvador,PPPSH,
+SLV,El Salvador,PPPEX,
+SLV,El Salvador,LE,
+SLV,El Salvador,GGXWDN,
+SLV,El Salvador,GGXWDN_NGDP,
+GRD,Grenada,PPPGDP,
+GRD,Grenada,PPPPC,
+GRD,Grenada,NGAP_NPGDP,
+GRD,Grenada,PPPSH,
+GRD,Grenada,PPPEX,
+GRD,Grenada,LUR,
+GRD,Grenada,LE,
+GRD,Grenada,GGXWDN,
+GRD,Grenada,GGXWDN_NGDP,
+GTM,Guatemala,PPPGDP,
+GTM,Guatemala,PPPPC,
+GTM,Guatemala,NGAP_NPGDP,
+GTM,Guatemala,PPPSH,
+GTM,Guatemala,PPPEX,
+GTM,Guatemala,LUR,
+GTM,Guatemala,LE,
+GTM,Guatemala,GGXWDN,
+GTM,Guatemala,GGXWDN_NGDP,
+GUY,Guyana,PPPGDP,
+GUY,Guyana,PPPPC,
+GUY,Guyana,NGAP_NPGDP,
+GUY,Guyana,PPPSH,
+GUY,Guyana,PPPEX,
+GUY,Guyana,LUR,
+GUY,Guyana,LE,
+HTI,Haiti,NGDP_R,FY2024/25
+HTI,Haiti,NGDP_RPCH,FY2024/25
+HTI,Haiti,NGDP,FY2024/25
+HTI,Haiti,NGDPD,FY2024/25
+HTI,Haiti,PPPGDP,
+HTI,Haiti,NGDP_D,FY2024/25
+HTI,Haiti,NGDPRPC,FY2024/25
+HTI,Haiti,NGDPRPPPPC,FY2024/25
+HTI,Haiti,NGDPPC,FY2024/25
+HTI,Haiti,NGDPDPC,FY2024/25
+HTI,Haiti,PPPPC,
+HTI,Haiti,NGAP_NPGDP,
+HTI,Haiti,PPPSH,
+HTI,Haiti,PPPEX,
+HTI,Haiti,NID_NGDP,FY2024/25
+HTI,Haiti,NGSD_NGDP,FY2024/25
+HTI,Haiti,PCPI,FY2024/25
+HTI,Haiti,PCPIPCH,FY2024/25
+HTI,Haiti,PCPIE,FY2024/25
+HTI,Haiti,PCPIEPCH,FY2024/25
+HTI,Haiti,TM_RPCH,FY2024/25
+HTI,Haiti,TMG_RPCH,FY2024/25
+HTI,Haiti,TX_RPCH,FY2024/25
+HTI,Haiti,TXG_RPCH,FY2024/25
+HTI,Haiti,LUR,
+HTI,Haiti,LE,
+HTI,Haiti,LP,FY2003/04
+HTI,Haiti,GGR,FY2024/25
+HTI,Haiti,GGR_NGDP,FY2024/25
+HTI,Haiti,GGX,FY2024/25
+HTI,Haiti,GGX_NGDP,FY2024/25
+HTI,Haiti,GGXCNL,FY2024/25
+HTI,Haiti,GGXCNL_NGDP,FY2024/25
+HTI,Haiti,GGSB,
+HTI,Haiti,GGSB_NPGDP,
+HTI,Haiti,GGXONLB,FY2024/25
+HTI,Haiti,GGXONLB_NGDP,FY2024/25
+HTI,Haiti,GGXWDN,
+HTI,Haiti,GGXWDN_NGDP,
+HTI,Haiti,GGXWDG,FY2024/25
+HTI,Haiti,GGXWDG_NGDP,FY2024/25
+HTI,Haiti,NGDP_FY,FY2024/25
+HTI,Haiti,BCA,FY2024/25
+HTI,Haiti,BCA_NGDPD,FY2024/25
+HND,Honduras,PPPGDP,
+HND,Honduras,PPPPC,
+HND,Honduras,NGAP_NPGDP,
+HND,Honduras,PPPSH,
+HND,Honduras,PPPEX,
+HND,Honduras,LE,
+HND,Honduras,GGSB,
+HND,Honduras,GGSB_NPGDP,
+HND,Honduras,GGXWDN,
+HND,Honduras,GGXWDN_NGDP,
+JAM,Jamaica,PPPGDP,
+JAM,Jamaica,PPPPC,
+JAM,Jamaica,NGAP_NPGDP,
+JAM,Jamaica,PPPSH,
+JAM,Jamaica,PPPEX,
+JAM,Jamaica,LE,
+JAM,Jamaica,GGR,FY2025/26
+JAM,Jamaica,GGR_NGDP,FY2025/26
+JAM,Jamaica,GGX,FY2025/26
+JAM,Jamaica,GGX_NGDP,FY2025/26
+JAM,Jamaica,GGXCNL,FY2025/26
+JAM,Jamaica,GGXCNL_NGDP,FY2025/26
+JAM,Jamaica,GGSB,
+JAM,Jamaica,GGSB_NPGDP,
+JAM,Jamaica,GGXONLB,FY2025/26
+JAM,Jamaica,GGXONLB_NGDP,FY2025/26
+JAM,Jamaica,GGXWDN,
+JAM,Jamaica,GGXWDN_NGDP,
+JAM,Jamaica,GGXWDG,FY2025/26
+JAM,Jamaica,GGXWDG_NGDP,FY2025/26
+MEX,Mexico,PPPGDP,
+MEX,Mexico,PPPPC,
+MEX,Mexico,NGAP_NPGDP,
+MEX,Mexico,PPPSH,
+MEX,Mexico,PPPEX,
+MEX,Mexico,LE,
+NIC,Nicaragua,PPPGDP,
+NIC,Nicaragua,PPPPC,
+NIC,Nicaragua,NGAP_NPGDP,
+NIC,Nicaragua,PPPSH,
+NIC,Nicaragua,PPPEX,
+NIC,Nicaragua,LE,
+NIC,Nicaragua,GGSB,
+NIC,Nicaragua,GGSB_NPGDP,
+NIC,Nicaragua,GGXWDN,
+NIC,Nicaragua,GGXWDN_NGDP,
+PAN,Panama,PPPGDP,
+PAN,Panama,PPPPC,
+PAN,Panama,NGAP_NPGDP,
+PAN,Panama,PPPSH,
+PAN,Panama,PPPEX,
+PAN,Panama,LE,
+PRY,Paraguay,PPPGDP,
+PRY,Paraguay,PPPPC,
+PRY,Paraguay,NGAP_NPGDP,
+PRY,Paraguay,PPPSH,
+PRY,Paraguay,PPPEX,
+PRY,Paraguay,LE,
+PER,Peru,PPPGDP,
+PER,Peru,PPPPC,
+PER,Peru,NGAP_NPGDP,
+PER,Peru,PPPSH,
+PER,Peru,PPPEX,
+PER,Peru,LE,
+KNA,St. Kitts and Nevis,PPPGDP,
+KNA,St. Kitts and Nevis,PPPPC,
+KNA,St. Kitts and Nevis,NGAP_NPGDP,
+KNA,St. Kitts and Nevis,PPPSH,
+KNA,St. Kitts and Nevis,PPPEX,
+KNA,St. Kitts and Nevis,LUR,
+KNA,St. Kitts and Nevis,LE,
+KNA,St. Kitts and Nevis,GGSB,
+KNA,St. Kitts and Nevis,GGSB_NPGDP,
+LCA,St. Lucia,PPPGDP,
+LCA,St. Lucia,PPPPC,
+LCA,St. Lucia,NGAP_NPGDP,
+LCA,St. Lucia,PPPSH,
+LCA,St. Lucia,PPPEX,
+LCA,St. Lucia,LUR,
+LCA,St. Lucia,LE,
+LCA,St. Lucia,GGSB,
+LCA,St. Lucia,GGSB_NPGDP,
+LCA,St. Lucia,GGXWDN,
+LCA,St. Lucia,GGXWDN_NGDP,
+VCT,St. Vincent and the Grenadines,PPPGDP,
+VCT,St. Vincent and the Grenadines,PPPPC,
+VCT,St. Vincent and the Grenadines,NGAP_NPGDP,
+VCT,St. Vincent and the Grenadines,PPPSH,
+VCT,St. Vincent and the Grenadines,PPPEX,
+VCT,St. Vincent and the Grenadines,LUR,
+VCT,St. Vincent and the Grenadines,LE,
+VCT,St. Vincent and the Grenadines,GGSB,
+VCT,St. Vincent and the Grenadines,GGSB_NPGDP,
+VCT,St. Vincent and the Grenadines,GGXWDN,
+VCT,St. Vincent and the Grenadines,GGXWDN_NGDP,
+SUR,Suriname,PPPGDP,
+SUR,Suriname,PPPPC,
+SUR,Suriname,NGAP_NPGDP,
+SUR,Suriname,PPPSH,
+SUR,Suriname,PPPEX,
+SUR,Suriname,LE,
+SUR,Suriname,GGXWDN,
+SUR,Suriname,GGXWDN_NGDP,
+TTO,Trinidad and Tobago,PPPGDP,
+TTO,Trinidad and Tobago,PPPPC,
+TTO,Trinidad and Tobago,NGAP_NPGDP,
+TTO,Trinidad and Tobago,PPPSH,
+TTO,Trinidad and Tobago,PPPEX,
+TTO,Trinidad and Tobago,NID_NGDP,
+TTO,Trinidad and Tobago,LE,
+TTO,Trinidad and Tobago,GGR,FY2024/25
+TTO,Trinidad and Tobago,GGR_NGDP,FY2024/25
+TTO,Trinidad and Tobago,GGX,FY2024/25
+TTO,Trinidad and Tobago,GGX_NGDP,FY2024/25
+TTO,Trinidad and Tobago,GGXCNL,FY2024/25
+TTO,Trinidad and Tobago,GGXCNL_NGDP,FY2024/25
+TTO,Trinidad and Tobago,GGSB,
+TTO,Trinidad and Tobago,GGSB_NPGDP,
+TTO,Trinidad and Tobago,GGXONLB,FY2024/25
+TTO,Trinidad and Tobago,GGXONLB_NGDP,FY2024/25
+TTO,Trinidad and Tobago,GGXWDN,FY2024/25
+TTO,Trinidad and Tobago,GGXWDN_NGDP,FY2024/25
+TTO,Trinidad and Tobago,GGXWDG,FY2024/25
+TTO,Trinidad and Tobago,GGXWDG_NGDP,FY2024/25
+URY,Uruguay,PPPGDP,
+URY,Uruguay,PPPPC,
+URY,Uruguay,NGAP_NPGDP,
+URY,Uruguay,PPPSH,
+URY,Uruguay,PPPEX,
+URY,Uruguay,LE,
+VEN,"Venezuela, República Bolivariana de",NGDP_R,
+VEN,"Venezuela, República Bolivariana de",PPPGDP,
+VEN,"Venezuela, República Bolivariana de",NGDPRPC,
+VEN,"Venezuela, República Bolivariana de",PPPPC,
+VEN,"Venezuela, República Bolivariana de",NGAP_NPGDP,
+VEN,"Venezuela, República Bolivariana de",PPPSH,
+VEN,"Venezuela, República Bolivariana de",PPPEX,
+VEN,"Venezuela, República Bolivariana de",LE,
+VEN,"Venezuela, República Bolivariana de",GGSB,
+VEN,"Venezuela, República Bolivariana de",GGSB_NPGDP,
+VEN,"Venezuela, República Bolivariana de",GGXWDN,
+VEN,"Venezuela, República Bolivariana de",GGXWDN_NGDP,
+VEN,"Venezuela, República Bolivariana de",GGXWDG,
+VEN,"Venezuela, República Bolivariana de",GGXWDG_NGDP,
+AFG,"Afghanistan, Islamic Republic of",NGDP_R,FY2024/25
+AFG,"Afghanistan, Islamic Republic of",NGDP_RPCH,FY2024/25
+AFG,"Afghanistan, Islamic Republic of",NGDP,FY2024/25
+AFG,"Afghanistan, Islamic Republic of",NGDPD,FY2024/25
+AFG,"Afghanistan, Islamic Republic of",PPPGDP,
+AFG,"Afghanistan, Islamic Republic of",NGDP_D,FY2024/25
+AFG,"Afghanistan, Islamic Republic of",NGDPRPC,FY2024/25
+AFG,"Afghanistan, Islamic Republic of",NGDPRPPPPC,FY2024/25
+AFG,"Afghanistan, Islamic Republic of",NGDPPC,FY2024/25
+AFG,"Afghanistan, Islamic Republic of",NGDPDPC,FY2024/25
+AFG,"Afghanistan, Islamic Republic of",PPPPC,
+AFG,"Afghanistan, Islamic Republic of",NGAP_NPGDP,
+AFG,"Afghanistan, Islamic Republic of",PPPSH,
+AFG,"Afghanistan, Islamic Republic of",PPPEX,
+AFG,"Afghanistan, Islamic Republic of",NID_NGDP,FY2024/25
+AFG,"Afghanistan, Islamic Republic of",NGSD_NGDP,FY2024/25
+AFG,"Afghanistan, Islamic Republic of",PCPI,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",PCPIPCH,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",PCPIE,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",PCPIEPCH,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",TM_RPCH,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",TMG_RPCH,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",TX_RPCH,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",TXG_RPCH,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",LUR,
+AFG,"Afghanistan, Islamic Republic of",LE,
+AFG,"Afghanistan, Islamic Republic of",GGR,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",GGR_NGDP,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",GGX,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",GGX_NGDP,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",GGXCNL,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",GGXCNL_NGDP,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",GGSB,
+AFG,"Afghanistan, Islamic Republic of",GGSB_NPGDP,
+AFG,"Afghanistan, Islamic Republic of",GGXONLB,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",GGXONLB_NGDP,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",GGXWDN,
+AFG,"Afghanistan, Islamic Republic of",GGXWDN_NGDP,
+AFG,"Afghanistan, Islamic Republic of",GGXWDG,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",GGXWDG_NGDP,FY2025/26
+AFG,"Afghanistan, Islamic Republic of",NGDP_FY,FY2024/25
+AFG,"Afghanistan, Islamic Republic of",BCA,FY2024/25
+AFG,"Afghanistan, Islamic Republic of",BCA_NGDPD,FY2024/25
+DZA,Algeria,PPPGDP,
+DZA,Algeria,PPPPC,
+DZA,Algeria,NGAP_NPGDP,
+DZA,Algeria,PPPSH,
+DZA,Algeria,PPPEX,
+DZA,Algeria,LE,
+DZA,Algeria,GGSB,
+DZA,Algeria,GGSB_NPGDP,
+ARM,"Armenia, Republic of",PPPGDP,
+ARM,"Armenia, Republic of",PPPPC,
+ARM,"Armenia, Republic of",NGAP_NPGDP,
+ARM,"Armenia, Republic of",PPPSH,
+ARM,"Armenia, Republic of",PPPEX,
+ARM,"Armenia, Republic of",LE,
+ARM,"Armenia, Republic of",GGSB,
+ARM,"Armenia, Republic of",GGSB_NPGDP,
+ARM,"Armenia, Republic of",GGXWDN,
+ARM,"Armenia, Republic of",GGXWDN_NGDP,
+AZE,"Azerbaijan, Republic of",PPPGDP,
+AZE,"Azerbaijan, Republic of",PPPPC,
+AZE,"Azerbaijan, Republic of",NGAP_NPGDP,
+AZE,"Azerbaijan, Republic of",PPPSH,
+AZE,"Azerbaijan, Republic of",PPPEX,
+AZE,"Azerbaijan, Republic of",LE,
+AZE,"Azerbaijan, Republic of",GGSB,
+AZE,"Azerbaijan, Republic of",GGSB_NPGDP,
+AZE,"Azerbaijan, Republic of",GGXWDN,
+AZE,"Azerbaijan, Republic of",GGXWDN_NGDP,
+BHR,"Bahrain, Kingdom of",PPPGDP,
+BHR,"Bahrain, Kingdom of",PPPPC,
+BHR,"Bahrain, Kingdom of",NGAP_NPGDP,
+BHR,"Bahrain, Kingdom of",PPPSH,
+BHR,"Bahrain, Kingdom of",PPPEX,
+BHR,"Bahrain, Kingdom of",LE,
+BHR,"Bahrain, Kingdom of",GGSB,
+BHR,"Bahrain, Kingdom of",GGSB_NPGDP,
+BHR,"Bahrain, Kingdom of",GGXWDN,
+BHR,"Bahrain, Kingdom of",GGXWDN_NGDP,
+DJI,Djibouti,PPPGDP,
+DJI,Djibouti,PPPPC,
+DJI,Djibouti,NGAP_NPGDP,
+DJI,Djibouti,PPPSH,
+DJI,Djibouti,PPPEX,
+DJI,Djibouti,LUR,
+DJI,Djibouti,LE,
+DJI,Djibouti,GGSB,
+DJI,Djibouti,GGSB_NPGDP,
+EGY,"Egypt, Arab Republic of",NGDP_R,FY2024/25
+EGY,"Egypt, Arab Republic of",NGDP_RPCH,FY2024/25
+EGY,"Egypt, Arab Republic of",NGDP,FY2024/25
+EGY,"Egypt, Arab Republic of",NGDPD,FY2024/25
+EGY,"Egypt, Arab Republic of",PPPGDP,
+EGY,"Egypt, Arab Republic of",NGDP_D,FY2024/25
+EGY,"Egypt, Arab Republic of",NGDPRPC,FY2024/25
+EGY,"Egypt, Arab Republic of",NGDPRPPPPC,FY2024/25
+EGY,"Egypt, Arab Republic of",NGDPPC,FY2024/25
+EGY,"Egypt, Arab Republic of",NGDPDPC,FY2024/25
+EGY,"Egypt, Arab Republic of",PPPPC,
+EGY,"Egypt, Arab Republic of",NGAP_NPGDP,
+EGY,"Egypt, Arab Republic of",PPPSH,
+EGY,"Egypt, Arab Republic of",PPPEX,
+EGY,"Egypt, Arab Republic of",NID_NGDP,FY2024/25
+EGY,"Egypt, Arab Republic of",NGSD_NGDP,FY2024/25
+EGY,"Egypt, Arab Republic of",PCPI,FY2025/26
+EGY,"Egypt, Arab Republic of",PCPIPCH,FY2025/26
+EGY,"Egypt, Arab Republic of",PCPIE,FY2025/26
+EGY,"Egypt, Arab Republic of",PCPIEPCH,FY2025/26
+EGY,"Egypt, Arab Republic of",TM_RPCH,FY2024/25
+EGY,"Egypt, Arab Republic of",TMG_RPCH,FY2024/25
+EGY,"Egypt, Arab Republic of",TX_RPCH,FY2024/25
+EGY,"Egypt, Arab Republic of",TXG_RPCH,FY2024/25
+EGY,"Egypt, Arab Republic of",LUR,FY2024/25
+EGY,"Egypt, Arab Republic of",LE,
+EGY,"Egypt, Arab Republic of",LP,FY2024/25
+EGY,"Egypt, Arab Republic of",GGR,FY2024/25
+EGY,"Egypt, Arab Republic of",GGR_NGDP,FY2024/25
+EGY,"Egypt, Arab Republic of",GGX,FY2024/25
+EGY,"Egypt, Arab Republic of",GGX_NGDP,FY2024/25
+EGY,"Egypt, Arab Republic of",GGXCNL,FY2024/25
+EGY,"Egypt, Arab Republic of",GGXCNL_NGDP,FY2024/25
+EGY,"Egypt, Arab Republic of",GGSB,FY2024/25
+EGY,"Egypt, Arab Republic of",GGSB_NPGDP,FY2024/25
+EGY,"Egypt, Arab Republic of",GGXONLB,FY2024/25
+EGY,"Egypt, Arab Republic of",GGXONLB_NGDP,FY2024/25
+EGY,"Egypt, Arab Republic of",GGXWDN,FY2024/25
+EGY,"Egypt, Arab Republic of",GGXWDN_NGDP,FY2024/25
+EGY,"Egypt, Arab Republic of",GGXWDG,FY2024/25
+EGY,"Egypt, Arab Republic of",GGXWDG_NGDP,FY2024/25
+EGY,"Egypt, Arab Republic of",NGDP_FY,FY2024/25
+EGY,"Egypt, Arab Republic of",BCA,FY2024/25
+EGY,"Egypt, Arab Republic of",BCA_NGDPD,FY2024/25
+GEO,Georgia,PPPGDP,
+GEO,Georgia,PPPPC,
+GEO,Georgia,NGAP_NPGDP,
+GEO,Georgia,PPPSH,
+GEO,Georgia,PPPEX,
+GEO,Georgia,LE,
+GEO,Georgia,GGXWDN,
+GEO,Georgia,GGXWDN_NGDP,
+IRN,"Iran, Islamic Republic of",NGDP_R,FY2025/26
+IRN,"Iran, Islamic Republic of",NGDP_RPCH,FY2025/26
+IRN,"Iran, Islamic Republic of",NGDP,FY2025/26
+IRN,"Iran, Islamic Republic of",NGDPD,FY2025/26
+IRN,"Iran, Islamic Republic of",PPPGDP,
+IRN,"Iran, Islamic Republic of",NGDP_D,FY2025/26
+IRN,"Iran, Islamic Republic of",NGDPRPC,FY2025/26
+IRN,"Iran, Islamic Republic of",NGDPRPPPPC,FY2025/26
+IRN,"Iran, Islamic Republic of",NGDPPC,FY2025/26
+IRN,"Iran, Islamic Republic of",NGDPDPC,FY2025/26
+IRN,"Iran, Islamic Republic of",PPPPC,
+IRN,"Iran, Islamic Republic of",NGAP_NPGDP,
+IRN,"Iran, Islamic Republic of",PPPSH,
+IRN,"Iran, Islamic Republic of",PPPEX,
+IRN,"Iran, Islamic Republic of",NID_NGDP,FY2025/26
+IRN,"Iran, Islamic Republic of",NGSD_NGDP,FY2025/26
+IRN,"Iran, Islamic Republic of",PCPI,FY2025/26
+IRN,"Iran, Islamic Republic of",PCPIPCH,FY2025/26
+IRN,"Iran, Islamic Republic of",PCPIE,FY2025/26
+IRN,"Iran, Islamic Republic of",PCPIEPCH,FY2025/26
+IRN,"Iran, Islamic Republic of",TM_RPCH,FY2024/25
+IRN,"Iran, Islamic Republic of",TMG_RPCH,FY2024/25
+IRN,"Iran, Islamic Republic of",TX_RPCH,FY2024/25
+IRN,"Iran, Islamic Republic of",TXG_RPCH,FY2024/25
+IRN,"Iran, Islamic Republic of",LUR,FY2025/26
+IRN,"Iran, Islamic Republic of",LE,
+IRN,"Iran, Islamic Republic of",LP,FY2023/24
+IRN,"Iran, Islamic Republic of",GGR,FY2024/25
+IRN,"Iran, Islamic Republic of",GGR_NGDP,FY2024/25
+IRN,"Iran, Islamic Republic of",GGX,FY2024/25
+IRN,"Iran, Islamic Republic of",GGX_NGDP,FY2024/25
+IRN,"Iran, Islamic Republic of",GGXCNL,FY2024/25
+IRN,"Iran, Islamic Republic of",GGXCNL_NGDP,FY2024/25
+IRN,"Iran, Islamic Republic of",GGSB,
+IRN,"Iran, Islamic Republic of",GGSB_NPGDP,
+IRN,"Iran, Islamic Republic of",GGXONLB,FY2024/25
+IRN,"Iran, Islamic Republic of",GGXONLB_NGDP,FY2024/25
+IRN,"Iran, Islamic Republic of",GGXWDN,FY2024/25
+IRN,"Iran, Islamic Republic of",GGXWDN_NGDP,FY2024/25
+IRN,"Iran, Islamic Republic of",GGXWDG,FY2024/25
+IRN,"Iran, Islamic Republic of",GGXWDG_NGDP,FY2024/25
+IRN,"Iran, Islamic Republic of",NGDP_FY,FY2025/26
+IRN,"Iran, Islamic Republic of",BCA,FY2025/26
+IRN,"Iran, Islamic Republic of",BCA_NGDPD,FY2025/26
+IRQ,Iraq,PPPGDP,
+IRQ,Iraq,PPPPC,
+IRQ,Iraq,NGAP_NPGDP,
+IRQ,Iraq,PPPSH,
+IRQ,Iraq,PPPEX,
+IRQ,Iraq,NID_NGDP,
+IRQ,Iraq,TM_RPCH,
+IRQ,Iraq,TMG_RPCH,
+IRQ,Iraq,TX_RPCH,
+IRQ,Iraq,TXG_RPCH,
+IRQ,Iraq,LUR,
+IRQ,Iraq,LE,
+IRQ,Iraq,GGSB,
+IRQ,Iraq,GGSB_NPGDP,
+IRQ,Iraq,GGXWDN,
+IRQ,Iraq,GGXWDN_NGDP,
+JOR,Jordan,PPPGDP,
+JOR,Jordan,PPPPC,
+JOR,Jordan,NGAP_NPGDP,
+JOR,Jordan,PPPSH,
+JOR,Jordan,PPPEX,
+JOR,Jordan,LE,
+JOR,Jordan,GGXWDN,
+JOR,Jordan,GGXWDN_NGDP,
+KAZ,"Kazakhstan, Republic of",PPPGDP,
+KAZ,"Kazakhstan, Republic of",PPPPC,
+KAZ,"Kazakhstan, Republic of",NGAP_NPGDP,
+KAZ,"Kazakhstan, Republic of",PPPSH,
+KAZ,"Kazakhstan, Republic of",PPPEX,
+KAZ,"Kazakhstan, Republic of",LE,
+KWT,Kuwait,PPPGDP,
+KWT,Kuwait,PPPPC,
+KWT,Kuwait,NGAP_NPGDP,
+KWT,Kuwait,PPPSH,
+KWT,Kuwait,PPPEX,
+KWT,Kuwait,TM_RPCH,
+KWT,Kuwait,TX_RPCH,
+KWT,Kuwait,LUR,
+KWT,Kuwait,LE,
+KWT,Kuwait,GGSB,
+KWT,Kuwait,GGSB_NPGDP,
+KWT,Kuwait,GGXWDN,
+KWT,Kuwait,GGXWDN_NGDP,
+KGZ,Kyrgyz Republic,PPPGDP,
+KGZ,Kyrgyz Republic,PPPPC,
+KGZ,Kyrgyz Republic,NGAP_NPGDP,
+KGZ,Kyrgyz Republic,PPPSH,
+KGZ,Kyrgyz Republic,PPPEX,
+KGZ,Kyrgyz Republic,LE,
+KGZ,Kyrgyz Republic,GGSB,
+KGZ,Kyrgyz Republic,GGSB_NPGDP,
+KGZ,Kyrgyz Republic,GGXWDN,
+KGZ,Kyrgyz Republic,GGXWDN_NGDP,
+LBN,Lebanon,PPPGDP,
+LBN,Lebanon,PPPPC,
+LBN,Lebanon,NGAP_NPGDP,
+LBN,Lebanon,PPPSH,
+LBN,Lebanon,PPPEX,
+LBN,Lebanon,NID_NGDP,
+LBN,Lebanon,LE,
+LBY,Libya,PPPGDP,
+LBY,Libya,PPPPC,
+LBY,Libya,NGAP_NPGDP,
+LBY,Libya,PPPSH,
+LBY,Libya,PPPEX,
+LBY,Libya,NGSD_NGDP,
+LBY,Libya,LUR,
+LBY,Libya,LE,
+LBY,Libya,GGSB,
+LBY,Libya,GGSB_NPGDP,
+LBY,Libya,GGXWDN,
+LBY,Libya,GGXWDN_NGDP,
+MRT,"Mauritania, Islamic Republic of",PPPGDP,
+MRT,"Mauritania, Islamic Republic of",PPPPC,
+MRT,"Mauritania, Islamic Republic of",NGAP_NPGDP,
+MRT,"Mauritania, Islamic Republic of",PPPSH,
+MRT,"Mauritania, Islamic Republic of",PPPEX,
+MRT,"Mauritania, Islamic Republic of",LUR,
+MRT,"Mauritania, Islamic Republic of",LE,
+MRT,"Mauritania, Islamic Republic of",GGSB,
+MRT,"Mauritania, Islamic Republic of",GGSB_NPGDP,
+MAR,Morocco,PPPGDP,
+MAR,Morocco,PPPPC,
+MAR,Morocco,NGAP_NPGDP,
+MAR,Morocco,PPPSH,
+MAR,Morocco,PPPEX,
+MAR,Morocco,LE,
+OMN,Oman,PPPGDP,
+OMN,Oman,PPPPC,
+OMN,Oman,NGAP_NPGDP,
+OMN,Oman,PPPSH,
+OMN,Oman,PPPEX,
+OMN,Oman,LUR,
+OMN,Oman,LE,
+OMN,Oman,GGSB,
+OMN,Oman,GGSB_NPGDP,
+PAK,Pakistan,NGDP_R,FY2024/25
+PAK,Pakistan,NGDP_RPCH,FY2024/25
+PAK,Pakistan,NGDP,FY2024/25
+PAK,Pakistan,NGDPD,FY2024/25
+PAK,Pakistan,PPPGDP,
+PAK,Pakistan,NGDP_D,FY2024/25
+PAK,Pakistan,NGDPRPC,FY2024/25
+PAK,Pakistan,NGDPRPPPPC,FY2024/25
+PAK,Pakistan,NGDPPC,FY2024/25
+PAK,Pakistan,NGDPDPC,FY2024/25
+PAK,Pakistan,PPPPC,
+PAK,Pakistan,NGAP_NPGDP,
+PAK,Pakistan,PPPSH,
+PAK,Pakistan,PPPEX,
+PAK,Pakistan,NID_NGDP,FY2024/25
+PAK,Pakistan,NGSD_NGDP,FY2024/25
+PAK,Pakistan,PCPI,FY2025/26
+PAK,Pakistan,PCPIPCH,FY2025/26
+PAK,Pakistan,PCPIE,FY2025/26
+PAK,Pakistan,PCPIEPCH,FY2025/26
+PAK,Pakistan,TM_RPCH,FY2025/26
+PAK,Pakistan,TMG_RPCH,FY2025/26
+PAK,Pakistan,TX_RPCH,FY2025/26
+PAK,Pakistan,TXG_RPCH,FY2025/26
+PAK,Pakistan,LUR,FY2024/25
+PAK,Pakistan,LE,
+PAK,Pakistan,LP,FY2024/25
+PAK,Pakistan,GGR,FY2025/26
+PAK,Pakistan,GGR_NGDP,FY2025/26
+PAK,Pakistan,GGX,FY2025/26
+PAK,Pakistan,GGX_NGDP,FY2025/26
+PAK,Pakistan,GGXCNL,FY2025/26
+PAK,Pakistan,GGXCNL_NGDP,FY2025/26
+PAK,Pakistan,GGSB,
+PAK,Pakistan,GGSB_NPGDP,
+PAK,Pakistan,GGXONLB,FY2025/26
+PAK,Pakistan,GGXONLB_NGDP,FY2025/26
+PAK,Pakistan,GGXWDN,FY2025/26
+PAK,Pakistan,GGXWDN_NGDP,FY2025/26
+PAK,Pakistan,GGXWDG,FY2025/26
+PAK,Pakistan,GGXWDG_NGDP,FY2025/26
+PAK,Pakistan,NGDP_FY,FY2024/25
+PAK,Pakistan,BCA,FY2025/26
+PAK,Pakistan,BCA_NGDPD,FY2025/26
+QAT,Qatar,PPPGDP,
+QAT,Qatar,PPPPC,
+QAT,Qatar,NGAP_NPGDP,
+QAT,Qatar,PPPSH,
+QAT,Qatar,PPPEX,
+QAT,Qatar,NID_NGDP,
+QAT,Qatar,LUR,
+QAT,Qatar,LE,
+QAT,Qatar,GGSB,
+QAT,Qatar,GGSB_NPGDP,
+QAT,Qatar,GGXWDN,
+QAT,Qatar,GGXWDN_NGDP,
+SAU,Saudi Arabia,PPPGDP,
+SAU,Saudi Arabia,PPPPC,
+SAU,Saudi Arabia,NGAP_NPGDP,
+SAU,Saudi Arabia,PPPSH,
+SAU,Saudi Arabia,PPPEX,
+SAU,Saudi Arabia,LE,
+SAU,Saudi Arabia,GGSB,
+SAU,Saudi Arabia,GGSB_NPGDP,
+SOM,Somalia,PPPGDP,
+SOM,Somalia,PPPPC,
+SOM,Somalia,NGAP_NPGDP,
+SOM,Somalia,PPPSH,
+SOM,Somalia,PPPEX,
+SOM,Somalia,NID_NGDP,
+SOM,Somalia,NGSD_NGDP,
+SOM,Somalia,TM_RPCH,
+SOM,Somalia,TMG_RPCH,
+SOM,Somalia,TX_RPCH,
+SOM,Somalia,TXG_RPCH,
+SOM,Somalia,LUR,
+SOM,Somalia,LE,
+SOM,Somalia,GGSB,
+SOM,Somalia,GGSB_NPGDP,
+SOM,Somalia,GGXWDN,
+SOM,Somalia,GGXWDN_NGDP,
+SOM,Somalia,GGXWDG,
+SOM,Somalia,GGXWDG_NGDP,
+SDN,Sudan,PPPGDP,
+SDN,Sudan,PPPPC,
+SDN,Sudan,NGAP_NPGDP,
+SDN,Sudan,PPPSH,
+SDN,Sudan,PPPEX,
+SDN,Sudan,NID_NGDP,
+SDN,Sudan,LE,
+SDN,Sudan,GGSB,
+SDN,Sudan,GGSB_NPGDP,
+SDN,Sudan,GGXWDN,
+SDN,Sudan,GGXWDN_NGDP,
+SYR,Syrian Arab Republic,PPPGDP,
+SYR,Syrian Arab Republic,NGDPRPPPPC,
+SYR,Syrian Arab Republic,PPPPC,
+SYR,Syrian Arab Republic,NGAP_NPGDP,
+SYR,Syrian Arab Republic,PPPSH,
+SYR,Syrian Arab Republic,PPPEX,
+SYR,Syrian Arab Republic,LE,
+SYR,Syrian Arab Republic,GGSB,
+SYR,Syrian Arab Republic,GGSB_NPGDP,
+TJK,"Tajikistan, Republic of",PPPGDP,
+TJK,"Tajikistan, Republic of",PPPPC,
+TJK,"Tajikistan, Republic of",NGAP_NPGDP,
+TJK,"Tajikistan, Republic of",PPPSH,
+TJK,"Tajikistan, Republic of",PPPEX,
+TJK,"Tajikistan, Republic of",LE,
+TJK,"Tajikistan, Republic of",GGSB,
+TJK,"Tajikistan, Republic of",GGSB_NPGDP,
+TJK,"Tajikistan, Republic of",GGXWDN,
+TJK,"Tajikistan, Republic of",GGXWDN_NGDP,
+TUN,Tunisia,PPPGDP,
+TUN,Tunisia,PPPPC,
+TUN,Tunisia,NGAP_NPGDP,
+TUN,Tunisia,PPPSH,
+TUN,Tunisia,PPPEX,
+TUN,Tunisia,LE,
+TUN,Tunisia,GGXWDN,
+TUN,Tunisia,GGXWDN_NGDP,
+TKM,Turkmenistan,PPPGDP,
+TKM,Turkmenistan,PPPPC,
+TKM,Turkmenistan,NGAP_NPGDP,
+TKM,Turkmenistan,PPPSH,
+TKM,Turkmenistan,PPPEX,
+TKM,Turkmenistan,NID_NGDP,
+TKM,Turkmenistan,NGSD_NGDP,
+TKM,Turkmenistan,LUR,
+TKM,Turkmenistan,LE,
+TKM,Turkmenistan,GGSB,
+TKM,Turkmenistan,GGSB_NPGDP,
+TKM,Turkmenistan,GGXONLB,
+TKM,Turkmenistan,GGXONLB_NGDP,
+TKM,Turkmenistan,GGXWDN,
+TKM,Turkmenistan,GGXWDN_NGDP,
+ARE,United Arab Emirates,PPPGDP,
+ARE,United Arab Emirates,PPPPC,
+ARE,United Arab Emirates,NGAP_NPGDP,
+ARE,United Arab Emirates,PPPSH,
+ARE,United Arab Emirates,PPPEX,
+ARE,United Arab Emirates,LUR,
+ARE,United Arab Emirates,LE,
+ARE,United Arab Emirates,GGSB,
+ARE,United Arab Emirates,GGSB_NPGDP,
+ARE,United Arab Emirates,GGXWDN,
+ARE,United Arab Emirates,GGXWDN_NGDP,
+UZB,"Uzbekistan, Republic of",PPPGDP,
+UZB,"Uzbekistan, Republic of",PPPPC,
+UZB,"Uzbekistan, Republic of",NGAP_NPGDP,
+UZB,"Uzbekistan, Republic of",PPPSH,
+UZB,"Uzbekistan, Republic of",PPPEX,
+UZB,"Uzbekistan, Republic of",LE,
+UZB,"Uzbekistan, Republic of",GGSB,
+UZB,"Uzbekistan, Republic of",GGSB_NPGDP,
+UZB,"Uzbekistan, Republic of",GGXWDN,
+UZB,"Uzbekistan, Republic of",GGXWDN_NGDP,
+WBG,West Bank and Gaza,PPPGDP,
+WBG,West Bank and Gaza,PPPPC,
+WBG,West Bank and Gaza,NGAP_NPGDP,
+WBG,West Bank and Gaza,PPPSH,
+WBG,West Bank and Gaza,PPPEX,
+WBG,West Bank and Gaza,NGSD_NGDP,
+WBG,West Bank and Gaza,LE,
+WBG,West Bank and Gaza,GGSB,
+WBG,West Bank and Gaza,GGSB_NPGDP,
+WBG,West Bank and Gaza,GGXONLB,
+WBG,West Bank and Gaza,GGXONLB_NGDP,
+WBG,West Bank and Gaza,GGXWDN,
+WBG,West Bank and Gaza,GGXWDN_NGDP,
+YEM,"Yemen, Republic of",PPPGDP,
+YEM,"Yemen, Republic of",PPPPC,
+YEM,"Yemen, Republic of",NGAP_NPGDP,
+YEM,"Yemen, Republic of",PPPSH,
+YEM,"Yemen, Republic of",PPPEX,
+YEM,"Yemen, Republic of",NID_NGDP,
+YEM,"Yemen, Republic of",PCPIE,
+YEM,"Yemen, Republic of",PCPIEPCH,
+YEM,"Yemen, Republic of",TM_RPCH,
+YEM,"Yemen, Republic of",TMG_RPCH,
+YEM,"Yemen, Republic of",TX_RPCH,
+YEM,"Yemen, Republic of",TXG_RPCH,
+YEM,"Yemen, Republic of",LUR,
+YEM,"Yemen, Republic of",LE,
+YEM,"Yemen, Republic of",GGSB,
+YEM,"Yemen, Republic of",GGSB_NPGDP,
+YEM,"Yemen, Republic of",GGXWDG,
+YEM,"Yemen, Republic of",GGXWDG_NGDP,
+AGO,Angola,PPPGDP,
+AGO,Angola,PPPPC,
+AGO,Angola,NGAP_NPGDP,
+AGO,Angola,PPPSH,
+AGO,Angola,PPPEX,
+AGO,Angola,LUR,
+AGO,Angola,LE,
+AGO,Angola,GGXWDN,
+AGO,Angola,GGXWDN_NGDP,
+BEN,Benin,PPPGDP,
+BEN,Benin,PPPPC,
+BEN,Benin,NGAP_NPGDP,
+BEN,Benin,PPPSH,
+BEN,Benin,PPPEX,
+BEN,Benin,LUR,
+BEN,Benin,LE,
+BEN,Benin,GGSB,
+BEN,Benin,GGSB_NPGDP,
+BEN,Benin,GGXWDN,
+BEN,Benin,GGXWDN_NGDP,
+BWA,Botswana,PPPGDP,
+BWA,Botswana,PPPPC,
+BWA,Botswana,NGAP_NPGDP,
+BWA,Botswana,PPPSH,
+BWA,Botswana,PPPEX,
+BWA,Botswana,LUR,
+BWA,Botswana,LE,
+BWA,Botswana,GGR,FY2024/25
+BWA,Botswana,GGR_NGDP,FY2024/25
+BWA,Botswana,GGX,FY2024/25
+BWA,Botswana,GGX_NGDP,FY2024/25
+BWA,Botswana,GGXCNL,FY2024/25
+BWA,Botswana,GGXCNL_NGDP,FY2024/25
+BWA,Botswana,GGSB,FY2024/25
+BWA,Botswana,GGSB_NPGDP,FY2024/25
+BWA,Botswana,GGXONLB,FY2024/25
+BWA,Botswana,GGXONLB_NGDP,FY2024/25
+BWA,Botswana,GGXWDN,FY2024/25
+BWA,Botswana,GGXWDN_NGDP,FY2024/25
+BWA,Botswana,GGXWDG,FY2024/25
+BWA,Botswana,GGXWDG_NGDP,FY2024/25
+BFA,Burkina Faso,PPPGDP,
+BFA,Burkina Faso,PPPPC,
+BFA,Burkina Faso,NGAP_NPGDP,
+BFA,Burkina Faso,PPPSH,
+BFA,Burkina Faso,PPPEX,
+BFA,Burkina Faso,LUR,
+BFA,Burkina Faso,LE,
+BFA,Burkina Faso,GGSB,
+BFA,Burkina Faso,GGSB_NPGDP,
+BFA,Burkina Faso,GGXWDN,
+BFA,Burkina Faso,GGXWDN_NGDP,
+BDI,Burundi,PPPGDP,
+BDI,Burundi,PPPPC,
+BDI,Burundi,NGAP_NPGDP,
+BDI,Burundi,PPPSH,
+BDI,Burundi,PPPEX,
+BDI,Burundi,LUR,
+BDI,Burundi,LE,
+BDI,Burundi,GGSB,
+BDI,Burundi,GGSB_NPGDP,
+BDI,Burundi,GGXWDN,
+BDI,Burundi,GGXWDN_NGDP,
+CPV,Cabo Verde,PPPGDP,
+CPV,Cabo Verde,PPPPC,
+CPV,Cabo Verde,NGAP_NPGDP,
+CPV,Cabo Verde,PPPSH,
+CPV,Cabo Verde,PPPEX,
+CPV,Cabo Verde,LE,
+CPV,Cabo Verde,GGSB,
+CPV,Cabo Verde,GGSB_NPGDP,
+CMR,Cameroon,PPPGDP,
+CMR,Cameroon,PPPPC,
+CMR,Cameroon,NGAP_NPGDP,
+CMR,Cameroon,PPPSH,
+CMR,Cameroon,PPPEX,
+CMR,Cameroon,LUR,
+CMR,Cameroon,LE,
+CMR,Cameroon,GGSB,
+CMR,Cameroon,GGSB_NPGDP,
+CAF,Central African Republic,PPPGDP,
+CAF,Central African Republic,PPPPC,
+CAF,Central African Republic,NGAP_NPGDP,
+CAF,Central African Republic,PPPSH,
+CAF,Central African Republic,PPPEX,
+CAF,Central African Republic,LUR,
+CAF,Central African Republic,LE,
+CAF,Central African Republic,GGSB,
+CAF,Central African Republic,GGSB_NPGDP,
+CAF,Central African Republic,GGXWDN,
+CAF,Central African Republic,GGXWDN_NGDP,
+TCD,Chad,PPPGDP,
+TCD,Chad,PPPPC,
+TCD,Chad,NGAP_NPGDP,
+TCD,Chad,PPPSH,
+TCD,Chad,PPPEX,
+TCD,Chad,LUR,
+TCD,Chad,LE,
+TCD,Chad,GGSB,
+TCD,Chad,GGSB_NPGDP,
+TCD,Chad,GGXWDN,
+TCD,Chad,GGXWDN_NGDP,
+COM,"Comoros, Union of the",PPPGDP,
+COM,"Comoros, Union of the",PPPPC,
+COM,"Comoros, Union of the",NGAP_NPGDP,
+COM,"Comoros, Union of the",PPPSH,
+COM,"Comoros, Union of the",PPPEX,
+COM,"Comoros, Union of the",LUR,
+COM,"Comoros, Union of the",LE,
+COM,"Comoros, Union of the",GGSB,
+COM,"Comoros, Union of the",GGSB_NPGDP,
+COM,"Comoros, Union of the",GGXWDN,
+COM,"Comoros, Union of the",GGXWDN_NGDP,
+COD,"Congo, Democratic Republic of the",PPPGDP,
+COD,"Congo, Democratic Republic of the",PPPPC,
+COD,"Congo, Democratic Republic of the",NGAP_NPGDP,
+COD,"Congo, Democratic Republic of the",PPPSH,
+COD,"Congo, Democratic Republic of the",PPPEX,
+COD,"Congo, Democratic Republic of the",LUR,
+COD,"Congo, Democratic Republic of the",LE,
+COD,"Congo, Democratic Republic of the",GGSB,
+COD,"Congo, Democratic Republic of the",GGSB_NPGDP,
+COD,"Congo, Democratic Republic of the",GGXWDN,
+COD,"Congo, Democratic Republic of the",GGXWDN_NGDP,
+COG,"Congo, Republic of",PPPGDP,
+COG,"Congo, Republic of",PPPPC,
+COG,"Congo, Republic of",NGAP_NPGDP,
+COG,"Congo, Republic of",PPPSH,
+COG,"Congo, Republic of",PPPEX,
+COG,"Congo, Republic of",LUR,
+COG,"Congo, Republic of",LE,
+COG,"Congo, Republic of",GGSB,
+COG,"Congo, Republic of",GGSB_NPGDP,
+COG,"Congo, Republic of",GGXWDN,
+COG,"Congo, Republic of",GGXWDN_NGDP,
+CIV,Côte d'Ivoire,PPPGDP,
+CIV,Côte d'Ivoire,PPPPC,
+CIV,Côte d'Ivoire,NGAP_NPGDP,
+CIV,Côte d'Ivoire,PPPSH,
+CIV,Côte d'Ivoire,PPPEX,
+CIV,Côte d'Ivoire,LUR,
+CIV,Côte d'Ivoire,LE,
+CIV,Côte d'Ivoire,GGSB,
+CIV,Côte d'Ivoire,GGSB_NPGDP,
+CIV,Côte d'Ivoire,GGXWDN,
+CIV,Côte d'Ivoire,GGXWDN_NGDP,
+GNQ,"Equatorial Guinea, Republic of",PPPGDP,
+GNQ,"Equatorial Guinea, Republic of",PPPPC,
+GNQ,"Equatorial Guinea, Republic of",NGAP_NPGDP,
+GNQ,"Equatorial Guinea, Republic of",PPPSH,
+GNQ,"Equatorial Guinea, Republic of",PPPEX,
+GNQ,"Equatorial Guinea, Republic of",LUR,
+GNQ,"Equatorial Guinea, Republic of",LE,
+GNQ,"Equatorial Guinea, Republic of",GGSB,
+GNQ,"Equatorial Guinea, Republic of",GGSB_NPGDP,
+ERI,"Eritrea, The State of",PPPGDP,
+ERI,"Eritrea, The State of",NGDPRPPPPC,
+ERI,"Eritrea, The State of",PPPPC,
+ERI,"Eritrea, The State of",NGAP_NPGDP,
+ERI,"Eritrea, The State of",PPPSH,
+ERI,"Eritrea, The State of",PPPEX,
+ERI,"Eritrea, The State of",LUR,
+ERI,"Eritrea, The State of",LE,
+ERI,"Eritrea, The State of",GGSB,
+ERI,"Eritrea, The State of",GGSB_NPGDP,
+ERI,"Eritrea, The State of",GGXWDN,
+ERI,"Eritrea, The State of",GGXWDN_NGDP,
+SWZ,"Eswatini, Kingdom of",PPPGDP,
+SWZ,"Eswatini, Kingdom of",PPPPC,
+SWZ,"Eswatini, Kingdom of",NGAP_NPGDP,
+SWZ,"Eswatini, Kingdom of",PPPSH,
+SWZ,"Eswatini, Kingdom of",PPPEX,
+SWZ,"Eswatini, Kingdom of",LUR,
+SWZ,"Eswatini, Kingdom of",LE,
+SWZ,"Eswatini, Kingdom of",GGR,FY2025/26
+SWZ,"Eswatini, Kingdom of",GGR_NGDP,FY2025/26
+SWZ,"Eswatini, Kingdom of",GGX,FY2025/26
+SWZ,"Eswatini, Kingdom of",GGX_NGDP,FY2025/26
+SWZ,"Eswatini, Kingdom of",GGXCNL,FY2025/26
+SWZ,"Eswatini, Kingdom of",GGXCNL_NGDP,FY2025/26
+SWZ,"Eswatini, Kingdom of",GGSB,
+SWZ,"Eswatini, Kingdom of",GGSB_NPGDP,
+SWZ,"Eswatini, Kingdom of",GGXONLB,FY2025/26
+SWZ,"Eswatini, Kingdom of",GGXONLB_NGDP,FY2025/26
+SWZ,"Eswatini, Kingdom of",GGXWDN,FY2025/26
+SWZ,"Eswatini, Kingdom of",GGXWDN_NGDP,FY2025/26
+SWZ,"Eswatini, Kingdom of",GGXWDG,FY2025/26
+SWZ,"Eswatini, Kingdom of",GGXWDG_NGDP,FY2025/26
+ETH,"Ethiopia, The Federal Democratic Republic of",NGDP_R,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",NGDP_RPCH,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",NGDP,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",NGDPD,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",PPPGDP,
+ETH,"Ethiopia, The Federal Democratic Republic of",NGDP_D,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",NGDPRPC,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",NGDPRPPPPC,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",NGDPPC,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",NGDPDPC,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",PPPPC,
+ETH,"Ethiopia, The Federal Democratic Republic of",NGAP_NPGDP,
+ETH,"Ethiopia, The Federal Democratic Republic of",PPPSH,
+ETH,"Ethiopia, The Federal Democratic Republic of",PPPEX,
+ETH,"Ethiopia, The Federal Democratic Republic of",NID_NGDP,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",NGSD_NGDP,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",PCPI,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",PCPIPCH,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",PCPIE,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",PCPIEPCH,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",TM_RPCH,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",TMG_RPCH,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",TX_RPCH,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",TXG_RPCH,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",LUR,
+ETH,"Ethiopia, The Federal Democratic Republic of",LE,
+ETH,"Ethiopia, The Federal Democratic Republic of",LP,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",GGR,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",GGR_NGDP,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",GGX,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",GGX_NGDP,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",GGXCNL,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",GGXCNL_NGDP,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",GGSB,
+ETH,"Ethiopia, The Federal Democratic Republic of",GGSB_NPGDP,
+ETH,"Ethiopia, The Federal Democratic Republic of",GGXONLB,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",GGXONLB_NGDP,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",GGXWDN,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",GGXWDN_NGDP,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",GGXWDG,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",GGXWDG_NGDP,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",NGDP_FY,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",BCA,FY2024/25
+ETH,"Ethiopia, The Federal Democratic Republic of",BCA_NGDPD,FY2024/25
+GAB,Gabon,PPPGDP,
+GAB,Gabon,PPPPC,
+GAB,Gabon,NGAP_NPGDP,
+GAB,Gabon,PPPSH,
+GAB,Gabon,PPPEX,
+GAB,Gabon,LUR,
+GAB,Gabon,LE,
+GAB,Gabon,GGSB,
+GAB,Gabon,GGSB_NPGDP,
+GAB,Gabon,GGXWDN,
+GAB,Gabon,GGXWDN_NGDP,
+GMB,"Gambia, The",PPPGDP,
+GMB,"Gambia, The",PPPPC,
+GMB,"Gambia, The",NGAP_NPGDP,
+GMB,"Gambia, The",PPPSH,
+GMB,"Gambia, The",PPPEX,
+GMB,"Gambia, The",LUR,
+GMB,"Gambia, The",LE,
+GMB,"Gambia, The",GGXWDN,
+GMB,"Gambia, The",GGXWDN_NGDP,
+GHA,Ghana,PPPGDP,
+GHA,Ghana,PPPPC,
+GHA,Ghana,NGAP_NPGDP,
+GHA,Ghana,PPPSH,
+GHA,Ghana,PPPEX,
+GHA,Ghana,LUR,
+GHA,Ghana,LE,
+GHA,Ghana,GGSB,
+GHA,Ghana,GGSB_NPGDP,
+GHA,Ghana,GGXWDN,
+GHA,Ghana,GGXWDN_NGDP,
+GIN,Guinea,PPPGDP,
+GIN,Guinea,PPPPC,
+GIN,Guinea,NGAP_NPGDP,
+GIN,Guinea,PPPSH,
+GIN,Guinea,PPPEX,
+GIN,Guinea,LUR,
+GIN,Guinea,LE,
+GIN,Guinea,LP,Not applicable
+GIN,Guinea,GGSB,
+GIN,Guinea,GGSB_NPGDP,
+GIN,Guinea,GGXWDN,
+GIN,Guinea,GGXWDN_NGDP,
+GNB,Guinea-Bissau,PPPGDP,
+GNB,Guinea-Bissau,PPPPC,
+GNB,Guinea-Bissau,NGAP_NPGDP,
+GNB,Guinea-Bissau,PPPSH,
+GNB,Guinea-Bissau,PPPEX,
+GNB,Guinea-Bissau,LUR,
+GNB,Guinea-Bissau,LE,
+GNB,Guinea-Bissau,GGSB,
+GNB,Guinea-Bissau,GGSB_NPGDP,
+GNB,Guinea-Bissau,GGXWDN,
+GNB,Guinea-Bissau,GGXWDN_NGDP,
+KEN,Kenya,PPPGDP,
+KEN,Kenya,PPPPC,
+KEN,Kenya,NGAP_NPGDP,
+KEN,Kenya,PPPSH,
+KEN,Kenya,PPPEX,
+KEN,Kenya,LUR,
+KEN,Kenya,LE,
+KEN,Kenya,GGSB,
+KEN,Kenya,GGSB_NPGDP,
+LSO,"Lesotho, Kingdom of",NGDP_R,FY2024/25
+LSO,"Lesotho, Kingdom of",NGDP_RPCH,FY2024/25
+LSO,"Lesotho, Kingdom of",NGDP,FY2024/25
+LSO,"Lesotho, Kingdom of",NGDPD,FY2024/25
+LSO,"Lesotho, Kingdom of",PPPGDP,
+LSO,"Lesotho, Kingdom of",NGDP_D,FY2024/25
+LSO,"Lesotho, Kingdom of",NGDPRPC,FY2024/25
+LSO,"Lesotho, Kingdom of",NGDPRPPPPC,FY2024/25
+LSO,"Lesotho, Kingdom of",NGDPPC,FY2024/25
+LSO,"Lesotho, Kingdom of",NGDPDPC,FY2024/25
+LSO,"Lesotho, Kingdom of",PPPPC,
+LSO,"Lesotho, Kingdom of",NGAP_NPGDP,
+LSO,"Lesotho, Kingdom of",PPPSH,
+LSO,"Lesotho, Kingdom of",PPPEX,
+LSO,"Lesotho, Kingdom of",NID_NGDP,FY2024/25
+LSO,"Lesotho, Kingdom of",NGSD_NGDP,FY2024/25
+LSO,"Lesotho, Kingdom of",TM_RPCH,FY2024/25
+LSO,"Lesotho, Kingdom of",TMG_RPCH,FY2024/25
+LSO,"Lesotho, Kingdom of",TX_RPCH,FY2024/25
+LSO,"Lesotho, Kingdom of",TXG_RPCH,FY2024/25
+LSO,"Lesotho, Kingdom of",LUR,
+LSO,"Lesotho, Kingdom of",LE,
+LSO,"Lesotho, Kingdom of",GGR,FY2025/26
+LSO,"Lesotho, Kingdom of",GGR_NGDP,FY2025/26
+LSO,"Lesotho, Kingdom of",GGX,FY2025/26
+LSO,"Lesotho, Kingdom of",GGX_NGDP,FY2025/26
+LSO,"Lesotho, Kingdom of",GGXCNL,FY2025/26
+LSO,"Lesotho, Kingdom of",GGXCNL_NGDP,FY2025/26
+LSO,"Lesotho, Kingdom of",GGSB,
+LSO,"Lesotho, Kingdom of",GGSB_NPGDP,
+LSO,"Lesotho, Kingdom of",GGXONLB,FY2025/26
+LSO,"Lesotho, Kingdom of",GGXONLB_NGDP,FY2025/26
+LSO,"Lesotho, Kingdom of",GGXWDN,FY2025/26
+LSO,"Lesotho, Kingdom of",GGXWDN_NGDP,FY2025/26
+LSO,"Lesotho, Kingdom of",GGXWDG,FY2025/26
+LSO,"Lesotho, Kingdom of",GGXWDG_NGDP,FY2025/26
+LSO,"Lesotho, Kingdom of",NGDP_FY,FY2024/25
+LSO,"Lesotho, Kingdom of",BCA,FY2024/25
+LSO,"Lesotho, Kingdom of",BCA_NGDPD,FY2024/25
+LBR,Liberia,PPPGDP,
+LBR,Liberia,PPPPC,
+LBR,Liberia,NGAP_NPGDP,
+LBR,Liberia,PPPSH,
+LBR,Liberia,PPPEX,
+LBR,Liberia,NID_NGDP,
+LBR,Liberia,NGSD_NGDP,
+LBR,Liberia,LUR,
+LBR,Liberia,LE,
+LBR,Liberia,GGSB,
+LBR,Liberia,GGSB_NPGDP,
+MDG,"Madagascar, Republic of",PPPGDP,
+MDG,"Madagascar, Republic of",PPPPC,
+MDG,"Madagascar, Republic of",NGAP_NPGDP,
+MDG,"Madagascar, Republic of",PPPSH,
+MDG,"Madagascar, Republic of",PPPEX,
+MDG,"Madagascar, Republic of",LUR,
+MDG,"Madagascar, Republic of",LE,
+MDG,"Madagascar, Republic of",GGSB,
+MDG,"Madagascar, Republic of",GGSB_NPGDP,
+MDG,"Madagascar, Republic of",GGXWDN,
+MDG,"Madagascar, Republic of",GGXWDN_NGDP,
+MWI,Malawi,PPPGDP,
+MWI,Malawi,PPPPC,
+MWI,Malawi,NGAP_NPGDP,
+MWI,Malawi,PPPSH,
+MWI,Malawi,PPPEX,
+MWI,Malawi,LUR,
+MWI,Malawi,LE,
+MWI,Malawi,GGSB,
+MWI,Malawi,GGSB_NPGDP,
+MWI,Malawi,GGXWDN,
+MWI,Malawi,GGXWDN_NGDP,
+MLI,Mali,PPPGDP,
+MLI,Mali,PPPPC,
+MLI,Mali,NGAP_NPGDP,
+MLI,Mali,PPPSH,
+MLI,Mali,PPPEX,
+MLI,Mali,LUR,
+MLI,Mali,LE,
+MLI,Mali,GGSB,
+MLI,Mali,GGSB_NPGDP,
+MUS,Mauritius,PPPGDP,
+MUS,Mauritius,PPPPC,
+MUS,Mauritius,NGAP_NPGDP,
+MUS,Mauritius,PPPSH,
+MUS,Mauritius,PPPEX,
+MUS,Mauritius,LE,
+MUS,Mauritius,GGXWDN,
+MUS,Mauritius,GGXWDN_NGDP,
+MOZ,"Mozambique, Republic of",PPPGDP,
+MOZ,"Mozambique, Republic of",PPPPC,
+MOZ,"Mozambique, Republic of",NGAP_NPGDP,
+MOZ,"Mozambique, Republic of",PPPSH,
+MOZ,"Mozambique, Republic of",PPPEX,
+MOZ,"Mozambique, Republic of",LUR,
+MOZ,"Mozambique, Republic of",LE,
+MOZ,"Mozambique, Republic of",GGSB,
+MOZ,"Mozambique, Republic of",GGSB_NPGDP,
+MOZ,"Mozambique, Republic of",GGXWDN,
+MOZ,"Mozambique, Republic of",GGXWDN_NGDP,
+NAM,Namibia,PPPGDP,
+NAM,Namibia,PPPPC,
+NAM,Namibia,NGAP_NPGDP,
+NAM,Namibia,PPPSH,
+NAM,Namibia,PPPEX,
+NAM,Namibia,LUR,
+NAM,Namibia,LE,
+NAM,Namibia,GGSB,
+NAM,Namibia,GGSB_NPGDP,
+NER,Niger,PPPGDP,
+NER,Niger,PPPPC,
+NER,Niger,NGAP_NPGDP,
+NER,Niger,PPPSH,
+NER,Niger,PPPEX,
+NER,Niger,LUR,
+NER,Niger,LE,
+NER,Niger,GGSB,
+NER,Niger,GGSB_NPGDP,
+NGA,Nigeria,PPPGDP,
+NGA,Nigeria,PPPPC,
+NGA,Nigeria,NGAP_NPGDP,
+NGA,Nigeria,PPPSH,
+NGA,Nigeria,PPPEX,
+NGA,Nigeria,LE,
+NGA,Nigeria,GGSB,
+NGA,Nigeria,GGSB_NPGDP,
+RWA,Rwanda,PPPGDP,
+RWA,Rwanda,PPPPC,
+RWA,Rwanda,NGAP_NPGDP,
+RWA,Rwanda,PPPSH,
+RWA,Rwanda,PPPEX,
+RWA,Rwanda,LUR,
+RWA,Rwanda,LE,
+RWA,Rwanda,GGR,FY2025/26
+RWA,Rwanda,GGR_NGDP,FY2025/26
+RWA,Rwanda,GGX,FY2025/26
+RWA,Rwanda,GGX_NGDP,FY2025/26
+RWA,Rwanda,GGXCNL,FY2025/26
+RWA,Rwanda,GGXCNL_NGDP,FY2025/26
+RWA,Rwanda,GGSB,
+RWA,Rwanda,GGSB_NPGDP,
+RWA,Rwanda,GGXONLB,FY2025/26
+RWA,Rwanda,GGXONLB_NGDP,FY2025/26
+RWA,Rwanda,GGXWDN,
+RWA,Rwanda,GGXWDN_NGDP,
+RWA,Rwanda,GGXWDG,FY2025/26
+RWA,Rwanda,GGXWDG_NGDP,FY2025/26
+STP,"São Tomé and Príncipe, Democratic Republic of",PPPGDP,
+STP,"São Tomé and Príncipe, Democratic Republic of",PPPPC,
+STP,"São Tomé and Príncipe, Democratic Republic of",NGAP_NPGDP,
+STP,"São Tomé and Príncipe, Democratic Republic of",PPPSH,
+STP,"São Tomé and Príncipe, Democratic Republic of",PPPEX,
+STP,"São Tomé and Príncipe, Democratic Republic of",LE,
+STP,"São Tomé and Príncipe, Democratic Republic of",GGXWDN,
+STP,"São Tomé and Príncipe, Democratic Republic of",GGXWDN_NGDP,
+SEN,Senegal,PPPGDP,
+SEN,Senegal,PPPPC,
+SEN,Senegal,NGAP_NPGDP,
+SEN,Senegal,PPPSH,
+SEN,Senegal,PPPEX,
+SEN,Senegal,LUR,
+SEN,Senegal,LE,
+SEN,Senegal,GGSB_NPGDP,
+SEN,Senegal,GGXWDN,
+SEN,Senegal,GGXWDN_NGDP,
+SYC,Seychelles,PPPGDP,
+SYC,Seychelles,PPPPC,
+SYC,Seychelles,NGAP_NPGDP,
+SYC,Seychelles,PPPSH,
+SYC,Seychelles,PPPEX,
+SYC,Seychelles,LE,
+SYC,Seychelles,GGSB,
+SYC,Seychelles,GGSB_NPGDP,
+SLE,Sierra Leone,PPPGDP,
+SLE,Sierra Leone,PPPPC,
+SLE,Sierra Leone,NGAP_NPGDP,
+SLE,Sierra Leone,PPPSH,
+SLE,Sierra Leone,PPPEX,
+SLE,Sierra Leone,LUR,
+SLE,Sierra Leone,LE,
+SLE,Sierra Leone,GGSB,
+SLE,Sierra Leone,GGSB_NPGDP,
+SLE,Sierra Leone,GGXWDN,
+SLE,Sierra Leone,GGXWDN_NGDP,
+ZAF,South Africa,PPPGDP,
+ZAF,South Africa,PPPPC,
+ZAF,South Africa,NGAP_NPGDP,
+ZAF,South Africa,PPPSH,
+ZAF,South Africa,PPPEX,
+ZAF,South Africa,LE,
+ZAF,South Africa,GGR,FY2024/25
+ZAF,South Africa,GGR_NGDP,FY2024/25
+ZAF,South Africa,GGX,FY2024/25
+ZAF,South Africa,GGX_NGDP,FY2024/25
+ZAF,South Africa,GGXCNL,FY2024/25
+ZAF,South Africa,GGXCNL_NGDP,FY2024/25
+ZAF,South Africa,GGSB,FY2024/25
+ZAF,South Africa,GGSB_NPGDP,FY2024/25
+ZAF,South Africa,GGXONLB,FY2024/25
+ZAF,South Africa,GGXONLB_NGDP,FY2024/25
+ZAF,South Africa,GGXWDN,FY2024/25
+ZAF,South Africa,GGXWDN_NGDP,FY2024/25
+ZAF,South Africa,GGXWDG,FY2024/25
+ZAF,South Africa,GGXWDG_NGDP,FY2024/25
+SSD,"South Sudan, Republic of",PPPGDP,
+SSD,"South Sudan, Republic of",PPPPC,
+SSD,"South Sudan, Republic of",NGAP_NPGDP,
+SSD,"South Sudan, Republic of",PPPSH,
+SSD,"South Sudan, Republic of",PPPEX,
+SSD,"South Sudan, Republic of",TM_RPCH,
+SSD,"South Sudan, Republic of",TMG_RPCH,
+SSD,"South Sudan, Republic of",TX_RPCH,
+SSD,"South Sudan, Republic of",TXG_RPCH,
+SSD,"South Sudan, Republic of",LUR,
+SSD,"South Sudan, Republic of",LE,
+SSD,"South Sudan, Republic of",GGSB,
+SSD,"South Sudan, Republic of",GGSB_NPGDP,
+TZA,"Tanzania, United Republic of",PPPGDP,
+TZA,"Tanzania, United Republic of",PPPPC,
+TZA,"Tanzania, United Republic of",NGAP_NPGDP,
+TZA,"Tanzania, United Republic of",PPPSH,
+TZA,"Tanzania, United Republic of",PPPEX,
+TZA,"Tanzania, United Republic of",LUR,
+TZA,"Tanzania, United Republic of",LE,
+TZA,"Tanzania, United Republic of",GGSB,
+TZA,"Tanzania, United Republic of",GGSB_NPGDP,
+TZA,"Tanzania, United Republic of",GGXWDN,
+TZA,"Tanzania, United Republic of",GGXWDN_NGDP,
+TGO,Togo,PPPGDP,
+TGO,Togo,PPPPC,
+TGO,Togo,NGAP_NPGDP,
+TGO,Togo,PPPSH,
+TGO,Togo,PPPEX,
+TGO,Togo,LUR,
+TGO,Togo,LE,
+TGO,Togo,GGSB,
+TGO,Togo,GGSB_NPGDP,
+TGO,Togo,GGXWDN,
+TGO,Togo,GGXWDN_NGDP,
+UGA,Uganda,PPPGDP,
+UGA,Uganda,PPPPC,
+UGA,Uganda,NGAP_NPGDP,
+UGA,Uganda,PPPSH,
+UGA,Uganda,PPPEX,
+UGA,Uganda,LUR,
+UGA,Uganda,LE,
+UGA,Uganda,GGSB,
+UGA,Uganda,GGSB_NPGDP,
+UGA,Uganda,GGXWDN,
+UGA,Uganda,GGXWDN_NGDP,
+ZMB,Zambia,PPPGDP,
+ZMB,Zambia,PPPPC,
+ZMB,Zambia,NGAP_NPGDP,
+ZMB,Zambia,PPPSH,
+ZMB,Zambia,PPPEX,
+ZMB,Zambia,LUR,
+ZMB,Zambia,LE,
+ZMB,Zambia,GGSB,
+ZMB,Zambia,GGSB_NPGDP,
+ZWE,Zimbabwe,PPPGDP,
+ZWE,Zimbabwe,PPPPC,
+ZWE,Zimbabwe,NGAP_NPGDP,
+ZWE,Zimbabwe,PPPSH,
+ZWE,Zimbabwe,PPPEX,
+ZWE,Zimbabwe,NID_NGDP,
+ZWE,Zimbabwe,NGSD_NGDP,
+ZWE,Zimbabwe,TM_RPCH,
+ZWE,Zimbabwe,TX_RPCH,
+ZWE,Zimbabwe,LUR,
+ZWE,Zimbabwe,LE,
+ZWE,Zimbabwe,GGSB,
+ZWE,Zimbabwe,GGSB_NPGDP,
+ZWE,Zimbabwe,GGXWDN,
+ZWE,Zimbabwe,GGXWDN_NGDP,

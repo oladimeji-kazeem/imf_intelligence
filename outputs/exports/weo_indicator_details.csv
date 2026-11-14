@@ -1,0 +1,26 @@
+WEO Subject Code,Subject Descriptor,Units,Scale
+BCA,"Current account balance (credit less debit), US dollar",,
+BCA,"Current account balance (credit less debit), US dollar",US dollar,Billions
+BCA_NGDPD,"Current account balance (credit less debit), Percent of GDP",,
+BCA_NGDPD,"Current account balance (credit less debit), Percent of GDP",Percent,Units
+GGXCNL,"Net lending (+) / net borrowing (-), General government, Domestic currency",Domestic currency,Billions
+GGXCNL_NGDP,"Net lending (+) / net borrowing (-), General government, Percent of GDP",Percent,Units
+GGXONLB,"Primary net lending (+) / net borrowing (-), General government, Domestic currency",Domestic currency,Billions
+GGXONLB,"Primary net lending (+) / net borrowing (-), General government, Domestic currency",,
+GGXONLB_NGDP,"Primary net lending (+) / net borrowing (-), General government, Percent of GDP",,
+GGXONLB_NGDP,"Primary net lending (+) / net borrowing (-), General government, Percent of GDP",Percent,Units
+GGXWDG_NGDP,"Gross debt, General government, Percent of GDP",Percent,Units
+GGXWDG_NGDP,"Gross debt, General government, Percent of GDP",,
+LUR,Unemployment rate,,
+LUR,Unemployment rate,,Units
+NGDP,"Gross domestic product (GDP), Current prices, Domestic currency",Domestic currency,Billions
+NGDPD,"Gross domestic product (GDP), Current prices, US dollar",US dollar,Billions
+NGDPDPC,"Gross domestic product (GDP), Current prices, Per capita, US dollar",US dollar,Units
+NGDPPC,"Gross domestic product (GDP), Current prices, Per capita, Domestic currency",Domestic currency,Units
+NGDP_RPCH,"Gross domestic product (GDP), Constant prices, Percent change",Percent,Units
+PCPIPCH,"All Items, Consumer price index (CPI), Period average, percent change",Percent,Units
+PPPGDP,"Gross domestic product (GDP), Current prices, Purchasing power parity (PPP) international dollar, ICP benchmarks 2017-2021",,Billions
+TM_RPCH,"Imports of goods and services, Volume, Cost insurance freight (CIF), Percent change",,
+TM_RPCH,"Imports of goods and services, Volume, Cost insurance freight (CIF), Percent change",Percent,Units
+TX_RPCH,"Exports of goods and services, Volume, Free on board (FOB), Percent change",,
+TX_RPCH,"Exports of goods and services, Volume, Free on board (FOB), Percent change",Percent,Units

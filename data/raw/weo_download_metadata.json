@@ -1,0 +1,18 @@
+{
+    "source": "International Monetary Fund",
+    "dataset": "World Economic Outlook",
+    "vintage": "To be confirmed from workbook",
+    "retrieved_at_utc": "2026-11-14T05:00:23.034749+00:00",
+    "filename": "WEOOct2026all.xlsx",
+    "sha256": "2aa4f70a05931197b41ed7e0202dc56eee8d816858ac14521e4f8f5dbc38696c",
+    "file_size_bytes": 5480592,
+    "worksheets": [
+        "October 2026 WEO",
+        "Countries",
+        "Country Groups",
+        "Commodity Prices",
+        "Country Group Composition"
+    ],
+    "countries_sheet_rows": 8668,
+    "countries_sheet_columns": 85
+}

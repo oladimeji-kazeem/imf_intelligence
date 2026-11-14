@@ -1,0 +1,72 @@
+indicators:
+  inflation:
+    name: Inflation Rate
+    category: prices
+    unit: percent
+    frequency: annual
+    direction_of_risk: higher_is_worse
+    required: true
+
+  government_debt:
+    name: General Government Gross Debt
+    category: public_finance
+    unit: percent_of_gdp
+    frequency: annual
+    direction_of_risk: higher_is_worse
+    required: true
+
+  fiscal_balance:
+    name: General Government Net Lending or Borrowing
+    category: public_finance
+    unit: percent_of_gdp
+    frequency: annual
+    direction_of_risk: lower_is_worse
+    required: true
+
+  government_revenue:
+    name: General Government Revenue
+    category: public_finance
+    unit: percent_of_gdp
+    frequency: annual
+    direction_of_risk: context_dependent
+    required: false
+
+  government_expenditure:
+    name: General Government Total Expenditure
+    category: public_finance
+    unit: percent_of_gdp
+    frequency: annual
+    direction_of_risk: context_dependent
+    required: false
+
+  unemployment:
+    name: Unemployment Rate
+    category: labour_market
+    unit: percent
+    frequency: annual
+    direction_of_risk: higher_is_worse
+    required: true
+
+  current_account:
+    name: Current Account Balance
+    category: external_sector
+    unit: percent_of_gdp
+    frequency: annual
+    direction_of_risk: context_dependent
+    required: true
+
+  exports:
+    name: Exports of Goods and Services
+    category: external_sector
+    unit: usd_or_percent_of_gdp
+    frequency: annual
+    direction_of_risk: context_dependent
+    required: false
+
+  imports:
+    name: Imports of Goods and Services
+    category: external_sector
+    unit: usd_or_percent_of_gdp
+    frequency: annual
+    direction_of_risk: context_dependent
+    required: false

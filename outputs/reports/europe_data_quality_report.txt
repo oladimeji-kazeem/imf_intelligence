@@ -1,0 +1,159 @@
+EUROPEAN WEO DATA QUALITY REPORT
+=================================================================
+
+INDICATOR MISSINGNESS
+                       total_records  missing_values  available_values  missing_pct
+indicator                                                                          
+current_account                 1040              15              1025         1.44
+exports_volume_growth           1040              35              1005         3.37
+fiscal_balance                  1040             106               934        10.19
+government_debt                 1040             152               888        14.62
+imports_volume_growth           1040              35              1005         3.37
+inflation                       1040              19              1021         1.83
+nominal_gdp_local               1040              15              1025         1.44
+nominal_gdp_usd                 1040              15              1025         1.44
+primary_balance                 1040             130               910        12.50
+real_gdp_growth                 1040              17              1023         1.63
+unemployment                    1040              35              1005         3.37
+
+COUNTRY MISSINGNESS
+                         total_records  missing_values  missing_pct
+ISO country                                                        
+AUT Austria                        572              24         4.20
+BEL Belgium                        572               0         0.00
+CHE Switzerland                    572              16         2.80
+CZE Czech Republic                 572             169        29.55
+DEU Germany                        572              33         5.77
+DNK Denmark                        572              12         2.10
+ESP Spain                          572               0         0.00
+FIN Finland                        572               0         0.00
+FRA France                         572               0         0.00
+GBR United Kingdom                 572               0         0.00
+GRC Greece                         572               8         1.40
+HUN Hungary                        572              47         8.22
+IRL Ireland                        572              50         8.74
+ITA Italy                          572              24         4.20
+NLD Netherlands, The               572              20         3.50
+NOR Norway                         572               0         0.00
+POL Poland, Republic of            572              88        15.38
+PRT Portugal                       572              22         3.85
+ROU Romania                        572              46         8.04
+SWE Sweden                         572              15         2.62
+
+YEAR MISSINGNESS
+      total_records  missing_values  missing_pct
+year                                            
+1980            220              55        25.00
+1981            220              47        21.36
+1982            220              47        21.36
+1983            220              45        20.45
+1984            220              45        20.45
+1985            220              43        19.55
+1986            220              42        19.09
+1987            220              41        18.64
+1988            220              34        15.45
+1989            220              34        15.45
+1990            220              30        13.64
+1991            220              26        11.82
+1992            220              25        11.36
+1993            220              24        10.91
+1994            220              24        10.91
+1995            220               7         3.18
+1996            220               1         0.45
+1997            220               1         0.45
+1998            220               1         0.45
+1999            220               1         0.45
+2000            220               0         0.00
+2001            220               0         0.00
+2002            220               0         0.00
+2003            220               0         0.00
+2004            220               0         0.00
+2005            220               0         0.00
+2006            220               0         0.00
+2007            220               0         0.00
+2008            220               0         0.00
+2009            220               0         0.00
+2010            220               0         0.00
+2011            220               0         0.00
+2012            220               0         0.00
+2013            220               0         0.00
+2014            220               1         0.45
+2015            220               0         0.00
+2016            220               0         0.00
+2017            220               0         0.00
+2018            220               0         0.00
+2019            220               0         0.00
+2020            220               0         0.00
+2021            220               0         0.00
+2022            220               0         0.00
+2023            220               0         0.00
+2024            220               0         0.00
+2025            220               0         0.00
+2026            220               0         0.00
+2027            220               0         0.00
+2028            220               0         0.00
+2029            220               0         0.00
+2030            220               0         0.00
+2031            220               0         0.00
+
+COUNTRY-INDICATOR MISSINGNESS
+                           total_records  missing_values  missing_pct
+ISO indicator                                                        
+ROU government_debt                   52              20        38.46
+CZE exports_volume_growth             52              16        30.77
+    imports_volume_growth             52              16        30.77
+    real_gdp_growth                   52              16        30.77
+POL exports_volume_growth             52              16        30.77
+    imports_volume_growth             52              16        30.77
+CZE inflation                         52              16        30.77
+    government_debt                   52              15        28.85
+    unemployment                      52              15        28.85
+HUN fiscal_balance                    52              15        28.85
+CZE nominal_gdp_usd                   52              15        28.85
+    primary_balance                   52              15        28.85
+POL primary_balance                   52              15        28.85
+NLD primary_balance                   52              15        28.85
+POL government_debt                   52              15        28.85
+    fiscal_balance                    52              15        28.85
+HUN primary_balance                   52              15        28.85
+IRL fiscal_balance                    52              15        28.85
+    government_debt                   52              15        28.85
+    primary_balance                   52              15        28.85
+HUN government_debt                   52              15        28.85
+CZE current_account                   52              15        28.85
+    nominal_gdp_local                 52              15        28.85
+    fiscal_balance                    52              15        28.85
+SWE government_debt                   52              13        25.00
+DNK government_debt                   52              12        23.08
+DEU government_debt                   52              11        21.15
+    primary_balance                   52              11        21.15
+    fiscal_balance                    52              11        21.15
+ROU primary_balance                   52              11        21.15
+PRT government_debt                   52              10        19.23
+CHE government_debt                   52              10        19.23
+ROU fiscal_balance                    52              10        19.23
+POL unemployment                      52              10        19.23
+ITA primary_balance                   52               8        15.38
+    fiscal_balance                    52               8        15.38
+AUT government_debt                   52               8        15.38
+    primary_balance                   52               8        15.38
+    fiscal_balance                    52               8        15.38
+GRC primary_balance                   52               8        15.38
+ITA government_debt                   52               8        15.38
+PRT primary_balance                   52               6        11.54
+    fiscal_balance                    52               6        11.54
+ROU unemployment                      52               5         9.62
+IRL unemployment                      52               5         9.62
+CHE fiscal_balance                    52               3         5.77
+    primary_balance                   52               3         5.77
+NLD inflation                         52               2         3.85
+HUN exports_volume_growth             52               1         1.92
+NLD imports_volume_growth             52               1         1.92
+    exports_volume_growth             52               1         1.92
+HUN imports_volume_growth             52               1         1.92
+NLD real_gdp_growth                   52               1         1.92
+POL inflation                         52               1         1.92
+SWE exports_volume_growth             52               1         1.92
+    imports_volume_growth             52               1         1.92
+
+Duplicate records: 0
