@@ -1,0 +1,32 @@
+EUROPEAN FISCAL RISK DATA READINESS REPORT
+================================================
+Input records: 3,677
+Countries: 20
+Fiscal risk panel records: 905
+First year: 1980
+Last year: 2025
+
+Common comparison year: 2024
+Countries in snapshot: 20
+Countries with complete fiscal snapshot: 20
+
+Derived indicator availability:
+Debt change available: 747
+Nominal GDP growth available: 885
+
+Missing values by indicator:
+government_debt           138
+fiscal_balance             92
+primary_balance           116
+nominal_gdp_local           0
+debt_change_pp            158
+nominal_gdp_growth_pct     20
+
+Methodological notes:
+- Historical actual observations only.
+- No missing-value imputation.
+- Debt change is measured in percentage points of GDP.
+- Nominal GDP growth is derived from local-currency GDP.
+- Derived changes require consecutive annual observations.
+- 2024 is used as the initial common comparison year.
+- This dataset is not a sovereign credit rating.

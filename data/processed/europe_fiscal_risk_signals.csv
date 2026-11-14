@@ -1,0 +1,161 @@
+iso,country,reference_year,risk_dimension,measurement_type,measurement_value,risk_percentile,risk_signal
+GRC,Greece,2024,government_debt,peer_relative,100.0,100.0,higher_relative_exposure
+ITA,Italy,2024,government_debt,peer_relative,95.0,95.0,higher_relative_exposure
+FRA,France,2024,government_debt,peer_relative,90.0,90.0,higher_relative_exposure
+BEL,Belgium,2024,government_debt,peer_relative,85.0,85.0,higher_relative_exposure
+ESP,Spain,2024,government_debt,peer_relative,80.0,80.0,higher_relative_exposure
+GBR,United Kingdom,2024,government_debt,peer_relative,75.0,75.0,higher_relative_exposure
+PRT,Portugal,2024,government_debt,peer_relative,70.0,70.0,higher_relative_exposure
+FIN,Finland,2024,government_debt,peer_relative,65.0,65.0,moderate_relative_exposure
+AUT,Austria,2024,government_debt,peer_relative,60.0,60.0,moderate_relative_exposure
+HUN,Hungary,2024,government_debt,peer_relative,55.00000000000001,55.00000000000001,moderate_relative_exposure
+DEU,Germany,2024,government_debt,peer_relative,50.0,50.0,moderate_relative_exposure
+ROU,Romania,2024,government_debt,peer_relative,45.0,45.0,moderate_relative_exposure
+POL,"Poland, Republic of",2024,government_debt,peer_relative,40.0,40.0,moderate_relative_exposure
+NOR,Norway,2024,government_debt,peer_relative,35.0,35.0,moderate_relative_exposure
+NLD,"Netherlands, The",2024,government_debt,peer_relative,30.0,30.0,lower_relative_exposure
+CZE,Czech Republic,2024,government_debt,peer_relative,25.0,25.0,lower_relative_exposure
+CHE,Switzerland,2024,government_debt,peer_relative,20.0,20.0,lower_relative_exposure
+IRL,Ireland,2024,government_debt,peer_relative,15.0,15.0,lower_relative_exposure
+SWE,Sweden,2024,government_debt,peer_relative,10.0,10.0,lower_relative_exposure
+DNK,Denmark,2024,government_debt,peer_relative,5.0,5.0,lower_relative_exposure
+GRC,Greece,2024,fiscal_balance,peer_relative,20.0,20.0,lower_relative_exposure
+ITA,Italy,2024,fiscal_balance,peer_relative,60.0,60.0,moderate_relative_exposure
+FRA,France,2024,fiscal_balance,peer_relative,85.0,85.0,higher_relative_exposure
+BEL,Belgium,2024,fiscal_balance,peer_relative,70.0,70.0,higher_relative_exposure
+ESP,Spain,2024,fiscal_balance,peer_relative,55.00000000000001,55.00000000000001,moderate_relative_exposure
+GBR,United Kingdom,2024,fiscal_balance,peer_relative,90.0,90.0,higher_relative_exposure
+PRT,Portugal,2024,fiscal_balance,peer_relative,25.0,25.0,lower_relative_exposure
+FIN,Finland,2024,fiscal_balance,peer_relative,65.0,65.0,moderate_relative_exposure
+AUT,Austria,2024,fiscal_balance,peer_relative,75.0,75.0,higher_relative_exposure
+HUN,Hungary,2024,fiscal_balance,peer_relative,80.0,80.0,higher_relative_exposure
+DEU,Germany,2024,fiscal_balance,peer_relative,50.0,50.0,moderate_relative_exposure
+ROU,Romania,2024,fiscal_balance,peer_relative,100.0,100.0,higher_relative_exposure
+POL,"Poland, Republic of",2024,fiscal_balance,peer_relative,95.0,95.0,higher_relative_exposure
+NOR,Norway,2024,fiscal_balance,peer_relative,5.0,5.0,lower_relative_exposure
+NLD,"Netherlands, The",2024,fiscal_balance,peer_relative,35.0,35.0,moderate_relative_exposure
+CZE,Czech Republic,2024,fiscal_balance,peer_relative,45.0,45.0,moderate_relative_exposure
+CHE,Switzerland,2024,fiscal_balance,peer_relative,30.0,30.0,lower_relative_exposure
+IRL,Ireland,2024,fiscal_balance,peer_relative,10.0,10.0,lower_relative_exposure
+SWE,Sweden,2024,fiscal_balance,peer_relative,40.0,40.0,moderate_relative_exposure
+DNK,Denmark,2024,fiscal_balance,peer_relative,15.0,15.0,lower_relative_exposure
+GRC,Greece,2024,primary_balance,peer_relative,10.0,10.0,lower_relative_exposure
+ITA,Italy,2024,primary_balance,peer_relative,35.0,35.0,moderate_relative_exposure
+FRA,France,2024,primary_balance,peer_relative,80.0,80.0,higher_relative_exposure
+BEL,Belgium,2024,primary_balance,peer_relative,70.0,70.0,higher_relative_exposure
+ESP,Spain,2024,primary_balance,peer_relative,60.0,60.0,moderate_relative_exposure
+GBR,United Kingdom,2024,primary_balance,peer_relative,85.0,85.0,higher_relative_exposure
+PRT,Portugal,2024,primary_balance,peer_relative,25.0,25.0,lower_relative_exposure
+FIN,Finland,2024,primary_balance,peer_relative,95.0,95.0,higher_relative_exposure
+AUT,Austria,2024,primary_balance,peer_relative,75.0,75.0,higher_relative_exposure
+HUN,Hungary,2024,primary_balance,peer_relative,45.0,45.0,moderate_relative_exposure
+DEU,Germany,2024,primary_balance,peer_relative,65.0,65.0,moderate_relative_exposure
+ROU,Romania,2024,primary_balance,peer_relative,100.0,100.0,higher_relative_exposure
+POL,"Poland, Republic of",2024,primary_balance,peer_relative,90.0,90.0,higher_relative_exposure
+NOR,Norway,2024,primary_balance,peer_relative,5.0,5.0,lower_relative_exposure
+NLD,"Netherlands, The",2024,primary_balance,peer_relative,40.0,40.0,moderate_relative_exposure
+CZE,Czech Republic,2024,primary_balance,peer_relative,50.0,50.0,moderate_relative_exposure
+CHE,Switzerland,2024,primary_balance,peer_relative,30.0,30.0,lower_relative_exposure
+IRL,Ireland,2024,primary_balance,peer_relative,15.0,15.0,lower_relative_exposure
+SWE,Sweden,2024,primary_balance,peer_relative,55.00000000000001,55.00000000000001,moderate_relative_exposure
+DNK,Denmark,2024,primary_balance,peer_relative,20.0,20.0,lower_relative_exposure
+GRC,Greece,2024,debt_change,peer_relative,5.0,5.0,lower_relative_exposure
+ITA,Italy,2024,debt_change,peer_relative,50.0,50.0,moderate_relative_exposure
+FRA,France,2024,debt_change,peer_relative,80.0,80.0,higher_relative_exposure
+BEL,Belgium,2024,debt_change,peer_relative,65.0,65.0,moderate_relative_exposure
+ESP,Spain,2024,debt_change,peer_relative,10.0,10.0,lower_relative_exposure
+GBR,United Kingdom,2024,debt_change,peer_relative,60.0,60.0,moderate_relative_exposure
+PRT,Portugal,2024,debt_change,peer_relative,20.0,20.0,lower_relative_exposure
+FIN,Finland,2024,debt_change,peer_relative,90.0,90.0,higher_relative_exposure
+AUT,Austria,2024,debt_change,peer_relative,75.0,75.0,higher_relative_exposure
+HUN,Hungary,2024,debt_change,peer_relative,40.0,40.0,moderate_relative_exposure
+DEU,Germany,2024,debt_change,peer_relative,35.0,35.0,moderate_relative_exposure
+ROU,Romania,2024,debt_change,peer_relative,85.0,85.0,higher_relative_exposure
+POL,"Poland, Republic of",2024,debt_change,peer_relative,95.0,95.0,higher_relative_exposure
+NOR,Norway,2024,debt_change,peer_relative,100.0,100.0,higher_relative_exposure
+NLD,"Netherlands, The",2024,debt_change,peer_relative,30.0,30.0,lower_relative_exposure
+CZE,Czech Republic,2024,debt_change,peer_relative,55.00000000000001,55.00000000000001,moderate_relative_exposure
+CHE,Switzerland,2024,debt_change,peer_relative,45.0,45.0,moderate_relative_exposure
+IRL,Ireland,2024,debt_change,peer_relative,15.0,15.0,lower_relative_exposure
+SWE,Sweden,2024,debt_change,peer_relative,70.0,70.0,higher_relative_exposure
+DNK,Denmark,2024,debt_change,peer_relative,25.0,25.0,lower_relative_exposure
+GRC,Greece,2024,government_debt,historical_volatility,53.3029813964046,100.0,higher_relative_exposure
+ITA,Italy,2024,government_debt,historical_volatility,14.593213448303546,60.0,moderate_relative_exposure
+FRA,France,2024,government_debt,historical_volatility,28.573678256996303,85.0,higher_relative_exposure
+BEL,Belgium,2024,government_debt,historical_volatility,14.76684941254319,65.0,moderate_relative_exposure
+ESP,Spain,2024,government_debt,historical_volatility,28.895886747410813,90.0,higher_relative_exposure
+GBR,United Kingdom,2024,government_debt,historical_volatility,24.497402208842853,75.0,higher_relative_exposure
+PRT,Portugal,2024,government_debt,historical_volatility,29.64261028572316,95.0,higher_relative_exposure
+FIN,Finland,2024,government_debt,historical_volatility,21.257828456924766,70.0,higher_relative_exposure
+AUT,Austria,2024,government_debt,historical_volatility,9.523630034289972,25.0,lower_relative_exposure
+HUN,Hungary,2024,government_debt,historical_volatility,8.810102282600644,20.0,lower_relative_exposure
+DEU,Germany,2024,government_debt,historical_volatility,9.931777067850962,30.0,lower_relative_exposure
+ROU,Romania,2024,government_debt,historical_volatility,12.994804700725592,50.0,moderate_relative_exposure
+POL,"Poland, Republic of",2024,government_debt,historical_volatility,5.789649875364685,5.0,lower_relative_exposure
+NOR,Norway,2024,government_debt,historical_volatility,7.94233290232241,15.0,lower_relative_exposure
+NLD,"Netherlands, The",2024,government_debt,historical_volatility,10.54913189319386,40.0,moderate_relative_exposure
+CZE,Czech Republic,2024,government_debt,historical_volatility,10.40996901493727,35.0,moderate_relative_exposure
+CHE,Switzerland,2024,government_debt,historical_volatility,6.168796217777872,10.0,lower_relative_exposure
+IRL,Ireland,2024,government_debt,historical_volatility,27.511351630453976,80.0,higher_relative_exposure
+SWE,Sweden,2024,government_debt,historical_volatility,11.541324796070295,45.0,moderate_relative_exposure
+DNK,Denmark,2024,government_debt,historical_volatility,13.112617973802712,55.00000000000001,moderate_relative_exposure
+GRC,Greece,2024,fiscal_balance,historical_volatility,3.927023621939742,85.0,higher_relative_exposure
+ITA,Italy,2024,fiscal_balance,historical_volatility,3.244906349143949,65.0,moderate_relative_exposure
+FRA,France,2024,fiscal_balance,historical_volatility,1.8812375085662,20.0,lower_relative_exposure
+BEL,Belgium,2024,fiscal_balance,historical_volatility,4.16816132428347,90.0,higher_relative_exposure
+ESP,Spain,2024,fiscal_balance,historical_volatility,3.220881694803333,60.0,moderate_relative_exposure
+GBR,United Kingdom,2024,fiscal_balance,historical_volatility,2.9240097966506697,50.0,moderate_relative_exposure
+PRT,Portugal,2024,fiscal_balance,historical_volatility,2.9241472394995096,55.00000000000001,moderate_relative_exposure
+FIN,Finland,2024,fiscal_balance,historical_volatility,3.791883957410175,80.0,higher_relative_exposure
+AUT,Austria,2024,fiscal_balance,historical_volatility,1.844806036908437,15.0,lower_relative_exposure
+HUN,Hungary,2024,fiscal_balance,historical_volatility,2.281411746840252,30.0,lower_relative_exposure
+DEU,Germany,2024,fiscal_balance,historical_volatility,2.2746021978898368,25.0,lower_relative_exposure
+ROU,Romania,2024,fiscal_balance,historical_volatility,2.5414034582913287,40.0,moderate_relative_exposure
+POL,"Poland, Republic of",2024,fiscal_balance,historical_volatility,1.815510224348143,10.0,lower_relative_exposure
+NOR,Norway,2024,fiscal_balance,historical_volatility,5.93253274731626,95.0,higher_relative_exposure
+NLD,"Netherlands, The",2024,fiscal_balance,historical_volatility,2.4133790747799773,35.0,moderate_relative_exposure
+CZE,Czech Republic,2024,fiscal_balance,historical_volatility,2.736706053659752,45.0,moderate_relative_exposure
+CHE,Switzerland,2024,fiscal_balance,historical_volatility,1.3268337485032733,5.0,lower_relative_exposure
+IRL,Ireland,2024,fiscal_balance,historical_volatility,7.265826797926804,100.0,higher_relative_exposure
+SWE,Sweden,2024,fiscal_balance,historical_volatility,3.4580361741627543,75.0,higher_relative_exposure
+DNK,Denmark,2024,fiscal_balance,historical_volatility,3.351207368285724,70.0,higher_relative_exposure
+GRC,Greece,2024,primary_balance,historical_volatility,3.6814066790612303,90.0,higher_relative_exposure
+ITA,Italy,2024,primary_balance,historical_volatility,2.7034775119570824,50.0,moderate_relative_exposure
+FRA,France,2024,primary_balance,historical_volatility,1.862785792051976,15.0,lower_relative_exposure
+BEL,Belgium,2024,primary_balance,historical_volatility,3.629070710556936,85.0,higher_relative_exposure
+ESP,Spain,2024,primary_balance,historical_volatility,3.226627323670737,70.0,higher_relative_exposure
+GBR,United Kingdom,2024,primary_balance,historical_volatility,2.927375189482892,65.0,moderate_relative_exposure
+PRT,Portugal,2024,primary_balance,historical_volatility,2.670340025455926,45.0,moderate_relative_exposure
+FIN,Finland,2024,primary_balance,historical_volatility,3.61739390719313,80.0,higher_relative_exposure
+AUT,Austria,2024,primary_balance,historical_volatility,1.945778984328861,20.0,lower_relative_exposure
+HUN,Hungary,2024,primary_balance,historical_volatility,2.469791306740425,35.0,moderate_relative_exposure
+DEU,Germany,2024,primary_balance,historical_volatility,1.990815403667427,25.0,lower_relative_exposure
+ROU,Romania,2024,primary_balance,historical_volatility,2.5145582271126883,40.0,moderate_relative_exposure
+POL,"Poland, Republic of",2024,primary_balance,historical_volatility,1.7708739062830032,10.0,lower_relative_exposure
+NOR,Norway,2024,primary_balance,historical_volatility,5.975384870153943,95.0,higher_relative_exposure
+NLD,"Netherlands, The",2024,primary_balance,historical_volatility,2.331909853396528,30.0,lower_relative_exposure
+CZE,Czech Republic,2024,primary_balance,historical_volatility,2.836800499834641,55.00000000000001,moderate_relative_exposure
+CHE,Switzerland,2024,primary_balance,historical_volatility,1.3319762148964758,5.0,lower_relative_exposure
+IRL,Ireland,2024,primary_balance,historical_volatility,7.121948746938789,100.0,higher_relative_exposure
+SWE,Sweden,2024,primary_balance,historical_volatility,3.446035364639114,75.0,higher_relative_exposure
+DNK,Denmark,2024,primary_balance,historical_volatility,2.9095293152610853,60.0,moderate_relative_exposure
+GRC,Greece,2024,debt_change,historical_volatility,9.622260174196942,95.0,higher_relative_exposure
+ITA,Italy,2024,debt_change,historical_volatility,5.812988485498631,75.0,higher_relative_exposure
+FRA,France,2024,debt_change,historical_volatility,3.586808422707445,20.0,lower_relative_exposure
+BEL,Belgium,2024,debt_change,historical_volatility,4.968521221281174,70.0,higher_relative_exposure
+ESP,Spain,2024,debt_change,historical_volatility,6.193723247958731,85.0,higher_relative_exposure
+GBR,United Kingdom,2024,debt_change,historical_volatility,4.656576971606366,55.00000000000001,moderate_relative_exposure
+PRT,Portugal,2024,debt_change,historical_volatility,7.318462272368806,90.0,higher_relative_exposure
+FIN,Finland,2024,debt_change,historical_volatility,4.735741554814385,60.0,moderate_relative_exposure
+AUT,Austria,2024,debt_change,historical_volatility,4.0876049877298914,40.0,moderate_relative_exposure
+HUN,Hungary,2024,debt_change,historical_volatility,4.761870630485233,65.0,moderate_relative_exposure
+DEU,Germany,2024,debt_change,historical_volatility,3.6013303628764417,25.0,lower_relative_exposure
+ROU,Romania,2024,debt_change,historical_volatility,4.215056437980672,45.0,moderate_relative_exposure
+POL,"Poland, Republic of",2024,debt_change,historical_volatility,3.8053348984885904,35.0,moderate_relative_exposure
+NOR,Norway,2024,debt_change,historical_volatility,6.031014266827825,80.0,higher_relative_exposure
+NLD,"Netherlands, The",2024,debt_change,historical_volatility,3.703956758397175,30.0,lower_relative_exposure
+CZE,Czech Republic,2024,debt_change,historical_volatility,2.7067413319212896,10.0,lower_relative_exposure
+CHE,Switzerland,2024,debt_change,historical_volatility,2.6222485379594858,5.0,lower_relative_exposure
+IRL,Ireland,2024,debt_change,historical_volatility,11.260148680759412,100.0,higher_relative_exposure
+SWE,Sweden,2024,debt_change,historical_volatility,3.069198628902326,15.0,lower_relative_exposure
+DNK,Denmark,2024,debt_change,historical_volatility,4.35906736924736,50.0,moderate_relative_exposure

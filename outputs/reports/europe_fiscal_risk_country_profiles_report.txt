@@ -1,0 +1,45 @@
+EUROPEAN FISCAL RISK COUNTRY PROFILES
+=======================================================
+Reference year: 2024
+Countries: 20
+Fiscal dimensions: 4
+Measurement types: 2
+Expected signals per country: 8
+Signal columns: 8
+Percentile columns: 8
+Final country profiles: 20
+
+Missing signal values:
+0
+
+Missing percentile values:
+0
+
+Country-level signal matrix:
+iso             country signal_peer_relative_government_debt signal_peer_relative_fiscal_balance signal_peer_relative_primary_balance signal_peer_relative_debt_change signal_historical_volatility_government_debt signal_historical_volatility_fiscal_balance signal_historical_volatility_primary_balance signal_historical_volatility_debt_change
+AUT             Austria           moderate_relative_exposure            higher_relative_exposure             higher_relative_exposure         higher_relative_exposure                      lower_relative_exposure                     lower_relative_exposure                      lower_relative_exposure               moderate_relative_exposure
+BEL             Belgium             higher_relative_exposure            higher_relative_exposure             higher_relative_exposure       moderate_relative_exposure                   moderate_relative_exposure                    higher_relative_exposure                     higher_relative_exposure                 higher_relative_exposure
+CHE         Switzerland              lower_relative_exposure             lower_relative_exposure              lower_relative_exposure       moderate_relative_exposure                      lower_relative_exposure                     lower_relative_exposure                      lower_relative_exposure                  lower_relative_exposure
+CZE      Czech Republic              lower_relative_exposure          moderate_relative_exposure           moderate_relative_exposure       moderate_relative_exposure                   moderate_relative_exposure                  moderate_relative_exposure                   moderate_relative_exposure                  lower_relative_exposure
+DEU             Germany           moderate_relative_exposure          moderate_relative_exposure           moderate_relative_exposure       moderate_relative_exposure                      lower_relative_exposure                     lower_relative_exposure                      lower_relative_exposure                  lower_relative_exposure
+DNK             Denmark              lower_relative_exposure             lower_relative_exposure              lower_relative_exposure          lower_relative_exposure                   moderate_relative_exposure                    higher_relative_exposure                   moderate_relative_exposure               moderate_relative_exposure
+ESP               Spain             higher_relative_exposure          moderate_relative_exposure           moderate_relative_exposure          lower_relative_exposure                     higher_relative_exposure                  moderate_relative_exposure                     higher_relative_exposure                 higher_relative_exposure
+FIN             Finland           moderate_relative_exposure          moderate_relative_exposure             higher_relative_exposure         higher_relative_exposure                     higher_relative_exposure                    higher_relative_exposure                     higher_relative_exposure               moderate_relative_exposure
+FRA              France             higher_relative_exposure            higher_relative_exposure             higher_relative_exposure         higher_relative_exposure                     higher_relative_exposure                     lower_relative_exposure                      lower_relative_exposure                  lower_relative_exposure
+GBR      United Kingdom             higher_relative_exposure            higher_relative_exposure             higher_relative_exposure       moderate_relative_exposure                     higher_relative_exposure                  moderate_relative_exposure                   moderate_relative_exposure               moderate_relative_exposure
+GRC              Greece             higher_relative_exposure             lower_relative_exposure              lower_relative_exposure          lower_relative_exposure                     higher_relative_exposure                    higher_relative_exposure                     higher_relative_exposure                 higher_relative_exposure
+HUN             Hungary           moderate_relative_exposure            higher_relative_exposure           moderate_relative_exposure       moderate_relative_exposure                      lower_relative_exposure                     lower_relative_exposure                   moderate_relative_exposure               moderate_relative_exposure
+IRL             Ireland              lower_relative_exposure             lower_relative_exposure              lower_relative_exposure          lower_relative_exposure                     higher_relative_exposure                    higher_relative_exposure                     higher_relative_exposure                 higher_relative_exposure
+ITA               Italy             higher_relative_exposure          moderate_relative_exposure           moderate_relative_exposure       moderate_relative_exposure                   moderate_relative_exposure                  moderate_relative_exposure                   moderate_relative_exposure                 higher_relative_exposure
+NLD    Netherlands, The              lower_relative_exposure          moderate_relative_exposure           moderate_relative_exposure          lower_relative_exposure                   moderate_relative_exposure                  moderate_relative_exposure                      lower_relative_exposure                  lower_relative_exposure
+NOR              Norway           moderate_relative_exposure             lower_relative_exposure              lower_relative_exposure         higher_relative_exposure                      lower_relative_exposure                    higher_relative_exposure                     higher_relative_exposure                 higher_relative_exposure
+POL Poland, Republic of           moderate_relative_exposure            higher_relative_exposure             higher_relative_exposure         higher_relative_exposure                      lower_relative_exposure                     lower_relative_exposure                      lower_relative_exposure               moderate_relative_exposure
+PRT            Portugal             higher_relative_exposure             lower_relative_exposure              lower_relative_exposure          lower_relative_exposure                     higher_relative_exposure                  moderate_relative_exposure                   moderate_relative_exposure                 higher_relative_exposure
+ROU             Romania           moderate_relative_exposure            higher_relative_exposure             higher_relative_exposure         higher_relative_exposure                   moderate_relative_exposure                  moderate_relative_exposure                   moderate_relative_exposure               moderate_relative_exposure
+SWE              Sweden              lower_relative_exposure          moderate_relative_exposure           moderate_relative_exposure         higher_relative_exposure                   moderate_relative_exposure                    higher_relative_exposure                     higher_relative_exposure                  lower_relative_exposure
+
+Methodological notes:
+- Exposure and historical volatility remain separate.
+- Percentiles remain peer-relative.
+- No composite fiscal risk score is calculated.
+- No sovereign rating or default probability is inferred.

@@ -1,0 +1,41 @@
+EUROPEAN FISCAL RISK SIGNALS REPORT
+=======================================================
+Reference year: 2024
+Countries: 20
+Risk dimensions: 4
+Total signal records: 160
+
+Signals by measurement type:
+measurement_type       risk_signal               
+historical_volatility  higher_relative_exposure      28
+                       lower_relative_exposure       24
+                       moderate_relative_exposure    28
+peer_relative          higher_relative_exposure      28
+                       lower_relative_exposure       24
+                       moderate_relative_exposure    28
+
+Signals by risk dimension:
+risk_dimension   risk_signal               
+debt_change      higher_relative_exposure      14
+                 lower_relative_exposure       12
+                 moderate_relative_exposure    14
+fiscal_balance   higher_relative_exposure      14
+                 lower_relative_exposure       12
+                 moderate_relative_exposure    14
+government_debt  higher_relative_exposure      14
+                 lower_relative_exposure       12
+                 moderate_relative_exposure    14
+primary_balance  higher_relative_exposure      14
+                 lower_relative_exposure       12
+                 moderate_relative_exposure    14
+
+Missing percentiles:
+0
+
+Methodological notes:
+- Relative terciles are based on the 20-country peer group.
+- Higher exposure means a less favourable peer position.
+- Historical volatility is classified separately.
+- Volatility is not equivalent to probability of default.
+- No composite sovereign risk score is calculated.
+- Categories do not represent absolute risk thresholds.

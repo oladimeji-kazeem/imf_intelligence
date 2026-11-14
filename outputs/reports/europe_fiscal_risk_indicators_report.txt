@@ -1,0 +1,32 @@
+EUROPEAN FISCAL RISK INDICATORS REPORT
+=======================================================
+Reference year: 2024
+Countries: 20
+Records: 20
+
+Relative percentile availability:
+Debt burden: 20
+Fiscal pressure: 20
+Primary pressure: 20
+Debt trajectory: 20
+
+Nominal growth conditions:
+nominal_growth_condition
+non_negative_nominal_growth    20
+
+Extreme nominal growth observations above 100%:
+0
+
+Historical volatility missing values:
+debt_volatility               0
+fiscal_balance_volatility     0
+primary_balance_volatility    0
+debt_change_volatility        0
+
+Methodological limitations:
+- Percentiles are peer-relative, not absolute risk measures.
+- Nominal GDP growth is contextual, not independently ranked.
+- Historical volatility uses available observations.
+- Historical sample lengths differ by country.
+- No composite risk score is calculated.
+- No sovereign credit rating or default probability is inferred.

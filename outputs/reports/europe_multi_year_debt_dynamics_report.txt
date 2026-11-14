@@ -1,0 +1,63 @@
+EUROPEAN MULTI-YEAR DEBT DYNAMICS REPORT
+============================================================
+Countries: 20
+
+Debt ratio changes (percentage points of GDP):
+
+Period: 2019_2024
+Available observations: 20
+Debt ratio increased: 13
+Debt ratio decreased: 7
+Unchanged: 0
+Missing: 0
+
+Period: 2021_2024
+Available observations: 20
+Debt ratio increased: 5
+Debt ratio decreased: 15
+Unchanged: 0
+Missing: 0
+
+Period: 2023_2024
+Available observations: 20
+Debt ratio increased: 13
+Debt ratio decreased: 7
+Unchanged: 0
+Missing: 0
+
+Primary balance adjustment, 2019–2024:
+primary_balance_adjustment_2019_2024
+deteriorated    17
+improved         3
+
+Country-level results:
+iso             country  debt_change_pp_2019_2024  debt_change_pp_2021_2024  debt_change_pp_2023_2024  primary_balance_change_pp_2019_2024  primary_balance_mean_2020_2024
+AUT             Austria                     8.950                    -2.443                     2.185                               -5.366                         -3.9968
+BEL             Belgium                     6.224                    -4.825                     1.373                               -2.439                         -3.7796
+CHE         Switzerland                    -0.630                    -2.923                     0.244                               -0.914                         -0.3672
+CZE      Czech Republic                    13.680                     2.540                     1.009                               -2.123                         -3.3048
+DEU             Germany                     3.058                    -5.969                    -0.418                               -3.823                         -2.2796
+DNK             Denmark                    -8.392                    -9.685                    -3.099                               -0.587                          2.5494
+ESP               Spain                     3.798                   -14.217                    -3.801                               -0.400                         -3.6308
+FIN             Finland                    17.147                     9.349                     5.281                               -3.482                         -3.1384
+FRA              France                    14.415                    -0.213                     3.066                               -2.976                         -4.6738
+GBR      United Kingdom                    14.840                    -3.611                     1.051                               -3.033                         -5.1690
+GRC              Greece                   -28.318                   -42.433                   -10.162                                1.935                         -1.2656
+HUN             Hungary                     8.484                    -2.743                     0.166                               -1.151                         -3.7354
+IRL             Ireland                   -17.451                   -14.078                    -3.742                                2.853                          0.8528
+ITA               Italy                     0.839                   -11.081                     0.800                               -1.476                         -3.8676
+NLD    Netherlands, The                    -3.621                    -6.470                    -1.819                               -2.823                         -0.9822
+NOR              Norway                    13.812                    12.697                    10.380                                5.343                         10.1888
+POL Poland, Republic of                     9.636                     1.833                     5.326                               -4.877                         -3.0726
+PRT            Portugal                   -22.626                   -30.394                    -3.385                               -0.455                          0.6680
+ROU             Romania                    20.701                     5.663                     4.873                               -3.185                         -5.5560
+SWE              Sweden                    -2.152                    -3.379                     1.618                               -1.830                         -0.8012
+
+Methodological limitations:
+- Changes are percentage points of GDP, not percentage changes.
+- Endpoint comparisons require both endpoint observations.
+- A positive primary balance change indicates improvement,
+  not necessarily a primary surplus.
+- Primary balance is not a direct measure of fiscal capacity.
+- No interest-growth differential is calculated.
+- No debt sustainability conclusion is inferred.

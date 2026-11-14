@@ -1,0 +1,141 @@
+iso,country,indicator,standard_deviation,volatility_percentile,volatility_signal
+AUT,Austria,current_account,2.1091,0.2,lower_historical_dispersion
+BEL,Belgium,current_account,2.5847,0.35,moderate_dispersion
+CZE,Czech Republic,current_account,2.421,0.25,lower_historical_dispersion
+DNK,Denmark,current_account,4.4456,0.85,higher_historical_dispersion
+FIN,Finland,current_account,3.3974,0.6,moderate_dispersion
+FRA,France,current_account,1.2283,0.05,lower_historical_dispersion
+DEU,Germany,current_account,3.4133,0.65,moderate_dispersion
+GRC,Greece,current_account,3.5113,0.7,higher_historical_dispersion
+HUN,Hungary,current_account,4.0504,0.75,higher_historical_dispersion
+IRL,Ireland,current_account,6.3414,0.95,higher_historical_dispersion
+ITA,Italy,current_account,1.9498,0.15,lower_historical_dispersion
+NLD,"Netherlands, The",current_account,2.5564,0.3,lower_historical_dispersion
+NOR,Norway,current_account,6.9635,1.0,higher_historical_dispersion
+POL,"Poland, Republic of",current_account,2.6413,0.4,moderate_dispersion
+PRT,Portugal,current_account,4.877,0.9,higher_historical_dispersion
+ROU,Romania,current_account,4.4225,0.8,higher_historical_dispersion
+ESP,Spain,current_account,3.2656,0.45,moderate_dispersion
+SWE,Sweden,current_account,3.3067,0.5,moderate_dispersion
+CHE,Switzerland,current_account,3.3757,0.55,moderate_dispersion
+GBR,United Kingdom,current_account,1.5743,0.1,lower_historical_dispersion
+AUT,Austria,fiscal_balance,1.8448,0.1,lower_historical_dispersion
+BEL,Belgium,fiscal_balance,4.1217,0.9,higher_historical_dispersion
+CZE,Czech Republic,fiscal_balance,2.6969,0.45,moderate_dispersion
+DNK,Denmark,fiscal_balance,3.3485,0.7,higher_historical_dispersion
+FIN,Finland,fiscal_balance,3.7979,0.8,higher_historical_dispersion
+FRA,France,fiscal_balance,1.8711,0.15,lower_historical_dispersion
+DEU,Germany,fiscal_balance,2.2459,0.3,lower_historical_dispersion
+GRC,Greece,fiscal_balance,4.0797,0.85,higher_historical_dispersion
+HUN,Hungary,fiscal_balance,2.2442,0.25,lower_historical_dispersion
+IRL,Ireland,fiscal_balance,7.1841,1.0,higher_historical_dispersion
+ITA,Italy,fiscal_balance,3.2182,0.65,moderate_dispersion
+NLD,"Netherlands, The",fiscal_balance,2.3903,0.35,moderate_dispersion
+NOR,Norway,fiscal_balance,5.881,0.95,higher_historical_dispersion
+POL,"Poland, Republic of",fiscal_balance,1.8784,0.2,lower_historical_dispersion
+PRT,Portugal,fiscal_balance,3.0131,0.55,moderate_dispersion
+ROU,Romania,fiscal_balance,2.5947,0.4,moderate_dispersion
+ESP,Spain,fiscal_balance,3.1969,0.6,moderate_dispersion
+SWE,Sweden,fiscal_balance,3.4196,0.75,higher_historical_dispersion
+CHE,Switzerland,fiscal_balance,1.3137,0.05,lower_historical_dispersion
+GBR,United Kingdom,fiscal_balance,2.8996,0.5,moderate_dispersion
+AUT,Austria,government_debt,9.5236,0.25,lower_historical_dispersion
+BEL,Belgium,government_debt,14.6061,0.6,moderate_dispersion
+CZE,Czech Republic,government_debt,10.527,0.35,moderate_dispersion
+DNK,Denmark,government_debt,13.4034,0.5,moderate_dispersion
+FIN,Finland,government_debt,22.0133,0.7,higher_historical_dispersion
+FRA,France,government_debt,29.1652,0.9,higher_historical_dispersion
+DEU,Germany,government_debt,9.7847,0.3,lower_historical_dispersion
+GRC,Greece,government_debt,52.9232,1.0,higher_historical_dispersion
+HUN,Hungary,government_debt,8.7106,0.2,lower_historical_dispersion
+IRL,Ireland,government_debt,27.3677,0.8,higher_historical_dispersion
+ITA,Italy,government_debt,14.6681,0.65,moderate_dispersion
+NLD,"Netherlands, The",government_debt,10.648,0.4,moderate_dispersion
+NOR,Norway,government_debt,8.1997,0.15,lower_historical_dispersion
+POL,"Poland, Republic of",government_debt,6.0771,0.05,lower_historical_dispersion
+PRT,Portugal,government_debt,29.2175,0.95,higher_historical_dispersion
+ROU,Romania,government_debt,13.7777,0.55,moderate_dispersion
+ESP,Spain,government_debt,29.1095,0.85,higher_historical_dispersion
+SWE,Sweden,government_debt,11.5747,0.45,moderate_dispersion
+CHE,Switzerland,government_debt,6.1541,0.1,lower_historical_dispersion
+GBR,United Kingdom,government_debt,25.1223,0.75,higher_historical_dispersion
+AUT,Austria,inflation,1.8282,0.1,lower_historical_dispersion
+BEL,Belgium,inflation,2.2662,0.25,lower_historical_dispersion
+CZE,Czech Republic,inflation,3.5692,0.55,moderate_dispersion
+DNK,Denmark,inflation,2.7886,0.3,lower_historical_dispersion
+FIN,Finland,inflation,2.9202,0.35,moderate_dispersion
+FRA,France,inflation,3.2662,0.5,moderate_dispersion
+DEU,Germany,inflation,1.8153,0.05,lower_historical_dispersion
+GRC,Greece,inflation,8.0504,0.85,higher_historical_dispersion
+HUN,Hungary,inflation,8.3322,0.9,higher_historical_dispersion
+IRL,Ireland,inflation,4.6471,0.7,higher_historical_dispersion
+ITA,Italy,inflation,4.9456,0.75,higher_historical_dispersion
+NLD,"Netherlands, The",inflation,2.0359,0.2,lower_historical_dispersion
+NOR,Norway,inflation,2.9554,0.4,moderate_dispersion
+POL,"Poland, Republic of",inflation,93.7322,1.0,higher_historical_dispersion
+PRT,Portugal,inflation,7.1724,0.8,higher_historical_dispersion
+ROU,Romania,inflation,59.6283,0.95,higher_historical_dispersion
+ESP,Spain,inflation,3.9674,0.65,moderate_dispersion
+SWE,Sweden,inflation,3.6685,0.6,moderate_dispersion
+CHE,Switzerland,inflation,1.8362,0.15,lower_historical_dispersion
+GBR,United Kingdom,inflation,3.1706,0.45,moderate_dispersion
+AUT,Austria,primary_balance,1.9458,0.2,lower_historical_dispersion
+BEL,Belgium,primary_balance,3.6412,0.85,higher_historical_dispersion
+CZE,Czech Republic,primary_balance,2.7956,0.55,moderate_dispersion
+DNK,Denmark,primary_balance,2.879,0.6,moderate_dispersion
+FIN,Finland,primary_balance,3.6161,0.8,higher_historical_dispersion
+FRA,France,primary_balance,1.8535,0.15,lower_historical_dispersion
+DEU,Germany,primary_balance,1.9896,0.25,lower_historical_dispersion
+GRC,Greece,primary_balance,3.7599,0.9,higher_historical_dispersion
+HUN,Hungary,primary_balance,2.4289,0.35,moderate_dispersion
+IRL,Ireland,primary_balance,7.0192,1.0,higher_historical_dispersion
+ITA,Italy,primary_balance,2.6669,0.45,moderate_dispersion
+NLD,"Netherlands, The",primary_balance,2.3049,0.3,lower_historical_dispersion
+NOR,Norway,primary_balance,5.9087,0.95,higher_historical_dispersion
+POL,"Poland, Republic of",primary_balance,1.8381,0.1,lower_historical_dispersion
+PRT,Portugal,primary_balance,2.6801,0.5,moderate_dispersion
+ROU,Romania,primary_balance,2.5324,0.4,moderate_dispersion
+ESP,Spain,primary_balance,3.198,0.7,higher_historical_dispersion
+SWE,Sweden,primary_balance,3.4151,0.75,higher_historical_dispersion
+CHE,Switzerland,primary_balance,1.3161,0.05,lower_historical_dispersion
+GBR,United Kingdom,primary_balance,2.8968,0.65,moderate_dispersion
+AUT,Austria,real_gdp_growth,2.007,0.2,lower_historical_dispersion
+BEL,Belgium,real_gdp_growth,1.8246,0.15,lower_historical_dispersion
+CZE,Czech Republic,real_gdp_growth,2.805,0.6,moderate_dispersion
+DNK,Denmark,real_gdp_growth,2.013,0.25,lower_historical_dispersion
+FIN,Finland,real_gdp_growth,2.9802,0.65,moderate_dispersion
+FRA,France,real_gdp_growth,2.0293,0.3,lower_historical_dispersion
+DEU,Germany,real_gdp_growth,2.0636,0.35,moderate_dispersion
+GRC,Greece,real_gdp_growth,3.8681,0.85,higher_historical_dispersion
+HUN,Hungary,real_gdp_growth,3.436,0.8,higher_historical_dispersion
+IRL,Ireland,real_gdp_growth,5.1613,1.0,higher_historical_dispersion
+ITA,Italy,real_gdp_growth,2.6543,0.5,moderate_dispersion
+NLD,"Netherlands, The",real_gdp_growth,2.121,0.4,moderate_dispersion
+NOR,Norway,real_gdp_growth,1.745,0.05,lower_historical_dispersion
+POL,"Poland, Republic of",real_gdp_growth,3.976,0.9,higher_historical_dispersion
+PRT,Portugal,real_gdp_growth,3.0408,0.75,higher_historical_dispersion
+ROU,Romania,real_gdp_growth,4.9395,0.95,higher_historical_dispersion
+ESP,Spain,real_gdp_growth,2.9885,0.7,higher_historical_dispersion
+SWE,Sweden,real_gdp_growth,2.1386,0.45,moderate_dispersion
+CHE,Switzerland,real_gdp_growth,1.7758,0.1,lower_historical_dispersion
+GBR,United Kingdom,real_gdp_growth,2.7862,0.55,moderate_dispersion
+AUT,Austria,unemployment,1.1844,0.15,lower_historical_dispersion
+BEL,Belgium,unemployment,1.5718,0.3,lower_historical_dispersion
+CZE,Czech Republic,unemployment,2.2741,0.5,moderate_dispersion
+DNK,Denmark,unemployment,1.6968,0.35,moderate_dispersion
+FIN,Finland,unemployment,3.0539,0.75,higher_historical_dispersion
+FRA,France,unemployment,1.1184,0.1,lower_historical_dispersion
+DEU,Germany,unemployment,2.3284,0.55,moderate_dispersion
+GRC,Greece,unemployment,5.9776,1.0,higher_historical_dispersion
+HUN,Hungary,unemployment,3.5849,0.8,higher_historical_dispersion
+IRL,Ireland,unemployment,5.4195,0.95,higher_historical_dispersion
+ITA,Italy,unemployment,1.7115,0.4,moderate_dispersion
+NLD,"Netherlands, The",unemployment,1.4694,0.25,lower_historical_dispersion
+NOR,Norway,unemployment,1.0297,0.05,lower_historical_dispersion
+POL,"Poland, Republic of",unemployment,5.3675,0.9,higher_historical_dispersion
+PRT,Portugal,unemployment,3.0532,0.7,higher_historical_dispersion
+ROU,Romania,unemployment,2.0119,0.45,moderate_dispersion
+ESP,Spain,unemployment,4.8311,0.85,higher_historical_dispersion
+SWE,Sweden,unemployment,2.4424,0.65,moderate_dispersion
+CHE,Switzerland,unemployment,1.3259,0.2,lower_historical_dispersion
+GBR,United Kingdom,unemployment,2.4031,0.6,moderate_dispersion

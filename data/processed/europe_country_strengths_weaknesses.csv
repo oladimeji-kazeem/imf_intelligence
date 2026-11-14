@@ -1,0 +1,121 @@
+iso,country,indicator,dimension,reference_year,latest_value,unit,favourable_percentile,comparison_group_size,relative_position
+AUT,Austria,real_gdp_growth,Growth sustainability,2025,0.849,Percent,0.3,20,relative_weakness
+BEL,Belgium,real_gdp_growth,Growth sustainability,2025,0.983,Percent,0.4,20,middle_tercile
+CZE,Czech Republic,real_gdp_growth,Growth sustainability,2025,2.628,Percent,0.85,20,relative_strength
+DNK,Denmark,real_gdp_growth,Growth sustainability,2025,3.454,Percent,0.9,20,relative_strength
+FIN,Finland,real_gdp_growth,Growth sustainability,2025,0.843,Percent,0.25,20,relative_weakness
+FRA,France,real_gdp_growth,Growth sustainability,2025,0.89,Percent,0.35,20,middle_tercile
+DEU,Germany,real_gdp_growth,Growth sustainability,2025,0.229,Percent,0.05,20,relative_weakness
+GRC,Greece,real_gdp_growth,Growth sustainability,2025,2.073,Percent,0.75,20,relative_strength
+HUN,Hungary,real_gdp_growth,Growth sustainability,2025,0.493,Percent,0.1,20,relative_weakness
+IRL,Ireland,real_gdp_growth,Growth sustainability,2025,7.97,Percent,1.0,20,relative_strength
+ITA,Italy,real_gdp_growth,Growth sustainability,2025,0.54,Percent,0.15,20,relative_weakness
+NLD,"Netherlands, The",real_gdp_growth,Growth sustainability,2025,1.564,Percent,0.6,20,middle_tercile
+NOR,Norway,real_gdp_growth,Growth sustainability,2025,1.058,Percent,0.45,20,middle_tercile
+POL,"Poland, Republic of",real_gdp_growth,Growth sustainability,2025,3.657,Percent,0.95,20,relative_strength
+PRT,Portugal,real_gdp_growth,Growth sustainability,2025,1.861,Percent,0.7,20,relative_strength
+ROU,Romania,real_gdp_growth,Growth sustainability,2025,0.678,Percent,0.2,20,relative_weakness
+ESP,Spain,real_gdp_growth,Growth sustainability,2025,2.592,Percent,0.8,20,relative_strength
+SWE,Sweden,real_gdp_growth,Growth sustainability,2025,1.397,Percent,0.55,20,middle_tercile
+CHE,Switzerland,real_gdp_growth,Growth sustainability,2025,1.616,Percent,0.65,20,middle_tercile
+GBR,United Kingdom,real_gdp_growth,Growth sustainability,2025,1.213,Percent,0.5,20,middle_tercile
+AUT,Austria,inflation,Price stability,2025,3.572,Percent,0.2,20,relative_weakness
+BEL,Belgium,inflation,Price stability,2025,3.024,Percent,0.35,20,middle_tercile
+CZE,Czech Republic,inflation,Price stability,2025,2.459,Percent,0.6,20,middle_tercile
+DNK,Denmark,inflation,Price stability,2025,1.824,Percent,0.8,20,relative_strength
+FIN,Finland,inflation,Price stability,2025,1.82,Percent,0.85,20,relative_strength
+FRA,France,inflation,Price stability,2025,0.926,Percent,0.95,20,relative_strength
+DEU,Germany,inflation,Price stability,2025,2.264,Percent,0.65,20,middle_tercile
+GRC,Greece,inflation,Price stability,2025,2.889,Percent,0.45,20,middle_tercile
+HUN,Hungary,inflation,Price stability,2025,4.436,Percent,0.1,20,relative_weakness
+IRL,Ireland,inflation,Price stability,2025,2.065,Percent,0.75,20,relative_strength
+ITA,Italy,inflation,Price stability,2025,1.635,Percent,0.9,20,relative_strength
+NLD,"Netherlands, The",inflation,Price stability,2025,2.985,Percent,0.4,20,middle_tercile
+NOR,Norway,inflation,Price stability,2025,3.04,Percent,0.3,20,relative_weakness
+POL,"Poland, Republic of",inflation,Price stability,2025,3.6,Percent,0.15,20,relative_weakness
+PRT,Portugal,inflation,Price stability,2025,2.195,Percent,0.7,20,relative_strength
+ROU,Romania,inflation,Price stability,2025,7.327,Percent,0.05,20,relative_weakness
+ESP,Spain,inflation,Price stability,2025,2.691,Percent,0.5,20,middle_tercile
+SWE,Sweden,inflation,Price stability,2025,2.61,Percent,0.55,20,middle_tercile
+CHE,Switzerland,inflation,Price stability,2025,0.153,Percent,1.0,20,relative_strength
+GBR,United Kingdom,inflation,Price stability,2025,3.373,Percent,0.25,20,relative_weakness
+AUT,Austria,government_debt,Fiscal sustainability,2024,79.956,Percent of GDP,,1,insufficient_comparison
+BEL,Belgium,government_debt,Fiscal sustainability,2025,107.857,Percent of GDP,0.21052631578947367,19,relative_weakness
+CZE,Czech Republic,government_debt,Fiscal sustainability,2025,44.166,Percent of GDP,0.7894736842105263,19,relative_strength
+DNK,Denmark,government_debt,Fiscal sustainability,2025,27.423,Percent of GDP,1.0,19,relative_strength
+FIN,Finland,government_debt,Fiscal sustainability,2025,88.418,Percent of GDP,0.42105263157894735,19,middle_tercile
+FRA,France,government_debt,Fiscal sustainability,2025,115.534,Percent of GDP,0.15789473684210525,19,relative_weakness
+DEU,Germany,government_debt,Fiscal sustainability,2025,62.658,Percent of GDP,0.5263157894736842,19,middle_tercile
+GRC,Greece,government_debt,Fiscal sustainability,2025,146.559,Percent of GDP,0.05263157894736842,19,relative_weakness
+HUN,Hungary,government_debt,Fiscal sustainability,2025,74.572,Percent of GDP,0.47368421052631576,19,middle_tercile
+IRL,Ireland,government_debt,Fiscal sustainability,2025,34.842,Percent of GDP,0.8947368421052632,19,relative_strength
+ITA,Italy,government_debt,Fiscal sustainability,2025,137.105,Percent of GDP,0.10526315789473684,19,relative_weakness
+NLD,"Netherlands, The",government_debt,Fiscal sustainability,2025,44.725,Percent of GDP,0.7368421052631579,19,relative_strength
+NOR,Norway,government_debt,Fiscal sustainability,2025,54.0,Percent of GDP,0.6842105263157895,19,relative_strength
+POL,"Poland, Republic of",government_debt,Fiscal sustainability,2025,59.682,Percent of GDP,0.631578947368421,19,middle_tercile
+PRT,Portugal,government_debt,Fiscal sustainability,2025,89.67,Percent of GDP,0.3684210526315789,19,middle_tercile
+ROU,Romania,government_debt,Fiscal sustainability,2025,60.447,Percent of GDP,0.5789473684210527,19,middle_tercile
+ESP,Spain,government_debt,Fiscal sustainability,2025,100.513,Percent of GDP,0.3157894736842105,19,relative_weakness
+SWE,Sweden,government_debt,Fiscal sustainability,2025,34.548,Percent of GDP,0.9473684210526315,19,relative_strength
+CHE,Switzerland,government_debt,Fiscal sustainability,2025,40.058,Percent of GDP,0.8421052631578947,19,relative_strength
+GBR,United Kingdom,government_debt,Fiscal sustainability,2025,102.056,Percent of GDP,0.2631578947368421,19,relative_weakness
+AUT,Austria,fiscal_balance,Fiscal sustainability,2024,-4.645,Percent of GDP,,1,insufficient_comparison
+BEL,Belgium,fiscal_balance,Fiscal sustainability,2025,-5.174,Percent of GDP,0.21052631578947367,19,relative_weakness
+CZE,Czech Republic,fiscal_balance,Fiscal sustainability,2025,-2.143,Percent of GDP,0.5789473684210527,19,middle_tercile
+DNK,Denmark,fiscal_balance,Fiscal sustainability,2025,2.916,Percent of GDP,0.9473684210526315,19,relative_strength
+FIN,Finland,fiscal_balance,Fiscal sustainability,2025,-3.838,Percent of GDP,0.3684210526315789,19,middle_tercile
+FRA,France,fiscal_balance,Fiscal sustainability,2025,-5.065,Percent of GDP,0.2631578947368421,19,relative_weakness
+DEU,Germany,fiscal_balance,Fiscal sustainability,2025,-2.916,Percent of GDP,0.47368421052631576,19,middle_tercile
+GRC,Greece,fiscal_balance,Fiscal sustainability,2025,1.727,Percent of GDP,0.8421052631578947,19,relative_strength
+HUN,Hungary,fiscal_balance,Fiscal sustainability,2025,-4.664,Percent of GDP,0.3157894736842105,19,relative_weakness
+IRL,Ireland,fiscal_balance,Fiscal sustainability,2025,1.906,Percent of GDP,0.8947368421052632,19,relative_strength
+ITA,Italy,fiscal_balance,Fiscal sustainability,2025,-3.073,Percent of GDP,0.42105263157894735,19,middle_tercile
+NLD,"Netherlands, The",fiscal_balance,Fiscal sustainability,2025,-1.614,Percent of GDP,0.631578947368421,19,middle_tercile
+NOR,Norway,fiscal_balance,Fiscal sustainability,2025,10.61,Percent of GDP,1.0,19,relative_strength
+POL,"Poland, Republic of",fiscal_balance,Fiscal sustainability,2025,-7.258,Percent of GDP,0.10526315789473684,19,relative_weakness
+PRT,Portugal,fiscal_balance,Fiscal sustainability,2025,0.671,Percent of GDP,0.7894736842105263,19,relative_strength
+ROU,Romania,fiscal_balance,Fiscal sustainability,2025,-7.62,Percent of GDP,0.05263157894736842,19,relative_weakness
+ESP,Spain,fiscal_balance,Fiscal sustainability,2025,-2.386,Percent of GDP,0.5263157894736842,19,middle_tercile
+SWE,Sweden,fiscal_balance,Fiscal sustainability,2025,-1.289,Percent of GDP,0.6842105263157895,19,relative_strength
+CHE,Switzerland,fiscal_balance,Fiscal sustainability,2025,0.233,Percent of GDP,0.7368421052631579,19,relative_strength
+GBR,United Kingdom,fiscal_balance,Fiscal sustainability,2025,-5.27,Percent of GDP,0.15789473684210525,19,relative_weakness
+AUT,Austria,primary_balance,Fiscal sustainability,2024,-3.654,Percent of GDP,,1,insufficient_comparison
+BEL,Belgium,primary_balance,Fiscal sustainability,2025,-3.399,Percent of GDP,0.21052631578947367,19,relative_weakness
+CZE,Czech Republic,primary_balance,Fiscal sustainability,2025,-1.473,Percent of GDP,0.42105263157894735,19,middle_tercile
+DNK,Denmark,primary_balance,Fiscal sustainability,2025,2.32,Percent of GDP,0.8421052631578947,19,relative_strength
+FIN,Finland,primary_balance,Fiscal sustainability,2025,-3.52,Percent of GDP,0.15789473684210525,19,relative_weakness
+FRA,France,primary_balance,Fiscal sustainability,2025,-2.987,Percent of GDP,0.2631578947368421,19,relative_weakness
+DEU,Germany,primary_balance,Fiscal sustainability,2025,-2.059,Percent of GDP,0.3684210526315789,19,middle_tercile
+GRC,Greece,primary_balance,Fiscal sustainability,2025,4.885,Percent of GDP,0.9473684210526315,19,relative_strength
+HUN,Hungary,primary_balance,Fiscal sustainability,2025,-1.352,Percent of GDP,0.47368421052631576,19,middle_tercile
+IRL,Ireland,primary_balance,Fiscal sustainability,2025,2.195,Percent of GDP,0.7894736842105263,19,relative_strength
+ITA,Italy,primary_balance,Fiscal sustainability,2025,0.537,Percent of GDP,0.7368421052631579,19,relative_strength
+NLD,"Netherlands, The",primary_balance,Fiscal sustainability,2025,-1.265,Percent of GDP,0.5263157894736842,19,middle_tercile
+NOR,Norway,primary_balance,Fiscal sustainability,2025,5.67,Percent of GDP,1.0,19,relative_strength
+POL,"Poland, Republic of",primary_balance,Fiscal sustainability,2025,-4.75,Percent of GDP,0.10526315789473684,19,relative_weakness
+PRT,Portugal,primary_balance,Fiscal sustainability,2025,2.405,Percent of GDP,0.8947368421052632,19,relative_strength
+ROU,Romania,primary_balance,Fiscal sustainability,2025,-5.03,Percent of GDP,0.05263157894736842,19,relative_weakness
+ESP,Spain,primary_balance,Fiscal sustainability,2025,-0.531,Percent of GDP,0.631578947368421,19,middle_tercile
+SWE,Sweden,primary_balance,Fiscal sustainability,2025,-1.228,Percent of GDP,0.5789473684210527,19,middle_tercile
+CHE,Switzerland,primary_balance,Fiscal sustainability,2025,0.206,Percent of GDP,0.6842105263157895,19,relative_strength
+GBR,United Kingdom,primary_balance,Fiscal sustainability,2025,-2.665,Percent of GDP,0.3157894736842105,19,relative_weakness
+AUT,Austria,unemployment,Labour market,2025,5.692,Percent,0.5,20,middle_tercile
+BEL,Belgium,unemployment,Labour market,2025,6.175,Percent,0.3,20,relative_weakness
+CZE,Czech Republic,unemployment,Labour market,2025,2.786,Percent,1.0,20,relative_strength
+DNK,Denmark,unemployment,Labour market,2025,2.9,Percent,0.9,20,relative_strength
+FIN,Finland,unemployment,Labour market,2025,9.675,Percent,0.1,20,relative_weakness
+FRA,France,unemployment,Labour market,2025,7.717,Percent,0.25,20,relative_weakness
+DEU,Germany,unemployment,Labour market,2025,3.767,Percent,0.8,20,relative_strength
+GRC,Greece,unemployment,Labour market,2025,8.862,Percent,0.2,20,relative_weakness
+HUN,Hungary,unemployment,Labour market,2025,4.4,Percent,0.7,20,relative_strength
+IRL,Ireland,unemployment,Labour market,2025,4.658,Percent,0.6,20,middle_tercile
+ITA,Italy,unemployment,Labour market,2025,6.05,Percent,0.4,20,middle_tercile
+NLD,"Netherlands, The",unemployment,Labour market,2025,3.876,Percent,0.75,20,relative_strength
+NOR,Norway,unemployment,Labour market,2025,4.483,Percent,0.65,20,middle_tercile
+POL,"Poland, Republic of",unemployment,Labour market,2025,3.135,Percent,0.85,20,relative_strength
+PRT,Portugal,unemployment,Labour market,2025,6.042,Percent,0.45,20,middle_tercile
+ROU,Romania,unemployment,Labour market,2025,6.117,Percent,0.35,20,middle_tercile
+ESP,Spain,unemployment,Labour market,2025,10.508,Percent,0.05,20,relative_weakness
+SWE,Sweden,unemployment,Labour market,2025,8.867,Percent,0.15,20,relative_weakness
+CHE,Switzerland,unemployment,Labour market,2025,2.838,Percent,0.95,20,relative_strength
+GBR,United Kingdom,unemployment,Labour market,2025,4.875,Percent,0.55,20,middle_tercile

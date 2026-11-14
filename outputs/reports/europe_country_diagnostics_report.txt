@@ -1,0 +1,44 @@
+EUROPEAN COUNTRY ECONOMIC DIAGNOSTICS
+============================================================
+
+DATASET SUMMARY
+------------------------------------------------------------
+Countries: 20
+Indicators: 11
+Directional diagnostic records: 120
+Strength/weakness records: 120
+Vulnerability signals: 85
+
+COUNTRY DIAGNOSTIC COUNTS
+------------------------------------------------------------
+Austria: 0 strengths; 2 weaknesses; 3 insufficient comparisons; 0 higher-dispersion signals
+Belgium: 0 strengths; 4 weaknesses; 0 insufficient comparisons; 2 higher-dispersion signals
+Switzerland: 5 strengths; 0 weaknesses; 0 insufficient comparisons; 0 higher-dispersion signals
+Czech Republic: 3 strengths; 0 weaknesses; 0 insufficient comparisons; 0 higher-dispersion signals
+Germany: 1 strengths; 1 weaknesses; 0 insufficient comparisons; 0 higher-dispersion signals
+Denmark: 6 strengths; 0 weaknesses; 0 insufficient comparisons; 2 higher-dispersion signals
+Spain: 1 strengths; 2 weaknesses; 0 insufficient comparisons; 4 higher-dispersion signals
+Finland: 1 strengths; 3 weaknesses; 0 insufficient comparisons; 4 higher-dispersion signals
+France: 1 strengths; 4 weaknesses; 0 insufficient comparisons; 1 higher-dispersion signals
+United Kingdom: 0 strengths; 4 weaknesses; 0 insufficient comparisons; 1 higher-dispersion signals
+Greece: 3 strengths; 2 weaknesses; 0 insufficient comparisons; 7 higher-dispersion signals
+Hungary: 1 strengths; 3 weaknesses; 0 insufficient comparisons; 4 higher-dispersion signals
+Ireland: 5 strengths; 0 weaknesses; 0 insufficient comparisons; 7 higher-dispersion signals
+Italy: 2 strengths; 2 weaknesses; 0 insufficient comparisons; 1 higher-dispersion signals
+Netherlands, The: 2 strengths; 0 weaknesses; 0 insufficient comparisons; 0 higher-dispersion signals
+Norway: 3 strengths; 1 weaknesses; 0 insufficient comparisons; 3 higher-dispersion signals
+Poland, Republic of: 2 strengths; 3 weaknesses; 0 insufficient comparisons; 3 higher-dispersion signals
+Portugal: 4 strengths; 0 weaknesses; 0 insufficient comparisons; 5 higher-dispersion signals
+Romania: 0 strengths; 4 weaknesses; 0 insufficient comparisons; 3 higher-dispersion signals
+Sweden: 2 strengths; 1 weaknesses; 0 insufficient comparisons; 2 higher-dispersion signals
+
+METHODOLOGICAL LIMITATIONS
+------------------------------------------------------------
+1. Relative positions are calculated within identical reference years.
+2. Terciles are only calculated when a comparison group contains at least 5 countries.
+3. A relative weakness does not establish absolute economic distress.
+4. Current account and trade growth are contextual indicators, not automatically good or bad.
+5. Higher historical dispersion is not proof of economic vulnerability.
+6. Historical sample windows differ between countries and indicators.
+7. Latest historical observations are not real-time economic conditions.
+8. No composite economic score or sovereign credit rating is calculated.
