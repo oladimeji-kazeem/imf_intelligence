@@ -1,0 +1,11 @@
+unit,category,available,expected,coverage_pct
+MIO_NAC,excluded_liability_adjustments,67,74,90.54054054054053
+MIO_NAC,debt_valuation_adjustments,70,74,94.5945945945946
+MIO_NAC,foreign_currency_valuation,72,74,97.2972972972973
+MIO_NAC,other_volume_changes,72,74,97.2972972972973
+MIO_NAC,all_four_categories,65,74,87.83783783783784
+PC_GDP,excluded_liability_adjustments,67,74,90.54054054054053
+PC_GDP,debt_valuation_adjustments,70,74,94.5945945945946
+PC_GDP,foreign_currency_valuation,72,74,97.2972972972973
+PC_GDP,other_volume_changes,72,74,97.2972972972973
+PC_GDP,all_four_categories,65,74,87.83783783783784

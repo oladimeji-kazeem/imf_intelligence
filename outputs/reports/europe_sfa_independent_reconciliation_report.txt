@@ -1,0 +1,68 @@
+EUROSTAT IMPLIED VS DIRECT SFA RECONCILIATION
+===========================================================================
+
+PERIOD: 2020-2024
+EXPECTED COUNTRY-YEAR OBSERVATIONS: 85
+INTEREST-GROWTH OBSERVATIONS: 85
+
+COMPARISON METHOD
+---------------------------------------------------------------------------
+MIO_NAC direct SFA = (GD_CH - B9_T3) / current-year GDP * 100
+PC_GDP direct SFA = GD_CH - B9_T3
+
+Implied SFA = observed debt-ratio change
+              - interest-growth contribution
+              + primary balance
+
+Difference = implied SFA - direct SFA
+
+UNIT-SPECIFIC ROUNDING TOLERANCES
+---------------------------------------------------------------------------
+MIO_NAC: +/- 0.05 percentage points
+PC_GDP: +/- 0.10 percentage points
+
+SOURCE COVERAGE
+---------------------------------------------------------------------------
+Raw SFA records: 148
+Interest-growth records: 85
+Direct SFA calculated records by unit:
+  MIO_NAC: 72
+  PC_GDP: 72
+Matched country-year-unit records: 144
+Missing interest-growth matches: 0
+
+RECONCILIATION SUMMARY
+---------------------------------------------------------------------------
+   unit  direct_observations  matched_observations  comparable_observations  within_tolerance  outside_tolerance  mean_difference_pp  mean_absolute_difference_pp  maximum_absolute_difference_pp  rounding_tolerance_pp
+MIO_NAC                   72                    72                       72                72                  0            0.000002                     0.000004                        0.000111               0.050000
+ PC_GDP                   72                    72                       72                72                  0            0.000672                     0.034006                        0.089589               0.100000
+
+COUNTRY-YEAR EXCEPTIONS
+---------------------------------------------------------------------------
+No exceptions.
+
+VALIDATION RESULTS
+---------------------------------------------------------------------------
+Expected country count: PASS
+Expected interest-growth observations: PASS
+Expected year range: PASS
+Expected SFA units: PASS
+No duplicate interest-growth records: PASS
+No duplicate direct SFA records: PASS
+All direct SFA records matched: PASS
+No missing direct SFA or GDP values: PASS
+No missing implied SFA values: PASS
+All comparisons within unit tolerance: PASS
+Both unit summaries present: PASS
+All direct observations included in summaries: PASS
+
+METHODOLOGICAL NOTES
+---------------------------------------------------------------------------
+1. MIO_NAC monetary SFA is converted using current-year GDP.
+2. PC_GDP is independently calculated from rounded percentage series and therefore has a wider rounding tolerance.
+3. MIO_NAC is the primary reconciliation measure.
+4. Implied SFA is an accounting residual, not an independent measurement.
+5. Agreement does not validate the attribution of individual stock-flow adjustment components.
+6. Tolerance is a measurement-precision allowance, not an economic materiality threshold.
+
+OVERALL RESULT: PASS

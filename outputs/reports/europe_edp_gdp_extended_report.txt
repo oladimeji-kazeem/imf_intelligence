@@ -1,0 +1,28 @@
+EUROSTAT EXTENDED GDP EXTRACTION REPORT
+======================================================================
+Dataset: gov_10dd_edpt1
+Indicator: B1GQ
+Sector: S1
+Unit: MIO_NAC
+Period: 2019-2024
+Expected observations: 102
+Retrieved observations: 102
+Missing country-years: 0
+Duplicate records: 0
+Missing values: 0
+Non-positive values: 0
+
+MISSING COUNTRY-YEARS:
+None
+
+VALIDATION:
+Expected observation count: PASS
+Complete country-year coverage: PASS
+No duplicate country-years: PASS
+No missing GDP values: PASS
+Positive GDP values: PASS
+
+RESULT: PASS
+
+Raw file: C:\Users\oladi\sources\imf_intelligence\data\raw\eurostat_edp_gdp_extended_20261114T085252Z.json
+Processed file: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_eurostat_edp_gdp_2019_2024.csv

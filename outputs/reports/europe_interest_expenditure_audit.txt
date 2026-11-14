@@ -1,0 +1,16 @@
+EUROSTAT INTEREST EXPENDITURE AUDIT
+======================================================================
+Expected observations: 85
+Retrieved observations: 85
+Duplicate country-years: 0
+Missing values: 0
+Negative values: 0
+
+Observation count: PASS
+Complete country-year coverage: PASS
+No unexpected country-years: PASS
+No duplicate country-years: PASS
+No missing numeric values: PASS
+No negative interest expenditure: PASS
+
+FINAL RESULT: PASS

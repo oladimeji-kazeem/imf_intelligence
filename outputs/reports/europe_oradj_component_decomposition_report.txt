@@ -1,0 +1,116 @@
+EUROSTAT ORADJ COMPONENT DECOMPOSITION
+==============================================================================
+Input: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_eurostat_sfa_reconciliation.csv
+GDP input: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_eurostat_edp_gdp_2019_2024.csv
+Countries: 17
+Years: [2020, 2021, 2022, 2023, 2024]
+Units: ['MIO_NAC', 'PC_GDP']
+
+CANDIDATE ADJUSTMENT DETAIL RELATIONSHIP
+------------------------------------------------------------------------------
+ORADJ = sum of the nine selected adjustment detail series
+This is a complete-case diagnostic, not an assumed universal identity.
+All components are expressed as percentage points of current-year GDP.
+
+DECOMPOSITION COVERAGE
+------------------------------------------------------------------------------
+MIO_NAC: 65/74 complete decompositions
+PC_GDP: 65/74 complete decompositions
+
+DETAIL INDICATOR COVERAGE
+------------------------------------------------------------------------------
+MIO_NAC | ORADJ: 72/74 (97.3%)
+MIO_NAC | F71_ADJ_LIAB: 67/74 (90.5%)
+MIO_NAC | F8_ADJ_LIAB: 72/74 (97.3%)
+MIO_NAC | FV_ADJ_LIAB: 72/74 (97.3%)
+MIO_NAC | ORINV: 72/74 (97.3%)
+MIO_NAC | ORD41A_ADJ: 72/74 (97.3%)
+MIO_NAC | ORFCD: 72/74 (97.3%)
+MIO_NAC | ORRNV: 70/74 (94.6%)
+MIO_NAC | KX: 72/74 (97.3%)
+MIO_NAC | K61: 72/74 (97.3%)
+PC_GDP | ORADJ: 72/74 (97.3%)
+PC_GDP | F71_ADJ_LIAB: 67/74 (90.5%)
+PC_GDP | F8_ADJ_LIAB: 72/74 (97.3%)
+PC_GDP | FV_ADJ_LIAB: 72/74 (97.3%)
+PC_GDP | ORINV: 72/74 (97.3%)
+PC_GDP | ORD41A_ADJ: 72/74 (97.3%)
+PC_GDP | ORFCD: 72/74 (97.3%)
+PC_GDP | ORRNV: 70/74 (94.6%)
+PC_GDP | KX: 72/74 (97.3%)
+PC_GDP | K61: 72/74 (97.3%)
+
+ORADJ RECONCILIATION
+------------------------------------------------------------------------------
+MIO_NAC
+  Comparisons: 65
+  Mean residual: -0.00000142 pp
+  Mean absolute residual: 0.00000500 pp
+  Median absolute residual: 0.00000000 pp
+  Maximum absolute residual: 0.00005253 pp
+PC_GDP
+  Comparisons: 65
+  Mean residual: 0.01538462 pp
+  Mean absolute residual: 0.04000000 pp
+  Median absolute residual: 0.00000000 pp
+  Maximum absolute residual: 0.10000000 pp
+
+CROSS-UNIT COMPONENT COMPARISON
+------------------------------------------------------------------------------
+oradj_pp: 72 paired; mean absolute difference 0.02382484 pp; maximum absolute difference 0.04795681 pp
+f71_adj_liab_pp: 67 paired; mean absolute difference 0.01474928 pp; maximum absolute difference 0.04513559 pp
+f8_adj_liab_pp: 72 paired; mean absolute difference 0.02451850 pp; maximum absolute difference 0.04966464 pp
+fv_adj_liab_pp: 72 paired; mean absolute difference 0.01271264 pp; maximum absolute difference 0.04931959 pp
+orinv_pp: 72 paired; mean absolute difference 0.02413319 pp; maximum absolute difference 0.04825676 pp
+ord41a_adj_pp: 72 paired; mean absolute difference 0.02366541 pp; maximum absolute difference 0.04974695 pp
+orfcd_pp: 72 paired; mean absolute difference 0.01862523 pp; maximum absolute difference 0.04957765 pp
+orrnv_pp: 70 paired; mean absolute difference 0.01172169 pp; maximum absolute difference 0.04642663 pp
+kx_pp: 72 paired; mean absolute difference 0.00353373 pp; maximum absolute difference 0.04157097 pp
+k61_pp: 72 paired; mean absolute difference 0.00592248 pp; maximum absolute difference 0.04186433 pp
+detail_component_sum_pp: 65 paired; mean absolute difference 0.04706410 pp; maximum absolute difference 0.13886385 pp
+oradj_residual_pp: 65 paired; mean absolute difference 0.04000424 pp; maximum absolute difference 0.10001976 pp
+
+COUNTRY SUMMARY
+------------------------------------------------------------------------------
+AT | MIO_NAC | n=3 | cumulative ORADJ=2.6500 pp | detail sum=2.6500 pp | residual=-0.0000 pp
+AT | PC_GDP | n=3 | cumulative ORADJ=2.7000 pp | detail sum=2.5000 pp | residual=0.2000 pp
+BE | MIO_NAC | n=5 | cumulative ORADJ=-0.1732 pp | detail sum=-0.1732 pp | residual=-0.0000 pp
+BE | PC_GDP | n=5 | cumulative ORADJ=-0.1000 pp | detail sum=-0.3000 pp | residual=0.2000 pp
+CZ | MIO_NAC | n=5 | cumulative ORADJ=-3.3361 pp | detail sum=-3.3361 pp | residual=0.0000 pp
+CZ | PC_GDP | n=5 | cumulative ORADJ=-3.3000 pp | detail sum=-3.3000 pp | residual=0.0000 pp
+DE | MIO_NAC | n=3 | cumulative ORADJ=0.5553 pp | detail sum=0.5553 pp | residual=0.0000 pp
+DE | PC_GDP | n=3 | cumulative ORADJ=0.5000 pp | detail sum=0.5000 pp | residual=0.0000 pp
+DK | MIO_NAC | n=3 | cumulative ORADJ=1.8581 pp | detail sum=1.8581 pp | residual=-0.0000 pp
+DK | PC_GDP | n=3 | cumulative ORADJ=1.8000 pp | detail sum=1.7000 pp | residual=0.1000 pp
+EL | MIO_NAC | n=5 | cumulative ORADJ=-5.7152 pp | detail sum=-5.7152 pp | residual=-0.0000 pp
+EL | PC_GDP | n=5 | cumulative ORADJ=-5.8000 pp | detail sum=-5.7000 pp | residual=-0.1000 pp
+ES | MIO_NAC | n=5 | cumulative ORADJ=-3.6390 pp | detail sum=-3.6390 pp | residual=0.0000 pp
+ES | PC_GDP | n=5 | cumulative ORADJ=-3.6000 pp | detail sum=-3.8000 pp | residual=0.2000 pp
+FI | MIO_NAC | n=3 | cumulative ORADJ=-0.8246 pp | detail sum=-0.8246 pp | residual=-0.0000 pp
+FI | PC_GDP | n=3 | cumulative ORADJ=-0.7000 pp | detail sum=-0.9000 pp | residual=0.2000 pp
+FR | MIO_NAC | n=4 | cumulative ORADJ=1.5516 pp | detail sum=1.5516 pp | residual=0.0000 pp
+FR | PC_GDP | n=4 | cumulative ORADJ=1.6000 pp | detail sum=1.5000 pp | residual=0.1000 pp
+HU | MIO_NAC | n=5 | cumulative ORADJ=1.2269 pp | detail sum=1.2269 pp | residual=0.0000 pp
+HU | PC_GDP | n=5 | cumulative ORADJ=1.2000 pp | detail sum=1.2000 pp | residual=0.0000 pp
+IE | MIO_NAC | n=5 | cumulative ORADJ=2.0900 pp | detail sum=2.0899 pp | residual=0.0001 pp
+IE | PC_GDP | n=5 | cumulative ORADJ=2.1000 pp | detail sum=2.2000 pp | residual=-0.1000 pp
+IT | MIO_NAC | n=3 | cumulative ORADJ=-5.0513 pp | detail sum=-5.0513 pp | residual=-0.0000 pp
+IT | PC_GDP | n=3 | cumulative ORADJ=-5.0000 pp | detail sum=-5.1000 pp | residual=0.1000 pp
+PL | MIO_NAC | n=5 | cumulative ORADJ=-3.2091 pp | detail sum=-3.2091 pp | residual=0.0000 pp
+PL | PC_GDP | n=5 | cumulative ORADJ=-3.2000 pp | detail sum=-3.2000 pp | residual=0.0000 pp
+PT | MIO_NAC | n=5 | cumulative ORADJ=1.5266 pp | detail sum=1.5267 pp | residual=-0.0001 pp
+PT | PC_GDP | n=5 | cumulative ORADJ=1.5000 pp | detail sum=1.5000 pp | residual=-0.0000 pp
+RO | MIO_NAC | n=3 | cumulative ORADJ=-5.9846 pp | detail sum=-5.9845 pp | residual=-0.0000 pp
+RO | PC_GDP | n=3 | cumulative ORADJ=-6.0000 pp | detail sum=-6.1000 pp | residual=0.1000 pp
+SE | MIO_NAC | n=3 | cumulative ORADJ=7.3605 pp | detail sum=7.3605 pp | residual=-0.0000 pp
+SE | PC_GDP | n=3 | cumulative ORADJ=7.4000 pp | detail sum=7.4000 pp | residual=0.0000 pp
+
+INTERPRETATION LIMITATIONS
+------------------------------------------------------------------------------
+1. The selected detail series are tested against ORADJ; their additivity is not assumed.
+2. Only observations with all nine detail values are decomposed.
+3. Missing values are not treated as zero.
+4. A small residual supports numerical reconciliation, not causal attribution.
+5. Component signs must be interpreted using the official indicator definitions.
+6. Do not add these detail series to the top-level SFA bridge as well as ORADJ; that would double-count adjustments.
+7. Country cumulative sums may cover different numbers of years; compare only with coverage disclosed.

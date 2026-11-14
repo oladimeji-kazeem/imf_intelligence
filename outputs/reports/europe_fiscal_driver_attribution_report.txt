@@ -1,0 +1,49 @@
+EUROPEAN FISCAL DRIVER ATTRIBUTION
+=================================================================
+Period: 2019-2024
+Transitions: 2020-2024
+Countries: 20
+Annual observations: 100
+
+CUMULATIVE CONTRIBUTIONS
+iso             country  observed_debt_change_pp  cumulative_primary_contribution_pp  cumulative_non_primary_residual_pp  reconciliation_error_pp
+ROU             Romania                   20.701                              27.780                              -7.079                      0.0
+FIN             Finland                   17.147                              15.692                               1.455                      0.0
+GBR      United Kingdom                   14.840                              25.845                             -11.005                      0.0
+FRA              France                   14.415                              23.369                              -8.954                      0.0
+NOR              Norway                   13.812                             -50.944                              64.756                      0.0
+CZE      Czech Republic                   13.680                              16.524                              -2.844                      0.0
+POL Poland, Republic of                    9.636                              15.363                              -5.727                      0.0
+AUT             Austria                    8.950                              19.984                             -11.034                      0.0
+HUN             Hungary                    8.484                              18.677                             -10.193                      0.0
+BEL             Belgium                    6.224                              18.898                             -12.674                      0.0
+ESP               Spain                    3.798                              18.154                             -14.356                     -0.0
+DEU             Germany                    3.058                              11.398                              -8.340                      0.0
+ITA               Italy                    0.839                              19.338                             -18.499                     -0.0
+CHE         Switzerland                   -0.630                               1.836                              -2.466                     -0.0
+SWE              Sweden                   -2.152                               4.006                              -6.158                      0.0
+NLD    Netherlands, The                   -3.621                               4.911                              -8.532                     -0.0
+DNK             Denmark                   -8.392                             -12.747                               4.355                      0.0
+IRL             Ireland                  -17.451                              -4.264                             -13.187                      0.0
+PRT            Portugal                  -22.626                              -3.340                             -19.286                      0.0
+GRC              Greece                  -28.318                               6.328                             -34.646                      0.0
+
+PRIMARY CONTRIBUTION DIRECTIONS
+primary_contribution_direction
+increased_debt_ratio    16
+reduced_debt_ratio       4
+
+RESIDUAL CONTRIBUTION DIRECTIONS
+residual_contribution_direction
+reduced_debt_ratio      17
+increased_debt_ratio     3
+
+VALIDATION
+Maximum reconciliation error: 0.000000000000
+Countries with five transitions: 20
+
+LIMITATIONS
+- The residual combines multiple economic and accounting effects.
+- It is not an independently measured interest-growth contribution.
+- Contribution shares are not calculated.
+- This is an accounting attribution, not causal identification.

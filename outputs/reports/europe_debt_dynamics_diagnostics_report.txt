@@ -1,0 +1,59 @@
+EUROPEAN DEBT DYNAMICS DIAGNOSTIC REPORT
+============================================================
+Countries: 20
+
+DEBT TRAJECTORY CLASSIFICATIONS
+debt_trajectory_pattern
+expansion_with_post_pandemic_consolidation    6
+persistent_debt_expansion                     5
+sustained_debt_reduction                      5
+consolidation_with_recent_reversal            2
+mixed_debt_dynamics                           2
+
+PRIMARY BALANCE ADJUSTMENT
+primary_adjustment_signal
+deteriorated    17
+improved         3
+
+AVERAGE PRIMARY BALANCE POSITION, 2020-2024
+average_primary_balance_position
+average_primary_deficit    16
+average_primary_surplus     4
+
+COMBINED FISCAL DIAGNOSTICS
+combined_fiscal_diagnostic
+debt_pressure_with_primary_balance_deterioration        12
+mixed_or_partial_adjustment_signals                      3
+debt_reduction_despite_primary_balance_deterioration     3
+debt_reduction_with_primary_balance_improvement          2
+
+COUNTRY DIAGNOSTIC MATRIX
+iso             country                    debt_trajectory_pattern primary_adjustment_signal average_primary_balance_position                           combined_fiscal_diagnostic
+AUT             Austria expansion_with_post_pandemic_consolidation              deteriorated          average_primary_deficit     debt_pressure_with_primary_balance_deterioration
+BEL             Belgium expansion_with_post_pandemic_consolidation              deteriorated          average_primary_deficit     debt_pressure_with_primary_balance_deterioration
+CHE         Switzerland         consolidation_with_recent_reversal              deteriorated          average_primary_deficit     debt_pressure_with_primary_balance_deterioration
+CZE      Czech Republic                  persistent_debt_expansion              deteriorated          average_primary_deficit     debt_pressure_with_primary_balance_deterioration
+DEU             Germany                        mixed_debt_dynamics              deteriorated          average_primary_deficit                  mixed_or_partial_adjustment_signals
+DNK             Denmark                   sustained_debt_reduction              deteriorated          average_primary_surplus debt_reduction_despite_primary_balance_deterioration
+ESP               Spain                        mixed_debt_dynamics              deteriorated          average_primary_deficit                  mixed_or_partial_adjustment_signals
+FIN             Finland                  persistent_debt_expansion              deteriorated          average_primary_deficit     debt_pressure_with_primary_balance_deterioration
+FRA              France expansion_with_post_pandemic_consolidation              deteriorated          average_primary_deficit     debt_pressure_with_primary_balance_deterioration
+GBR      United Kingdom expansion_with_post_pandemic_consolidation              deteriorated          average_primary_deficit     debt_pressure_with_primary_balance_deterioration
+GRC              Greece                   sustained_debt_reduction                  improved          average_primary_deficit      debt_reduction_with_primary_balance_improvement
+HUN             Hungary expansion_with_post_pandemic_consolidation              deteriorated          average_primary_deficit     debt_pressure_with_primary_balance_deterioration
+IRL             Ireland                   sustained_debt_reduction                  improved          average_primary_surplus      debt_reduction_with_primary_balance_improvement
+ITA               Italy expansion_with_post_pandemic_consolidation              deteriorated          average_primary_deficit     debt_pressure_with_primary_balance_deterioration
+NLD    Netherlands, The                   sustained_debt_reduction              deteriorated          average_primary_deficit debt_reduction_despite_primary_balance_deterioration
+NOR              Norway                  persistent_debt_expansion                  improved          average_primary_surplus                  mixed_or_partial_adjustment_signals
+POL Poland, Republic of                  persistent_debt_expansion              deteriorated          average_primary_deficit     debt_pressure_with_primary_balance_deterioration
+PRT            Portugal                   sustained_debt_reduction              deteriorated          average_primary_surplus debt_reduction_despite_primary_balance_deterioration
+ROU             Romania                  persistent_debt_expansion              deteriorated          average_primary_deficit     debt_pressure_with_primary_balance_deterioration
+SWE              Sweden         consolidation_with_recent_reversal              deteriorated          average_primary_deficit     debt_pressure_with_primary_balance_deterioration
+
+METHODOLOGICAL LIMITATIONS
+- Classifications describe historical observations.
+- No probability of default is calculated.
+- Primary balance changes are not cyclically adjusted.
+- Debt changes are not decomposed into their economic drivers.
+- No composite fiscal risk score is calculated.
+- The classification rules are descriptive, not causal.

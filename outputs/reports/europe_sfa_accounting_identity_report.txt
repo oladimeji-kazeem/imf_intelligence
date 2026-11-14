@@ -1,0 +1,148 @@
+EUROSTAT SFA ACCOUNTING RELATIONSHIP DIAGNOSTIC
+============================================================================
+
+Input: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_eurostat_sfa_reconciliation.csv
+Countries: 17
+Years: 2020, 2021, 2022, 2023, 2024
+Units: MIO_NAC, PC_GDP
+
+IMPORTANT METHODOLOGICAL NOTE
+----------------------------------------------------------------------------
+The following are candidate accounting relationships.
+They are not automatically treated as verified identities.
+Residuals are reported without imposing arbitrary pass/fail
+rounding thresholds.
+
+TEST A — TOP-LEVEL SFA BRIDGE CANDIDATE
+----------------------------------------------------------------------------
+Compare sfa_calculated with F_ASS + ORADJ + YA3.
+This tests whether the selected aggregate series reconcile.
+
+TEST B — STATISTICAL DISCREPANCY SIGN DIAGNOSTIC
+----------------------------------------------------------------------------
+Compare YA3 with both:
+  B9FX9 + YA3O
+  -B9FX9 + YA3O
+B9FX9 is defined as B9F-B9, while the EDP transition
+description refers to B9-B9F. The sign must be verified.
+
+TEST C — ADJUSTMENT DETAIL DIAGNOSTIC
+----------------------------------------------------------------------------
+Compare ORADJ with the complete-case sum of:
+F71_ADJ_LIAB, F8_ADJ_LIAB, FV_ADJ_LIAB, ORINV, ORD41A_ADJ, ORFCD, ORRNV, KX, K61
+This is not assumed to be exhaustive or additive.
+Only observations with all selected detail values are included.
+
+SUMMARY RESULTS
+----------------------------------------------------------------------------
+
+ADJUSTMENT_DETAIL_SUM | MIO_NAC
+  Formula: ORADJ versus sum of selected adjustment details
+  Comparisons: 65
+  Mean residual: -0.004615
+  Mean absolute residual: 0.026154
+  Median absolute residual: 0.000000
+  Maximum absolute residual: 0.200000
+
+ADJUSTMENT_DETAIL_SUM | PC_GDP
+  Formula: ORADJ versus sum of selected adjustment details
+  Comparisons: 65
+  Mean residual: 0.015385
+  Mean absolute residual: 0.040000
+  Median absolute residual: 0.000000
+  Maximum absolute residual: 0.100000
+
+STAT_DISCREPANCY_MINUS_B9FX9 | MIO_NAC
+  Formula: YA3 versus -B9FX9 + YA3O
+  Comparisons: 72
+  Mean residual: 28.208333
+  Mean absolute residual: 5796.944444
+  Median absolute residual: 2110.600000
+  Maximum absolute residual: 66589.200000
+
+STAT_DISCREPANCY_MINUS_B9FX9 | PC_GDP
+  Formula: YA3 versus -B9FX9 + YA3O
+  Comparisons: 72
+  Mean residual: -0.013889
+  Mean absolute residual: 0.211111
+  Median absolute residual: 0.200000
+  Maximum absolute residual: 1.600000
+
+STAT_DISCREPANCY_PLUS_B9FX9 | MIO_NAC
+  Formula: YA3 versus B9FX9 + YA3O
+  Comparisons: 72
+  Mean residual: 0.027778
+  Mean absolute residual: 0.038889
+  Median absolute residual: 0.000000
+  Maximum absolute residual: 2.000000
+
+STAT_DISCREPANCY_PLUS_B9FX9 | PC_GDP
+  Formula: YA3 versus B9FX9 + YA3O
+  Comparisons: 72
+  Mean residual: -0.002778
+  Mean absolute residual: 0.002778
+  Median absolute residual: 0.000000
+  Maximum absolute residual: 0.100000
+
+TOP_LEVEL_SFA_PLUS | MIO_NAC
+  Formula: sfa_calculated versus F_ASS + ORADJ + YA3
+  Comparisons: 72
+  Mean residual: -0.005556
+  Mean absolute residual: 0.027778
+  Median absolute residual: 0.000000
+  Maximum absolute residual: 0.300000
+
+TOP_LEVEL_SFA_PLUS | PC_GDP
+  Formula: sfa_calculated versus F_ASS + ORADJ + YA3
+  Comparisons: 72
+  Mean residual: -0.009722
+  Mean absolute residual: 0.037500
+  Median absolute residual: 0.000000
+  Maximum absolute residual: 0.100000
+
+ADJUSTMENT DETAIL COVERAGE
+----------------------------------------------------------------------------
+MIO_NAC | F71_ADJ_LIAB: 67/85 (78.8%)
+MIO_NAC | F8_ADJ_LIAB: 72/85 (84.7%)
+MIO_NAC | FV_ADJ_LIAB: 72/85 (84.7%)
+MIO_NAC | ORINV: 72/85 (84.7%)
+MIO_NAC | ORD41A_ADJ: 72/85 (84.7%)
+MIO_NAC | ORFCD: 72/85 (84.7%)
+MIO_NAC | ORRNV: 70/85 (82.4%)
+MIO_NAC | KX: 72/85 (84.7%)
+MIO_NAC | K61: 72/85 (84.7%)
+PC_GDP | F71_ADJ_LIAB: 67/85 (78.8%)
+PC_GDP | F8_ADJ_LIAB: 72/85 (84.7%)
+PC_GDP | FV_ADJ_LIAB: 72/85 (84.7%)
+PC_GDP | ORINV: 72/85 (84.7%)
+PC_GDP | ORD41A_ADJ: 72/85 (84.7%)
+PC_GDP | ORFCD: 72/85 (84.7%)
+PC_GDP | ORRNV: 70/85 (82.4%)
+PC_GDP | KX: 72/85 (84.7%)
+PC_GDP | K61: 72/85 (84.7%)
+
+VALIDATION CHECKS
+----------------------------------------------------------------------------
+PASS: Expected country coverage — Found 17; expected 17
+PASS: Expected years — Found [2020, 2021, 2022, 2023, 2024]; expected [2020, 2021, 2022, 2023, 2024]
+PASS: Expected units — Found ['MIO_NAC', 'PC_GDP']; expected ['MIO_NAC', 'PC_GDP']
+PASS: No duplicate country-year-unit records — Duplicate records: 0
+PASS: Comparison output generated — Comparison records: 562
+
+OVERALL STRUCTURAL CHECK: PASS
+
+INTERPRETATION LIMITATIONS
+----------------------------------------------------------------------------
+1. Structural PASS does not mean accounting identities passed.
+2. Residuals must be evaluated against source precision and
+   official indicator definitions.
+3. The two B9FX9 sign candidates are diagnostic alternatives.
+4. ORADJ may contain adjustment categories not included in
+   the selected detail series.
+5. Missing values are not zero and are not imputed.
+6. Do not add lower-level detail to an aggregate in the
+   top-level SFA bridge.
+7. Cross-unit consistency is a separate audit already completed.
+
+Official Eurostat metadata:
+https://ec.europa.eu/eurostat/cache/metadata/en/gov_10dd_esms.htm

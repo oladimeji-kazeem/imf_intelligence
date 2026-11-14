@@ -1,0 +1,28 @@
+EUROPEAN EFFECTIVE INTEREST RATE REPORT
+======================================================================
+Countries expected: 17
+Years expected: 5
+Expected observations: 85
+Actual observations: 85
+
+MISSING VALUES BY COLUMN
+interest_expenditure: 0
+opening_debt: 0
+closing_debt: 0
+average_debt: 0
+nominal_gdp: 0
+effective_interest_rate_pct: 0
+interest_to_gdp_pct: 0
+debt_to_gdp_pct: 0
+
+VALIDATION CHECKS
+Expected panel size: PASS
+No duplicate country-years: PASS
+No missing required inputs: PASS
+Positive debt stocks: PASS
+Positive nominal GDP: PASS
+Non-negative effective rates: PASS
+
+RESULT: PASS
+
+Output: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_effective_interest_rate_panel.csv

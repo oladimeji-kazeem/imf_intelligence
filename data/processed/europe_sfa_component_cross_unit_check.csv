@@ -1,0 +1,5 @@
+metric,paired_observations,mean_absolute_difference_pp,maximum_absolute_difference_pp
+direct_sfa_pp,72,0.03400634938881583,0.08958888540139887
+financial_asset_acquisition_pp,72,0.0235029521182466,0.04943873757904527
+other_adjustments_pp,72,0.023824842867476888,0.0479568078904431
+statistical_discrepancy_pp,72,0.026134724176517726,0.04983840370128487

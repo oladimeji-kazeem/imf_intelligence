@@ -1,0 +1,176 @@
+EUROSTAT SFA ACCOUNTING HIERARCHY AUDIT
+========================================================================
+
+Input: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_eurostat_sfa_reconciliation.csv
+Countries: 17
+Years: 2020, 2021, 2022, 2023, 2024
+Units: MIO_NAC, PC_GDP
+
+HIERARCHY CLASSIFICATION
+------------------------------------------------------------------------
+GD_CH: outcome_measure
+  Role: debt_transition_anchor
+  Treatment: Do not add
+  Explanation: Observed change in consolidated gross debt. This is the debt-change outcome being explained.
+  Present in input: True
+
+B9_T3: primary_transition_measure
+  Role: deficit_surplus_bridge
+  Treatment: Do not add independently
+  Explanation: Reversed-sign net lending/net borrowing measure used with GD_CH to calculate the SFA bridge.
+  Present in input: True
+
+F_ASS: broad_component_aggregate
+  Role: financial_asset_transactions
+  Treatment: Do not add to its own subcomponents
+  Explanation: Net acquisition of financial assets across multiple instrument categories. Treat as an aggregate unless the detailed instrument breakdown is used instead.
+  Present in input: True
+
+F71_ADJ_LIAB: candidate_adjustment_component
+  Role: financial_derivative_liabilities
+  Treatment: Potentially additive; verify identity and sign
+  Explanation: Adjustment for net incurrence of liabilities in financial derivatives.
+  Present in input: True
+
+F8_ADJ_LIAB: candidate_adjustment_component
+  Role: other_accounts_payable
+  Treatment: Potentially additive; verify identity and sign
+  Explanation: Adjustment for net incurrence of other accounts payable.
+  Present in input: True
+
+FV_ADJ_LIAB: candidate_adjustment_component
+  Role: other_liabilities
+  Treatment: Potentially additive; verify identity and sign
+  Explanation: Adjustment relating to other liabilities. Check its detailed instrument coverage before combining.
+  Present in input: True
+
+ORINV: candidate_valuation_adjustment
+  Role: issuance_price_adjustment
+  Treatment: Potentially additive; verify identity and sign
+  Explanation: Adjustment for debt issuance above or below nominal value.
+  Present in input: True
+
+ORD41A_ADJ: candidate_timing_adjustment
+  Role: interest_accrual_cash_timing
+  Treatment: Potentially additive; verify identity and sign
+  Explanation: Difference between D.41 interest accrued and interest paid. Do not confuse this with total interest expenditure.
+  Present in input: True
+
+ORFCD: candidate_valuation_adjustment
+  Role: foreign_currency_valuation
+  Treatment: Potentially additive; verify identity and sign
+  Explanation: Adjustment for appreciation or depreciation of foreign-currency debt.
+  Present in input: True
+
+ORRNV: candidate_valuation_adjustment
+  Role: redemption_price_adjustment
+  Treatment: Potentially additive; verify identity and sign
+  Explanation: Adjustment for debt redemptions or repurchases above or below nominal value.
+  Present in input: True
+
+KX: candidate_volume_adjustment
+  Role: other_volume_changes
+  Treatment: Potentially additive; verify identity and sign
+  Explanation: Other volume changes in financial liabilities. Check the exact coverage of the selected series.
+  Present in input: True
+
+K61: candidate_reclassification_adjustment
+  Role: sector_reclassification
+  Treatment: Potentially additive; verify identity and sign
+  Explanation: Changes in sector classification and institutional structure.
+  Present in input: True
+
+B9FX9: statistical_discrepancy
+  Role: capital_financial_account_discrepancy
+  Treatment: Keep separate pending identity verification
+  Explanation: Discrepancy between financial and non-financial net lending/net borrowing measures.
+  Present in input: True
+
+YA3: broad_discrepancy_aggregate
+  Role: total_statistical_discrepancies
+  Treatment: Do not add to its subcomponents
+  Explanation: Total statistical discrepancies. Treat as an aggregate until its detailed composition is established.
+  Present in input: True
+
+YA3O: statistical_discrepancy
+  Role: other_statistical_discrepancies
+  Treatment: Do not add to YA3 without identity verification
+  Explanation: Other statistical discrepancies. May overlap with a broader discrepancy aggregate.
+  Present in input: True
+
+ORADJ: broad_adjustment_aggregate
+  Role: total_adjustments
+  Treatment: Do not add to its underlying components
+  Explanation: Broad total-adjustments measure. Its precise relationship to individual adjustment series must be verified before use.
+  Present in input: True
+
+sfa_calculated: derived_reconciliation_measure
+  Role: derived_sfa_control
+  Treatment: Never add as a separate component
+  Explanation: Derived from GD_CH and B9_T3. It is a reconciliation measure, not an independent source component.
+  Present in input: True
+
+COVERAGE SUMMARY
+------------------------------------------------------------------------
+
+Unit: MIO_NAC
+  GD_CH: 74/85 (87.1%)
+  B9_T3: 72/85 (84.7%)
+  F_ASS: 72/85 (84.7%)
+  F71_ADJ_LIAB: 67/85 (78.8%)
+  F8_ADJ_LIAB: 72/85 (84.7%)
+  FV_ADJ_LIAB: 72/85 (84.7%)
+  ORINV: 72/85 (84.7%)
+  ORD41A_ADJ: 72/85 (84.7%)
+  ORFCD: 72/85 (84.7%)
+  ORRNV: 70/85 (82.4%)
+  KX: 72/85 (84.7%)
+  K61: 72/85 (84.7%)
+  B9FX9: 72/85 (84.7%)
+  YA3: 72/85 (84.7%)
+  YA3O: 72/85 (84.7%)
+  ORADJ: 72/85 (84.7%)
+  sfa_calculated: 72/85 (84.7%)
+
+Unit: PC_GDP
+  GD_CH: 74/85 (87.1%)
+  B9_T3: 72/85 (84.7%)
+  F_ASS: 72/85 (84.7%)
+  F71_ADJ_LIAB: 67/85 (78.8%)
+  F8_ADJ_LIAB: 72/85 (84.7%)
+  FV_ADJ_LIAB: 72/85 (84.7%)
+  ORINV: 72/85 (84.7%)
+  ORD41A_ADJ: 72/85 (84.7%)
+  ORFCD: 72/85 (84.7%)
+  ORRNV: 70/85 (82.4%)
+  KX: 72/85 (84.7%)
+  K61: 72/85 (84.7%)
+  B9FX9: 72/85 (84.7%)
+  YA3: 72/85 (84.7%)
+  YA3O: 72/85 (84.7%)
+  ORADJ: 72/85 (84.7%)
+  sfa_calculated: 72/85 (84.7%)
+
+VALIDATION CHECKS
+------------------------------------------------------------------------
+PASS: Expected country coverage — Found 17; expected 17
+PASS: Expected reference years — Found [2020, 2021, 2022, 2023, 2024]; expected [2020, 2021, 2022, 2023, 2024]
+PASS: Expected units — Found ['MIO_NAC', 'PC_GDP']; expected ['MIO_NAC', 'PC_GDP']
+PASS: No duplicate country-year-unit records — Duplicate records: 0
+PASS: All expected indicators present — All expected indicators found
+PASS: Coverage counts are valid — Missing component observations are reported, not treated as zero
+
+OVERALL STRUCTURAL AUDIT: PASS
+
+INTERPRETATION LIMITATIONS
+------------------------------------------------------------------------
+1. This is a classification and coverage audit, not an additive identity test.
+2. Broad aggregates must not be added to their underlying components.
+3. Statistical discrepancies are kept separate from economic drivers.
+4. Candidate adjustment components require official sign and identity verification.
+5. Missing observations are not zero and are not imputed.
+6. Cross-unit agreement does not prove economic additivity.
+7. The derived sfa_calculated measure is not an independent source series.
+
+Official metadata reference:
+https://ec.europa.eu/eurostat/cache/metadata/en/gov_10dd_esms.htm

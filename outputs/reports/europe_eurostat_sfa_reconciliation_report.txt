@@ -1,0 +1,35 @@
+EUROSTAT SFA RECONCILIATION REPORT
+=================================================================
+
+Formula: SFA = GD_CH - B9_T3
+Sector: S13
+Period: 2020-2024
+
+UNIT COVERAGE
+
+Unit: MIO_NAC
+Records: 74
+Calculated SFA: 72
+Missing SFA: 2
+Countries: 17
+Years: 5
+
+Unit: PC_GDP
+Records: 74
+Calculated SFA: 72
+Missing SFA: 2
+Countries: 17
+Years: 5
+
+UNIT COMPARISON
+Matched country-years: 72
+Direction mismatches: 2
+
+IMPORTANT LIMITATIONS
+- SFA is calculated only where GD_CH and B9_T3 are both present.
+- Missing observations are not treated as zero.
+- Monetary and percentage-of-GDP values are retained separately.
+- Detailed adjustment components are not added together here.
+- This is an accounting reconciliation, not causal identification.
+
+Dataset: data\processed\europe_eurostat_sfa_reconciliation.csv

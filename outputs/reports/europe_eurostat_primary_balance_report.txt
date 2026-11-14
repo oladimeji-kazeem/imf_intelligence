@@ -1,0 +1,82 @@
+EUROSTAT PRIMARY BALANCE CALCULATION REPORT
+===========================================================================
+
+SOURCE DATASETS
+B9: gov_10dd_edpt1
+Interest: gov_10a_main, D41PAY
+GDP: gov_10dd_edpt1, B1GQ, S1
+
+CALCULATION
+Primary balance = B9 + D41PAY
+Period: 2020-2024
+Countries: 17
+
+DATA COVERAGE
+Expected observations: 85
+Retrieved observations: 85
+Missing country-years: 0
+Unexpected country-years: 0
+Unmatched B9-interest records: 0
+Unmatched GDP records: 0
+Missing required values: 0
+
+DATA RECONCILIATION
+Maximum GDP source difference: 0.0000000000
+Maximum interest/GDP difference (pp): 0.0000004890
+Maximum primary balance identity error: 0.000000000000
+
+ECONOMIC VALIDATION
+Negative interest observations: 0
+Non-positive GDP observations: 0
+Non-positive debt observations: 0
+Negative effective interest rates: 0
+
+MISSING COUNTRY-YEARS
+None
+
+VALIDATION RESULTS
+Expected observation count: PASS
+Complete country-year coverage: PASS
+No unexpected country-years: PASS
+No unmatched B9-interest records: PASS
+No unmatched GDP records: PASS
+No missing required values: PASS
+GDP matches independent extraction: PASS
+Interest expenditure non-negative: PASS
+GDP positive: PASS
+Debt stocks positive: PASS
+Effective interest rates non-negative: PASS
+Interest/GDP ratio reconciles: PASS
+Primary balance identity reconciles: PASS
+
+OVERALL RESULT: PASS
+
+COUNTRY SUMMARY
+Mean primary balance as percentage of GDP, 2020-2024
+
+country_code     country  mean_primary_balance_pct_gdp  mean_overall_balance_pct_gdp  mean_interest_to_gdp_pct  observations
+          RO     Romania                     -6.000075                     -7.768279                  1.768203             5
+          FR      France                     -4.572285                     -6.276709                  1.704424             5
+          IT       Italy                     -3.679513                     -7.366916                  3.687403             5
+          AT     Austria                     -3.676957                     -4.890318                  1.213361             5
+          BE     Belgium                     -3.425520                     -5.298106                  1.872586             5
+          ES       Spain                     -3.241269                     -5.533749                  2.292480             5
+          HU     Hungary                     -3.195995                     -6.585972                  3.389978             5
+          PL      Poland                     -3.072263                     -4.708027                  1.635764             5
+          CZ     Czechia                     -2.821422                     -3.860044                  1.038622             5
+          FI     Finland                     -2.258644                     -3.154062                  0.895418             5
+          DE     Germany                     -2.093067                     -2.862843                  0.769776             5
+          EL      Greece                     -1.036531                     -3.985489                  2.948958             5
+          NL Netherlands                     -0.770425                     -1.408389                  0.637964             5
+          SE      Sweden                     -0.523825                     -1.010016                  0.486191             5
+          PT    Portugal                      0.830431                     -1.408746                  2.239178             5
+          IE     Ireland                      0.939003                      0.220343                  0.718660             5
+          DK     Denmark                      3.719882                      3.090528                  0.629354             5
+
+INTERPRETATION
+Positive primary balance = primary surplus.
+Negative primary balance = primary deficit.
+This is an observed, non-cyclically-adjusted balance.
+It is not a structural primary balance.
+
+Processed dataset: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_eurostat_primary_balance.csv

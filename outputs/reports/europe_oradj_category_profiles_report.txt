@@ -1,0 +1,82 @@
+EUROSTAT ORADJ ECONOMIC CATEGORY PROFILES
+==============================================================================
+Input: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_eurostat_sfa_reconciliation.csv
+Countries: 17
+Years: [2020, 2021, 2022, 2023, 2024]
+Units: ['MIO_NAC', 'PC_GDP']
+
+OFFICIAL ECONOMIC CATEGORY CLASSIFICATION
+------------------------------------------------------------------------------
+excluded_liability_adjustments: F71_ADJ_LIAB, F8_ADJ_LIAB, FV_ADJ_LIAB
+debt_valuation_adjustments: ORINV, ORD41A_ADJ, ORRNV
+foreign_currency_valuation: ORFCD
+other_volume_changes: KX, K61
+
+CATEGORY COVERAGE
+------------------------------------------------------------------------------
+MIO_NAC | excluded_liability_adjustments: 67/74 (90.5%)
+MIO_NAC | debt_valuation_adjustments: 70/74 (94.6%)
+MIO_NAC | foreign_currency_valuation: 72/74 (97.3%)
+MIO_NAC | other_volume_changes: 72/74 (97.3%)
+MIO_NAC | all_four_categories: 65/74 (87.8%)
+PC_GDP | excluded_liability_adjustments: 67/74 (90.5%)
+PC_GDP | debt_valuation_adjustments: 70/74 (94.6%)
+PC_GDP | foreign_currency_valuation: 72/74 (97.3%)
+PC_GDP | other_volume_changes: 72/74 (97.3%)
+PC_GDP | all_four_categories: 65/74 (87.8%)
+
+FIVE-YEAR BALANCED PANEL
+------------------------------------------------------------------------------
+Countries with complete 2020-2024 detail: 8
+Countries: BE, CZ, EL, ES, HU, IE, PL, PT
+
+COMPLETE-YEAR COVERAGE BY COUNTRY
+------------------------------------------------------------------------------
+BE: 5/5 years
+CZ: 5/5 years
+ES: 5/5 years
+EL: 5/5 years
+PL: 5/5 years
+PT: 5/5 years
+IE: 5/5 years
+HU: 5/5 years
+FR: 4/5 years
+DK: 3/5 years
+AT: 3/5 years
+DE: 3/5 years
+FI: 3/5 years
+IT: 3/5 years
+RO: 3/5 years
+SE: 3/5 years
+
+BALANCED COUNTRY CUMULATIVE CONTRIBUTIONS
+------------------------------------------------------------------------------
+BE: ORADJ=-0.17321 pp; category sum=-0.17317 pp; residual=-0.000040 pp
+CZ: ORADJ=-3.33613 pp; category sum=-3.33613 pp; residual=0.000000 pp
+EL: ORADJ=-5.71518 pp; category sum=-5.71518 pp; residual=-0.000000 pp
+ES: ORADJ=-3.63904 pp; category sum=-3.63904 pp; residual=-0.000000 pp
+HU: ORADJ=1.22693 pp; category sum=1.22693 pp; residual=0.000000 pp
+IE: ORADJ=2.08995 pp; category sum=2.08990 pp; residual=0.000052 pp
+PL: ORADJ=-3.20905 pp; category sum=-3.20905 pp; residual=-0.000000 pp
+PT: ORADJ=1.52665 pp; category sum=1.52674 pp; residual=-0.000096 pp
+
+CROSS-UNIT CATEGORY COMPARISON
+------------------------------------------------------------------------------
+oradj_pp: 72 paired; mean absolute difference=0.02382484 pp; maximum absolute difference=0.04795681 pp
+category_sum_pp: 65 paired; mean absolute difference=0.04706410 pp; maximum absolute difference=0.13886385 pp
+excluded_liability_adjustments_pp: 67 paired; mean absolute difference=0.03228948 pp; maximum absolute difference=0.12122770 pp
+debt_valuation_adjustments_pp: 70 paired; mean absolute difference=0.03152938 pp; maximum absolute difference=0.11585212 pp
+foreign_currency_valuation_pp: 72 paired; mean absolute difference=0.01862523 pp; maximum absolute difference=0.04957765 pp
+other_volume_changes_pp: 72 paired; mean absolute difference=0.00766612 pp; maximum absolute difference=0.04110808 pp
+
+INTERPRETATION LIMITATIONS
+------------------------------------------------------------------------------
+1. Category groupings follow Eurostat's published SFA structure.
+2. Source signs are preserved; no sign reversal is applied.
+3. A positive category contribution increases the debt transition under the reported sign convention; a negative contribution reduces it.
+4. Category totals are complete only when every component within that category is present.
+5. Missing values are not zero.
+6. Five-year cumulative comparisons are produced only for countries with all five years complete.
+7. These are accounting contributions, not causal estimates.
+8. ORADJ remains the aggregate. Do not add category totals to ORADJ a second time.
+9. Large offsetting components should be inspected separately.

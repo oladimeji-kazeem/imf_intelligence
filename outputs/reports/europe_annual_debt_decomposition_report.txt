@@ -1,0 +1,51 @@
+EUROPEAN ANNUAL DEBT DYNAMICS DECOMPOSITION
+=================================================================
+Period: 2019-2024
+Countries: 20
+Annual dataset observations: 120
+Period transition observations: 100
+DECOMPOSITION
+Debt change = Primary balance contribution + Residual
+Residual = Debt change + Primary balance
+
+VALIDATION
+Duplicate country-year records: 0
+Maximum annual reconciliation error: 0.000000000000
+Maximum period reconciliation error: 0.000000000000
+
+MEAN ANNUAL CONTRIBUTIONS
+Mean primary balance contribution: 1.7681 pp
+Mean non-primary-balance residual: -1.2441 pp
+Mean annual debt change: 0.5239 pp
+
+COUNTRY SUMMARY
+iso             country  debt_change_2019_2024_pp  mean_annual_debt_change_pp  mean_primary_balance_pct_gdp  mean_primary_contribution_pp  mean_non_primary_residual_pp  mean_nominal_gdp_growth_pct  annual_observations  endpoint_debt_change_pp  period_reconciliation_error_pp
+ROU             Romania                    20.701                      4.1402                       -5.5560                        5.5560                       -1.4158                    10.817274                    5                   20.701                    0.000000e+00
+FIN             Finland                    17.147                      3.4294                       -3.1384                        3.1384                        0.2910                     3.010054                    5                   17.147                    0.000000e+00
+GBR      United Kingdom                    14.840                      2.9680                       -5.1690                        5.1690                       -2.2010                     5.291853                    5                   14.840                    3.552714e-15
+FRA              France                    14.415                      2.8830                       -4.6738                        4.6738                       -1.7908                     3.946513                    5                   14.415                    0.000000e+00
+NOR              Norway                    13.812                      2.7624                       10.1888                      -10.1888                       12.9512                     8.840115                    5                   13.812                    0.000000e+00
+CZE      Czech Republic                    13.680                      2.7360                       -3.3048                        3.3048                       -0.5688                     6.592181                    5                   13.680                    0.000000e+00
+POL Poland, Republic of                     9.636                      1.9272                       -3.0726                        3.0726                       -1.1454                     9.769109                    5                    9.636                    0.000000e+00
+AUT             Austria                     8.950                      1.7900                       -3.9968                        3.9968                       -2.2068                     4.655954                    5                    8.950                    1.776357e-15
+HUN             Hungary                     8.484                      1.6968                       -3.7354                        3.7354                       -2.0386                    11.348025                    5                    8.484                    0.000000e+00
+BEL             Belgium                     6.224                      1.2448                       -3.7796                        3.7796                       -2.5348                     5.398757                    5                    6.224                    0.000000e+00
+ESP               Spain                     3.798                      0.7596                       -3.6308                        3.6308                       -2.8712                     5.286528                    5                    3.798                    0.000000e+00
+DEU             Germany                     3.058                      0.6116                       -2.2796                        2.2796                       -1.6680                     4.345803                    5                    3.058                    0.000000e+00
+ITA               Italy                     0.839                      0.1678                       -3.8676                        3.8676                       -3.6998                     4.269765                    5                    0.839                    0.000000e+00
+CHE         Switzerland                    -0.630                     -0.1260                       -0.3672                        0.3672                       -0.4932                     3.375420                    5                   -0.630                   -2.220446e-16
+SWE              Sweden                    -2.152                     -0.4304                       -0.8012                        0.8012                       -1.2316                     5.152994                    5                   -2.152                   -4.440892e-16
+NLD    Netherlands, The                    -3.621                     -0.7242                       -0.9822                        0.9822                       -1.7064                     6.186331                    5                   -3.621                    0.000000e+00
+DNK             Denmark                    -8.392                     -1.6784                        2.5494                       -2.5494                        0.8710                     5.441244                    5                   -8.392                    0.000000e+00
+IRL             Ireland                   -17.451                     -3.4902                        0.8528                       -0.8528                       -2.6374                     9.322527                    5                  -17.451                    0.000000e+00
+PRT            Portugal                   -22.626                     -4.5252                        0.6680                       -0.6680                       -3.8572                     6.421875                    5                  -22.626                    0.000000e+00
+GRC              Greece                   -28.318                     -5.6636                       -1.2656                        1.2656                       -6.9292                     5.339611                    5                  -28.318                    0.000000e+00
+
+INTERPRETATION LIMITATIONS
+- Residual is not a pure interest-growth contribution.
+- Interest costs and stock-flow adjustments are not separately identified.
+- Annual contributions are expressed in percentage points.
+- Annual percentage-of-GDP contributions must not be summed
+  as if they were contributions measured against one fixed denominator.
+- This is an accounting decomposition, not a causal model.
+- No default probability or credit rating is calculated.

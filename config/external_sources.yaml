@@ -1,0 +1,80 @@
+project:
+  name: European Fiscal Interest-Growth and SFA Analysis
+  reference_period:
+    start_year: 2020
+    end_year: 2024
+  sector: S13
+  frequency: A
+
+sources:
+  eurostat_interest:
+    provider: Eurostat
+    dataset: gov_10a_main
+    indicator: D41PAY
+    description: General government interest expenditure
+    preferred_unit: MIO_NAC
+    sector: S13
+    frequency: A
+    countries:
+      - AUT
+      - BEL
+      - CZE
+      - DEU
+      - DNK
+      - ESP
+      - FIN
+      - FRA
+      - GRC
+      - HUN
+      - IRL
+      - ITA
+      - NLD
+      - NOR
+      - POL
+      - PRT
+      - ROU
+      - SWE
+      - CHE
+
+  eurostat_debt:
+    provider: Eurostat
+    dataset: gov_10dd_edpt1
+    description: General government consolidated gross debt
+    preferred_unit: MIO_NAC
+    sector: S13
+    frequency: A
+
+  eurostat_sfa:
+    provider: Eurostat
+    dataset: gov_10dd_edpt3
+    description: Stock-flow adjustment and components
+    preferred_unit: PC_GDP
+    frequency: A
+    expected_coverage:
+      start_year: 2022
+      end_year: 2025
+    countries:
+      - AUT
+      - BEL
+      - CZE
+      - DEU
+      - DNK
+      - ESP
+      - FIN
+      - FRA
+      - GRC
+      - HUN
+      - IRL
+      - ITA
+      - NLD
+      - POL
+      - PRT
+      - ROU
+      - SWE
+
+  uk_interest:
+    provider: UK Office for National Statistics
+    dataset: to_be_confirmed
+    description: UK general government interest expenditure
+    country: GBR
+    status: source_identification_required

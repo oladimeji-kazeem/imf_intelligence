@@ -1,0 +1,18 @@
+indicator,role,class,additivity,explanation,source_or_derived,present_in_input
+GD_CH,debt_transition_anchor,outcome_measure,Do not add,Observed change in consolidated gross debt. This is the debt-change outcome being explained.,source,True
+B9_T3,deficit_surplus_bridge,primary_transition_measure,Do not add independently,Reversed-sign net lending/net borrowing measure used with GD_CH to calculate the SFA bridge.,source,True
+F_ASS,financial_asset_transactions,broad_component_aggregate,Do not add to its own subcomponents,Net acquisition of financial assets across multiple instrument categories. Treat as an aggregate unless the detailed instrument breakdown is used instead.,source,True
+F71_ADJ_LIAB,financial_derivative_liabilities,candidate_adjustment_component,Potentially additive; verify identity and sign,Adjustment for net incurrence of liabilities in financial derivatives.,source,True
+F8_ADJ_LIAB,other_accounts_payable,candidate_adjustment_component,Potentially additive; verify identity and sign,Adjustment for net incurrence of other accounts payable.,source,True
+FV_ADJ_LIAB,other_liabilities,candidate_adjustment_component,Potentially additive; verify identity and sign,Adjustment relating to other liabilities. Check its detailed instrument coverage before combining.,source,True
+ORINV,issuance_price_adjustment,candidate_valuation_adjustment,Potentially additive; verify identity and sign,Adjustment for debt issuance above or below nominal value.,source,True
+ORD41A_ADJ,interest_accrual_cash_timing,candidate_timing_adjustment,Potentially additive; verify identity and sign,Difference between D.41 interest accrued and interest paid. Do not confuse this with total interest expenditure.,source,True
+ORFCD,foreign_currency_valuation,candidate_valuation_adjustment,Potentially additive; verify identity and sign,Adjustment for appreciation or depreciation of foreign-currency debt.,source,True
+ORRNV,redemption_price_adjustment,candidate_valuation_adjustment,Potentially additive; verify identity and sign,Adjustment for debt redemptions or repurchases above or below nominal value.,source,True
+KX,other_volume_changes,candidate_volume_adjustment,Potentially additive; verify identity and sign,Other volume changes in financial liabilities. Check the exact coverage of the selected series.,source,True
+K61,sector_reclassification,candidate_reclassification_adjustment,Potentially additive; verify identity and sign,Changes in sector classification and institutional structure.,source,True
+B9FX9,capital_financial_account_discrepancy,statistical_discrepancy,Keep separate pending identity verification,Discrepancy between financial and non-financial net lending/net borrowing measures.,source,True
+YA3,total_statistical_discrepancies,broad_discrepancy_aggregate,Do not add to its subcomponents,Total statistical discrepancies. Treat as an aggregate until its detailed composition is established.,source,True
+YA3O,other_statistical_discrepancies,statistical_discrepancy,Do not add to YA3 without identity verification,Other statistical discrepancies. May overlap with a broader discrepancy aggregate.,source,True
+ORADJ,total_adjustments,broad_adjustment_aggregate,Do not add to its underlying components,Broad total-adjustments measure. Its precise relationship to individual adjustment series must be verified before use.,source,True
+sfa_calculated,derived_sfa_control,derived_reconciliation_measure,Never add as a separate component,"Derived from GD_CH and B9_T3. It is a reconciliation measure, not an independent source component.",derived,True

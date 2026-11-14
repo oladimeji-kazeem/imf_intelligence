@@ -1,0 +1,21 @@
+EUROSTAT GOVERNMENT DEBT SERIES AUDIT
+======================================================================
+Raw file: C:\Users\oladi\sources\imf_intelligence\data\raw\eurostat_debt_probe_20261114T082331Z.json
+Expected observations: 102
+Retrieved observations: 102
+Duplicate country-year records: 0
+Missing values: 0
+Non-numeric values: 0
+Non-positive debt values: 0
+
+VALIDATION CHECKS
+Correct observation count: PASS
+Complete country coverage: PASS
+Complete year coverage: PASS
+Complete country-year panel: PASS
+No duplicate country-year records: PASS
+No missing values: PASS
+All values numeric: PASS
+All debt values positive: PASS
+
+FINAL RESULT: PASS

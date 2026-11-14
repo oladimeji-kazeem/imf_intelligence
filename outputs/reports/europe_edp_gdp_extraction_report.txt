@@ -1,0 +1,26 @@
+EUROSTAT EDP GDP EXTRACTION REPORT
+======================================================================
+
+Dataset: gov_10dd_edpt1
+Indicator: B1GQ - GDP at market prices
+Unit: MIO_NAC
+Sector: S1
+Frequency: Annual
+Period: 2020-2024
+
+Expected observations: 85
+Retrieved observations: 85
+Missing observations: 0
+Countries represented: 17
+Years represented: 5
+
+MISSING COUNTRY-YEARS
+None
+
+OUTPUT FILES
+data\raw\eurostat_edp_gdp_20261114T082036Z.json
+data\processed\europe_eurostat_edp_gdp.csv
+
+VALIDATION
+Complete panel: YES
+Duplicate country-years: 0

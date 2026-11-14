@@ -1,0 +1,54 @@
+EUROSTAT SFA COMPONENT DECOMPOSITION
+==============================================================================
+Input: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_eurostat_sfa_reconciliation.csv
+GDP input: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_eurostat_edp_gdp_2019_2024.csv
+Countries: 17
+Years: [2020, 2021, 2022, 2023, 2024]
+Units: ['MIO_NAC', 'PC_GDP']
+
+OFFICIAL ACCOUNTING STRUCTURE
+------------------------------------------------------------------------------
+Change in consolidated gross debt = net borrowing contribution
+    + net acquisition of financial assets
+    + adjustments to other flows and EDP debt definition
+    + statistical discrepancies
+
+SFA COMPONENT BRIDGE
+------------------------------------------------------------------------------
+Direct SFA = F_ASS + ORADJ + YA3
+All monetary components are expressed as percentage points of current-year GDP.
+MIO_NAC values are divided by current-year nominal GDP; PC_GDP values are already expressed as percentages of GDP.
+
+COVERAGE
+------------------------------------------------------------------------------
+MIO_NAC: 74 source records; 72 complete decompositions
+PC_GDP: 74 source records; 72 complete decompositions
+
+BRIDGE RESIDUALS
+------------------------------------------------------------------------------
+MIO_NAC
+  Comparisons: 72
+  Mean absolute residual: 0.00000286 pp
+  Maximum absolute residual: 0.00004974 pp
+PC_GDP
+  Comparisons: 72
+  Mean absolute residual: 0.03750000 pp
+  Maximum absolute residual: 0.10000000 pp
+
+CROSS-UNIT COMPARISON
+------------------------------------------------------------------------------
+direct_sfa_pp: 72 paired observations; mean absolute difference 0.03400635 pp; maximum absolute difference 0.08958889 pp
+financial_asset_acquisition_pp: 72 paired observations; mean absolute difference 0.02350295 pp; maximum absolute difference 0.04943874 pp
+other_adjustments_pp: 72 paired observations; mean absolute difference 0.02382484 pp; maximum absolute difference 0.04795681 pp
+statistical_discrepancy_pp: 72 paired observations; mean absolute difference 0.02613472 pp; maximum absolute difference 0.04983840 pp
+
+INTERPRETATION LIMITATIONS
+------------------------------------------------------------------------------
+1. This is an accounting decomposition, not a causal model.
+2. F_ASS is an aggregate financial-asset acquisition component; do not add its lower-level subcomponents again.
+3. ORADJ is an aggregate adjustment component; its details must not be added again to the top-level bridge.
+4. Missing component values are not treated as zero.
+5. Cross-unit comparisons are affected by source rounding.
+6. The decomposition covers 17 EU countries and 2020-2024; it does not cover Norway, Switzerland or the UK.
+7. This SFA bridge is separate from the interest-growth and primary-balance decomposition.
+8. A small residual confirms numerical reconciliation, not independent causal attribution.

@@ -1,0 +1,120 @@
+EUROSTAT SFA COMPONENT AUDIT
+===========================================================================
+
+PERIOD: 2020-2024
+EXPECTED COUNTRY-YEAR PAIRS: 85
+SFA SOURCE RECORDS: 148
+GDP SOURCE RECORDS: 85
+NUMERIC INDICATORS AUDITED: 17
+
+INDICATORS
+---------------------------------------------------------------------------
+B9FX9
+B9_T3
+F71_ADJ_LIAB
+F8_ADJ_LIAB
+FV_ADJ_LIAB
+F_ASS
+GD_CH
+K61
+KX
+ORADJ
+ORD41A_ADJ
+ORFCD
+ORINV
+ORRNV
+YA3
+YA3O
+sfa_calculated
+
+UNIT COVERAGE BY INDICATOR
+---------------------------------------------------------------------------
+     indicator    unit  expected_country_years  records  available_observations  missing_observations  coverage_pct  countries_covered  years_covered
+         B9FX9 MIO_NAC                      85       74                      72                     2       97.2973                 17              5
+         B9FX9  PC_GDP                      85       74                      72                     2       97.2973                 17              5
+         B9_T3 MIO_NAC                      85       74                      72                     2       97.2973                 17              5
+         B9_T3  PC_GDP                      85       74                      72                     2       97.2973                 17              5
+  F71_ADJ_LIAB MIO_NAC                      85       74                      67                     7       90.5405                 16              5
+  F71_ADJ_LIAB  PC_GDP                      85       74                      67                     7       90.5405                 16              5
+   F8_ADJ_LIAB MIO_NAC                      85       74                      72                     2       97.2973                 17              5
+   F8_ADJ_LIAB  PC_GDP                      85       74                      72                     2       97.2973                 17              5
+   FV_ADJ_LIAB MIO_NAC                      85       74                      72                     2       97.2973                 17              5
+   FV_ADJ_LIAB  PC_GDP                      85       74                      72                     2       97.2973                 17              5
+         F_ASS MIO_NAC                      85       74                      72                     2       97.2973                 17              5
+         F_ASS  PC_GDP                      85       74                      72                     2       97.2973                 17              5
+         GD_CH MIO_NAC                      85       74                      74                     0      100.0000                 17              5
+         GD_CH  PC_GDP                      85       74                      74                     0      100.0000                 17              5
+           K61 MIO_NAC                      85       74                      72                     2       97.2973                 17              5
+           K61  PC_GDP                      85       74                      72                     2       97.2973                 17              5
+            KX MIO_NAC                      85       74                      72                     2       97.2973                 17              5
+            KX  PC_GDP                      85       74                      72                     2       97.2973                 17              5
+         ORADJ MIO_NAC                      85       74                      72                     2       97.2973                 17              5
+         ORADJ  PC_GDP                      85       74                      72                     2       97.2973                 17              5
+    ORD41A_ADJ MIO_NAC                      85       74                      72                     2       97.2973                 17              5
+    ORD41A_ADJ  PC_GDP                      85       74                      72                     2       97.2973                 17              5
+         ORFCD MIO_NAC                      85       74                      72                     2       97.2973                 17              5
+         ORFCD  PC_GDP                      85       74                      72                     2       97.2973                 17              5
+         ORINV MIO_NAC                      85       74                      72                     2       97.2973                 17              5
+         ORINV  PC_GDP                      85       74                      72                     2       97.2973                 17              5
+         ORRNV MIO_NAC                      85       74                      70                     4       94.5946                 17              5
+         ORRNV  PC_GDP                      85       74                      70                     4       94.5946                 17              5
+           YA3 MIO_NAC                      85       74                      72                     2       97.2973                 17              5
+           YA3  PC_GDP                      85       74                      72                     2       97.2973                 17              5
+          YA3O MIO_NAC                      85       74                      72                     2       97.2973                 17              5
+          YA3O  PC_GDP                      85       74                      72                     2       97.2973                 17              5
+sfa_calculated MIO_NAC                      85       74                      72                     2       97.2973                 17              5
+sfa_calculated  PC_GDP                      85       74                      72                     2       97.2973                 17              5
+
+MONETARY VS PERCENTAGE UNIT COMPARISON
+---------------------------------------------------------------------------
+Paired country-year observations: 1219
+Comparison tolerance: +/- 0.05 pp
+
+     indicator  paired_observations  within_tolerance  outside_tolerance  mean_difference_pp  mean_absolute_difference_pp  maximum_absolute_difference_pp  tolerance_pp
+         B9FX9                   72                72                  0           -0.006040                     0.023803                        0.049834      0.050000
+         B9_T3                   72                72                  0           -0.002246                     0.026215                        0.049743      0.050000
+  F71_ADJ_LIAB                   67                67                  0            0.004696                     0.014749                        0.045136      0.050000
+   F8_ADJ_LIAB                   72                72                  0            0.001328                     0.024519                        0.049665      0.050000
+   FV_ADJ_LIAB                   72                72                  0            0.002554                     0.012713                        0.049320      0.050000
+         F_ASS                   72                72                  0           -0.005003                     0.023503                        0.049439      0.050000
+         GD_CH                   74                74                  0           -0.001988                     0.024222                        0.048727      0.050000
+           K61                   72                72                  0            0.003222                     0.005922                        0.041864      0.050000
+            KX                   72                72                  0            0.000768                     0.003534                        0.041571      0.050000
+         ORADJ                   72                72                  0           -0.002069                     0.023825                        0.047957      0.050000
+    ORD41A_ADJ                   72                72                  0            0.005096                     0.023665                        0.049747      0.050000
+         ORFCD                   72                72                  0            0.000863                     0.018625                        0.049578      0.050000
+         ORINV                   72                72                  0           -0.003676                     0.024133                        0.048257      0.050000
+         ORRNV                   70                70                  0           -0.004209                     0.011722                        0.046427      0.050000
+           YA3                   72                72                  0           -0.001979                     0.026135                        0.049838      0.050000
+          YA3O                   72                72                  0            0.001282                     0.005658                        0.048951      0.050000
+sfa_calculated                   72                72                  0            0.000670                     0.034006                        0.089589      0.100000
+
+UNIT COMPARISON EXCEPTIONS
+---------------------------------------------------------------------------
+No exceptions.
+
+METHODOLOGICAL NOTES
+---------------------------------------------------------------------------
+1. Monetary values are converted using current-year GDP.
+2. PC_GDP observations are compared against converted MIO_NAC values.
+3. Unit consistency does not establish component additivity.
+4. Missing observations are not treated as zero.
+5. Aggregate and component indicators remain separate until their accounting relationships are established.
+6. This audit does not sum component indicators or attribute causal contributions.
+
+VALIDATION RESULTS
+---------------------------------------------------------------------------
+Expected country count: PASS
+Expected SFA year range: PASS
+Expected GDP coverage: PASS
+Expected SFA units: PASS
+Expected numeric indicators: PASS
+No duplicate SFA observations: PASS
+No duplicate GDP observations: PASS
+Complete unit-pair coverage: PASS
+Positive GDP for unit comparisons: PASS
+Both unit comparison values available: PASS
+Both unit values reconcile within tolerance: PASS
+All indicators represented in summary: PASS
+
+OVERALL RESULT: PASS

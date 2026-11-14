@@ -1,0 +1,26 @@
+EUROSTAT B9 EXTRACTION REPORT
+=================================================================
+Dataset: gov_10dd_edpt1
+Indicator: B9
+Definition: Net lending (+) / net borrowing (-)
+Sector: S13
+Unit: MIO_NAC
+Period: 2020-2024
+Expected observations: 85
+Retrieved observations: 85
+Missing country-years: 0
+Duplicate records: 0
+Missing values: 0
+
+MISSING COUNTRY-YEARS:
+None
+
+VALIDATION:
+Expected observation count: PASS
+Complete country-year coverage: PASS
+No duplicate country-years: PASS
+No missing B9 values: PASS
+
+RESULT: PASS
+Raw file: C:\Users\oladi\sources\imf_intelligence\data\raw\eurostat_b9_20261114T085503Z.json
+Processed file: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_eurostat_b9.csv

@@ -1,0 +1,81 @@
+EUROSTAT INTEREST-GROWTH CONTRIBUTION REPORT
+===========================================================================
+
+PERIOD: 2020-2024
+COUNTRIES: 17
+EXPECTED OBSERVATIONS: 85
+RETRIEVED OBSERVATIONS: 85
+
+FORMULA
+IGC = ((r - g) / (1 + g)) * opening debt ratio
+r = interest expenditure / opening debt
+g = nominal GDP growth
+
+DEBT DYNAMICS
+Debt change = IGC - primary balance + implied SFA
+
+COVERAGE
+Missing country-years: 0
+Unexpected country-years: 0
+Unmatched GDP records: 0
+Unmatched primary-balance records: 0
+Missing required values: 0
+
+ECONOMIC VALIDATION
+Invalid opening debt: 0
+Invalid closing debt: 0
+Invalid opening GDP: 0
+Invalid closing GDP: 0
+Negative interest observations: 0
+Invalid growth denominators: 0
+Maximum reconciliation error: 0.000000000000
+
+MISSING COUNTRY-YEARS
+None
+
+VALIDATION RESULTS
+Expected observation count: PASS
+Complete country-year coverage: PASS
+No unexpected country-years: PASS
+No unmatched GDP records: PASS
+No unmatched primary-balance records: PASS
+No missing required values: PASS
+Positive opening debt: PASS
+Positive closing debt: PASS
+Positive opening GDP: PASS
+Positive closing GDP: PASS
+Interest expenditure non-negative: PASS
+Valid GDP growth denominator: PASS
+Debt dynamics identity reconciles: PASS
+
+OVERALL RESULT: PASS
+
+COUNTRY SUMMARY
+country_code     country  cumulative_debt_change_pp  cumulative_interest_growth_pp  cumulative_primary_contribution_pp  cumulative_implied_sfa_pp  mean_nominal_gdp_growth_pct  mean_opening_debt_rate_pct  observations
+          RO     Romania                  19.178605                     -14.630334                           30.000377                   3.808562                    11.066130                    4.276641             5
+          FI     Finland                  17.145735                      -6.208991                           11.293222                  12.061505                     3.010054                    1.244658             5
+          FR      France                  14.477060                     -12.401128                           22.861425                   4.016764                     3.935052                    1.619341             5
+          CZ     Czechia                  13.679880                      -7.115401                           14.107112                   6.688169                     6.592181                    2.853293             5
+          PL      Poland                   9.635680                     -14.540629                           15.361315                   8.814994                     9.769109                    3.577833             5
+          HU     Hungary                   8.462133                     -20.553334                           15.979973                  13.035493                    11.353143                    5.142047             5
+          AT     Austria                   8.011286                     -12.352907                           18.384784                   1.979408                     4.903190                    1.625637             5
+          BE     Belgium                   6.284031                     -17.194918                           17.127601                   6.351349                     5.382566                    1.885039             5
+          ES       Spain                   3.716325                     -15.371005                           16.206344                   2.880986                     5.286528                    2.210240             5
+          DE     Germany                   3.069282                      -9.627996                           10.465336                   2.231942                     4.345803                    1.263491             5
+          IT       Italy                   0.078966                     -10.393470                           18.397565                  -7.925129                     4.396094                    2.727402             5
+          SE      Sweden                  -2.289296                      -6.459953                            2.619127                   1.551531                     5.152994                    1.458460             5
+          NL Netherlands                  -3.603621                     -11.003592                            3.852127                   3.547844                     6.186331                    1.382659             5
+          DK     Denmark                  -8.431589                      -6.792011                          -18.599410                  16.959833                     5.441247                    1.795965             5
+          IE     Ireland                 -17.452443                     -17.912428                           -4.695016                   5.155000                     9.322548                    1.557711             5
+          PT    Portugal                 -23.079830                     -22.334185                           -4.152157                   3.406513                     6.523149                    2.047086             5
+          EL      Greece                 -29.638482                     -29.656277                            5.182656                  -5.164860                     5.426957                    1.693008             5
+
+METHODOLOGICAL NOTES
+1. Interest rate uses opening debt, not average debt.
+2. Nominal GDP growth uses the Eurostat 2019-2024 GDP series.
+3. Primary balance is the Eurostat-derived observed balance.
+4. Implied SFA is an accounting residual, not a causal estimate.
+5. Direct SFA reconciliation is a separate validation step.
+6. Annual contributions are in percentage points of GDP.
+
+OUTPUT FILE: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_interest_growth_contribution.csv
