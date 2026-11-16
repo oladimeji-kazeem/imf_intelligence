@@ -1,0 +1,150 @@
+ISO,scenario,dimension,alternative_risk_metric,alternative_risk_percentile,alternative_risk_class,production_risk_percentile,production_risk_class,class_changed,note
+AUT,long_run_median_growth,long_run_growth_weakness,-2.1315,0.65,moderate_risk,0.75,higher_risk,1.0,Uses median rather than mean growth over 1980-2025.
+BEL,long_run_median_growth,long_run_growth_weakness,-1.8279999999999998,0.75,higher_risk,0.55,moderate_risk,1.0,Uses median rather than mean growth over 1980-2025.
+CHE,long_run_median_growth,long_run_growth_weakness,-1.647,0.95,higher_risk,0.6,moderate_risk,1.0,Uses median rather than mean growth over 1980-2025.
+CZE,long_run_median_growth,long_run_growth_weakness,-2.6715,0.25,lower_risk,0.2,lower_risk,0.0,Uses median rather than mean growth over 1980-2025.
+DEU,long_run_median_growth,long_run_growth_weakness,-1.7015,0.9,higher_risk,0.9,higher_risk,0.0,Uses median rather than mean growth over 1980-2025.
+DNK,long_run_median_growth,long_run_growth_weakness,-1.786,0.85,higher_risk,0.65,moderate_risk,1.0,Uses median rather than mean growth over 1980-2025.
+ESP,long_run_median_growth,long_run_growth_weakness,-2.674,0.2,lower_risk,0.25,lower_risk,0.0,Uses median rather than mean growth over 1980-2025.
+FIN,long_run_median_growth,long_run_growth_weakness,-2.6580000000000004,0.3,lower_risk,0.5,moderate_risk,1.0,Uses median rather than mean growth over 1980-2025.
+FRA,long_run_median_growth,long_run_growth_weakness,-1.8275000000000001,0.8,higher_risk,0.8,higher_risk,0.0,Uses median rather than mean growth over 1980-2025.
+GBR,long_run_median_growth,long_run_growth_weakness,-2.312,0.4,moderate_risk,0.45,moderate_risk,0.0,Uses median rather than mean growth over 1980-2025.
+GRC,long_run_median_growth,long_run_growth_weakness,-2.0035,0.7,higher_risk,1.0,higher_risk,0.0,Uses median rather than mean growth over 1980-2025.
+HUN,long_run_median_growth,long_run_growth_weakness,-2.492,0.35,moderate_risk,0.85,higher_risk,1.0,Uses median rather than mean growth over 1980-2025.
+IRL,long_run_median_growth,long_run_growth_weakness,-4.981999999999999,0.05,lower_risk,0.05,lower_risk,0.0,Uses median rather than mean growth over 1980-2025.
+ITA,long_run_median_growth,long_run_growth_weakness,-1.468,1.0,higher_risk,0.95,higher_risk,0.0,Uses median rather than mean growth over 1980-2025.
+NLD,long_run_median_growth,long_run_growth_weakness,-2.26,0.5,moderate_risk,0.4,moderate_risk,0.0,Uses median rather than mean growth over 1980-2025.
+NOR,long_run_median_growth,long_run_growth_weakness,-2.173,0.6,moderate_risk,0.15,lower_risk,1.0,Uses median rather than mean growth over 1980-2025.
+POL,long_run_median_growth,long_run_growth_weakness,-3.7344999999999997,0.1,lower_risk,0.1,lower_risk,0.0,Uses median rather than mean growth over 1980-2025.
+PRT,long_run_median_growth,long_run_growth_weakness,-2.189,0.55,moderate_risk,0.35,moderate_risk,0.0,Uses median rather than mean growth over 1980-2025.
+ROU,long_run_median_growth,long_run_growth_weakness,-2.8905,0.15,lower_risk,0.7,higher_risk,1.0,Uses median rather than mean growth over 1980-2025.
+SWE,long_run_median_growth,long_run_growth_weakness,-2.3,0.45,moderate_risk,0.3,lower_risk,1.0,Uses median rather than mean growth over 1980-2025.
+AUT,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-1.7765,0.75,higher_risk,0.75,higher_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+BEL,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-1.8701739130434785,0.55,moderate_risk,0.55,moderate_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+CHE,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-1.8669565217391304,0.6,moderate_risk,0.6,moderate_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+CZE,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-2.2760666666666665,0.2,lower_risk,0.2,lower_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+DEU,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-1.543782608695652,0.9,higher_risk,0.9,higher_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+DNK,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-1.860021739130435,0.65,moderate_risk,0.65,moderate_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+ESP,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-2.230391304347826,0.25,lower_risk,0.25,lower_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+FIN,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-1.9261521739130434,0.5,moderate_risk,0.5,moderate_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+FRA,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-1.7549782608695652,0.8,higher_risk,0.8,higher_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+GBR,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-2.009,0.45,moderate_risk,0.45,moderate_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+GRC,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-1.050608695652174,1.0,higher_risk,1.0,higher_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+HUN,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-1.587630434782609,0.85,higher_risk,0.85,higher_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+IRL,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-4.647488888888889,0.05,lower_risk,0.05,lower_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+ITA,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-1.2890217391304346,0.95,higher_risk,0.95,higher_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+NLD,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-2.102222222222222,0.4,moderate_risk,0.4,moderate_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+NOR,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-2.4286521739130436,0.15,lower_risk,0.15,lower_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+POL,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-2.653673913043478,0.1,lower_risk,0.1,lower_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+PRT,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-2.181586956521739,0.35,moderate_risk,0.35,moderate_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+ROU,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-1.8291521739130436,0.7,higher_risk,0.7,higher_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+SWE,long_run_mean_ex_ireland_2015,long_run_growth_weakness,-2.1914565217391306,0.3,lower_risk,0.3,lower_risk,0.0,Recalculates long-run mean after excluding Ireland's 2015 observation.
+AUT,recent_median_growth,recent_growth_weakness,0.659,1.0,higher_risk,0.9,higher_risk,0.0,Uses median rather than mean growth over 2020-2024.
+BEL,recent_median_growth,recent_growth_weakness,-1.561,0.4,moderate_risk,0.5,moderate_risk,0.0,Uses median rather than mean growth over 2020-2024.
+CHE,recent_median_growth,recent_growth_weakness,-1.51,0.45,moderate_risk,0.2,lower_risk,1.0,Uses median rather than mean growth over 2020-2024.
+CZE,recent_median_growth,recent_growth_weakness,-1.313,0.55,moderate_risk,0.85,higher_risk,1.0,Uses median rather than mean growth over 2020-2024.
+DEU,recent_median_growth,recent_growth_weakness,-0.007,0.95,higher_risk,0.95,higher_risk,0.0,Uses median rather than mean growth over 2020-2024.
+DNK,recent_median_growth,recent_growth_weakness,-1.129,0.65,moderate_risk,0.15,lower_risk,1.0,Uses median rather than mean growth over 2020-2024.
+ESP,recent_median_growth,recent_growth_weakness,-3.672,0.1,lower_risk,0.45,moderate_risk,1.0,Uses median rather than mean growth over 2020-2024.
+FIN,recent_median_growth,recent_growth_weakness,-0.576,0.9,higher_risk,1.0,higher_risk,0.0,Uses median rather than mean growth over 2020-2024.
+FRA,recent_median_growth,recent_growth_weakness,-1.819,0.35,moderate_risk,0.75,higher_risk,1.0,Uses median rather than mean growth over 2020-2024.
+GBR,recent_median_growth,recent_growth_weakness,-1.114,0.7,higher_risk,0.8,higher_risk,0.0,Uses median rather than mean growth over 2020-2024.
+GRC,recent_median_growth,recent_growth_weakness,-2.136,0.3,lower_risk,0.35,moderate_risk,1.0,Uses median rather than mean growth over 2020-2024.
+HUN,recent_median_growth,recent_growth_weakness,-0.673,0.85,higher_risk,0.6,moderate_risk,1.0,Uses median rather than mean growth over 2020-2024.
+IRL,recent_median_growth,recent_growth_weakness,-6.983,0.05,lower_risk,0.05,lower_risk,0.0,Uses median rather than mean growth over 2020-2024.
+ITA,recent_median_growth,recent_growth_weakness,-0.923,0.8,higher_risk,0.65,moderate_risk,1.0,Uses median rather than mean growth over 2020-2024.
+NLD,recent_median_growth,recent_growth_weakness,-1.069,0.75,higher_risk,0.55,moderate_risk,1.0,Uses median rather than mean growth over 2020-2024.
+NOR,recent_median_growth,recent_growth_weakness,-1.424,0.5,moderate_risk,0.4,moderate_risk,0.0,Uses median rather than mean growth over 2020-2024.
+POL,recent_median_growth,recent_growth_weakness,-3.21,0.15,lower_risk,0.1,lower_risk,0.0,Uses median rather than mean growth over 2020-2024.
+PRT,recent_median_growth,recent_growth_weakness,-3.1,0.2,lower_risk,0.25,lower_risk,0.0,Uses median rather than mean growth over 2020-2024.
+ROU,recent_median_growth,recent_growth_weakness,-2.258,0.25,lower_risk,0.3,lower_risk,0.0,Uses median rather than mean growth over 2020-2024.
+SWE,recent_median_growth,recent_growth_weakness,-1.255,0.6,moderate_risk,0.7,higher_risk,1.0,Uses median rather than mean growth over 2020-2024.
+AUT,volatility_mad,growth_instability,0.9989999999999999,0.45,moderate_risk,0.45,moderate_risk,0.0,Uses median absolute deviation instead of standard deviation.
+BEL,volatility_mad,growth_instability,0.736,0.1,lower_risk,0.15,lower_risk,0.0,Uses median absolute deviation instead of standard deviation.
+CHE,volatility_mad,growth_instability,0.8050000000000002,0.2,lower_risk,0.1,lower_risk,0.0,Uses median absolute deviation instead of standard deviation.
+CZE,volatility_mad,growth_instability,1.3170000000000002,0.8,higher_risk,0.6,moderate_risk,1.0,Uses median absolute deviation instead of standard deviation.
+DEU,volatility_mad,growth_instability,1.2380000000000002,0.7,higher_risk,0.3,lower_risk,1.0,Uses median absolute deviation instead of standard deviation.
+DNK,volatility_mad,growth_instability,0.952,0.35,moderate_risk,0.2,lower_risk,1.0,Uses median absolute deviation instead of standard deviation.
+ESP,volatility_mad,growth_instability,1.1470000000000002,0.55,moderate_risk,0.85,higher_risk,1.0,Uses median absolute deviation instead of standard deviation.
+FIN,volatility_mad,growth_instability,1.22,0.65,moderate_risk,0.55,moderate_risk,0.0,Uses median absolute deviation instead of standard deviation.
+FRA,volatility_mad,growth_instability,0.821,0.275,lower_risk,0.5,moderate_risk,1.0,Uses median absolute deviation instead of standard deviation.
+GBR,volatility_mad,growth_instability,0.821,0.275,lower_risk,0.8,higher_risk,1.0,Uses median absolute deviation instead of standard deviation.
+GRC,volatility_mad,growth_instability,2.5850000000000004,0.95,higher_risk,0.95,higher_risk,0.0,Uses median absolute deviation instead of standard deviation.
+HUN,volatility_mad,growth_instability,1.4979999999999998,0.85,higher_risk,0.7,higher_risk,0.0,Uses median absolute deviation instead of standard deviation.
+IRL,volatility_mad,growth_instability,3.116,1.0,higher_risk,1.0,higher_risk,0.0,Uses median absolute deviation instead of standard deviation.
+ITA,volatility_mad,growth_instability,0.76,0.15,lower_risk,0.75,higher_risk,1.0,Uses median absolute deviation instead of standard deviation.
+NLD,volatility_mad,growth_instability,0.96,0.4,moderate_risk,0.4,moderate_risk,0.0,Uses median absolute deviation instead of standard deviation.
+NOR,volatility_mad,growth_instability,0.6929999999999998,0.05,lower_risk,0.05,lower_risk,0.0,Uses median absolute deviation instead of standard deviation.
+POL,volatility_mad,growth_instability,1.2919999999999998,0.75,higher_risk,0.25,lower_risk,1.0,Uses median absolute deviation instead of standard deviation.
+PRT,volatility_mad,growth_instability,1.2080000000000002,0.6,moderate_risk,0.65,moderate_risk,0.0,Uses median absolute deviation instead of standard deviation.
+ROU,volatility_mad,growth_instability,1.7749999999999995,0.9,higher_risk,0.9,higher_risk,0.0,Uses median absolute deviation instead of standard deviation.
+SWE,volatility_mad,growth_instability,1.0330000000000004,0.5,moderate_risk,0.35,moderate_risk,0.0,Uses median absolute deviation instead of standard deviation.
+AUT,contraction_frequency_2000_2024,contraction_frequency,0.2,0.7,higher_risk,0.3,lower_risk,1.0,Uses contraction frequency over the common 2000-2024 period.
+BEL,contraction_frequency_2000_2024,contraction_frequency,0.08,0.175,lower_risk,0.15,lower_risk,0.0,Uses contraction frequency over the common 2000-2024 period.
+CHE,contraction_frequency_2000_2024,contraction_frequency,0.12,0.325,lower_risk,0.475,moderate_risk,1.0,Uses contraction frequency over the common 2000-2024 period.
+CZE,contraction_frequency_2000_2024,contraction_frequency,0.16,0.475,moderate_risk,0.85,higher_risk,1.0,Uses contraction frequency over the common 2000-2024 period.
+DEU,contraction_frequency_2000_2024,contraction_frequency,0.2,0.7,higher_risk,0.475,moderate_risk,1.0,Uses contraction frequency over the common 2000-2024 period.
+DNK,contraction_frequency_2000_2024,contraction_frequency,0.16,0.475,moderate_risk,0.475,moderate_risk,0.0,Uses contraction frequency over the common 2000-2024 period.
+ESP,contraction_frequency_2000_2024,contraction_frequency,0.2,0.7,higher_risk,0.475,moderate_risk,1.0,Uses contraction frequency over the common 2000-2024 period.
+FIN,contraction_frequency_2000_2024,contraction_frequency,0.24,0.9,higher_risk,0.8,higher_risk,0.0,Uses contraction frequency over the common 2000-2024 period.
+FRA,contraction_frequency_2000_2024,contraction_frequency,0.08,0.175,lower_risk,0.075,lower_risk,0.0,Uses contraction frequency over the common 2000-2024 period.
+GBR,contraction_frequency_2000_2024,contraction_frequency,0.08,0.175,lower_risk,0.225,lower_risk,0.0,Uses contraction frequency over the common 2000-2024 period.
+GRC,contraction_frequency_2000_2024,contraction_frequency,0.32,1.0,higher_risk,1.0,higher_risk,0.0,Uses contraction frequency over the common 2000-2024 period.
+HUN,contraction_frequency_2000_2024,contraction_frequency,0.16,0.475,moderate_risk,0.9,higher_risk,1.0,Uses contraction frequency over the common 2000-2024 period.
+IRL,contraction_frequency_2000_2024,contraction_frequency,0.16,0.475,moderate_risk,0.225,lower_risk,1.0,Uses contraction frequency over the common 2000-2024 period.
+ITA,contraction_frequency_2000_2024,contraction_frequency,0.24,0.9,higher_risk,0.475,moderate_risk,1.0,Uses contraction frequency over the common 2000-2024 period.
+NLD,contraction_frequency_2000_2024,contraction_frequency,0.2,0.7,higher_risk,0.65,moderate_risk,1.0,Uses contraction frequency over the common 2000-2024 period.
+NOR,contraction_frequency_2000_2024,contraction_frequency,0.08,0.175,lower_risk,0.075,lower_risk,0.0,Uses contraction frequency over the common 2000-2024 period.
+POL,contraction_frequency_2000_2024,contraction_frequency,0.04,0.05,lower_risk,0.475,moderate_risk,1.0,Uses contraction frequency over the common 2000-2024 period.
+PRT,contraction_frequency_2000_2024,contraction_frequency,0.24,0.9,higher_risk,0.725,higher_risk,0.0,Uses contraction frequency over the common 2000-2024 period.
+ROU,contraction_frequency_2000_2024,contraction_frequency,0.12,0.325,lower_risk,0.95,higher_risk,1.0,Uses contraction frequency over the common 2000-2024 period.
+SWE,contraction_frequency_2000_2024,contraction_frequency,0.2,0.7,higher_risk,0.725,higher_risk,0.0,Uses contraction frequency over the common 2000-2024 period.
+AUT,contraction_median_severity,contraction_severity,0.25,0.1,lower_risk,0.325,lower_risk,0.0,Averages peer percentiles of median episode duration and median worst-year depth.
+BEL,contraction_median_severity,contraction_severity,0.4,0.4,moderate_risk,0.175,lower_risk,1.0,Averages peer percentiles of median episode duration and median worst-year depth.
+CHE,contraction_median_severity,contraction_severity,0.325,0.25,lower_risk,0.3125,lower_risk,0.0,Averages peer percentiles of median episode duration and median worst-year depth.
+CZE,contraction_median_severity,contraction_severity,0.8125,0.85,higher_risk,0.6,moderate_risk,1.0,Averages peer percentiles of median episode duration and median worst-year depth.
+DEU,contraction_median_severity,contraction_severity,0.275,0.15,lower_risk,0.275,lower_risk,0.0,Averages peer percentiles of median episode duration and median worst-year depth.
+DNK,contraction_median_severity,contraction_severity,0.225,0.05,lower_risk,0.3375,moderate_risk,1.0,Averages peer percentiles of median episode duration and median worst-year depth.
+ESP,contraction_median_severity,contraction_severity,0.6000000000000001,0.7,higher_risk,0.6375,moderate_risk,1.0,Averages peer percentiles of median episode duration and median worst-year depth.
+FIN,contraction_median_severity,contraction_severity,0.525,0.6,moderate_risk,0.8,higher_risk,1.0,Averages peer percentiles of median episode duration and median worst-year depth.
+FRA,contraction_median_severity,contraction_severity,0.55,0.65,moderate_risk,0.35,moderate_risk,0.0,Averages peer percentiles of median episode duration and median worst-year depth.
+GBR,contraction_median_severity,contraction_severity,0.625,0.75,higher_risk,0.5875,moderate_risk,1.0,Averages peer percentiles of median episode duration and median worst-year depth.
+GRC,contraction_median_severity,contraction_severity,0.6875,0.8,higher_risk,0.875,higher_risk,0.0,Averages peer percentiles of median episode duration and median worst-year depth.
+HUN,contraction_median_severity,contraction_severity,0.35,0.3,lower_risk,0.65,moderate_risk,1.0,Averages peer percentiles of median episode duration and median worst-year depth.
+IRL,contraction_median_severity,contraction_severity,0.47500000000000003,0.5,moderate_risk,0.3875,moderate_risk,0.0,Averages peer percentiles of median episode duration and median worst-year depth.
+ITA,contraction_median_severity,contraction_severity,0.8875,0.9,higher_risk,0.8625,higher_risk,0.0,Averages peer percentiles of median episode duration and median worst-year depth.
+NLD,contraction_median_severity,contraction_severity,0.30000000000000004,0.2,lower_risk,0.4125,moderate_risk,1.0,Averages peer percentiles of median episode duration and median worst-year depth.
+NOR,contraction_median_severity,contraction_severity,0.375,0.35,moderate_risk,0.075,lower_risk,1.0,Averages peer percentiles of median episode duration and median worst-year depth.
+POL,contraction_median_severity,contraction_severity,0.9125,0.95,higher_risk,0.8875,higher_risk,0.0,Averages peer percentiles of median episode duration and median worst-year depth.
+PRT,contraction_median_severity,contraction_severity,0.5,0.55,moderate_risk,0.475,moderate_risk,0.0,Averages peer percentiles of median episode duration and median worst-year depth.
+ROU,contraction_median_severity,contraction_severity,1.0,1.0,higher_risk,1.0,higher_risk,0.0,Averages peer percentiles of median episode duration and median worst-year depth.
+SWE,contraction_median_severity,contraction_severity,0.42500000000000004,0.45,moderate_risk,0.475,moderate_risk,0.0,Averages peer percentiles of median episode duration and median worst-year depth.
+AUT,recovery_minimum_3_assessable_episodes,recovery_weakness,0.0,0.325,lower_risk,0.325,lower_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+BEL,recovery_minimum_3_assessable_episodes,recovery_weakness,0.0,0.325,lower_risk,0.325,lower_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+CHE,recovery_minimum_3_assessable_episodes,recovery_weakness,0.0,0.325,lower_risk,0.325,lower_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+CZE,recovery_minimum_3_assessable_episodes,recovery_weakness,0.0,0.325,lower_risk,0.325,lower_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+DEU,recovery_minimum_3_assessable_episodes,recovery_weakness,0.0,0.325,lower_risk,0.325,lower_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+DNK,recovery_minimum_3_assessable_episodes,recovery_weakness,0.0,0.325,lower_risk,0.325,lower_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+ESP,recovery_minimum_3_assessable_episodes,recovery_weakness,0.2,0.85,higher_risk,0.85,higher_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+FIN,recovery_minimum_3_assessable_episodes,recovery_weakness,0.2,0.85,higher_risk,0.85,higher_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+FRA,recovery_minimum_3_assessable_episodes,recovery_weakness,0.0,0.325,lower_risk,0.325,lower_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+GBR,recovery_minimum_3_assessable_episodes,recovery_weakness,0.0,0.325,lower_risk,0.325,lower_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+GRC,recovery_minimum_3_assessable_episodes,recovery_weakness,0.1666666666666666,0.725,higher_risk,0.725,higher_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+HUN,recovery_minimum_3_assessable_episodes,recovery_weakness,0.1428571428571428,0.65,moderate_risk,0.65,moderate_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+IRL,recovery_minimum_3_assessable_episodes,recovery_weakness,0.0,0.325,lower_risk,0.325,lower_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+ITA,recovery_minimum_3_assessable_episodes,recovery_weakness,0.5,1.0,higher_risk,1.0,higher_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+NLD,recovery_minimum_3_assessable_episodes,recovery_weakness,0.25,0.95,higher_risk,0.95,higher_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+NOR,recovery_minimum_3_assessable_episodes,recovery_weakness,0.0,0.325,lower_risk,0.325,lower_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+POL,recovery_minimum_3_assessable_episodes,recovery_weakness,0.0,0.325,lower_risk,0.325,lower_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+PRT,recovery_minimum_3_assessable_episodes,recovery_weakness,0.1666666666666666,0.725,higher_risk,0.725,higher_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+ROU,recovery_minimum_3_assessable_episodes,recovery_weakness,0.2,0.85,higher_risk,0.85,higher_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+SWE,recovery_minimum_3_assessable_episodes,recovery_weakness,0.0,0.325,lower_risk,0.325,lower_risk,0.0,Reclassifies only countries with at least 3 assessable contraction episodes.
+CHE,recovery_minimum_5_assessable_episodes,recovery_weakness,0.0,0.2222222222222222,lower_risk,0.325,lower_risk,0.0,Reclassifies only countries with at least 5 assessable contraction episodes.
+DEU,recovery_minimum_5_assessable_episodes,recovery_weakness,0.0,0.2222222222222222,lower_risk,0.325,lower_risk,0.0,Reclassifies only countries with at least 5 assessable contraction episodes.
+ESP,recovery_minimum_5_assessable_episodes,recovery_weakness,0.2,0.8888888888888888,higher_risk,0.85,higher_risk,0.0,Reclassifies only countries with at least 5 assessable contraction episodes.
+FIN,recovery_minimum_5_assessable_episodes,recovery_weakness,0.2,0.8888888888888888,higher_risk,0.85,higher_risk,0.0,Reclassifies only countries with at least 5 assessable contraction episodes.
+GRC,recovery_minimum_5_assessable_episodes,recovery_weakness,0.1666666666666666,0.6111111111111112,moderate_risk,0.725,higher_risk,1.0,Reclassifies only countries with at least 5 assessable contraction episodes.
+HUN,recovery_minimum_5_assessable_episodes,recovery_weakness,0.1428571428571428,0.4444444444444444,moderate_risk,0.65,moderate_risk,0.0,Reclassifies only countries with at least 5 assessable contraction episodes.
+PRT,recovery_minimum_5_assessable_episodes,recovery_weakness,0.1666666666666666,0.6111111111111112,moderate_risk,0.725,higher_risk,1.0,Reclassifies only countries with at least 5 assessable contraction episodes.
+ROU,recovery_minimum_5_assessable_episodes,recovery_weakness,0.2,0.8888888888888888,higher_risk,0.85,higher_risk,0.0,Reclassifies only countries with at least 5 assessable contraction episodes.
+SWE,recovery_minimum_5_assessable_episodes,recovery_weakness,0.0,0.2222222222222222,lower_risk,0.325,lower_risk,0.0,Reclassifies only countries with at least 5 assessable contraction episodes.

@@ -1,0 +1,15 @@
+scenario,dimension,countries_available,countries_compared,countries_unchanged,countries_changed,classification_stability_pct,spearman_vs_production_percentile
+production_baseline,long_run_growth_weakness,20,20,20,0,100.0,1.0
+production_baseline,recent_growth_weakness,20,20,20,0,100.0,1.0
+production_baseline,growth_instability,20,20,20,0,100.0,1.0
+production_baseline,contraction_frequency,20,20,20,0,100.0,1.0
+production_baseline,contraction_severity,20,20,20,0,100.0,1.0
+production_baseline,recovery_weakness,20,20,20,0,100.0,1.0
+long_run_median_growth,long_run_growth_weakness,20,20,11,9,55.00000000000001,0.6451127819548872
+long_run_mean_ex_ireland_2015,long_run_growth_weakness,20,20,20,0,100.0,1.0
+recent_median_growth,recent_growth_weakness,20,20,10,10,50.0,0.7353383458646616
+volatility_mad,growth_instability,20,20,12,8,60.0,0.6032343412683571
+contraction_frequency_2000_2024,contraction_frequency,20,20,9,11,45.0,0.5386127748146871
+contraction_median_severity,contraction_severity,20,20,11,9,55.00000000000001,0.773223070852707
+recovery_minimum_3_assessable_episodes,recovery_weakness,20,20,20,0,100.0,1.0
+recovery_minimum_5_assessable_episodes,recovery_weakness,9,9,7,2,77.77777777777779,1.0

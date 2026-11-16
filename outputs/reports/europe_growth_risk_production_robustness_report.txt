@@ -1,0 +1,98 @@
+==============================================================================
+EUROPEAN GROWTH RISK PRODUCTION ROBUSTNESS AUDIT
+==============================================================================
+
+Countries: 20
+Growth observations: 903
+Contraction episodes: 95
+Alternative scenario records: 149
+
+PRODUCTION CLASSIFICATION ROBUSTNESS
+------------------------------------------------------------------------------
+long_run_median_growth: dimension=long_run_growth_weakness; compared=20; changed=9; stability=55.0% ; Spearman=0.6451
+long_run_mean_ex_ireland_2015: dimension=long_run_growth_weakness; compared=20; changed=0; stability=100.0% ; Spearman=1.0000
+recent_median_growth: dimension=recent_growth_weakness; compared=20; changed=10; stability=50.0% ; Spearman=0.7353
+volatility_mad: dimension=growth_instability; compared=20; changed=8; stability=60.0% ; Spearman=0.6032
+contraction_frequency_2000_2024: dimension=contraction_frequency; compared=20; changed=11; stability=45.0% ; Spearman=0.5386
+contraction_median_severity: dimension=contraction_severity; compared=20; changed=9; stability=55.0% ; Spearman=0.7732
+recovery_minimum_3_assessable_episodes: dimension=recovery_weakness; compared=20; changed=0; stability=100.0% ; Spearman=1.0000
+recovery_minimum_5_assessable_episodes: dimension=recovery_weakness; compared=9; changed=2; stability=77.8% ; Spearman=1.0000
+
+COUNTRY CLASSIFICATION CHANGES
+------------------------------------------------------------------------------
+AUT | contraction_frequency_2000_2024 | lower_risk -> higher_risk
+CHE | contraction_frequency_2000_2024 | moderate_risk -> lower_risk
+CZE | contraction_frequency_2000_2024 | higher_risk -> moderate_risk
+DEU | contraction_frequency_2000_2024 | moderate_risk -> higher_risk
+ESP | contraction_frequency_2000_2024 | moderate_risk -> higher_risk
+HUN | contraction_frequency_2000_2024 | higher_risk -> moderate_risk
+IRL | contraction_frequency_2000_2024 | lower_risk -> moderate_risk
+ITA | contraction_frequency_2000_2024 | moderate_risk -> higher_risk
+NLD | contraction_frequency_2000_2024 | moderate_risk -> higher_risk
+POL | contraction_frequency_2000_2024 | moderate_risk -> lower_risk
+ROU | contraction_frequency_2000_2024 | higher_risk -> lower_risk
+BEL | contraction_median_severity | lower_risk -> moderate_risk
+CZE | contraction_median_severity | moderate_risk -> higher_risk
+DNK | contraction_median_severity | moderate_risk -> lower_risk
+ESP | contraction_median_severity | moderate_risk -> higher_risk
+FIN | contraction_median_severity | higher_risk -> moderate_risk
+GBR | contraction_median_severity | moderate_risk -> higher_risk
+HUN | contraction_median_severity | moderate_risk -> lower_risk
+NLD | contraction_median_severity | moderate_risk -> lower_risk
+NOR | contraction_median_severity | lower_risk -> moderate_risk
+CZE | volatility_mad | moderate_risk -> higher_risk
+DEU | volatility_mad | lower_risk -> higher_risk
+DNK | volatility_mad | lower_risk -> moderate_risk
+ESP | volatility_mad | higher_risk -> moderate_risk
+FRA | volatility_mad | moderate_risk -> lower_risk
+GBR | volatility_mad | higher_risk -> lower_risk
+ITA | volatility_mad | higher_risk -> lower_risk
+POL | volatility_mad | lower_risk -> higher_risk
+AUT | long_run_median_growth | higher_risk -> moderate_risk
+BEL | long_run_median_growth | moderate_risk -> higher_risk
+CHE | long_run_median_growth | moderate_risk -> higher_risk
+DNK | long_run_median_growth | moderate_risk -> higher_risk
+FIN | long_run_median_growth | moderate_risk -> lower_risk
+HUN | long_run_median_growth | higher_risk -> moderate_risk
+NOR | long_run_median_growth | lower_risk -> moderate_risk
+ROU | long_run_median_growth | higher_risk -> lower_risk
+SWE | long_run_median_growth | lower_risk -> moderate_risk
+CHE | recent_median_growth | lower_risk -> moderate_risk
+CZE | recent_median_growth | higher_risk -> moderate_risk
+DNK | recent_median_growth | lower_risk -> moderate_risk
+ESP | recent_median_growth | moderate_risk -> lower_risk
+FRA | recent_median_growth | higher_risk -> moderate_risk
+GRC | recent_median_growth | moderate_risk -> lower_risk
+HUN | recent_median_growth | moderate_risk -> higher_risk
+ITA | recent_median_growth | moderate_risk -> higher_risk
+NLD | recent_median_growth | moderate_risk -> higher_risk
+SWE | recent_median_growth | higher_risk -> moderate_risk
+GRC | recovery_minimum_5_assessable_episodes | higher_risk -> moderate_risk
+PRT | recovery_minimum_5_assessable_episodes | higher_risk -> moderate_risk
+
+RECOVERY SAMPLE COVERAGE
+------------------------------------------------------------------------------
+Minimum 3 assessable episodes: 20 of 20 countries eligible
+Minimum 5 assessable episodes: 9 of 20 countries eligible
+
+DIMENSIONS NOT FULLY TESTED
+------------------------------------------------------------------------------
+Recovery tests change minimum sample eligibility but do not establish statistical precision or confidence intervals.
+Contraction frequency common-period comparison changes the time window; it is not a test of an alternative frequency definition.
+No absolute-risk thresholds or out-of-sample predictive tests are included.
+Peer-relative tercile classes remain dependent on the selected country group.
+
+VALIDATION
+------------------------------------------------------------------------------
+Expected 20-country production baseline: PASS
+Eight alternative scenarios generated: PASS
+No duplicate country-scenario records: PASS
+All six production dimensions represented: PASS
+Alternative classes use permitted labels: PASS
+Production classes use permitted labels: PASS
+No negative episode durations: PASS
+Recovery thresholds reduce or preserve eligible coverage: PASS
+Every scenario summary has a valid comparison count: PASS
+Scenario output row count reconciles: PASS
+
+VALIDATION PASSED
