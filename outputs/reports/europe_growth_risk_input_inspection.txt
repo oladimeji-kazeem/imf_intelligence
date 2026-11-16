@@ -1,0 +1,129 @@
+==============================================================================
+EUROPEAN GROWTH RISK INPUT INSPECTION
+==============================================================================
+Input: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_weo_classified.csv
+Rows: 11,440
+Columns: 19
+
+SCHEMA MAPPING
+------------------------------------------------------------------------------
+country: ISO
+indicator: WEO Subject Code
+year: year
+value: value
+status: observation_status
+
+INDICATOR CODE CROSS-CHECK
+------------------------------------------------------------------------------
+indicator: 0 matches
+WEO Subject Code: 1040 matches
+weo_code: 1040 matches
+
+TARGET INDICATOR
+------------------------------------------------------------------------------
+Code: NGDP_RPCH
+Rows: 1,040
+
+INDICATOR METADATA
+------------------------------------------------------------------------------
+indicator: ['real_gdp_growth']
+WEO Subject Code: ['NGDP_RPCH']
+indicator_description: ['GDP growth at constant prices']
+unit: ['Percent']
+scale: ['Units']
+source_vintage: ['October 2026']
+
+OBSERVATION STATUS
+------------------------------------------------------------------------------
+observation_status
+historical_actual    920
+imf_projection       100
+imf_estimate          20
+
+COUNTRY COVERAGE
+------------------------------------------------------------------------------
+Unique countries: 20
+ISO
+AUT    52
+BEL    52
+CHE    52
+CZE    52
+DEU    52
+DNK    52
+ESP    52
+FIN    52
+FRA    52
+GBR    52
+GRC    52
+HUN    52
+IRL    52
+ITA    52
+NLD    52
+NOR    52
+POL    52
+PRT    52
+ROU    52
+SWE    52
+
+YEAR COVERAGE
+------------------------------------------------------------------------------
+Minimum year: 1980
+Maximum year: 2031
+Unique years: 52
+
+HISTORICAL ACTUAL COVERAGE BY COUNTRY
+------------------------------------------------------------------------------
+ISO  observations  first_actual_year  last_actual_year  numeric_values
+AUT            46               1980              2025              46
+BEL            46               1980              2025              46
+CHE            46               1980              2025              46
+CZE            46               1980              2025              30
+DEU            46               1980              2025              46
+DNK            46               1980              2025              46
+ESP            46               1980              2025              46
+FIN            46               1980              2025              46
+FRA            46               1980              2025              46
+GBR            46               1980              2025              46
+GRC            46               1980              2025              46
+HUN            46               1980              2025              46
+IRL            46               1980              2025              46
+ITA            46               1980              2025              46
+NLD            46               1980              2025              45
+NOR            46               1980              2025              46
+POL            46               1980              2025              46
+PRT            46               1980              2025              46
+ROU            46               1980              2025              46
+SWE            46               1980              2025              46
+
+HISTORICAL ACTUAL VALUE QUALITY
+------------------------------------------------------------------------------
+Actual records: 920
+Missing numeric values: 17
+Non-numeric values: 17
+Minimum growth: -12.927
+Maximum growth: 24.649
+
+COUNTRY-YEAR DUPLICATE CHECK
+------------------------------------------------------------------------------
+Key: ['ISO', 'year']
+Duplicate rows: 0
+
+HISTORICAL ACTUAL COMMON WINDOW
+------------------------------------------------------------------------------
+Common start year: 1980
+Common end year: 2025
+Common-window observations: 920
+Countries with observations: 20
+Minimum annual observations per country: 46
+Maximum annual observations per country: 46
+
+2020–2024 HISTORICAL ACTUAL COVERAGE
+------------------------------------------------------------------------------
+Records: 100
+Countries represented: 20
+Countries with all five years: 20
+Countries with incomplete coverage: 0
+
+INSPECTION CONCLUSION
+------------------------------------------------------------------------------
+Preliminary structural checks passed. Economic validation and growth-risk design remain pending.

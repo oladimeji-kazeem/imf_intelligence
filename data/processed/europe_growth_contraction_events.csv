@@ -1,0 +1,142 @@
+ISO,country,contraction_year,contraction_growth_pct,recovery_year,years_to_positive_growth,positive_growth_within_5_years
+AUT,Austria,1981,-0.099,1982,1,True
+AUT,Austria,2009,-3.586,2010,1,True
+AUT,Austria,2013,-0.251,2014,1,True
+AUT,Austria,2020,-6.318,2021,1,True
+AUT,Austria,2023,-0.786,2025,2,True
+AUT,Austria,2024,-0.659,2025,1,True
+BEL,Belgium,1981,-0.279,1982,1,True
+BEL,Belgium,1993,-0.962,1994,1,True
+BEL,Belgium,2009,-1.906,2010,1,True
+BEL,Belgium,2020,-4.793,2021,1,True
+CHE,Switzerland,1982,-1.331,1983,1,True
+CHE,Switzerland,1991,-0.906,1994,3,True
+CHE,Switzerland,1992,-0.137,1994,2,True
+CHE,Switzerland,1993,-0.083,1994,1,True
+CHE,Switzerland,2003,-0.301,2004,1,True
+CHE,Switzerland,2009,-1.957,2010,1,True
+CHE,Switzerland,2020,-2.334,2021,1,True
+CZE,Czech Republic,1997,-0.596,1999,2,True
+CZE,Czech Republic,1998,-0.393,1999,1,True
+CZE,Czech Republic,2009,-4.798,2010,1,True
+CZE,Czech Republic,2012,-0.771,2014,2,True
+CZE,Czech Republic,2013,-0.042,2014,1,True
+CZE,Czech Republic,2020,-5.305,2021,1,True
+DEU,Germany,1982,-0.788,1983,1,True
+DEU,Germany,1993,-0.984,1994,1,True
+DEU,Germany,2002,-0.227,2004,2,True
+DEU,Germany,2003,-0.536,2004,1,True
+DEU,Germany,2009,-5.546,2010,1,True
+DEU,Germany,2020,-4.033,2021,1,True
+DEU,Germany,2023,-1.017,2024,1,True
+DNK,Denmark,1980,-0.744,1982,2,True
+DNK,Denmark,1981,-0.741,1982,1,True
+DNK,Denmark,1993,-0.08,1994,1,True
+DNK,Denmark,2008,-0.417,2010,2,True
+DNK,Denmark,2009,-4.978,2010,1,True
+DNK,Denmark,2012,-0.005,2013,1,True
+DNK,Denmark,2020,-1.781,2021,1,True
+ESP,Spain,1981,-0.408,1982,1,True
+ESP,Spain,1993,-1.314,1994,1,True
+ESP,Spain,2009,-3.768,2010,1,True
+ESP,Spain,2011,-0.64,2014,3,True
+ESP,Spain,2012,-2.865,2014,2,True
+ESP,Spain,2013,-1.427,2014,1,True
+ESP,Spain,2020,-10.94,2021,1,True
+FIN,Finland,1991,-5.88,1994,3,True
+FIN,Finland,1992,-3.312,1994,2,True
+FIN,Finland,1993,-0.781,1994,1,True
+FIN,Finland,2009,-8.076,2010,1,True
+FIN,Finland,2012,-1.523,2015,3,True
+FIN,Finland,2013,-0.98,2015,2,True
+FIN,Finland,2014,-0.478,2015,1,True
+FIN,Finland,2020,-2.491,2021,1,True
+FIN,Finland,2023,-1.218,2024,1,True
+FRA,France,1993,-0.425,1994,1,True
+FRA,France,2009,-2.725,2010,1,True
+FRA,France,2020,-7.607,2021,1,True
+GBR,United Kingdom,1980,-2.057,1982,2,True
+GBR,United Kingdom,1981,-0.558,1982,1,True
+GBR,United Kingdom,1991,-1.419,1992,1,True
+GBR,United Kingdom,2009,-4.517,2010,1,True
+GBR,United Kingdom,2020,-10.046,2021,1,True
+GRC,Greece,1981,-1.556,1984,3,True
+GRC,Greece,1982,-1.13,1984,2,True
+GRC,Greece,1983,-1.078,1984,1,True
+GRC,Greece,1987,-2.257,1988,1,True
+GRC,Greece,1993,-1.599,1994,1,True
+GRC,Greece,2009,-4.119,2014,5,True
+GRC,Greece,2010,-5.694,2014,4,True
+GRC,Greece,2011,-9.877,2014,3,True
+GRC,Greece,2012,-8.331,2014,2,True
+GRC,Greece,2013,-2.272,2014,1,True
+GRC,Greece,2015,-0.228,2017,2,True
+GRC,Greece,2016,-0.032,2017,1,True
+GRC,Greece,2020,-9.196,2021,1,True
+HUN,Hungary,1985,-0.253,1986,1,True
+HUN,Hungary,1988,-0.065,1989,1,True
+HUN,Hungary,1990,-3.497,1994,4,True
+HUN,Hungary,1991,-11.892,1994,3,True
+HUN,Hungary,1992,-3.064,1994,2,True
+HUN,Hungary,1993,-0.576,1994,1,True
+HUN,Hungary,2009,-6.754,2010,1,True
+HUN,Hungary,2012,-1.346,2013,1,True
+HUN,Hungary,2020,-4.355,2021,1,True
+HUN,Hungary,2023,-0.794,2024,1,True
+IRL,Ireland,1983,-0.729,1984,1,True
+IRL,Ireland,2008,-4.484,2010,2,True
+IRL,Ireland,2009,-5.094,2010,1,True
+IRL,Ireland,2012,-0.4,2013,1,True
+IRL,Ireland,2023,-3.305,2024,1,True
+ITA,Italy,1993,-0.853,1994,1,True
+ITA,Italy,2008,-1.023,2010,2,True
+ITA,Italy,2009,-5.305,2010,1,True
+ITA,Italy,2012,-3.125,2015,3,True
+ITA,Italy,2013,-1.818,2015,2,True
+ITA,Italy,2014,-0.001,2015,1,True
+ITA,Italy,2020,-8.868,2021,1,True
+NLD,"Netherlands, The",1981,-0.514,1983,2,True
+NLD,"Netherlands, The",1982,-1.283,1983,1,True
+NLD,"Netherlands, The",2009,-3.67,2010,1,True
+NLD,"Netherlands, The",2012,-0.977,2014,2,True
+NLD,"Netherlands, The",2013,-0.032,2014,1,True
+NLD,"Netherlands, The",2020,-3.877,2021,1,True
+NLD,"Netherlands, The",2023,-0.601,2024,1,True
+NOR,Norway,1988,-0.33,1989,1,True
+NOR,Norway,2009,-1.613,2010,1,True
+NOR,Norway,2020,-1.361,2021,1,True
+POL,"Poland, Republic of",1980,-6.0,1983,3,True
+POL,"Poland, Republic of",1981,-10.0,1983,2,True
+POL,"Poland, Republic of",1982,-4.846,1983,1,True
+POL,"Poland, Republic of",1984,-0.366,1985,1,True
+POL,"Poland, Republic of",1990,-7.171,1992,2,True
+POL,"Poland, Republic of",1991,-7.005,1992,1,True
+POL,"Poland, Republic of",2020,-2.123,2021,1,True
+PRT,Portugal,1984,-1.042,1985,1,True
+PRT,Portugal,1993,-0.687,1994,1,True
+PRT,Portugal,2003,-0.931,2004,1,True
+PRT,Portugal,2009,-3.122,2010,1,True
+PRT,Portugal,2011,-1.714,2014,3,True
+PRT,Portugal,2012,-4.051,2014,2,True
+PRT,Portugal,2013,-0.984,2014,1,True
+PRT,Portugal,2020,-8.205,2021,1,True
+ROU,Romania,1985,-0.1,1986,1,True
+ROU,Romania,1988,-0.5,1993,5,True
+ROU,Romania,1989,-5.8,1993,4,True
+ROU,Romania,1990,-5.612,1993,3,True
+ROU,Romania,1991,-12.927,1993,2,True
+ROU,Romania,1992,-8.766,1993,1,True
+ROU,Romania,1997,-6.053,2000,3,True
+ROU,Romania,1998,-4.818,2000,2,True
+ROU,Romania,1999,-1.15,2000,1,True
+ROU,Romania,2009,-5.517,2011,2,True
+ROU,Romania,2010,-3.906,2011,1,True
+ROU,Romania,2020,-3.598,2021,1,True
+SWE,Sweden,1991,-1.128,1994,3,True
+SWE,Sweden,1992,-1.06,1994,2,True
+SWE,Sweden,1993,-1.827,1994,1,True
+SWE,Sweden,2008,-0.923,2010,2,True
+SWE,Sweden,2009,-4.256,2010,1,True
+SWE,Sweden,2012,-0.414,2013,1,True
+SWE,Sweden,2020,-1.934,2021,1,True
+SWE,Sweden,2023,-0.204,2024,1,True

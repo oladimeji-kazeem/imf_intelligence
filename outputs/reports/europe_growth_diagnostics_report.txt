@@ -1,0 +1,185 @@
+==============================================================================
+EUROPEAN GROWTH RISK DIAGNOSTICS REPORT
+==============================================================================
+Countries: 20
+Historical period: 1980-2025
+Country-period diagnostics: 80
+Rolling five-year windows: 823
+Contraction events: 141
+
+PERIOD DIAGNOSTIC COVERAGE
+------------------------------------------------------------------------------
+                                  countries  numeric_observations  missing_observations
+period                                                                                 
+long_run_1980_2025                       20                   903                    17
+pandemic_post_pandemic_2020_2024         20                   100                     0
+pre_pandemic_2000_2019                   20                   400                     0
+recent_pre_pandemic_2015_2019            20                   100                     0
+
+PERIOD: long_run_1980_2025
+------------------------------------------------------------------------------
+ISO  mean_growth_pct  median_growth_pct  growth_std_pct  contraction_frequency_pct  worst_contraction_pct
+GRC            1.051              2.003           3.868                     28.261                 -9.877
+ITA            1.289              1.468           2.654                     15.217                 -8.868
+DEU            1.544              1.702           2.064                     15.217                 -5.546
+HUN            1.588              2.492           3.436                     21.739                -11.892
+FRA            1.755              1.828           2.029                      6.522                 -7.607
+AUT            1.777              2.132           2.007                     13.043                 -6.318
+ROU            1.829              2.890           4.939                     26.087                -12.927
+DNK            1.860              1.786           2.013                     15.217                 -4.978
+CHE            1.867              1.647           1.776                     15.217                 -2.334
+BEL            1.870              1.828           1.825                      8.696                 -4.793
+FIN            1.926              2.658           2.980                     19.565                 -8.076
+GBR            2.009              2.312           2.786                     10.870                -10.046
+NLD            2.102              2.260           2.121                     15.556                 -3.877
+PRT            2.182              2.189           3.041                     17.391                 -8.205
+SWE            2.191              2.300           2.139                     17.391                 -4.256
+ESP            2.230              2.674           2.988                     15.217                -10.940
+CZE            2.276              2.672           2.805                     20.000                 -5.305
+NOR            2.429              2.173           1.745                      6.522                 -1.613
+POL            2.654              3.734           3.976                     15.217                -10.000
+IRL            5.082              4.982           5.161                     10.870                 -5.094
+
+PERIOD: pre_pandemic_2000_2019
+------------------------------------------------------------------------------
+ISO  mean_growth_pct  median_growth_pct  growth_std_pct  contraction_frequency_pct  worst_contraction_pct
+ITA            0.383              0.794           1.989                       25.0                 -5.305
+GRC            0.595              1.328           4.618                       35.0                 -9.877
+PRT            0.892              1.608           2.104                       25.0                 -4.051
+DNK            1.374              1.489           1.900                       15.0                 -4.978
+DEU            1.415              1.439           2.110                       15.0                 -5.546
+FRA            1.497              1.710           1.405                        5.0                 -2.725
+FIN            1.619              2.200           2.980                       20.0                 -8.076
+NLD            1.620              2.075           1.800                       15.0                 -3.670
+AUT            1.636              1.782           1.576                       10.0                 -3.586
+BEL            1.681              1.736           1.340                        5.0                 -1.906
+ESP            1.841              2.826           2.419                       20.0                 -3.768
+NOR            1.905              1.757           1.281                        5.0                 -1.613
+GBR            1.932              2.214           1.794                        5.0                 -4.517
+CHE            1.955              1.888           1.502                       10.0                 -1.957
+SWE            2.228              2.287           2.252                       15.0                 -4.256
+HUN            2.693              3.956           2.879                       10.0                 -6.754
+CZE            2.890              2.874           2.641                       15.0                 -4.798
+POL            3.836              4.080           1.738                        0.0                  0.724
+ROU            4.039              4.306           3.960                       10.0                 -5.517
+IRL            4.996              5.146           6.208                       15.0                 -5.094
+
+PERIOD: recent_pre_pandemic_2015_2019
+------------------------------------------------------------------------------
+ISO  mean_growth_pct  median_growth_pct  growth_std_pct  contraction_frequency_pct  worst_contraction_pct
+ITA            0.996              0.886           0.444                        0.0                  0.429
+GRC            1.111              1.473           1.173                       40.0                 -0.228
+FRA            1.538              1.584           0.668                        0.0                  0.737
+BEL            1.693              1.475           0.485                        0.0                  1.193
+NOR            1.717              1.470           0.637                        0.0                  1.110
+FIN            1.777              1.350           1.140                        0.0                  0.467
+CHE            1.847              1.466           0.880                        0.0                  1.121
+DEU            1.857              1.770           0.749                        0.0                  1.084
+AUT            1.986              2.117           0.466                        0.0                  1.303
+GBR            2.147              2.175           0.742                        0.0                  1.390
+DNK            2.361              2.101           0.658                        0.0                  1.713
+NLD            2.378              2.300           0.251                        0.0                  2.121
+PRT            2.520              2.746           0.706                        0.0                  1.590
+SWE            2.556              2.131           1.074                        0.0                  1.770
+ESP            2.846              2.896           0.786                        0.0                  1.961
+CZE            3.822              3.566           1.195                        0.0                  2.581
+HUN            4.176              4.121           1.236                        0.0                  2.443
+POL            4.692              4.598           1.164                        0.0                  3.045
+ROU            4.713              3.960           2.180                        0.0                  2.860
+IRL            9.728              7.685           8.970                        0.0                  1.222
+
+PERIOD: pandemic_post_pandemic_2020_2024
+------------------------------------------------------------------------------
+ISO  mean_growth_pct  median_growth_pct  growth_std_pct  contraction_frequency_pct  worst_contraction_pct
+FIN            0.107              0.576           2.007                       40.0                 -2.491
+DEU            0.157              0.007           3.014                       40.0                 -4.033
+AUT            0.498             -0.659           4.806                       60.0                 -6.318
+CZE            0.586              1.313           3.622                       20.0                 -5.305
+GBR            1.010              1.114           6.983                       20.0                -10.046
+FRA            1.046              1.819           5.284                       20.0                 -7.607
+SWE            1.267              1.255           2.674                       40.0                 -1.934
+ITA            1.318              0.923           6.604                       20.0                 -8.868
+HUN            1.381              0.673           4.471                       40.0                 -4.355
+NLD            1.575              1.069           4.142                       40.0                 -3.877
+BEL            1.629              1.561           4.143                       20.0                 -4.793
+ESP            1.629              3.672           7.258                       20.0                -10.940
+NOR            1.728              1.424           2.392                       20.0                 -1.361
+GRC            1.841              2.136           6.744                       20.0                 -9.196
+ROU            1.870              2.258           3.541                       20.0                 -3.598
+PRT            1.931              3.100           5.977                       20.0                 -8.205
+CHE            1.993              1.510           3.150                       20.0                 -2.334
+DNK            2.030              1.129           3.208                       20.0                 -1.781
+POL            2.723              3.210           3.687                       20.0                 -2.123
+IRL            6.403              6.983           7.219                       20.0                 -3.305
+
+ROLLING FIVE-YEAR GROWTH REGIME OBSERVATIONS
+------------------------------------------------------------------------------
+Latest available rolling window by country:
+ISO  window_start  window_end  rolling_mean_growth_pct  rolling_volatility_pct  rolling_contraction_count
+FIN          2021        2025                    0.774                   1.385                          1
+DEU          2021        2025                    1.009                   1.947                          1
+AUT          2021        2025                    1.932                   2.991                          2
+SWE          2021        2025                    1.933                   2.010                          1
+CZE          2021        2025                    2.173                   1.530                          0
+NOR          2021        2025                    2.212                   1.777                          0
+HUN          2021        2025                    2.351                   3.284                          1
+NLD          2021        2025                    2.663                   2.871                          1
+ROU          2021        2025                    2.725                   2.122                          0
+FRA          2021        2025                    2.745                   2.367                          0
+CHE          2021        2025                    2.783                   2.120                          0
+BEL          2021        2025                    2.784                   2.300                          0
+DNK          2021        2025                    3.077                   2.408                          0
+ITA          2021        2025                    3.200                   3.660                          0
+GBR          2021        2025                    3.262                   3.445                          0
+POL          2021        2025                    3.879                   2.504                          0
+PRT          2021        2025                    3.944                   2.231                          0
+GRC          2021        2025                    4.094                   2.949                          0
+ESP          2021        2025                    4.335                   2.064                          0
+IRL          2021        2025                    6.600                   7.253                          1
+
+CONTRACTION AND RECOVERY ANALYSIS
+------------------------------------------------------------------------------
+ISO  contraction_events  recovered_within_5y  average_recovery_lag
+AUT                   6                    6                 1.167
+BEL                   4                    4                 1.000
+CHE                   7                    7                 1.429
+CZE                   6                    6                 1.333
+DEU                   7                    7                 1.143
+DNK                   7                    7                 1.286
+ESP                   7                    7                 1.429
+FIN                   9                    9                 1.667
+FRA                   3                    3                 1.000
+GBR                   5                    5                 1.200
+GRC                  13                   13                 2.077
+HUN                  10                   10                 1.600
+IRL                   5                    5                 1.200
+ITA                   7                    7                 1.571
+NLD                   7                    7                 1.286
+NOR                   3                    3                 1.000
+POL                   7                    7                 1.571
+PRT                   8                    8                 1.375
+ROU                  12                   12                 2.167
+SWE                   8                    8                 1.500
+
+SPECIAL OBSERVATION CHECKS
+------------------------------------------------------------------------------
+Ireland 2015 real GDP growth: 24.649%
+Romania 1991 real GDP growth: -12.927%
+
+METHODOLOGICAL LIMITATIONS
+------------------------------------------------------------------------------
+Mean and median growth are descriptive historical measures, not forecasts.
+Standard deviation measures dispersion and is sensitive to extreme observations.
+Median absolute deviation and interquartile range provide robust dispersion measures.
+Contraction frequency is based on negative annual real GDP growth, not recession dating.
+Recovery means the first subsequent positive annual growth observation within five calendar years. It does not mean real GDP has regained its pre-contraction level.
+Rolling five-year statistics require five consecutive numeric annual observations.
+Ireland's exceptional 2015 growth is retained. It should not be interpreted as ordinary domestic economic growth.
+No arbitrary risk thresholds, composite scores, causal claims or forecasts are generated.
+
+VALIDATION
+------------------------------------------------------------------------------
+Country-period row count: PASS
+Country-period uniqueness: PASS
+Rolling window uniqueness: PASS
+Contraction event uniqueness: PASS

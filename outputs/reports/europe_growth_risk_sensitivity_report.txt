@@ -1,0 +1,68 @@
+EUROPEAN GROWTH RISK SENSITIVITY AUDIT
+======================================================================
+
+PURPOSE
+----------------------------------------------------------------------
+Tests sensitivity of peer-relative growth risk rankings
+to alternative measurement choices.
+This audit does not overwrite production classifications.
+
+SCENARIOS
+----------------------------------------------------------------------
+Long-run mean versus median growth.
+Long-run mean excluding Ireland's 2015 observation.
+Standard deviation versus median absolute deviation.
+Mean versus median contraction duration.
+Mean versus median contraction depth.
+
+SCENARIO COMPARISONS
+----------------------------------------------------------------------
+contraction_mean_depth vs contraction_mean_duration: Spearman=0.5514; class changes=11/20
+contraction_mean_depth vs contraction_median_depth: Spearman=0.8045; class changes=10/20
+contraction_mean_depth vs contraction_median_duration: Spearman=0.6236; class changes=10/20
+contraction_mean_depth vs long_run_mean_baseline: Spearman=0.1820; class changes=14/20
+contraction_mean_depth vs long_run_mean_ex_ireland_2015: Spearman=0.1820; class changes=14/20
+contraction_mean_depth vs long_run_median: Spearman=-0.4180; class changes=15/20
+contraction_mean_depth vs volatility_median_absolute_deviation: Spearman=0.4445; class changes=12/20
+contraction_mean_depth vs volatility_standard_deviation: Spearman=0.7098; class changes=7/20
+contraction_mean_duration vs contraction_median_depth: Spearman=0.4289; class changes=13/20
+contraction_mean_duration vs contraction_median_duration: Spearman=0.6845; class changes=9/20
+contraction_mean_duration vs long_run_mean_baseline: Spearman=0.1142; class changes=11/20
+contraction_mean_duration vs long_run_mean_ex_ireland_2015: Spearman=0.1142; class changes=11/20
+contraction_mean_duration vs long_run_median: Spearman=-0.3291; class changes=14/20
+contraction_mean_duration vs volatility_median_absolute_deviation: Spearman=0.5097; class changes=8/20
+contraction_mean_duration vs volatility_standard_deviation: Spearman=0.3926; class changes=12/20
+contraction_median_depth vs contraction_median_duration: Spearman=0.6047; class changes=10/20
+contraction_median_depth vs long_run_mean_baseline: Spearman=-0.2241; class changes=14/20
+contraction_median_depth vs long_run_mean_ex_ireland_2015: Spearman=-0.2241; class changes=14/20
+contraction_median_depth vs long_run_median: Spearman=-0.4932; class changes=15/20
+contraction_median_depth vs volatility_median_absolute_deviation: Spearman=0.2068; class changes=13/20
+contraction_median_depth vs volatility_standard_deviation: Spearman=0.5308; class changes=10/20
+contraction_median_duration vs long_run_mean_baseline: Spearman=0.1402; class changes=10/20
+contraction_median_duration vs long_run_mean_ex_ireland_2015: Spearman=0.1402; class changes=10/20
+contraction_median_duration vs long_run_median: Spearman=-0.1979; class changes=11/20
+contraction_median_duration vs volatility_median_absolute_deviation: Spearman=0.3871; class changes=9/20
+contraction_median_duration vs volatility_standard_deviation: Spearman=0.3491; class changes=11/20
+long_run_mean_baseline vs long_run_mean_ex_ireland_2015: Spearman=1.0000; class changes=0/20
+long_run_mean_baseline vs long_run_median: Spearman=0.6451; class changes=9/20
+long_run_mean_baseline vs volatility_median_absolute_deviation: Spearman=-0.0474; class changes=11/20
+long_run_mean_baseline vs volatility_standard_deviation: Spearman=0.1188; class changes=11/20
+long_run_mean_ex_ireland_2015 vs long_run_median: Spearman=0.6451; class changes=9/20
+long_run_mean_ex_ireland_2015 vs volatility_median_absolute_deviation: Spearman=-0.0474; class changes=11/20
+long_run_mean_ex_ireland_2015 vs volatility_standard_deviation: Spearman=0.1188; class changes=11/20
+long_run_median vs volatility_median_absolute_deviation: Spearman=-0.6228; class changes=14/20
+long_run_median vs volatility_standard_deviation: Spearman=-0.4526; class changes=13/20
+volatility_median_absolute_deviation vs volatility_standard_deviation: Spearman=0.6032; class changes=8/20
+
+INTERPRETATION
+----------------------------------------------------------------------
+High rank correlation indicates similar country ordering.
+Class changes indicate sensitivity around tercile boundaries.
+A robust measure can reduce outlier influence but may hide
+genuine extreme economic events.
+Ireland 2015 is excluded only in its designated sensitivity
+scenario; the original observation remains in the source data.
+
+OUTPUT
+----------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_growth_risk_sensitivity.csv

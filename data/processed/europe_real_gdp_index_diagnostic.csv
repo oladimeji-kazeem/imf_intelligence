@@ -1,0 +1,921 @@
+ISO,country,year,growth_pct,growth_raw_pct,unit,scale,source,source_vintage,observation_status,is_missing_growth,is_contraction,real_gdp_index,chain_id
+AUT,Austria,1980,2.314,2.314,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+AUT,Austria,1981,-0.099,-0.099,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,99.901,1.0
+AUT,Austria,1982,1.908,1.908,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,101.80711108,1.0
+AUT,Austria,1983,2.804,2.804,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,104.6617824746832,1.0
+AUT,Austria,1984,0.332,0.332,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,105.00925959249915,1.0
+AUT,Austria,1985,2.243,2.243,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,107.3646172851589,1.0
+AUT,Austria,1986,2.341,2.341,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,109.87802297580446,1.0
+AUT,Austria,1987,1.681,1.681,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,111.72507254202773,1.0
+AUT,Austria,1988,0.961,0.961,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,112.7987504891566,1.0
+AUT,Austria,1989,3.887,3.887,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,117.18323792067011,1.0
+AUT,Austria,1990,4.346,4.346,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,122.27602144070244,1.0
+AUT,Austria,1991,3.442,3.442,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,126.4847620986914,1.0
+AUT,Austria,1992,2.094,2.094,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,129.133353017038,1.0
+AUT,Austria,1993,0.527,0.527,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,129.81388578743778,1.0
+AUT,Austria,1994,2.402,2.402,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,132.93201532405203,1.0
+AUT,Austria,1995,2.668,2.668,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,136.47864149289774,1.0
+AUT,Austria,1996,2.398,2.398,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,139.7513993158974,1.0
+AUT,Austria,1997,2.146,2.146,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,142.75046434521656,1.0
+AUT,Austria,1998,3.493,3.493,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,147.73673806479496,1.0
+AUT,Austria,1999,3.762,3.762,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,153.29459415079253,1.0
+AUT,Austria,2000,3.19,3.19,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,158.18469170420283,1.0
+AUT,Austria,2001,1.317,1.317,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,160.26798409394718,1.0
+AUT,Austria,2002,1.484,1.484,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,162.64636097790134,1.0
+AUT,Austria,2003,1.142,1.142,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,164.50378242026898,1.0
+AUT,Austria,2004,2.565,2.565,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,168.72330443934888,1.0
+AUT,Austria,2005,2.32,2.32,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,172.6376851023418,1.0
+AUT,Austria,2006,3.269,3.269,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,178.28121102833737,1.0
+AUT,Austria,2007,3.775,3.775,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,185.01132674465708,1.0
+AUT,Austria,2008,1.453,1.453,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,187.69954132225695,1.0
+AUT,Austria,2009,-3.586,-3.586,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,180.9686357704408,1.0
+AUT,Austria,2010,1.809,1.809,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,184.2423583915281,1.0
+AUT,Austria,2011,2.927,2.927,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,189.6351322216481,1.0
+AUT,Austria,2012,0.628,0.628,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,190.82604085200006,1.0
+AUT,Austria,2013,-0.251,-0.251,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,190.34706748946155,1.0
+AUT,Austria,2014,0.756,0.756,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,191.78609131968187,1.0
+AUT,Austria,2015,1.303,1.303,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,194.28506408957733,1.0
+AUT,Austria,2016,2.117,2.117,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,198.39807889635367,1.0
+AUT,Austria,2017,2.272,2.272,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,202.90568324887883,1.0
+AUT,Austria,2018,2.484,2.484,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,207.94586042078097,1.0
+AUT,Austria,2019,1.755,1.755,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,211.59531027116566,1.0
+AUT,Austria,2020,-6.318,-6.318,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,198.22671856823342,1.0
+AUT,Austria,2021,4.923,4.923,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,207.98541992334756,1.0
+AUT,Austria,2022,5.331,5.331,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,219.0731226594612,1.0
+AUT,Austria,2023,-0.786,-0.786,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,217.35120791535783,1.0
+AUT,Austria,2024,-0.659,-0.659,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,215.91886345519563,1.0
+AUT,Austria,2025,0.849,0.849,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,217.75201460593027,1.0
+BEL,Belgium,1980,4.444,4.444,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+BEL,Belgium,1981,-0.279,-0.279,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,99.721,1.0
+BEL,Belgium,1982,0.595,0.595,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.31433994999999,1.0
+BEL,Belgium,1983,0.312,0.312,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.627320690644,1.0
+BEL,Belgium,1984,2.466,2.466,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,103.10879041887527,1.0
+BEL,Belgium,1985,1.652,1.652,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,104.8121476365951,1.0
+BEL,Belgium,1986,1.823,1.823,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,106.72287308801023,1.0
+BEL,Belgium,1987,2.307,2.307,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,109.18496977015062,1.0
+BEL,Belgium,1988,4.723,4.723,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,114.34177589239484,1.0
+BEL,Belgium,1989,3.469,3.469,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,118.308292098102,1.0
+BEL,Belgium,1990,3.137,3.137,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,122.01962322121945,1.0
+BEL,Belgium,1991,1.833,1.833,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,124.2562429148644,1.0
+BEL,Belgium,1992,1.531,1.531,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,126.15860599389097,1.0
+BEL,Belgium,1993,-0.962,-0.962,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,124.94496020422974,1.0
+BEL,Belgium,1994,3.227,3.227,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,128.97693407002023,1.0
+BEL,Belgium,1995,2.385,2.385,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,132.0530339475902,1.0
+BEL,Belgium,1996,1.321,1.321,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,133.79745452603785,1.0
+BEL,Belgium,1997,3.793,3.793,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,138.87239197621048,1.0
+BEL,Belgium,1998,1.962,1.962,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,141.5970683067837,1.0
+BEL,Belgium,1999,3.543,3.543,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,146.61385243689307,1.0
+BEL,Belgium,2000,3.717,3.717,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,152.06348933197236,1.0
+BEL,Belgium,2001,1.1,1.1,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,153.73618771462404,1.0
+BEL,Belgium,2002,1.707,1.707,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,156.36046443891266,1.0
+BEL,Belgium,2003,1.038,1.038,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,157.9834860597886,1.0
+BEL,Belgium,2004,3.571,3.571,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,163.62507634698363,1.0
+BEL,Belgium,2005,2.322,2.322,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,167.4244506197606,1.0
+BEL,Belgium,2006,2.553,2.553,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,171.6987968440831,1.0
+BEL,Belgium,2007,3.677,3.677,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,178.01216160404002,1.0
+BEL,Belgium,2008,0.447,0.447,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,178.80787596641008,1.0
+BEL,Belgium,2009,-1.906,-1.906,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,175.3997978504903,1.0
+BEL,Belgium,2010,2.71,2.71,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,180.15313237223856,1.0
+BEL,Belgium,2011,1.931,1.931,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,183.63188935834648,1.0
+BEL,Belgium,2012,0.216,0.216,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,184.0285342393605,1.0
+BEL,Belgium,2013,0.306,0.306,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,184.59166155413297,1.0
+BEL,Belgium,2014,1.766,1.766,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,187.85155029717896,1.0
+BEL,Belgium,2015,1.474,1.474,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,190.62048214855938,1.0
+BEL,Belgium,2016,1.193,1.193,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,192.8945845005917,1.0
+BEL,Belgium,2017,1.475,1.475,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,195.73977962197543,1.0
+BEL,Belgium,2018,1.878,1.878,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,199.41577268327615,1.0
+BEL,Belgium,2019,2.443,2.443,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,204.28750000992858,1.0
+BEL,Belgium,2020,-4.793,-4.793,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,194.4960001344527,1.0
+BEL,Belgium,2021,6.254,6.254,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,206.65977998286135,1.0
+BEL,Belgium,2022,4.025,4.025,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,214.97783612717149,1.0
+BEL,Belgium,2023,1.561,1.561,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,218.3336401491166,1.0
+BEL,Belgium,2024,1.098,1.098,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,220.7309435179539,1.0
+BEL,Belgium,2025,0.983,0.983,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,222.90072869273538,1.0
+CHE,Switzerland,1980,5.11,5.11,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+CHE,Switzerland,1981,1.661,1.661,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,101.661,1.0
+CHE,Switzerland,1982,-1.331,-1.331,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,100.30789209,1.0
+CHE,Switzerland,1983,0.633,0.633,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.94284104692969,1.0
+CHE,Switzerland,1984,2.987,2.987,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,103.95800370900149,1.0
+CHE,Switzerland,1985,3.757,3.757,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,107.86370590834869,1.0
+CHE,Switzerland,1986,1.837,1.837,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,109.84516218588506,1.0
+CHE,Switzerland,1987,1.575,1.575,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,111.57522349031274,1.0
+CHE,Switzerland,1988,3.187,3.187,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,115.131125862949,1.0
+CHE,Switzerland,1989,4.426,4.426,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,120.22682949364312,1.0
+CHE,Switzerland,1990,3.691,3.691,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,124.66440177025349,1.0
+CHE,Switzerland,1991,-0.906,-0.906,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,123.534942290215,1.0
+CHE,Switzerland,1992,-0.137,-0.137,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,123.3656994192774,1.0
+CHE,Switzerland,1993,-0.083,-0.083,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,123.2633058887594,1.0
+CHE,Switzerland,1994,1.264,1.264,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,124.82135407519333,1.0
+CHE,Switzerland,1995,0.514,0.514,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,125.46293583513982,1.0
+CHE,Switzerland,1996,0.567,0.567,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,126.17431068132507,1.0
+CHE,Switzerland,1997,2.096,2.096,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,128.81892423320565,1.0
+CHE,Switzerland,1998,2.727,2.727,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,132.33181629704515,1.0
+CHE,Switzerland,1999,1.633,1.633,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,134.49279485717588,1.0
+CHE,Switzerland,2000,3.723,3.723,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,139.49996160970855,1.0
+CHE,Switzerland,2001,1.613,1.613,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,141.75009599047314,1.0
+CHE,Switzerland,2002,0.389,0.389,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,142.30150386387606,1.0
+CHE,Switzerland,2003,-0.301,-0.301,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,141.8731763372458,1.0
+CHE,Switzerland,2004,2.482,2.482,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,145.39446857393625,1.0
+CHE,Switzerland,2005,2.995,2.995,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,149.74903290772562,1.0
+CHE,Switzerland,2006,4.198,4.198,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,156.03549730919192,1.0
+CHE,Switzerland,2007,3.996,3.996,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,162.27067578166722,1.0
+CHE,Switzerland,2008,2.486,2.486,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,166.30472478159948,1.0
+CHE,Switzerland,2009,-1.957,-1.957,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,163.05014131762357,1.0
+CHE,Switzerland,2010,3.208,3.208,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,168.28078985109295,1.0
+CHE,Switzerland,2011,1.458,1.458,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,170.73432376712188,1.0
+CHE,Switzerland,2012,1.178,1.178,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,172.74557410109855,1.0
+CHE,Switzerland,2013,1.858,1.858,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,175.95518686789697,1.0
+CHE,Switzerland,2014,2.531,2.531,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,180.40861264752343,1.0
+CHE,Switzerland,2015,1.396,1.396,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,182.92711688008285,1.0
+CHE,Switzerland,2016,1.917,1.917,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,186.43382971067402,1.0
+CHE,Switzerland,2017,1.466,1.466,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,189.16694965423247,1.0
+CHE,Switzerland,2018,3.335,3.335,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,195.47566742520112,1.0
+CHE,Switzerland,2019,1.121,1.121,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,197.6669496570376,1.0
+CHE,Switzerland,2020,-2.334,-2.334,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,193.05340305204234,1.0
+CHE,Switzerland,2021,6.156,6.156,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,204.9377705439261,1.0
+CHE,Switzerland,2022,3.579,3.579,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,212.2724933516932,1.0
+CHE,Switzerland,2023,1.053,1.053,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,214.50772270668654,1.0
+CHE,Switzerland,2024,1.51,1.51,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,217.74678931955748,1.0
+CHE,Switzerland,2025,1.616,1.616,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,221.26557743496153,1.0
+CZE,Czech Republic,1980,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1981,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1982,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1983,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1984,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1985,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1986,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1987,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1988,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1989,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1990,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1991,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1992,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1993,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1994,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1995,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+CZE,Czech Republic,1996,4.525,4.525,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+CZE,Czech Republic,1997,-0.596,-0.596,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,99.404,1.0
+CZE,Czech Republic,1998,-0.393,-0.393,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,99.01334228,1.0
+CZE,Czech Republic,1999,1.378,1.378,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.3777461366184,1.0
+CZE,Czech Republic,2000,4.011,4.011,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,104.40389753415818,1.0
+CZE,Czech Republic,2001,2.917,2.917,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,107.44935922522956,1.0
+CZE,Czech Republic,2002,1.513,1.513,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,109.07506803030729,1.0
+CZE,Czech Republic,2003,3.301,3.301,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,112.67563602598773,1.0
+CZE,Czech Republic,2004,4.736,4.736,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,118.01195414817852,1.0
+CZE,Czech Republic,2005,6.375,6.375,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,125.5352162251249,1.0
+CZE,Czech Republic,2006,6.623,6.623,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,133.84941359571494,1.0
+CZE,Czech Republic,2007,5.489,5.489,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,141.19640790798374,1.0
+CZE,Czech Republic,2008,2.612,2.612,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,144.88445808254028,1.0
+CZE,Czech Republic,2009,-4.798,-4.798,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,137.93290178374,1.0
+CZE,Czech Republic,2010,2.715,2.715,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,141.67778006716853,1.0
+CZE,Czech Republic,2011,1.772,1.772,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,144.18831032995874,1.0
+CZE,Czech Republic,2012,-0.771,-0.771,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,143.07661845731477,1.0
+CZE,Czech Republic,2013,-0.042,-0.042,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,143.0165262775627,1.0
+CZE,Czech Republic,2014,2.245,2.245,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,146.22724729249398,1.0
+CZE,Czech Republic,2015,4.959,4.959,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,153.47865648572878,1.0
+CZE,Czech Republic,2016,2.581,2.581,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,157.4399406096254,1.0
+CZE,Czech Republic,2017,5.174,5.174,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,165.58588313676742,1.0
+CZE,Czech Republic,2018,2.83,2.83,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,170.27196362953794,1.0
+CZE,Czech Republic,2019,3.566,3.566,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,176.34386185256727,1.0
+CZE,Czech Republic,2020,-5.305,-5.305,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,166.98881998128857,1.0
+CZE,Czech Republic,2021,4.029,4.029,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,173.71679953833467,1.0
+CZE,Czech Republic,2022,2.847,2.847,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,178.66251682119105,1.0
+CZE,Czech Republic,2023,0.048,0.048,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,178.74827482926523,1.0
+CZE,Czech Republic,2024,1.313,1.313,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,181.0952396777735,1.0
+CZE,Czech Republic,2025,2.628,2.628,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,185.85442257650539,1.0
+DEU,Germany,1980,1.272,1.272,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+DEU,Germany,1981,0.11,0.11,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.11000000000001,1.0
+DEU,Germany,1982,-0.788,-0.788,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,99.32113320000002,1.0
+DEU,Germany,1983,1.555,1.555,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.86557682126002,1.0
+DEU,Germany,1984,2.826,2.826,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,103.71603802222883,1.0
+DEU,Germany,1985,2.192,2.192,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,105.98949357567608,1.0
+DEU,Germany,1986,2.417,2.417,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,108.55125963540017,1.0
+DEU,Germany,1987,1.469,1.469,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,110.14587763944421,1.0
+DEU,Germany,1988,3.736,3.736,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,114.26092762805385,1.0
+DEU,Germany,1989,3.913,3.913,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,118.73195772613961,1.0
+DEU,Germany,1990,5.723,5.723,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,125.52698766680656,1.0
+DEU,Germany,1991,5.011,5.011,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,131.81714501879026,1.0
+DEU,Germany,1992,2.018,2.018,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,134.47721500526944,1.0
+DEU,Germany,1993,-0.984,-0.984,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,133.1539592096176,1.0
+DEU,Germany,1994,2.6,2.6,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,136.61596214906766,1.0
+DEU,Germany,1995,1.513,1.513,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,138.68296165638307,1.0
+DEU,Germany,1996,1.036,1.036,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,140.11971713914318,1.0
+DEU,Germany,1997,1.855,1.855,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,142.71893789207428,1.0
+DEU,Germany,1998,2.102,2.102,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,145.71888996656568,1.0
+DEU,Germany,1999,2.126,2.126,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,148.81687356725487,1.0
+DEU,Germany,2000,2.88,2.88,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,153.1027995259918,1.0
+DEU,Germany,2001,1.633,1.633,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,155.60296824225125,1.0
+DEU,Germany,2002,-0.227,-0.227,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,155.24974950434134,1.0
+DEU,Germany,2003,-0.536,-0.536,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,154.41761084699806,1.0
+DEU,Germany,2004,1.17,1.17,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,156.22429689390793,1.0
+DEU,Germany,2005,0.886,0.886,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,157.60844416438798,1.0
+DEU,Germany,2006,3.857,3.857,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,163.68740185580842,1.0
+DEU,Germany,2007,2.891,2.891,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,168.41960464345985,1.0
+DEU,Germany,2008,0.883,0.883,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,169.9067497524616,1.0
+DEU,Germany,2009,-5.546,-5.546,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,160.4837214111901,1.0
+DEU,Germany,2010,4.143,4.143,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,167.13256198925572,1.0
+DEU,Germany,2011,3.77,3.77,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,173.43345957625067,1.0
+DEU,Germany,2012,0.507,0.507,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,174.31276721630223,1.0
+DEU,Germany,2013,0.457,0.457,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,175.10937656248072,1.0
+DEU,Germany,2014,2.243,2.243,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,179.03707987877715,1.0
+DEU,Germany,2015,1.77,1.77,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,182.2060361926315,1.0
+DEU,Germany,2016,2.295,2.295,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,186.38766472325239,1.0
+DEU,Germany,2017,2.893,2.893,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,191.77985986369606,1.0
+DEU,Germany,2018,1.245,1.245,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,194.16751911899908,1.0
+DEU,Germany,2019,1.084,1.084,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,196.27229502624903,1.0
+DEU,Germany,2020,-4.033,-4.033,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,188.3566333678404,1.0
+DEU,Germany,2021,3.96,3.96,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,195.8155560492069,1.0
+DEU,Germany,2022,1.868,1.868,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,199.4733906362061,1.0
+DEU,Germany,2023,-1.017,-1.017,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,197.44474625343588,1.0
+DEU,Germany,2024,0.007,0.007,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,197.45856738567363,1.0
+DEU,Germany,2025,0.229,0.229,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,197.9107475049868,1.0
+DNK,Denmark,1980,-0.744,-0.744,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,100.0,1.0
+DNK,Denmark,1981,-0.741,-0.741,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,99.259,1.0
+DNK,Denmark,1982,3.891,3.891,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,103.12116769000001,1.0
+DNK,Denmark,1983,2.65,2.65,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,105.853878633785,1.0
+DNK,Denmark,1984,4.34,4.34,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,110.44793696649128,1.0
+DNK,Denmark,1985,4.152,4.152,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,115.03373530934,1.0
+DNK,Denmark,1986,4.736,4.736,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,120.48173301359036,1.0
+DNK,Denmark,1987,0.465,0.465,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,121.04197307210356,1.0
+DNK,Denmark,1988,0.271,0.271,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,121.36999681912896,1.0
+DNK,Denmark,1989,0.696,0.696,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,122.21473199699011,1.0
+DNK,Denmark,1990,1.665,1.665,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,124.24960728474001,1.0
+DNK,Denmark,1991,1.457,1.457,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,126.05992406287866,1.0
+DNK,Denmark,1992,2.024,2.024,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,128.61137692591134,1.0
+DNK,Denmark,1993,-0.08,-0.08,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,128.5084878243706,1.0
+DNK,Denmark,1994,5.292,5.292,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,135.3091570000363,1.0
+DNK,Denmark,1995,3.039,3.039,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,139.4212022812674,1.0
+DNK,Denmark,1996,2.9,2.9,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,143.46441714742414,1.0
+DNK,Denmark,1997,3.166,3.166,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,148.0065005943116,1.0
+DNK,Denmark,1998,2.324,2.324,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,151.44617166812338,1.0
+DNK,Denmark,1999,2.971,2.971,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,155.94563742838332,1.0
+DNK,Denmark,2000,3.72,3.72,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,161.74681514071918,1.0
+DNK,Denmark,2001,0.954,0.954,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,163.28987975716166,1.0
+DNK,Denmark,2002,0.454,0.454,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,164.03121581125916,1.0
+DNK,Denmark,2003,0.441,0.441,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,164.7545934729868,1.0
+DNK,Denmark,2004,2.778,2.778,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,169.33147607966637,1.0
+DNK,Denmark,2005,2.357,2.357,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,173.3226189708641,1.0
+DNK,Denmark,2006,3.82,3.82,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,179.9435430155511,1.0
+DNK,Denmark,2007,0.987,0.987,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,181.71958578511462,1.0
+DNK,Denmark,2008,-0.417,-0.417,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,180.9618151123907,1.0
+DNK,Denmark,2009,-4.978,-4.978,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,171.9535359560959,1.0
+DNK,Denmark,2010,1.584,1.584,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,174.67727996564045,1.0
+DNK,Denmark,2011,1.313,1.313,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,176.97079265158933,1.0
+DNK,Denmark,2012,-0.005,-0.005,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,176.96194411195677,1.0
+DNK,Denmark,2013,1.393,1.393,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,179.42702399343634,1.0
+DNK,Denmark,2014,1.278,1.278,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,181.72010136007245,1.0
+DNK,Denmark,2015,2.101,2.101,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,185.53804068964757,1.0
+DNK,Denmark,2016,3.076,3.076,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,191.2451908212611,1.0
+DNK,Denmark,2017,3.056,3.056,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,197.08964385275883,1.0
+DNK,Denmark,2018,1.859,1.859,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,200.75354033198164,1.0
+DNK,Denmark,2019,1.713,1.713,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,204.1924484778685,1.0
+DNK,Denmark,2020,-1.781,-1.781,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,200.55578097047768,1.0
+DNK,Denmark,2021,6.499,6.499,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,213.589901175749,1.0
+DNK,Denmark,2022,0.444,0.444,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,214.53824033696932,1.0
+DNK,Denmark,2023,1.129,1.129,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,216.9603770703737,1.0
+DNK,Denmark,2024,3.858,3.858,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,225.33070841774875,1.0
+DNK,Denmark,2025,3.454,3.454,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,233.1136310864978,1.0
+ESP,Spain,1980,1.203,1.203,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+ESP,Spain,1981,-0.408,-0.408,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,99.592,1.0
+ESP,Spain,1982,1.239,1.239,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.82594488,1.0
+ESP,Spain,1983,1.652,1.652,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,102.4915894894176,1.0
+ESP,Spain,1984,1.698,1.698,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,104.23189667894792,1.0
+ESP,Spain,1985,2.362,2.362,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,106.69385407850467,1.0
+ESP,Spain,1986,3.432,3.432,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,110.35558715047894,1.0
+ESP,Spain,1987,5.709,5.709,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,116.65578762089979,1.0
+ESP,Spain,1988,5.285,5.285,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,122.82104599666435,1.0
+ESP,Spain,1989,5.004,5.004,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,128.96701113833745,1.0
+ESP,Spain,1990,3.847,3.847,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,133.9283720568293,1.0
+ESP,Spain,1991,2.525,2.525,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,137.31006345126423,1.0
+ESP,Spain,1992,0.851,0.851,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,138.4785720912345,1.0
+ESP,Spain,1993,-1.314,-1.314,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,136.65896365395568,1.0
+ESP,Spain,1994,2.335,2.335,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,139.84995045527555,1.0
+ESP,Spain,1995,4.122,4.122,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,145.61456541304202,1.0
+ESP,Spain,1996,2.421,2.421,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,149.13989404169178,1.0
+ESP,Spain,1997,3.865,3.865,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,154.90415094640318,1.0
+ESP,Spain,1998,4.469,4.469,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,161.82681745219793,1.0
+ESP,Spain,1999,4.745,4.745,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,169.50549994030473,1.0
+ESP,Spain,2000,5.053,5.053,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,178.07061285228832,1.0
+ESP,Spain,2001,3.919,3.919,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,185.0492001699695,1.0
+ESP,Spain,2002,2.756,2.756,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,190.14915612665388,1.0
+ESP,Spain,2003,2.939,2.939,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,195.73763982521623,1.0
+ESP,Spain,2004,3.115,3.115,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,201.83486730577172,1.0
+ESP,Spain,2005,3.551,3.551,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,209.00202344379966,1.0
+ESP,Spain,2006,4.043,4.043,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,217.45197525163246,1.0
+ESP,Spain,2007,3.534,3.534,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,225.13672805702512,1.0
+ESP,Spain,2008,0.767,0.767,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,226.86352676122252,1.0
+ESP,Spain,2009,-3.768,-3.768,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,218.31530907285963,1.0
+ESP,Spain,2010,0.094,0.094,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,218.5205254633881,1.0
+ESP,Spain,2011,-0.64,-0.64,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,217.12199410042243,1.0
+ESP,Spain,2012,-2.865,-2.865,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,210.90144896944534,1.0
+ESP,Spain,2013,-1.427,-1.427,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,207.89188529265135,1.0
+ESP,Spain,2014,1.52,1.52,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,211.05184194909967,1.0
+ESP,Spain,2015,4.061,4.061,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,219.62265725065262,1.0
+ESP,Spain,2016,2.915,2.915,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,226.02465770950914,1.0
+ESP,Spain,2017,2.896,2.896,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,232.57033179677654,1.0
+ESP,Spain,2018,2.395,2.395,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,238.14039124330932,1.0
+ESP,Spain,2019,1.961,1.961,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,242.8103243155906,1.0
+ESP,Spain,2020,-10.94,-10.94,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,216.246874835465,1.0
+ESP,Spain,2021,6.683,6.683,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,230.69865348071912,1.0
+ESP,Spain,2022,6.37,6.37,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,245.39415770744094,1.0
+ESP,Spain,2023,2.36,2.36,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,251.18545982933657,1.0
+ESP,Spain,2024,3.672,3.672,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,260.40898991426985,1.0
+ESP,Spain,2025,2.592,2.592,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,267.1587909328477,1.0
+FIN,Finland,1980,5.673,5.673,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+FIN,Finland,1981,1.294,1.294,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,101.294,1.0
+FIN,Finland,1982,3.087,3.087,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,104.42094578,1.0
+FIN,Finland,1983,3.122,3.122,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,107.6809677072516,1.0
+FIN,Finland,1984,3.213,3.213,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,111.1407571996856,1.0
+FIN,Finland,1985,3.537,3.537,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,115.07180578183846,1.0
+FIN,Finland,1986,2.726,2.726,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,118.2086632074514,1.0
+FIN,Finland,1987,3.559,3.559,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,122.4157095310046,1.0
+FIN,Finland,1988,5.211,5.211,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,128.79479215466526,1.0
+FIN,Finland,1989,5.087,5.087,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,135.34658323157308,1.0
+FIN,Finland,1990,0.211,0.211,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,135.63216452219172,1.0
+FIN,Finland,1991,-5.88,-5.88,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,127.65699324828685,1.0
+FIN,Finland,1992,-3.312,-3.312,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,123.42899363190358,1.0
+FIN,Finland,1993,-0.781,-0.781,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,122.46501319163842,1.0
+FIN,Finland,1994,3.963,3.963,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,127.31830166442306,1.0
+FIN,Finland,1995,4.233,4.233,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,132.7076853738781,1.0
+FIN,Finland,1996,3.662,3.662,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,137.56744081226952,1.0
+FIN,Finland,1997,6.398,6.398,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,146.36900567543853,1.0
+FIN,Finland,1998,5.454,5.454,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,154.35197124497697,1.0
+FIN,Finland,1999,4.389,4.389,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,161.126479262919,1.0
+FIN,Finland,2000,5.754,5.754,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,170.39769687970733,1.0
+FIN,Finland,2001,2.64,2.64,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,174.8961960773316,1.0
+FIN,Finland,2002,1.687,1.687,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,177.84669490515617,1.0
+FIN,Finland,2003,2.012,2.012,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,181.4249704066479,1.0
+FIN,Finland,2004,4.005,4.005,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,188.69104047143412,1.0
+FIN,Finland,2005,2.778,2.778,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,193.93287757573054,1.0
+FIN,Finland,2006,4.019,4.019,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,201.72703992549916,1.0
+FIN,Finland,2007,5.313,5.313,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,212.4447975567409,1.0
+FIN,Finland,2008,0.784,0.784,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,214.11036476958577,1.0
+FIN,Finland,2009,-8.076,-8.076,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,196.81881171079402,1.0
+FIN,Finland,2010,3.168,3.168,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,203.05403166579197,1.0
+FIN,Finland,2011,2.389,2.389,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,207.90499248228772,1.0
+FIN,Finland,2012,-1.523,-1.523,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,204.7385994467825,1.0
+FIN,Finland,2013,-0.98,-0.98,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,202.73216117220403,1.0
+FIN,Finland,2014,-0.478,-0.478,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,201.7631014418009,1.0
+FIN,Finland,2015,0.467,0.467,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,202.7053351255341,1.0
+FIN,Finland,2016,2.572,2.572,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,207.91891634496284,1.0
+FIN,Finland,2017,3.303,3.303,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,214.78647815183695,1.0
+FIN,Finland,2018,1.193,1.193,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,217.34888083618836,1.0
+FIN,Finland,2019,1.35,1.35,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,220.28309072747692,1.0
+FIN,Finland,2020,-2.491,-2.491,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,214.79583893745547,1.0
+FIN,Finland,2021,2.676,2.676,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,220.54377558742175,1.0
+FIN,Finland,2022,0.576,0.576,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,221.8141077348053,1.0
+FIN,Finland,2023,-1.218,-1.218,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,219.11241190259537,1.0
+FIN,Finland,2024,0.994,0.994,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,221.29038927690718,1.0
+FIN,Finland,2025,0.843,0.843,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,223.15586725851148,1.0
+FRA,France,1980,1.809,1.809,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+FRA,France,1981,1.186,1.186,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,101.18599999999999,1.0
+FRA,France,1982,2.404,2.404,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,103.61851143999999,1.0
+FRA,France,1983,1.262,1.262,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,104.9261770543728,1.0
+FRA,France,1984,1.673,1.673,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,106.68159199649244,1.0
+FRA,France,1985,1.67,1.67,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,108.46317458283386,1.0
+FRA,France,1986,2.325,2.325,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,110.98494339188474,1.0
+FRA,France,1987,2.567,2.567,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,113.83392688875443,1.0
+FRA,France,1988,4.67,4.67,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,119.14997127445926,1.0
+FRA,France,1989,4.585,4.585,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,124.6129974573932,1.0
+FRA,France,1990,2.793,2.793,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,128.0934384763782,1.0
+FRA,France,1991,1.292,1.292,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,129.748405701493,1.0
+FRA,France,1992,1.408,1.408,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,131.57526325377003,1.0
+FRA,France,1993,-0.425,-0.425,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,131.01606838494152,1.0
+FRA,France,1994,2.403,2.403,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,134.16438450823168,1.0
+FRA,France,1995,2.457,2.457,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,137.46080343559893,1.0
+FRA,France,1996,1.347,1.347,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,139.31240045787646,1.0
+FRA,France,1997,2.515,2.515,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,142.81610732939205,1.0
+FRA,France,1998,3.466,3.466,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,147.76611360942877,1.0
+FRA,France,1999,3.261,3.261,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,152.58476657423225,1.0
+FRA,France,2000,4.371,4.371,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,159.25424672119192,1.0
+FRA,France,2001,1.837,1.837,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,162.1797472334602,1.0
+FRA,France,2002,1.127,1.127,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,164.00751298478127,1.0
+FRA,France,2003,0.988,0.988,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,165.6279072130709,1.0
+FRA,France,2004,2.519,2.519,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,169.80007419576816,1.0
+FRA,France,2005,1.987,1.987,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,173.17400167003808,1.0
+FRA,France,2006,2.936,2.936,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,178.2583903590704,1.0
+FRA,France,2007,2.479,2.479,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,182.67741585607178,1.0
+FRA,France,2008,0.261,0.261,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,183.15420391145614,1.0
+FRA,France,2009,-2.725,-2.725,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,178.16325185486895,1.0
+FRA,France,2010,1.836,1.836,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,181.43432915892433,1.0
+FRA,France,2011,2.482,2.482,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,185.93752920864884,1.0
+FRA,France,2012,0.227,0.227,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,186.35960739995247,1.0
+FRA,France,2013,0.931,0.931,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,188.094615344846,1.0
+FRA,France,2014,0.998,0.998,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,189.9717996059876,1.0
+FRA,France,2015,0.998,0.998,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,191.86771816605537,1.0
+FRA,France,2016,0.737,0.737,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,193.2817832489392,1.0
+FRA,France,2017,2.269,2.269,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,197.66734691085765,1.0
+FRA,France,2018,1.584,1.584,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,200.79839768592564,1.0
+FRA,France,2019,2.101,2.101,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,205.01717202130692,1.0
+FRA,France,2020,-7.607,-7.607,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,189.4215157456461,1.0
+FRA,France,2021,6.791,6.791,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,202.28513087993292,1.0
+FRA,France,2022,2.8,2.8,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,207.94911454457105,1.0
+FRA,France,2023,1.819,1.819,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,211.7317089381368,1.0
+FRA,France,2024,1.425,1.425,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,214.74888579050526,1.0
+FRA,France,2025,0.89,0.89,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,216.66015087404074,1.0
+GBR,United Kingdom,1980,-2.057,-2.057,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,100.0,1.0
+GBR,United Kingdom,1981,-0.558,-0.558,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,99.442,1.0
+GBR,United Kingdom,1982,1.989,1.989,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,101.41990137999998,1.0
+GBR,United Kingdom,1983,4.185,4.185,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,105.66432425275298,1.0
+GBR,United Kingdom,1984,2.243,2.243,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,108.03437504574222,1.0
+GBR,United Kingdom,1985,4.095,4.095,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,112.45838270386537,1.0
+GBR,United Kingdom,1986,3.111,3.111,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,115.95696298978261,1.0
+GBR,United Kingdom,1987,5.46,5.46,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,122.28821316902474,1.0
+GBR,United Kingdom,1988,5.426,5.426,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,128.923571615576,1.0
+GBR,United Kingdom,1989,2.419,2.419,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,132.0422328129568,1.0
+GBR,United Kingdom,1990,0.552,0.552,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,132.7711059380843,1.0
+GBR,United Kingdom,1991,-1.419,-1.419,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,130.88708394482288,1.0
+GBR,United Kingdom,1992,0.272,0.272,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,131.2430968131528,1.0
+GBR,United Kingdom,1993,2.276,2.276,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,134.23018969662013,1.0
+GBR,United Kingdom,1994,3.422,3.422,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,138.82354678803847,1.0
+GBR,United Kingdom,1995,2.408,2.408,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,142.16641779469444,1.0
+GBR,United Kingdom,1996,2.618,2.618,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,145.88833461255956,1.0
+GBR,United Kingdom,1997,4.898,4.898,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,153.03394524188272,1.0
+GBR,United Kingdom,1998,3.253,3.253,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,158.01213948060115,1.0
+GBR,United Kingdom,1999,2.908,2.908,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,162.60713249669703,1.0
+GBR,United Kingdom,2000,4.547,4.547,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,170.00087881132183,1.0
+GBR,United Kingdom,2001,2.394,2.394,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,174.07069985006487,1.0
+GBR,United Kingdom,2002,1.711,1.711,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,177.04904952449948,1.0
+GBR,United Kingdom,2003,3.197,3.197,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,182.70930763779774,1.0
+GBR,United Kingdom,2004,2.348,2.348,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,186.9993221811332,1.0
+GBR,United Kingdom,2005,2.745,2.745,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,192.13245357500531,1.0
+GBR,United Kingdom,2006,2.211,2.211,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,196.3805021235487,1.0
+GBR,United Kingdom,2007,2.993,2.993,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,202.25817055210652,1.0
+GBR,United Kingdom,2008,0.02,0.02,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,202.29862218621693,1.0
+GBR,United Kingdom,2009,-4.517,-4.517,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,193.1607934220655,1.0
+GBR,United Kingdom,2010,2.449,2.449,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,197.89130125297186,1.0
+GBR,United Kingdom,2011,1.052,1.052,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,199.97311774215314,1.0
+GBR,United Kingdom,2012,1.65,1.65,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,203.27267418489865,1.0
+GBR,United Kingdom,2013,1.916,1.916,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,207.16737862228132,1.0
+GBR,United Kingdom,2014,3.198,3.198,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,213.79259139062185,1.0
+GBR,United Kingdom,2015,2.175,2.175,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,218.44258025336785,1.0
+GBR,United Kingdom,2016,2.216,2.216,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,223.28326783178247,1.0
+GBR,United Kingdom,2017,3.315,3.315,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,230.68510816040606,1.0
+GBR,United Kingdom,2018,1.639,1.639,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,234.4660370831551,1.0
+GBR,United Kingdom,2019,1.39,1.39,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,237.72511499861096,1.0
+GBR,United Kingdom,2020,-10.046,-10.046,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,213.84324994585052,1.0
+GBR,United Kingdom,2021,8.518,8.518,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,232.05841797623808,1.0
+GBR,United Kingdom,2022,5.021,5.021,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,243.710071142825,1.0
+GBR,United Kingdom,2023,0.444,0.444,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,244.79214385869915,1.0
+GBR,United Kingdom,2024,1.114,1.114,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,247.51912834128504,1.0
+GBR,United Kingdom,2025,1.213,1.213,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,250.52153536806483,1.0
+GRC,Greece,1980,0.679,0.679,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+GRC,Greece,1981,-1.556,-1.556,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,98.444,1.0
+GRC,Greece,1982,-1.13,-1.13,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,97.3315828,1.0
+GRC,Greece,1983,-1.078,-1.078,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,96.28234833741601,1.0
+GRC,Greece,1984,2.007,2.007,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,98.21473506854795,1.0
+GRC,Greece,1985,2.513,2.513,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.68287136082057,1.0
+GRC,Greece,1986,0.515,0.515,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,101.20138814832879,1.0
+GRC,Greece,1987,-2.257,-2.257,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,98.91727281782101,1.0
+GRC,Greece,1988,4.288,4.288,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,103.15884547624918,1.0
+GRC,Greece,1989,3.799,3.799,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,107.07785001589188,1.0
+GRC,Greece,1990,0.0,0.0,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,107.07785001589188,1.0
+GRC,Greece,1991,3.102,3.102,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,110.39940492338485,1.0
+GRC,Greece,1992,0.697,0.697,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,111.16888877570084,1.0
+GRC,Greece,1993,-1.599,-1.599,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,109.39129824417739,1.0
+GRC,Greece,1994,2.0,2.0,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,111.57912420906094,1.0
+GRC,Greece,1995,2.1,2.1,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,113.92228581745121,1.0
+GRC,Greece,1996,1.382,1.382,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,115.49669180744839,1.0
+GRC,Greece,1997,3.603,3.603,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,119.65803761327075,1.0
+GRC,Greece,1998,3.437,3.437,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,123.77068436603886,1.0
+GRC,Greece,1999,2.659,2.659,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,127.06174686333182,1.0
+GRC,Greece,2000,4.138,4.138,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,132.3195619485365,1.0
+GRC,Greece,2001,4.65,4.65,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,138.47242157914343,1.0
+GRC,Greece,2002,4.683,4.683,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,144.95708508169471,1.0
+GRC,Greece,2003,5.797,5.797,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,153.36024730388056,1.0
+GRC,Greece,2004,5.378,5.378,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,161.60796140388325,1.0
+GRC,Greece,2005,1.183,1.183,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,163.5197835872912,1.0
+GRC,Greece,2006,6.443,6.443,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,174.05536324382035,1.0
+GRC,Greece,2007,3.507,3.507,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,180.15948483278112,1.0
+GRC,Greece,2008,0.058,0.058,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,180.26397733398414,1.0
+GRC,Greece,2009,-4.119,-4.119,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,172.83890410759736,1.0
+GRC,Greece,2010,-5.694,-5.694,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,162.99745690771076,1.0
+GRC,Greece,2011,-9.877,-9.877,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,146.89819808893617,1.0
+GRC,Greece,2012,-8.331,-8.331,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,134.6601092061469,1.0
+GRC,Greece,2013,-2.272,-2.272,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,131.60063152498324,1.0
+GRC,Greece,2014,0.792,0.792,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,132.6429085266611,1.0
+GRC,Greece,2015,-0.228,-0.228,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,132.34048269522032,1.0
+GRC,Greece,2016,-0.032,-0.032,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,132.29813374075783,1.0
+GRC,Greece,2017,1.473,1.473,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,134.2468852507592,1.0
+GRC,Greece,2018,2.065,2.065,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,137.01908343118737,1.0
+GRC,Greece,2019,2.277,2.277,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,140.1390079609155,1.0
+GRC,Greece,2020,-9.196,-9.196,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,127.25182478882971,1.0
+GRC,Greece,2021,8.654,8.654,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,138.26419770605503,1.0
+GRC,Greece,2022,5.522,5.522,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,145.8991467033834,1.0
+GRC,Greece,2023,2.136,2.136,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,149.01555247696766,1.0
+GRC,Greece,2024,2.087,2.087,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,152.12550705716197,1.0
+GRC,Greece,2025,2.073,2.073,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,155.27906881845692,1.0
+HUN,Hungary,1980,0.215,0.215,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+HUN,Hungary,1981,2.867,2.867,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,102.86699999999999,1.0
+HUN,Hungary,1982,2.841,2.841,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,105.78945146999999,1.0
+HUN,Hungary,1983,0.723,0.723,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,106.5543092041281,1.0
+HUN,Hungary,1984,2.658,2.658,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,109.38652274277383,1.0
+HUN,Hungary,1985,-0.253,-0.253,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,109.1097748402346,1.0
+HUN,Hungary,1986,1.535,1.535,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,110.78460988403221,1.0
+HUN,Hungary,1987,4.051,4.051,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,115.27249443043436,1.0
+HUN,Hungary,1988,-0.065,-0.065,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,115.19756730905458,1.0
+HUN,Hungary,1989,0.736,0.736,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,116.04542140444923,1.0
+HUN,Hungary,1990,-3.497,-3.497,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,111.98731301793565,1.0
+HUN,Hungary,1991,-11.892,-11.892,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,98.66978175384274,1.0
+HUN,Hungary,1992,-3.064,-3.064,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,95.646539640905,1.0
+HUN,Hungary,1993,-0.576,-0.576,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,95.0956155725734,1.0
+HUN,Hungary,1994,2.947,2.947,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,97.89808336349714,1.0
+HUN,Hungary,1995,2.541,2.541,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.38567366176359,1.0
+HUN,Hungary,1996,0.101,0.101,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.48706319216197,1.0
+HUN,Hungary,1997,2.978,2.978,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,103.47956793402454,1.0
+HUN,Hungary,1998,3.848,3.848,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,107.46146170812581,1.0
+HUN,Hungary,1999,3.086,3.086,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,110.77772241643858,1.0
+HUN,Hungary,2000,4.409,4.409,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,115.66191219777936,1.0
+HUN,Hungary,2001,4.068,4.068,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,120.36703878598503,1.0
+HUN,Hungary,2002,4.736,4.736,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,126.06762174288929,1.0
+HUN,Hungary,2003,3.972,3.972,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,131.07502767851685,1.0
+HUN,Hungary,2004,4.956,4.956,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,137.57110605026415,1.0
+HUN,Hungary,2005,4.307,4.307,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,143.496293587849,1.0
+HUN,Hungary,2006,3.941,3.941,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,149.15148251814614,1.0
+HUN,Hungary,2007,0.331,0.331,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,149.6451739252812,1.0
+HUN,Hungary,2008,0.983,0.983,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,151.1161859849667,1.0
+HUN,Hungary,2009,-6.754,-6.754,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,140.90979878354207,1.0
+HUN,Hungary,2010,1.069,1.069,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,142.41612453253816,1.0
+HUN,Hungary,2011,1.925,1.925,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,145.1576349297895,1.0
+HUN,Hungary,2012,-1.346,-1.346,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,143.20381316363455,1.0
+HUN,Hungary,2013,2.038,2.038,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,146.12230687590943,1.0
+HUN,Hungary,2014,4.335,4.335,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,152.4567088789801,1.0
+HUN,Hungary,2015,3.651,3.651,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,158.02290332015167,1.0
+HUN,Hungary,2016,2.443,2.443,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,161.88340284826296,1.0
+HUN,Hungary,2017,4.121,4.121,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,168.55461787963986,1.0
+HUN,Hungary,2018,5.611,5.611,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,178.01221748886647,1.0
+HUN,Hungary,2019,5.056,5.056,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,187.01251520510354,1.0
+HUN,Hungary,2020,-4.355,-4.355,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,178.8681201679213,1.0
+HUN,Hungary,2021,7.219,7.219,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,191.7806097628435,1.0
+HUN,Hungary,2022,4.163,4.163,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,199.7644365472707,1.0
+HUN,Hungary,2023,-0.794,-0.794,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,198.17830692108538,1.0
+HUN,Hungary,2024,0.673,0.673,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,199.51204692666425,1.0
+HUN,Hungary,2025,0.493,0.493,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,200.49564131801273,1.0
+IRL,Ireland,1980,2.898,2.898,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+IRL,Ireland,1981,2.512,2.512,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,102.512,1.0
+IRL,Ireland,1982,1.495,1.495,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,104.0445544,1.0
+IRL,Ireland,1983,-0.729,-0.729,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,103.28606959842399,1.0
+IRL,Ireland,1984,3.204,3.204,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,106.59535526835751,1.0
+IRL,Ireland,1985,1.947,1.947,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,108.67076683543245,1.0
+IRL,Ireland,1986,0.424,0.424,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,109.13153088681469,1.0
+IRL,Ireland,1987,3.641,3.641,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,113.10500992640361,1.0
+IRL,Ireland,1988,2.998,2.998,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,116.49589812399718,1.0
+IRL,Ireland,1989,5.614,5.614,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,123.03597784467838,1.0
+IRL,Ireland,1990,7.711,7.711,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,132.52328209628155,1.0
+IRL,Ireland,1991,1.642,1.642,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,134.6993143883025,1.0
+IRL,Ireland,1992,3.579,3.579,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,139.52020285025984,1.0
+IRL,Ireland,1993,2.314,2.314,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,142.74870034421485,1.0
+IRL,Ireland,1994,5.894,5.894,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,151.1623087425029,1.0
+IRL,Ireland,1995,9.593,9.593,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,165.6633090201712,1.0
+IRL,Ireland,1996,9.092,9.092,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,180.72541707628517,1.0
+IRL,Ireland,1997,10.747,10.747,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,200.14797764947352,1.0
+IRL,Ireland,1998,8.766,8.766,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,217.6929493702264,1.0
+IRL,Ireland,1999,10.531,10.531,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,240.61819386840494,1.0
+IRL,Ireland,2000,9.403,9.403,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,263.2435226378511,1.0
+IRL,Ireland,2001,5.306,5.306,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,277.2112239490155,1.0
+IRL,Ireland,2002,5.899,5.899,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,293.56391404976796,1.0
+IRL,Ireland,2003,3.014,3.014,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,302.411930419228,1.0
+IRL,Ireland,2004,6.709,6.709,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,322.700746831054,1.0
+IRL,Ireland,2005,5.748,5.748,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,341.249585758903,1.0
+IRL,Ireland,2006,4.986,4.986,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,358.2642901048419,1.0
+IRL,Ireland,2007,5.318,5.318,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,377.3167850526174,1.0
+IRL,Ireland,2008,-4.484,-4.484,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,360.397900410858,1.0
+IRL,Ireland,2009,-5.094,-5.094,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,342.03923136392893,1.0
+IRL,Ireland,2010,1.688,1.688,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,347.8128535893521,1.0
+IRL,Ireland,2011,1.607,1.607,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,353.402206146533,1.0
+IRL,Ireland,2012,-0.4,-0.4,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,351.9885973219469,1.0
+IRL,Ireland,2013,2.19,2.19,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,359.69714760329754,1.0
+IRL,Ireland,2014,9.399,9.399,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,393.5050825065315,1.0
+IRL,Ireland,2015,24.649,24.649,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,490.5001502935665,1.0
+IRL,Ireland,2016,1.222,1.222,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,496.49406213015385,1.0
+IRL,Ireland,2017,10.106,10.106,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,546.6697520490271,1.0
+IRL,Ireland,2018,7.685,7.685,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,588.6813224939949,1.0
+IRL,Ireland,2019,4.978,4.978,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,617.9858787277459,1.0
+IRL,Ireland,2020,6.983,6.983,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,661.1398326393045,1.0
+IRL,Ireland,2021,16.556,16.556,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,770.5981433310677,1.0
+IRL,Ireland,2022,8.158,8.158,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,833.4635398640162,1.0
+IRL,Ireland,2023,-3.305,-3.305,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,805.9175698715104,1.0
+IRL,Ireland,2024,3.622,3.622,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,835.1079042522565,1.0
+IRL,Ireland,2025,7.97,7.97,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,901.6660042211613,1.0
+ITA,Italy,1980,3.099,3.099,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+ITA,Italy,1981,4.728,4.728,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,104.728,1.0
+ITA,Italy,1982,0.414,0.414,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,105.16157392,1.0
+ITA,Italy,1983,1.169,1.169,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,106.3909127191248,1.0
+ITA,Italy,1984,3.226,3.226,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,109.82308356344376,1.0
+ITA,Italy,1985,2.798,2.798,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,112.8959334415489,1.0
+ITA,Italy,1986,2.86,2.86,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,116.1247571379772,1.0
+ITA,Italy,1987,3.192,3.192,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,119.83145938582142,1.0
+ITA,Italy,1988,4.194,4.194,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,124.85719079246277,1.0
+ITA,Italy,1989,3.389,3.389,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,129.08860098841933,1.0
+ITA,Italy,1990,2.052,2.052,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,131.7374990807017,1.0
+ITA,Italy,1991,1.435,1.435,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,133.62793219250977,1.0
+ITA,Italy,1992,0.834,0.834,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,134.74238914699532,1.0
+ITA,Italy,1993,-0.853,-0.853,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,133.59303656757146,1.0
+ITA,Italy,1994,2.151,2.151,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,136.4666227841399,1.0
+ITA,Italy,1995,2.887,2.887,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,140.406414183918,1.0
+ITA,Italy,1996,1.525,1.525,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,142.54761200022276,1.0
+ITA,Italy,1997,1.926,1.926,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,145.29307900734705,1.0
+ITA,Italy,1998,1.804,1.804,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,147.9141661526396,1.0
+ITA,Italy,1999,1.678,1.678,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,150.3961658606809,1.0
+ITA,Italy,2000,3.882,3.882,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,156.23454501939253,1.0
+ITA,Italy,2001,2.006,2.006,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,159.36860999248154,1.0
+ITA,Italy,2002,0.27,0.27,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,159.79890523946122,1.0
+ITA,Italy,2003,0.067,0.067,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,159.90597050597165,1.0
+ITA,Italy,2004,1.474,1.474,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,162.26298451122966,1.0
+ITA,Italy,2005,0.762,0.762,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,163.4994284532052,1.0
+ITA,Italy,2006,1.799,1.799,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,166.44078317107838,1.0
+ITA,Italy,2007,1.462,1.462,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,168.87414742103957,1.0
+ITA,Italy,2008,-1.023,-1.023,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,167.14656489292233,1.0
+ITA,Italy,2009,-5.305,-5.305,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,158.27943962535278,1.0
+ITA,Italy,2010,1.529,1.529,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,160.69953225722443,1.0
+ITA,Italy,2011,0.696,0.696,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,161.81800100173473,1.0
+ITA,Italy,2012,-3.125,-3.125,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,156.7611884704305,1.0
+ITA,Italy,2013,-1.818,-1.818,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,153.9112700640381,1.0
+ITA,Italy,2014,-0.001,-0.001,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,153.90973095133745,1.0
+ITA,Italy,2015,0.886,0.886,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,155.27337116756632,1.0
+ITA,Italy,2016,1.236,1.236,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,157.19255003519743,1.0
+ITA,Italy,2017,1.604,1.604,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,159.713918537762,1.0
+ITA,Italy,2018,0.827,0.827,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,161.0347526440693,1.0
+ITA,Italy,2019,0.429,0.429,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,161.72559173291233,1.0
+ITA,Italy,2020,-8.868,-8.868,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,147.38376625803767,1.0
+ITA,Italy,2021,8.931,8.931,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,160.546610422543,1.0
+ITA,Italy,2022,4.821,4.821,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,168.2865625110138,1.0
+ITA,Italy,2023,0.923,0.923,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,169.83984748299048,1.0
+ITA,Italy,2024,0.783,0.783,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,171.1696934887823,1.0
+ITA,Italy,2025,0.54,0.54,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,172.09400983362173,1.0
+NLD,"Netherlands, The",1980,,,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,True,,,
+NLD,"Netherlands, The",1981,-0.514,-0.514,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,100.0,1.0
+NLD,"Netherlands, The",1982,-1.283,-1.283,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,98.717,1.0
+NLD,"Netherlands, The",1983,1.758,1.758,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.45244485999999,1.0
+NLD,"Netherlands, The",1984,3.118,3.118,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,103.58455209073479,1.0
+NLD,"Netherlands, The",1985,2.656,2.656,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,106.3357577942647,1.0
+NLD,"Netherlands, The",1986,3.126,3.126,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,109.65981358291342,1.0
+NLD,"Netherlands, The",1987,1.85,1.85,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,111.6885201341973,1.0
+NLD,"Netherlands, The",1988,4.585,4.585,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,116.80943878235024,1.0
+NLD,"Netherlands, The",1989,4.481,4.481,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,122.04366973418736,1.0
+NLD,"Netherlands, The",1990,4.178,4.178,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,127.1426542556817,1.0
+NLD,"Netherlands, The",1991,2.451,2.451,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,130.25892071148846,1.0
+NLD,"Netherlands, The",1992,1.589,1.589,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,132.328734961594,1.0
+NLD,"Netherlands, The",1993,1.264,1.264,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,134.00137017150854,1.0
+NLD,"Netherlands, The",1994,3.009,3.009,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,138.03347139996922,1.0
+NLD,"Netherlands, The",1995,3.132,3.132,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,142.35667972421626,1.0
+NLD,"Netherlands, The",1996,3.416,3.416,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,147.2195839035955,1.0
+NLD,"Netherlands, The",1997,4.246,4.246,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,153.47052743614213,1.0
+NLD,"Netherlands, The",1998,4.654,4.654,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,160.6130457830202,1.0
+NLD,"Netherlands, The",1999,5.038,5.038,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,168.70473102956876,1.0
+NLD,"Netherlands, The",2000,4.228,4.228,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,175.83756705749894,1.0
+NLD,"Netherlands, The",2001,2.328,2.328,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,179.9310656185975,1.0
+NLD,"Netherlands, The",2002,0.246,0.246,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,180.37369604001924,1.0
+NLD,"Netherlands, The",2003,0.098,0.098,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,180.55046226213847,1.0
+NLD,"Netherlands, The",2004,2.013,2.013,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,184.1849430674753,1.0
+NLD,"Netherlands, The",2005,2.029,2.029,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,187.92205556231437,1.0
+NLD,"Netherlands, The",2006,3.539,3.539,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,194.57261710866467,1.0
+NLD,"Netherlands, The",2007,3.882,3.882,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,202.12592610482304,1.0
+NLD,"Netherlands, The",2008,2.127,2.127,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,206.4251445530726,1.0
+NLD,"Netherlands, The",2009,-3.67,-3.67,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,198.84934174797485,1.0
+NLD,"Netherlands, The",2010,1.317,1.317,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,201.46818757879566,1.0
+NLD,"Netherlands, The",2011,1.777,1.777,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,205.04827727207086,1.0
+NLD,"Netherlands, The",2012,-0.977,-0.977,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,203.04495560312273,1.0
+NLD,"Netherlands, The",2013,-0.032,-0.032,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,202.97998121732974,1.0
+NLD,"Netherlands, The",2014,1.612,1.612,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,206.25201851455307,1.0
+NLD,"Netherlands, The",2015,2.121,2.121,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,210.62662382724673,1.0
+NLD,"Netherlands, The",2016,2.425,2.425,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,215.7343194550575,1.0
+NLD,"Netherlands, The",2017,2.783,2.783,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,221.73820556549174,1.0
+NLD,"Netherlands, The",2018,2.26,2.26,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,226.74948901127183,1.0
+NLD,"Netherlands, The",2019,2.3,2.3,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,231.96472725853107,1.0
+NLD,"Netherlands, The",2020,-3.877,-3.877,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,222.9714547827178,1.0
+NLD,"Netherlands, The",2021,6.278,6.278,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,236.96960271397685,1.0
+NLD,"Netherlands, The",2022,5.007,5.007,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,248.83467072186568,1.0
+NLD,"Netherlands, The",2023,-0.601,-0.601,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,247.33917435082728,1.0
+NLD,"Netherlands, The",2024,1.069,1.069,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,249.98323012463766,1.0
+NLD,"Netherlands, The",2025,1.564,1.564,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,253.892967843787,1.0
+NOR,Norway,1980,4.515,4.515,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+NOR,Norway,1981,1.674,1.674,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,101.67399999999999,1.0
+NOR,Norway,1982,0.242,0.242,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,101.92005108000001,1.0
+NOR,Norway,1983,3.941,3.941,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,105.9367202930628,1.0
+NOR,Norway,1984,6.075,6.075,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,112.37237605086638,1.0
+NOR,Norway,1985,5.561,5.561,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,118.62140388305505,1.0
+NOR,Norway,1986,4.048,4.048,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,123.42319831224113,1.0
+NOR,Norway,1987,1.744,1.744,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,125.5756988908066,1.0
+NOR,Norway,1988,-0.33,-0.33,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,125.16129908446695,1.0
+NOR,Norway,1989,1.03,1.03,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,126.45046046503695,1.0
+NOR,Norway,1990,1.959,1.959,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,128.92762498554703,1.0
+NOR,Norway,1991,2.859,2.859,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,132.6136657838838,1.0
+NOR,Norway,1992,3.564,3.564,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,137.34001683242138,1.0
+NOR,Norway,1993,2.873,2.873,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,141.28579551601683,1.0
+NOR,Norway,1994,5.039,5.039,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,148.40518675206891,1.0
+NOR,Norway,1995,4.153,4.153,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,154.56845415788234,1.0
+NOR,Norway,1996,4.969,4.969,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,162.2489606449875,1.0
+NOR,Norway,1997,5.092,5.092,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,170.51067772103028,1.0
+NOR,Norway,1998,2.726,2.726,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,175.15879879570556,1.0
+NOR,Norway,1999,2.183,2.183,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,178.98251537341582,1.0
+NOR,Norway,2000,3.443,3.443,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,185.14488337772252,1.0
+NOR,Norway,2001,2.163,2.163,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,189.14956720518268,1.0
+NOR,Norway,2002,1.457,1.457,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,191.9054763993622,1.0
+NOR,Norway,2003,1.096,1.096,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,194.00876042069922,1.0
+NOR,Norway,2004,4.33,4.33,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,202.40933974691546,1.0
+NOR,Norway,2005,2.97,2.97,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,208.42089713739887,1.0
+NOR,Norway,2006,2.847,2.847,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,214.35464007890062,1.0
+NOR,Norway,2007,3.42,3.42,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,221.68556876959903,1.0
+NOR,Norway,2008,0.823,0.823,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,223.5100410005728,1.0
+NOR,Norway,2009,-1.613,-1.613,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,219.90482403923357,1.0
+NOR,Norway,2010,1.005,1.005,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,222.11486752082786,1.0
+NOR,Norway,2011,1.385,1.385,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,225.1911584359913,1.0
+NOR,Norway,2012,2.824,2.824,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,231.5505567502237,1.0
+NOR,Norway,2013,1.273,1.273,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,234.49819533765404,1.0
+NOR,Norway,2014,2.095,2.095,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,239.41093252997788,1.0
+NOR,Norway,2015,2.044,2.044,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,244.30449199089063,1.0
+NOR,Norway,2016,1.292,1.292,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,247.46090602741293,1.0
+NOR,Norway,2017,2.67,2.67,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,254.06811221834485,1.0
+NOR,Norway,2018,1.11,1.11,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,256.8882682639685,1.0
+NOR,Norway,2019,1.47,1.47,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,260.6645258074488,1.0
+NOR,Norway,2020,-1.361,-1.361,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,257.1168816112094,1.0
+NOR,Norway,2021,4.143,4.143,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,267.76923401636185,1.0
+NOR,Norway,2022,4.08,4.08,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,278.6942187642294,1.0
+NOR,Norway,2023,0.353,0.353,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,279.67800935646716,1.0
+NOR,Norway,2024,1.424,1.424,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,283.66062420970326,1.0
+NOR,Norway,2025,1.058,1.058,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,286.66175361384194,1.0
+POL,"Poland, Republic of",1980,-6.0,-6.0,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,100.0,1.0
+POL,"Poland, Republic of",1981,-10.0,-10.0,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,90.0,1.0
+POL,"Poland, Republic of",1982,-4.846,-4.846,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,85.63860000000001,1.0
+POL,"Poland, Republic of",1983,5.6,5.6,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,90.43436160000002,1.0
+POL,"Poland, Republic of",1984,-0.366,-0.366,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,90.10337183654401,1.0
+POL,"Poland, Republic of",1985,3.862,3.862,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,93.58316405687135,1.0
+POL,"Poland, Republic of",1986,3.494,3.494,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,96.85295980901843,1.0
+POL,"Poland, Republic of",1987,2.302,2.302,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,99.08251494382203,1.0
+POL,"Poland, Republic of",1988,3.285,3.285,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,102.3373755597266,1.0
+POL,"Poland, Republic of",1989,3.812,3.812,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,106.23847631606337,1.0
+POL,"Poland, Republic of",1990,-7.171,-7.171,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,98.62011517943847,1.0
+POL,"Poland, Republic of",1991,-7.005,-7.005,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,91.71177611111881,1.0
+POL,"Poland, Republic of",1992,2.033,2.033,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,93.57627651945785,1.0
+POL,"Poland, Republic of",1993,4.287,4.287,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,97.58789149384701,1.0
+POL,"Poland, Republic of",1994,5.239,5.239,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,102.70052112920965,1.0
+POL,"Poland, Republic of",1995,6.728,6.728,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,109.61021219078287,1.0
+POL,"Poland, Republic of",1996,6.239,6.239,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,116.44879332936581,1.0
+POL,"Poland, Republic of",1997,7.086,7.086,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,124.70035482468467,1.0
+POL,"Poland, Republic of",1998,4.982,4.982,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,130.91292650205045,1.0
+POL,"Poland, Republic of",1999,4.524,4.524,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,136.8354272970032,1.0
+POL,"Poland, Republic of",2000,4.26,4.26,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,142.66461649985553,1.0
+POL,"Poland, Republic of",2001,1.205,1.205,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,144.38372512867878,1.0
+POL,"Poland, Republic of",2002,1.443,1.443,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,146.4671822822856,1.0
+POL,"Poland, Republic of",2003,3.489,3.489,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,151.57742227211455,1.0
+POL,"Poland, Republic of",2004,5.017,5.017,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,159.18206154750655,1.0
+POL,"Poland, Republic of",2005,3.336,3.336,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,164.49237512073137,1.0
+POL,"Poland, Republic of",2006,6.22,6.22,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,174.72380085324087,1.0
+POL,"Poland, Republic of",2007,6.757,6.757,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,186.52988807689434,1.0
+POL,"Poland, Republic of",2008,4.328,4.328,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,194.6029016328623,1.0
+POL,"Poland, Republic of",2009,2.62,2.62,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,199.7014976556433,1.0
+POL,"Poland, Republic of",2010,3.168,3.168,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,206.02804110137407,1.0
+POL,"Poland, Republic of",2011,5.298,5.298,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,216.94340671892488,1.0
+POL,"Poland, Republic of",2012,1.487,1.487,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,220.16935517683527,1.0
+POL,"Poland, Republic of",2013,0.724,0.724,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,221.76338130831553,1.0
+POL,"Poland, Republic of",2014,3.901,3.901,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,230.4143708131529,1.0
+POL,"Poland, Republic of",2015,4.397,4.397,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,240.54569069780726,1.0
+POL,"Poland, Republic of",2016,3.045,3.045,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,247.87030697955552,1.0
+POL,"Poland, Republic of",2017,5.193,5.193,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,260.74221202100387,1.0
+POL,"Poland, Republic of",2018,6.227,6.227,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,276.9786295635518,1.0
+POL,"Poland, Republic of",2019,4.598,4.598,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,289.7141069508839,1.0
+POL,"Poland, Republic of",2020,-2.123,-2.123,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,283.5634764603166,1.0
+POL,"Poland, Republic of",2021,6.967,6.967,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,303.31934386530685,1.0
+POL,"Poland, Republic of",2022,5.294,5.294,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,319.37706992953616,1.0
+POL,"Poland, Republic of",2023,0.266,0.266,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,320.22661293554876,1.0
+POL,"Poland, Republic of",2024,3.21,3.21,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,330.50588721077986,1.0
+POL,"Poland, Republic of",2025,3.657,3.657,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,342.5924875060781,1.0
+PRT,Portugal,1980,6.725,6.725,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+PRT,Portugal,1981,3.523,3.523,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,103.52300000000001,1.0
+PRT,Portugal,1982,2.163,2.163,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,105.76220249000002,1.0
+PRT,Portugal,1983,0.972,0.972,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,106.79021109820282,1.0
+PRT,Portugal,1984,-1.042,-1.042,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,105.67745709855954,1.0
+PRT,Portugal,1985,1.636,1.636,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,107.40634029669197,1.0
+PRT,Portugal,1986,3.32,3.32,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,110.97223079454213,1.0
+PRT,Portugal,1987,7.632,7.632,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,119.44163144878158,1.0
+PRT,Portugal,1988,5.34,5.34,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,125.8198145681465,1.0
+PRT,Portugal,1989,6.649,6.649,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,134.18557403878256,1.0
+PRT,Portugal,1990,7.859,7.859,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,144.73121830249048,1.0
+PRT,Portugal,1991,3.37,3.37,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,149.6086603592844,1.0
+PRT,Portugal,1992,3.13,3.13,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,154.29141142853004,1.0
+PRT,Portugal,1993,-0.687,-0.687,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,153.23142943201603,1.0
+PRT,Portugal,1994,1.489,1.489,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,155.51304541625876,1.0
+PRT,Portugal,1995,2.307,2.307,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,159.10073137401184,1.0
+PRT,Portugal,1996,3.504,3.504,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,164.6756210013572,1.0
+PRT,Portugal,1997,4.401,4.401,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,171.92299508162694,1.0
+PRT,Portugal,1998,4.808,4.808,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,180.18905268515155,1.0
+PRT,Portugal,1999,3.907,3.907,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,187.22903897356042,1.0
+PRT,Portugal,2000,3.816,3.816,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,194.37369910079147,1.0
+PRT,Portugal,2001,1.944,1.944,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,198.15232381131085,1.0
+PRT,Portugal,2002,0.771,0.771,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,199.68007822789608,1.0
+PRT,Portugal,2003,-0.931,-0.931,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,197.82105669959435,1.0
+PRT,Portugal,2004,1.789,1.789,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,201.36007540395008,1.0
+PRT,Portugal,2005,0.782,0.782,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,202.93471119360896,1.0
+PRT,Portugal,2006,1.625,1.625,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,206.23240025050512,1.0
+PRT,Portugal,2007,2.507,2.507,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,211.40264652478527,1.0
+PRT,Portugal,2008,0.319,0.319,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,212.07702096719933,1.0
+PRT,Portugal,2009,-3.122,-3.122,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,205.45597637260337,1.0
+PRT,Portugal,2010,1.738,1.738,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,209.02680124195922,1.0
+PRT,Portugal,2011,-1.714,-1.714,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,205.44408186867204,1.0
+PRT,Portugal,2012,-4.051,-4.051,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,197.12154211217214,1.0
+PRT,Portugal,2013,-0.984,-0.984,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,195.18186613778838,1.0
+PRT,Portugal,2014,0.741,0.741,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,196.62816376586937,1.0
+PRT,Portugal,2015,1.59,1.59,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,199.7545515697467,1.0
+PRT,Portugal,2016,2.004,2.004,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,203.75763278320443,1.0
+PRT,Portugal,2017,3.315,3.315,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,210.51219830996766,1.0
+PRT,Portugal,2018,2.946,2.946,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,216.7138876721793,1.0
+PRT,Portugal,2019,2.746,2.746,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,222.66485102765736,1.0
+PRT,Portugal,2020,-8.205,-8.205,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,204.3952000008381,1.0
+PRT,Portugal,2021,5.559,5.559,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,215.75752916888467,1.0
+PRT,Portugal,2022,6.986,6.986,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,230.83035015662296,1.0
+PRT,Portugal,2023,3.1,3.1,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,237.98609101147824,1.0
+PRT,Portugal,2024,2.215,2.215,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,243.25748292738245,1.0
+PRT,Portugal,2025,1.861,1.861,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,247.78450468466104,1.0
+ROU,Romania,1980,3.304,3.304,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+ROU,Romania,1981,0.1,0.1,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.1,1.0
+ROU,Romania,1982,3.9,3.9,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,104.00389999999999,1.0
+ROU,Romania,1983,6.0,6.0,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,110.24413399999999,1.0
+ROU,Romania,1984,6.0,6.0,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,116.85878204,1.0
+ROU,Romania,1985,-0.1,-0.1,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,116.74192325796,1.0
+ROU,Romania,1986,2.4,2.4,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,119.54372941615104,1.0
+ROU,Romania,1987,0.8,0.8,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,120.50007925148024,1.0
+ROU,Romania,1988,-0.5,-0.5,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,119.89757885522285,1.0
+ROU,Romania,1989,-5.8,-5.8,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,112.94351928161991,1.0
+ROU,Romania,1990,-5.612,-5.612,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,106.60512897953541,1.0
+ROU,Romania,1991,-12.927,-12.927,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,92.82428395635087,1.0
+ROU,Romania,1992,-8.766,-8.766,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,84.68730722473715,1.0
+ROU,Romania,1993,1.528,1.528,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,85.98132927913113,1.0
+ROU,Romania,1994,3.932,3.932,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,89.36211514638657,1.0
+ROU,Romania,1995,7.138,7.138,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,95.74078292553564,1.0
+ROU,Romania,1996,3.948,3.948,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,99.52062903543579,1.0
+ROU,Romania,1997,-6.053,-6.053,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,93.49664535992086,1.0
+ROU,Romania,1998,-4.818,-4.818,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,88.99197698647987,1.0
+ROU,Romania,1999,-1.15,-1.15,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,87.96856925113535,1.0
+ROU,Romania,2000,2.921,2.921,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,90.53813115896101,1.0
+ROU,Romania,2001,5.218,5.218,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,95.26241084283558,1.0
+ROU,Romania,2002,5.703,5.703,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.69522613320248,1.0
+ROU,Romania,2003,2.341,2.341,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,103.05250137698074,1.0
+ROU,Romania,2004,10.428,10.428,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,113.79881622057229,1.0
+ROU,Romania,2005,4.668,4.668,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,119.11094496174861,1.0
+ROU,Romania,2006,8.029,8.029,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,128.67436273272742,1.0
+ROU,Romania,2007,7.234,7.234,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,137.98266613281294,1.0
+ROU,Romania,2008,9.307,9.307,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,150.82471286979384,1.0
+ROU,Romania,2009,-5.517,-5.517,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,142.5037134607673,1.0
+ROU,Romania,2010,-3.906,-3.906,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,136.93751841298973,1.0
+ROU,Romania,2011,4.496,4.496,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,143.09422924083776,1.0
+ROU,Romania,2012,1.904,1.904,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,145.81874336558332,1.0
+ROU,Romania,2013,0.279,0.279,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,146.2255776595733,1.0
+ROU,Romania,2014,4.116,4.116,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,152.24422243604135,1.0
+ROU,Romania,2015,3.157,3.157,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,157.05057253834718,1.0
+ROU,Romania,2016,2.86,2.86,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,161.5422189129439,1.0
+ROU,Romania,2017,8.195,8.195,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,174.78060375285963,1.0
+ROU,Romania,2018,5.395,5.395,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,184.2100173253264,1.0
+ROU,Romania,2019,3.96,3.96,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,191.50473401140934,1.0
+ROU,Romania,2020,-3.598,-3.598,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,184.61439368167882,1.0
+ROU,Romania,2021,5.587,5.587,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,194.92879985667423,1.0
+ROU,Romania,2022,4.188,4.188,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,203.09241799467173,1.0
+ROU,Romania,2023,2.258,2.258,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,207.67824479299142,1.0
+ROU,Romania,2024,0.916,0.916,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,209.58057751529523,1.0
+ROU,Romania,2025,0.678,0.678,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,211.00153383084893,1.0
+SWE,Sweden,1980,4.555,4.555,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,100.0,1.0
+SWE,Sweden,1981,4.54,4.54,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,104.54,1.0
+SWE,Sweden,1982,1.398,1.398,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,106.00146920000002,1.0
+SWE,Sweden,1983,1.955,1.955,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,108.07379792286001,1.0
+SWE,Sweden,1984,4.333,4.333,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,112.75663558685754,1.0
+SWE,Sweden,1985,2.304,2.304,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,115.35454847077874,1.0
+SWE,Sweden,1986,3.101,3.101,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,118.93169301885759,1.0
+SWE,Sweden,1987,3.438,3.438,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,123.02056462484592,1.0
+SWE,Sweden,1988,2.544,2.544,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,126.15020778890198,1.0
+SWE,Sweden,1989,2.563,2.563,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,129.38343761453154,1.0
+SWE,Sweden,1990,0.473,0.473,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,129.99542127444826,1.0
+SWE,Sweden,1991,-1.128,-1.128,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,128.5290729224725,1.0
+SWE,Sweden,1992,-1.06,-1.06,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,127.16666474949427,1.0
+SWE,Sweden,1993,-1.827,-1.827,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,124.84332978452102,1.0
+SWE,Sweden,1994,4.016,4.016,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,129.85703790866737,1.0
+SWE,Sweden,1995,4.094,4.094,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,135.1733850406482,1.0
+SWE,Sweden,1996,1.705,1.705,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,137.47809125559127,1.0
+SWE,Sweden,1997,3.065,3.065,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,141.69179475257513,1.0
+SWE,Sweden,1998,4.246,4.246,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,147.70802835776948,1.0
+SWE,Sweden,1999,4.201,4.201,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,153.91324262907938,1.0
+SWE,Sweden,2000,4.631,4.631,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,161.04096489523207,1.0
+SWE,Sweden,2001,1.361,1.361,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,163.23273242745617,1.0
+SWE,Sweden,2002,2.278,2.278,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,166.95117407215363,1.0
+SWE,Sweden,2003,1.881,1.881,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,170.09152565645084,1.0
+SWE,Sweden,2004,4.18,4.18,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,177.2013514288905,1.0
+SWE,Sweden,2005,2.793,2.793,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,182.1505851742994,1.0
+SWE,Sweden,2006,4.676,4.676,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,190.66794653704963,1.0
+SWE,Sweden,2007,3.225,3.225,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,196.81698781286946,1.0
+SWE,Sweden,2008,-0.923,-0.923,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,195.0003670153567,1.0
+SWE,Sweden,2009,-4.256,-4.256,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,186.7011513951831,1.0
+SWE,Sweden,2010,5.751,5.751,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,197.43833461192008,1.0
+SWE,Sweden,2011,3.164,3.164,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,203.6852835190412,1.0
+SWE,Sweden,2012,-0.414,-0.414,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,202.84202644527238,1.0
+SWE,Sweden,2013,1.138,1.138,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,205.15036870621958,1.0
+SWE,Sweden,2014,2.296,2.296,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,209.8606211717144,1.0
+SWE,Sweden,2015,4.388,4.388,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,219.0693052287292,1.0
+SWE,Sweden,2016,2.131,2.131,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,223.7376721231534,1.0
+SWE,Sweden,2017,1.883,1.883,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,227.95065248923237,1.0
+SWE,Sweden,2018,1.77,1.77,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,231.9853790382918,1.0
+SWE,Sweden,2019,2.608,2.608,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,238.03555772361048,1.0
+SWE,Sweden,2020,-1.934,-1.934,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,233.43195003723585,1.0
+SWE,Sweden,2021,5.226,5.226,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,245.6311037461818,1.0
+SWE,Sweden,2022,1.255,1.255,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,248.71377409819638,1.0
+SWE,Sweden,2023,-0.204,-0.204,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,True,248.20639799903606,1.0
+SWE,Sweden,2024,1.99,1.99,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,253.1457053192169,1.0
+SWE,Sweden,2025,1.397,1.397,Percent,Units,IMF World Economic Outlook,October 2026,historical_actual,False,False,256.68215082252635,1.0

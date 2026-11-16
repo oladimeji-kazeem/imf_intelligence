@@ -1,0 +1,77 @@
+EUROPEAN GROWTH RISK CLASSIFICATION REPORT
+======================================================================
+
+METHODOLOGY
+----------------------------------------------------------------------
+Historical actual annual real GDP growth observations only.
+Long-run period: 1980-2025.
+Recent period: 2020-2024.
+Volatility period: 2000-2024.
+Risk classes are peer-relative tercile classifications.
+Higher risk percentiles indicate greater relative exposure.
+No composite growth risk score is calculated.
+Contraction severity combines average episode duration
+and average worst annual growth.
+Recovery weakness excludes unassessable and incomplete episodes
+from its failure-rate denominator.
+
+COUNTRY COVERAGE
+----------------------------------------------------------------------
+Countries: 20
+Growth observations: 920
+Contraction episodes: 95
+
+RISK CLASS DISTRIBUTIONS
+----------------------------------------------------------------------
+LONG_RUN_GROWTH_WEAKNESS
+  higher_risk: 7
+  moderate_risk: 7
+  lower_risk: 6
+  insufficient_data: 0
+
+RECENT_GROWTH_WEAKNESS
+  higher_risk: 7
+  moderate_risk: 7
+  lower_risk: 6
+  insufficient_data: 0
+
+GROWTH_INSTABILITY
+  higher_risk: 7
+  moderate_risk: 7
+  lower_risk: 6
+  insufficient_data: 0
+
+CONTRACTION_FREQUENCY
+  higher_risk: 7
+  moderate_risk: 7
+  lower_risk: 6
+  insufficient_data: 0
+
+CONTRACTION_SEVERITY
+  higher_risk: 5
+  moderate_risk: 10
+  lower_risk: 5
+  insufficient_data: 0
+
+RECOVERY_WEAKNESS
+  higher_risk: 7
+  moderate_risk: 1
+  lower_risk: 12
+  insufficient_data: 0
+
+IMPORTANT LIMITATIONS
+----------------------------------------------------------------------
+Peer-relative classifications are not absolute risk thresholds.
+The country peer group contains 20 selected European economies.
+Historical coverage is not identical across all countries.
+Long-run mean growth can be affected by extreme observations.
+Standard deviation is sensitive to outliers.
+Contraction episodes use annual rather than quarterly data.
+Recovery is GDP-level recovery, not a full resilience measure.
+The classification is not a sovereign rating or default probability.
+
+OUTPUTS
+----------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_growth_risk_classifications.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_growth_risk_dimension_detail.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_growth_risk_classification_report.txt

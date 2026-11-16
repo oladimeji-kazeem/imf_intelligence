@@ -1,0 +1,21 @@
+ISO,country,historical_records,first_year,last_year,numeric_observations,missing_observations,contractions,numeric_coverage_pct
+AUT,Austria,46,1980,2025,46,0,6,100.0
+BEL,Belgium,46,1980,2025,46,0,4,100.0
+CHE,Switzerland,46,1980,2025,46,0,7,100.0
+CZE,Czech Republic,46,1980,2025,30,16,6,65.21739130434783
+DEU,Germany,46,1980,2025,46,0,7,100.0
+DNK,Denmark,46,1980,2025,46,0,7,100.0
+ESP,Spain,46,1980,2025,46,0,7,100.0
+FIN,Finland,46,1980,2025,46,0,9,100.0
+FRA,France,46,1980,2025,46,0,3,100.0
+GBR,United Kingdom,46,1980,2025,46,0,5,100.0
+GRC,Greece,46,1980,2025,46,0,13,100.0
+HUN,Hungary,46,1980,2025,46,0,10,100.0
+IRL,Ireland,46,1980,2025,46,0,5,100.0
+ITA,Italy,46,1980,2025,46,0,7,100.0
+NLD,"Netherlands, The",46,1980,2025,45,1,7,97.82608695652173
+NOR,Norway,46,1980,2025,46,0,3,100.0
+POL,"Poland, Republic of",46,1980,2025,46,0,7,100.0
+PRT,Portugal,46,1980,2025,46,0,8,100.0
+ROU,Romania,46,1980,2025,46,0,12,100.0
+SWE,Sweden,46,1980,2025,46,0,8,100.0

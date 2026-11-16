@@ -1,0 +1,89 @@
+==============================================================================
+EUROPEAN GROWTH RISK INPUT PANEL REPORT
+==============================================================================
+Source: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_weo_classified.csv
+Indicator: NGDP_RPCH
+Period: 1980-2025
+Countries: 20
+Historical records: 920
+Expected records: 920
+Duplicate country-year records: 0
+Missing growth observations: 17
+Numeric growth observations: 903
+Source value mismatches: 0
+
+COUNTRY COVERAGE
+------------------------------------------------------------------------------
+ISO             country  historical_records  first_year  last_year  numeric_observations  missing_observations  contractions  numeric_coverage_pct
+AUT             Austria                  46        1980       2025                    46                     0             6            100.000000
+BEL             Belgium                  46        1980       2025                    46                     0             4            100.000000
+CHE         Switzerland                  46        1980       2025                    46                     0             7            100.000000
+CZE      Czech Republic                  46        1980       2025                    30                    16             6             65.217391
+DEU             Germany                  46        1980       2025                    46                     0             7            100.000000
+DNK             Denmark                  46        1980       2025                    46                     0             7            100.000000
+ESP               Spain                  46        1980       2025                    46                     0             7            100.000000
+FIN             Finland                  46        1980       2025                    46                     0             9            100.000000
+FRA              France                  46        1980       2025                    46                     0             3            100.000000
+GBR      United Kingdom                  46        1980       2025                    46                     0             5            100.000000
+GRC              Greece                  46        1980       2025                    46                     0            13            100.000000
+HUN             Hungary                  46        1980       2025                    46                     0            10            100.000000
+IRL             Ireland                  46        1980       2025                    46                     0             5            100.000000
+ITA               Italy                  46        1980       2025                    46                     0             7            100.000000
+NLD    Netherlands, The                  46        1980       2025                    45                     1             7             97.826087
+NOR              Norway                  46        1980       2025                    46                     0             3            100.000000
+POL Poland, Republic of                  46        1980       2025                    46                     0             7            100.000000
+PRT            Portugal                  46        1980       2025                    46                     0             8            100.000000
+ROU             Romania                  46        1980       2025                    46                     0            12            100.000000
+SWE              Sweden                  46        1980       2025                    46                     0             8            100.000000
+
+MISSING OBSERVATIONS
+------------------------------------------------------------------------------
+ISO          country  year observation_status
+CZE   Czech Republic  1980  historical_actual
+CZE   Czech Republic  1981  historical_actual
+CZE   Czech Republic  1982  historical_actual
+CZE   Czech Republic  1983  historical_actual
+CZE   Czech Republic  1984  historical_actual
+CZE   Czech Republic  1985  historical_actual
+CZE   Czech Republic  1986  historical_actual
+CZE   Czech Republic  1987  historical_actual
+CZE   Czech Republic  1988  historical_actual
+CZE   Czech Republic  1989  historical_actual
+CZE   Czech Republic  1990  historical_actual
+CZE   Czech Republic  1991  historical_actual
+CZE   Czech Republic  1992  historical_actual
+CZE   Czech Republic  1993  historical_actual
+CZE   Czech Republic  1994  historical_actual
+CZE   Czech Republic  1995  historical_actual
+NLD Netherlands, The  1980  historical_actual
+
+2020-2024 COMMON WINDOW
+------------------------------------------------------------------------------
+Records: 100
+Numeric observations: 100
+Countries: 20
+Balanced numeric coverage: PASS
+
+HISTORICAL GROWTH RANGE
+------------------------------------------------------------------------------
+Minimum growth: -12.927%
+ISO country  year
+ROU Romania  1991
+Maximum growth: 24.649%
+ISO country  year
+IRL Ireland  2015
+
+VALIDATION SUMMARY
+------------------------------------------------------------------------------
+Expected countries present: PASS
+Expected historical record count: PASS
+No duplicate country-year records: PASS
+2020-2024 complete numeric panel: PASS
+Source values consistent: PASS
+
+INTERPRETATION
+------------------------------------------------------------------------------
+This is an actual-only historical input panel. Missing growth observations have not been imputed.
+Negative annual real GDP growth is identified as a contraction.
+The 2020-2024 period has complete numeric coverage across all 20 countries.
+No growth risk classifications, composite scores or forecasts are produced at this stage.

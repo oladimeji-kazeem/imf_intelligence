@@ -1,0 +1,121 @@
+iso,country,dimension,source_metric,source_value,risk_percentile,risk_class,peer_group_size
+AUT,Austria,long_run_growth_weakness,long_run_mean_growth_pct,1.7765000000000002,0.75,higher_risk,20
+BEL,Belgium,long_run_growth_weakness,long_run_mean_growth_pct,1.8701739130434785,0.55,moderate_risk,20
+CHE,Switzerland,long_run_growth_weakness,long_run_mean_growth_pct,1.8669565217391306,0.6,moderate_risk,20
+CZE,Czech Republic,long_run_growth_weakness,long_run_mean_growth_pct,2.2760666666666665,0.2,lower_risk,20
+DEU,Germany,long_run_growth_weakness,long_run_mean_growth_pct,1.543782608695652,0.9,higher_risk,20
+DNK,Denmark,long_run_growth_weakness,long_run_mean_growth_pct,1.8600217391304346,0.65,moderate_risk,20
+ESP,Spain,long_run_growth_weakness,long_run_mean_growth_pct,2.2303913043478256,0.25,lower_risk,20
+FIN,Finland,long_run_growth_weakness,long_run_mean_growth_pct,1.9261521739130434,0.5,moderate_risk,20
+FRA,France,long_run_growth_weakness,long_run_mean_growth_pct,1.7549782608695652,0.8,higher_risk,20
+GBR,United Kingdom,long_run_growth_weakness,long_run_mean_growth_pct,2.0090000000000003,0.45,moderate_risk,20
+GRC,Greece,long_run_growth_weakness,long_run_mean_growth_pct,1.050608695652174,1.0,higher_risk,20
+HUN,Hungary,long_run_growth_weakness,long_run_mean_growth_pct,1.5876304347826082,0.85,higher_risk,20
+IRL,Ireland,long_run_growth_weakness,long_run_mean_growth_pct,5.082304347826088,0.05,lower_risk,20
+ITA,Italy,long_run_growth_weakness,long_run_mean_growth_pct,1.2890217391304348,0.95,higher_risk,20
+NLD,"Netherlands, The",long_run_growth_weakness,long_run_mean_growth_pct,2.1022222222222227,0.4,moderate_risk,20
+NOR,Norway,long_run_growth_weakness,long_run_mean_growth_pct,2.4286521739130436,0.15,lower_risk,20
+POL,"Poland, Republic of",long_run_growth_weakness,long_run_mean_growth_pct,2.653673913043478,0.1,lower_risk,20
+PRT,Portugal,long_run_growth_weakness,long_run_mean_growth_pct,2.181586956521739,0.35,moderate_risk,20
+ROU,Romania,long_run_growth_weakness,long_run_mean_growth_pct,1.8291521739130432,0.7,higher_risk,20
+SWE,Sweden,long_run_growth_weakness,long_run_mean_growth_pct,2.1914565217391306,0.3,lower_risk,20
+AUT,Austria,recent_growth_weakness,recent_mean_growth_pct,0.4982000000000001,0.9,higher_risk,20
+BEL,Belgium,recent_growth_weakness,recent_mean_growth_pct,1.629,0.5,moderate_risk,20
+CHE,Switzerland,recent_growth_weakness,recent_mean_growth_pct,1.9928000000000001,0.2,lower_risk,20
+CZE,Czech Republic,recent_growth_weakness,recent_mean_growth_pct,0.5864,0.85,higher_risk,20
+DEU,Germany,recent_growth_weakness,recent_mean_growth_pct,0.15699999999999997,0.95,higher_risk,20
+DNK,Denmark,recent_growth_weakness,recent_mean_growth_pct,2.0298000000000003,0.15,lower_risk,20
+ESP,Spain,recent_growth_weakness,recent_mean_growth_pct,1.6290000000000002,0.45,moderate_risk,20
+FIN,Finland,recent_growth_weakness,recent_mean_growth_pct,0.10740000000000001,1.0,higher_risk,20
+FRA,France,recent_growth_weakness,recent_mean_growth_pct,1.0455999999999999,0.75,higher_risk,20
+GBR,United Kingdom,recent_growth_weakness,recent_mean_growth_pct,1.0102000000000002,0.8,higher_risk,20
+GRC,Greece,recent_growth_weakness,recent_mean_growth_pct,1.8406000000000002,0.35,moderate_risk,20
+HUN,Hungary,recent_growth_weakness,recent_mean_growth_pct,1.3812000000000002,0.6,moderate_risk,20
+IRL,Ireland,recent_growth_weakness,recent_mean_growth_pct,6.402800000000001,0.05,lower_risk,20
+ITA,Italy,recent_growth_weakness,recent_mean_growth_pct,1.3179999999999998,0.65,moderate_risk,20
+NLD,"Netherlands, The",recent_growth_weakness,recent_mean_growth_pct,1.5752,0.55,moderate_risk,20
+NOR,Norway,recent_growth_weakness,recent_mean_growth_pct,1.7277999999999998,0.4,moderate_risk,20
+POL,"Poland, Republic of",recent_growth_weakness,recent_mean_growth_pct,2.7227999999999994,0.1,lower_risk,20
+PRT,Portugal,recent_growth_weakness,recent_mean_growth_pct,1.9309999999999998,0.25,lower_risk,20
+ROU,Romania,recent_growth_weakness,recent_mean_growth_pct,1.8701999999999999,0.3,lower_risk,20
+SWE,Sweden,recent_growth_weakness,recent_mean_growth_pct,1.2666,0.7,higher_risk,20
+AUT,Austria,growth_instability,volatility_std_2000_2024_pct,2.455889808195799,0.45,moderate_risk,20
+BEL,Belgium,growth_instability,volatility_std_2000_2024_pct,2.0695497722934815,0.15,lower_risk,20
+CHE,Switzerland,growth_instability,volatility_std_2000_2024_pct,1.8544203335094591,0.1,lower_risk,20
+CZE,Czech Republic,growth_instability,volatility_std_2000_2024_pct,2.9312934858181636,0.6,moderate_risk,20
+DEU,Germany,growth_instability,volatility_std_2000_2024_pct,2.3024652679247954,0.3,lower_risk,20
+DNK,Denmark,growth_instability,volatility_std_2000_2024_pct,2.15513079108129,0.2,lower_risk,20
+ESP,Spain,growth_instability,volatility_std_2000_2024_pct,3.663417064708849,0.85,higher_risk,20
+FIN,Finland,growth_instability,volatility_std_2000_2024_pct,2.843290539146501,0.55,moderate_risk,20
+FRA,France,growth_instability,volatility_std_2000_2024_pct,2.500159556241695,0.5,moderate_risk,20
+GBR,United Kingdom,growth_instability,volatility_std_2000_2024_pct,3.2886583383906975,0.8,higher_risk,20
+GRC,Greece,growth_instability,volatility_std_2000_2024_pct,4.971997044112825,0.95,higher_risk,20
+HUN,Hungary,growth_instability,volatility_std_2000_2024_pct,3.190453686651268,0.7,higher_risk,20
+IRL,Ireland,growth_instability,volatility_std_2000_2024_pct,6.286777297895428,1.0,higher_risk,20
+ITA,Italy,growth_instability,volatility_std_2000_2024_pct,3.2476062764237086,0.75,higher_risk,20
+NLD,"Netherlands, The",growth_instability,volatility_std_2000_2024_pct,2.3291923228163594,0.4,moderate_risk,20
+NOR,Norway,growth_instability,volatility_std_2000_2024_pct,1.5028958580021439,0.05,lower_risk,20
+POL,"Poland, Republic of",growth_instability,volatility_std_2000_2024_pct,2.2054160212229044,0.25,lower_risk,20
+PRT,Portugal,growth_instability,volatility_std_2000_2024_pct,3.1047908421234003,0.65,moderate_risk,20
+ROU,Romania,growth_instability,volatility_std_2000_2024_pct,3.910422111486176,0.9,higher_risk,20
+SWE,Sweden,growth_instability,volatility_std_2000_2024_pct,2.3152515752433183,0.35,moderate_risk,20
+AUT,Austria,contraction_frequency,contraction_frequency_pct,13.043478260869565,0.3,lower_risk,20
+BEL,Belgium,contraction_frequency,contraction_frequency_pct,8.695652173913043,0.15,lower_risk,20
+CHE,Switzerland,contraction_frequency,contraction_frequency_pct,15.217391304347828,0.475,moderate_risk,20
+CZE,Czech Republic,contraction_frequency,contraction_frequency_pct,20.0,0.85,higher_risk,20
+DEU,Germany,contraction_frequency,contraction_frequency_pct,15.217391304347828,0.475,moderate_risk,20
+DNK,Denmark,contraction_frequency,contraction_frequency_pct,15.217391304347828,0.475,moderate_risk,20
+ESP,Spain,contraction_frequency,contraction_frequency_pct,15.217391304347828,0.475,moderate_risk,20
+FIN,Finland,contraction_frequency,contraction_frequency_pct,19.565217391304348,0.8,higher_risk,20
+FRA,France,contraction_frequency,contraction_frequency_pct,6.521739130434782,0.075,lower_risk,20
+GBR,United Kingdom,contraction_frequency,contraction_frequency_pct,10.869565217391305,0.225,lower_risk,20
+GRC,Greece,contraction_frequency,contraction_frequency_pct,28.26086956521739,1.0,higher_risk,20
+HUN,Hungary,contraction_frequency,contraction_frequency_pct,21.73913043478261,0.9,higher_risk,20
+IRL,Ireland,contraction_frequency,contraction_frequency_pct,10.869565217391305,0.225,lower_risk,20
+ITA,Italy,contraction_frequency,contraction_frequency_pct,15.217391304347828,0.475,moderate_risk,20
+NLD,"Netherlands, The",contraction_frequency,contraction_frequency_pct,15.555555555555555,0.65,moderate_risk,20
+NOR,Norway,contraction_frequency,contraction_frequency_pct,6.521739130434782,0.075,lower_risk,20
+POL,"Poland, Republic of",contraction_frequency,contraction_frequency_pct,15.217391304347828,0.475,moderate_risk,20
+PRT,Portugal,contraction_frequency,contraction_frequency_pct,17.391304347826086,0.725,higher_risk,20
+ROU,Romania,contraction_frequency,contraction_frequency_pct,26.08695652173913,0.95,higher_risk,20
+SWE,Sweden,contraction_frequency,contraction_frequency_pct,17.391304347826086,0.725,higher_risk,20
+AUT,Austria,recovery_weakness,recovery_failure_rate,0.0,0.325,lower_risk,20
+BEL,Belgium,recovery_weakness,recovery_failure_rate,0.0,0.325,lower_risk,20
+CHE,Switzerland,recovery_weakness,recovery_failure_rate,0.0,0.325,lower_risk,20
+CZE,Czech Republic,recovery_weakness,recovery_failure_rate,0.0,0.325,lower_risk,20
+DEU,Germany,recovery_weakness,recovery_failure_rate,0.0,0.325,lower_risk,20
+DNK,Denmark,recovery_weakness,recovery_failure_rate,0.0,0.325,lower_risk,20
+ESP,Spain,recovery_weakness,recovery_failure_rate,0.2,0.85,higher_risk,20
+FIN,Finland,recovery_weakness,recovery_failure_rate,0.2,0.85,higher_risk,20
+FRA,France,recovery_weakness,recovery_failure_rate,0.0,0.325,lower_risk,20
+GBR,United Kingdom,recovery_weakness,recovery_failure_rate,0.0,0.325,lower_risk,20
+GRC,Greece,recovery_weakness,recovery_failure_rate,0.16666666666666666,0.725,higher_risk,20
+HUN,Hungary,recovery_weakness,recovery_failure_rate,0.14285714285714285,0.65,moderate_risk,20
+IRL,Ireland,recovery_weakness,recovery_failure_rate,0.0,0.325,lower_risk,20
+ITA,Italy,recovery_weakness,recovery_failure_rate,0.5,1.0,higher_risk,20
+NLD,"Netherlands, The",recovery_weakness,recovery_failure_rate,0.25,0.95,higher_risk,20
+NOR,Norway,recovery_weakness,recovery_failure_rate,0.0,0.325,lower_risk,20
+POL,"Poland, Republic of",recovery_weakness,recovery_failure_rate,0.0,0.325,lower_risk,20
+PRT,Portugal,recovery_weakness,recovery_failure_rate,0.16666666666666666,0.725,higher_risk,20
+ROU,Romania,recovery_weakness,recovery_failure_rate,0.2,0.85,higher_risk,20
+SWE,Sweden,recovery_weakness,recovery_failure_rate,0.0,0.325,lower_risk,20
+AUT,Austria,contraction_severity,mean_duration_and_mean_depth,,0.325,lower_risk,20
+BEL,Belgium,contraction_severity,mean_duration_and_mean_depth,,0.175,lower_risk,20
+CHE,Switzerland,contraction_severity,mean_duration_and_mean_depth,,0.3125,lower_risk,20
+CZE,Czech Republic,contraction_severity,mean_duration_and_mean_depth,,0.6,moderate_risk,20
+DEU,Germany,contraction_severity,mean_duration_and_mean_depth,,0.275,lower_risk,20
+DNK,Denmark,contraction_severity,mean_duration_and_mean_depth,,0.3375,moderate_risk,20
+ESP,Spain,contraction_severity,mean_duration_and_mean_depth,,0.6375,moderate_risk,20
+FIN,Finland,contraction_severity,mean_duration_and_mean_depth,,0.8,higher_risk,20
+FRA,France,contraction_severity,mean_duration_and_mean_depth,,0.35,moderate_risk,20
+GBR,United Kingdom,contraction_severity,mean_duration_and_mean_depth,,0.5875,moderate_risk,20
+GRC,Greece,contraction_severity,mean_duration_and_mean_depth,,0.875,higher_risk,20
+HUN,Hungary,contraction_severity,mean_duration_and_mean_depth,,0.65,moderate_risk,20
+IRL,Ireland,contraction_severity,mean_duration_and_mean_depth,,0.3875,moderate_risk,20
+ITA,Italy,contraction_severity,mean_duration_and_mean_depth,,0.8625,higher_risk,20
+NLD,"Netherlands, The",contraction_severity,mean_duration_and_mean_depth,,0.4125,moderate_risk,20
+NOR,Norway,contraction_severity,mean_duration_and_mean_depth,,0.07500000000000001,lower_risk,20
+POL,"Poland, Republic of",contraction_severity,mean_duration_and_mean_depth,,0.8875,higher_risk,20
+PRT,Portugal,contraction_severity,mean_duration_and_mean_depth,,0.47500000000000003,moderate_risk,20
+ROU,Romania,contraction_severity,mean_duration_and_mean_depth,,1.0,higher_risk,20
+SWE,Sweden,contraction_severity,mean_duration_and_mean_depth,,0.475,moderate_risk,20
