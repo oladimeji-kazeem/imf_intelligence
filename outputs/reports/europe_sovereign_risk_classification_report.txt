@@ -1,0 +1,188 @@
+==============================================================================
+EUROPEAN SOVEREIGN RISK CLASSIFICATION REPORT
+==============================================================================
+Countries: 17
+Reference year: 2024
+Historical period: 2020-2024
+
+CLASSIFICATION METHODOLOGY
+------------------------------------------------------------------------------
+Classifications are peer-relative terciles among available countries.
+They are not absolute risk thresholds, credit ratings or default probabilities.
+Higher debt, debt increases and positive debt-increasing contributions represent higher exposure.
+For primary balance, a lower value represents greater fiscal pressure.
+Accounting adjustments are exposures, not causal estimates.
+Five-year cumulative accounting components are classified only when all five annual observations are available.
+
+COUNTRY DEBT BURDEN
+------------------------------------------------------------------------------
+EL: debt/GDP=153.53%
+IT: debt/GDP=134.25%
+FR: debt/GDP=112.63%
+BE: debt/GDP=103.98%
+ES: debt/GDP=101.38%
+PT: debt/GDP=93.03%
+FI: debt/GDP=82.47%
+AT: debt/GDP=79.02%
+HU: debt/GDP=73.45%
+DE: debt/GDP=61.42%
+PL: debt/GDP=54.85%
+RO: debt/GDP=54.59%
+NL: debt/GDP=44.05%
+CZ: debt/GDP=43.23%
+IE: debt/GDP=38.36%
+SE: debt/GDP=34.00%
+DK: debt/GDP=29.90%
+
+COUNTRY DEBT TRAJECTORY
+------------------------------------------------------------------------------
+RO: debt change=+19.1786 pp
+FI: debt change=+17.1457 pp
+FR: debt change=+14.4771 pp
+CZ: debt change=+13.6799 pp
+PL: debt change=+9.6357 pp
+HU: debt change=+8.4621 pp
+AT: debt change=+8.0113 pp
+BE: debt change=+6.2840 pp
+ES: debt change=+3.7163 pp
+DE: debt change=+3.0693 pp
+IT: debt change=+0.0790 pp
+SE: debt change=-2.2893 pp
+NL: debt change=-3.6036 pp
+DK: debt change=-8.4316 pp
+IE: debt change=-17.4524 pp
+PT: debt change=-23.0798 pp
+EL: debt change=-29.6385 pp
+
+PRIMARY BALANCE PRESSURE — 2024
+------------------------------------------------------------------------------
+RO: primary balance=-6.7427% GDP
+PL: primary balance=-4.2507% GDP
+FR: primary balance=-3.7131% GDP
+AT: primary balance=-3.1227% GDP
+FI: primary balance=-2.8742% GDP
+BE: primary balance=-2.2020% GDP
+DE: primary balance=-1.6692% GDP
+SE: primary balance=-0.8760% GDP
+ES: primary balance=-0.7447% GDP
+CZ: primary balance=-0.6435% GDP
+HU: primary balance=-0.2638% GDP
+NL: primary balance=-0.0173% GDP
+IT: primary balance=+0.4813% GDP
+PT: primary balance=+2.7789% GDP
+IE: primary balance=+4.7469% GDP
+EL: primary balance=+4.8594% GDP
+DK: primary balance=+4.8723% GDP
+
+ACCOUNTING COVERAGE
+------------------------------------------------------------------------------
+BE: A_complete; top-level SFA=5/5 (A_complete); detailed ORADJ=5/5 (A_complete)
+CZ: A_complete; top-level SFA=5/5 (A_complete); detailed ORADJ=5/5 (A_complete)
+EL: A_complete; top-level SFA=5/5 (A_complete); detailed ORADJ=5/5 (A_complete)
+ES: A_complete; top-level SFA=5/5 (A_complete); detailed ORADJ=5/5 (A_complete)
+HU: A_complete; top-level SFA=5/5 (A_complete); detailed ORADJ=5/5 (A_complete)
+IE: A_complete; top-level SFA=5/5 (A_complete); detailed ORADJ=5/5 (A_complete)
+PL: A_complete; top-level SFA=5/5 (A_complete); detailed ORADJ=5/5 (A_complete)
+PT: A_complete; top-level SFA=5/5 (A_complete); detailed ORADJ=5/5 (A_complete)
+FR: B_high; top-level SFA=4/5 (B_high); detailed ORADJ=4/5 (B_high)
+AT: C_partial; top-level SFA=3/5 (C_partial); detailed ORADJ=3/5 (C_partial)
+DE: C_partial; top-level SFA=3/5 (C_partial); detailed ORADJ=3/5 (C_partial)
+DK: C_partial; top-level SFA=3/5 (C_partial); detailed ORADJ=3/5 (C_partial)
+FI: C_partial; top-level SFA=3/5 (C_partial); detailed ORADJ=3/5 (C_partial)
+IT: C_partial; top-level SFA=3/5 (C_partial); detailed ORADJ=3/5 (C_partial)
+RO: C_partial; top-level SFA=5/5 (A_complete); detailed ORADJ=3/5 (C_partial)
+SE: C_partial; top-level SFA=3/5 (C_partial); detailed ORADJ=3/5 (C_partial)
+NL: D_unavailable; top-level SFA=5/5 (A_complete); detailed ORADJ=0/5 (D_unavailable)
+
+CLASSIFICATION COUNTS
+------------------------------------------------------------------------------
+debt_burden:
+  moderate_relative_exposure: 6
+  higher_relative_exposure: 6
+  lower_relative_exposure: 5
+primary_balance_pressure_2024:
+  higher_relative_exposure: 6
+  moderate_relative_exposure: 6
+  lower_relative_exposure: 5
+debt_trajectory_2020_2024:
+  moderate_relative_exposure: 6
+  higher_relative_exposure: 6
+  lower_relative_exposure: 5
+interest_growth_pressure_2020_2024:
+  moderate_relative_exposure: 6
+  higher_relative_exposure: 6
+  lower_relative_exposure: 5
+financial_asset_acquisition_2020_2024:
+  insufficient_data: 7
+  higher_relative_exposure: 4
+  moderate_relative_exposure: 3
+  lower_relative_exposure: 3
+oradj_exposure_2020_2024:
+  insufficient_data: 7
+  higher_relative_exposure: 4
+  moderate_relative_exposure: 3
+  lower_relative_exposure: 3
+statistical_discrepancy_2020_2024:
+  insufficient_data: 7
+  higher_relative_exposure: 4
+  lower_relative_exposure: 3
+  moderate_relative_exposure: 3
+excluded_liability_adjustments_2020_2024:
+  insufficient_data: 8
+  higher_relative_exposure: 3
+  moderate_relative_exposure: 3
+  lower_relative_exposure: 3
+debt_valuation_adjustments_2020_2024:
+  insufficient_data: 8
+  moderate_relative_exposure: 3
+  lower_relative_exposure: 3
+  higher_relative_exposure: 3
+foreign_currency_valuation_2020_2024:
+  insufficient_data: 7
+  higher_relative_exposure: 4
+  moderate_relative_exposure: 3
+  lower_relative_exposure: 3
+other_volume_changes_2020_2024:
+  insufficient_data: 7
+  higher_relative_exposure: 4
+  lower_relative_exposure: 3
+  moderate_relative_exposure: 3
+
+VALIDATION
+------------------------------------------------------------------------------
+Country profiles: 17
+Dimension observations: 187
+Unique countries in profiles: 17
+Duplicate country profiles: 0
+Missing 2024 debt ratios: 0
+Missing country classifications: 0
+Duplicate country-dimension records: 0
+
+PEER GROUP VALIDATION
+------------------------------------------------------------------------------
+debt_burden: peer counts=[17]
+primary_balance_pressure_2024: peer counts=[17]
+debt_trajectory_2020_2024: peer counts=[17]
+interest_growth_pressure_2020_2024: peer counts=[17]
+financial_asset_acquisition_2020_2024: peer counts=[10]
+oradj_exposure_2020_2024: peer counts=[10]
+statistical_discrepancy_2020_2024: peer counts=[10]
+excluded_liability_adjustments_2020_2024: peer counts=[9]
+debt_valuation_adjustments_2020_2024: peer counts=[9]
+foreign_currency_valuation_2020_2024: peer counts=[10]
+other_volume_changes_2020_2024: peer counts=[10]
+
+INTERPRETATION LIMITATIONS
+------------------------------------------------------------------------------
+1. Peer-relative terciles do not establish absolute risk.
+2. The peer group contains 17 European countries, not all European sovereigns.
+3. Debt burden uses the 2024 debt-to-GDP observation.
+4. Debt trajectory uses five annual debt changes from 2020-2024.
+5. Primary balance is not cyclically adjusted.
+6. Interest-growth contribution uses the opening-debt-implied interest-rate proxy.
+7. Financial-asset acquisition can increase gross debt while adding assets.
+8. SFA and ORADJ components are accounting adjustments, not causal estimates.
+9. Incomplete five-year component histories are not treated as complete cumulative totals.
+10. Accounting coverage grades measure coverage, not source accuracy.
+11. A missing component is not interpreted as zero.
+12. No composite sovereign risk score or default probability is calculated.

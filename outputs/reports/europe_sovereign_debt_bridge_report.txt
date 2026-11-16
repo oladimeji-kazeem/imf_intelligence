@@ -1,0 +1,107 @@
+EUROPEAN SOVEREIGN DEBT BRIDGE
+==============================================================================
+Input SFA: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_eurostat_sfa_reconciliation.csv
+Countries: 17
+Years: [2020, 2021, 2022, 2023, 2024]
+Master observations: 85
+
+INTEGRATED DEBT BRIDGE
+------------------------------------------------------------------------------
+Debt change = interest-growth contribution - primary balance + financial asset acquisition + ORADJ + statistical discrepancy
+Primary balance is positive for a surplus; its debt contribution is therefore the negative of the primary balance.
+
+OBSERVATION COVERAGE
+------------------------------------------------------------------------------
+Master IGC observations: 85
+Complete top-level SFA bridges: 72
+Complete ORADJ category bridges: 65
+Countries with at least one complete top-level bridge: 17
+Countries with at least one complete detailed bridge: 16
+
+TOP-LEVEL COMPONENT RECONCILIATION
+------------------------------------------------------------------------------
+Maximum absolute difference: 0.00004974 pp
+Mean absolute difference: 0.00000286 pp
+Maximum integrated debt bridge residual: 0.00011127 pp
+Maximum direct-SFA debt bridge residual: 0.00011127 pp
+
+COMPLETE DETAILED ORADJ BRIDGES
+------------------------------------------------------------------------------
+Complete country-year observations: 65
+Maximum absolute ORADJ category residual: 0.00005253 pp
+
+COUNTRY COVERAGE
+------------------------------------------------------------------------------
+AT: top-level 3/5; ORADJ detail 3/5; detailed bridge 3/5
+BE: top-level 5/5; ORADJ detail 5/5; detailed bridge 5/5
+CZ: top-level 5/5; ORADJ detail 5/5; detailed bridge 5/5
+DE: top-level 3/5; ORADJ detail 3/5; detailed bridge 3/5
+DK: top-level 3/5; ORADJ detail 3/5; detailed bridge 3/5
+EL: top-level 5/5; ORADJ detail 5/5; detailed bridge 5/5
+ES: top-level 5/5; ORADJ detail 5/5; detailed bridge 5/5
+FI: top-level 3/5; ORADJ detail 3/5; detailed bridge 3/5
+FR: top-level 4/5; ORADJ detail 4/5; detailed bridge 4/5
+HU: top-level 5/5; ORADJ detail 5/5; detailed bridge 5/5
+IE: top-level 5/5; ORADJ detail 5/5; detailed bridge 5/5
+IT: top-level 3/5; ORADJ detail 3/5; detailed bridge 3/5
+NL: top-level 5/5; ORADJ detail 0/5; detailed bridge 0/5
+PL: top-level 5/5; ORADJ detail 5/5; detailed bridge 5/5
+PT: top-level 5/5; ORADJ detail 5/5; detailed bridge 5/5
+RO: top-level 5/5; ORADJ detail 3/5; detailed bridge 3/5
+SE: top-level 3/5; ORADJ detail 3/5; detailed bridge 3/5
+
+FIVE-YEAR BALANCED TOP-LEVEL PANEL
+------------------------------------------------------------------------------
+Countries with five complete top-level years: 10
+BE: debt change=6.28403 pp; IGC=-17.19492; primary contribution=17.12760; F_ASS=6.25273; ORADJ=-0.17321; YA3=0.27186; residual=-0.000038
+CZ: debt change=13.67988 pp; IGC=-7.11540; primary contribution=14.10711; F_ASS=9.72596; ORADJ=-3.33613; YA3=0.29834; residual=-0.000000
+EL: debt change=-29.63848 pp; IGC=-29.65628; primary contribution=5.18266; F_ASS=0.61068; ORADJ=-5.71518; YA3=-0.06036; residual=0.000000
+ES: debt change=3.71633 pp; IGC=-15.37100; primary contribution=16.20634; F_ASS=6.41212; ORADJ=-3.63904; YA3=0.10791; residual=-0.000001
+HU: debt change=8.46213 pp; IGC=-20.55333; primary contribution=15.97997; F_ASS=11.76829; ORADJ=1.22693; YA3=0.04028; residual=0.000000
+IE: debt change=-17.45244 pp; IGC=-17.91243; primary contribution=-4.69502; F_ASS=2.69630; ORADJ=2.08995; YA3=0.36873; residual=0.000019
+NL: debt change=-3.60362 pp; IGC=-11.00359; primary contribution=3.85213; F_ASS=4.95175; ORADJ=-1.40175; YA3=-0.00216; residual=-0.000000
+PL: debt change=9.63568 pp; IGC=-14.54063; primary contribution=15.36131; F_ASS=12.46901; ORADJ=-3.20905; YA3=-0.44496; residual=-0.000000
+PT: debt change=-23.07983 pp; IGC=-22.33419; primary contribution=-4.15216; F_ASS=1.72970; ORADJ=1.52665; YA3=0.15017; residual=-0.000000
+RO: debt change=19.17861 pp; IGC=-14.63033; primary contribution=30.00038; F_ASS=11.30152; ORADJ=-7.31778; YA3=-0.17518; residual=0.000001
+
+FIVE-YEAR BALANCED DETAILED ORADJ PANEL
+------------------------------------------------------------------------------
+Countries with five complete detailed years: 8
+BE: excluded liabilities=-1.10273; debt valuation=0.86151; FX valuation=0.04434; other volume=0.02371
+CZ: excluded liabilities=-3.33055; debt valuation=0.13513; FX valuation=-0.07810; other volume=-0.06261
+EL: excluded liabilities=-5.60763; debt valuation=-0.40120; FX valuation=0.09044; other volume=0.20320
+ES: excluded liabilities=-5.30848; debt valuation=1.65494; FX valuation=-0.00221; other volume=0.01670
+HU: excluded liabilities=-2.98654; debt valuation=-0.14941; FX valuation=4.34536; other volume=0.01751
+IE: excluded liabilities=1.34411; debt valuation=1.09055; FX valuation=-0.02616; other volume=-0.31860
+PL: excluded liabilities=-3.43440; debt valuation=0.07299; FX valuation=0.12869; other volume=0.02366
+PT: excluded liabilities=-0.38351; debt valuation=1.51506; FX valuation=0.26304; other volume=0.13215
+
+VALIDATION CHECKS
+------------------------------------------------------------------------------
+PASS: Expected IGC observations — 85 / 85
+PASS: Expected country count — 17 countries
+PASS: Expected years — Years found: [2020, 2021, 2022, 2023, 2024]
+PASS: No duplicate country-year records — Country-year uniqueness
+PASS: GDP complete — Missing: 0
+PASS: Primary balance complete — Missing: 0
+PASS: Positive GDP — GDP must be positive
+PASS: Top-level SFA component coverage — 72 complete observations
+PASS: Top-level SFA component reconciliation — Maximum absolute difference: 0.00004974 pp
+PASS: Integrated debt bridge reconciliation — Maximum absolute residual: 0.00011127 pp
+PASS: Direct SFA debt bridge reconciliation — Maximum absolute residual: 0.00011127 pp
+PASS: Implied versus direct SFA — Maximum absolute difference: 0.00011127 pp
+PASS: Detailed ORADJ category coverage — 65 complete observations
+PASS: ORADJ category reconciliation — Maximum absolute residual: 0.00005253 pp
+
+METHODOLOGICAL LIMITATIONS
+------------------------------------------------------------------------------
+1. The master panel is based on the 85 Eurostat interest-growth observations.
+2. SFA components are missing for some country-years; missing values are not zero.
+3. MIO_NAC values are converted using current-year nominal GDP.
+4. The primary balance is observed and not cyclically adjusted.
+5. The interest-growth rate is an opening-debt-implied proxy, not a separately sourced market yield.
+6. SFA and ORADJ components are accounting contributions, not causal estimates.
+7. The integrated bridge does not establish that a component was caused by fiscal policy.
+8. Country cumulative totals should only be compared over common observation windows.
+9. The detailed ORADJ categories are components of ORADJ and must not be added to ORADJ again.
+10. A small reconciliation residual does not independently validate every source definition.

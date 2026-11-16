@@ -1,0 +1,59 @@
+EUROPEAN DEBT DRIVER DIAGNOSTICS
+==============================================================================
+Annual panel observations: 85
+Countries: 17
+Years: [2020, 2021, 2022, 2023, 2024]
+
+BALANCED TOP-LEVEL COUNTRY PANEL
+------------------------------------------------------------------------------
+Countries: 10
+
+COUNTRY DEBT CHANGE RANKING
+------------------------------------------------------------------------------
+RO: debt change=+19.1786 pp; IGC=-14.6303; primary=+30.0004; F_ASS=+11.3015; ORADJ=-7.3178; YA3=-0.1752
+CZ: debt change=+13.6799 pp; IGC=-7.1154; primary=+14.1071; F_ASS=+9.7260; ORADJ=-3.3361; YA3=+0.2983
+PL: debt change=+9.6357 pp; IGC=-14.5406; primary=+15.3613; F_ASS=+12.4690; ORADJ=-3.2091; YA3=-0.4450
+HU: debt change=+8.4621 pp; IGC=-20.5533; primary=+15.9800; F_ASS=+11.7683; ORADJ=+1.2269; YA3=+0.0403
+BE: debt change=+6.2840 pp; IGC=-17.1949; primary=+17.1276; F_ASS=+6.2527; ORADJ=-0.1732; YA3=+0.2719
+ES: debt change=+3.7163 pp; IGC=-15.3710; primary=+16.2063; F_ASS=+6.4121; ORADJ=-3.6390; YA3=+0.1079
+NL: debt change=-3.6036 pp; IGC=-11.0036; primary=+3.8521; F_ASS=+4.9517; ORADJ=-1.4017; YA3=-0.0022
+IE: debt change=-17.4524 pp; IGC=-17.9124; primary=-4.6950; F_ASS=+2.6963; ORADJ=+2.0900; YA3=+0.3687
+PT: debt change=-23.0798 pp; IGC=-22.3342; primary=-4.1522; F_ASS=+1.7297; ORADJ=+1.5266; YA3=+0.1502
+EL: debt change=-29.6385 pp; IGC=-29.6563; primary=+5.1827; F_ASS=+0.6107; ORADJ=-5.7152; YA3=-0.0604
+
+DOMINANT CONTRIBUTIONS
+------------------------------------------------------------------------------
+RO: largest upward=primary_balance; largest downward=interest_growth; offset ratio=0.6976
+CZ: largest upward=primary_balance; largest downward=interest_growth; offset ratio=0.6044
+PL: largest upward=primary_balance; largest downward=interest_growth; offset ratio=0.7906
+HU: largest upward=primary_balance; largest downward=interest_growth; offset ratio=0.8293
+BE: largest upward=primary_balance; largest downward=interest_growth; offset ratio=0.8468
+ES: largest upward=primary_balance; largest downward=interest_growth; offset ratio=0.9110
+NL: largest upward=financial_asset_acquisition; largest downward=interest_growth; offset ratio=0.8301
+IE: largest upward=financial_asset_acquisition; largest downward=interest_growth; offset ratio=0.3714
+PT: largest upward=financial_asset_acquisition; largest downward=interest_growth; offset ratio=0.2279
+EL: largest upward=primary_balance; largest downward=interest_growth; offset ratio=0.2811
+
+ORADJ CATEGORY PROFILES
+------------------------------------------------------------------------------
+Five-year balanced countries: 8
+BE: excluded liabilities=-1.1027; debt valuation=+0.8615; FX=+0.0443; other volume=+0.0237; ORADJ=-0.1732
+CZ: excluded liabilities=-3.3305; debt valuation=+0.1351; FX=-0.0781; other volume=-0.0626; ORADJ=-3.3361
+EL: excluded liabilities=-5.6076; debt valuation=-0.4012; FX=+0.0904; other volume=+0.2032; ORADJ=-5.7152
+ES: excluded liabilities=-5.3085; debt valuation=+1.6549; FX=-0.0022; other volume=+0.0167; ORADJ=-3.6390
+HU: excluded liabilities=-2.9865; debt valuation=-0.1494; FX=+4.3454; other volume=+0.0175; ORADJ=+1.2269
+IE: excluded liabilities=+1.3441; debt valuation=+1.0906; FX=-0.0262; other volume=-0.3186; ORADJ=+2.0900
+PL: excluded liabilities=-3.4344; debt valuation=+0.0730; FX=+0.1287; other volume=+0.0237; ORADJ=-3.2091
+PT: excluded liabilities=-0.3835; debt valuation=+1.5151; FX=+0.2630; other volume=+0.1322; ORADJ=+1.5266
+
+INTERPRETATION LIMITATIONS
+------------------------------------------------------------------------------
+1. Country cumulative comparisons use five complete years only.
+2. The balanced top-level sample and detailed ORADJ sample differ.
+3. Positive primary contribution represents a primary deficit.
+4. Positive financial asset acquisition can increase gross debt while adding assets.
+5. Interest-growth contribution uses an opening-debt-implied interest-rate proxy.
+6. ORADJ categories are accounting adjustments, not causal estimates.
+7. The offset ratio measures arithmetic cancellation, not economic risk.
+8. No contribution shares are calculated against net debt changes.
+9. No composite sovereign risk score or default probability is inferred.
