@@ -1,0 +1,27 @@
+================================================================================
+BOC-BOE GROUP AND GDP RELATIONSHIP AUDIT
+================================================================================
+Annual observations: 65
+
+EXAE COMPOSITION RECONCILIATION
+--------------------------------------------------------------------------------
+Comparable observations: 65
+Reconciled: 65
+Not reconciled: 0
+Incomplete: 0
+Maximum absolute difference: 0.0000000000
+
+GDP COMPOSITION
+--------------------------------------------------------------------------------
+Available observations: 45
+First available year: 1980
+Last available year: 2024p
+First available share: 24.4971%
+Latest share: 41.4613%
+Mean share: 27.6860%
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+Arithmetic reconciliation establishes numerical composition, not the full methodology or country membership.
+GDP share is a derived relative-composition indicator, not a sovereign default-risk measure.
+Nominal GDP levels remain exposed to inflation and exchange-rate effects.

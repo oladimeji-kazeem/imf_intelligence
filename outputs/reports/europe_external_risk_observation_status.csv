@@ -1,0 +1,10 @@
+﻿indicator_code,observation_status,records,numeric_observations
+BCA_NGDPD,historical_actual,919,904
+BCA_NGDPD,imf_estimate,21,21
+BCA_NGDPD,imf_projection,100,100
+TM_RPCH,historical_actual,919,884
+TM_RPCH,imf_estimate,21,21
+TM_RPCH,imf_projection,100,100
+TX_RPCH,historical_actual,919,884
+TX_RPCH,imf_estimate,21,21
+TX_RPCH,imf_projection,100,100

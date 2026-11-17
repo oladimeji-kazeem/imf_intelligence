@@ -1,0 +1,65 @@
+===========================================================================
+ESM SOVEREIGN DEFAULT DATASET — SOURCE INSPECTION
+===========================================================================
+
+Source: C:\Users\oladi\sources\imf_intelligence\data\external\esm_domestic_sovereign_defaults.xlsx
+Worksheets: 2
+
+===========================================================================
+WORKSHEET: README
+===========================================================================
+Rows: 22
+Columns: 1
+
+COLUMN NAMES
+---------------------------------------------------------------------------
+Unnamed: 0 | object
+
+MISSINGNESS
+---------------------------------------------------------------------------
+Unnamed: 0: 7
+
+SAMPLE RECORDS
+---------------------------------------------------------------------------
+                                                                                                                                             Unnamed: 0
+                                                                 Monthly debt default and restructuring database by Erce, Mallucci and Picarelli (2021)
+                                                                                                                                                    NaN
+                                                                                                                                                    NaN
+This dataset codes debt default and restructuring events between governments and private creditors on a monthly basis, involving local-law instruments.
+                                                                                                                                                    NaN
+
+===========================================================================
+WORKSHEET: 2022 version
+===========================================================================
+Rows: 134
+Columns: 10
+
+COLUMN NAMES
+---------------------------------------------------------------------------
+Country | object
+Start date | object
+End date | object
+Instrument | object
+Amount (mln US$) | float64
+Face value reduction | float64
+Maturity change | float64
+Coupon change | float64
+NPV loss (%) | float64
+Post-default restructuring | float64
+
+MISSINGNESS
+---------------------------------------------------------------------------
+Face value reduction: 34
+Maturity change: 17
+Coupon change: 34
+NPV loss (%): 86
+Post-default restructuring: 11
+
+SAMPLE RECORDS
+---------------------------------------------------------------------------
+            Country          Start date            End date                        Instrument  Amount (mln US$)  Face value reduction  Maturity change  Coupon change  NPV loss (%)  Post-default restructuring
+             Angola 2010-05-01 00:00:00 2010-12-01 00:00:00 Banks loans and commercial credit          1800.000                   0.0              1.0            1.0           NaN                         1.0
+Antigua and Barbuda                1998 2004-11-01 00:00:00 Banks loans and commercial credit           163.785                   0.0              1.0            1.0           NaN                         1.0
+Antigua and Barbuda 2008-12-01 00:00:00 2010-05-01 00:00:00 Banks loans and commercial credit           259.000                   0.0              1.0            1.0        0.0515                         1.0
+Antigua and Barbuda                2009                2010                             Bonds            32.480                   0.0              0.0            0.0           NaN                         1.0
+          Argentina 1989-12-01 00:00:00 1989-12-01 00:00:00                             Bonds           650.000                   0.0              1.0            NaN           NaN                         0.0

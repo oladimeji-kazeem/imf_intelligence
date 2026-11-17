@@ -1,0 +1,42 @@
+==============================================================================
+SOVEREIGN DEFAULT EPISODE CLASSIFICATION AND SEVERITY AUDIT
+==============================================================================
+
+Countries assessed: 20
+ESM instrument records: 2
+Candidate episode groups: 1
+Registry temporal matches: 2
+Canonical episode links: 2
+Temporal matches without canonical episode ID: 0
+Ambiguous canonical episode links: 0
+Missing NPV observations: 0
+
+INSTRUMENT CLASSIFICATION
+country               Instrument              episode_key        episode_link_status                                             instrument_severity_flags     match_status
+ Greece Bonds - guaranteed bonds EU_SOV_GRC_PSI_2011_2012 CANONICAL_EPISODE_ID_MATCH                  FACE_VALUE_MEASURED;COUPON_CHANGED;NPV_LOSS_RECORDED TEMPORAL_OVERLAP
+ Greece Bonds - government bonds EU_SOV_GRC_PSI_2011_2012 CANONICAL_EPISODE_ID_MATCH FACE_VALUE_MEASURED;MATURITY_CHANGED;COUPON_CHANGED;NPV_LOSS_RECORDED TEMPORAL_OVERLAP
+
+EPISODE CLASSIFICATION
+             episode_key country        episode_link_status  canonical_episode_link  instrument_count                                       instruments episode_start episode_end  instrument_reported_amount_sum_mln_usd  face_value_reduction_observations  maturity_change_observations  coupon_change_observations  npv_loss_observations  npv_loss_missing_observations npv_loss_values_raw     registry_episode_ids                                                                              registry_event_ids compatible_registry_episode_ids                                                                   compatible_registry_event_ids registry_match_status              episode_classification                    severity_assessment
+EU_SOV_GRC_PSI_2011_2012  Greece CANONICAL_EPISODE_ID_MATCH                    True                 2 Bonds - government bonds;Bonds - guaranteed bonds    2011-10-01  2012-03-01                                250510.0                                  2                             1                           2                      2                              0        0.564;0.5585 EU_SOV_GRC_PSI_2011_2012 EU_SOV_GRC_PSI_2011_2012_BONDS_GOVERNMENT_BONDS;EU_SOV_GRC_PSI_2011_2012_BONDS_GUARANTEED_BONDS        EU_SOV_GRC_PSI_2011_2012 EU_SOV_GRC_PSI_2011_2012_BONDS_GOVERNMENT_BONDS;EU_SOV_GRC_PSI_2011_2012_BONDS_GUARANTEED_BONDS      TEMPORAL_OVERLAP CANONICAL_REGISTRY_LINKED_CANDIDATE NPV_EVIDENCE_AVAILABLE_REVIEW_REQUIRED
+
+INTERPRETATION AND SAFEGUARDS
+- Canonical episode IDs are taken only from explicit registry episode fields.
+- Individual event IDs are retained separately as provenance.
+- Registry row numbers are provenance, not episode identifiers.
+- Temporal overlap is a candidate match, not proof of event identity.
+- Multiple canonical episode IDs produce an ambiguous, unlinked record.
+- Temporal matches without canonical episode IDs remain unlinked.
+- Unlinked instruments are kept separate rather than force-grouped.
+- Amount sums represent instrument-reported amounts, not verified unique debt.
+- NPV loss values are preserved in their original numeric scale.
+- Missing NPV observations are not zero creditor losses.
+- Face-value reduction, maturity changes and coupon changes are separate measures.
+- No composite severity score is assigned.
+- No existing registry records are modified.
+
+OUTPUT FILES
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_sovereign_default_severity_instruments.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_sovereign_default_severity_episodes.csv
+
+AUDIT COMPLETED.

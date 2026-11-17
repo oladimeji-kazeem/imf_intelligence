@@ -1,0 +1,44 @@
+==============================================================================
+SOVEREIGN DEFAULT SOURCE INSPECTION REPORT
+==============================================================================
+
+External data directory: C:\Users\oladi\sources\imf_intelligence\data\external
+
+BOC-BOE SOVEREIGN DEFAULT DATABASE
+------------------------------------------------------------------------------
+STATUS: FILE NOT FOUND
+
+KIEL MONTHLY SOVEREIGN DEFAULT DATASET
+------------------------------------------------------------------------------
+STATUS: FILE NOT FOUND
+
+ESM DOMESTIC SOVEREIGN DEFAULTS
+------------------------------------------------------------------------------
+File: esm_domestic_sovereign_defaults.xlsx
+Size (MB): 0.022
+
+Sheet: README
+Rows (excluding header, where available): 35
+Columns: 1
+Column names: Unnamed: 0
+Sample records:
+[{"Unnamed: 0": "Monthly debt default and restructuring database by Erce, Mallucci and Picarelli (2021)"}, {"Unnamed: 0": NaN}, {"Unnamed: 0": NaN}, {"Unnamed: 0": "This dataset codes debt default and restructuring events between governments and private creditors on a monthly basis, involving local-law instruments."}]
+
+Sheet: 2022 version
+Rows (excluding header, where available): 134
+Columns: 10
+Column names: Country | Start date | End date | Instrument | Amount (mln US$) | Face value reduction | Maturity change | Coupon change | NPV loss (%) | Post-default restructuring
+Sample records:
+[{"Country": "Angola", "Start date": "2010-05-01 00:00:00", "End date": "2010-12-01 00:00:00", "Instrument": "Banks loans and commercial credit", "Amount (mln US$)": 1800.0, "Face value reduction": 0, "Maturity change": 1, "Coupon change": 1.0, "NPV loss (%)": NaN, "Post-default restructuring": 1}, {"Country": "Antigua and Barbuda", "Start date": 1998, "End date": "2004-11-01 00:00:00", "Instrument": "Banks loans and commercial credit", "Amount (mln US$)": 163.785, "Face value reduction": 0, "Maturity change": 1, "Coupon change": 1.0, "NPV loss (%)": NaN, "Post-default restructuring": 1}, {"Country": "Antigua and Barbuda", "Start date": "2008-12-01 00:00:00", "End date": "2010-05-01 00:00:00", "Instrument": "Banks loans and commercial credit", "Amount (mln US$)": 259.0, "Face value reduction": 0, "Maturity change": 1, "Coupon change": 1.0, "NPV loss (%)": 0.0515, "Post-default restructuring": 1}, {"Country": "Antigua and Barbuda", "Start date": 2009, "End date": 2010, "Instrument": "Bonds", "Amount (mln US$)": 32.480000000000004, "Face value reduction": 0, "Maturity change": 0, "Coupon change": 0.0, "NPV loss (%)": NaN, "Post-default restructuring": 1}, {"Country": "Argentina", "Start date": "1989-12-01 00:00:00", "End date": "1989-12-01 00:00:00", "Instrument": "Bonds", "Amount (mln US$)": 650.0, "Face value reduction": 0, "Maturity change": 1, "Coupon change": NaN, "NPV loss (%)": NaN, "Post-default restructuring": 0}]
+
+==============================================================================
+INSPECTION SUMMARY
+==============================================================================
+BoC-BoE sovereign default database: NOT FOUND
+Kiel monthly sovereign default dataset: NOT FOUND
+ESM domestic sovereign defaults: FOUND
+
+OUTPUT FILES
+------------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\sovereign_default_source_inventory.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\sovereign_default_source_inspection.txt

@@ -1,0 +1,186 @@
+============================================================================
+EUROPEAN RAW-MEASUREMENT PEER-GROUP SENSITIVITY
+============================================================================
+
+VALIDATION
+----------------------------------------------------------------------------
+Countries: 20
+Dimensions: 33
+Source records: 660
+Direction validations passed: 33
+Direction validations failed: 0
+Leave-one-out records: 12540
+
+RAW MEASUREMENT DIRECTIONS
+----------------------------------------------------------------------------
+                          risk_dimension risk_engine  country_count  unique_raw_measurements  unique_percentiles  rank_correlation                    raw_direction  risk_score_multiplier direction_validation
+                   contraction_frequency      growth             20                       12                  12               1.0 higher_raw_value_higher_exposure                      1                 PASS
+                    contraction_severity      growth             20                       19                  19               1.0 higher_raw_value_higher_exposure                      1                 PASS
+                      growth_instability      growth             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+          historical_deficit_persistence    external             20                        9                   9               1.0 higher_raw_value_higher_exposure                      1                 PASS
+          historical_deflation_frequency   inflation             20                        9                   9               1.0 higher_raw_value_higher_exposure                      1                 PASS
+           historical_export_contraction    external             20                        6                   6               1.0 higher_raw_value_higher_exposure                      1                 PASS
+    historical_export_growth_instability    external             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+      historical_high_inflation_exposure   inflation             20                       13                  13               1.0 higher_raw_value_higher_exposure                      1                 PASS
+historical_high_unemployment_persistence      labour             20                        8                   8               1.0 higher_raw_value_higher_exposure                      1                 PASS
+        historical_inflation_persistence   inflation             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+     historical_unemployment_instability      labour             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+        historical_unemployment_pressure      labour             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+       historical_volatility_debt_change      fiscal             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+    historical_volatility_fiscal_balance      fiscal             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+   historical_volatility_government_debt      fiscal             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+   historical_volatility_primary_balance      fiscal             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+            inflation_change_instability   inflation             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+                long_run_growth_weakness      growth             20                       20                  20              -1.0  lower_raw_value_higher_exposure                     -1                 PASS
+               peer_relative_debt_change      fiscal             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+            peer_relative_fiscal_balance      fiscal             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+           peer_relative_government_debt      fiscal             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+           peer_relative_primary_balance      fiscal             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+               recent_export_contraction    external             20                        3                   3               1.0 higher_raw_value_higher_exposure                      1                 PASS
+               recent_external_imbalance    external             20                       20                  20              -1.0  lower_raw_value_higher_exposure                     -1                 PASS
+    recent_external_imbalance_volatility    external             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+                  recent_growth_weakness      growth             20                       20                  20              -1.0  lower_raw_value_higher_exposure                     -1                 PASS
+         recent_inflation_dispersion_iqr   inflation             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+               recent_inflation_pressure   inflation             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+         recent_inflation_volatility_mad   inflation             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+            recent_unemployment_pressure      labour             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+          recent_unemployment_volatility      labour             20                       20                  20               1.0 higher_raw_value_higher_exposure                      1                 PASS
+                       recovery_weakness      growth             20                        6                   6               1.0 higher_raw_value_higher_exposure                      1                 PASS
+                 upward_inflation_shocks   inflation             20                        3                   3               1.0 higher_raw_value_higher_exposure                      1                 PASS
+
+OVERALL RAW-MEASUREMENT STABILITY
+----------------------------------------------------------------------------
+Changed classifications: 538
+Unchanged classifications: 12002
+Classification change rate: 4.29%
+Changed engine activations: 227
+Unchanged engine activations: 12313
+Engine activation change rate: 1.81%
+
+COUNTRY SENSITIVITY
+----------------------------------------------------------------------------
+iso             country  comparisons  changed_classifications  changed_engine_activations  classification_change_rate_pct  engine_activation_change_rate_pct
+DNK             Denmark          627                       48                          21                        7.655502                           3.349282
+DEU             Germany          627                       47                          14                        7.496013                           2.232855
+AUT             Austria          627                       46                           7                        7.336523                           1.116427
+GBR      United Kingdom          627                       41                          14                        6.539075                           2.232855
+HUN             Hungary          627                       39                          33                        6.220096                           5.263158
+CZE      Czech Republic          627                       35                          21                        5.582137                           3.349282
+FIN             Finland          627                       33                          14                        5.263158                           2.232855
+ITA               Italy          627                       33                          21                        5.263158                           3.349282
+BEL             Belgium          627                       29                          21                        4.625199                           3.349282
+SWE              Sweden          627                       28                          14                        4.465710                           2.232855
+PRT            Portugal          627                       26                          14                        4.146730                           2.232855
+FRA              France          627                       26                           0                        4.146730                           0.000000
+NOR              Norway          627                       20                           0                        3.189793                           0.000000
+NLD    Netherlands, The          627                       19                           7                        3.030303                           1.116427
+ESP               Spain          627                       19                          19                        3.030303                           3.030303
+POL Poland, Republic of          627                       14                           0                        2.232855                           0.000000
+IRL             Ireland          627                       14                           0                        2.232855                           0.000000
+CHE         Switzerland          627                        8                           0                        1.275917                           0.000000
+ROU             Romania          627                        7                           7                        1.116427                           1.116427
+GRC              Greece          627                        6                           0                        0.956938                           0.000000
+
+DIMENSION SENSITIVITY
+----------------------------------------------------------------------------
+risk_engine                           risk_dimension  comparisons  changed_classifications  changed_engine_activations  classification_change_rate_pct  engine_activation_change_rate_pct
+     growth                        recovery_weakness          380                      103                           7                       27.105263                           1.842105
+     growth                     contraction_severity          380                       70                          45                       18.421053                          11.842105
+  inflation       historical_high_inflation_exposure          380                       33                           7                        8.684211                           1.842105
+   external           historical_deficit_persistence          380                       26                           0                        6.842105                           0.000000
+   external     historical_export_growth_instability          380                       13                           7                        3.421053                           1.842105
+     fiscal     historical_volatility_fiscal_balance          380                       13                           7                        3.421053                           1.842105
+     fiscal    historical_volatility_government_debt          380                       13                           7                        3.421053                           1.842105
+     fiscal        historical_volatility_debt_change          380                       13                           7                        3.421053                           1.842105
+   external                recent_external_imbalance          380                       13                           7                        3.421053                           1.842105
+     fiscal            peer_relative_government_debt          380                       13                           7                        3.421053                           1.842105
+     fiscal            peer_relative_primary_balance          380                       13                           7                        3.421053                           1.842105
+     fiscal             peer_relative_fiscal_balance          380                       13                           7                        3.421053                           1.842105
+     fiscal                peer_relative_debt_change          380                       13                           7                        3.421053                           1.842105
+     growth                       growth_instability          380                       13                           7                        3.421053                           1.842105
+     growth                   recent_growth_weakness          380                       13                           7                        3.421053                           1.842105
+     fiscal    historical_volatility_primary_balance          380                       13                           7                        3.421053                           1.842105
+   external     recent_external_imbalance_volatility          380                       13                           7                        3.421053                           1.842105
+     labour             recent_unemployment_pressure          380                       13                           7                        3.421053                           1.842105
+  inflation          recent_inflation_volatility_mad          380                       13                           7                        3.421053                           1.842105
+     labour         historical_unemployment_pressure          380                       13                           7                        3.421053                           1.842105
+     growth                 long_run_growth_weakness          380                       13                           7                        3.421053                           1.842105
+  inflation             inflation_change_instability          380                       13                           7                        3.421053                           1.842105
+  inflation         historical_inflation_persistence          380                       13                           7                        3.421053                           1.842105
+  inflation          recent_inflation_dispersion_iqr          380                       13                           7                        3.421053                           1.842105
+  inflation                recent_inflation_pressure          380                       13                           7                        3.421053                           1.842105
+     labour           recent_unemployment_volatility          380                       13                           7                        3.421053                           1.842105
+     labour      historical_unemployment_instability          380                       13                           7                        3.421053                           1.842105
+     growth                    contraction_frequency          380                        7                           7                        1.842105                           1.842105
+   external            historical_export_contraction          380                        0                           0                        0.000000                           0.000000
+   external                recent_export_contraction          380                        0                           0                        0.000000                           0.000000
+  inflation           historical_deflation_frequency          380                        0                           0                        0.000000                           0.000000
+     labour historical_high_unemployment_persistence          380                        0                           0                        0.000000                           0.000000
+  inflation                  upward_inflation_shocks          380                        0                           0                        0.000000                           0.000000
+
+ENGINE SENSITIVITY
+----------------------------------------------------------------------------
+risk_engine  comparisons  changed_classifications  changed_engine_activations  classification_change_rate_pct  engine_activation_change_rate_pct
+     growth         2280                      219                          80                        9.605263                           3.508772
+     fiscal         3040                      104                          56                        3.421053                           1.842105
+  inflation         3040                       98                          42                        3.223684                           1.381579
+   external         2280                       65                          21                        2.850877                           0.921053
+     labour         1900                       52                          28                        2.736842                           1.473684
+
+IMPACT OF EXCLUDING EACH COUNTRY
+----------------------------------------------------------------------------
+peer_group_excluded_iso  comparisons  changed_classifications  changed_engine_activations  classification_change_rate_pct  engine_activation_change_rate_pct
+                    GRC          627                       43                          22                        6.858054                           3.508772
+                    ESP          627                       37                          14                        5.901116                           2.232855
+                    ROU          627                       37                          18                        5.901116                           2.870813
+                    PRT          627                       36                          15                        5.741627                           2.392344
+                    FIN          627                       34                          16                        5.422648                           2.551834
+                    ITA          627                       33                          15                        5.263158                           2.392344
+                    HUN          627                       33                          13                        5.263158                           2.073365
+                    NLD          627                       30                           7                        4.784689                           1.116427
+                    POL          627                       28                          14                        4.465710                           2.232855
+                    NOR          627                       25                          10                        3.987241                           1.594896
+                    FRA          627                       25                          12                        3.987241                           1.913876
+                    CHE          627                       25                           5                        3.987241                           0.797448
+                    IRL          627                       24                          11                        3.827751                           1.754386
+                    DNK          627                       21                           3                        3.349282                           0.478469
+                    BEL          627                       20                          11                        3.189793                           1.754386
+                    CZE          627                       20                           9                        3.189793                           1.435407
+                    SWE          627                       19                           9                        3.030303                           1.435407
+                    AUT          627                       16                           8                        2.551834                           1.275917
+                    GBR          627                       16                          10                        2.551834                           1.594896
+                    DEU          627                       16                           5                        2.551834                           0.797448
+
+RAW VERSUS PERCENTILE METHOD COMPARISON
+----------------------------------------------------------------------------
+Method comparisons: 12540
+Classification differences: 0
+Classification difference rate: 0.00%
+Engine activation differences: 0
+Engine activation difference rate: 0.00%
+
+METHODOLOGICAL LIMITATIONS
+----------------------------------------------------------------------------
+1. Raw measurement direction is inferred by checking
+   monotonic alignment with the existing risk percentile.
+2. This validates direction and rank consistency; it does
+   not independently validate the economic interpretation
+   of the original risk dimensions.
+3. Tercile cutoffs and average-rank tie handling are retained.
+4. Leave-one-out testing does not test alternative regional
+   or economic peer groups.
+5. Peer-relative classification changes do not imply that
+   the country's underlying economic conditions changed.
+6. No absolute risk, crisis probability or default probability
+   is estimated.
+
+OUTPUT FILES
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_raw_measurement_direction_registry.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_raw_measurement_leave_one_out_results.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_raw_measurement_country_sensitivity.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_raw_measurement_dimension_sensitivity.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_raw_measurement_engine_sensitivity.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_raw_measurement_exclusion_sensitivity.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_raw_vs_percentile_peer_sensitivity.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_raw_measurement_peer_sensitivity_report.txt

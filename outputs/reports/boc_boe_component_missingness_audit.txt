@@ -1,0 +1,162 @@
+BOC–BOE COMPONENT MISSINGNESS AUDIT
+======================================================================
+
+Positive country-year observations: 158
+Countries: 7
+
+ROW-LEVEL COMPONENT AVAILABILITY
+----------------------------------------------------------------------
+Creditor fields available per row: min=0, median=2.0, max=5
+Instrument fields available per row: min=0, median=2.0, max=3
+
+COMPONENT AVAILABILITY BY COUNTRY
+----------------------------------------------------------------------
+
+Greece
+  DEBT_IMF_2025 | positive=1 | zero=9 | missing=0 | availability=100.0%
+  DEBT_IBRD_2025 | positive=0 | zero=0 | missing=10 | availability=0.0%
+  DEBT_IDA_2025 | positive=0 | zero=0 | missing=10 | availability=0.0%
+  DEBT_IADB_2025 | positive=0 | zero=0 | missing=10 | availability=0.0%
+  DEBT_PARIS_CLUB_2025 | positive=0 | zero=0 | missing=10 | availability=0.0%
+  DEBT_CHINA_2025 | positive=0 | zero=9 | missing=1 | availability=90.0%
+  DEBT_OTHER_OFFICIAL_CREDITORS_2025 | positive=2 | zero=8 | missing=0 | availability=100.0%
+  DEBT_PRIVATE_CREDITORS_2025 | positive=0 | zero=0 | missing=10 | availability=0.0%
+  DEBT_FC_BANK_LOANS_2025 | positive=0 | zero=0 | missing=10 | availability=0.0%
+  DEBT_FC_BONDS_2025 | positive=7 | zero=3 | missing=0 | availability=100.0%
+  DEBT_LC_DEBT_2025 | positive=0 | zero=0 | missing=10 | availability=0.0%
+  DEBT_FISCAL_ARREARS_2025 | positive=4 | zero=0 | missing=6 | availability=40.0%
+
+Hungary
+  DEBT_IMF_2025 | positive=0 | zero=0 | missing=16 | availability=0.0%
+  DEBT_IBRD_2025 | positive=0 | zero=0 | missing=16 | availability=0.0%
+  DEBT_IDA_2025 | positive=0 | zero=0 | missing=16 | availability=0.0%
+  DEBT_IADB_2025 | positive=0 | zero=0 | missing=16 | availability=0.0%
+  DEBT_PARIS_CLUB_2025 | positive=0 | zero=0 | missing=16 | availability=0.0%
+  DEBT_CHINA_2025 | positive=0 | zero=0 | missing=16 | availability=0.0%
+  DEBT_OTHER_OFFICIAL_CREDITORS_2025 | positive=0 | zero=0 | missing=16 | availability=0.0%
+  DEBT_PRIVATE_CREDITORS_2025 | positive=0 | zero=0 | missing=16 | availability=0.0%
+  DEBT_FC_BANK_LOANS_2025 | positive=0 | zero=0 | missing=16 | availability=0.0%
+  DEBT_FC_BONDS_2025 | positive=16 | zero=0 | missing=0 | availability=100.0%
+  DEBT_LC_DEBT_2025 | positive=0 | zero=0 | missing=16 | availability=0.0%
+  DEBT_FISCAL_ARREARS_2025 | positive=0 | zero=0 | missing=16 | availability=0.0%
+
+Ireland
+  DEBT_IMF_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_IBRD_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_IDA_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_IADB_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_PARIS_CLUB_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_CHINA_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_OTHER_OFFICIAL_CREDITORS_2025 | positive=1 | zero=0 | missing=0 | availability=100.0%
+  DEBT_PRIVATE_CREDITORS_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_FC_BANK_LOANS_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_FC_BONDS_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_LC_DEBT_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_FISCAL_ARREARS_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+
+Poland
+  DEBT_IMF_2025 | positive=0 | zero=0 | missing=39 | availability=0.0%
+  DEBT_IBRD_2025 | positive=0 | zero=0 | missing=39 | availability=0.0%
+  DEBT_IDA_2025 | positive=0 | zero=0 | missing=39 | availability=0.0%
+  DEBT_IADB_2025 | positive=0 | zero=0 | missing=39 | availability=0.0%
+  DEBT_PARIS_CLUB_2025 | positive=6 | zero=27 | missing=6 | availability=84.62%
+  DEBT_CHINA_2025 | positive=0 | zero=0 | missing=39 | availability=0.0%
+  DEBT_OTHER_OFFICIAL_CREDITORS_2025 | positive=12 | zero=27 | missing=0 | availability=100.0%
+  DEBT_PRIVATE_CREDITORS_2025 | positive=11 | zero=10 | missing=18 | availability=53.85%
+  DEBT_FC_BANK_LOANS_2025 | positive=14 | zero=25 | missing=0 | availability=100.0%
+  DEBT_FC_BONDS_2025 | positive=17 | zero=22 | missing=0 | availability=100.0%
+  DEBT_LC_DEBT_2025 | positive=0 | zero=0 | missing=39 | availability=0.0%
+  DEBT_FISCAL_ARREARS_2025 | positive=10 | zero=3 | missing=26 | availability=33.33%
+
+Portugal
+  DEBT_IMF_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_IBRD_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_IDA_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_IADB_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_PARIS_CLUB_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_CHINA_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_OTHER_OFFICIAL_CREDITORS_2025 | positive=1 | zero=0 | missing=0 | availability=100.0%
+  DEBT_PRIVATE_CREDITORS_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_FC_BANK_LOANS_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_FC_BONDS_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_LC_DEBT_2025 | positive=0 | zero=0 | missing=1 | availability=0.0%
+  DEBT_FISCAL_ARREARS_2025 | positive=1 | zero=0 | missing=0 | availability=100.0%
+
+Romania
+  DEBT_IMF_2025 | positive=4 | zero=43 | missing=0 | availability=100.0%
+  DEBT_IBRD_2025 | positive=1 | zero=24 | missing=22 | availability=53.19%
+  DEBT_IDA_2025 | positive=0 | zero=0 | missing=47 | availability=0.0%
+  DEBT_IADB_2025 | positive=0 | zero=0 | missing=47 | availability=0.0%
+  DEBT_PARIS_CLUB_2025 | positive=2 | zero=45 | missing=0 | availability=100.0%
+  DEBT_CHINA_2025 | positive=0 | zero=0 | missing=47 | availability=0.0%
+  DEBT_OTHER_OFFICIAL_CREDITORS_2025 | positive=24 | zero=2 | missing=21 | availability=55.32%
+  DEBT_PRIVATE_CREDITORS_2025 | positive=14 | zero=23 | missing=10 | availability=78.72%
+  DEBT_FC_BANK_LOANS_2025 | positive=4 | zero=43 | missing=0 | availability=100.0%
+  DEBT_FC_BONDS_2025 | positive=17 | zero=30 | missing=0 | availability=100.0%
+  DEBT_LC_DEBT_2025 | positive=0 | zero=0 | missing=47 | availability=0.0%
+  DEBT_FISCAL_ARREARS_2025 | positive=9 | zero=17 | missing=21 | availability=55.32%
+
+United Kingdom
+  DEBT_IMF_2025 | positive=0 | zero=0 | missing=44 | availability=0.0%
+  DEBT_IBRD_2025 | positive=0 | zero=0 | missing=44 | availability=0.0%
+  DEBT_IDA_2025 | positive=0 | zero=0 | missing=44 | availability=0.0%
+  DEBT_IADB_2025 | positive=0 | zero=0 | missing=44 | availability=0.0%
+  DEBT_PARIS_CLUB_2025 | positive=0 | zero=0 | missing=44 | availability=0.0%
+  DEBT_CHINA_2025 | positive=0 | zero=0 | missing=44 | availability=0.0%
+  DEBT_OTHER_OFFICIAL_CREDITORS_2025 | positive=44 | zero=0 | missing=0 | availability=100.0%
+  DEBT_PRIVATE_CREDITORS_2025 | positive=0 | zero=0 | missing=44 | availability=0.0%
+  DEBT_FC_BANK_LOANS_2025 | positive=0 | zero=0 | missing=44 | availability=0.0%
+  DEBT_FC_BONDS_2025 | positive=0 | zero=0 | missing=44 | availability=0.0%
+  DEBT_LC_DEBT_2025 | positive=0 | zero=0 | missing=44 | availability=0.0%
+  DEBT_FISCAL_ARREARS_2025 | positive=0 | zero=0 | missing=44 | availability=0.0%
+
+PAIRWISE COMPONENT CO-AVAILABILITY
+----------------------------------------------------------------------
+CREDITOR | DEBT_PARIS_CLUB_2025 + DEBT_OTHER_OFFICIAL_CREDITORS_2025 | both_available=59 | both_positive=3
+CREDITOR | DEBT_PARIS_CLUB_2025 + DEBT_PRIVATE_CREDITORS_2025 | both_available=56 | both_positive=0
+CREDITOR | DEBT_IMF_2025 + DEBT_PARIS_CLUB_2025 | both_available=47 | both_positive=1
+CREDITOR | DEBT_OTHER_OFFICIAL_CREDITORS_2025 + DEBT_PRIVATE_CREDITORS_2025 | both_available=47 | both_positive=20
+CREDITOR | DEBT_IMF_2025 + DEBT_PRIVATE_CREDITORS_2025 | both_available=37 | both_positive=0
+CREDITOR | DEBT_IMF_2025 + DEBT_OTHER_OFFICIAL_CREDITORS_2025 | both_available=36 | both_positive=0
+CREDITOR | DEBT_IMF_2025 + DEBT_IBRD_2025 | both_available=25 | both_positive=1
+CREDITOR | DEBT_IBRD_2025 + DEBT_PARIS_CLUB_2025 | both_available=25 | both_positive=0
+CREDITOR | DEBT_IBRD_2025 + DEBT_OTHER_OFFICIAL_CREDITORS_2025 | both_available=25 | both_positive=0
+CREDITOR | DEBT_IBRD_2025 + DEBT_PRIVATE_CREDITORS_2025 | both_available=25 | both_positive=0
+CREDITOR | DEBT_IMF_2025 + DEBT_CHINA_2025 | both_available=9 | both_positive=0
+CREDITOR | DEBT_CHINA_2025 + DEBT_OTHER_OFFICIAL_CREDITORS_2025 | both_available=9 | both_positive=0
+CREDITOR | DEBT_IMF_2025 + DEBT_IDA_2025 | both_available=0 | both_positive=0
+CREDITOR | DEBT_IMF_2025 + DEBT_IADB_2025 | both_available=0 | both_positive=0
+CREDITOR | DEBT_IBRD_2025 + DEBT_IDA_2025 | both_available=0 | both_positive=0
+CREDITOR | DEBT_IBRD_2025 + DEBT_IADB_2025 | both_available=0 | both_positive=0
+CREDITOR | DEBT_IBRD_2025 + DEBT_CHINA_2025 | both_available=0 | both_positive=0
+CREDITOR | DEBT_IDA_2025 + DEBT_IADB_2025 | both_available=0 | both_positive=0
+CREDITOR | DEBT_IDA_2025 + DEBT_PARIS_CLUB_2025 | both_available=0 | both_positive=0
+CREDITOR | DEBT_IDA_2025 + DEBT_CHINA_2025 | both_available=0 | both_positive=0
+CREDITOR | DEBT_IDA_2025 + DEBT_OTHER_OFFICIAL_CREDITORS_2025 | both_available=0 | both_positive=0
+CREDITOR | DEBT_IDA_2025 + DEBT_PRIVATE_CREDITORS_2025 | both_available=0 | both_positive=0
+CREDITOR | DEBT_IADB_2025 + DEBT_PARIS_CLUB_2025 | both_available=0 | both_positive=0
+CREDITOR | DEBT_IADB_2025 + DEBT_CHINA_2025 | both_available=0 | both_positive=0
+CREDITOR | DEBT_IADB_2025 + DEBT_OTHER_OFFICIAL_CREDITORS_2025 | both_available=0 | both_positive=0
+CREDITOR | DEBT_IADB_2025 + DEBT_PRIVATE_CREDITORS_2025 | both_available=0 | both_positive=0
+CREDITOR | DEBT_PARIS_CLUB_2025 + DEBT_CHINA_2025 | both_available=0 | both_positive=0
+CREDITOR | DEBT_CHINA_2025 + DEBT_PRIVATE_CREDITORS_2025 | both_available=0 | both_positive=0
+INSTRUMENT | DEBT_FC_BANK_LOANS_2025 + DEBT_FC_BONDS_2025 | both_available=86 | both_positive=0
+INSTRUMENT | DEBT_FC_BONDS_2025 + DEBT_FISCAL_ARREARS_2025 | both_available=43 | both_positive=1
+INSTRUMENT | DEBT_FC_BANK_LOANS_2025 + DEBT_FISCAL_ARREARS_2025 | both_available=39 | both_positive=4
+INSTRUMENT | DEBT_FC_BANK_LOANS_2025 + DEBT_LC_DEBT_2025 | both_available=0 | both_positive=0
+INSTRUMENT | DEBT_FC_BONDS_2025 + DEBT_LC_DEBT_2025 | both_available=0 | both_positive=0
+INSTRUMENT | DEBT_LC_DEBT_2025 + DEBT_FISCAL_ARREARS_2025 | both_available=0 | both_positive=0
+
+INTERPRETATION
+----------------------------------------------------------------------
+Missing values are not treated as zero.
+Availability does not establish component completeness.
+Pairwise availability does not establish additivity.
+No total reconciliation is attempted in this audit.
+
+OUTPUT FILES
+----------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\boc_boe_component_missingness_by_country.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\boc_boe_component_row_availability.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\boc_boe_component_coavailability.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\boc_boe_component_missingness_audit.txt

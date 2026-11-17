@@ -1,0 +1,17 @@
+========================================================================
+EUROPEAN HISTORICAL STRESS-EVENT REGISTRY READINESS
+========================================================================
+
+Registry: C:\Users\oladi\sources\imf_intelligence\data\external\europe_historical_stress_events.csv
+Records: 21
+Countries: 13
+
+VALIDATION
+------------------------------------------------------------------------
+Errors: 0
+Warnings: 0
+
+No schema or validation errors.
+
+STATUS: STRUCTURAL VALIDATION PASSED
+Event evidence still requires substantive review.

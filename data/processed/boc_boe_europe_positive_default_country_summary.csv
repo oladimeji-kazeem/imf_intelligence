@@ -1,0 +1,8 @@
+country,annual_observation_rows,valid_total_rows,missing_total_rows,positive_years,zero_years,first_positive_year,last_positive_year,maximum_annual_debt_in_default,DEBT_IMF_2025_positive_years,DEBT_IBRD_2025_positive_years,DEBT_IDA_2025_positive_years,DEBT_IADB_2025_positive_years,DEBT_PARIS_CLUB_2025_positive_years,DEBT_CHINA_2025_positive_years,DEBT_OTHER_OFFICIAL_CREDITORS_2025_positive_years,DEBT_PRIVATE_CREDITORS_2025_positive_years,DEBT_FC_BANK_LOANS_2025_positive_years,DEBT_FC_BONDS_2025_positive_years,DEBT_LC_DEBT_2025_positive_years,DEBT_FISCAL_ARREARS_2025_positive_years
+Greece,65,65,0,10,55,1960,2018,312420.0,1,0,0,0,0,0,2,0,0,7,0,4
+Hungary,65,65,0,16,49,1960,1975,162.24,0,0,0,0,0,0,0,0,0,16,0,0
+Ireland,65,65,0,1,64,2013,2013,88290.0,0,0,0,0,0,0,1,0,0,0,0,0
+Poland,65,65,0,39,26,1960,2002,48597.6,0,0,0,0,6,0,12,11,14,17,0,10
+Portugal,65,65,0,1,64,2013,2013,52712.0,0,0,0,0,0,0,1,0,0,0,0,1
+Romania,65,65,0,47,18,1960,2020,2021.5,4,1,0,0,2,0,24,14,4,17,0,9
+United Kingdom,65,65,0,44,21,1979,2022,798.76,0,0,0,0,0,0,44,0,0,0,0,0

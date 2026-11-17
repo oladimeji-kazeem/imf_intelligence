@@ -1,0 +1,122 @@
+============================================================================
+EUROPEAN PEER-ROBUST VULNERABILITY EVIDENCE REPORT
+============================================================================
+
+VALIDATION
+----------------------------------------------------------------------------
+Country-dimension records: 660
+Countries: 20
+Risk dimensions: 33
+Risk engines: 5
+
+EVIDENCE LABEL DISTRIBUTION
+----------------------------------------------------------------------------
+evidence_label
+insufficient_peer_coverage    231
+robust_non_higher_exposure    223
+robust_higher_exposure        121
+peer_sensitive_exposure        85
+
+PEER COVERAGE DISTRIBUTION
+----------------------------------------------------------------------------
+peer_coverage_category
+three_peer_groups      231
+one_peer_group_only    231
+two_peer_groups        198
+
+COUNTRY SUMMARY
+----------------------------------------------------------------------------
+iso             country  total_dimensions  assessed_dimensions  insufficient_dimensions  robust_higher_dimensions  peer_sensitive_dimensions  robust_non_higher_dimensions  three_class_migrations  three_peer_group_dimensions  two_peer_group_dimensions  one_peer_group_dimensions  assessed_coverage_pct robust_higher_share_pct peer_sensitive_share_pct
+GRC              Greece                33                   33                        0                        21                          3                             9                       4                            0                         33                          0                  100.0               63.636364                 9.090909
+ITA               Italy                33                   33                        0                        13                          6                            14                       7                            0                         33                          0                  100.0               39.393939                18.181818
+ESP               Spain                33                   33                        0                        13                          5                            15                       5                            0                         33                          0                  100.0               39.393939                15.151515
+PRT            Portugal                33                   33                        0                        13                          5                            15                       8                            0                         33                          0                  100.0               39.393939                15.151515
+FIN             Finland                33                   33                        0                        12                          9                            12                      15                           33                          0                          0                  100.0               36.363636                27.272727
+BEL             Belgium                33                   33                        0                         9                         10                            14                      12                           33                          0                          0                  100.0               27.272727                 30.30303
+IRL             Ireland                33                   33                        0                         9                          9                            15                      15                           33                          0                          0                  100.0               27.272727                27.272727
+FRA              France                33                   33                        0                         9                          7                            17                      12                           33                          0                          0                  100.0               27.272727                21.212121
+SWE              Sweden                33                   33                        0                         6                          8                            19                      13                            0                         33                          0                  100.0               18.181818                24.242424
+AUT             Austria                33                   33                        0                         6                          7                            20                      12                           33                          0                          0                  100.0               18.181818                21.212121
+NLD    Netherlands, The                33                   33                        0                         4                          6                            23                      18                           33                          0                          0                  100.0               12.121212                18.181818
+DEU             Germany                33                   33                        0                         4                          5                            24                      12                           33                          0                          0                  100.0               12.121212                15.151515
+DNK             Denmark                33                   33                        0                         2                          5                            26                       8                            0                         33                          0                  100.0                6.060606                15.151515
+CHE         Switzerland                33                    0                       33                         0                          0                             0                       0                            0                          0                         33                    0.0                    <NA>                     <NA>
+CZE      Czech Republic                33                    0                       33                         0                          0                             0                       0                            0                          0                         33                    0.0                    <NA>                     <NA>
+GBR      United Kingdom                33                    0                       33                         0                          0                             0                       0                            0                          0                         33                    0.0                    <NA>                     <NA>
+HUN             Hungary                33                    0                       33                         0                          0                             0                       0                            0                          0                         33                    0.0                    <NA>                     <NA>
+NOR              Norway                33                    0                       33                         0                          0                             0                       0                            0                          0                         33                    0.0                    <NA>                     <NA>
+POL Poland, Republic of                33                    0                       33                         0                          0                             0                       0                            0                          0                         33                    0.0                    <NA>                     <NA>
+ROU             Romania                33                    0                       33                         0                          0                             0                       0                            0                          0                         33                    0.0                    <NA>                     <NA>
+
+ENGINE EVIDENCE DISTRIBUTION
+----------------------------------------------------------------------------
+risk_engine             evidence_label  dimension_records
+   external     robust_higher_exposure                 20
+   external    peer_sensitive_exposure                 15
+   external robust_non_higher_exposure                 43
+   external insufficient_peer_coverage                 42
+     fiscal     robust_higher_exposure                 33
+     fiscal    peer_sensitive_exposure                 14
+     fiscal robust_non_higher_exposure                 57
+     fiscal insufficient_peer_coverage                 56
+     growth     robust_higher_exposure                 23
+     growth    peer_sensitive_exposure                 15
+     growth robust_non_higher_exposure                 40
+     growth insufficient_peer_coverage                 42
+  inflation     robust_higher_exposure                 22
+  inflation    peer_sensitive_exposure                 26
+  inflation robust_non_higher_exposure                 56
+  inflation insufficient_peer_coverage                 56
+     labour     robust_higher_exposure                 23
+     labour    peer_sensitive_exposure                 15
+     labour robust_non_higher_exposure                 27
+     labour insufficient_peer_coverage                 35
+
+DIMENSION SUMMARY
+----------------------------------------------------------------------------
+risk_engine                           risk_dimension  countries  assessed_countries  insufficient_countries  robust_higher_countries  peer_sensitive_countries  robust_non_higher_countries  three_class_migrations
+     labour           recent_unemployment_volatility         20                  13                       7                        6                         0                            7                       3
+     labour             recent_unemployment_pressure         20                  13                       7                        5                         3                            5                       4
+     fiscal     historical_volatility_fiscal_balance         20                  13                       7                        5                         1                            7                       1
+     fiscal    historical_volatility_primary_balance         20                  13                       7                        5                         1                            7                       2
+     labour         historical_unemployment_pressure         20                  13                       7                        4                         5                            4                       7
+     fiscal            peer_relative_government_debt         20                  13                       7                        4                         4                            5                       6
+  inflation           historical_deflation_frequency         20                  13                       7                        4                         4                            5                       4
+  inflation       historical_high_inflation_exposure         20                  13                       7                        4                         4                            5                       6
+     labour      historical_unemployment_instability         20                  13                       7                        4                         4                            5                       6
+     fiscal        historical_volatility_debt_change         20                  13                       7                        4                         3                            6                       4
+     fiscal    historical_volatility_government_debt         20                  13                       7                        4                         3                            6                       4
+     growth                    contraction_frequency         20                  13                       7                        4                         3                            6                       5
+     growth                       growth_instability         20                  13                       7                        4                         3                            6                       6
+  inflation          recent_inflation_volatility_mad         20                  13                       7                        4                         3                            6                       3
+     labour historical_high_unemployment_persistence         20                  13                       7                        4                         3                            6                       9
+   external     historical_export_growth_instability         20                  13                       7                        4                         2                            7                       2
+   external                recent_external_imbalance         20                  13                       7                        4                         2                            7                       4
+     growth                 long_run_growth_weakness         20                  13                       7                        4                         2                            7                       4
+     growth                        recovery_weakness         20                  13                       7                        4                         2                            7                       9
+     fiscal                peer_relative_debt_change         20                  13                       7                        4                         1                            8                       4
+     growth                   recent_growth_weakness         20                  13                       7                        4                         1                            8                       2
+   external                recent_export_contraction         20                  13                       7                        4                         0                            9                       0
+     fiscal            peer_relative_primary_balance         20                  13                       7                        4                         0                            9                       1
+     growth                     contraction_severity         20                  13                       7                        3                         4                            6                       7
+  inflation         historical_inflation_persistence         20                  13                       7                        3                         4                            6                       6
+   external            historical_export_contraction         20                  13                       7                        3                         3                            7                       3
+   external     recent_external_imbalance_volatility         20                  13                       7                        3                         2                            8                       3
+     fiscal             peer_relative_fiscal_balance         20                  13                       7                        3                         1                            9                       2
+   external           historical_deficit_persistence         20                  13                       7                        2                         6                            5                       8
+  inflation             inflation_change_instability         20                  13                       7                        2                         4                            7                       7
+  inflation          recent_inflation_dispersion_iqr         20                  13                       7                        2                         4                            7                       5
+  inflation                recent_inflation_pressure         20                  13                       7                        2                         3                            8                       4
+  inflation                  upward_inflation_shocks         20                  13                       7                        1                         0                           12                       0
+
+INTERPRETATION AND LIMITATIONS
+----------------------------------------------------------------------------
+Robust higher exposure means the dimension is higher in every eligible peer group represented for that country.
+Robust non-higher exposure means the dimension is never higher in the eligible peer groups represented.
+Peer-sensitive exposure means the higher/non-higher classification changes across eligible peer groups.
+Insufficient peer coverage means fewer than two peer groups classify that country-dimension.
+Two-group and three-group evidence are both retained, but their coverage strength is explicitly recorded.
+Three-class migration may occur without a change in higher-exposure activation.
+The tested peer groups overlap and are not independent replications.
+These labels describe peer-relative classification stability, not absolute risk, crisis probability, default probability or predictive accuracy.
+No composite risk score is calculated.

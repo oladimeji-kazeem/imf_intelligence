@@ -1,0 +1,7 @@
+peer_group,defined_country_count,available_country_count,missing_country_codes,minimum_required,status
+eu_sample,17,17,,8,TESTED
+euro_area_sample,11,11,,8,TESTED
+northern_western_comparator,12,12,,8,TESTED
+southern_europe,4,4,,8,INSUFFICIENT_SAMPLE
+central_eastern_europe,4,4,,8,INSUFFICIENT_SAMPLE
+nordic_countries,4,4,,8,INSUFFICIENT_SAMPLE

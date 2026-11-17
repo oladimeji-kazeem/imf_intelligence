@@ -1,0 +1,901 @@
+
+from __future__ import annotations
+
+import argparse
+from pathlib import Path
+
+import pandas as pd
+
+
+ROOT = Path(__file__).resolve().parents[2]
+
+EXTERNAL = ROOT / "data" / "external"
+PROCESSED = ROOT / "data" / "processed"
+REPORTS = ROOT / "outputs" / "reports"
+
+ESM_FILE = EXTERNAL / "esm_domestic_sovereign_defaults.xlsx"
+
+INSTRUMENT_FILE = (
+    PROCESSED / "europe_sovereign_default_severity_instruments.csv"
+)
+
+EPISODE_FILE = (
+    PROCESSED / "europe_sovereign_default_severity_episodes.csv"
+)
+
+OUTPUT_FILE = (
+    PROCESSED / "europe_sovereign_default_severity_integrity.csv"
+)
+
+REPORT_FILE = (
+    REPORTS / "europe_sovereign_default_severity_integrity_audit.txt"
+)
+
+EXPECTED_COUNTRIES = 20
+TARGET_COUNTRY = "Greece"
+TARGET_ISO = "GRC"
+TARGET_EPISODE = "EU_SOV_GRC_PSI_2011_2012"
+
+EXPECTED_INSTRUMENTS = 2
+EXPECTED_AMOUNT_MLN_USD = 250510.0
+AMOUNT_TOLERANCE = 0.01
+
+
+def normalize(value):
+    return (
+        str(value).strip().lower()
+        .replace(" ", "")
+        .replace("_", "")
+        .replace("-", "")
+    )
+
+
+def number(series):
+    return pd.to_numeric(series, errors="coerce")
+
+
+def load_inputs():
+    missing = [
+        p for p in [
+            ESM_FILE,
+            INSTRUMENT_FILE,
+            EPISODE_FILE,
+        ]
+        if not p.exists()
+    ]
+
+    if missing:
+        raise FileNotFoundError(
+            "Required audit inputs missing:\n"
+            + "\n".join(str(p) for p in missing)
+        )
+
+    esm = pd.read_excel(
+        ESM_FILE,
+        sheet_name="2022 version"
+    )
+
+    instruments = pd.read_csv(INSTRUMENT_FILE)
+    episodes = pd.read_csv(EPISODE_FILE)
+
+    return esm, instruments, episodes
+
+
+def add_result(results, test, status, observed, expected, detail):
+    results.append({
+        "test": test,
+        "status": status,
+        "observed": observed,
+        "expected": expected,
+        "detail": detail,
+    })
+
+
+def validate_schema(esm, instruments, episodes, results):
+    required_instruments = [
+        "source_row",
+        "country",
+        "episode_key",
+        "Instrument",
+        "amount_mln_usd",
+        "face_value_reduction",
+        "maturity_change",
+        "coupon_change",
+        "npv_loss_raw",
+        "date_valid",
+        "match_status",
+    ]
+
+    required_episodes = [
+        "episode_key",
+        "country",
+        "instrument_count",
+        "instrument_reported_amount_sum_mln_usd",
+    ]
+
+    missing_i = [
+        c for c in required_instruments
+        if c not in instruments.columns
+    ]
+
+    missing_e = [
+        c for c in required_episodes
+        if c not in episodes.columns
+    ]
+
+    add_result(
+        results,
+        "instrument_schema",
+        "PASS" if not missing_i else "FAIL",
+        str(missing_i),
+        "No missing required columns",
+        "Instrument-level output schema validation."
+    )
+
+    add_result(
+        results,
+        "episode_schema",
+        "PASS" if not missing_e else "FAIL",
+        str(missing_e),
+        "No missing required columns",
+        "Episode-level output schema validation."
+    )
+
+    add_result(
+        results,
+        "esm_source_schema",
+        "PASS" if {
+            "Country",
+            "Instrument",
+            "Amount (mln US$)",
+            "NPV loss (%)",
+            "Face value reduction",
+        }.issubset(esm.columns) else "FAIL",
+        str(list(esm.columns)),
+        "Required original ESM source fields",
+        "Original source schema validation."
+    )
+
+    return not (missing_i or missing_e)
+
+
+def validate_source_traceability(esm, instruments, results):
+    if "source_row" not in instruments.columns:
+        return
+
+    source_rows = pd.to_numeric(
+        instruments["source_row"],
+        errors="coerce"
+    )
+
+    valid_indices = (
+        source_rows.notna()
+        & source_rows.ge(0)
+        & source_rows.lt(len(esm))
+        & source_rows.eq(source_rows.round())
+    )
+
+    matched = 0
+    mismatches = []
+
+    for _, row in instruments.iterrows():
+        index = pd.to_numeric(
+            pd.Series([row["source_row"]]),
+            errors="coerce"
+        ).iloc[0]
+
+        if pd.isna(index) or index < 0 or index >= len(esm):
+            continue
+
+        source = esm.iloc[int(index)]
+
+        checks = [
+            (
+                normalize(row["country"]),
+                normalize(source["Country"])
+            ),
+            (
+                normalize(row["Instrument"]),
+                normalize(source["Instrument"])
+            ),
+        ]
+
+        if not all(a == b for a, b in checks):
+            mismatches.append(int(index))
+        else:
+            matched += 1
+
+    add_result(
+        results,
+        "source_row_traceability",
+        "PASS" if (
+            valid_indices.all()
+            and not mismatches
+            and matched == len(instruments)
+        ) else "FAIL",
+        f"{matched}/{len(instruments)} source records matched",
+        "Every output instrument maps to its original ESM row",
+        f"Mismatched source row indices: {mismatches}"
+    )
+
+    # Independently compare amounts and NPV values.
+    amount_mismatches = []
+    npv_mismatches = []
+
+    for _, row in instruments.iterrows():
+        index = pd.to_numeric(
+            pd.Series([row["source_row"]]),
+            errors="coerce"
+        ).iloc[0]
+
+        if pd.isna(index) or index < 0 or index >= len(esm):
+            continue
+
+        source = esm.iloc[int(index)]
+
+        source_amount = pd.to_numeric(
+            pd.Series([source["Amount (mln US$)"]]),
+            errors="coerce"
+        ).iloc[0]
+
+        output_amount = pd.to_numeric(
+            pd.Series([row["amount_mln_usd"]]),
+            errors="coerce"
+        ).iloc[0]
+
+        if pd.isna(source_amount) or pd.isna(output_amount):
+            if not (pd.isna(source_amount) and pd.isna(output_amount)):
+                amount_mismatches.append(int(index))
+        elif abs(source_amount - output_amount) > AMOUNT_TOLERANCE:
+            amount_mismatches.append(int(index))
+
+        source_npv = pd.to_numeric(
+            pd.Series([source["NPV loss (%)"]]),
+            errors="coerce"
+        ).iloc[0]
+
+        output_npv = pd.to_numeric(
+            pd.Series([row["npv_loss_raw"]]),
+            errors="coerce"
+        ).iloc[0]
+
+        if pd.isna(source_npv) or pd.isna(output_npv):
+            if not (pd.isna(source_npv) and pd.isna(output_npv)):
+                npv_mismatches.append(int(index))
+        elif abs(source_npv - output_npv) > 1e-10:
+            npv_mismatches.append(int(index))
+
+    add_result(
+        results,
+        "source_amount_reconciliation",
+        "PASS" if not amount_mismatches else "FAIL",
+        str(amount_mismatches),
+        "Amounts agree with original ESM rows",
+        "Amount comparison uses million USD units."
+    )
+
+    add_result(
+        results,
+        "source_npv_reconciliation",
+        "PASS" if not npv_mismatches else "FAIL",
+        str(npv_mismatches),
+        "NPV values agree with original ESM rows",
+        "NPV values preserved without rescaling."
+    )
+
+
+def validate_uniqueness(instruments, results):
+    source_duplicates = int(
+        instruments["source_row"].duplicated().sum()
+    )
+
+    signatures = instruments.assign(
+        country_key=instruments["country"].map(normalize),
+        instrument_key=instruments["Instrument"].map(normalize),
+    )
+
+    signature_duplicates = int(
+        signatures.duplicated(
+            subset=[
+                "country_key",
+                "instrument_key",
+                "source_row",
+            ]
+        ).sum()
+    )
+
+    add_result(
+        results,
+        "source_row_uniqueness",
+        "PASS" if source_duplicates == 0 else "FAIL",
+        source_duplicates,
+        0,
+        "Each source row should appear once."
+    )
+
+    add_result(
+        results,
+        "instrument_record_uniqueness",
+        "PASS" if signature_duplicates == 0 else "FAIL",
+        signature_duplicates,
+        0,
+        "Checks duplicated country/instrument/source-row combinations."
+    )
+
+
+def validate_episode_linkage(instruments, episodes, results):
+    greek = instruments[
+        instruments["country"].map(normalize)
+        == normalize(TARGET_COUNTRY)
+    ]
+
+    greek_episodes = sorted(
+        greek["episode_key"].dropna().astype(str).unique()
+    )
+
+    episode_record = episodes[
+        episodes["episode_key"].astype(str)
+        == TARGET_EPISODE
+    ]
+
+    common_link = (
+        len(greek) == EXPECTED_INSTRUMENTS
+        and len(greek_episodes) == 1
+        and greek_episodes[0] == TARGET_EPISODE
+    )
+
+    add_result(
+        results,
+        "greek_psi_episode_linkage",
+        "PASS" if common_link else "REVIEW",
+        json_value({
+            "greek_instruments": len(greek),
+            "episode_keys": greek_episodes,
+        }),
+        f"{EXPECTED_INSTRUMENTS} instruments linked to {TARGET_EPISODE}",
+        "Checks the unified Greek PSI episode identifier."
+    )
+
+    add_result(
+        results,
+        "episode_aggregate_record",
+        "PASS" if len(episode_record) == 1 else "FAIL",
+        len(episode_record),
+        1,
+        "Exactly one aggregate episode record should exist."
+    )
+
+    return greek, episode_record
+
+
+def json_value(value):
+    import json
+    return json.dumps(value, default=str)
+
+
+def validate_amounts(greek, episode_record, results):
+    amounts = number(greek["amount_mln_usd"])
+
+    all_positive = (
+        len(amounts) > 0
+        and amounts.notna().all()
+        and (amounts > 0).all()
+    )
+
+    total = amounts.sum() if all_positive else float("nan")
+
+    arithmetic_pass = (
+        all_positive
+        and abs(total - EXPECTED_AMOUNT_MLN_USD)
+        <= AMOUNT_TOLERANCE
+    )
+
+    add_result(
+        results,
+        "greek_amount_arithmetic",
+        "PASS" if arithmetic_pass else "FAIL",
+        total,
+        EXPECTED_AMOUNT_MLN_USD,
+        "Sum of instrument-reported amounts in million USD."
+    )
+
+    if len(episode_record) == 1:
+        reported = pd.to_numeric(
+            pd.Series([
+                episode_record.iloc[0][
+                    "instrument_reported_amount_sum_mln_usd"
+                ]
+            ]),
+            errors="coerce"
+        ).iloc[0]
+
+        aggregate_pass = (
+            pd.notna(reported)
+            and pd.notna(total)
+            and abs(reported - total) <= AMOUNT_TOLERANCE
+        )
+    else:
+        reported = float("nan")
+        aggregate_pass = False
+
+    add_result(
+        results,
+        "episode_amount_reconciliation",
+        "PASS" if aggregate_pass else "FAIL",
+        reported,
+        total,
+        "Episode amount compared with instrument-level sum."
+    )
+
+    # This is deliberately not a PASS: the source's common units
+    # do not establish non-overlap or common economic valuation dates.
+    add_result(
+        results,
+        "economic_amount_comparability",
+        "NOT_VERIFIABLE",
+        "Common source field: Amount (mln US$)",
+        "Non-overlapping debt claims and compatible valuation basis",
+        "Requires instrument-level documentation; arithmetic alone is insufficient."
+    )
+
+
+def validate_npv(greek, results):
+    npv = number(greek["npv_loss_raw"])
+    amounts = number(greek["amount_mln_usd"])
+
+    valid = (
+        len(npv) > 0
+        and npv.notna().all()
+        and npv.between(0, 1, inclusive="both").all()
+    )
+
+    add_result(
+        results,
+        "npv_range",
+        "PASS" if valid else "FAIL",
+        npv.tolist(),
+        "All reported NPV losses between 0 and 1",
+        "Assumes ESM stores NPV loss as a fraction."
+    )
+
+    add_result(
+        results,
+        "npv_completeness",
+        "PASS" if npv.notna().all() else "REVIEW",
+        int(npv.isna().sum()),
+        0,
+        "Missing NPV values must not be interpreted as zero."
+    )
+
+    if valid and amounts.notna().all() and (amounts > 0).all():
+        weighted_npv = (amounts * npv).sum() / amounts.sum()
+        weighted_loss_amount = (amounts * npv).sum()
+    else:
+        weighted_npv = float("nan")
+        weighted_loss_amount = float("nan")
+
+    add_result(
+        results,
+        "weighted_npv_recalculation",
+        "PASS" if pd.notna(weighted_npv) else "REVIEW",
+        weighted_npv,
+        "Independent amount-weighted calculation",
+        "Indicative only; not a verified aggregate creditor loss."
+    )
+
+    add_result(
+        results,
+        "indicative_weighted_npv_loss_amount",
+        "CALCULATED" if pd.notna(weighted_loss_amount) else "NOT_CALCULATED",
+        weighted_loss_amount,
+        "Amount multiplied by instrument-level NPV loss fractions",
+        "Not a verified cash loss or unique creditor claim."
+    )
+
+
+def validate_contractual_indicators(greek, results):
+    for column in [
+        "face_value_reduction",
+        "maturity_change",
+        "coupon_change",
+        "post_default_restructuring",
+    ]:
+        values = number(greek[column])
+        observed = sorted(values.dropna().unique().tolist())
+
+        binary = set(observed).issubset({0, 1})
+
+        add_result(
+            results,
+            f"{column}_semantics",
+            "PASS" if binary else "REVIEW",
+            observed,
+            "Binary values 0 or 1, subject to source codebook",
+            "Indicator values are not haircut percentages."
+        )
+
+    face_values = number(greek["face_value_reduction"])
+
+    add_result(
+        results,
+        "face_value_haircut_percentage",
+        "NOT_AVAILABLE",
+        face_values.tolist(),
+        "A separately documented percentage haircut",
+        "Do not infer a haircut percentage from a binary indicator."
+    )
+
+
+def validate_registry_matches(greek, results):
+    if "match_status" not in greek.columns:
+        status_count = 0
+    else:
+        status_count = int(
+            greek["match_status"]
+            .eq("TEMPORAL_OVERLAP")
+            .sum()
+        )
+
+    add_result(
+        results,
+        "registry_temporal_linkage",
+        "PASS" if status_count == len(greek) and len(greek) > 0 else "REVIEW",
+        f"{status_count}/{len(greek)}",
+        "All Greek PSI instruments have temporal overlap",
+        "Temporal overlap is not independent proof of event identity."
+    )
+
+
+
+def validate_temporal_provenance(greek, results):
+    required = [
+        "compatible_registry_match_count",
+        "contextual_registry_match_count",
+        "compatibility_status",
+        "compatible_registry_event_ids",
+        "compatible_registry_episode_ids",
+        "episode_link_status",
+        "year_level_candidate_count",
+        "year_level_compatible_count",
+        "year_level_contextual_count",
+        "year_level_candidate_event_ids",
+        "year_level_candidate_event_types",
+        "year_level_status",
+    ]
+
+    missing = [column for column in required if column not in greek.columns]
+
+    add_result(
+        results,
+        "temporal_provenance_schema",
+        "PASS" if not missing else "FAIL",
+        str(missing),
+        "All exact-date and year-level provenance columns present",
+        "Checks the fields needed to distinguish exact-date evidence from year-level candidates."
+    )
+
+    if missing:
+        return
+
+    expected_event_types = {
+        "financial_assistance",
+        "systemic_banking_crisis",
+    }
+
+    exact_counts = number(
+        greek["compatible_registry_match_count"]
+    ).fillna(-1)
+
+    contextual_counts = number(
+        greek["contextual_registry_match_count"]
+    ).fillna(-1)
+
+    exact_status_ok = (
+        exact_counts.eq(2).all()
+        and contextual_counts.eq(0).all()
+        and greek["compatibility_status"].eq(
+            "RESTRUCTURING_COMPATIBLE_OVERLAP"
+        ).all()
+    )
+
+    add_result(
+        results,
+        "exact_date_restructuring_compatibility",
+        "PASS" if exact_status_ok and len(greek) == EXPECTED_INSTRUMENTS else "FAIL",
+        json_value({
+            "instrument_count": len(greek),
+            "compatible_counts": exact_counts.tolist(),
+            "contextual_counts": contextual_counts.tolist(),
+            "statuses": greek["compatibility_status"].tolist(),
+        }),
+        f"{EXPECTED_INSTRUMENTS} instruments; 2 compatible and 0 contextual matches each",
+        "Verifies semantic compatibility of exact-date registry matches."
+    )
+
+    year_counts = number(
+        greek["year_level_candidate_count"]
+    ).fillna(-1)
+
+    year_compatible = number(
+        greek["year_level_compatible_count"]
+    ).fillna(-1)
+
+    year_contextual = number(
+        greek["year_level_contextual_count"]
+    ).fillna(-1)
+
+    year_status_ok = (
+        year_counts.eq(3).all()
+        and year_compatible.eq(0).all()
+        and year_contextual.eq(3).all()
+        and greek["year_level_status"].eq(
+            "YEAR_RANGE_OVERLAP_CANDIDATE_NOT_EXACT_DATE_MATCH"
+        ).all()
+    )
+
+    add_result(
+        results,
+        "year_level_candidate_separation",
+        "PASS" if year_status_ok and len(greek) == EXPECTED_INSTRUMENTS else "FAIL",
+        json_value({
+            "candidate_counts": year_counts.tolist(),
+            "compatible_counts": year_compatible.tolist(),
+            "contextual_counts": year_contextual.tolist(),
+            "statuses": greek["year_level_status"].tolist(),
+        }),
+        "Each instrument: 3 year-level candidates, 0 compatible, 3 contextual",
+        "Year-range candidates must remain separate from exact-date restructuring evidence."
+    )
+
+    expected_event_ids = {
+        "EU_BANK_GRC_2008",
+        "EU_FA_GRC_2010_01",
+        "EU_FA_GRC_2012_02",
+    }
+
+    observed_event_ids = set()
+    observed_event_types = set()
+    row_event_checks = []
+
+    for _, row in greek.iterrows():
+        event_ids = {
+            value.strip()
+            for value in str(row["year_level_candidate_event_ids"]).split(";")
+            if value.strip()
+        }
+
+        event_types = {
+            value.strip()
+            for value in str(row["year_level_candidate_event_types"]).split(";")
+            if value.strip()
+        }
+
+        observed_event_ids.update(event_ids)
+        observed_event_types.update(event_types)
+
+        row_event_checks.append(
+            event_ids == expected_event_ids
+            and event_types == set(expected_event_types)
+        )
+
+    event_identity_ok = (
+        len(greek) == EXPECTED_INSTRUMENTS
+        and all(row_event_checks)
+        and observed_event_ids == expected_event_ids
+        and observed_event_types == set(expected_event_types)
+    )
+
+    observed = {
+        "event_ids": sorted(observed_event_ids),
+        "event_types": sorted(observed_event_types),
+    }
+
+    expected = {
+        "event_ids": sorted(expected_event_ids),
+        "event_types": sorted(expected_event_types),
+    }
+
+    add_result(
+        results,
+        "year_level_event_identity_and_type",
+        "PASS" if event_identity_ok else "FAIL",
+        json_value(observed),
+        json_value(expected),
+        "Checks the three candidate event IDs and two distinct event classifications independently for each instrument."
+    )
+
+    expected_compatible_event_ids = {
+        "EU_SOV_GRC_PSI_2011_2012_BONDS_GOVERNMENT_BONDS",
+        "EU_SOV_GRC_PSI_2011_2012_BONDS_GUARANTEED_BONDS",
+    }
+
+    canonical_link_ok = True
+    separation_details = []
+
+    for _, row in greek.iterrows():
+        compatible_episode_ids = {
+            value.strip()
+            for value in str(row["compatible_registry_episode_ids"]).split(";")
+            if value.strip()
+        }
+
+        compatible_event_ids = {
+            value.strip()
+            for value in str(row["compatible_registry_event_ids"]).split(";")
+            if value.strip()
+        }
+
+        year_event_ids = {
+            value.strip()
+            for value in str(row["year_level_candidate_event_ids"]).split(";")
+            if value.strip()
+        }
+
+        row_ok = (
+            row["episode_link_status"] == "CANONICAL_EPISODE_ID_MATCH"
+            and compatible_episode_ids == {TARGET_EPISODE}
+            and compatible_event_ids == expected_compatible_event_ids
+            and year_event_ids.isdisjoint(compatible_event_ids)
+        )
+
+        canonical_link_ok = canonical_link_ok and row_ok
+
+        separation_details.append({
+            "episode_link_status": row["episode_link_status"],
+            "compatible_episode_ids": sorted(compatible_episode_ids),
+            "year_level_events_overlap_exact_events": sorted(
+                year_event_ids.intersection(compatible_event_ids)
+            ),
+        })
+
+    add_result(
+        results,
+        "year_level_not_used_for_canonical_episode_link",
+        "PASS" if canonical_link_ok and len(greek) == EXPECTED_INSTRUMENTS else "FAIL",
+        json_value(separation_details),
+        f"Canonical episode link comes from exact-date compatible evidence: {TARGET_EPISODE}",
+        "Ensures year-level candidates do not establish or contaminate canonical episode identity."
+    )
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Independent sovereign default severity integrity audit."
+    )
+
+    parser.add_argument(
+        "--countries",
+        nargs="*",
+        default=None,
+        help="Optional canonical country universe."
+    )
+
+    args = parser.parse_args()
+
+    PROCESSED.mkdir(parents=True, exist_ok=True)
+    REPORTS.mkdir(parents=True, exist_ok=True)
+
+    esm, instruments, episodes = load_inputs()
+
+    results = []
+
+    schema_ok = validate_schema(
+        esm, instruments, episodes, results
+    )
+
+    if not schema_ok:
+        raise ValueError(
+            "Required input schema validation failed. "
+            "Resolve missing columns before continuing."
+        )
+
+    # Restrict to the requested country universe when supplied.
+    if args.countries:
+        country_keys = {normalize(c) for c in args.countries}
+        iso_to_country = {
+            "AUT": "Austria", "BEL": "Belgium",
+            "CHE": "Switzerland", "CZE": "Czech Republic",
+            "DEU": "Germany", "DNK": "Denmark",
+            "ESP": "Spain", "FIN": "Finland",
+            "FRA": "France", "GBR": "United Kingdom",
+            "GRC": "Greece", "HUN": "Hungary",
+            "IRL": "Ireland", "ITA": "Italy",
+            "NLD": "Netherlands", "NOR": "Norway",
+            "POL": "Poland", "PRT": "Portugal",
+            "ROU": "Romania", "SWE": "Sweden",
+        }
+
+        accepted = country_keys | {
+            normalize(iso_to_country[c])
+            for c in args.countries if c in iso_to_country
+        }
+
+        instruments = instruments[
+            instruments["country"].map(normalize).isin(accepted)
+        ].copy()
+
+        episodes = episodes[
+            episodes["country"].map(normalize).isin(accepted)
+        ].copy()
+
+    validate_uniqueness(instruments, results)
+
+    greek, episode_record = validate_episode_linkage(
+        instruments, episodes, results
+    )
+
+    validate_source_traceability(esm, instruments, results)
+
+    validate_amounts(greek, episode_record, results)
+
+    validate_npv(greek, results)
+
+    validate_contractual_indicators(greek, results)
+
+    validate_registry_matches(greek, results)
+
+    validate_temporal_provenance(greek, results)
+
+    result_df = pd.DataFrame(results)
+
+    result_df.to_csv(
+        OUTPUT_FILE,
+        index=False
+    )
+
+    pass_count = int(result_df["status"].eq("PASS").sum())
+    fail_count = int(result_df["status"].eq("FAIL").sum())
+    review_count = int(
+        result_df["status"].isin(
+            ["REVIEW", "NOT_VERIFIABLE", "NOT_AVAILABLE"]
+        ).sum()
+    )
+
+    report = [
+        "=" * 78,
+        "EUROPEAN SOVEREIGN DEFAULT SEVERITY INTEGRITY AUDIT",
+        "=" * 78,
+        "",
+        f"ESM source rows: {len(esm)}",
+        f"Instrument records assessed: {len(instruments)}",
+        f"Episode records assessed: {len(episodes)}",
+        f"Greek PSI instruments: {len(greek)}",
+        "",
+        f"PASS: {pass_count}",
+        f"FAIL: {fail_count}",
+        f"REVIEW / NOT VERIFIABLE: {review_count}",
+        "",
+        "DETAILED TEST RESULTS",
+        "-" * 78,
+        result_df.to_string(index=False),
+        "",
+        "INTERPRETATION",
+        "-" * 78,
+        "- Arithmetic agreement does not establish economic comparability.",
+        "- Amounts are reported in million US dollars.",
+        "- Instrument amounts may not represent unique non-overlapping claims.",
+        "- NPV losses are preserved as source fractions.",
+        "- Weighted NPV is indicative, not a verified aggregate creditor loss.",
+        "- Binary face-value reduction flags are not percentage haircuts.",
+        "- Exact-date restructuring compatibility is tested separately from temporal overlap.",
+        "- Year-level candidates do not establish exact chronology or canonical episode identity.",
+        "- Contextual financial-assistance and banking-crisis records are not restructuring evidence.",
+        "- Missing evidence is not zero exposure or zero creditor loss.",
+        "- No composite severity score is produced.",
+        "- No historical stress-event registry records are modified.",
+        "",
+        "OUTPUT",
+        str(OUTPUT_FILE),
+        "",
+        "AUDIT COMPLETED."
+    ]
+
+    REPORT_FILE.write_text(
+        "\n".join(report),
+        encoding="utf-8"
+    )
+
+    print("\n".join(report))
+
+
+if __name__ == "__main__":
+    main()

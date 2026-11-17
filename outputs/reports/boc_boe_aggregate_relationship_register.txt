@@ -1,0 +1,22 @@
+================================================================================
+BOC-BOE AGGREGATE RELATIONSHIP REGISTER
+================================================================================
+Relationships registered: 5
+
+RELATIONSHIP COUNTS
+--------------------------------------------------------------------------------
+COUNT_DERIVED_RATE: 2
+EXACT_COMPONENT_SUM: 1
+DERIVED_RATIO: 1
+NESTED_NOMINAL_GDP_AGGREGATES: 1
+
+MODELLING GOVERNANCE
+--------------------------------------------------------------------------------
+1. Preserve original source observations.
+2. Keep derived variables separately identifiable and traceable.
+3. Do not treat formula-derived measures as independent signals.
+4. Do not infer causation from correlation or arithmetic relationships.
+5. Retain provisional-year status and source coverage metadata.
+
+Output: data\processed\boc_boe_aggregate_relationship_register.csv
+REGISTER BUILD COMPLETED.

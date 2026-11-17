@@ -1,0 +1,36 @@
+BOC–BOE AGGREGATE SERIES ROWS AUDIT
+===========================================================================
+
+Full panel rows: 10855
+Rows with at least one aggregate indicator: 65
+Aggregate variables inspected: 23
+
+COUNTRY LABELS CONTAINING AGGREGATE INDICATORS
+---------------------------------------------------------------------------
+World | group=World | rows=65 | years=1960–2024 | populated_cells=1203
+
+SERIES-LEVEL COVERAGE
+---------------------------------------------------------------------------
+DEBT_ADVANCED_ECON_2025 | rows=65 | countries=World | groups=World | years=1960–2024
+DEBT_EME_2025 | rows=65 | countries=World | groups=World | years=1960–2024
+DEBT_HIPC_2025 | rows=65 | countries=World | groups=World | years=1960–2024
+DEBT_OTHER_2025 | rows=65 | countries=World | groups=World | years=1960–2024
+DEBT_EXAE_2025 | rows=65 | countries=World | groups=World | years=1960–2024
+DEBT_SSA_2025 | rows=65 | countries=World | groups=World | years=1960–2024
+DEBT_DEFRATE_SOVEREIGNS_2025 | rows=65 | countries=World | groups=World | years=1960–2024
+DEBT_TOTAL_DEF_SOVEREIGNS_2025 | rows=65 | countries=World | groups=World | years=1960–2024
+DEBT_TOTAL_NUMB_SOVEREIGNS_2025 | rows=65 | countries=World | groups=World | years=1960–2024
+DEBT_DEFRATE_WORLD_GDP_2025 | rows=65 | countries=World | groups=World | years=1960–2024
+DEBT_ARREARS_TOTAL_SOVEREIGNS_2025 | rows=46 | countries=World | groups=World | years=1979–2024
+DEBT_ARREARS_DEFRATE_CONV_DEF_2025 | rows=46 | countries=World | groups=World | years=1979–2024
+DEBT_ARREARS_DEFRATE_WORLD_GDP_2025 | rows=46 | countries=World | groups=World | years=1979–2024
+DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025 | rows=46 | countries=World | groups=World | years=1979–2024
+DEBT_GROSS_WORLD_PUBLIC_DEBT_2025 | rows=45 | countries=World | groups=World | years=1980–2024
+DEBT_DEFRATE_EME_OTHER_GDP_2025 | rows=45 | countries=World | groups=World | years=1980–2024
+DEBT_DEFRATE_WORLD_PUBLIC_DEBT_2025 | rows=45 | countries=World | groups=World | years=1980–2024
+DEBT_DEFRATE_CHINA_2025 | rows=45 | countries=World | groups=World | years=1980–2024
+DEBT_GROSS_EME_OTHER_GDP_2025 | rows=45 | countries=World | groups=World | years=1980–2024
+DEBT_GROSS_CHINA_2025 | rows=45 | countries=World | groups=World | years=1980–2024
+DEBT_DEFRATE_PARIS_CLUB_DEBT_2025 | rows=17 | countries=World | groups=World | years=2008–2024
+DEBT_PARIS_CLUB_DEBT_2025 | rows=17 | countries=World | groups=World | years=2008–2024
+DEBT_GROSS_WORLD_PRODUCT_2025 | rows=65 | countries=World | groups=World | years=1960–2024

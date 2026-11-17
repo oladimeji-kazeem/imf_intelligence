@@ -1,0 +1,21 @@
+iso,country,recent_external_imbalance,recent_external_imbalance_percentile,recent_external_imbalance_value,historical_deficit_persistence,historical_deficit_persistence_percentile,historical_deficit_persistence_value,recent_external_imbalance_volatility,recent_external_imbalance_volatility_percentile,recent_external_imbalance_volatility_value,historical_export_contraction,historical_export_contraction_percentile,historical_export_contraction_value,recent_export_contraction,recent_export_contraction_percentile,recent_export_contraction_value,historical_export_growth_instability,historical_export_growth_instability_percentile,historical_export_growth_instability_value
+AUT,Austria,moderate_risk,0.4,1.606,lower_risk,0.325,0.1,lower_risk,0.1,0.129,lower_risk,0.2,0.05,higher_risk,0.875,0.6,moderate_risk,0.35,2.247
+BEL,Belgium,moderate_risk,0.6,0.194,moderate_risk,0.4,0.2,moderate_risk,0.4,0.7210000000000001,higher_risk,0.825,0.2,higher_risk,0.875,0.6,lower_risk,0.2,1.845
+CHE,Switzerland,lower_risk,0.25,7.436,lower_risk,0.15,0.0,higher_risk,0.75,1.673,higher_risk,0.975,0.35,moderate_risk,0.625,0.4,higher_risk,0.95,4.6185
+CZE,Czech Republic,moderate_risk,0.65,-0.111,higher_risk,0.8,0.7,higher_risk,0.8,1.87,lower_risk,0.2,0.05,lower_risk,0.275,0.2,higher_risk,0.85,4.095000000000001
+DEU,Germany,moderate_risk,0.35,5.815,lower_risk,0.325,0.1,lower_risk,0.25,0.4539999999999997,lower_risk,0.2,0.05,higher_risk,0.875,0.6,moderate_risk,0.55,2.659
+DNK,Denmark,lower_risk,0.1,9.702,lower_risk,0.15,0.0,moderate_risk,0.65,1.4610000000000003,moderate_risk,0.5,0.1,lower_risk,0.275,0.2,lower_risk,0.05,0.8664999999999998
+ESP,Spain,moderate_risk,0.5,0.789,moderate_risk,0.625,0.6,lower_risk,0.2,0.37,moderate_risk,0.5,0.1,lower_risk,0.275,0.2,lower_risk,0.25,2.1380000000000003
+FIN,Finland,higher_risk,0.7,-0.553,moderate_risk,0.45,0.45,moderate_risk,0.45,0.883,higher_risk,0.7,0.15,moderate_risk,0.625,0.4,higher_risk,0.7,3.381
+FRA,France,higher_risk,0.8,-0.928,moderate_risk,0.625,0.6,moderate_risk,0.35,0.613,moderate_risk,0.5,0.1,lower_risk,0.275,0.2,lower_risk,0.15,1.5165000000000002
+GBR,United Kingdom,higher_risk,0.9,-2.542,higher_risk,0.925,1.0,lower_risk,0.15,0.359,moderate_risk,0.5,0.1,higher_risk,0.875,0.6,moderate_risk,0.4,2.552
+GRC,Greece,higher_risk,0.95,-7.18,higher_risk,0.925,1.0,lower_risk,0.05,0.0229999999999996,higher_risk,0.7,0.15,lower_risk,0.275,0.2,higher_risk,0.8,3.818
+HUN,Hungary,higher_risk,0.85,-1.126,moderate_risk,0.625,0.6,higher_risk,0.95,2.858,moderate_risk,0.5,0.1,moderate_risk,0.625,0.4,moderate_risk,0.5,2.5615
+IRL,Ireland,lower_risk,0.15,8.723,moderate_risk,0.5,0.55,higher_risk,1.0,3.462,higher_risk,0.7,0.15,lower_risk,0.275,0.2,higher_risk,0.75,3.729
+ITA,Italy,moderate_risk,0.45,1.095,moderate_risk,0.625,0.6,moderate_risk,0.5,0.912,higher_risk,0.825,0.2,higher_risk,0.875,0.6,moderate_risk,0.45,2.56
+NLD,"Netherlands, The",lower_risk,0.2,7.772,lower_risk,0.15,0.0,higher_risk,0.85,1.878,lower_risk,0.2,0.05,moderate_risk,0.625,0.4,moderate_risk,0.6,2.6820000000000004
+NOR,Norway,lower_risk,0.05,14.999,lower_risk,0.15,0.0,higher_risk,0.9,2.116999999999999,higher_risk,0.975,0.35,lower_risk,0.275,0.2,lower_risk,0.1,1.3409999999999995
+POL,"Poland, Republic of",moderate_risk,0.55,0.306,higher_risk,0.925,1.0,higher_risk,0.7,1.603,lower_risk,0.2,0.05,lower_risk,0.275,0.2,lower_risk,0.3,2.188
+PRT,Portugal,higher_risk,0.75,-0.663,higher_risk,0.75,0.65,moderate_risk,0.6,1.249,higher_risk,0.9,0.3,lower_risk,0.275,0.2,higher_risk,1.0,4.979
+ROU,Romania,higher_risk,1.0,-7.23,higher_risk,0.925,1.0,moderate_risk,0.55,0.939,lower_risk,0.2,0.05,higher_risk,0.875,0.6,higher_risk,0.9,4.223000000000001
+SWE,Sweden,lower_risk,0.3,6.22,lower_risk,0.15,0.0,lower_risk,0.3,0.5590000000000002,lower_risk,0.2,0.05,lower_risk,0.275,0.2,moderate_risk,0.65,3.019

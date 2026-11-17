@@ -1,0 +1,4 @@
+iso,risk_engine,risk_dimension,percentile_0_100,original_class,reconstructed_baseline_class
+DNK,growth,contraction_severity,33.75,moderate,lower
+ESP,growth,contraction_severity,63.74999999999999,moderate,higher
+HUN,growth,contraction_severity,65.0,moderate,higher

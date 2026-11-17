@@ -1,0 +1,4 @@
+source,expected_files,status,actual_path
+boc_boe,boc_boe_sovereign_defaults.csv; boc_boe_sovereign_default_database.csv,NOT_FOUND,
+kiel,kiel_monthly_sovereign_defaults.csv; kiel_sovereign_default_dataset.csv,NOT_FOUND,
+esm,esm_domestic_sovereign_defaults.xlsx,FOUND,C:\Users\oladi\sources\imf_intelligence\data\external\esm_domestic_sovereign_defaults.xlsx

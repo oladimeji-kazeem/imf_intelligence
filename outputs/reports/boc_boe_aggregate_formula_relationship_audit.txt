@@ -1,0 +1,37 @@
+==============================================================================
+BoC-BoE AGGREGATE FORMULA RELATIONSHIP AUDIT
+==============================================================================
+
+World observations: 65
+Year range: 1960–2024
+Rounding tolerance: 0.0051 percentage points
+
+FORMULA RECONCILIATION
+------------------------------------------------------------------------------
+Relationship: TOTAL_DEFAULT_COUNT_TO_DEFAULT_RATE
+Numerator: DEBT_TOTAL_DEF_SOVEREIGNS_2025
+Denominator: DEBT_TOTAL_NUMB_SOVEREIGNS_2025
+Derived indicator: DEBT_DEFRATE_SOVEREIGNS_2025
+Valid observations: 65
+Matches: 65
+Non-matches: 0
+Maximum absolute difference: 0.00490566
+Status: FORMULA_RECONCILED
+
+Relationship: ARREARS_COUNT_TO_ARREARS_RATE
+Numerator: DEBT_ARREARS_TOTAL_SOVEREIGNS_2025
+Denominator: DEBT_TOTAL_NUMB_SOVEREIGNS_2025
+Derived indicator: DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025
+Valid observations: 46
+Matches: 46
+Non-matches: 0
+Maximum absolute difference: 0.00497630
+Status: FORMULA_RECONCILED
+
+INTERPRETATION
+------------------------------------------------------------------------------
+- The two rate indicators reconcile empirically to their count and denominator fields.
+- The rates should not be treated as independent signals from their corresponding counts and common denominator.
+- The count indicators remain distinct measures.
+- Formula reconciliation does not establish the full methodological definition of either count.
+- No variables are deleted or overwritten by this audit.

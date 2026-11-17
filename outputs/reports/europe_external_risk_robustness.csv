@@ -1,0 +1,4 @@
+test,observations,spearman_rank_correlation,interpretation
+current_account_mean_vs_median,20,0.9864661654135337,Tests sensitivity of recent imbalance ranking to the choice of mean or median.
+current_account_mad_vs_iqr,20,0.8980820492199729,Tests whether two dispersion measures produce similar country rankings.
+export_contraction_frequency_vs_longest_run,20,0.7776361778045857,Tests whether contraction frequency and contraction persistence give similar rankings.

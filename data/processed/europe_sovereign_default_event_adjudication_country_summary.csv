@@ -1,0 +1,14 @@
+iso3,country,registry_event_records,distinct_event_ids,verified_event_records,included_event_records,sovereign_default_records,sovereign_restructuring_records,financial_assistance_records,banking_crisis_records,related_financial_stress_records,insufficient_evidence_records,count_registry_recorded_banking_crisis,count_registry_recorded_financial_assistance,count_registry_recorded_sovereign_restructuring
+AUT,Austria,1,1,1,1,0,0,0,1,0,0,1,0,0
+DEU,Germany,1,1,1,1,0,0,0,1,0,0,1,0,0
+ESP,Spain,1,1,1,1,0,0,1,0,0,0,0,1,0
+FIN,Finland,1,1,1,1,0,0,0,1,0,0,1,0,0
+FRA,France,1,1,1,1,0,0,0,1,0,0,1,0,0
+GRC,Greece,6,6,6,6,0,2,3,1,0,0,1,3,2
+HUN,Hungary,2,2,2,2,0,0,0,2,0,0,2,0,0
+IRL,Ireland,2,2,2,2,0,0,1,1,0,0,1,1,0
+ITA,Italy,1,1,1,1,0,0,0,1,0,0,1,0,0
+NOR,Norway,1,1,1,1,0,0,0,1,0,0,1,0,0
+POL,Poland,1,1,1,1,0,0,0,1,0,0,1,0,0
+PRT,Portugal,2,2,2,2,0,0,1,1,0,0,1,1,0
+ROU,Romania,1,1,1,1,0,0,0,1,0,0,1,0,0

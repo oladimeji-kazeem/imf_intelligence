@@ -1,0 +1,38 @@
+==============================================================================
+BoC-BOE AGGREGATE SERIES DYNAMICS AUDIT
+==============================================================================
+
+World annual observations: 65
+Series assessed: 23
+Pairwise comparisons: 253
+
+LEVEL CORRELATION >= 0.90
+                          series_a                             series_b  level_n  level_pearson  level_spearman  difference_n  difference_pearson  difference_spearman  pearson_absolute_change
+DEBT_ARREARS_TOTAL_SOVEREIGNS_2025 DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025       46       0.998509        0.996142            45            0.983294             0.983533                 0.015216
+ DEBT_GROSS_WORLD_PUBLIC_DEBT_2025        DEBT_GROSS_EME_OTHER_GDP_2025       45       0.989784        0.994071            44            0.366398             0.350951                 0.623387
+ DEBT_GROSS_WORLD_PUBLIC_DEBT_2025        DEBT_GROSS_WORLD_PRODUCT_2025       45       0.989202        0.996970            44            0.399798             0.505144                 0.589404
+      DEBT_DEFRATE_SOVEREIGNS_2025       DEBT_TOTAL_DEF_SOVEREIGNS_2025       65       0.985377        0.943835            64            0.956284             0.981009                 0.029092
+     DEBT_GROSS_EME_OTHER_GDP_2025        DEBT_GROSS_WORLD_PRODUCT_2025       45       0.985231        0.993676            44            0.926962             0.866103                 0.058269
+       DEBT_DEFRATE_WORLD_GDP_2025      DEBT_DEFRATE_EME_OTHER_GDP_2025       45       0.980214        0.912665            44            0.887816             0.892390                 0.092398
+                     DEBT_EME_2025                       DEBT_EXAE_2025       65       0.973879        0.984397            64            0.969633             0.916300                 0.004247
+                    DEBT_HIPC_2025                        DEBT_SSA_2025       65       0.971342        0.953409            64            0.852377             0.732051                 0.118965
+   DEBT_TOTAL_NUMB_SOVEREIGNS_2025   DEBT_ARREARS_TOTAL_SOVEREIGNS_2025       46       0.960331        0.819112            45            0.261157             0.135988                 0.699174
+   DEBT_TOTAL_NUMB_SOVEREIGNS_2025 DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025       46       0.946791        0.785573            45            0.092023             0.047579                 0.854768
+    DEBT_TOTAL_DEF_SOVEREIGNS_2025      DEBT_TOTAL_NUMB_SOVEREIGNS_2025       65       0.939123        0.684011            64            0.092374             0.363321                 0.846749
+       DEBT_DEFRATE_WORLD_GDP_2025  DEBT_DEFRATE_WORLD_PUBLIC_DEBT_2025       45       0.914718        0.901579            44            0.755883             0.897328                 0.158835
+ DEBT_GROSS_WORLD_PUBLIC_DEBT_2025                DEBT_GROSS_CHINA_2025       45       0.913632        0.945059            44            0.580079             0.362592                 0.333553
+
+FIRST-DIFFERENCE CORRELATION >= 0.90
+                          series_a                             series_b  level_n  level_pearson  level_spearman  difference_n  difference_pearson  difference_spearman  pearson_absolute_change
+DEBT_ARREARS_TOTAL_SOVEREIGNS_2025 DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025       46       0.998509        0.996142            45            0.983294             0.983533                 0.015216
+      DEBT_DEFRATE_SOVEREIGNS_2025       DEBT_TOTAL_DEF_SOVEREIGNS_2025       65       0.985377        0.943835            64            0.956284             0.981009                 0.029092
+     DEBT_GROSS_EME_OTHER_GDP_2025        DEBT_GROSS_WORLD_PRODUCT_2025       45       0.985231        0.993676            44            0.926962             0.866103                 0.058269
+                     DEBT_EME_2025                       DEBT_EXAE_2025       65       0.973879        0.984397            64            0.969633             0.916300                 0.004247
+
+INTERPRETATION
+- First differences measure annual changes, not levels.
+- High level correlation that weakens after differencing may reflect shared trends.
+- High first-difference correlation indicates stronger short-run co-movement,
+  but does not establish causation or identical definitions.
+- No series is removed or declared redundant by this audit.
+- No stationarity, cointegration or structural-break test is performed.

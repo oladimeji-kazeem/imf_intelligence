@@ -1,0 +1,84 @@
+============================================================================
+EUROPEAN LABOUR RISK CLASSIFICATION REPORT
+============================================================================
+
+INPUTS
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_labour_risk_diagnostics.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_labour_risk_annual_dynamics.csv
+
+CLASSIFICATION DESIGN
+----------------------------------------------------------------------------
+Countries: 20
+Dimensions: 5
+Peer-relative classification: lower / moderate / higher exposure
+Classification uses percentile ranks within the 20-country group.
+No composite labour-risk score is calculated.
+
+DIMENSION DISTRIBUTIONS
+----------------------------------------------------------------------------
+recent_unemployment_pressure: higher=7, moderate=7, lower=6, insufficient=0
+recent_unemployment_volatility: higher=7, moderate=7, lower=6, insufficient=0
+historical_unemployment_pressure: higher=7, moderate=7, lower=6, insufficient=0
+historical_high_unemployment_persistence: higher=7, moderate=2, lower=11, insufficient=0
+historical_unemployment_instability: higher=7, moderate=7, lower=6, insufficient=0
+
+ROBUSTNESS TESTS
+----------------------------------------------------------------------------
+                               dimension                               scenario  countries_compared  class_changes  class_stability_pct  spearman_rank_correlation
+            recent_unemployment_pressure                  recent_mean_vs_median                  20              0                100.0                      0.994
+          recent_unemployment_volatility                      recent_mad_vs_iqr                  20              6                 70.0                      0.806
+        historical_unemployment_pressure              historical_mean_vs_median                  20              0                100.0                      0.958
+     historical_unemployment_instability historical_change_mad_vs_mean_absolute                  20              6                 70.0                      0.791
+historical_high_unemployment_persistence    persistence_threshold_8pct_vs_10pct                  20              6                 70.0                      0.787
+historical_high_unemployment_persistence   persistence_threshold_12pct_vs_10pct                  20             12                 40.0                      0.884
+
+RECENT UNEMPLOYMENT DIRECTION — CONTEXT ONLY
+----------------------------------------------------------------------------
+iso  recent_unemployment_change_2020_2024_pp
+GRC                                   -6.225
+ESP                                   -4.188
+ITA                                   -2.784
+DNK                                   -1.766
+IRL                                   -1.542
+NLD                                   -1.192
+CHE                                   -0.784
+PRT                                   -0.658
+ROU                                   -0.642
+FRA                                   -0.600
+NOR                                   -0.582
+GBR                                   -0.325
+AUT                                   -0.300
+POL                                   -0.279
+DEU                                   -0.233
+SWE                                   -0.133
+CZE                                    0.087
+BEL                                    0.150
+HUN                                    0.350
+FIN                                    0.642
+
+METHODOLOGICAL LIMITATIONS
+----------------------------------------------------------------------------
+Peer-relative classifications are not absolute risk ratings.
+The comparison group is limited to the selected 20 countries.
+The 10% persistence threshold is a descriptive convention.
+Threshold sensitivity is assessed at 8%, 10% and 12%.
+MAD and IQR capture different aspects of dispersion.
+Unemployment alone does not measure total labour-market slack.
+No forecast, crisis probability or composite score is produced.
+
+VALIDATION
+----------------------------------------------------------------------------
+PASS: 20 country profiles created.
+PASS: 100 country-dimension classifications created.
+PASS: No duplicate country-dimension records.
+PASS: Recent period complete for all 20 countries.
+PASS: Modern historical period complete for all 20 countries.
+PASS: Alternative measurement and threshold tests created.
+
+OUTPUTS
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_labour_risk_country_profiles.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_labour_risk_classifications.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_labour_risk_robustness.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_labour_risk_classification_report.txt

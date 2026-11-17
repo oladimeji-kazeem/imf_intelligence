@@ -1,0 +1,4 @@
+indicator_code,indicator_name,records,numeric_observations,missing_numeric_observations,missing_pct
+BCA_NGDPD,current_account_balance_pct_gdp,919,904,15,1.6322
+TX_RPCH,exports_volume_growth_pct,919,884,35,3.8085
+TM_RPCH,imports_volume_growth_pct,919,884,35,3.8085

@@ -1,0 +1,401 @@
+iso,country,risk_engine,adjusted_higher_count,adjusted_signal_count,source_dimension_count,adjusted_higher_rate,adjusted_higher_rate_pct,original_higher_count,original_dimension_count,original_higher_rate,higher_rate_change_pp,adjusted_engine_active,scenario,threshold_rule,threshold_value,engine_active
+AUT,Austria,external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,baseline_one_signal,minimum_count,1.0,1
+AUT,Austria,fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,baseline_one_signal,minimum_count,1.0,1
+AUT,Austria,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,baseline_one_signal,minimum_count,1.0,1
+AUT,Austria,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,baseline_one_signal,minimum_count,1.0,1
+AUT,Austria,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+BEL,Belgium,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,baseline_one_signal,minimum_count,1.0,1
+BEL,Belgium,fiscal,4,6,8,0.6666666666666666,66.66666666666666,6,8,0.75,-8.333333333333337,True,baseline_one_signal,minimum_count,1.0,1
+BEL,Belgium,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+BEL,Belgium,inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,baseline_one_signal,minimum_count,1.0,1
+BEL,Belgium,labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,baseline_one_signal,minimum_count,1.0,1
+CHE,Switzerland,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,baseline_one_signal,minimum_count,1.0,1
+CHE,Switzerland,fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+CHE,Switzerland,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+CHE,Switzerland,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,baseline_one_signal,minimum_count,1.0,1
+CHE,Switzerland,labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,baseline_one_signal,minimum_count,1.0,1
+CZE,Czech Republic,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,baseline_one_signal,minimum_count,1.0,1
+CZE,Czech Republic,fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+CZE,Czech Republic,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,baseline_one_signal,minimum_count,1.0,1
+CZE,Czech Republic,inflation,3,7,8,0.4285714285714285,42.85714285714285,3,8,0.375,5.357142857142855,True,baseline_one_signal,minimum_count,1.0,1
+CZE,Czech Republic,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+DEU,Germany,external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,baseline_one_signal,minimum_count,1.0,1
+DEU,Germany,fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+DEU,Germany,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,baseline_one_signal,minimum_count,1.0,1
+DEU,Germany,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,baseline_one_signal,minimum_count,1.0,1
+DEU,Germany,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+DNK,Denmark,external,0,6,6,0.0,0.0,0,6,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+DNK,Denmark,fiscal,1,6,8,0.1666666666666666,16.666666666666664,1,8,0.125,4.166666666666666,True,baseline_one_signal,minimum_count,1.0,1
+DNK,Denmark,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+DNK,Denmark,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+DNK,Denmark,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+ESP,Spain,external,0,6,6,0.0,0.0,0,6,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+ESP,Spain,fiscal,4,6,8,0.6666666666666666,66.66666666666666,4,8,0.5,16.666666666666664,True,baseline_one_signal,minimum_count,1.0,1
+ESP,Spain,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,baseline_one_signal,minimum_count,1.0,1
+ESP,Spain,inflation,3,7,8,0.4285714285714285,42.85714285714285,4,8,0.5,-7.142857142857145,True,baseline_one_signal,minimum_count,1.0,1
+ESP,Spain,labour,5,5,5,1.0,100.0,5,5,1.0,0.0,True,baseline_one_signal,minimum_count,1.0,1
+FIN,Finland,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,baseline_one_signal,minimum_count,1.0,1
+FIN,Finland,fiscal,4,6,8,0.6666666666666666,66.66666666666666,5,8,0.625,4.166666666666663,True,baseline_one_signal,minimum_count,1.0,1
+FIN,Finland,growth,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,baseline_one_signal,minimum_count,1.0,1
+FIN,Finland,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+FIN,Finland,labour,3,5,5,0.6,60.0,3,5,0.6,0.0,True,baseline_one_signal,minimum_count,1.0,1
+FRA,France,external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,baseline_one_signal,minimum_count,1.0,1
+FRA,France,fiscal,4,6,8,0.6666666666666666,66.66666666666666,5,8,0.625,4.166666666666663,True,baseline_one_signal,minimum_count,1.0,1
+FRA,France,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,baseline_one_signal,minimum_count,1.0,1
+FRA,France,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+FRA,France,labour,3,5,5,0.6,60.0,3,5,0.6,0.0,True,baseline_one_signal,minimum_count,1.0,1
+GBR,United Kingdom,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,baseline_one_signal,minimum_count,1.0,1
+GBR,United Kingdom,fiscal,3,6,8,0.5,50.0,4,8,0.5,0.0,True,baseline_one_signal,minimum_count,1.0,1
+GBR,United Kingdom,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,baseline_one_signal,minimum_count,1.0,1
+GBR,United Kingdom,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,baseline_one_signal,minimum_count,1.0,1
+GBR,United Kingdom,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+GRC,Greece,external,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,baseline_one_signal,minimum_count,1.0,1
+GRC,Greece,fiscal,4,6,8,0.6666666666666666,66.66666666666666,5,8,0.625,4.166666666666663,True,baseline_one_signal,minimum_count,1.0,1
+GRC,Greece,growth,5,6,6,0.8333333333333334,83.33333333333334,5,6,0.8333333333333334,0.0,True,baseline_one_signal,minimum_count,1.0,1
+GRC,Greece,inflation,4,7,8,0.5714285714285714,57.14285714285714,5,8,0.625,-5.35714285714286,True,baseline_one_signal,minimum_count,1.0,1
+GRC,Greece,labour,5,5,5,1.0,100.0,5,5,1.0,0.0,True,baseline_one_signal,minimum_count,1.0,1
+HUN,Hungary,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,baseline_one_signal,minimum_count,1.0,1
+HUN,Hungary,fiscal,1,6,8,0.1666666666666666,16.666666666666664,1,8,0.125,4.166666666666666,True,baseline_one_signal,minimum_count,1.0,1
+HUN,Hungary,growth,3,6,6,0.5,50.0,3,6,0.5,0.0,True,baseline_one_signal,minimum_count,1.0,1
+HUN,Hungary,inflation,4,7,8,0.5714285714285714,57.14285714285714,5,8,0.625,-5.35714285714286,True,baseline_one_signal,minimum_count,1.0,1
+HUN,Hungary,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+IRL,Ireland,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,baseline_one_signal,minimum_count,1.0,1
+IRL,Ireland,fiscal,3,6,8,0.5,50.0,4,8,0.5,0.0,True,baseline_one_signal,minimum_count,1.0,1
+IRL,Ireland,growth,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,baseline_one_signal,minimum_count,1.0,1
+IRL,Ireland,inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,baseline_one_signal,minimum_count,1.0,1
+IRL,Ireland,labour,2,5,5,0.4,40.0,2,5,0.4,0.0,True,baseline_one_signal,minimum_count,1.0,1
+ITA,Italy,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,baseline_one_signal,minimum_count,1.0,1
+ITA,Italy,fiscal,2,6,8,0.3333333333333333,33.33333333333333,2,8,0.25,8.333333333333332,True,baseline_one_signal,minimum_count,1.0,1
+ITA,Italy,growth,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,baseline_one_signal,minimum_count,1.0,1
+ITA,Italy,inflation,3,7,8,0.4285714285714285,42.85714285714285,4,8,0.5,-7.142857142857145,True,baseline_one_signal,minimum_count,1.0,1
+ITA,Italy,labour,4,5,5,0.8,80.0,4,5,0.8,0.0,True,baseline_one_signal,minimum_count,1.0,1
+NLD,"Netherlands, The",external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,baseline_one_signal,minimum_count,1.0,1
+NLD,"Netherlands, The",fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+NLD,"Netherlands, The",growth,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,baseline_one_signal,minimum_count,1.0,1
+NLD,"Netherlands, The",inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,baseline_one_signal,minimum_count,1.0,1
+NLD,"Netherlands, The",labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,baseline_one_signal,minimum_count,1.0,1
+NOR,Norway,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,baseline_one_signal,minimum_count,1.0,1
+NOR,Norway,fiscal,3,6,8,0.5,50.0,4,8,0.5,0.0,True,baseline_one_signal,minimum_count,1.0,1
+NOR,Norway,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+NOR,Norway,inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,baseline_one_signal,minimum_count,1.0,1
+NOR,Norway,labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,baseline_one_signal,minimum_count,1.0,1
+POL,"Poland, Republic of",external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,baseline_one_signal,minimum_count,1.0,1
+POL,"Poland, Republic of",fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,baseline_one_signal,minimum_count,1.0,1
+POL,"Poland, Republic of",growth,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,baseline_one_signal,minimum_count,1.0,1
+POL,"Poland, Republic of",inflation,5,7,8,0.7142857142857143,71.42857142857143,6,8,0.75,-3.57142857142857,True,baseline_one_signal,minimum_count,1.0,1
+POL,"Poland, Republic of",labour,3,5,5,0.6,60.0,3,5,0.6,0.0,True,baseline_one_signal,minimum_count,1.0,1
+PRT,Portugal,external,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,baseline_one_signal,minimum_count,1.0,1
+PRT,Portugal,fiscal,3,6,8,0.5,50.0,3,8,0.375,12.5,True,baseline_one_signal,minimum_count,1.0,1
+PRT,Portugal,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,baseline_one_signal,minimum_count,1.0,1
+PRT,Portugal,inflation,3,7,8,0.4285714285714285,42.85714285714285,4,8,0.5,-7.142857142857145,True,baseline_one_signal,minimum_count,1.0,1
+PRT,Portugal,labour,4,5,5,0.8,80.0,4,5,0.8,0.0,True,baseline_one_signal,minimum_count,1.0,1
+ROU,Romania,external,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,baseline_one_signal,minimum_count,1.0,1
+ROU,Romania,fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,baseline_one_signal,minimum_count,1.0,1
+ROU,Romania,growth,5,6,6,0.8333333333333334,83.33333333333334,5,6,0.8333333333333334,0.0,True,baseline_one_signal,minimum_count,1.0,1
+ROU,Romania,inflation,6,7,8,0.8571428571428571,85.71428571428571,7,8,0.875,-1.7857142857142905,True,baseline_one_signal,minimum_count,1.0,1
+ROU,Romania,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+SWE,Sweden,external,0,6,6,0.0,0.0,0,6,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+SWE,Sweden,fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,baseline_one_signal,minimum_count,1.0,1
+SWE,Sweden,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,baseline_one_signal,minimum_count,1.0,1
+SWE,Sweden,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,baseline_one_signal,minimum_count,1.0,0
+SWE,Sweden,labour,2,5,5,0.4,40.0,2,5,0.4,0.0,True,baseline_one_signal,minimum_count,1.0,1
+AUT,Austria,external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_two_signals,minimum_count,2.0,0
+AUT,Austria,fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,minimum_two_signals,minimum_count,2.0,1
+AUT,Austria,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_two_signals,minimum_count,2.0,1
+AUT,Austria,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,minimum_two_signals,minimum_count,2.0,0
+AUT,Austria,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+BEL,Belgium,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_two_signals,minimum_count,2.0,1
+BEL,Belgium,fiscal,4,6,8,0.6666666666666666,66.66666666666666,6,8,0.75,-8.333333333333337,True,minimum_two_signals,minimum_count,2.0,1
+BEL,Belgium,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+BEL,Belgium,inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,minimum_two_signals,minimum_count,2.0,1
+BEL,Belgium,labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,minimum_two_signals,minimum_count,2.0,0
+CHE,Switzerland,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_two_signals,minimum_count,2.0,1
+CHE,Switzerland,fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+CHE,Switzerland,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+CHE,Switzerland,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,minimum_two_signals,minimum_count,2.0,0
+CHE,Switzerland,labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,minimum_two_signals,minimum_count,2.0,0
+CZE,Czech Republic,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_two_signals,minimum_count,2.0,1
+CZE,Czech Republic,fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+CZE,Czech Republic,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_two_signals,minimum_count,2.0,1
+CZE,Czech Republic,inflation,3,7,8,0.4285714285714285,42.85714285714285,3,8,0.375,5.357142857142855,True,minimum_two_signals,minimum_count,2.0,1
+CZE,Czech Republic,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+DEU,Germany,external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_two_signals,minimum_count,2.0,0
+DEU,Germany,fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+DEU,Germany,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_two_signals,minimum_count,2.0,1
+DEU,Germany,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,minimum_two_signals,minimum_count,2.0,0
+DEU,Germany,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+DNK,Denmark,external,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+DNK,Denmark,fiscal,1,6,8,0.1666666666666666,16.666666666666664,1,8,0.125,4.166666666666666,True,minimum_two_signals,minimum_count,2.0,0
+DNK,Denmark,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+DNK,Denmark,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+DNK,Denmark,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+ESP,Spain,external,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+ESP,Spain,fiscal,4,6,8,0.6666666666666666,66.66666666666666,4,8,0.5,16.666666666666664,True,minimum_two_signals,minimum_count,2.0,1
+ESP,Spain,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_two_signals,minimum_count,2.0,1
+ESP,Spain,inflation,3,7,8,0.4285714285714285,42.85714285714285,4,8,0.5,-7.142857142857145,True,minimum_two_signals,minimum_count,2.0,1
+ESP,Spain,labour,5,5,5,1.0,100.0,5,5,1.0,0.0,True,minimum_two_signals,minimum_count,2.0,1
+FIN,Finland,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_two_signals,minimum_count,2.0,1
+FIN,Finland,fiscal,4,6,8,0.6666666666666666,66.66666666666666,5,8,0.625,4.166666666666663,True,minimum_two_signals,minimum_count,2.0,1
+FIN,Finland,growth,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,minimum_two_signals,minimum_count,2.0,1
+FIN,Finland,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+FIN,Finland,labour,3,5,5,0.6,60.0,3,5,0.6,0.0,True,minimum_two_signals,minimum_count,2.0,1
+FRA,France,external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_two_signals,minimum_count,2.0,0
+FRA,France,fiscal,4,6,8,0.6666666666666666,66.66666666666666,5,8,0.625,4.166666666666663,True,minimum_two_signals,minimum_count,2.0,1
+FRA,France,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_two_signals,minimum_count,2.0,1
+FRA,France,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+FRA,France,labour,3,5,5,0.6,60.0,3,5,0.6,0.0,True,minimum_two_signals,minimum_count,2.0,1
+GBR,United Kingdom,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_two_signals,minimum_count,2.0,1
+GBR,United Kingdom,fiscal,3,6,8,0.5,50.0,4,8,0.5,0.0,True,minimum_two_signals,minimum_count,2.0,1
+GBR,United Kingdom,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_two_signals,minimum_count,2.0,1
+GBR,United Kingdom,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,minimum_two_signals,minimum_count,2.0,0
+GBR,United Kingdom,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+GRC,Greece,external,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,minimum_two_signals,minimum_count,2.0,1
+GRC,Greece,fiscal,4,6,8,0.6666666666666666,66.66666666666666,5,8,0.625,4.166666666666663,True,minimum_two_signals,minimum_count,2.0,1
+GRC,Greece,growth,5,6,6,0.8333333333333334,83.33333333333334,5,6,0.8333333333333334,0.0,True,minimum_two_signals,minimum_count,2.0,1
+GRC,Greece,inflation,4,7,8,0.5714285714285714,57.14285714285714,5,8,0.625,-5.35714285714286,True,minimum_two_signals,minimum_count,2.0,1
+GRC,Greece,labour,5,5,5,1.0,100.0,5,5,1.0,0.0,True,minimum_two_signals,minimum_count,2.0,1
+HUN,Hungary,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_two_signals,minimum_count,2.0,1
+HUN,Hungary,fiscal,1,6,8,0.1666666666666666,16.666666666666664,1,8,0.125,4.166666666666666,True,minimum_two_signals,minimum_count,2.0,0
+HUN,Hungary,growth,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_two_signals,minimum_count,2.0,1
+HUN,Hungary,inflation,4,7,8,0.5714285714285714,57.14285714285714,5,8,0.625,-5.35714285714286,True,minimum_two_signals,minimum_count,2.0,1
+HUN,Hungary,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+IRL,Ireland,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_two_signals,minimum_count,2.0,1
+IRL,Ireland,fiscal,3,6,8,0.5,50.0,4,8,0.5,0.0,True,minimum_two_signals,minimum_count,2.0,1
+IRL,Ireland,growth,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_two_signals,minimum_count,2.0,0
+IRL,Ireland,inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,minimum_two_signals,minimum_count,2.0,1
+IRL,Ireland,labour,2,5,5,0.4,40.0,2,5,0.4,0.0,True,minimum_two_signals,minimum_count,2.0,1
+ITA,Italy,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_two_signals,minimum_count,2.0,1
+ITA,Italy,fiscal,2,6,8,0.3333333333333333,33.33333333333333,2,8,0.25,8.333333333333332,True,minimum_two_signals,minimum_count,2.0,1
+ITA,Italy,growth,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,minimum_two_signals,minimum_count,2.0,1
+ITA,Italy,inflation,3,7,8,0.4285714285714285,42.85714285714285,4,8,0.5,-7.142857142857145,True,minimum_two_signals,minimum_count,2.0,1
+ITA,Italy,labour,4,5,5,0.8,80.0,4,5,0.8,0.0,True,minimum_two_signals,minimum_count,2.0,1
+NLD,"Netherlands, The",external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_two_signals,minimum_count,2.0,0
+NLD,"Netherlands, The",fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+NLD,"Netherlands, The",growth,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_two_signals,minimum_count,2.0,0
+NLD,"Netherlands, The",inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,minimum_two_signals,minimum_count,2.0,1
+NLD,"Netherlands, The",labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,minimum_two_signals,minimum_count,2.0,0
+NOR,Norway,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_two_signals,minimum_count,2.0,1
+NOR,Norway,fiscal,3,6,8,0.5,50.0,4,8,0.5,0.0,True,minimum_two_signals,minimum_count,2.0,1
+NOR,Norway,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+NOR,Norway,inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,minimum_two_signals,minimum_count,2.0,1
+NOR,Norway,labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,minimum_two_signals,minimum_count,2.0,0
+POL,"Poland, Republic of",external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_two_signals,minimum_count,2.0,1
+POL,"Poland, Republic of",fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,minimum_two_signals,minimum_count,2.0,1
+POL,"Poland, Republic of",growth,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_two_signals,minimum_count,2.0,0
+POL,"Poland, Republic of",inflation,5,7,8,0.7142857142857143,71.42857142857143,6,8,0.75,-3.57142857142857,True,minimum_two_signals,minimum_count,2.0,1
+POL,"Poland, Republic of",labour,3,5,5,0.6,60.0,3,5,0.6,0.0,True,minimum_two_signals,minimum_count,2.0,1
+PRT,Portugal,external,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,minimum_two_signals,minimum_count,2.0,1
+PRT,Portugal,fiscal,3,6,8,0.5,50.0,3,8,0.375,12.5,True,minimum_two_signals,minimum_count,2.0,1
+PRT,Portugal,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_two_signals,minimum_count,2.0,1
+PRT,Portugal,inflation,3,7,8,0.4285714285714285,42.85714285714285,4,8,0.5,-7.142857142857145,True,minimum_two_signals,minimum_count,2.0,1
+PRT,Portugal,labour,4,5,5,0.8,80.0,4,5,0.8,0.0,True,minimum_two_signals,minimum_count,2.0,1
+ROU,Romania,external,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,minimum_two_signals,minimum_count,2.0,1
+ROU,Romania,fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,minimum_two_signals,minimum_count,2.0,1
+ROU,Romania,growth,5,6,6,0.8333333333333334,83.33333333333334,5,6,0.8333333333333334,0.0,True,minimum_two_signals,minimum_count,2.0,1
+ROU,Romania,inflation,6,7,8,0.8571428571428571,85.71428571428571,7,8,0.875,-1.7857142857142905,True,minimum_two_signals,minimum_count,2.0,1
+ROU,Romania,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+SWE,Sweden,external,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+SWE,Sweden,fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,minimum_two_signals,minimum_count,2.0,1
+SWE,Sweden,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_two_signals,minimum_count,2.0,1
+SWE,Sweden,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,minimum_two_signals,minimum_count,2.0,0
+SWE,Sweden,labour,2,5,5,0.4,40.0,2,5,0.4,0.0,True,minimum_two_signals,minimum_count,2.0,1
+AUT,Austria,external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_25_percent,minimum_rate,0.25,0
+AUT,Austria,fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,minimum_25_percent,minimum_rate,0.25,1
+AUT,Austria,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+AUT,Austria,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,minimum_25_percent,minimum_rate,0.25,0
+AUT,Austria,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+BEL,Belgium,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+BEL,Belgium,fiscal,4,6,8,0.6666666666666666,66.66666666666666,6,8,0.75,-8.333333333333337,True,minimum_25_percent,minimum_rate,0.25,1
+BEL,Belgium,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+BEL,Belgium,inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,minimum_25_percent,minimum_rate,0.25,1
+BEL,Belgium,labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,minimum_25_percent,minimum_rate,0.25,0
+CHE,Switzerland,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+CHE,Switzerland,fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+CHE,Switzerland,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+CHE,Switzerland,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,minimum_25_percent,minimum_rate,0.25,0
+CHE,Switzerland,labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,minimum_25_percent,minimum_rate,0.25,0
+CZE,Czech Republic,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+CZE,Czech Republic,fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+CZE,Czech Republic,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+CZE,Czech Republic,inflation,3,7,8,0.4285714285714285,42.85714285714285,3,8,0.375,5.357142857142855,True,minimum_25_percent,minimum_rate,0.25,1
+CZE,Czech Republic,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+DEU,Germany,external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_25_percent,minimum_rate,0.25,0
+DEU,Germany,fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+DEU,Germany,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+DEU,Germany,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,minimum_25_percent,minimum_rate,0.25,0
+DEU,Germany,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+DNK,Denmark,external,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+DNK,Denmark,fiscal,1,6,8,0.1666666666666666,16.666666666666664,1,8,0.125,4.166666666666666,True,minimum_25_percent,minimum_rate,0.25,0
+DNK,Denmark,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+DNK,Denmark,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+DNK,Denmark,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+ESP,Spain,external,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+ESP,Spain,fiscal,4,6,8,0.6666666666666666,66.66666666666666,4,8,0.5,16.666666666666664,True,minimum_25_percent,minimum_rate,0.25,1
+ESP,Spain,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+ESP,Spain,inflation,3,7,8,0.4285714285714285,42.85714285714285,4,8,0.5,-7.142857142857145,True,minimum_25_percent,minimum_rate,0.25,1
+ESP,Spain,labour,5,5,5,1.0,100.0,5,5,1.0,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+FIN,Finland,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+FIN,Finland,fiscal,4,6,8,0.6666666666666666,66.66666666666666,5,8,0.625,4.166666666666663,True,minimum_25_percent,minimum_rate,0.25,1
+FIN,Finland,growth,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+FIN,Finland,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+FIN,Finland,labour,3,5,5,0.6,60.0,3,5,0.6,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+FRA,France,external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_25_percent,minimum_rate,0.25,0
+FRA,France,fiscal,4,6,8,0.6666666666666666,66.66666666666666,5,8,0.625,4.166666666666663,True,minimum_25_percent,minimum_rate,0.25,1
+FRA,France,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+FRA,France,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+FRA,France,labour,3,5,5,0.6,60.0,3,5,0.6,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+GBR,United Kingdom,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+GBR,United Kingdom,fiscal,3,6,8,0.5,50.0,4,8,0.5,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+GBR,United Kingdom,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+GBR,United Kingdom,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,minimum_25_percent,minimum_rate,0.25,0
+GBR,United Kingdom,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+GRC,Greece,external,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+GRC,Greece,fiscal,4,6,8,0.6666666666666666,66.66666666666666,5,8,0.625,4.166666666666663,True,minimum_25_percent,minimum_rate,0.25,1
+GRC,Greece,growth,5,6,6,0.8333333333333334,83.33333333333334,5,6,0.8333333333333334,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+GRC,Greece,inflation,4,7,8,0.5714285714285714,57.14285714285714,5,8,0.625,-5.35714285714286,True,minimum_25_percent,minimum_rate,0.25,1
+GRC,Greece,labour,5,5,5,1.0,100.0,5,5,1.0,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+HUN,Hungary,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+HUN,Hungary,fiscal,1,6,8,0.1666666666666666,16.666666666666664,1,8,0.125,4.166666666666666,True,minimum_25_percent,minimum_rate,0.25,0
+HUN,Hungary,growth,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+HUN,Hungary,inflation,4,7,8,0.5714285714285714,57.14285714285714,5,8,0.625,-5.35714285714286,True,minimum_25_percent,minimum_rate,0.25,1
+HUN,Hungary,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+IRL,Ireland,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+IRL,Ireland,fiscal,3,6,8,0.5,50.0,4,8,0.5,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+IRL,Ireland,growth,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_25_percent,minimum_rate,0.25,0
+IRL,Ireland,inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,minimum_25_percent,minimum_rate,0.25,1
+IRL,Ireland,labour,2,5,5,0.4,40.0,2,5,0.4,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+ITA,Italy,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+ITA,Italy,fiscal,2,6,8,0.3333333333333333,33.33333333333333,2,8,0.25,8.333333333333332,True,minimum_25_percent,minimum_rate,0.25,1
+ITA,Italy,growth,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+ITA,Italy,inflation,3,7,8,0.4285714285714285,42.85714285714285,4,8,0.5,-7.142857142857145,True,minimum_25_percent,minimum_rate,0.25,1
+ITA,Italy,labour,4,5,5,0.8,80.0,4,5,0.8,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+NLD,"Netherlands, The",external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_25_percent,minimum_rate,0.25,0
+NLD,"Netherlands, The",fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+NLD,"Netherlands, The",growth,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_25_percent,minimum_rate,0.25,0
+NLD,"Netherlands, The",inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,minimum_25_percent,minimum_rate,0.25,1
+NLD,"Netherlands, The",labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,minimum_25_percent,minimum_rate,0.25,0
+NOR,Norway,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+NOR,Norway,fiscal,3,6,8,0.5,50.0,4,8,0.5,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+NOR,Norway,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+NOR,Norway,inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,minimum_25_percent,minimum_rate,0.25,1
+NOR,Norway,labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,minimum_25_percent,minimum_rate,0.25,0
+POL,"Poland, Republic of",external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+POL,"Poland, Republic of",fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,minimum_25_percent,minimum_rate,0.25,1
+POL,"Poland, Republic of",growth,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_25_percent,minimum_rate,0.25,0
+POL,"Poland, Republic of",inflation,5,7,8,0.7142857142857143,71.42857142857143,6,8,0.75,-3.57142857142857,True,minimum_25_percent,minimum_rate,0.25,1
+POL,"Poland, Republic of",labour,3,5,5,0.6,60.0,3,5,0.6,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+PRT,Portugal,external,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+PRT,Portugal,fiscal,3,6,8,0.5,50.0,3,8,0.375,12.5,True,minimum_25_percent,minimum_rate,0.25,1
+PRT,Portugal,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+PRT,Portugal,inflation,3,7,8,0.4285714285714285,42.85714285714285,4,8,0.5,-7.142857142857145,True,minimum_25_percent,minimum_rate,0.25,1
+PRT,Portugal,labour,4,5,5,0.8,80.0,4,5,0.8,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+ROU,Romania,external,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+ROU,Romania,fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,minimum_25_percent,minimum_rate,0.25,1
+ROU,Romania,growth,5,6,6,0.8333333333333334,83.33333333333334,5,6,0.8333333333333334,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+ROU,Romania,inflation,6,7,8,0.8571428571428571,85.71428571428571,7,8,0.875,-1.7857142857142905,True,minimum_25_percent,minimum_rate,0.25,1
+ROU,Romania,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+SWE,Sweden,external,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+SWE,Sweden,fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,minimum_25_percent,minimum_rate,0.25,1
+SWE,Sweden,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+SWE,Sweden,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,minimum_25_percent,minimum_rate,0.25,0
+SWE,Sweden,labour,2,5,5,0.4,40.0,2,5,0.4,0.0,True,minimum_25_percent,minimum_rate,0.25,1
+AUT,Austria,external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+AUT,Austria,fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,minimum_50_percent,minimum_rate,0.5,0
+AUT,Austria,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+AUT,Austria,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,minimum_50_percent,minimum_rate,0.5,0
+AUT,Austria,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+BEL,Belgium,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+BEL,Belgium,fiscal,4,6,8,0.6666666666666666,66.66666666666666,6,8,0.75,-8.333333333333337,True,minimum_50_percent,minimum_rate,0.5,1
+BEL,Belgium,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+BEL,Belgium,inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,minimum_50_percent,minimum_rate,0.5,0
+BEL,Belgium,labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+CHE,Switzerland,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+CHE,Switzerland,fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+CHE,Switzerland,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+CHE,Switzerland,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,minimum_50_percent,minimum_rate,0.5,0
+CHE,Switzerland,labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+CZE,Czech Republic,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+CZE,Czech Republic,fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+CZE,Czech Republic,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+CZE,Czech Republic,inflation,3,7,8,0.4285714285714285,42.85714285714285,3,8,0.375,5.357142857142855,True,minimum_50_percent,minimum_rate,0.5,0
+CZE,Czech Republic,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+DEU,Germany,external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+DEU,Germany,fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+DEU,Germany,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+DEU,Germany,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,minimum_50_percent,minimum_rate,0.5,0
+DEU,Germany,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+DNK,Denmark,external,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+DNK,Denmark,fiscal,1,6,8,0.1666666666666666,16.666666666666664,1,8,0.125,4.166666666666666,True,minimum_50_percent,minimum_rate,0.5,0
+DNK,Denmark,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+DNK,Denmark,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+DNK,Denmark,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+ESP,Spain,external,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+ESP,Spain,fiscal,4,6,8,0.6666666666666666,66.66666666666666,4,8,0.5,16.666666666666664,True,minimum_50_percent,minimum_rate,0.5,1
+ESP,Spain,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+ESP,Spain,inflation,3,7,8,0.4285714285714285,42.85714285714285,4,8,0.5,-7.142857142857145,True,minimum_50_percent,minimum_rate,0.5,0
+ESP,Spain,labour,5,5,5,1.0,100.0,5,5,1.0,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+FIN,Finland,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+FIN,Finland,fiscal,4,6,8,0.6666666666666666,66.66666666666666,5,8,0.625,4.166666666666663,True,minimum_50_percent,minimum_rate,0.5,1
+FIN,Finland,growth,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+FIN,Finland,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+FIN,Finland,labour,3,5,5,0.6,60.0,3,5,0.6,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+FRA,France,external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+FRA,France,fiscal,4,6,8,0.6666666666666666,66.66666666666666,5,8,0.625,4.166666666666663,True,minimum_50_percent,minimum_rate,0.5,1
+FRA,France,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+FRA,France,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+FRA,France,labour,3,5,5,0.6,60.0,3,5,0.6,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+GBR,United Kingdom,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+GBR,United Kingdom,fiscal,3,6,8,0.5,50.0,4,8,0.5,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+GBR,United Kingdom,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+GBR,United Kingdom,inflation,1,7,8,0.1428571428571428,14.285714285714285,1,8,0.125,1.785714285714285,True,minimum_50_percent,minimum_rate,0.5,0
+GBR,United Kingdom,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+GRC,Greece,external,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+GRC,Greece,fiscal,4,6,8,0.6666666666666666,66.66666666666666,5,8,0.625,4.166666666666663,True,minimum_50_percent,minimum_rate,0.5,1
+GRC,Greece,growth,5,6,6,0.8333333333333334,83.33333333333334,5,6,0.8333333333333334,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+GRC,Greece,inflation,4,7,8,0.5714285714285714,57.14285714285714,5,8,0.625,-5.35714285714286,True,minimum_50_percent,minimum_rate,0.5,1
+GRC,Greece,labour,5,5,5,1.0,100.0,5,5,1.0,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+HUN,Hungary,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+HUN,Hungary,fiscal,1,6,8,0.1666666666666666,16.666666666666664,1,8,0.125,4.166666666666666,True,minimum_50_percent,minimum_rate,0.5,0
+HUN,Hungary,growth,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+HUN,Hungary,inflation,4,7,8,0.5714285714285714,57.14285714285714,5,8,0.625,-5.35714285714286,True,minimum_50_percent,minimum_rate,0.5,1
+HUN,Hungary,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+IRL,Ireland,external,3,6,6,0.5,50.0,3,6,0.5,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+IRL,Ireland,fiscal,3,6,8,0.5,50.0,4,8,0.5,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+IRL,Ireland,growth,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+IRL,Ireland,inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,minimum_50_percent,minimum_rate,0.5,0
+IRL,Ireland,labour,2,5,5,0.4,40.0,2,5,0.4,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+ITA,Italy,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+ITA,Italy,fiscal,2,6,8,0.3333333333333333,33.33333333333333,2,8,0.25,8.333333333333332,True,minimum_50_percent,minimum_rate,0.5,0
+ITA,Italy,growth,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+ITA,Italy,inflation,3,7,8,0.4285714285714285,42.85714285714285,4,8,0.5,-7.142857142857145,True,minimum_50_percent,minimum_rate,0.5,0
+ITA,Italy,labour,4,5,5,0.8,80.0,4,5,0.8,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+NLD,"Netherlands, The",external,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+NLD,"Netherlands, The",fiscal,0,6,8,0.0,0.0,0,8,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+NLD,"Netherlands, The",growth,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+NLD,"Netherlands, The",inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,minimum_50_percent,minimum_rate,0.5,0
+NLD,"Netherlands, The",labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+NOR,Norway,external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+NOR,Norway,fiscal,3,6,8,0.5,50.0,4,8,0.5,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+NOR,Norway,growth,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+NOR,Norway,inflation,2,7,8,0.2857142857142857,28.57142857142857,2,8,0.25,3.57142857142857,True,minimum_50_percent,minimum_rate,0.5,0
+NOR,Norway,labour,1,5,5,0.2,20.0,1,5,0.2,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+POL,"Poland, Republic of",external,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+POL,"Poland, Republic of",fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,minimum_50_percent,minimum_rate,0.5,0
+POL,"Poland, Republic of",growth,1,6,6,0.1666666666666666,16.666666666666664,1,6,0.1666666666666666,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+POL,"Poland, Republic of",inflation,5,7,8,0.7142857142857143,71.42857142857143,6,8,0.75,-3.57142857142857,True,minimum_50_percent,minimum_rate,0.5,1
+POL,"Poland, Republic of",labour,3,5,5,0.6,60.0,3,5,0.6,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+PRT,Portugal,external,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+PRT,Portugal,fiscal,3,6,8,0.5,50.0,3,8,0.375,12.5,True,minimum_50_percent,minimum_rate,0.5,1
+PRT,Portugal,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+PRT,Portugal,inflation,3,7,8,0.4285714285714285,42.85714285714285,4,8,0.5,-7.142857142857145,True,minimum_50_percent,minimum_rate,0.5,0
+PRT,Portugal,labour,4,5,5,0.8,80.0,4,5,0.8,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+ROU,Romania,external,4,6,6,0.6666666666666666,66.66666666666666,4,6,0.6666666666666666,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+ROU,Romania,fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,minimum_50_percent,minimum_rate,0.5,0
+ROU,Romania,growth,5,6,6,0.8333333333333334,83.33333333333334,5,6,0.8333333333333334,0.0,True,minimum_50_percent,minimum_rate,0.5,1
+ROU,Romania,inflation,6,7,8,0.8571428571428571,85.71428571428571,7,8,0.875,-1.7857142857142905,True,minimum_50_percent,minimum_rate,0.5,1
+ROU,Romania,labour,0,5,5,0.0,0.0,0,5,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+SWE,Sweden,external,0,6,6,0.0,0.0,0,6,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+SWE,Sweden,fiscal,2,6,8,0.3333333333333333,33.33333333333333,3,8,0.375,-4.166666666666669,True,minimum_50_percent,minimum_rate,0.5,0
+SWE,Sweden,growth,2,6,6,0.3333333333333333,33.33333333333333,2,6,0.3333333333333333,0.0,True,minimum_50_percent,minimum_rate,0.5,0
+SWE,Sweden,inflation,0,7,8,0.0,0.0,0,8,0.0,0.0,False,minimum_50_percent,minimum_rate,0.5,0
+SWE,Sweden,labour,2,5,5,0.4,40.0,2,5,0.4,0.0,True,minimum_50_percent,minimum_rate,0.5,0

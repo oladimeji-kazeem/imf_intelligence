@@ -1,0 +1,81 @@
+===========================================================================
+EUROPEAN INFLATION RISK INPUT INSPECTION
+===========================================================================
+
+Input: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_weo_classified.csv
+WEO indicator: PCPIPCH
+Historical records: 920
+Countries: 20
+Country-year duplicates: 0
+Numeric observations: 901
+Missing numeric observations: 19
+
+COUNTRY COVERAGE
+---------------------------------------------------------------------------
+ISO             country  records  first_year  last_year  numeric_observations  missing_values  mean_inflation  median_inflation  minimum_inflation  maximum_inflation
+AUT             Austria       46        1980       2025                    46               0        2.695326            2.1600              0.402              8.621
+BEL             Belgium       46        1980       2025                    46               0        2.877717            2.3180             -0.004             10.331
+CHE         Switzerland       46        1980       2025                    46               0        1.563696            0.8930             -1.142              6.491
+CZE      Czech Republic       46        1980       2025                    30              16        3.752800            2.4840              0.100             15.072
+DEU             Germany       46        1980       2025                    46               0        2.321522            1.9070             -0.125              8.666
+DNK             Denmark       46        1980       2025                    46               0        2.947543            2.0345              0.040             11.718
+ESP               Spain       46        1980       2025                    46               0        4.518761            3.3910             -0.631             15.578
+FIN             Finland       46        1980       2025                    46               0        3.169848            2.0365             -0.155             12.000
+FRA              France       46        1980       2025                    46               0        3.082304            2.0780              0.084             13.333
+GBR      United Kingdom       46        1980       2025                    46               0        3.681935            2.5765              0.040             16.849
+GRC              Greece       46        1980       2025                    46               0        7.907087            4.0350             -1.392             24.873
+HUN             Hungary       46        1980       2025                    46               0        9.690283            6.5765             -0.229             34.234
+IRL             Ireland       46        1980       2025                    46               0        3.665196            2.4360             -1.692             20.243
+ITA               Italy       46        1980       2025                    46               0        4.571196            2.7115             -0.171             21.800
+NLD    Netherlands, The       46        1980       2025                    44               2        2.417114            2.1675             -1.000             11.628
+NOR              Norway       46        1980       2025                    46               0        3.741130            2.5250              0.455             13.635
+POL Poland, Republic of       46        1980       2025                    45               1       34.211311            7.3000             -0.900            585.800
+PRT            Portugal       46        1980       2025                    46               0        6.124304            2.9905             -0.903             29.300
+ROU             Romania       46        1980       2025                    46               0       32.382261            5.9540             -1.555            256.105
+SWE              Sweden       46        1980       2025                    46               0        3.717870            2.0220              0.206             17.450
+
+COMMON PERIOD: 2020-2024
+---------------------------------------------------------------------------
+Expected country-year observations: 100
+Available country-year records: 100
+ISO  observations  missing_values  mean_inflation  median_inflation  maximum_inflation
+AUT             5               0          4.6802             2.919              8.621
+BEL             5               0          4.1174             3.219             10.331
+CHE             5               0          1.1778             1.061              2.834
+CZE             5               0          7.0412             3.852             15.072
+DEU             5               0          4.1502             3.206              8.666
+DNK             5               0          3.0924             1.936              8.552
+ESP             5               0          3.4524             3.009              8.322
+FIN             5               0          2.9876             2.069              7.171
+FRA             5               0          3.2950             2.317              5.903
+GBR             5               0          4.4678             2.588              9.067
+GRC             5               0          3.1522             2.997              9.297
+HUN             5               0          8.7754             5.105             17.140
+IRL             5               0          3.3094             2.424              8.070
+ITA             5               0          3.5034             1.950              8.747
+NLD             5               0          4.5796             3.226             11.628
+NOR             5               0          3.8428             3.468              5.774
+POL             5               0          7.5800             5.100             14.400
+PRT             5               0          3.3718             2.671              8.100
+ROU             5               0          7.4946             5.584             13.800
+SWE             5               0          3.8580             2.658              8.057
+
+SOURCE METADATA
+---------------------------------------------------------------------------
+WEO Subject Code: ['PCPIPCH']
+weo_code: ['PCPIPCH']
+indicator: ['inflation']
+unit: ['Percent']
+scale: ['Units']
+source: ['IMF World Economic Outlook']
+source_vintage: ['October 2026']
+
+VALIDATION
+---------------------------------------------------------------------------
+Code records found: PASS
+20-country coverage: PASS
+No duplicate country-year records: PASS
+Common-period record count: PASS
+
+Note: A complete record count does not guarantee complete numeric values.
+No missing observations have been imputed.

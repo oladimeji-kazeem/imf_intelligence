@@ -1,0 +1,11 @@
+engine_a,engine_b,countries_with_both,countries_with_either,jaccard_cooccurrence,countries_with_both_iso,countries_with_both_names
+external,inflation,15,18,0.8333333333333334,AUT;BEL;CHE;CZE;DEU;GBR;GRC;HUN;IRL;ITA;NLD;NOR;POL;PRT;ROU,"Austria;Belgium;Switzerland;Czech Republic;Germany;United Kingdom;Greece;Hungary;Ireland;Italy;Netherlands, The;Norway;Poland, Republic of;Portugal;Romania"
+external,growth,14,19,0.7368421052631579,AUT;CZE;DEU;FIN;FRA;GBR;GRC;HUN;IRL;ITA;NLD;POL;PRT;ROU,"Austria;Czech Republic;Germany;Finland;France;United Kingdom;Greece;Hungary;Ireland;Italy;Netherlands, The;Poland, Republic of;Portugal;Romania"
+external,fiscal,13,20,0.65,AUT;BEL;FIN;FRA;GBR;GRC;HUN;IRL;ITA;NOR;POL;PRT;ROU,"Austria;Belgium;Finland;France;United Kingdom;Greece;Hungary;Ireland;Italy;Norway;Poland, Republic of;Portugal;Romania"
+fiscal,growth,13,19,0.6842105263157895,AUT;ESP;FIN;FRA;GBR;GRC;HUN;IRL;ITA;POL;PRT;ROU;SWE,"Austria;Spain;Finland;France;United Kingdom;Greece;Hungary;Ireland;Italy;Poland, Republic of;Portugal;Romania;Sweden"
+growth,inflation,13,19,0.6842105263157895,AUT;CZE;DEU;ESP;GBR;GRC;HUN;IRL;ITA;NLD;POL;PRT;ROU,"Austria;Czech Republic;Germany;Spain;United Kingdom;Greece;Hungary;Ireland;Italy;Netherlands, The;Poland, Republic of;Portugal;Romania"
+fiscal,inflation,12,20,0.6,AUT;BEL;ESP;GBR;GRC;HUN;IRL;ITA;NOR;POL;PRT;ROU,"Austria;Belgium;Spain;United Kingdom;Greece;Hungary;Ireland;Italy;Norway;Poland, Republic of;Portugal;Romania"
+external,labour,11,19,0.5789473684210527,BEL;CHE;FIN;FRA;GRC;IRL;ITA;NLD;NOR;POL;PRT,"Belgium;Switzerland;Finland;France;Greece;Ireland;Italy;Netherlands, The;Norway;Poland, Republic of;Portugal"
+fiscal,labour,11,18,0.6111111111111112,BEL;ESP;FIN;FRA;GRC;IRL;ITA;NOR;POL;PRT;SWE,"Belgium;Spain;Finland;France;Greece;Ireland;Italy;Norway;Poland, Republic of;Portugal;Sweden"
+growth,labour,10,19,0.5263157894736842,ESP;FIN;FRA;GRC;IRL;ITA;NLD;POL;PRT;SWE,"Spain;Finland;France;Greece;Ireland;Italy;Netherlands, The;Poland, Republic of;Portugal;Sweden"
+inflation,labour,10,19,0.5263157894736842,BEL;CHE;ESP;GRC;IRL;ITA;NLD;NOR;POL;PRT,"Belgium;Switzerland;Spain;Greece;Ireland;Italy;Netherlands, The;Norway;Poland, Republic of;Portugal"

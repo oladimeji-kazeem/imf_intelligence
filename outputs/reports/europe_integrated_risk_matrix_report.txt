@@ -1,0 +1,54 @@
+============================================================================
+EUROPEAN INTEGRATED MACROECONOMIC RISK MATRIX
+============================================================================
+
+VALIDATION STATUS: PASS
+
+Total records: 660
+Countries: 20
+Risk engines: 5
+Dimensions per country: 33
+
+ENGINE RECORD COUNTS
+----------------------------------------------------------------------------
+fiscal             160
+inflation          160
+growth             120
+external           120
+labour             100
+
+CLASSIFICATION DISTRIBUTION
+----------------------------------------------------------------------------
+standardised_classification  higher  lower  moderate
+risk_engine                                         
+external                         41     42        37
+fiscal                           56     48        56
+growth                           40     41        39
+inflation                        50     48        62
+labour                           35     35        30
+
+PERCENTILE STANDARDISATION
+----------------------------------------------------------------------------
+Fiscal: original 0-100, retained as 0-100
+Labour: original 0-100, retained as 0-100
+Growth: original 0-1, multiplied by 100
+Inflation: original 0-1, multiplied by 100
+External: original 0-1, multiplied by 100
+
+MISSING SUPPORTING DATA
+----------------------------------------------------------------------------
+The seven missing inflation mean deflation episode durations are not
+classification dimensions and are not included as risk measurements.
+
+INTERPRETATION LIMITATIONS
+----------------------------------------------------------------------------
+1. Classifications are peer-relative within the selected 20-country group.
+2. Percentiles are ranks, not probabilities of crisis or default.
+3. Measurement values retain their original units and meanings.
+4. Different engines use different historical and recent periods.
+5. The matrix is not a composite sovereign or macroeconomic risk score.
+6. Missing contextual diagnostics must not be interpreted as zero.
+
+OUTPUT
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_integrated_risk_matrix.csv

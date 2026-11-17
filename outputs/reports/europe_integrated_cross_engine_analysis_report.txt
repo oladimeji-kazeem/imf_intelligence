@@ -1,0 +1,93 @@
+============================================================================
+EUROPEAN INTEGRATED CROSS-ENGINE ANALYSIS
+============================================================================
+
+DATA VALIDATION
+----------------------------------------------------------------------------
+Countries: 20
+Dimensions: 33
+Records: 660
+Engines: 5
+
+COUNTRY CROSS-ENGINE CONCENTRATION
+----------------------------------------------------------------------------
+iso  total_higher_exposure_dimensions  engines_with_higher_exposure  higher_exposure_engine_concentration_hhi         dominant_engine_or_tie
+GRC                                24                             5                                  0.201389 fiscal;growth;inflation;labour
+PRT                                17                             5                                  0.211073      external;inflation;labour
+ITA                                16                             5                                  0.218750        growth;inflation;labour
+POL                                15                             5                                  0.262222                      inflation
+IRL                                12                             5                                  0.236111                         fiscal
+ROU                                19                             4                                  0.274238                      inflation
+ESP                                15                             4                                  0.271111                         labour
+FIN                                15                             4                                  0.262222                         fiscal
+BEL                                11                             4                                  0.371901                         fiscal
+FRA                                11                             4                                  0.322314                         fiscal
+HUN                                11                             4                                  0.322314                      inflation
+GBR                                10                             4                                  0.300000                         fiscal
+NOR                                 9                             4                                  0.308642                         fiscal
+AUT                                 7                             4                                  0.306122                         fiscal
+NLD                                 5                             4                                  0.280000                      inflation
+CZE                                 8                             3                                  0.343750             external;inflation
+SWE                                 7                             3                                  0.346939                         fiscal
+CHE                                 5                             3                                  0.440000                       external
+DEU                                 4                             3                                  0.375000                         growth
+DNK                                 1                             1                                  1.000000                         fiscal
+
+ENGINE PAIR CO-OCCURRENCE
+----------------------------------------------------------------------------
+ engine_a  engine_b  countries_with_both  countries_with_either  jaccard_cooccurrence
+ external inflation                   15                     18              0.833333
+ external    growth                   14                     19              0.736842
+ external    fiscal                   13                     20              0.650000
+   fiscal    growth                   13                     19              0.684211
+   growth inflation                   13                     19              0.684211
+   fiscal inflation                   12                     20              0.600000
+ external    labour                   11                     19              0.578947
+   fiscal    labour                   11                     18              0.611111
+   growth    labour                   10                     19              0.526316
+inflation    labour                   10                     19              0.526316
+
+STRONGEST DIMENSION CORRELATIONS
+----------------------------------------------------------------------------
+                             dimension_a                           dimension_b  spearman_rho  countries_observed
+    historical_volatility_fiscal_balance historical_volatility_primary_balance      0.969925                  20
+            peer_relative_fiscal_balance         peer_relative_primary_balance      0.894737                  20
+      historical_high_inflation_exposure      historical_inflation_persistence      0.838896                  20
+          historical_deficit_persistence             recent_external_imbalance      0.824080                  20
+                    contraction_severity    historical_high_inflation_exposure      0.769214                  20
+          historical_deficit_persistence      historical_inflation_persistence      0.765271                  20
+                    contraction_severity        historical_deficit_persistence      0.738054                  20
+historical_high_unemployment_persistence      historical_unemployment_pressure      0.724091                  20
+   historical_volatility_government_debt          recent_unemployment_pressure      0.715789                  20
+          historical_deficit_persistence    historical_high_inflation_exposure      0.698457                  20
+                    contraction_severity      historical_inflation_persistence      0.675442                  20
+                      growth_instability        historical_deficit_persistence      0.674386                  20
+       historical_volatility_debt_change  historical_volatility_fiscal_balance      0.673684                  20
+                   contraction_frequency                  contraction_severity      0.671566                  20
+                   contraction_frequency  historical_export_growth_instability      0.662160                  20
+        historical_unemployment_pressure          recent_unemployment_pressure      0.654135                  20
+       historical_volatility_debt_change historical_volatility_primary_balance      0.652632                  20
+                    contraction_severity                    growth_instability      0.651373                  20
+        historical_unemployment_pressure         peer_relative_government_debt      0.640602                  20
+           peer_relative_government_debt             recent_external_imbalance      0.631579                  20
+
+INTERPRETATION AND LIMITATIONS
+----------------------------------------------------------------------------
+1. Higher-exposure counts measure peer-relative signal breadth.
+2. HHI measures the concentration of higher signals across the five engines; it is not a measure of economic risk.
+3. Engine co-occurrence indicates that two engines have at least one higher classification in the same country.
+4. Jaccard co-occurrence measures overlap relative to the countries with exposure in either engine.
+5. Spearman correlations use country-level percentile measurements across 20 countries.
+6. Correlations are exploratory. Twenty countries provide a small sample for dependence analysis.
+7. Correlation does not establish causal relationships or prove that two dimensions are redundant.
+8. Dimensions may share source data, measurement periods and underlying economic drivers.
+9. No composite risk score, default probability or country credit ranking is produced.
+
+OUTPUT FILES
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_integrated_cross_engine_vulnerability.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_integrated_engine_concentration.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_integrated_engine_pair_cooccurrence.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_integrated_dimension_spearman_correlations.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_integrated_dimension_correlation_matrix.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_integrated_cross_engine_analysis_report.txt

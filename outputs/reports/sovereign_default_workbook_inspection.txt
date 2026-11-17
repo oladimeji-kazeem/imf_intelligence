@@ -1,0 +1,181 @@
+==========================================================================================
+SOURCE FILE: boc_boe_sovereign_default_database_2025.xlsx
+==========================================================================================
+SIZE_BYTES: 1188615
+SHA256: 5ed273650bed7d5c50cfdd04a28d2515856ae8786be52b8916af20af91cd2500
+SHEETS: 2
+SHEET_NAMES: ['2025 in Progress', 'Debt_2025']
+
+WORKSHEET: 2025 in Progress
+MAX_ROW: 1396
+MAX_COLUMN: 85
+FIRST_NONEMPTY_HEADER_ROW: 1
+HEADER_CANDIDATES: [None, None, ' ', None, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, '2024p', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+SAMPLE_ROWS:
+[None, None, ' ', None, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, '2024p', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, None, 'Database of Sovereign Defaults', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, None, 'Last Update: July 2025', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, None, 'A. Summary Data', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, '`', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, None, ' Total Debt in Default (US$ mil) by Creditor', None, 13353.272522, 15269.61533599371, 14661.346068553456, 15053.833950415594, 16915.69046755222, 18444.35703585431, 17567.800840179283, 15163.151986994559, 16162.992486683142, 16552.61382563047, 20355.72030699464, 17852.679237415414, 18859.763939151522, 18777.155016524957, 20451.60637004541, 19242.877495678164, 19639.32761249087, 28046.212189266123, 30554.740287968943, 36304.07461844032, 35937.715378308785, 37090.0180942148, 68820.14644443637, 126397.46339454413, 142874.47404408338, 184078.83469600973, 266891.44471509545, 365522.96198491723, 303939.75111302413, 358014.7954083742, 470854.74460513255, 406371.3797386496, 289449.8717107753, 363923.0575841687, 367624.49881022424, 268315.7074414227, 284447.7511258376, 242181.19624793748, 268120.3964010826, 349592.3478073238, 274204.83949754026, 312378.5275071482, 314497.61354203155, 370840.04419411655, 370637.12727498764, 374256.88992269145, 285661.2081437191, 212875.12577575576, 213058.59029583258, 201746.92762926477, 203408.3860226792, 168772.53454037357, 490341.1753451581, 519406.39865249855, 222553.50249679972, 197768.15422964023, 243180.51545762998, 243046.32387872125, 428845.8396048415, 281245.251491749, 432585.138765569, 350946.0068584985, 500559.7349380165, 471143.31908520753, 425011.83005752676, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, None, ' - IMF', None, 173, 53, 54, 25.3, 211, 188.6, 114.65, 40.15, 16.8, 3.5, 0, 0, 0, 0, 0, 15, 16, 16, 85.4909207916925, 175.2660162570903, 248.4528330629512, 75.36029558539705, 128.14140651444905, 79.12874046920814, 996.9066153958697, 3521.1306801967294, 5922.97549880771, 5978.310338864717, 6395.056678391038, 6531.811759274024, 6534.8799438983115, 6722.11466659548, 7354.685786694976, 7704.084419845564, 6583.804319084522, 6751.497654564273, 4536.256772728192, 3229.6807796161183, 3401.407258886817, 3424.864739367174, 3410.294800225214, 3335.4707767947534, 3580.4864917588784, 6036.981170892617, 3668.9162945914427, 3275.3568261109967, 3580.32438129318, 3779.0411722598797, 3709.9475148145884, 2446.7668116789264, 2409.391553543487, 2410.874890440091, 2409.9250099451615, 2417.575440134102, 2276.0027869955934, 4400.220368485061, 2113.8344717907876, 2069.049578196225, 2037.8947199999998, 2034.38812, 2120.8944, 1349.624637, 0, 0, 0, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, None, ' - IBRD', None, 0, 0, 0, 0, 0, 0, 0, 30, 1, 0, 0, 0, 0, 0, 0, 0, 0.3, 0, 0, 0, 0, 0, 0, 0, 0, 24, 48, 250, 697, 810, 2029.3, 1867, 2001.65, 1342, 1664, 2730, 2658, 2786, 2648, 2836, 2928, 2367, 1512.2, 1441, 229, 829, 1019, 1186, 795, 565, 631, 701, 761, 888, 852, 873, 896, 919, 954, 988, 1015, 1042.93, 1192.387, 1391, 1625, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, None, ' - IDA', None, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 0, 0, 1, 13, 10.372, 29, 18, 24, 49, 110, 131, 181, 238, 287, 379, 469, 547, 694, 597, 751, 877, 1053, 1213, 1066, 1149, 1265, 1414, 1509, 1215, 1348, 1366, 1460, 1554, 1671, 1762, 1879, 1628, 607.7, 603, 625, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+
+WORKSHEET: Debt_2025
+MAX_ROW: 10920
+MAX_COLUMN: 52
+FIRST_NONEMPTY_HEADER_ROW: 8
+HEADER_CANDIDATES: ['id', 'label', 'description', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+SAMPLE_ROWS:
+['TERMS AND CONDITIONS', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+['https://www.bankofcanada.ca/terms/', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+['NAME', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+['Debt data 2025', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+['DESCRIPTION', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+['Debt data 2025', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+['SERIES', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+['id', 'label', 'description', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+
+==========================================================================================
+SOURCE FILE: kiel_monthly_sovereign_default_restructuring_2020.xlsx
+==========================================================================================
+SIZE_BYTES: 50252
+SHA256: e1dd3ced148e9365b22db2e3bf141b2de35aa39773a207581193d52486847e78
+SHEETS: 3
+SHEET_NAMES: ['README + definitions', 'DATASET Defaults & Restruct.', 'Ongoing cases as of Sept20']
+
+WORKSHEET: README + definitions
+MAX_ROW: 28
+MAX_COLUMN: 15
+FIRST_NONEMPTY_HEADER_ROW: None
+HEADER_CANDIDATES: []
+SAMPLE_ROWS:
+[None, 'Monthly default and restructuring database by Asonuma and Trebesch (2016, JEEA)', None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'This Readme summarizes the coding, definitions (start and end dates, preemptive vs. post-default) as well as the differences to existing default datasets.', None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'References (please cite):', None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'Asonuma, Tamon and Christoph Trebesch (2016): "Sovereign Debt Restructurings: Preemptive or Post-Default", Journal of the European Economic Association Vol 15(1), Pages 175-214', None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'Cruces, Juan and Christoph Trebesch (2013): "Sovereign Defaults: The Price of Haitrcuts", American Economic Journal: Macroeconomic, in case you use additional restructuring characteristics (haircut size, amounts restructured, etc.)', None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'Main characteristics of the Asonuma/Trebesch dataset', None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'This dataset codes the duration of defaults and restructuring processes between governments and their foreign private creditors (external banks and bondholders) on a monthly basis. For the JEEA paper, we updated and expanded the previous duration dataset by Trebesch (2011, 2013) and coded the start and end of all sovereign debt restructurings in the Cruces and Trebesch (2013) dataset, spanning 1975-2010. This version of the dataset (Sept. 2020) covers all restructurings until mid-2020, a total of 196 events, plus ongoing cases.', None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'The coding is based on qualitative and quantitative sources (hundreds of press articles, case studies, IMF and private sector reports), as well as arrears data and the IMF archives. See paper for details. ', None, None, None, None, None, None, None, None, None, None, None, None, None]
+
+WORKSHEET: DATASET Defaults & Restruct.
+MAX_ROW: 208
+MAX_COLUMN: 16
+FIRST_NONEMPTY_HEADER_ROW: 3
+HEADER_CANDIDATES: [None, 'Case nr ', 'New case? (compared to 2016 JEEA paper)', 'Case nr in Cruces/Trebesch database               (2014 update)', 'Country case', 'WDI code', 'Start of default or restructuring process: default or announcement', 'End of restructuring: completion of exchange', 'Alternative end date / follow-up restructurings', 'Strictly preemptive ', 'Weakly preemptive ', 'Post-default', 'Default date', 'Announcement', 'No exact start date (missing default month)', None]
+SAMPLE_ROWS:
+[None, 'Monthly default and restructuring database by Asonuma and Trebesch (2016)', None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'Please see README for coding approach, definitions (start and end dates, preemptive vs. post-default) as well as differences to existing default datasets.', None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'Case nr ', 'New case? (compared to 2016 JEEA paper)', 'Case nr in Cruces/Trebesch database               (2014 update)', 'Country case', 'WDI code', 'Start of default or restructuring process: default or announcement', 'End of restructuring: completion of exchange', 'Alternative end date / follow-up restructurings', 'Strictly preemptive ', 'Weakly preemptive ', 'Post-default', 'Default date', 'Announcement', 'No exact start date (missing default month)', None]
+[None, 1, None, 1, 'Albania', 'ALB', datetime.datetime(1991, 11, 1, 0, 0), datetime.datetime(1995, 8, 31, 0, 0), None, 0, 0, 1, datetime.datetime(1991, 11, 1, 0, 0), datetime.datetime(1991, 11, 1, 0, 0), 0, None]
+[None, 2, None, 2, 'Algeria', 'DZA', datetime.datetime(1990, 10, 1, 0, 0), datetime.datetime(1992, 3, 1, 0, 0), None, 1, 1, 0, None, datetime.datetime(1990, 10, 1, 0, 0), 0, None]
+[None, 3, None, 3, 'Algeria', 'DZA', datetime.datetime(1993, 12, 1, 0, 0), datetime.datetime(1996, 7, 17, 0, 0), None, 0, 0, 1, datetime.datetime(1994, 3, 1, 0, 0), datetime.datetime(1993, 12, 1, 0, 0), 0, None]
+[None, 4, None, 4, 'Argentina', 'ARG', datetime.datetime(1982, 7, 1, 0, 0), datetime.datetime(1985, 8, 27, 0, 0), None, 0, 0, 1, datetime.datetime(1983, 11, 1, 0, 0), datetime.datetime(1983, 11, 1, 0, 0), 0, None]
+[None, 5, None, 5, 'Argentina', 'ARG', datetime.datetime(1985, 8, 1, 0, 0), datetime.datetime(1987, 8, 21, 0, 0), None, 0, 1, 0, datetime.datetime(1985, 8, 1, 0, 0), datetime.datetime(1985, 8, 1, 0, 0), 0, None]
+
+WORKSHEET: Ongoing cases as of Sept20
+MAX_ROW: 9
+MAX_COLUMN: 5
+FIRST_NONEMPTY_HEADER_ROW: 1
+HEADER_CANDIDATES: [None, 'Ongoing default/restructuring cases (as of Sept. 2020)', 'Type', 'Default date', 'Announcement']
+SAMPLE_ROWS:
+[None, 'Ongoing default/restructuring cases (as of Sept. 2020)', 'Type', 'Default date', 'Announcement']
+[None, 'Mozambique ("Hidden loans" Credit Suisse/VTB)', 'Post-default', None, datetime.datetime(2016, 10, 1, 0, 0)]
+[None, 'Venezuela', 'Post-default', datetime.datetime(2017, 11, 13, 0, 0), None]
+[None, 'The Gambia (private claims)', 'Preemptive', None, datetime.datetime(2018, 6, 1, 0, 0)]
+[None, 'Republic of Congo (Glencore and Trafigura Loans)', 'Post-default', datetime.datetime(2019, 11, 1, 0, 0), datetime.datetime(2018, 4, 1, 0, 0)]
+[None, 'Lebanon', 'Post-default', datetime.datetime(2020, 3, 9, 0, 0), datetime.datetime(2020, 3, 7, 0, 0)]
+[None, 'Zambia ', 'Preemptive', None, datetime.datetime(2020, 5, 18, 0, 0)]
+[None, 'Suriname', 'Preemptive', None, datetime.datetime(2020, 6, 30, 0, 0)]
+
+==========================================================================================
+SOURCE FILE: kiel_monthly_sovereign_default_1970_2025.xlsx.xlsx
+==========================================================================================
+SIZE_BYTES: 50252
+SHA256: e1dd3ced148e9365b22db2e3bf141b2de35aa39773a207581193d52486847e78
+SHEETS: 3
+SHEET_NAMES: ['README + definitions', 'DATASET Defaults & Restruct.', 'Ongoing cases as of Sept20']
+
+WORKSHEET: README + definitions
+MAX_ROW: 28
+MAX_COLUMN: 15
+FIRST_NONEMPTY_HEADER_ROW: None
+HEADER_CANDIDATES: []
+SAMPLE_ROWS:
+[None, 'Monthly default and restructuring database by Asonuma and Trebesch (2016, JEEA)', None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'This Readme summarizes the coding, definitions (start and end dates, preemptive vs. post-default) as well as the differences to existing default datasets.', None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'References (please cite):', None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'Asonuma, Tamon and Christoph Trebesch (2016): "Sovereign Debt Restructurings: Preemptive or Post-Default", Journal of the European Economic Association Vol 15(1), Pages 175-214', None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'Cruces, Juan and Christoph Trebesch (2013): "Sovereign Defaults: The Price of Haitrcuts", American Economic Journal: Macroeconomic, in case you use additional restructuring characteristics (haircut size, amounts restructured, etc.)', None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'Main characteristics of the Asonuma/Trebesch dataset', None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'This dataset codes the duration of defaults and restructuring processes between governments and their foreign private creditors (external banks and bondholders) on a monthly basis. For the JEEA paper, we updated and expanded the previous duration dataset by Trebesch (2011, 2013) and coded the start and end of all sovereign debt restructurings in the Cruces and Trebesch (2013) dataset, spanning 1975-2010. This version of the dataset (Sept. 2020) covers all restructurings until mid-2020, a total of 196 events, plus ongoing cases.', None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'The coding is based on qualitative and quantitative sources (hundreds of press articles, case studies, IMF and private sector reports), as well as arrears data and the IMF archives. See paper for details. ', None, None, None, None, None, None, None, None, None, None, None, None, None]
+
+WORKSHEET: DATASET Defaults & Restruct.
+MAX_ROW: 208
+MAX_COLUMN: 16
+FIRST_NONEMPTY_HEADER_ROW: 3
+HEADER_CANDIDATES: [None, 'Case nr ', 'New case? (compared to 2016 JEEA paper)', 'Case nr in Cruces/Trebesch database               (2014 update)', 'Country case', 'WDI code', 'Start of default or restructuring process: default or announcement', 'End of restructuring: completion of exchange', 'Alternative end date / follow-up restructurings', 'Strictly preemptive ', 'Weakly preemptive ', 'Post-default', 'Default date', 'Announcement', 'No exact start date (missing default month)', None]
+SAMPLE_ROWS:
+[None, 'Monthly default and restructuring database by Asonuma and Trebesch (2016)', None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'Please see README for coding approach, definitions (start and end dates, preemptive vs. post-default) as well as differences to existing default datasets.', None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+[None, 'Case nr ', 'New case? (compared to 2016 JEEA paper)', 'Case nr in Cruces/Trebesch database               (2014 update)', 'Country case', 'WDI code', 'Start of default or restructuring process: default or announcement', 'End of restructuring: completion of exchange', 'Alternative end date / follow-up restructurings', 'Strictly preemptive ', 'Weakly preemptive ', 'Post-default', 'Default date', 'Announcement', 'No exact start date (missing default month)', None]
+[None, 1, None, 1, 'Albania', 'ALB', datetime.datetime(1991, 11, 1, 0, 0), datetime.datetime(1995, 8, 31, 0, 0), None, 0, 0, 1, datetime.datetime(1991, 11, 1, 0, 0), datetime.datetime(1991, 11, 1, 0, 0), 0, None]
+[None, 2, None, 2, 'Algeria', 'DZA', datetime.datetime(1990, 10, 1, 0, 0), datetime.datetime(1992, 3, 1, 0, 0), None, 1, 1, 0, None, datetime.datetime(1990, 10, 1, 0, 0), 0, None]
+[None, 3, None, 3, 'Algeria', 'DZA', datetime.datetime(1993, 12, 1, 0, 0), datetime.datetime(1996, 7, 17, 0, 0), None, 0, 0, 1, datetime.datetime(1994, 3, 1, 0, 0), datetime.datetime(1993, 12, 1, 0, 0), 0, None]
+[None, 4, None, 4, 'Argentina', 'ARG', datetime.datetime(1982, 7, 1, 0, 0), datetime.datetime(1985, 8, 27, 0, 0), None, 0, 0, 1, datetime.datetime(1983, 11, 1, 0, 0), datetime.datetime(1983, 11, 1, 0, 0), 0, None]
+[None, 5, None, 5, 'Argentina', 'ARG', datetime.datetime(1985, 8, 1, 0, 0), datetime.datetime(1987, 8, 21, 0, 0), None, 0, 1, 0, datetime.datetime(1985, 8, 1, 0, 0), datetime.datetime(1985, 8, 1, 0, 0), 0, None]
+
+WORKSHEET: Ongoing cases as of Sept20
+MAX_ROW: 9
+MAX_COLUMN: 5
+FIRST_NONEMPTY_HEADER_ROW: 1
+HEADER_CANDIDATES: [None, 'Ongoing default/restructuring cases (as of Sept. 2020)', 'Type', 'Default date', 'Announcement']
+SAMPLE_ROWS:
+[None, 'Ongoing default/restructuring cases (as of Sept. 2020)', 'Type', 'Default date', 'Announcement']
+[None, 'Mozambique ("Hidden loans" Credit Suisse/VTB)', 'Post-default', None, datetime.datetime(2016, 10, 1, 0, 0)]
+[None, 'Venezuela', 'Post-default', datetime.datetime(2017, 11, 13, 0, 0), None]
+[None, 'The Gambia (private claims)', 'Preemptive', None, datetime.datetime(2018, 6, 1, 0, 0)]
+[None, 'Republic of Congo (Glencore and Trafigura Loans)', 'Post-default', datetime.datetime(2019, 11, 1, 0, 0), datetime.datetime(2018, 4, 1, 0, 0)]
+[None, 'Lebanon', 'Post-default', datetime.datetime(2020, 3, 9, 0, 0), datetime.datetime(2020, 3, 7, 0, 0)]
+[None, 'Zambia ', 'Preemptive', None, datetime.datetime(2020, 5, 18, 0, 0)]
+[None, 'Suriname', 'Preemptive', None, datetime.datetime(2020, 6, 30, 0, 0)]
+
+==========================================================================================
+SOURCE FILE: esm_domestic_sovereign_defaults.xlsx
+==========================================================================================
+SIZE_BYTES: 22876
+SHA256: 497dcc06ae3167ff00dbf5eded1eb6fee7dac107e89243df9bba3e9112ca5301
+SHEETS: 2
+SHEET_NAMES: ['README', '2022 version']
+
+WORKSHEET: README
+MAX_ROW: 36
+MAX_COLUMN: 17
+FIRST_NONEMPTY_HEADER_ROW: None
+HEADER_CANDIDATES: []
+SAMPLE_ROWS:
+['Monthly debt default and restructuring database by Erce, Mallucci and Picarelli (2021)', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+['This dataset codes debt default and restructuring events between governments and private creditors on a monthly basis, involving local-law instruments.', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+['Definition of the variables: ', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+['  "Start date" is either the date in which debt instruments entered in default or were frozen, or the date of the announcement of the debt restructuring exercise.', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+['  "End date" is either the date in which debt payments resumed and deposits were unfrozen, or the date in which restructuring plans were agreed and executed.', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+['  "Instrument" gives information regarding the type of the defaulted/restructured intrument (bonds, loans and commercial credits, or deposits).', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+['  "Amount" refers to the size of the defaulted/restructured instruments and it is measured in million of U.S.$.', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+['  "Face value reduction" is a dummy variable that is equal to 1 when the deal featured a reduction in face value of outstanding debt and 0 otherwise. We report "." in case of missing information.', None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+
+WORKSHEET: 2022 version
+MAX_ROW: 135
+MAX_COLUMN: 11
+FIRST_NONEMPTY_HEADER_ROW: 1
+HEADER_CANDIDATES: ['Country', 'Start date', 'End date', 'Instrument', 'Amount (mln US$)', 'Face value reduction', 'Maturity change', 'Coupon change', 'NPV loss (%)', 'Post-default restructuring', None]
+SAMPLE_ROWS:
+['Country', 'Start date', 'End date', 'Instrument', 'Amount (mln US$)', 'Face value reduction', 'Maturity change', 'Coupon change', 'NPV loss (%)', 'Post-default restructuring', None]
+['Angola', datetime.datetime(2010, 5, 1, 0, 0), datetime.datetime(2010, 12, 1, 0, 0), 'Banks loans and commercial credit', 1800, 0, 1, 1, None, 1, None]
+['Antigua and Barbuda', 1998, datetime.datetime(2004, 11, 1, 0, 0), 'Banks loans and commercial credit', 163.785, 0, 1, 1, None, 1, None]
+['Antigua and Barbuda', datetime.datetime(2008, 12, 1, 0, 0), datetime.datetime(2010, 5, 1, 0, 0), 'Banks loans and commercial credit', 259, 0, 1, 1, 0.0515, 1, None]
+['Antigua and Barbuda', 2009, 2010, 'Bonds', 32.480000000000004, 0, 0, 0, None, 1, None]
+['Argentina', datetime.datetime(1989, 12, 1, 0, 0), datetime.datetime(1989, 12, 1, 0, 0), 'Bonds', 650, 0, 1, None, None, 0, None]
+['Argentina', datetime.datetime(1990, 1, 1, 0, 0), datetime.datetime(1990, 1, 1, 0, 0), 'Deposit', 3000, 0, 1, 1, 0.7, 1, None]
+['Argentina', datetime.datetime(2001, 5, 1, 0, 0), datetime.datetime(2001, 6, 1, 0, 0), 'Bonds', 12170, 0, 1, 1, -0.0465, 0, None]

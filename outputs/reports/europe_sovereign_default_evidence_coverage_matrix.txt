@@ -1,0 +1,67 @@
+============================================================================
+EUROPEAN SOVEREIGN DEFAULT EVIDENCE COVERAGE MATRIX
+============================================================================
+
+CANONICAL COVERAGE
+----------------------------------------------------------------------------
+Countries assessed: 20
+Unique countries: 20
+Registry event rows reconciled: 21
+
+SOURCE AVAILABILITY
+----------------------------------------------------------------------------
+boc_boe: NOT_FOUND
+kiel: NOT_FOUND
+esm: FOUND
+
+PRIMARY EVIDENCE CLASSIFICATION
+----------------------------------------------------------------------------
+EPISODE_EVIDENCE_IDENTIFIED: 1
+HISTORICAL_EVENTS_WITHOUT_SEVERITY_DATA: 12
+SOURCE_COVERAGE_INSUFFICIENT: 7
+
+REGISTRY EVENT-TYPE INTERPRETATION
+----------------------------------------------------------------------------
+BANKING_CRISIS_RECORDED_NOT_DEFAULT_PROOF: 9
+FINANCIAL_ASSISTANCE_AND_BANKING_CRISIS_RECORDED: 2
+FINANCIAL_ASSISTANCE_RECORDED_NOT_DEFAULT_PROOF: 1
+NO_REGISTRY_EVENT_RECORDED: 7
+SOVEREIGN_RESTRUCTURING_EVENT_RECORDED: 1
+
+COUNTRY CLASSIFICATION
+----------------------------------------------------------------------------
+AUT | Austria | HISTORICAL_EVENTS_WITHOUT_SEVERITY_DATA | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Classified episodes: 0
+BEL | Belgium | SOURCE_COVERAGE_INSUFFICIENT | Registry events: 0 | Event types:  | ESM records: 0 | Classified episodes: 0
+CHE | Switzerland | SOURCE_COVERAGE_INSUFFICIENT | Registry events: 0 | Event types:  | ESM records: 0 | Classified episodes: 0
+CZE | Czech Republic | SOURCE_COVERAGE_INSUFFICIENT | Registry events: 0 | Event types:  | ESM records: 0 | Classified episodes: 0
+DEU | Germany | HISTORICAL_EVENTS_WITHOUT_SEVERITY_DATA | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Classified episodes: 0
+DNK | Denmark | SOURCE_COVERAGE_INSUFFICIENT | Registry events: 0 | Event types:  | ESM records: 0 | Classified episodes: 0
+ESP | Spain | HISTORICAL_EVENTS_WITHOUT_SEVERITY_DATA | Registry events: 1 | Event types: financial_assistance | ESM records: 0 | Classified episodes: 0
+FIN | Finland | HISTORICAL_EVENTS_WITHOUT_SEVERITY_DATA | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Classified episodes: 0
+FRA | France | HISTORICAL_EVENTS_WITHOUT_SEVERITY_DATA | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Classified episodes: 0
+GBR | United Kingdom | SOURCE_COVERAGE_INSUFFICIENT | Registry events: 0 | Event types:  | ESM records: 0 | Classified episodes: 0
+GRC | Greece | EPISODE_EVIDENCE_IDENTIFIED | Registry events: 6 | Event types: financial_assistance;sovereign_restructuring;systemic_banking_crisis | ESM records: 2 | Classified episodes: 1
+HUN | Hungary | HISTORICAL_EVENTS_WITHOUT_SEVERITY_DATA | Registry events: 2 | Event types: systemic_banking_crisis | ESM records: 0 | Classified episodes: 0
+IRL | Ireland | HISTORICAL_EVENTS_WITHOUT_SEVERITY_DATA | Registry events: 2 | Event types: financial_assistance;systemic_banking_crisis | ESM records: 0 | Classified episodes: 0
+ITA | Italy | HISTORICAL_EVENTS_WITHOUT_SEVERITY_DATA | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Classified episodes: 0
+NLD | Netherlands | SOURCE_COVERAGE_INSUFFICIENT | Registry events: 0 | Event types:  | ESM records: 0 | Classified episodes: 0
+NOR | Norway | HISTORICAL_EVENTS_WITHOUT_SEVERITY_DATA | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Classified episodes: 0
+POL | Poland | HISTORICAL_EVENTS_WITHOUT_SEVERITY_DATA | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Classified episodes: 0
+PRT | Portugal | HISTORICAL_EVENTS_WITHOUT_SEVERITY_DATA | Registry events: 2 | Event types: financial_assistance;systemic_banking_crisis | ESM records: 0 | Classified episodes: 0
+ROU | Romania | HISTORICAL_EVENTS_WITHOUT_SEVERITY_DATA | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Classified episodes: 0
+SWE | Sweden | SOURCE_COVERAGE_INSUFFICIENT | Registry events: 0 | Event types:  | ESM records: 0 | Classified episodes: 0
+
+INTERPRETATION LIMITATIONS
+----------------------------------------------------------------------------
+- No record in ESM does not establish that a country had no default.
+- The ESM source concerns domestic-law sovereign restructurings and is not comprehensive default coverage.
+- BoC-BoE and Kiel availability reflects the supplied source inventory.
+- Historical stress events are not automatically equivalent to sovereign defaults.
+- Financial assistance is not, by itself, proof of sovereign default.
+- Systemic banking crises are not, by themselves, proof of sovereign default.
+- Registry event IDs are individual event identifiers, not canonical episode identifiers.
+- Blank episode IDs do not mean that a registry event does not exist.
+- Registry events without severity evidence remain distinct from quantified severity episodes.
+- No country ranking, default probability, or composite severity score is produced.
+- The historical stress-event registry and prior audit outputs are read-only inputs.
+- No-match classifications must not be interpreted as proof of zero historical defaults.

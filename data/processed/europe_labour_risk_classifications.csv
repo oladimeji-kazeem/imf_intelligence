@@ -1,0 +1,101 @@
+iso,dimension,measurement,measurement_period,description,value,peer_exposure_percentile,classification,eligible_country_count
+AUT,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",5.175,55.00000000000001,moderate_risk,20
+BEL,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",5.558,60.0,moderate_risk,20
+CHE,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",2.386,5.0,lower_risk,20
+CZE,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",2.578,10.0,lower_risk,20
+DEU,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",3.392,25.0,lower_risk,20
+DNK,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",2.892,20.0,lower_risk,20
+ESP,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",13.035,100.0,higher_risk,20
+FIN,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",7.667,80.0,higher_risk,20
+FRA,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",7.442,75.0,higher_risk,20
+GBR,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",4.3,45.0,moderate_risk,20
+GRC,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",12.425,95.0,higher_risk,20
+HUN,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",4.075,40.0,moderate_risk,20
+IRL,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",4.45,50.0,moderate_risk,20
+ITA,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",8.1,85.0,higher_risk,20
+NLD,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",3.659,30.0,lower_risk,20
+NOR,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",4.013,35.0,moderate_risk,20
+POL,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",2.884,15.0,lower_risk,20
+PRT,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",6.567,70.0,higher_risk,20
+ROU,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",5.608,65.0,moderate_risk,20
+SWE,recent_unemployment_pressure,recent_unemployment_median_pct,2020–2024,"Median unemployment rate, 2020–2024",8.35,90.0,higher_risk,20
+AUT,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.2999999999999998,60.0,moderate_risk,20
+BEL,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.024999999999999467,5.0,lower_risk,20
+CHE,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.403,70.0,higher_risk,20
+CZE,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.06599999999999984,25.0,lower_risk,20
+DEU,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.2330000000000001,50.0,moderate_risk,20
+DNK,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.3839999999999999,65.0,moderate_risk,20
+ESP,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",1.6899999999999995,95.0,higher_risk,20
+FIN,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.44200000000000017,80.0,higher_risk,20
+FRA,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.13400000000000034,35.0,moderate_risk,20
+GBR,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.25,55.00000000000001,moderate_risk,20
+GRC,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",2.325000000000001,100.0,higher_risk,20
+HUN,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.04999999999999982,15.0,lower_risk,20
+IRL,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.15000000000000036,40.0,moderate_risk,20
+ITA,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",1.2420000000000009,90.0,higher_risk,20
+NLD,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.12199999999999989,30.0,lower_risk,20
+NOR,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.4179999999999997,75.0,higher_risk,20
+POL,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.06400000000000006,20.0,lower_risk,20
+PRT,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.16599999999999948,45.0,moderate_risk,20
+ROU,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.04099999999999948,10.0,lower_risk,20
+SWE,recent_unemployment_volatility,recent_unemployment_mad_pct,2020–2024,"Median absolute deviation of unemployment, 2020–2024",0.5419999999999998,85.0,higher_risk,20
+AUT,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",5.2295,20.0,lower_risk,20
+BEL,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",7.742,65.0,moderate_risk,20
+CHE,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",3.066,5.0,lower_risk,20
+CZE,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",6.8285,45.0,moderate_risk,20
+DEU,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",6.9585,50.0,moderate_risk,20
+DNK,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",4.5920000000000005,15.0,lower_risk,20
+ESP,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",14.68,100.0,higher_risk,20
+FIN,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",8.4875,70.0,higher_risk,20
+FRA,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",9.071,85.0,higher_risk,20
+GBR,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",5.3625,25.0,lower_risk,20
+GRC,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",12.0375,95.0,higher_risk,20
+HUN,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",6.7125,40.0,moderate_risk,20
+IRL,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",6.2835,35.0,moderate_risk,20
+ITA,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",8.854,80.0,higher_risk,20
+NLD,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",5.9855,30.0,lower_risk,20
+NOR,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",3.7505,10.0,lower_risk,20
+POL,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",9.7895,90.0,higher_risk,20
+PRT,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",8.565,75.0,higher_risk,20
+ROU,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",7.670999999999999,60.0,moderate_risk,20
+SWE,historical_unemployment_pressure,historical_unemployment_median_pct,2000–2019,"Median unemployment rate, 2000–2019",7.1125,55.00000000000001,moderate_risk,20
+AUT,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,0.0,30.0,lower_risk,20
+BEL,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,0.0,30.0,lower_risk,20
+CHE,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,0.0,30.0,lower_risk,20
+CZE,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,0.0,30.0,lower_risk,20
+DEU,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,15.0,62.5,moderate_risk,20
+DNK,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,0.0,30.0,lower_risk,20
+ESP,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,85.0,100.0,higher_risk,20
+FIN,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,0.0,30.0,lower_risk,20
+FRA,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,20.0,70.0,higher_risk,20
+GBR,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,0.0,30.0,lower_risk,20
+GRC,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,75.0,95.0,higher_risk,20
+HUN,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,15.0,62.5,moderate_risk,20
+IRL,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,30.0,75.0,higher_risk,20
+ITA,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,40.0,82.5,higher_risk,20
+NLD,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,0.0,30.0,lower_risk,20
+NOR,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,0.0,30.0,lower_risk,20
+POL,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,45.0,90.0,higher_risk,20
+PRT,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,40.0,82.5,higher_risk,20
+ROU,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,0.0,30.0,lower_risk,20
+SWE,historical_high_unemployment_persistence,historical_frequency_at_or_above_10pct,2000–2019,Frequency of years with unemployment at or above 10%,0.0,30.0,lower_risk,20
+AUT,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.5249999999999994,65.0,moderate_risk,20
+BEL,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.5999999999999996,70.0,higher_risk,20
+CHE,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.2610000000000001,10.0,lower_risk,20
+CZE,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.4250000000000003,50.0,moderate_risk,20
+DEU,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.24999999999999958,5.0,lower_risk,20
+DNK,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.31700000000000006,20.0,lower_risk,20
+ESP,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,1.8269999999999982,100.0,higher_risk,20
+FIN,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.40000000000000036,40.0,moderate_risk,20
+FRA,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.3409999999999993,25.0,lower_risk,20
+GBR,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.2750000000000002,15.0,lower_risk,20
+GRC,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,1.0000000000000018,95.0,higher_risk,20
+HUN,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.4999999999999999,60.0,moderate_risk,20
+IRL,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.8410000000000002,85.0,higher_risk,20
+ITA,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.3840000000000022,35.0,moderate_risk,20
+NLD,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.6920000000000002,75.0,higher_risk,20
+NOR,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.3590000000000005,30.0,lower_risk,20
+POL,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.8229999999999997,80.0,higher_risk,20
+PRT,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.9450000000000003,90.0,higher_risk,20
+ROU,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.4750000000000006,55.00000000000001,moderate_risk,20
+SWE,historical_unemployment_instability,historical_change_mad_pp,2000–2019,MAD of annual unemployment changes in percentage points,0.4080000000000003,45.0,moderate_risk,20

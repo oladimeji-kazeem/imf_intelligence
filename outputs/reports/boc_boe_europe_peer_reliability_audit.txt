@@ -1,0 +1,44 @@
+====================================================================================
+BOC-BOE EUROPEAN PEER RELIABILITY AUDIT
+====================================================================================
+Countries assessed: 7
+Mean official score: 1.43
+Minimum score: 1
+Maximum score: 2
+
+SCORE DISTRIBUTION
+------------------------------------------------------------------------------------
+Score 1: 4 countries
+Score 2: 3 countries
+
+COUNTRY SCORES
+------------------------------------------------------------------------------------
+GRC | Greece | 1 | HIGHEST_RELIABILITY
+HUN | Hungary | 2 | RELATIVELY_HIGH_RELIABILITY
+IRL | Ireland | 1 | HIGHEST_RELIABILITY
+POL | Poland | 2 | RELATIVELY_HIGH_RELIABILITY
+PRT | Portugal | 1 | HIGHEST_RELIABILITY
+ROU | Romania | 2 | RELATIVELY_HIGH_RELIABILITY
+GBR | United Kingdom | 1 | HIGHEST_RELIABILITY
+
+INTERPRETATION AND GOVERNANCE
+------------------------------------------------------------------------------------
+1. Lower scores indicate higher reliability.
+2. Scores are subjective ordinal country-level assessments.
+3. Scores are not probabilities or annual observations.
+4. Scores do not establish completeness of every creditor series.
+5. Do not use the score as a direct multiplier on default amounts.
+6. Preserve the official score separately from internally calculated
+   coverage and missingness indicators.
+
+SOURCE
+------------------------------------------------------------------------------------
+BoC Technical Report No. 125, updated 7 October 2025.
+https://www.bankofcanada.ca/wp-content/uploads/2023/07/tr125.pdf
+
+OUTPUT
+------------------------------------------------------------------------------------
+data\processed\boc_boe_europe_peer_reliability.csv
+outputs\reports\boc_boe_europe_peer_reliability_audit.txt
+
+PEER RELIABILITY AUDIT COMPLETED.

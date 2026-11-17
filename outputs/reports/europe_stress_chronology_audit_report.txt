@@ -1,0 +1,47 @@
+============================================================================
+EUROPEAN HISTORICAL STRESS CHRONOLOGY AUDIT
+============================================================================
+
+INPUT RECONCILIATION
+----------------------------------------------------------------------------
+Registry event records: 21
+Linked event records: 21
+Unique assigned episodes: 20
+Relationship candidates: 8
+
+SOURCE VERIFICATION
+----------------------------------------------------------------------------
+verified: 21
+
+INCLUSION DECISIONS
+----------------------------------------------------------------------------
+include: 21
+
+DATE SEMANTICS
+----------------------------------------------------------------------------
+source_defined_crisis_period: 13
+programme_or_intervention_date: 6
+restructuring_transaction_period: 2
+
+AUDIT FLAGS
+----------------------------------------------------------------------------
+Event records with one or more date/source flags: 19
+Events requiring manual chronology review: 21
+Relationship decisions awaiting review: 8
+
+OUTPUT FILES
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_stress_event_chronology_audit.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_stress_relationship_adjudication.csv
+
+METHODOLOGICAL CONTROLS
+----------------------------------------------------------------------------
+- Original event registry was not modified.
+- Existing episode assignments were preserved.
+- Assistance agreement dates are not assumed to be crisis onset.
+- Banking-crisis end dates require source-methodology review.
+- Restructuring transaction dates are not assumed to be crisis onset.
+- Relationship decisions are left blank for human adjudication.
+- No event relationships were automatically merged.
+
+STATUS: VALIDATION PASSED

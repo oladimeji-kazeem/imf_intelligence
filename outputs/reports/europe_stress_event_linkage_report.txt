@@ -1,0 +1,69 @@
+============================================================================
+EUROPEAN HISTORICAL STRESS EVENT LINKAGE REPORT
+============================================================================
+
+INPUT
+----------------------------------------------------------------------------
+Registry records: 21
+Countries: 13
+
+EPISODE ASSIGNMENT
+----------------------------------------------------------------------------
+Event records: 21
+Unique episodes: 20
+Records in shared Greek PSI episode: 2
+
+EVENT TYPE COUNTS
+----------------------------------------------------------------------------
+systemic_banking_crisis: 13
+financial_assistance: 6
+sovereign_restructuring: 2
+
+RELATIONSHIP CANDIDATES
+----------------------------------------------------------------------------
+Candidate relationships: 8
+Automatically merged relationships: 0
+All candidate relationships require review.
+
+EPISODE SUMMARY
+----------------------------------------------------------------------------
+EP_EU_BANK_AUT_2008 | AUT | events=1 | types=systemic_banking_crisis
+EP_EU_BANK_DEU_2008 | DEU | events=1 | types=systemic_banking_crisis
+EP_EU_BANK_FIN_1991 | FIN | events=1 | types=systemic_banking_crisis
+EP_EU_BANK_FRA_2008 | FRA | events=1 | types=systemic_banking_crisis
+EP_EU_BANK_GRC_2008 | GRC | events=1 | types=systemic_banking_crisis
+EP_EU_BANK_HUN_1991 | HUN | events=1 | types=systemic_banking_crisis
+EP_EU_BANK_HUN_2008 | HUN | events=1 | types=systemic_banking_crisis
+EP_EU_BANK_IRL_2008 | IRL | events=1 | types=systemic_banking_crisis
+EP_EU_BANK_ITA_2008 | ITA | events=1 | types=systemic_banking_crisis
+EP_EU_BANK_NOR_1991 | NOR | events=1 | types=systemic_banking_crisis
+EP_EU_BANK_POL_1992 | POL | events=1 | types=systemic_banking_crisis
+EP_EU_BANK_PRT_2008 | PRT | events=1 | types=systemic_banking_crisis
+EP_EU_BANK_ROU_1998 | ROU | events=1 | types=systemic_banking_crisis
+EP_EU_FA_ESP_2012_01 | ESP | events=1 | types=financial_assistance
+EP_EU_FA_GRC_2010_01 | GRC | events=1 | types=financial_assistance
+EP_EU_FA_GRC_2012_02 | GRC | events=1 | types=financial_assistance
+EP_EU_FA_GRC_2015_03 | GRC | events=1 | types=financial_assistance
+EP_EU_FA_IRL_2010_01 | IRL | events=1 | types=financial_assistance
+EP_EU_FA_PRT_2011_01 | PRT | events=1 | types=financial_assistance
+EU_SOV_GRC_PSI_2011_2012 | GRC | events=2 | types=sovereign_restructuring
+
+OUTPUT FILES
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_stress_event_linkage.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_stress_episode_summary.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_stress_event_relationship_candidates.csv
+
+METHODOLOGICAL CONTROLS
+----------------------------------------------------------------------------
+- Original event registry was not modified.
+- Every source event remains individually identifiable.
+- Greek PSI tranches share one documented episode ID.
+- Other events receive separate episode IDs by default.
+- Potential relationships are not treated as proven causal links.
+- Financial assistance agreements are not automatically treated
+  as crisis onset dates.
+- Banking crises and sovereign defaults remain distinct event types.
+- Event counts and episode counts are reported separately.
+
+STATUS: VALIDATION PASSED

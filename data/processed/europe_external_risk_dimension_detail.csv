@@ -1,0 +1,121 @@
+iso,country,dimension,indicator_code,period,metric,metric_value,numeric_observations,numeric_year_coverage,eligible,direction,peer_exposure_percentile,risk_classification,description
+AUT,Austria,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,1.606,5,1.0,True,lower_is_higher_risk,0.4,moderate_risk,"Recent median current-account balance, percentage of GDP"
+BEL,Belgium,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,0.194,5,1.0,True,lower_is_higher_risk,0.6,moderate_risk,"Recent median current-account balance, percentage of GDP"
+CHE,Switzerland,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,7.436,5,1.0,True,lower_is_higher_risk,0.25,lower_risk,"Recent median current-account balance, percentage of GDP"
+CZE,Czech Republic,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,-0.111,5,1.0,True,lower_is_higher_risk,0.65,moderate_risk,"Recent median current-account balance, percentage of GDP"
+DEU,Germany,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,5.815,5,1.0,True,lower_is_higher_risk,0.35,moderate_risk,"Recent median current-account balance, percentage of GDP"
+DNK,Denmark,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,9.702,5,1.0,True,lower_is_higher_risk,0.1,lower_risk,"Recent median current-account balance, percentage of GDP"
+ESP,Spain,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,0.789,5,1.0,True,lower_is_higher_risk,0.5,moderate_risk,"Recent median current-account balance, percentage of GDP"
+FIN,Finland,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,-0.553,5,1.0,True,lower_is_higher_risk,0.7,higher_risk,"Recent median current-account balance, percentage of GDP"
+FRA,France,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,-0.928,5,1.0,True,lower_is_higher_risk,0.8,higher_risk,"Recent median current-account balance, percentage of GDP"
+GBR,United Kingdom,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,-2.542,5,1.0,True,lower_is_higher_risk,0.9,higher_risk,"Recent median current-account balance, percentage of GDP"
+GRC,Greece,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,-7.18,5,1.0,True,lower_is_higher_risk,0.95,higher_risk,"Recent median current-account balance, percentage of GDP"
+HUN,Hungary,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,-1.126,5,1.0,True,lower_is_higher_risk,0.85,higher_risk,"Recent median current-account balance, percentage of GDP"
+IRL,Ireland,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,8.723,5,1.0,True,lower_is_higher_risk,0.15,lower_risk,"Recent median current-account balance, percentage of GDP"
+ITA,Italy,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,1.095,5,1.0,True,lower_is_higher_risk,0.45,moderate_risk,"Recent median current-account balance, percentage of GDP"
+NLD,"Netherlands, The",recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,7.772,5,1.0,True,lower_is_higher_risk,0.2,lower_risk,"Recent median current-account balance, percentage of GDP"
+NOR,Norway,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,14.999,5,1.0,True,lower_is_higher_risk,0.05,lower_risk,"Recent median current-account balance, percentage of GDP"
+POL,"Poland, Republic of",recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,0.306,5,1.0,True,lower_is_higher_risk,0.55,moderate_risk,"Recent median current-account balance, percentage of GDP"
+PRT,Portugal,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,-0.663,5,1.0,True,lower_is_higher_risk,0.75,higher_risk,"Recent median current-account balance, percentage of GDP"
+ROU,Romania,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,-7.23,5,1.0,True,lower_is_higher_risk,1.0,higher_risk,"Recent median current-account balance, percentage of GDP"
+SWE,Sweden,recent_external_imbalance,BCA_NGDPD,recent_2020_2024,median,6.22,5,1.0,True,lower_is_higher_risk,0.3,lower_risk,"Recent median current-account balance, percentage of GDP"
+AUT,Austria,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.1,20,1.0,True,higher_is_higher_risk,0.325,lower_risk,Frequency of annual current-account deficits
+BEL,Belgium,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.2,20,1.0,True,higher_is_higher_risk,0.4,moderate_risk,Frequency of annual current-account deficits
+CHE,Switzerland,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.0,20,1.0,True,higher_is_higher_risk,0.15,lower_risk,Frequency of annual current-account deficits
+CZE,Czech Republic,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.7,20,1.0,True,higher_is_higher_risk,0.8,higher_risk,Frequency of annual current-account deficits
+DEU,Germany,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.1,20,1.0,True,higher_is_higher_risk,0.325,lower_risk,Frequency of annual current-account deficits
+DNK,Denmark,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.0,20,1.0,True,higher_is_higher_risk,0.15,lower_risk,Frequency of annual current-account deficits
+ESP,Spain,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.6,20,1.0,True,higher_is_higher_risk,0.625,moderate_risk,Frequency of annual current-account deficits
+FIN,Finland,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.45,20,1.0,True,higher_is_higher_risk,0.45,moderate_risk,Frequency of annual current-account deficits
+FRA,France,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.6,20,1.0,True,higher_is_higher_risk,0.625,moderate_risk,Frequency of annual current-account deficits
+GBR,United Kingdom,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,1.0,20,1.0,True,higher_is_higher_risk,0.925,higher_risk,Frequency of annual current-account deficits
+GRC,Greece,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,1.0,20,1.0,True,higher_is_higher_risk,0.925,higher_risk,Frequency of annual current-account deficits
+HUN,Hungary,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.6,20,1.0,True,higher_is_higher_risk,0.625,moderate_risk,Frequency of annual current-account deficits
+IRL,Ireland,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.55,20,1.0,True,higher_is_higher_risk,0.5,moderate_risk,Frequency of annual current-account deficits
+ITA,Italy,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.6,20,1.0,True,higher_is_higher_risk,0.625,moderate_risk,Frequency of annual current-account deficits
+NLD,"Netherlands, The",historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.0,20,1.0,True,higher_is_higher_risk,0.15,lower_risk,Frequency of annual current-account deficits
+NOR,Norway,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.0,20,1.0,True,higher_is_higher_risk,0.15,lower_risk,Frequency of annual current-account deficits
+POL,"Poland, Republic of",historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,1.0,20,1.0,True,higher_is_higher_risk,0.925,higher_risk,Frequency of annual current-account deficits
+PRT,Portugal,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.65,20,1.0,True,higher_is_higher_risk,0.75,higher_risk,Frequency of annual current-account deficits
+ROU,Romania,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,1.0,20,1.0,True,higher_is_higher_risk,0.925,higher_risk,Frequency of annual current-account deficits
+SWE,Sweden,historical_deficit_persistence,BCA_NGDPD,modern_2000_2019,negative_balance_frequency,0.0,20,1.0,True,higher_is_higher_risk,0.15,lower_risk,Frequency of annual current-account deficits
+AUT,Austria,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,0.129,5,1.0,True,higher_is_higher_risk,0.1,lower_risk,Median absolute deviation of recent current-account balances
+BEL,Belgium,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,0.7210000000000001,5,1.0,True,higher_is_higher_risk,0.4,moderate_risk,Median absolute deviation of recent current-account balances
+CHE,Switzerland,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,1.673,5,1.0,True,higher_is_higher_risk,0.75,higher_risk,Median absolute deviation of recent current-account balances
+CZE,Czech Republic,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,1.87,5,1.0,True,higher_is_higher_risk,0.8,higher_risk,Median absolute deviation of recent current-account balances
+DEU,Germany,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,0.4539999999999997,5,1.0,True,higher_is_higher_risk,0.25,lower_risk,Median absolute deviation of recent current-account balances
+DNK,Denmark,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,1.4610000000000003,5,1.0,True,higher_is_higher_risk,0.65,moderate_risk,Median absolute deviation of recent current-account balances
+ESP,Spain,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,0.37,5,1.0,True,higher_is_higher_risk,0.2,lower_risk,Median absolute deviation of recent current-account balances
+FIN,Finland,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,0.883,5,1.0,True,higher_is_higher_risk,0.45,moderate_risk,Median absolute deviation of recent current-account balances
+FRA,France,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,0.613,5,1.0,True,higher_is_higher_risk,0.35,moderate_risk,Median absolute deviation of recent current-account balances
+GBR,United Kingdom,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,0.359,5,1.0,True,higher_is_higher_risk,0.15,lower_risk,Median absolute deviation of recent current-account balances
+GRC,Greece,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,0.0229999999999996,5,1.0,True,higher_is_higher_risk,0.05,lower_risk,Median absolute deviation of recent current-account balances
+HUN,Hungary,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,2.858,5,1.0,True,higher_is_higher_risk,0.95,higher_risk,Median absolute deviation of recent current-account balances
+IRL,Ireland,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,3.462,5,1.0,True,higher_is_higher_risk,1.0,higher_risk,Median absolute deviation of recent current-account balances
+ITA,Italy,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,0.912,5,1.0,True,higher_is_higher_risk,0.5,moderate_risk,Median absolute deviation of recent current-account balances
+NLD,"Netherlands, The",recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,1.878,5,1.0,True,higher_is_higher_risk,0.85,higher_risk,Median absolute deviation of recent current-account balances
+NOR,Norway,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,2.116999999999999,5,1.0,True,higher_is_higher_risk,0.9,higher_risk,Median absolute deviation of recent current-account balances
+POL,"Poland, Republic of",recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,1.603,5,1.0,True,higher_is_higher_risk,0.7,higher_risk,Median absolute deviation of recent current-account balances
+PRT,Portugal,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,1.249,5,1.0,True,higher_is_higher_risk,0.6,moderate_risk,Median absolute deviation of recent current-account balances
+ROU,Romania,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,0.939,5,1.0,True,higher_is_higher_risk,0.55,moderate_risk,Median absolute deviation of recent current-account balances
+SWE,Sweden,recent_external_imbalance_volatility,BCA_NGDPD,recent_2020_2024,mad,0.5590000000000002,5,1.0,True,higher_is_higher_risk,0.3,lower_risk,Median absolute deviation of recent current-account balances
+AUT,Austria,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.05,20,1.0,True,higher_is_higher_risk,0.2,lower_risk,Frequency of negative export-volume growth
+BEL,Belgium,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.2,20,1.0,True,higher_is_higher_risk,0.825,higher_risk,Frequency of negative export-volume growth
+CHE,Switzerland,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.35,20,1.0,True,higher_is_higher_risk,0.975,higher_risk,Frequency of negative export-volume growth
+CZE,Czech Republic,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.05,20,1.0,True,higher_is_higher_risk,0.2,lower_risk,Frequency of negative export-volume growth
+DEU,Germany,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.05,20,1.0,True,higher_is_higher_risk,0.2,lower_risk,Frequency of negative export-volume growth
+DNK,Denmark,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.1,20,1.0,True,higher_is_higher_risk,0.5,moderate_risk,Frequency of negative export-volume growth
+ESP,Spain,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.1,20,1.0,True,higher_is_higher_risk,0.5,moderate_risk,Frequency of negative export-volume growth
+FIN,Finland,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.15,20,1.0,True,higher_is_higher_risk,0.7,higher_risk,Frequency of negative export-volume growth
+FRA,France,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.1,20,1.0,True,higher_is_higher_risk,0.5,moderate_risk,Frequency of negative export-volume growth
+GBR,United Kingdom,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.1,20,1.0,True,higher_is_higher_risk,0.5,moderate_risk,Frequency of negative export-volume growth
+GRC,Greece,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.15,20,1.0,True,higher_is_higher_risk,0.7,higher_risk,Frequency of negative export-volume growth
+HUN,Hungary,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.1,20,1.0,True,higher_is_higher_risk,0.5,moderate_risk,Frequency of negative export-volume growth
+IRL,Ireland,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.15,20,1.0,True,higher_is_higher_risk,0.7,higher_risk,Frequency of negative export-volume growth
+ITA,Italy,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.2,20,1.0,True,higher_is_higher_risk,0.825,higher_risk,Frequency of negative export-volume growth
+NLD,"Netherlands, The",historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.05,20,1.0,True,higher_is_higher_risk,0.2,lower_risk,Frequency of negative export-volume growth
+NOR,Norway,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.35,20,1.0,True,higher_is_higher_risk,0.975,higher_risk,Frequency of negative export-volume growth
+POL,"Poland, Republic of",historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.05,20,1.0,True,higher_is_higher_risk,0.2,lower_risk,Frequency of negative export-volume growth
+PRT,Portugal,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.3,20,1.0,True,higher_is_higher_risk,0.9,higher_risk,Frequency of negative export-volume growth
+ROU,Romania,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.05,20,1.0,True,higher_is_higher_risk,0.2,lower_risk,Frequency of negative export-volume growth
+SWE,Sweden,historical_export_contraction,TX_RPCH,modern_2000_2019,negative_growth_frequency,0.05,20,1.0,True,higher_is_higher_risk,0.2,lower_risk,Frequency of negative export-volume growth
+AUT,Austria,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.6,5,1.0,True,higher_is_higher_risk,0.875,higher_risk,Recent frequency of negative export-volume growth
+BEL,Belgium,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.6,5,1.0,True,higher_is_higher_risk,0.875,higher_risk,Recent frequency of negative export-volume growth
+CHE,Switzerland,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.4,5,1.0,True,higher_is_higher_risk,0.625,moderate_risk,Recent frequency of negative export-volume growth
+CZE,Czech Republic,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.2,5,1.0,True,higher_is_higher_risk,0.275,lower_risk,Recent frequency of negative export-volume growth
+DEU,Germany,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.6,5,1.0,True,higher_is_higher_risk,0.875,higher_risk,Recent frequency of negative export-volume growth
+DNK,Denmark,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.2,5,1.0,True,higher_is_higher_risk,0.275,lower_risk,Recent frequency of negative export-volume growth
+ESP,Spain,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.2,5,1.0,True,higher_is_higher_risk,0.275,lower_risk,Recent frequency of negative export-volume growth
+FIN,Finland,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.4,5,1.0,True,higher_is_higher_risk,0.625,moderate_risk,Recent frequency of negative export-volume growth
+FRA,France,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.2,5,1.0,True,higher_is_higher_risk,0.275,lower_risk,Recent frequency of negative export-volume growth
+GBR,United Kingdom,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.6,5,1.0,True,higher_is_higher_risk,0.875,higher_risk,Recent frequency of negative export-volume growth
+GRC,Greece,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.2,5,1.0,True,higher_is_higher_risk,0.275,lower_risk,Recent frequency of negative export-volume growth
+HUN,Hungary,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.4,5,1.0,True,higher_is_higher_risk,0.625,moderate_risk,Recent frequency of negative export-volume growth
+IRL,Ireland,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.2,5,1.0,True,higher_is_higher_risk,0.275,lower_risk,Recent frequency of negative export-volume growth
+ITA,Italy,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.6,5,1.0,True,higher_is_higher_risk,0.875,higher_risk,Recent frequency of negative export-volume growth
+NLD,"Netherlands, The",recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.4,5,1.0,True,higher_is_higher_risk,0.625,moderate_risk,Recent frequency of negative export-volume growth
+NOR,Norway,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.2,5,1.0,True,higher_is_higher_risk,0.275,lower_risk,Recent frequency of negative export-volume growth
+POL,"Poland, Republic of",recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.2,5,1.0,True,higher_is_higher_risk,0.275,lower_risk,Recent frequency of negative export-volume growth
+PRT,Portugal,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.2,5,1.0,True,higher_is_higher_risk,0.275,lower_risk,Recent frequency of negative export-volume growth
+ROU,Romania,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.6,5,1.0,True,higher_is_higher_risk,0.875,higher_risk,Recent frequency of negative export-volume growth
+SWE,Sweden,recent_export_contraction,TX_RPCH,recent_2020_2024,negative_growth_frequency,0.2,5,1.0,True,higher_is_higher_risk,0.275,lower_risk,Recent frequency of negative export-volume growth
+AUT,Austria,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,2.247,20,1.0,True,higher_is_higher_risk,0.35,moderate_risk,Historical dispersion in export-volume growth
+BEL,Belgium,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,1.845,20,1.0,True,higher_is_higher_risk,0.2,lower_risk,Historical dispersion in export-volume growth
+CHE,Switzerland,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,4.6185,20,1.0,True,higher_is_higher_risk,0.95,higher_risk,Historical dispersion in export-volume growth
+CZE,Czech Republic,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,4.095000000000001,20,1.0,True,higher_is_higher_risk,0.85,higher_risk,Historical dispersion in export-volume growth
+DEU,Germany,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,2.659,20,1.0,True,higher_is_higher_risk,0.55,moderate_risk,Historical dispersion in export-volume growth
+DNK,Denmark,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,0.8664999999999998,20,1.0,True,higher_is_higher_risk,0.05,lower_risk,Historical dispersion in export-volume growth
+ESP,Spain,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,2.1380000000000003,20,1.0,True,higher_is_higher_risk,0.25,lower_risk,Historical dispersion in export-volume growth
+FIN,Finland,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,3.381,20,1.0,True,higher_is_higher_risk,0.7,higher_risk,Historical dispersion in export-volume growth
+FRA,France,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,1.5165000000000002,20,1.0,True,higher_is_higher_risk,0.15,lower_risk,Historical dispersion in export-volume growth
+GBR,United Kingdom,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,2.552,20,1.0,True,higher_is_higher_risk,0.4,moderate_risk,Historical dispersion in export-volume growth
+GRC,Greece,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,3.818,20,1.0,True,higher_is_higher_risk,0.8,higher_risk,Historical dispersion in export-volume growth
+HUN,Hungary,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,2.5615,20,1.0,True,higher_is_higher_risk,0.5,moderate_risk,Historical dispersion in export-volume growth
+IRL,Ireland,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,3.729,20,1.0,True,higher_is_higher_risk,0.75,higher_risk,Historical dispersion in export-volume growth
+ITA,Italy,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,2.56,20,1.0,True,higher_is_higher_risk,0.45,moderate_risk,Historical dispersion in export-volume growth
+NLD,"Netherlands, The",historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,2.6820000000000004,20,1.0,True,higher_is_higher_risk,0.6,moderate_risk,Historical dispersion in export-volume growth
+NOR,Norway,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,1.3409999999999995,20,1.0,True,higher_is_higher_risk,0.1,lower_risk,Historical dispersion in export-volume growth
+POL,"Poland, Republic of",historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,2.188,20,1.0,True,higher_is_higher_risk,0.3,lower_risk,Historical dispersion in export-volume growth
+PRT,Portugal,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,4.979,20,1.0,True,higher_is_higher_risk,1.0,higher_risk,Historical dispersion in export-volume growth
+ROU,Romania,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,4.223000000000001,20,1.0,True,higher_is_higher_risk,0.9,higher_risk,Historical dispersion in export-volume growth
+SWE,Sweden,historical_export_growth_instability,TX_RPCH,modern_2000_2019,mad,3.019,20,1.0,True,higher_is_higher_risk,0.65,moderate_risk,Historical dispersion in export-volume growth

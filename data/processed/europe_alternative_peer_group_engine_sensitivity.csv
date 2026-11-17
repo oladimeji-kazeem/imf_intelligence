@@ -1,0 +1,16 @@
+peer_group,risk_engine,comparisons,changed_classifications,changed_engine_activations,classification_change_rate_pct,engine_activation_change_rate_pct
+eu_sample,external,102,2,1,1.9607843137254901,0.9803921568627451
+eu_sample,fiscal,136,4,0,2.941176470588235,0.0
+eu_sample,growth,102,5,2,4.901960784313726,1.9607843137254901
+eu_sample,inflation,136,4,2,2.941176470588235,1.4705882352941175
+eu_sample,labour,85,10,5,11.76470588235294,5.88235294117647
+euro_area_sample,external,66,10,8,15.151515151515152,12.121212121212121
+euro_area_sample,fiscal,88,14,9,15.909090909090908,10.227272727272728
+euro_area_sample,growth,66,9,5,13.636363636363635,7.575757575757576
+euro_area_sample,inflation,88,9,6,10.227272727272728,6.8181818181818175
+euro_area_sample,labour,55,12,8,21.818181818181817,14.545454545454545
+northern_western_comparator,external,72,13,9,18.055555555555554,12.5
+northern_western_comparator,fiscal,96,11,7,11.458333333333332,7.291666666666667
+northern_western_comparator,growth,72,31,14,43.05555555555556,19.444444444444446
+northern_western_comparator,inflation,96,33,24,34.375,25.0
+northern_western_comparator,labour,60,24,9,40.0,15.0

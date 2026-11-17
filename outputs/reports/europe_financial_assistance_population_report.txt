@@ -1,0 +1,35 @@
+========================================================================
+EUROPEAN FINANCIAL ASSISTANCE EVENT POPULATION
+========================================================================
+
+Registry: C:\Users\oladi\sources\imf_intelligence\data\external\europe_historical_stress_events.csv
+New records: 6
+Total registry records: 6
+Countries represented in new records: 4
+
+EVENT DISTRIBUTION
+------------------------------------------------------------------------
+ESP | Spain | 1 programmes
+GRC | Greece | 3 programmes
+IRL | Ireland | 1 programmes
+PRT | Portugal | 1 programmes
+
+VALIDATION
+------------------------------------------------------------------------
+six_new_records: PASS
+six_unique_event_ids: PASS
+all_verified: PASS
+all_included: PASS
+all_assistance_events: PASS
+no_duplicate_registry_ids: PASS
+four_countries: PASS
+
+Errors: 0
+
+STATUS: POPULATION VALIDATED
+
+QUALIFICATION
+------------------------------------------------------------------------
+These records identify formal financial assistance programmes.
+They do not establish sovereign default or the exact onset of crisis.
+The formal agreement year is used as the programme event year.

@@ -1,0 +1,30 @@
+BOC–BOE EUROPEAN POSITIVE DEFAULT OBSERVATIONS
+=================================================================
+
+Peer countries assessed: 7
+Annual observations across peers: 455
+Positive country-year observations: 158
+
+COUNTRY PROFILE
+-----------------------------------------------------------------
+Greece | positive_years=10 | zero_years=55 | missing=0 | first=1960 | last=2018 | maximum=312420.0
+Hungary | positive_years=16 | zero_years=49 | missing=0 | first=1960 | last=1975 | maximum=162.24
+Ireland | positive_years=1 | zero_years=64 | missing=0 | first=2013 | last=2013 | maximum=88290.0
+Poland | positive_years=39 | zero_years=26 | missing=0 | first=1960 | last=2002 | maximum=48597.6
+Portugal | positive_years=1 | zero_years=64 | missing=0 | first=2013 | last=2013 | maximum=52712.0
+Romania | positive_years=47 | zero_years=18 | missing=0 | first=1960 | last=2020 | maximum=2021.5
+United Kingdom | positive_years=44 | zero_years=21 | missing=0 | first=1979 | last=2022 | maximum=798.76
+
+INTERPRETATION
+-----------------------------------------------------------------
+Positive observations represent annual debt-in-default stocks.
+They are not independent default events.
+Persistent exposures may appear in multiple consecutive years.
+Annual stock values must not be summed across years as unique
+defaulted debt or cumulative creditor losses.
+
+OUTPUT FILES
+-----------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\boc_boe_europe_positive_default_observations.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\boc_boe_europe_positive_default_country_summary.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\boc_boe_europe_positive_default_observations.txt

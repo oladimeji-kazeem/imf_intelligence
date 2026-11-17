@@ -1,0 +1,21 @@
+iso,country,total_dimensions,peer_assessed_dimensions,insufficient_dimensions,consistently_higher_dimensions,consistently_non_higher_dimensions,peer_sensitive_dimensions,classification_migrations,peer_groups_available,assessed_dimension_coverage_pct,consistent_higher_share_of_assessed_pct
+AUT,Austria,33,33,0,6,20,7,12,3,100.0,18.181818181818183
+BEL,Belgium,33,33,0,9,14,10,12,3,100.0,27.27272727272727
+CHE,Switzerland,33,0,33,0,0,0,0,1,0.0,
+CZE,Czech Republic,33,0,33,0,0,0,0,1,0.0,
+DEU,Germany,33,33,0,4,24,5,12,3,100.0,12.121212121212121
+DNK,Denmark,33,33,0,2,26,5,8,2,100.0,6.0606060606060606
+ESP,Spain,33,33,0,13,15,5,5,2,100.0,39.39393939393939
+FIN,Finland,33,33,0,12,12,9,15,3,100.0,36.36363636363637
+FRA,France,33,33,0,9,17,7,12,3,100.0,27.27272727272727
+GBR,United Kingdom,33,0,33,0,0,0,0,1,0.0,
+GRC,Greece,33,33,0,21,9,3,4,2,100.0,63.63636363636363
+HUN,Hungary,33,0,33,0,0,0,0,1,0.0,
+IRL,Ireland,33,33,0,9,15,9,15,3,100.0,27.27272727272727
+ITA,Italy,33,33,0,13,14,6,7,2,100.0,39.39393939393939
+NLD,"Netherlands, The",33,33,0,4,23,6,18,3,100.0,12.121212121212121
+NOR,Norway,33,0,33,0,0,0,0,1,0.0,
+POL,"Poland, Republic of",33,0,33,0,0,0,0,1,0.0,
+PRT,Portugal,33,33,0,13,15,5,8,2,100.0,39.39393939393939
+ROU,Romania,33,0,33,0,0,0,0,1,0.0,
+SWE,Sweden,33,33,0,6,19,8,13,2,100.0,18.181818181818183

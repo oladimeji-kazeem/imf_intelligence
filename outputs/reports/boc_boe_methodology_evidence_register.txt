@@ -1,0 +1,30 @@
+====================================================================================
+BOC-BOE METHODOLOGY EVIDENCE REGISTER
+====================================================================================
+Evidence records: 16
+
+STATUS DISTRIBUTION
+------------------------------------------------------------------------------------
+DOCUMENTED: 10
+PARTIALLY_DOCUMENTED: 2
+EMPIRICALLY_RECONCILED: 1
+EMPIRICALLY_CALCULATED: 1
+OBSERVED_IN_WORKBOOK: 1
+UNRESOLVED: 1
+
+KEY VERSION-CONTROL WARNING
+------------------------------------------------------------------------------------
+The 2025 workbook and 2026-updated methodology are not automatically
+assumed to be methodologically identical.
+
+UNRESOLVED ITEMS
+------------------------------------------------------------------------------------
+METH_015 | Methodology vintage alignment
+  Do not apply 2026-only revisions retrospectively without checking the 2025 methodology version.
+
+OUTPUT FILES
+------------------------------------------------------------------------------------
+data\processed\boc_boe_methodology_evidence_register.csv
+outputs\reports\boc_boe_methodology_evidence_register.txt
+
+REGISTER BUILD COMPLETED.

@@ -1,0 +1,44 @@
+============================================================================
+GREEK PSI SOURCE-EVIDENCE REGISTER
+============================================================================
+
+Canonical episode: EU_SOV_GRC_PSI_2011_2012
+Linked event records: 2
+Evidence sources: 3
+
+EVIDENCE DIMENSIONS
+----------------------------------------------------------------------------
+
+GRC_PSI_SRC_001
+Organisation: International Monetary Fund
+Title: Issues in Restructuring of Sovereign Domestic Debt — Background Paper
+Dimension: SOVEREIGN_RESTRUCTURING
+Assessment: IMF_DOCUMENTED
+Finding: The Greek debt exchange was completed on 12 March 2012. The IMF reports a 53.5 percent nominal face-value reduction.
+Limitation: The finding concerns the PSI exchange, not every Greek sovereign obligation or every date in the Greek debt crisis.
+
+GRC_PSI_SRC_002
+Organisation: International Swaps and Derivatives Association
+Title: Restructuring Credit Event Has Occurred with Respect to The Hellenic Republic
+Dimension: CDS_CREDIT_EVENT
+Assessment: PRIMARY_DETERMINATION
+Finding: ISDA's EMEA Determinations Committee unanimously determined that a Restructuring Credit Event had occurred under the applicable CDS definitions.
+Limitation: A CDS restructuring credit event is a contractual classification under derivatives definitions. It must not automatically be equated with a missed-payment default.
+
+GRC_PSI_SRC_003
+Organisation: International Monetary Fund
+Title: Sovereign Debt Restructuring — Recent Developments and Implications for the Fund's Legal and Policy Framework
+Dimension: CDS_AND_RESTRUCTURING_FRAMEWORK
+Assessment: IMF_POLICY_ANALYSIS
+Finding: The IMF explains that restructuring can qualify as a CDS credit event even when the debt exchange occurs before a payment default.
+Limitation: This is an explanatory policy paper, not the ISDA Determinations Committee's primary decision.
+
+============================================================================
+EPISODE-LEVEL INTERPRETATION
+============================================================================
+Sovereign restructuring: ESTABLISHED
+Payment default during the PSI exchange: NOT ESTABLISHED; IMF describes the exchange as pre-emptive.
+CDS restructuring credit event: CONFIRMED BY ISDA.
+General sovereign default status for all Greek obligations: NOT DETERMINED BY THIS REGISTER.
+
+No composite default label or severity score is assigned.

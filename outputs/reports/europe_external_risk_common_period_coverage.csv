@@ -1,0 +1,4 @@
+indicator_code,indicator_name,expected_country_years,records_found,countries_found,numeric_observations,missing_numeric_observations,balanced_20_country_2020_2024
+BCA_NGDPD,current_account_balance_pct_gdp,100,100,20,100,0,True
+TX_RPCH,exports_volume_growth_pct,100,100,20,100,0,True
+TM_RPCH,imports_volume_growth_pct,100,100,20,100,0,True

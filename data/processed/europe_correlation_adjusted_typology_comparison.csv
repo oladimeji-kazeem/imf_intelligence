@@ -1,0 +1,21 @@
+iso,country,original_active_engine_count,original_higher_dimension_count,adjusted_active_engine_count,adjusted_higher_signal_count,adjusted_signal_count,original_typology,adjusted_typology,typology_changed,original_higher_share_pct,adjusted_higher_signal_share_pct
+AUT,Austria,4,7,4,6,30,multi_engine_exposure,multi_engine_exposure,False,21.21212121212121,20.0
+BEL,Belgium,4,11,4,9,30,multi_engine_exposure,multi_engine_exposure,False,33.33333333333333,30.0
+CHE,Switzerland,3,5,3,5,30,multi_engine_exposure,multi_engine_exposure,False,15.151515151515152,16.666666666666664
+CZE,Czech Republic,3,8,3,8,30,multi_engine_exposure,multi_engine_exposure,False,24.242424242424242,26.666666666666668
+DEU,Germany,3,4,3,4,30,multi_engine_exposure,multi_engine_exposure,False,12.121212121212121,13.333333333333334
+DNK,Denmark,1,1,1,1,30,concentrated_exposure,concentrated_exposure,False,3.0303030303030303,3.3333333333333335
+ESP,Spain,4,15,4,14,30,multi_engine_exposure,multi_engine_exposure,False,45.45454545454545,46.666666666666664
+FIN,Finland,4,15,4,14,30,multi_engine_exposure,multi_engine_exposure,False,45.45454545454545,46.666666666666664
+FRA,France,4,11,4,10,30,multi_engine_exposure,multi_engine_exposure,False,33.33333333333333,33.33333333333333
+GBR,United Kingdom,4,10,4,9,30,multi_engine_exposure,multi_engine_exposure,False,30.303030303030305,30.0
+GRC,Greece,5,24,5,22,30,broad_based_exposure,broad_based_exposure,False,72.72727272727273,73.33333333333333
+HUN,Hungary,4,11,4,10,30,multi_engine_exposure,multi_engine_exposure,False,33.33333333333333,33.33333333333333
+IRL,Ireland,5,12,5,11,30,broad_based_exposure,broad_based_exposure,False,36.36363636363637,36.666666666666664
+ITA,Italy,5,16,5,15,30,broad_based_exposure,broad_based_exposure,False,48.484848484848484,50.0
+NLD,"Netherlands, The",4,5,4,5,30,multi_engine_exposure,multi_engine_exposure,False,15.151515151515152,16.666666666666664
+NOR,Norway,4,9,4,8,30,multi_engine_exposure,multi_engine_exposure,False,27.27272727272727,26.666666666666668
+POL,"Poland, Republic of",5,15,5,13,30,broad_based_exposure,broad_based_exposure,False,45.45454545454545,43.333333333333336
+PRT,Portugal,5,17,5,16,30,broad_based_exposure,broad_based_exposure,False,51.515151515151516,53.333333333333336
+ROU,Romania,4,19,4,17,30,multi_engine_exposure,multi_engine_exposure,False,57.57575757575758,56.666666666666664
+SWE,Sweden,3,7,3,6,30,multi_engine_exposure,multi_engine_exposure,False,21.21212121212121,20.0

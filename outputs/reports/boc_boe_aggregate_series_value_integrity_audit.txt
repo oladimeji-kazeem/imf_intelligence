@@ -1,0 +1,51 @@
+==============================================================================
+BoC-BOE AGGREGATE SERIES VALUE-INTEGRITY AUDIT
+==============================================================================
+
+SOURCE
+C:\Users\oladi\sources\imf_intelligence\data\external\boc_boe_sovereign_default_database_2025.xlsx
+
+WORLD ENTITY CHECK
+World rows: 65
+Observed years: 1960-2024
+Missing years in 1960-2024: []
+Unexpected years: []
+
+SERIES VALUE PROFILE
+                           series_id  world_rows  populated_cells  numeric_cells  missing_cells  non_numeric_populated_cells  first_year  last_year  internal_missing_year_count internal_missing_years  zero_count  negative_count  positive_count  minimum   maximum          mean  unique_numeric_values
+             DEBT_ADVANCED_ECON_2025          65               65             65              0                            0        1960       2024                            0                                 15               0              50     0.00 356160.65  17920.362615                     51
+                       DEBT_EME_2025          65               65             65              0                            0        1960       2024                            0                                  0               0              65 12216.26 392161.12 134742.523385                     65
+                      DEBT_HIPC_2025          65               65             65              0                            0        1960       2024                            0                                  0               0              65    92.15  97287.53  32667.560769                     65
+                     DEBT_OTHER_2025          65               65             65              0                            0        1960       2024                            0                                  0               0              65   187.53  71848.75  25417.988923                     65
+                      DEBT_EXAE_2025          65               65             65              0                            0        1960       2024                            0                                  0               0              65 12984.67 471143.32 192828.073385                     65
+                       DEBT_SSA_2025          65               65             65              0                            0        1960       2024                            0                                  0               0              65   260.24 103005.80  38497.366154                     65
+        DEBT_DEFRATE_SOVEREIGNS_2025          65               65             65              0                            0        1960       2024                            0                                  0               0              65    12.08     55.92     41.148308                     58
+      DEBT_TOTAL_DEF_SOVEREIGNS_2025          65               65             65              0                            0        1960       2024                            0                                  0               0              65    18.00    118.00     81.723077                     39
+     DEBT_TOTAL_NUMB_SOVEREIGNS_2025          65               65             65              0                            0        1960       2024                            0                                  0               0              65   126.00    215.00    190.676923                     32
+         DEBT_DEFRATE_WORLD_GDP_2025          65               65             65              0                            0        1960       2024                            0                                  0               0              65     0.23      2.15      0.769538                     48
+  DEBT_ARREARS_TOTAL_SOVEREIGNS_2025          65               46             46             19                            0        1979       2024                            0                                  0               0              46     6.00     90.00     63.652174                     32
+  DEBT_ARREARS_DEFRATE_CONV_DEF_2025          65               46             46             19                            0        1979       2024                            0                                  0               0              46     3.61    104.86     25.527609                     46
+ DEBT_ARREARS_DEFRATE_WORLD_GDP_2025          65               46             46             19                            0        1979       2024                            0                                  0               0              46     0.03      0.30      0.138696                     20
+DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025          65               46             46             19                            0        1979       2024                            0                                  0               0              46     3.30     41.86     30.273043                     41
+   DEBT_GROSS_WORLD_PUBLIC_DEBT_2025          65               45             45             20                            0        1980       2024                            0                                  0               0              45  2043.25 104485.00  35372.476889                     45
+     DEBT_DEFRATE_EME_OTHER_GDP_2025          65               45             45             20                            0        1980       2024                            0                                  0               0              45     0.54     11.72      3.711111                     43
+ DEBT_DEFRATE_WORLD_PUBLIC_DEBT_2025          65               45             45             20                            0        1980       2024                            0                                  0               0              45     0.29      6.40      1.990667                     41
+             DEBT_DEFRATE_CHINA_2025          65               45             45             20                            0        1980       2024                            0                                  0               0              45     0.80     12.13      5.262444                     45
+       DEBT_GROSS_EME_OTHER_GDP_2025          65               45             45             20                            0        1980       2024                            0                                  0               0              45  2708.99  45835.00  15917.078889                     45
+               DEBT_GROSS_CHINA_2025          65               45             45             20                            0        1980       2024                            0                                  0               0              45     4.91    475.17    131.459111                     45
+   DEBT_DEFRATE_PARIS_CLUB_DEBT_2025          65               17             17             48                            0        2008       2024                            0                                  0               0              17    11.05     17.51     13.964118                     17
+           DEBT_PARIS_CLUB_DEBT_2025          65               17             17             48                            0        2008       2024                            0                                  0               0              17   301.00    414.34    337.400588                     16
+       DEBT_GROSS_WORLD_PRODUCT_2025          65               65             65              0                            0        1960       2024                            0                                  0               0              65  1365.00 110549.00  34766.045231                     65
+
+EXACT DUPLICATE SERIES PAIRS
+No exact duplicate pairs detected on common observations.
+
+HIGH CORRELATION PAIRS
+No pairs with absolute correlation >= 0.999.
+
+INTERPRETATION LIMITATIONS
+- Numeric validity does not establish semantic validity or units.
+- Exact equality on common years identifies numerical duplication, not necessarily identical documented definitions.
+- High correlation does not establish that two series measure the same thing.
+- Missing values are not treated as zero.
+- No default events, probabilities, or severity scores are inferred.

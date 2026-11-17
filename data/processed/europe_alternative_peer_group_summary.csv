@@ -1,0 +1,4 @@
+peer_group,peer_group_size,countries,dimensions_per_country,comparisons,changed_classifications,changed_engine_activations,classification_change_rate_pct,engine_activation_change_rate_pct
+eu_sample,17,17,33,561,25,10,4.45632798573975,1.7825311942959003
+euro_area_sample,11,11,33,363,54,36,14.87603305785124,9.917355371900827
+northern_western_comparator,12,12,33,396,112,63,28.28282828282828,15.909090909090908

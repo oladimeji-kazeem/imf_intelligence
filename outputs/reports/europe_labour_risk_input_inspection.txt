@@ -1,0 +1,96 @@
+============================================================================
+EUROPEAN LABOUR RISK INPUT INSPECTION
+============================================================================
+
+INPUT
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_weo_classified.csv
+Source rows: 11,440
+
+INDICATOR
+----------------------------------------------------------------------------
+WEO indicator: LUR
+Description: Unemployment rate, percent of labour force
+Historical records: 920
+Countries: 20
+Year range: 1980-2025
+Numeric observations: 885
+Missing numeric observations: 35
+
+COUNTRY COVERAGE
+----------------------------------------------------------------------------
+iso  records  numeric_observations  missing_numeric_observations  first_year  last_year  first_numeric_year  last_numeric_year
+AUT       46                    46                             0        1980       2025                1980               2025
+BEL       46                    46                             0        1980       2025                1980               2025
+CHE       46                    46                             0        1980       2025                1980               2025
+CZE       46                    31                            15        1980       2025                1995               2025
+DEU       46                    46                             0        1980       2025                1980               2025
+DNK       46                    46                             0        1980       2025                1980               2025
+ESP       46                    46                             0        1980       2025                1980               2025
+FIN       46                    46                             0        1980       2025                1980               2025
+FRA       46                    46                             0        1980       2025                1980               2025
+GBR       46                    46                             0        1980       2025                1980               2025
+GRC       46                    46                             0        1980       2025                1980               2025
+HUN       46                    46                             0        1980       2025                1980               2025
+IRL       46                    41                             5        1980       2025                1985               2025
+ITA       46                    46                             0        1980       2025                1980               2025
+NLD       46                    46                             0        1980       2025                1980               2025
+NOR       46                    46                             0        1980       2025                1980               2025
+POL       46                    36                            10        1980       2025                1990               2025
+PRT       46                    46                             0        1980       2025                1980               2025
+ROU       46                    41                             5        1980       2025                1985               2025
+SWE       46                    46                             0        1980       2025                1980               2025
+
+COMMON PERIOD COVERAGE
+----------------------------------------------------------------------------
+Period: 2020-2024
+Expected balanced records: 100
+Actual records: 100
+Numeric observations: 100
+Missing observations: 0
+ year  records  countries  numeric_observations  missing_observations
+ 2020       20         20                    20                     0
+ 2021       20         20                    20                     0
+ 2022       20         20                    20                     0
+ 2023       20         20                    20                     0
+ 2024       20         20                    20                     0
+
+NUMERIC VALUE INSPECTION
+----------------------------------------------------------------------------
+minimum: 0.041
+maximum: 27.475
+mean: 7.569702824858757
+median: 7.075
+negative_values: 0
+zero_values: 0
+values_above_50: 0
+values_above_100: 0
+
+EXTREME OBSERVATIONS
+----------------------------------------------------------------------------
+No values below zero or above 50.
+
+METHODOLOGICAL NOTES
+----------------------------------------------------------------------------
+Unemployment rate does not measure total labour-market slack.
+It excludes underemployment and people outside the labour force.
+It does not distinguish youth or long-term unemployment.
+Cross-country comparisons can be affected by survey definitions.
+Historical actual classification follows the project's WEO observation-status convention.
+Missing values are retained and are not replaced with zero.
+
+VALIDATION
+----------------------------------------------------------------------------
+PASS: Required source columns present.
+PASS: LUR indicator found.
+PASS: 20 countries identified.
+PASS: No duplicate country-year records.
+PASS: Common-period panel has expected record count.
+PASS: Common-period observations are all numeric.
+
+OUTPUTS
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_labour_risk_input_profile.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_labour_risk_country_coverage.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_labour_risk_missingness.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_labour_risk_common_period_coverage.csv

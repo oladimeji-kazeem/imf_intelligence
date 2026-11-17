@@ -1,0 +1,289 @@
+country_group,series_id,rows,available,availability_pct
+Advanced economies,DEBT_TOTAL_2025,390,390,100.0
+Advanced economies,DEBT_IMF_2025,390,65,16.67
+Advanced economies,DEBT_IBRD_2025,390,0,0.0
+Advanced economies,DEBT_IDA_2025,390,0,0.0
+Advanced economies,DEBT_IADB_2025,390,0,0.0
+Advanced economies,DEBT_PARIS_CLUB_2025,390,0,0.0
+Advanced economies,DEBT_CHINA_2025,390,64,16.41
+Advanced economies,DEBT_OTHER_OFFICIAL_CREDITORS_2025,390,250,64.1
+Advanced economies,DEBT_PRIVATE_CREDITORS_2025,390,0,0.0
+Advanced economies,DEBT_FC_BANK_LOANS_2025,390,0,0.0
+Advanced economies,DEBT_FC_BONDS_2025,390,195,50.0
+Advanced economies,DEBT_LC_DEBT_2025,390,0,0.0
+Advanced economies,DEBT_FISCAL_ARREARS_2025,390,112,28.72
+Advanced economies,DEBT_TOTAL_DEBT_2025,390,390,100.0
+Advanced economies,DEBT_ADVANCED_ECON_2025,390,0,0.0
+Advanced economies,DEBT_EME_2025,390,0,0.0
+Advanced economies,DEBT_HIPC_2025,390,0,0.0
+Advanced economies,DEBT_OTHER_2025,390,0,0.0
+Advanced economies,DEBT_EXAE_2025,390,0,0.0
+Advanced economies,DEBT_SSA_2025,390,0,0.0
+Advanced economies,DEBT_DEFRATE_SOVEREIGNS_2025,390,0,0.0
+Advanced economies,DEBT_DEFRATE_PARIS_CLUB_DEBT_2025,390,0,0.0
+Advanced economies,DEBT_DEFRATE_CHINA_2025,390,0,0.0
+Advanced economies,DEBT_DEFRATE_WORLD_PUBLIC_DEBT_2025,390,0,0.0
+Advanced economies,DEBT_DEFRATE_EME_OTHER_GDP_2025,390,0,0.0
+Advanced economies,DEBT_DEFRATE_WORLD_GDP_2025,390,0,0.0
+Advanced economies,DEBT_TOTAL_NUMB_SOVEREIGNS_2025,390,0,0.0
+Advanced economies,DEBT_TOTAL_DEF_SOVEREIGNS_2025,390,0,0.0
+Advanced economies,DEBT_IMF_DEF_SOVEREIGNS_2025,390,0,0.0
+Advanced economies,DEBT_IBRD_DEF_SOVEREIGNS_2025,390,0,0.0
+Advanced economies,DEBT_IDA_DEF_SOVEREIGNS_2025,390,0,0.0
+Advanced economies,DEBT_IADB_DEF_SOVEREIGNS_2025,390,0,0.0
+Advanced economies,DEBT_PARIS_CLUB_DEF_SOVEREIGNS_2025,390,0,0.0
+Advanced economies,DEBT_CHINA_DEF_SOVEREIGNS_2025,390,0,0.0
+Advanced economies,DEBT_OTHER_OFFICIAL_CREDITORS_DEF_SOVERE_2025,390,0,0.0
+Advanced economies,DEBT_FC_LOANS_DEF_SOVEREIGNS_2025,390,0,0.0
+Advanced economies,DEBT_FC_BONDS_DEF_SOVEREIGNS_2025,390,0,0.0
+Advanced economies,DEBT_PRIVATE_CREDITORS_DEF_SOVEREIGNS_2025,390,0,0.0
+Advanced economies,DEBT_LC_DEBT_DEF_SOVEREIGNS_2025,390,0,0.0
+Advanced economies,DEBT_ARREARS_TOTAL_SOVEREIGNS_2025,390,0,0.0
+Advanced economies,DEBT_ARREARS_DEFRATE_CONV_DEF_2025,390,0,0.0
+Advanced economies,DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025,390,0,0.0
+Advanced economies,DEBT_ARREARS_DEFRATE_WORLD_GDP_2025,390,0,0.0
+Advanced economies,DEBT_PARIS_CLUB_DEBT_2025,390,0,0.0
+Advanced economies,DEBT_GROSS_CHINA_2025,390,0,0.0
+Advanced economies,DEBT_GROSS_WORLD_PUBLIC_DEBT_2025,390,0,0.0
+Advanced economies,DEBT_GROSS_EME_OTHER_GDP_2025,390,0,0.0
+Advanced economies,DEBT_GROSS_WORLD_PRODUCT_2025,390,0,0.0
+Countries with identified domestic arrears only,DEBT_TOTAL_2025,325,67,20.62
+Countries with identified domestic arrears only,DEBT_IMF_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_IBRD_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_IDA_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_IADB_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_PARIS_CLUB_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_CHINA_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_OTHER_OFFICIAL_CREDITORS_2025,325,67,20.62
+Countries with identified domestic arrears only,DEBT_PRIVATE_CREDITORS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_FC_BANK_LOANS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_FC_BONDS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_LC_DEBT_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_FISCAL_ARREARS_2025,325,133,40.92
+Countries with identified domestic arrears only,DEBT_TOTAL_DEBT_2025,325,67,20.62
+Countries with identified domestic arrears only,DEBT_ADVANCED_ECON_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_EME_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_HIPC_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_OTHER_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_EXAE_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_SSA_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_DEFRATE_SOVEREIGNS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_DEFRATE_PARIS_CLUB_DEBT_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_DEFRATE_CHINA_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_DEFRATE_WORLD_PUBLIC_DEBT_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_DEFRATE_EME_OTHER_GDP_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_DEFRATE_WORLD_GDP_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_TOTAL_NUMB_SOVEREIGNS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_TOTAL_DEF_SOVEREIGNS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_IMF_DEF_SOVEREIGNS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_IBRD_DEF_SOVEREIGNS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_IDA_DEF_SOVEREIGNS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_IADB_DEF_SOVEREIGNS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_PARIS_CLUB_DEF_SOVEREIGNS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_CHINA_DEF_SOVEREIGNS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_OTHER_OFFICIAL_CREDITORS_DEF_SOVERE_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_FC_LOANS_DEF_SOVEREIGNS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_FC_BONDS_DEF_SOVEREIGNS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_PRIVATE_CREDITORS_DEF_SOVEREIGNS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_LC_DEBT_DEF_SOVEREIGNS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_ARREARS_TOTAL_SOVEREIGNS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_ARREARS_DEFRATE_CONV_DEF_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_ARREARS_DEFRATE_WORLD_GDP_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_PARIS_CLUB_DEBT_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_GROSS_CHINA_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_GROSS_WORLD_PUBLIC_DEBT_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_GROSS_EME_OTHER_GDP_2025,325,0,0.0
+Countries with identified domestic arrears only,DEBT_GROSS_WORLD_PRODUCT_2025,325,0,0.0
+Emerging/frontier markets,DEBT_TOTAL_2025,3380,2974,87.99
+Emerging/frontier markets,DEBT_IMF_2025,3380,974,28.82
+Emerging/frontier markets,DEBT_IBRD_2025,3380,624,18.46
+Emerging/frontier markets,DEBT_IDA_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_IADB_2025,3380,259,7.66
+Emerging/frontier markets,DEBT_PARIS_CLUB_2025,3380,2078,61.48
+Emerging/frontier markets,DEBT_CHINA_2025,3380,1296,38.34
+Emerging/frontier markets,DEBT_OTHER_OFFICIAL_CREDITORS_2025,3380,2641,78.14
+Emerging/frontier markets,DEBT_PRIVATE_CREDITORS_2025,3380,2363,69.91
+Emerging/frontier markets,DEBT_FC_BANK_LOANS_2025,3380,2164,64.02
+Emerging/frontier markets,DEBT_FC_BONDS_2025,3380,1598,47.28
+Emerging/frontier markets,DEBT_LC_DEBT_2025,3380,1071,31.69
+Emerging/frontier markets,DEBT_FISCAL_ARREARS_2025,3380,1356,40.12
+Emerging/frontier markets,DEBT_TOTAL_DEBT_2025,3380,2974,87.99
+Emerging/frontier markets,DEBT_ADVANCED_ECON_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_EME_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_HIPC_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_OTHER_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_EXAE_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_SSA_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_DEFRATE_SOVEREIGNS_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_DEFRATE_PARIS_CLUB_DEBT_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_DEFRATE_CHINA_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_DEFRATE_WORLD_PUBLIC_DEBT_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_DEFRATE_EME_OTHER_GDP_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_DEFRATE_WORLD_GDP_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_TOTAL_NUMB_SOVEREIGNS_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_TOTAL_DEF_SOVEREIGNS_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_IMF_DEF_SOVEREIGNS_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_IBRD_DEF_SOVEREIGNS_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_IDA_DEF_SOVEREIGNS_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_IADB_DEF_SOVEREIGNS_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_PARIS_CLUB_DEF_SOVEREIGNS_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_CHINA_DEF_SOVEREIGNS_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_OTHER_OFFICIAL_CREDITORS_DEF_SOVERE_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_FC_LOANS_DEF_SOVEREIGNS_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_FC_BONDS_DEF_SOVEREIGNS_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_PRIVATE_CREDITORS_DEF_SOVEREIGNS_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_LC_DEBT_DEF_SOVEREIGNS_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_ARREARS_TOTAL_SOVEREIGNS_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_ARREARS_DEFRATE_CONV_DEF_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_ARREARS_DEFRATE_WORLD_GDP_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_PARIS_CLUB_DEBT_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_GROSS_CHINA_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_GROSS_WORLD_PUBLIC_DEBT_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_GROSS_EME_OTHER_GDP_2025,3380,0,0.0
+Emerging/frontier markets,DEBT_GROSS_WORLD_PRODUCT_2025,3380,0,0.0
+HIPC countries,DEBT_TOTAL_2025,2405,2303,95.76
+HIPC countries,DEBT_IMF_2025,2405,1125,46.78
+HIPC countries,DEBT_IBRD_2025,2405,704,29.27
+HIPC countries,DEBT_IDA_2025,2405,959,39.88
+HIPC countries,DEBT_IADB_2025,2405,130,5.41
+HIPC countries,DEBT_PARIS_CLUB_2025,2405,1843,76.63
+HIPC countries,DEBT_CHINA_2025,2405,2072,86.15
+HIPC countries,DEBT_OTHER_OFFICIAL_CREDITORS_2025,2405,2167,90.1
+HIPC countries,DEBT_PRIVATE_CREDITORS_2025,2405,2193,91.19
+HIPC countries,DEBT_FC_BANK_LOANS_2025,2405,1419,59.0
+HIPC countries,DEBT_FC_BONDS_2025,2405,775,32.22
+HIPC countries,DEBT_LC_DEBT_2025,2405,655,27.23
+HIPC countries,DEBT_FISCAL_ARREARS_2025,2405,1449,60.25
+HIPC countries,DEBT_TOTAL_DEBT_2025,2405,2303,95.76
+HIPC countries,DEBT_ADVANCED_ECON_2025,2405,0,0.0
+HIPC countries,DEBT_EME_2025,2405,0,0.0
+HIPC countries,DEBT_HIPC_2025,2405,0,0.0
+HIPC countries,DEBT_OTHER_2025,2405,0,0.0
+HIPC countries,DEBT_EXAE_2025,2405,0,0.0
+HIPC countries,DEBT_SSA_2025,2405,0,0.0
+HIPC countries,DEBT_DEFRATE_SOVEREIGNS_2025,2405,0,0.0
+HIPC countries,DEBT_DEFRATE_PARIS_CLUB_DEBT_2025,2405,0,0.0
+HIPC countries,DEBT_DEFRATE_CHINA_2025,2405,0,0.0
+HIPC countries,DEBT_DEFRATE_WORLD_PUBLIC_DEBT_2025,2405,0,0.0
+HIPC countries,DEBT_DEFRATE_EME_OTHER_GDP_2025,2405,0,0.0
+HIPC countries,DEBT_DEFRATE_WORLD_GDP_2025,2405,0,0.0
+HIPC countries,DEBT_TOTAL_NUMB_SOVEREIGNS_2025,2405,0,0.0
+HIPC countries,DEBT_TOTAL_DEF_SOVEREIGNS_2025,2405,0,0.0
+HIPC countries,DEBT_IMF_DEF_SOVEREIGNS_2025,2405,0,0.0
+HIPC countries,DEBT_IBRD_DEF_SOVEREIGNS_2025,2405,0,0.0
+HIPC countries,DEBT_IDA_DEF_SOVEREIGNS_2025,2405,0,0.0
+HIPC countries,DEBT_IADB_DEF_SOVEREIGNS_2025,2405,0,0.0
+HIPC countries,DEBT_PARIS_CLUB_DEF_SOVEREIGNS_2025,2405,0,0.0
+HIPC countries,DEBT_CHINA_DEF_SOVEREIGNS_2025,2405,0,0.0
+HIPC countries,DEBT_OTHER_OFFICIAL_CREDITORS_DEF_SOVERE_2025,2405,0,0.0
+HIPC countries,DEBT_FC_LOANS_DEF_SOVEREIGNS_2025,2405,0,0.0
+HIPC countries,DEBT_FC_BONDS_DEF_SOVEREIGNS_2025,2405,0,0.0
+HIPC countries,DEBT_PRIVATE_CREDITORS_DEF_SOVEREIGNS_2025,2405,0,0.0
+HIPC countries,DEBT_LC_DEBT_DEF_SOVEREIGNS_2025,2405,0,0.0
+HIPC countries,DEBT_ARREARS_TOTAL_SOVEREIGNS_2025,2405,0,0.0
+HIPC countries,DEBT_ARREARS_DEFRATE_CONV_DEF_2025,2405,0,0.0
+HIPC countries,DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025,2405,0,0.0
+HIPC countries,DEBT_ARREARS_DEFRATE_WORLD_GDP_2025,2405,0,0.0
+HIPC countries,DEBT_PARIS_CLUB_DEBT_2025,2405,0,0.0
+HIPC countries,DEBT_GROSS_CHINA_2025,2405,0,0.0
+HIPC countries,DEBT_GROSS_WORLD_PUBLIC_DEBT_2025,2405,0,0.0
+HIPC countries,DEBT_GROSS_EME_OTHER_GDP_2025,2405,0,0.0
+HIPC countries,DEBT_GROSS_WORLD_PRODUCT_2025,2405,0,0.0
+Other developing countries,DEBT_TOTAL_2025,4290,2950,68.76
+Other developing countries,DEBT_IMF_2025,4290,677,15.78
+Other developing countries,DEBT_IBRD_2025,4290,361,8.41
+Other developing countries,DEBT_IDA_2025,4290,422,9.84
+Other developing countries,DEBT_IADB_2025,4290,50,1.17
+Other developing countries,DEBT_PARIS_CLUB_2025,4290,1487,34.66
+Other developing countries,DEBT_CHINA_2025,4290,1996,46.53
+Other developing countries,DEBT_OTHER_OFFICIAL_CREDITORS_2025,4290,2691,62.73
+Other developing countries,DEBT_PRIVATE_CREDITORS_2025,4290,2294,53.47
+Other developing countries,DEBT_FC_BANK_LOANS_2025,4290,1044,24.34
+Other developing countries,DEBT_FC_BONDS_2025,4290,624,14.55
+Other developing countries,DEBT_LC_DEBT_2025,4290,712,16.6
+Other developing countries,DEBT_FISCAL_ARREARS_2025,4290,1772,41.31
+Other developing countries,DEBT_TOTAL_DEBT_2025,4290,2950,68.76
+Other developing countries,DEBT_ADVANCED_ECON_2025,4290,0,0.0
+Other developing countries,DEBT_EME_2025,4290,0,0.0
+Other developing countries,DEBT_HIPC_2025,4290,0,0.0
+Other developing countries,DEBT_OTHER_2025,4290,0,0.0
+Other developing countries,DEBT_EXAE_2025,4290,0,0.0
+Other developing countries,DEBT_SSA_2025,4290,0,0.0
+Other developing countries,DEBT_DEFRATE_SOVEREIGNS_2025,4290,0,0.0
+Other developing countries,DEBT_DEFRATE_PARIS_CLUB_DEBT_2025,4290,0,0.0
+Other developing countries,DEBT_DEFRATE_CHINA_2025,4290,0,0.0
+Other developing countries,DEBT_DEFRATE_WORLD_PUBLIC_DEBT_2025,4290,0,0.0
+Other developing countries,DEBT_DEFRATE_EME_OTHER_GDP_2025,4290,0,0.0
+Other developing countries,DEBT_DEFRATE_WORLD_GDP_2025,4290,0,0.0
+Other developing countries,DEBT_TOTAL_NUMB_SOVEREIGNS_2025,4290,0,0.0
+Other developing countries,DEBT_TOTAL_DEF_SOVEREIGNS_2025,4290,0,0.0
+Other developing countries,DEBT_IMF_DEF_SOVEREIGNS_2025,4290,0,0.0
+Other developing countries,DEBT_IBRD_DEF_SOVEREIGNS_2025,4290,0,0.0
+Other developing countries,DEBT_IDA_DEF_SOVEREIGNS_2025,4290,0,0.0
+Other developing countries,DEBT_IADB_DEF_SOVEREIGNS_2025,4290,0,0.0
+Other developing countries,DEBT_PARIS_CLUB_DEF_SOVEREIGNS_2025,4290,0,0.0
+Other developing countries,DEBT_CHINA_DEF_SOVEREIGNS_2025,4290,0,0.0
+Other developing countries,DEBT_OTHER_OFFICIAL_CREDITORS_DEF_SOVERE_2025,4290,0,0.0
+Other developing countries,DEBT_FC_LOANS_DEF_SOVEREIGNS_2025,4290,0,0.0
+Other developing countries,DEBT_FC_BONDS_DEF_SOVEREIGNS_2025,4290,0,0.0
+Other developing countries,DEBT_PRIVATE_CREDITORS_DEF_SOVEREIGNS_2025,4290,0,0.0
+Other developing countries,DEBT_LC_DEBT_DEF_SOVEREIGNS_2025,4290,0,0.0
+Other developing countries,DEBT_ARREARS_TOTAL_SOVEREIGNS_2025,4290,0,0.0
+Other developing countries,DEBT_ARREARS_DEFRATE_CONV_DEF_2025,4290,0,0.0
+Other developing countries,DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025,4290,0,0.0
+Other developing countries,DEBT_ARREARS_DEFRATE_WORLD_GDP_2025,4290,0,0.0
+Other developing countries,DEBT_PARIS_CLUB_DEBT_2025,4290,0,0.0
+Other developing countries,DEBT_GROSS_CHINA_2025,4290,0,0.0
+Other developing countries,DEBT_GROSS_WORLD_PUBLIC_DEBT_2025,4290,0,0.0
+Other developing countries,DEBT_GROSS_EME_OTHER_GDP_2025,4290,0,0.0
+Other developing countries,DEBT_GROSS_WORLD_PRODUCT_2025,4290,0,0.0
+World,DEBT_TOTAL_2025,65,65,100.0
+World,DEBT_IMF_2025,65,65,100.0
+World,DEBT_IBRD_2025,65,65,100.0
+World,DEBT_IDA_2025,65,65,100.0
+World,DEBT_IADB_2025,65,65,100.0
+World,DEBT_PARIS_CLUB_2025,65,65,100.0
+World,DEBT_CHINA_2025,65,65,100.0
+World,DEBT_OTHER_OFFICIAL_CREDITORS_2025,65,65,100.0
+World,DEBT_PRIVATE_CREDITORS_2025,65,65,100.0
+World,DEBT_FC_BANK_LOANS_2025,65,65,100.0
+World,DEBT_FC_BONDS_2025,65,65,100.0
+World,DEBT_LC_DEBT_2025,65,65,100.0
+World,DEBT_FISCAL_ARREARS_2025,65,46,70.77
+World,DEBT_TOTAL_DEBT_2025,65,65,100.0
+World,DEBT_ADVANCED_ECON_2025,65,65,100.0
+World,DEBT_EME_2025,65,65,100.0
+World,DEBT_HIPC_2025,65,65,100.0
+World,DEBT_OTHER_2025,65,65,100.0
+World,DEBT_EXAE_2025,65,65,100.0
+World,DEBT_SSA_2025,65,65,100.0
+World,DEBT_DEFRATE_SOVEREIGNS_2025,65,65,100.0
+World,DEBT_DEFRATE_PARIS_CLUB_DEBT_2025,65,17,26.15
+World,DEBT_DEFRATE_CHINA_2025,65,45,69.23
+World,DEBT_DEFRATE_WORLD_PUBLIC_DEBT_2025,65,45,69.23
+World,DEBT_DEFRATE_EME_OTHER_GDP_2025,65,45,69.23
+World,DEBT_DEFRATE_WORLD_GDP_2025,65,65,100.0
+World,DEBT_TOTAL_NUMB_SOVEREIGNS_2025,65,65,100.0
+World,DEBT_TOTAL_DEF_SOVEREIGNS_2025,65,65,100.0
+World,DEBT_IMF_DEF_SOVEREIGNS_2025,65,65,100.0
+World,DEBT_IBRD_DEF_SOVEREIGNS_2025,65,65,100.0
+World,DEBT_IDA_DEF_SOVEREIGNS_2025,65,65,100.0
+World,DEBT_IADB_DEF_SOVEREIGNS_2025,65,65,100.0
+World,DEBT_PARIS_CLUB_DEF_SOVEREIGNS_2025,65,65,100.0
+World,DEBT_CHINA_DEF_SOVEREIGNS_2025,65,65,100.0
+World,DEBT_OTHER_OFFICIAL_CREDITORS_DEF_SOVERE_2025,65,65,100.0
+World,DEBT_FC_LOANS_DEF_SOVEREIGNS_2025,65,65,100.0
+World,DEBT_FC_BONDS_DEF_SOVEREIGNS_2025,65,65,100.0
+World,DEBT_PRIVATE_CREDITORS_DEF_SOVEREIGNS_2025,65,65,100.0
+World,DEBT_LC_DEBT_DEF_SOVEREIGNS_2025,65,65,100.0
+World,DEBT_ARREARS_TOTAL_SOVEREIGNS_2025,65,46,70.77
+World,DEBT_ARREARS_DEFRATE_CONV_DEF_2025,65,46,70.77
+World,DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025,65,46,70.77
+World,DEBT_ARREARS_DEFRATE_WORLD_GDP_2025,65,46,70.77
+World,DEBT_PARIS_CLUB_DEBT_2025,65,17,26.15
+World,DEBT_GROSS_CHINA_2025,65,45,69.23
+World,DEBT_GROSS_WORLD_PUBLIC_DEBT_2025,65,45,69.23
+World,DEBT_GROSS_EME_OTHER_GDP_2025,65,45,69.23
+World,DEBT_GROSS_WORLD_PRODUCT_2025,65,65,100.0

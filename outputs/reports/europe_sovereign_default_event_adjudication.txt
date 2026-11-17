@@ -1,0 +1,50 @@
+============================================================================
+EUROPEAN SOVEREIGN DEFAULT EVENT ADJUDICATION
+============================================================================
+
+INPUT AND RECONCILIATION
+----------------------------------------------------------------------------
+Registry event records: 21
+Unique event IDs: 21
+Countries represented: 13
+Ruleset version: 1.0
+
+EVENT ADJUDICATION DISTRIBUTION
+----------------------------------------------------------------------------
+REGISTRY_RECORDED_BANKING_CRISIS: 13
+REGISTRY_RECORDED_FINANCIAL_ASSISTANCE: 6
+REGISTRY_RECORDED_SOVEREIGN_RESTRUCTURING: 2
+
+SOVEREIGN DEFAULT AND RESTRUCTURING
+----------------------------------------------------------------------------
+Explicit sovereign-default records: 0
+Confirmed sovereign-restructuring records: 2
+Restructuring records are not automatically classified as contractual payment defaults.
+
+COUNTRY SUMMARY
+----------------------------------------------------------------------------
+AUT | Austria | Events: 1 | Defaults: 0 | Restructurings: 0 | Financial assistance: 0 | Banking crises: 1
+DEU | Germany | Events: 1 | Defaults: 0 | Restructurings: 0 | Financial assistance: 0 | Banking crises: 1
+ESP | Spain | Events: 1 | Defaults: 0 | Restructurings: 0 | Financial assistance: 1 | Banking crises: 0
+FIN | Finland | Events: 1 | Defaults: 0 | Restructurings: 0 | Financial assistance: 0 | Banking crises: 1
+FRA | France | Events: 1 | Defaults: 0 | Restructurings: 0 | Financial assistance: 0 | Banking crises: 1
+GRC | Greece | Events: 6 | Defaults: 0 | Restructurings: 2 | Financial assistance: 3 | Banking crises: 1
+HUN | Hungary | Events: 2 | Defaults: 0 | Restructurings: 0 | Financial assistance: 0 | Banking crises: 2
+IRL | Ireland | Events: 2 | Defaults: 0 | Restructurings: 0 | Financial assistance: 1 | Banking crises: 1
+ITA | Italy | Events: 1 | Defaults: 0 | Restructurings: 0 | Financial assistance: 0 | Banking crises: 1
+NOR | Norway | Events: 1 | Defaults: 0 | Restructurings: 0 | Financial assistance: 0 | Banking crises: 1
+POL | Poland | Events: 1 | Defaults: 0 | Restructurings: 0 | Financial assistance: 0 | Banking crises: 1
+PRT | Portugal | Events: 2 | Defaults: 0 | Restructurings: 0 | Financial assistance: 1 | Banking crises: 1
+ROU | Romania | Events: 1 | Defaults: 0 | Restructurings: 0 | Financial assistance: 0 | Banking crises: 1
+
+METHODOLOGICAL LIMITATIONS
+----------------------------------------------------------------------------
+- Adjudication is based on the existing registry event_type, verification_status and inclusion_decision fields.
+- Verified event status does not independently prove sovereign default.
+- Sovereign restructuring is not automatically equivalent to a missed contractual payment.
+- Official financial assistance is not automatically sovereign default.
+- Systemic banking crises are not automatically sovereign default.
+- Unrecognised event types require manual review.
+- No new external evidence has been independently verified by this script.
+- The source registry is preserved and is not modified.
+- No country default probability, severity score or ranking is produced.

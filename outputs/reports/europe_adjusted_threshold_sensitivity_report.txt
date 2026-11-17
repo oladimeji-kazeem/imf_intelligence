@@ -1,0 +1,127 @@
+============================================================================
+EUROPEAN DEPENDENCE-ADJUSTED THRESHOLD SENSITIVITY
+============================================================================
+
+VALIDATION
+----------------------------------------------------------------------------
+Countries: 20
+Engines: 5
+Adjusted country-engine records: 100
+Scenario engine records: 400
+Country-scenario records: 80
+
+SCENARIO DISTRIBUTIONS
+----------------------------------------------------------------------------
+           scenario  broad_based  multi_engine  concentrated  no_higher_signal  active_engine_records  countries_with_engine_count_change  countries_with_typology_change
+baseline_one_signal            5            14             1                 0                     78                                   0                               0
+ minimum_25_percent            3            12             4                 1                     61                                  12                               7
+ minimum_50_percent            1             3            11                 5                     33                                  18                              17
+minimum_two_signals            3            12             4                 1                     61                                  12                               7
+
+TYPOLOGY TRANSITIONS FROM BASELINE
+----------------------------------------------------------------------------
+
+baseline_one_signal: 0/20 typology changes; 0/20 engine-count changes
+
+minimum_25_percent: 7/20 typology changes; 12/20 engine-count changes
+iso     baseline_typology       scenario_typology  baseline_engine_count  scenario_engine_count
+AUT multi_engine_exposure   concentrated_exposure                      4                      2
+CHE multi_engine_exposure   concentrated_exposure                      3                      1
+DEU multi_engine_exposure   concentrated_exposure                      3                      1
+DNK concentrated_exposure no_higher_engine_signal                      1                      0
+IRL  broad_based_exposure   multi_engine_exposure                      5                      4
+NLD multi_engine_exposure   concentrated_exposure                      4                      1
+POL  broad_based_exposure   multi_engine_exposure                      5                      4
+
+minimum_50_percent: 17/20 typology changes; 18/20 engine-count changes
+iso     baseline_typology       scenario_typology  baseline_engine_count  scenario_engine_count
+AUT multi_engine_exposure no_higher_engine_signal                      4                      0
+BEL multi_engine_exposure   concentrated_exposure                      4                      1
+CHE multi_engine_exposure   concentrated_exposure                      3                      1
+CZE multi_engine_exposure   concentrated_exposure                      3                      1
+DEU multi_engine_exposure no_higher_engine_signal                      3                      0
+DNK concentrated_exposure no_higher_engine_signal                      1                      0
+ESP multi_engine_exposure   concentrated_exposure                      4                      2
+FRA multi_engine_exposure   concentrated_exposure                      4                      2
+GBR multi_engine_exposure   concentrated_exposure                      4                      2
+HUN multi_engine_exposure   concentrated_exposure                      4                      2
+IRL  broad_based_exposure   concentrated_exposure                      5                      2
+ITA  broad_based_exposure   concentrated_exposure                      5                      2
+NLD multi_engine_exposure no_higher_engine_signal                      4                      0
+NOR multi_engine_exposure   concentrated_exposure                      4                      1
+POL  broad_based_exposure   concentrated_exposure                      5                      2
+PRT  broad_based_exposure   multi_engine_exposure                      5                      3
+SWE multi_engine_exposure no_higher_engine_signal                      3                      0
+
+minimum_two_signals: 7/20 typology changes; 12/20 engine-count changes
+iso     baseline_typology       scenario_typology  baseline_engine_count  scenario_engine_count
+AUT multi_engine_exposure   concentrated_exposure                      4                      2
+CHE multi_engine_exposure   concentrated_exposure                      3                      1
+DEU multi_engine_exposure   concentrated_exposure                      3                      1
+DNK concentrated_exposure no_higher_engine_signal                      1                      0
+IRL  broad_based_exposure   multi_engine_exposure                      5                      4
+NLD multi_engine_exposure   concentrated_exposure                      4                      1
+POL  broad_based_exposure   multi_engine_exposure                      5                      4
+
+ENGINE ACTIVATION BY SCENARIO
+----------------------------------------------------------------------------
+           scenario risk_engine  countries_with_active_engine
+baseline_one_signal    external                            17
+baseline_one_signal      fiscal                            16
+baseline_one_signal      growth                            16
+baseline_one_signal   inflation                            16
+baseline_one_signal      labour                            13
+ minimum_25_percent    external                            13
+ minimum_25_percent      fiscal                            14
+ minimum_25_percent      growth                            13
+ minimum_25_percent   inflation                            12
+ minimum_25_percent      labour                             9
+ minimum_50_percent    external                             8
+ minimum_50_percent      fiscal                             9
+ minimum_50_percent      growth                             5
+ minimum_50_percent   inflation                             4
+ minimum_50_percent      labour                             7
+minimum_two_signals    external                            13
+minimum_two_signals      fiscal                            14
+minimum_two_signals      growth                            13
+minimum_two_signals   inflation                            12
+minimum_two_signals      labour                             9
+
+FOCUS COUNTRY COMPARISON
+----------------------------------------------------------------------------
+scenario  baseline_one_signal  minimum_25_percent  minimum_50_percent  minimum_two_signals
+iso                                                                                       
+GRC                         5                   5                   5                    5
+ITA                         5                   5                   2                    5
+POL                         5                   4                   2                    4
+PRT                         5                   5                   3                    5
+ROU                         4                   4                   3                    4
+
+FOCUS COUNTRY TYPOLOGIES
+scenario    baseline_one_signal     minimum_25_percent     minimum_50_percent    minimum_two_signals
+iso                                                                                                 
+GRC        broad_based_exposure   broad_based_exposure   broad_based_exposure   broad_based_exposure
+ITA        broad_based_exposure   broad_based_exposure  concentrated_exposure   broad_based_exposure
+POL        broad_based_exposure  multi_engine_exposure  concentrated_exposure  multi_engine_exposure
+PRT        broad_based_exposure   broad_based_exposure  multi_engine_exposure   broad_based_exposure
+ROU       multi_engine_exposure  multi_engine_exposure  multi_engine_exposure  multi_engine_exposure
+
+METHODOLOGICAL LIMITATIONS
+----------------------------------------------------------------------------
+1. Thresholds are exploratory sensitivity scenarios.
+2. No threshold has been calibrated against observed
+   sovereign distress or macroeconomic crisis outcomes.
+3. Engine counts are not severity measures.
+4. A country can have zero higher peer-relative signals
+   while still having an absolute economic vulnerability.
+5. Peer-group sensitivity and temporal stability remain
+   separate validation requirements.
+6. No composite risk score or default probability is created.
+
+OUTPUT FILES
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_adjusted_threshold_engine_sensitivity.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_adjusted_threshold_country_profiles.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_adjusted_threshold_transitions.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_adjusted_threshold_scenario_summary.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_adjusted_threshold_sensitivity_report.txt

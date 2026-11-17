@@ -1,0 +1,92 @@
+BOC–BOE FULL PANEL SERIES SCOPE AUDIT
+===========================================================================
+
+Observation rows: 10855
+Observation variables: 48
+Metadata series: 51
+Metadata-only series: 3
+Observation-only series: 0
+
+METADATA / OBSERVATION RECONCILIATION
+---------------------------------------------------------------------------
+Metadata-only: ['DEBT_COUNTRY', 'DEBT_COUNTRY_GROUP', 'DEBT_YEAR']
+Observation-only: []
+
+ROW SCOPE
+---------------------------------------------------------------------------
+INDIVIDUAL_PEER_COUNTRY: 455 rows
+NON_PEER_OR_AGGREGATE: 10400 rows
+
+FULL-PANEL SERIES AVAILABILITY
+---------------------------------------------------------------------------
+DEBT_TOTAL_2025 | available=8749 | availability=80.6% | positive=5319 | zero=3429
+DEBT_TOTAL_DEBT_2025 | available=8749 | availability=80.6% | positive=5319 | zero=3429
+DEBT_OTHER_OFFICIAL_CREDITORS_2025 | available=7881 | availability=72.6% | positive=4273 | zero=3603
+DEBT_PRIVATE_CREDITORS_2025 | available=6915 | availability=63.7% | positive=2773 | zero=4142
+DEBT_CHINA_2025 | available=5493 | availability=50.6% | positive=1643 | zero=3850
+DEBT_PARIS_CLUB_2025 | available=5473 | availability=50.42% | positive=1000 | zero=4473
+DEBT_FISCAL_ARREARS_2025 | available=4868 | availability=44.85% | positive=2905 | zero=1961
+DEBT_FC_BANK_LOANS_2025 | available=4692 | availability=43.22% | positive=917 | zero=3775
+DEBT_FC_BONDS_2025 | available=3257 | availability=30.0% | positive=578 | zero=2679
+DEBT_IMF_2025 | available=2906 | availability=26.77% | positive=394 | zero=2512
+DEBT_LC_DEBT_2025 | available=2503 | availability=23.06% | positive=329 | zero=2174
+DEBT_IBRD_2025 | available=1754 | availability=16.16% | positive=215 | zero=1539
+DEBT_IDA_2025 | available=1446 | availability=13.32% | positive=266 | zero=1180
+DEBT_IADB_2025 | available=504 | availability=4.64% | positive=41 | zero=463
+DEBT_ADVANCED_ECON_2025 | available=65 | availability=0.6% | positive=50 | zero=15
+DEBT_EME_2025 | available=65 | availability=0.6% | positive=65 | zero=0
+DEBT_HIPC_2025 | available=65 | availability=0.6% | positive=65 | zero=0
+DEBT_OTHER_2025 | available=65 | availability=0.6% | positive=65 | zero=0
+DEBT_EXAE_2025 | available=65 | availability=0.6% | positive=65 | zero=0
+DEBT_SSA_2025 | available=65 | availability=0.6% | positive=65 | zero=0
+DEBT_DEFRATE_SOVEREIGNS_2025 | available=65 | availability=0.6% | positive=65 | zero=0
+DEBT_TOTAL_DEF_SOVEREIGNS_2025 | available=65 | availability=0.6% | positive=65 | zero=0
+DEBT_TOTAL_NUMB_SOVEREIGNS_2025 | available=65 | availability=0.6% | positive=65 | zero=0
+DEBT_DEFRATE_WORLD_GDP_2025 | available=65 | availability=0.6% | positive=65 | zero=0
+DEBT_IDA_DEF_SOVEREIGNS_2025 | available=65 | availability=0.6% | positive=42 | zero=23
+DEBT_IBRD_DEF_SOVEREIGNS_2025 | available=65 | availability=0.6% | positive=44 | zero=21
+DEBT_IADB_DEF_SOVEREIGNS_2025 | available=65 | availability=0.6% | positive=16 | zero=49
+DEBT_IMF_DEF_SOVEREIGNS_2025 | available=65 | availability=0.6% | positive=57 | zero=8
+DEBT_FC_LOANS_DEF_SOVEREIGNS_2025 | available=65 | availability=0.6% | positive=63 | zero=2
+DEBT_OTHER_OFFICIAL_CREDITORS_DEF_SOVERE_2025 | available=65 | availability=0.6% | positive=65 | zero=0
+DEBT_CHINA_DEF_SOVEREIGNS_2025 | available=65 | availability=0.6% | positive=58 | zero=7
+DEBT_PARIS_CLUB_DEF_SOVEREIGNS_2025 | available=65 | availability=0.6% | positive=64 | zero=1
+DEBT_FC_BONDS_DEF_SOVEREIGNS_2025 | available=65 | availability=0.6% | positive=65 | zero=0
+DEBT_PRIVATE_CREDITORS_DEF_SOVEREIGNS_2025 | available=65 | availability=0.6% | positive=63 | zero=2
+DEBT_LC_DEBT_DEF_SOVEREIGNS_2025 | available=65 | availability=0.6% | positive=58 | zero=7
+DEBT_GROSS_WORLD_PRODUCT_2025 | available=65 | availability=0.6% | positive=65 | zero=0
+DEBT_ARREARS_TOTAL_SOVEREIGNS_2025 | available=46 | availability=0.42% | positive=46 | zero=0
+DEBT_ARREARS_DEFRATE_CONV_DEF_2025 | available=46 | availability=0.42% | positive=46 | zero=0
+DEBT_ARREARS_DEFRATE_WORLD_GDP_2025 | available=46 | availability=0.42% | positive=46 | zero=0
+DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025 | available=46 | availability=0.42% | positive=46 | zero=0
+DEBT_GROSS_WORLD_PUBLIC_DEBT_2025 | available=45 | availability=0.41% | positive=45 | zero=0
+DEBT_DEFRATE_EME_OTHER_GDP_2025 | available=45 | availability=0.41% | positive=45 | zero=0
+DEBT_DEFRATE_WORLD_PUBLIC_DEBT_2025 | available=45 | availability=0.41% | positive=45 | zero=0
+DEBT_DEFRATE_CHINA_2025 | available=45 | availability=0.41% | positive=45 | zero=0
+DEBT_GROSS_EME_OTHER_GDP_2025 | available=45 | availability=0.41% | positive=45 | zero=0
+DEBT_GROSS_CHINA_2025 | available=45 | availability=0.41% | positive=45 | zero=0
+DEBT_DEFRATE_PARIS_CLUB_DEBT_2025 | available=17 | availability=0.16% | positive=17 | zero=0
+DEBT_PARIS_CLUB_DEBT_2025 | available=17 | availability=0.16% | positive=17 | zero=0
+
+TOTAL SERIES COMPARISON
+---------------------------------------------------------------------------
+both_available: 8749
+equal_values: 8749
+different_values: 0
+max_absolute_difference: 0.0
+
+COUNTRY-GROUP LABELS
+---------------------------------------------------------------------------
+Other developing countries: 4290
+Emerging/frontier markets: 3380
+HIPC countries: 2405
+Advanced economies: 390
+Countries with identified domestic arrears only: 325
+World: 65
+
+INTERPRETATION
+---------------------------------------------------------------------------
+Full-panel availability does not establish individual-country suitability.
+Aggregate and country-group rows must not be mistaken for sovereign rows.
+Identical total-series values do not establish semantic equivalence.
+Metadata-only fields require investigation before exclusion.

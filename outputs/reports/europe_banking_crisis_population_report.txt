@@ -1,0 +1,39 @@
+========================================================================
+EUROPEAN SYSTEMIC BANKING CRISIS POPULATION
+========================================================================
+
+New records: 13
+New countries: 12
+Total registry records: 19
+
+COUNTRY DISTRIBUTION
+------------------------------------------------------------------------
+AUT | Austria | 1 episode(s)
+DEU | Germany | 1 episode(s)
+FIN | Finland | 1 episode(s)
+FRA | France | 1 episode(s)
+GRC | Greece | 1 episode(s)
+HUN | Hungary | 2 episode(s)
+IRL | Ireland | 1 episode(s)
+ITA | Italy | 1 episode(s)
+NOR | Norway | 1 episode(s)
+POL | Poland | 1 episode(s)
+PRT | Portugal | 1 episode(s)
+ROU | Romania | 1 episode(s)
+
+VALIDATION
+------------------------------------------------------------------------
+Unique event IDs: PASS
+13 new episodes: PASS
+12 countries: PASS
+All systemic banking crises: PASS
+All sourced to IMF 2026: PASS
+
+QUALIFICATIONS
+------------------------------------------------------------------------
+IMF end years may be capped at five years.
+End years are not necessarily exact resolution dates.
+These events are banking crises, not sovereign defaults.
+Spain's 1977 onset is excluded from this batch.
+
+STATUS: POPULATION VALIDATED

@@ -1,0 +1,5 @@
+scenario,broad_based,multi_engine,concentrated,no_higher_signal,active_engine_records,countries_with_engine_count_change,countries_with_typology_change
+baseline_one_signal,5,14,1,0,78,0,0
+minimum_25_percent,3,12,4,1,61,12,7
+minimum_50_percent,1,3,11,5,33,18,17
+minimum_two_signals,3,12,4,1,61,12,7

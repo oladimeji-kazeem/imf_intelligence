@@ -1,0 +1,21 @@
+iso,country,total_higher_exposure_dimensions,engines_with_higher_exposure,engines_without_higher_exposure,higher_exposure_engine_concentration_hhi,dominant_engine_or_tie
+GRC,Greece,24,5,0,0.20138888888888892,fiscal;growth;inflation;labour
+PRT,Portugal,17,5,0,0.2110726643598616,external;inflation;labour
+ITA,Italy,16,5,0,0.21875,growth;inflation;labour
+POL,"Poland, Republic of",15,5,0,0.26222222222222225,inflation
+IRL,Ireland,12,5,0,0.2361111111111111,fiscal
+ROU,Romania,19,4,1,0.27423822714681434,inflation
+ESP,Spain,15,4,1,0.2711111111111111,labour
+FIN,Finland,15,4,1,0.26222222222222225,fiscal
+BEL,Belgium,11,4,1,0.371900826446281,fiscal
+FRA,France,11,4,1,0.32231404958677684,fiscal
+HUN,Hungary,11,4,1,0.32231404958677684,inflation
+GBR,United Kingdom,10,4,1,0.30000000000000004,fiscal
+NOR,Norway,9,4,1,0.30864197530864196,fiscal
+AUT,Austria,7,4,1,0.30612244897959184,fiscal
+NLD,"Netherlands, The",5,4,1,0.28,inflation
+CZE,Czech Republic,8,3,2,0.34375,external;inflation
+SWE,Sweden,7,3,2,0.346938775510204,fiscal
+CHE,Switzerland,5,3,2,0.44000000000000006,external
+DEU,Germany,4,3,2,0.375,growth
+DNK,Denmark,1,1,4,1.0,fiscal

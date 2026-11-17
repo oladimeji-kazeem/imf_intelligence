@@ -1,0 +1,159 @@
+DEBT_COUNTRY,DEBT_YEAR,DEBT_TOTAL_2025,creditor_components_available,instrument_components_available,creditor_components_missing,instrument_components_missing
+Greece,1960,368.6,3,1,5,3
+Greece,1961,377.75,3,1,5,3
+Greece,1962,386.91,3,1,5,3
+Greece,1963,301.08,3,1,5,3
+Greece,1964,307.64,3,1,5,3
+Greece,1965,314.21,3,1,5,3
+Greece,2012,312420.0,2,2,6,2
+Greece,2013,212819.0,3,2,5,2
+Greece,2015,2222.0,3,2,5,2
+Greece,2018,110938.0,3,2,5,2
+Hungary,1960,144.85,0,1,8,3
+Hungary,1961,147.75,0,1,8,3
+Hungary,1962,150.65,0,1,8,3
+Hungary,1963,153.55,0,1,8,3
+Hungary,1964,156.45,0,1,8,3
+Hungary,1965,159.34,0,1,8,3
+Hungary,1966,162.24,0,1,8,3
+Hungary,1967,148.79,0,1,8,3
+Hungary,1968,51.59,0,1,8,3
+Hungary,1969,52.48,0,1,8,3
+Hungary,1970,53.36,0,1,8,3
+Hungary,1971,54.25,0,1,8,3
+Hungary,1972,55.13,0,1,8,3
+Hungary,1973,56.02,0,1,8,3
+Hungary,1974,56.91,0,1,8,3
+Hungary,1975,57.79,0,1,8,3
+Ireland,2013,88290.0,1,0,7,4
+Poland,1960,88.97,3,2,5,2
+Poland,1961,90.96,3,2,5,2
+Poland,1962,92.96,3,2,5,2
+Poland,1963,94.96,3,2,5,2
+Poland,1964,96.95,3,2,5,2
+Poland,1965,98.95,3,2,5,2
+Poland,1966,100.94,3,2,5,2
+Poland,1967,102.94,3,2,5,2
+Poland,1968,104.94,3,2,5,2
+Poland,1969,106.93,3,2,5,2
+Poland,1970,108.93,2,2,6,2
+Poland,1971,110.92,2,2,6,2
+Poland,1972,112.92,2,2,6,2
+Poland,1973,114.92,2,2,6,2
+Poland,1974,116.91,2,2,6,2
+Poland,1975,118.91,2,2,6,2
+Poland,1976,7.05,2,2,6,2
+Poland,1981,4500.0,2,2,6,2
+Poland,1982,2200.0,1,2,7,2
+Poland,1983,1200.0,1,2,7,2
+Poland,1984,11317.0,2,2,6,2
+Poland,1985,13050.0,2,2,6,2
+Poland,1986,6993.4,1,2,7,2
+Poland,1987,24730.5,2,2,6,2
+Poland,1988,13090.8,2,2,6,2
+Poland,1989,10933.7,2,2,6,2
+Poland,1990,21380.5,2,3,6,1
+Poland,1991,48597.6,2,3,6,1
+Poland,1992,16190.0,1,3,7,1
+Poland,1993,13360.3,2,3,6,1
+Poland,1994,14254.6,3,3,5,1
+Poland,1995,760.8,3,3,5,1
+Poland,1996,29.2,3,3,5,1
+Poland,1997,29.0,3,3,5,1
+Poland,1998,2.8,3,3,5,1
+Poland,1999,96.0,3,3,5,1
+Poland,2000,120.8,3,3,5,1
+Poland,2001,2.9,3,3,5,1
+Poland,2002,2.2,3,3,5,1
+Portugal,2013,52712.0,1,1,7,3
+Romania,1960,272.76,2,2,6,2
+Romania,1961,279.62,2,2,6,2
+Romania,1962,286.49,2,2,6,2
+Romania,1963,293.35,2,2,6,2
+Romania,1964,300.22,2,2,6,2
+Romania,1965,307.08,2,2,6,2
+Romania,1966,313.95,2,2,6,2
+Romania,1967,309.66,2,2,6,2
+Romania,1968,316.32,2,2,6,2
+Romania,1969,322.99,2,2,6,2
+Romania,1970,329.37,3,2,5,2
+Romania,1971,340.21,3,2,5,2
+Romania,1972,341.17,3,2,5,2
+Romania,1973,347.19,3,2,5,2
+Romania,1974,354.14,3,2,5,2
+Romania,1975,350.9,3,2,5,2
+Romania,1976,54.33,3,2,5,2
+Romania,1980,95.0,3,2,5,2
+Romania,1981,1359.1,3,2,5,2
+Romania,1982,2021.5,3,2,5,2
+Romania,1983,693.0,3,2,5,2
+Romania,1986,1839.79,4,3,4,1
+Romania,1987,177.0,5,3,3,1
+Romania,1997,0.2,5,3,3,1
+Romania,1998,65.2,5,3,3,1
+Romania,1999,66.24,5,3,3,1
+Romania,2000,148.59,5,3,3,1
+Romania,2001,149.3,5,3,3,1
+Romania,2002,123.92,5,3,3,1
+Romania,2003,39.27,5,3,3,1
+Romania,2004,73.29,5,3,3,1
+Romania,2005,269.8,5,3,3,1
+Romania,2006,264.27,5,3,3,1
+Romania,2007,261.19,5,3,3,1
+Romania,2008,18.33,5,3,3,1
+Romania,2009,39.4,5,3,3,1
+Romania,2010,39.31,5,3,3,1
+Romania,2011,39.3,5,3,3,1
+Romania,2012,1.25,5,3,3,1
+Romania,2013,1.19,5,3,3,1
+Romania,2014,1.87,5,3,3,1
+Romania,2015,1.8,5,3,3,1
+Romania,2016,1.78,5,3,3,1
+Romania,2017,1.86,5,3,3,1
+Romania,2018,4.9,5,3,3,1
+Romania,2019,4.71,5,3,3,1
+Romania,2020,4.71,5,3,3,1
+United Kingdom,1979,728.78,1,0,7,4
+United Kingdom,1980,798.76,1,0,7,4
+United Kingdom,1981,651.48,1,0,7,4
+United Kingdom,1982,559.91,1,0,7,4
+United Kingdom,1983,497.37,1,0,7,4
+United Kingdom,1984,413.98,1,0,7,4
+United Kingdom,1985,525.26,1,0,7,4
+United Kingdom,1986,547.78,1,0,7,4
+United Kingdom,1987,708.19,1,0,7,4
+United Kingdom,1988,689.94,1,0,7,4
+United Kingdom,1989,624.81,1,0,7,4
+United Kingdom,1990,746.33,1,0,7,4
+United Kingdom,1991,722.14,1,0,7,4
+United Kingdom,1992,585.53,1,0,7,4
+United Kingdom,1993,571.79,1,0,7,4
+United Kingdom,1994,606.24,1,0,7,4
+United Kingdom,1995,601.2,1,0,7,4
+United Kingdom,1996,662.66,1,0,7,4
+United Kingdom,1997,635.72,1,0,7,4
+United Kingdom,1998,643.5,1,0,7,4
+United Kingdom,1999,625.0,1,0,7,4
+United Kingdom,2000,578.76,1,0,7,4
+United Kingdom,2001,562.81,1,0,7,4
+United Kingdom,2002,622.88,1,0,7,4
+United Kingdom,2003,690.49,1,0,7,4
+United Kingdom,2004,741.49,1,0,7,4
+United Kingdom,2005,665.18,1,0,7,4
+United Kingdom,2006,757.98,1,0,7,4
+United Kingdom,2007,767.92,1,0,7,4
+United Kingdom,2008,565.76,1,0,7,4
+United Kingdom,2009,625.66,1,0,7,4
+United Kingdom,2010,595.67,1,0,7,4
+United Kingdom,2011,601.28,1,0,7,4
+United Kingdom,2012,629.34,1,0,7,4
+United Kingdom,2013,641.41,1,0,7,4
+United Kingdom,2014,602.87,1,0,7,4
+United Kingdom,2015,570.67,1,0,7,4
+United Kingdom,2016,477.44,1,0,7,4
+United Kingdom,2017,523.57,1,0,7,4
+United Kingdom,2018,493.93,1,0,7,4
+United Kingdom,2019,513.51,1,0,7,4
+United Kingdom,2020,528.72,1,0,7,4
+United Kingdom,2021,522.45,1,0,7,4
+United Kingdom,2022,508.98,1,0,7,4

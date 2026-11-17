@@ -1,0 +1,101 @@
+iso,country,risk_engine,higher_exposure_count,lower_exposure_count,moderate_exposure_count,dimension_count,higher_exposure_share_pct
+AUT,Austria,external,1,3,2,6,16.666666666666664
+AUT,Austria,fiscal,3,3,2,8,37.5
+AUT,Austria,growth,2,3,1,6,33.33333333333333
+AUT,Austria,inflation,1,3,4,8,12.5
+AUT,Austria,labour,0,2,3,5,0.0
+BEL,Belgium,external,2,1,3,6,33.33333333333333
+BEL,Belgium,fiscal,6,0,2,8,75.0
+BEL,Belgium,growth,0,4,2,6,0.0
+BEL,Belgium,inflation,2,3,3,8,25.0
+BEL,Belgium,labour,1,2,2,5,20.0
+CHE,Switzerland,external,3,2,1,6,50.0
+CHE,Switzerland,fiscal,0,7,1,8,0.0
+CHE,Switzerland,growth,0,4,2,6,0.0
+CHE,Switzerland,inflation,1,7,0,8,12.5
+CHE,Switzerland,labour,1,4,0,5,20.0
+CZE,Czech Republic,external,3,2,1,6,50.0
+CZE,Czech Republic,fiscal,0,2,6,8,0.0
+CZE,Czech Republic,growth,2,2,2,6,33.33333333333333
+CZE,Czech Republic,inflation,3,2,3,8,37.5
+CZE,Czech Republic,labour,0,3,2,5,0.0
+DEU,Germany,external,1,3,2,6,16.666666666666664
+DEU,Germany,fiscal,0,4,4,8,0.0
+DEU,Germany,growth,2,3,1,6,33.33333333333333
+DEU,Germany,inflation,1,2,5,8,12.5
+DEU,Germany,labour,0,2,3,5,0.0
+DNK,Denmark,external,0,4,2,6,0.0
+DNK,Denmark,fiscal,1,4,3,8,12.5
+DNK,Denmark,growth,0,3,3,6,0.0
+DNK,Denmark,inflation,0,5,3,8,0.0
+DNK,Denmark,labour,0,4,1,5,0.0
+ESP,Spain,external,0,3,3,6,0.0
+ESP,Spain,fiscal,4,1,3,8,50.0
+ESP,Spain,growth,2,1,3,6,33.33333333333333
+ESP,Spain,inflation,4,2,2,8,50.0
+ESP,Spain,labour,5,0,0,5,100.0
+FIN,Finland,external,3,0,3,6,50.0
+FIN,Finland,fiscal,5,0,3,8,62.5
+FIN,Finland,growth,4,0,2,6,66.66666666666666
+FIN,Finland,inflation,0,4,4,8,0.0
+FIN,Finland,labour,3,1,1,5,60.0
+FRA,France,external,1,2,3,6,16.666666666666664
+FRA,France,fiscal,5,3,0,8,62.5
+FRA,France,growth,2,2,2,6,33.33333333333333
+FRA,France,inflation,0,4,4,8,0.0
+FRA,France,labour,3,1,1,5,60.0
+GBR,United Kingdom,external,3,1,2,6,50.0
+GBR,United Kingdom,fiscal,4,0,4,8,50.0
+GBR,United Kingdom,growth,2,2,2,6,33.33333333333333
+GBR,United Kingdom,inflation,1,2,5,8,12.5
+GBR,United Kingdom,labour,0,3,2,5,0.0
+GRC,Greece,external,4,2,0,6,66.66666666666666
+GRC,Greece,fiscal,5,3,0,8,62.5
+GRC,Greece,growth,5,0,1,6,83.33333333333334
+GRC,Greece,inflation,5,0,3,8,62.5
+GRC,Greece,labour,5,0,0,5,100.0
+HUN,Hungary,external,2,0,4,6,33.33333333333333
+HUN,Hungary,fiscal,1,2,5,8,12.5
+HUN,Hungary,growth,3,0,3,6,50.0
+HUN,Hungary,inflation,5,0,3,8,62.5
+HUN,Hungary,labour,0,1,4,5,0.0
+IRL,Ireland,external,3,2,1,6,50.0
+IRL,Ireland,fiscal,4,4,0,8,50.0
+IRL,Ireland,growth,1,4,1,6,16.666666666666664
+IRL,Ireland,inflation,2,1,5,8,25.0
+IRL,Ireland,labour,2,0,3,5,40.0
+ITA,Italy,external,2,0,4,6,33.33333333333333
+ITA,Italy,fiscal,2,0,6,8,25.0
+ITA,Italy,growth,4,0,2,6,66.66666666666666
+ITA,Italy,inflation,4,1,3,8,50.0
+ITA,Italy,labour,4,0,1,5,80.0
+NLD,"Netherlands, The",external,1,3,2,6,16.666666666666664
+NLD,"Netherlands, The",fiscal,0,4,4,8,0.0
+NLD,"Netherlands, The",growth,1,0,5,6,16.666666666666664
+NLD,"Netherlands, The",inflation,2,3,3,8,25.0
+NLD,"Netherlands, The",labour,1,4,0,5,20.0
+NOR,Norway,external,2,4,0,6,33.33333333333333
+NOR,Norway,fiscal,4,3,1,8,50.0
+NOR,Norway,growth,0,5,1,6,0.0
+NOR,Norway,inflation,2,4,2,8,25.0
+NOR,Norway,labour,1,3,1,5,20.0
+POL,"Poland, Republic of",external,2,3,1,6,33.33333333333333
+POL,"Poland, Republic of",fiscal,3,3,2,8,37.5
+POL,"Poland, Republic of",growth,1,4,1,6,16.666666666666664
+POL,"Poland, Republic of",inflation,6,1,1,8,75.0
+POL,"Poland, Republic of",labour,3,2,0,5,60.0
+PRT,Portugal,external,4,1,1,6,66.66666666666666
+PRT,Portugal,fiscal,3,3,2,8,37.5
+PRT,Portugal,growth,2,1,3,6,33.33333333333333
+PRT,Portugal,inflation,4,0,4,8,50.0
+PRT,Portugal,labour,4,0,1,5,80.0
+ROU,Romania,external,4,1,1,6,66.66666666666666
+ROU,Romania,fiscal,3,0,5,8,37.5
+ROU,Romania,growth,5,1,0,6,83.33333333333334
+ROU,Romania,inflation,7,1,0,8,87.5
+ROU,Romania,labour,0,2,3,5,0.0
+SWE,Sweden,external,0,5,1,6,0.0
+SWE,Sweden,fiscal,3,2,3,8,37.5
+SWE,Sweden,growth,2,2,2,6,33.33333333333333
+SWE,Sweden,inflation,0,3,5,8,0.0
+SWE,Sweden,labour,2,1,2,5,40.0

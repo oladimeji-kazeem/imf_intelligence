@@ -1,0 +1,102 @@
+============================================================================
+EUROPEAN EXTERNAL RISK DIAGNOSTICS REPORT
+============================================================================
+
+INPUT
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_external_risk_input_panel.csv
+Panel records: 2,757
+Countries: 20
+Indicators: 3
+Diagnostics records: 240
+Annual dynamics records: 2757
+
+RECENT PERIOD: 2020-2024
+----------------------------------------------------------------------------
+iso indicator_code  numeric_observations    mean  median       std    mad    iqr  minimum  maximum
+AUT      BCA_NGDPD                     5  1.3882   1.606  1.680537  0.129  0.208   -1.294    3.367
+AUT        TM_RPCH                     5  0.9134  -2.582  9.500529  6.992 11.279   -9.574   14.140
+AUT        TX_RPCH                     5  1.1088  -0.629  8.502203  9.860 11.738  -10.489    9.508
+BEL      BCA_NGDPD                     5  0.1248   0.194  1.422460  0.721  1.293   -1.944    1.837
+BEL        TM_RPCH                     5 -0.1468  -3.262  9.528117  4.878 11.372   -8.140   14.624
+BEL        TX_RPCH                     5 -0.4606  -4.534  8.907368  3.199  9.459   -7.733   13.657
+CHE      BCA_NGDPD                     5  6.3946   7.436  3.549985  1.673  3.190    0.553    9.268
+CHE        TM_RPCH                     5  1.8584   0.515  3.891274  3.701  4.872   -3.186    6.275
+CHE        TX_RPCH                     5  3.1170   1.683  7.517628  5.540  9.153   -5.152   13.761
+CZE      BCA_NGDPD                     5 -0.6792  -0.111  2.732033  1.870  3.753   -4.685    1.759
+CZE        TM_RPCH                     5  2.1898   0.964  8.251682  4.984  7.149   -8.446   13.684
+CZE        TX_RPCH                     5  1.8624   2.348  6.293250  2.801  2.971   -8.516    8.153
+DEU      BCA_NGDPD                     5  5.6904   5.815  1.052664  0.454  0.806    4.053    6.852
+DEU        TM_RPCH                     5  1.5320  -0.430  7.265201  8.113  8.713   -8.543    9.152
+DEU        TX_RPCH                     5  0.3850  -0.413  7.484766  4.555  5.683  -10.258    9.995
+DNK      BCA_NGDPD                     5  9.5736   9.702  1.720909  1.461  2.615    7.226   11.229
+DNK        TM_RPCH                     5  4.1402   5.995  5.281118  3.557  5.094   -3.954    9.552
+DNK        TX_RPCH                     5  4.4736   6.975  6.072024  0.456  0.846   -6.360    7.737
+ESP      BCA_NGDPD                     5  1.6132   0.789  1.329977  0.370  1.971    0.419    3.341
+ESP        TM_RPCH                     5  2.1720   3.450 11.272584  4.336  7.816  -15.327   14.981
+ESP        TX_RPCH                     5  2.9708   4.160 14.076554  9.228 10.709  -20.273   14.900
+FIN      BCA_NGDPD                     5 -0.6820  -0.553  1.228327  0.883  1.346   -2.595    0.424
+FIN        TM_RPCH                     5  0.4692  -1.305  7.425318  5.360 13.115   -6.665    9.441
+FIN        TX_RPCH                     5  0.3208   1.012  5.631063  3.134  5.182   -8.501    5.983
+FRA      BCA_NGDPD                     5 -0.8876  -0.928  0.911913  0.613  1.104   -2.053    0.277
+FRA        TM_RPCH                     5  0.8282   0.123  8.743495  7.915  8.763  -12.571    9.276
+FRA        TX_RPCH                     5  1.8766   3.049 11.105748  6.274  6.470  -16.877   11.035
+GBR      BCA_NGDPD                     5 -2.2228  -2.542  0.848901  0.359  0.806   -2.901   -0.837
+GBR        TM_RPCH                     5  0.7122   1.745 11.183399  4.718  8.831  -16.136   13.857
+GBR        TX_RPCH                     5  0.6142  -0.918 10.225254  4.858  5.280  -13.465   14.854
+GRC      BCA_NGDPD                     5 -7.8132  -7.180  1.647949  0.023  0.024  -10.747   -6.801
+GRC        TM_RPCH                     5  3.1782   2.352  4.307395  1.584  2.621   -0.926   10.308
+GRC        TX_RPCH                     5  2.5544   2.721 15.925674  4.787  6.616  -21.324   22.975
+HUN      BCA_NGDPD                     5 -2.5866  -1.126  4.245654  2.858  4.484   -8.995    1.732
+HUN        TM_RPCH                     5  3.1092  -0.773  8.370553  2.831 11.115   -3.604   15.620
+HUN        TX_RPCH                     5  4.0272   8.240  7.867659  2.496 12.735   -6.145   10.736
+IRL      BCA_NGDPD                     5  7.7980   8.723  9.051763  3.462  4.057   -7.098   17.052
+IRL        TM_RPCH                     5  2.7198   2.825  8.708843  2.636  4.641   -9.215   14.970
+IRL        TX_RPCH                     5  9.0194  12.026  7.304690  1.531  2.927   -3.841   13.557
+ITA      BCA_NGDPD                     5  1.0564   1.095  2.073586  0.912  1.759   -1.829    3.761
+ITA        TM_RPCH                     5  2.6900  -1.027 11.667206 11.453 14.756  -12.480   15.951
+ITA        TX_RPCH                     5  1.9232  -0.184 10.788309 10.056 10.321  -13.709   14.086
+NLD      BCA_NGDPD                     5  8.1022   7.772  1.919729  1.878  2.624    5.679   10.384
+NLD        TM_RPCH                     5  0.9792   2.021  4.823057  4.512  8.251   -4.115    6.533
+NLD        TX_RPCH                     5  1.0674   0.868  4.603517  3.845  7.392   -3.812    6.843
+NOR      BCA_NGDPD                     5 15.2338  14.999  9.269092  2.117  2.683    1.790   27.831
+NOR        TM_RPCH                     5  1.8708   1.746  8.625803  3.272  6.214   -9.903   13.689
+NOR        TX_RPCH                     5  2.9936   4.858  3.638505  0.953  4.866   -2.431    5.811
+POL      BCA_NGDPD                     5  0.1322   0.306  1.941959  1.603  2.820   -2.288    2.417
+POL        TM_RPCH                     5  4.7572   4.630  7.563462  6.123  8.293   -2.461   16.310
+POL        TX_RPCH                     5  4.8510   3.717  5.175774  3.689  5.501   -1.076   12.303
+PRT      BCA_NGDPD                     5 -0.0548  -0.663  1.708033  1.249  1.275   -2.024    2.516
+PRT        TM_RPCH                     5  3.7992   5.007  9.439715  6.058  8.629  -11.483   11.971
+PRT        TX_RPCH                     5  3.6906   4.272 13.636527  7.636  8.254  -18.545   17.164
+ROU      BCA_NGDPD                     5 -7.3470  -7.230  1.663333  0.939  1.485   -9.555   -5.097
+ROU        TM_RPCH                     5  4.2438   4.000  8.013046  5.378 10.721   -5.382   14.566
+ROU        TX_RPCH                     5  1.7438  -1.368  9.137811  8.129 12.109   -9.497   12.637
+SWE      BCA_NGDPD                     5  5.8902   6.220  1.231901  0.559  0.561    3.985    7.363
+SWE        TM_RPCH                     5  3.4670   1.196  7.864332  7.352 10.398   -6.156   13.113
+SWE        TX_RPCH                     5  3.6022   3.481  6.374859  2.639  3.540   -5.866   11.696
+
+METHODOLOGICAL NOTES
+----------------------------------------------------------------------------
+Current-account deficits are not automatically external crises.
+A current-account balance ratio does not reveal financing composition or reserve adequacy.
+Export/import indicators are annual volume growth rates, not trade values or trade balances.
+Negative export/import volume growth indicates contraction in volume, not necessarily a worsening external position.
+Historical averages may be influenced by transition episodes and structural changes.
+Annual changes are descriptive and do not establish causality.
+This stage does not estimate external default probability or financing stress.
+
+VALIDATION
+----------------------------------------------------------------------------
+PASS: Required input columns present.
+PASS: All three expected indicators present.
+PASS: 20-country coverage.
+PASS: No duplicate country-year-indicator records.
+PASS: Balanced and numeric 2020-2024 panel for all indicators.
+PASS: Expected 240 country-indicator-period diagnostics records.
+PASS: No duplicate diagnostics or annual dynamics keys.
+
+OUTPUTS
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_external_risk_diagnostics.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_external_risk_annual_dynamics.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_external_risk_diagnostics_report.txt

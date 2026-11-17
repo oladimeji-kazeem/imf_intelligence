@@ -1,0 +1,89 @@
+============================================================================
+EUROPEAN EXTERNAL RISK CLASSIFICATION REPORT
+============================================================================
+
+INPUT
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_external_risk_diagnostics.csv
+Input records: 240
+Countries: 20
+Indicators: 3
+
+CLASSIFICATION OUTPUT
+----------------------------------------------------------------------------
+Dimensions: 6
+Dimension records: 120
+Country profiles: 20
+
+CLASSIFICATION DISTRIBUTIONS
+----------------------------------------------------------------------------
+
+recent_external_imbalance
+  higher_risk: 7
+  moderate_risk: 7
+  lower_risk: 6
+  insufficient_data: 0
+
+historical_deficit_persistence
+  higher_risk: 6
+  moderate_risk: 7
+  lower_risk: 7
+  insufficient_data: 0
+
+recent_external_imbalance_volatility
+  higher_risk: 7
+  moderate_risk: 7
+  lower_risk: 6
+  insufficient_data: 0
+
+historical_export_contraction
+  higher_risk: 8
+  moderate_risk: 5
+  lower_risk: 7
+  insufficient_data: 0
+
+recent_export_contraction
+  higher_risk: 6
+  moderate_risk: 4
+  lower_risk: 10
+  insufficient_data: 0
+
+historical_export_growth_instability
+  higher_risk: 7
+  moderate_risk: 7
+  lower_risk: 6
+  insufficient_data: 0
+
+ROBUSTNESS TESTS
+----------------------------------------------------------------------------
+current_account_mean_vs_median: n=20, Spearman=0.9864661654135337
+current_account_mad_vs_iqr: n=20, Spearman=0.8980820492199729
+export_contraction_frequency_vs_longest_run: n=20, Spearman=0.7776361778045857
+
+METHODOLOGICAL LIMITATIONS
+----------------------------------------------------------------------------
+- Classifications are peer-relative, not absolute risk ratings.
+- Peer rankings depend on the selected 20-country comparison group.
+- The recent period contains only five annual observations.
+- Historical deficit frequency does not measure financing vulnerability.
+- Export volume growth does not measure export value or market share.
+- Import contraction is retained as context, not a direct risk score.
+- Current-account balances do not reveal financing composition.
+- No foreign reserves, external debt maturity or capital-flow data are included.
+- No external default probability or crisis probability is estimated.
+- The dimensions are not combined into a composite score.
+
+VALIDATION
+----------------------------------------------------------------------------
+PASS: Required input fields present.
+PASS: 20-country source coverage.
+PASS: Six dimensions generated.
+PASS: No duplicate country-dimension records.
+PASS: Peer classifications use eligible observations only.
+PASS: Insufficient observations remain unclassified.
+
+OUTPUTS
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_external_risk_classifications.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_external_risk_dimension_detail.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_external_risk_robustness.csv

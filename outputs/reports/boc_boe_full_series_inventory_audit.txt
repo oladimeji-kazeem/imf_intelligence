@@ -1,0 +1,111 @@
+BOC–BOE FULL SERIES INVENTORY AUDIT
+===========================================================================
+
+Metadata series identified: 51
+Observation variables assessed: 48
+Peer countries assessed: 7
+Peer annual observations: 455
+
+SERIES COVERAGE BY ANALYTICAL GROUP
+---------------------------------------------------------------------------
+ARREARS | series=2 | mean_availability=15.94%
+COUNTRY_GROUP | series=5 | mean_availability=0.00%
+CREDITOR | series=10 | mean_availability=17.76%
+DEFAULT_RATE | series=9 | mean_availability=0.00%
+GROSS_DEBT_OR_MACRO_AGGREGATE | series=4 | mean_availability=0.00%
+INSTRUMENT | series=3 | mean_availability=28.57%
+OTHER | series=1 | mean_availability=0.00%
+SOVEREIGN_COUNTS | series=12 | mean_availability=0.00%
+TOTAL_OR_AGGREGATE | series=2 | mean_availability=100.00%
+
+SERIES-LEVEL AVAILABILITY
+---------------------------------------------------------------------------
+ARREARS | DEBT_ARREARS_TOTAL_SOVEREIGNS_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+ARREARS | DEBT_FISCAL_ARREARS_2025 | available=145 | missing=310 | positive=48 | zero=97 | negative=0 | availability=31.87%
+COUNTRY_GROUP | DEBT_ADVANCED_ECON_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+COUNTRY_GROUP | DEBT_EME_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+COUNTRY_GROUP | DEBT_EXAE_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+COUNTRY_GROUP | DEBT_HIPC_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+COUNTRY_GROUP | DEBT_SSA_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+CREDITOR | DEBT_CHINA_2025 | available=64 | missing=391 | positive=0 | zero=64 | negative=0 | availability=14.07%
+CREDITOR | DEBT_IADB_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+CREDITOR | DEBT_IBRD_2025 | available=38 | missing=417 | positive=1 | zero=37 | negative=0 | availability=8.35%
+CREDITOR | DEBT_IDA_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+CREDITOR | DEBT_IMF_2025 | available=130 | missing=325 | positive=5 | zero=125 | negative=0 | availability=28.57%
+CREDITOR | DEBT_OTHER_OFFICIAL_CREDITORS_2025 | available=355 | missing=100 | positive=84 | zero=271 | negative=0 | availability=78.02%
+CREDITOR | DEBT_OTHER_OFFICIAL_CREDITORS_DEF_SOVERE_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+CREDITOR | DEBT_PARIS_CLUB_2025 | available=123 | missing=332 | positive=8 | zero=115 | negative=0 | availability=27.03%
+CREDITOR | DEBT_PARIS_CLUB_DEBT_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+CREDITOR | DEBT_PRIVATE_CREDITORS_2025 | available=98 | missing=357 | positive=25 | zero=73 | negative=0 | availability=21.54%
+DEFAULT_RATE | DEBT_ARREARS_DEFRATE_CONV_DEF_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+DEFAULT_RATE | DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+DEFAULT_RATE | DEBT_ARREARS_DEFRATE_WORLD_GDP_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+DEFAULT_RATE | DEBT_DEFRATE_CHINA_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+DEFAULT_RATE | DEBT_DEFRATE_EME_OTHER_GDP_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+DEFAULT_RATE | DEBT_DEFRATE_PARIS_CLUB_DEBT_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+DEFAULT_RATE | DEBT_DEFRATE_SOVEREIGNS_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+DEFAULT_RATE | DEBT_DEFRATE_WORLD_GDP_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+DEFAULT_RATE | DEBT_DEFRATE_WORLD_PUBLIC_DEBT_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+GROSS_DEBT_OR_MACRO_AGGREGATE | DEBT_GROSS_CHINA_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+GROSS_DEBT_OR_MACRO_AGGREGATE | DEBT_GROSS_EME_OTHER_GDP_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+GROSS_DEBT_OR_MACRO_AGGREGATE | DEBT_GROSS_WORLD_PRODUCT_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+GROSS_DEBT_OR_MACRO_AGGREGATE | DEBT_GROSS_WORLD_PUBLIC_DEBT_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+INSTRUMENT | DEBT_FC_BANK_LOANS_2025 | available=130 | missing=325 | positive=18 | zero=112 | negative=0 | availability=28.57%
+INSTRUMENT | DEBT_FC_BONDS_2025 | available=260 | missing=195 | positive=57 | zero=203 | negative=0 | availability=57.14%
+INSTRUMENT | DEBT_LC_DEBT_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+OTHER | DEBT_OTHER_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+SOVEREIGN_COUNTS | DEBT_CHINA_DEF_SOVEREIGNS_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+SOVEREIGN_COUNTS | DEBT_FC_BONDS_DEF_SOVEREIGNS_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+SOVEREIGN_COUNTS | DEBT_FC_LOANS_DEF_SOVEREIGNS_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+SOVEREIGN_COUNTS | DEBT_IADB_DEF_SOVEREIGNS_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+SOVEREIGN_COUNTS | DEBT_IBRD_DEF_SOVEREIGNS_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+SOVEREIGN_COUNTS | DEBT_IDA_DEF_SOVEREIGNS_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+SOVEREIGN_COUNTS | DEBT_IMF_DEF_SOVEREIGNS_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+SOVEREIGN_COUNTS | DEBT_LC_DEBT_DEF_SOVEREIGNS_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+SOVEREIGN_COUNTS | DEBT_PARIS_CLUB_DEF_SOVEREIGNS_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+SOVEREIGN_COUNTS | DEBT_PRIVATE_CREDITORS_DEF_SOVEREIGNS_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+SOVEREIGN_COUNTS | DEBT_TOTAL_DEF_SOVEREIGNS_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+SOVEREIGN_COUNTS | DEBT_TOTAL_NUMB_SOVEREIGNS_2025 | available=0 | missing=455 | positive=0 | zero=0 | negative=0 | availability=0.0%
+TOTAL_OR_AGGREGATE | DEBT_TOTAL_2025 | available=455 | missing=0 | positive=158 | zero=297 | negative=0 | availability=100.0%
+TOTAL_OR_AGGREGATE | DEBT_TOTAL_DEBT_2025 | available=455 | missing=0 | positive=158 | zero=297 | negative=0 | availability=100.0%
+
+HIGH-PRIORITY SERIES
+---------------------------------------------------------------------------
+DEBT_ARREARS_TOTAL_SOVEREIGNS_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_FISCAL_ARREARS_2025 | available=145/455 | availability=31.87% | min=0.0 | max=16643.55
+DEBT_ARREARS_DEFRATE_CONV_DEF_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_ARREARS_DEFRATE_WORLD_GDP_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_DEFRATE_CHINA_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_DEFRATE_EME_OTHER_GDP_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_DEFRATE_PARIS_CLUB_DEBT_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_DEFRATE_SOVEREIGNS_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_DEFRATE_WORLD_GDP_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_DEFRATE_WORLD_PUBLIC_DEBT_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_CHINA_DEF_SOVEREIGNS_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_FC_BONDS_DEF_SOVEREIGNS_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_FC_LOANS_DEF_SOVEREIGNS_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_IADB_DEF_SOVEREIGNS_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_IBRD_DEF_SOVEREIGNS_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_IDA_DEF_SOVEREIGNS_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_IMF_DEF_SOVEREIGNS_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_LC_DEBT_DEF_SOVEREIGNS_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_PARIS_CLUB_DEF_SOVEREIGNS_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_PRIVATE_CREDITORS_DEF_SOVEREIGNS_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_TOTAL_DEF_SOVEREIGNS_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+DEBT_TOTAL_NUMB_SOVEREIGNS_2025 | available=0/455 | availability=0.0% | min=nan | max=nan
+
+INTERPRETATION LIMITATIONS
+---------------------------------------------------------------------------
+Metadata labels do not establish statistical definitions or units.
+Missing values are not treated as zero.
+Positive values are not automatically default events.
+Rate denominators and calculation methods require documentation.
+Country coverage does not establish complete historical coverage.
+
+OUTPUT FILES
+---------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\boc_boe_full_series_catalogue.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\boc_boe_full_series_profile.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\boc_boe_full_series_country_coverage.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\boc_boe_full_series_inventory_audit.txt

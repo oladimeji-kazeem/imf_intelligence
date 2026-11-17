@@ -1,0 +1,81 @@
+scenario,iso,country,active_engine_count,total_higher_signals,total_adjusted_signals,vulnerability_typology,higher_signal_share_pct
+baseline_one_signal,AUT,Austria,4,6,30,multi_engine_exposure,20.0
+baseline_one_signal,BEL,Belgium,4,9,30,multi_engine_exposure,30.0
+baseline_one_signal,CHE,Switzerland,3,5,30,multi_engine_exposure,16.666666666666664
+baseline_one_signal,CZE,Czech Republic,3,8,30,multi_engine_exposure,26.666666666666668
+baseline_one_signal,DEU,Germany,3,4,30,multi_engine_exposure,13.333333333333334
+baseline_one_signal,DNK,Denmark,1,1,30,concentrated_exposure,3.3333333333333335
+baseline_one_signal,ESP,Spain,4,14,30,multi_engine_exposure,46.666666666666664
+baseline_one_signal,FIN,Finland,4,14,30,multi_engine_exposure,46.666666666666664
+baseline_one_signal,FRA,France,4,10,30,multi_engine_exposure,33.33333333333333
+baseline_one_signal,GBR,United Kingdom,4,9,30,multi_engine_exposure,30.0
+baseline_one_signal,GRC,Greece,5,22,30,broad_based_exposure,73.33333333333333
+baseline_one_signal,HUN,Hungary,4,10,30,multi_engine_exposure,33.33333333333333
+baseline_one_signal,IRL,Ireland,5,11,30,broad_based_exposure,36.666666666666664
+baseline_one_signal,ITA,Italy,5,15,30,broad_based_exposure,50.0
+baseline_one_signal,NLD,"Netherlands, The",4,5,30,multi_engine_exposure,16.666666666666664
+baseline_one_signal,NOR,Norway,4,8,30,multi_engine_exposure,26.666666666666668
+baseline_one_signal,POL,"Poland, Republic of",5,13,30,broad_based_exposure,43.333333333333336
+baseline_one_signal,PRT,Portugal,5,16,30,broad_based_exposure,53.333333333333336
+baseline_one_signal,ROU,Romania,4,17,30,multi_engine_exposure,56.666666666666664
+baseline_one_signal,SWE,Sweden,3,6,30,multi_engine_exposure,20.0
+minimum_25_percent,AUT,Austria,2,6,30,concentrated_exposure,20.0
+minimum_25_percent,BEL,Belgium,3,9,30,multi_engine_exposure,30.0
+minimum_25_percent,CHE,Switzerland,1,5,30,concentrated_exposure,16.666666666666664
+minimum_25_percent,CZE,Czech Republic,3,8,30,multi_engine_exposure,26.666666666666668
+minimum_25_percent,DEU,Germany,1,4,30,concentrated_exposure,13.333333333333334
+minimum_25_percent,DNK,Denmark,0,1,30,no_higher_engine_signal,3.3333333333333335
+minimum_25_percent,ESP,Spain,4,14,30,multi_engine_exposure,46.666666666666664
+minimum_25_percent,FIN,Finland,4,14,30,multi_engine_exposure,46.666666666666664
+minimum_25_percent,FRA,France,3,10,30,multi_engine_exposure,33.33333333333333
+minimum_25_percent,GBR,United Kingdom,3,9,30,multi_engine_exposure,30.0
+minimum_25_percent,GRC,Greece,5,22,30,broad_based_exposure,73.33333333333333
+minimum_25_percent,HUN,Hungary,3,10,30,multi_engine_exposure,33.33333333333333
+minimum_25_percent,IRL,Ireland,4,11,30,multi_engine_exposure,36.666666666666664
+minimum_25_percent,ITA,Italy,5,15,30,broad_based_exposure,50.0
+minimum_25_percent,NLD,"Netherlands, The",1,5,30,concentrated_exposure,16.666666666666664
+minimum_25_percent,NOR,Norway,3,8,30,multi_engine_exposure,26.666666666666668
+minimum_25_percent,POL,"Poland, Republic of",4,13,30,multi_engine_exposure,43.333333333333336
+minimum_25_percent,PRT,Portugal,5,16,30,broad_based_exposure,53.333333333333336
+minimum_25_percent,ROU,Romania,4,17,30,multi_engine_exposure,56.666666666666664
+minimum_25_percent,SWE,Sweden,3,6,30,multi_engine_exposure,20.0
+minimum_50_percent,AUT,Austria,0,6,30,no_higher_engine_signal,20.0
+minimum_50_percent,BEL,Belgium,1,9,30,concentrated_exposure,30.0
+minimum_50_percent,CHE,Switzerland,1,5,30,concentrated_exposure,16.666666666666664
+minimum_50_percent,CZE,Czech Republic,1,8,30,concentrated_exposure,26.666666666666668
+minimum_50_percent,DEU,Germany,0,4,30,no_higher_engine_signal,13.333333333333334
+minimum_50_percent,DNK,Denmark,0,1,30,no_higher_engine_signal,3.3333333333333335
+minimum_50_percent,ESP,Spain,2,14,30,concentrated_exposure,46.666666666666664
+minimum_50_percent,FIN,Finland,4,14,30,multi_engine_exposure,46.666666666666664
+minimum_50_percent,FRA,France,2,10,30,concentrated_exposure,33.33333333333333
+minimum_50_percent,GBR,United Kingdom,2,9,30,concentrated_exposure,30.0
+minimum_50_percent,GRC,Greece,5,22,30,broad_based_exposure,73.33333333333333
+minimum_50_percent,HUN,Hungary,2,10,30,concentrated_exposure,33.33333333333333
+minimum_50_percent,IRL,Ireland,2,11,30,concentrated_exposure,36.666666666666664
+minimum_50_percent,ITA,Italy,2,15,30,concentrated_exposure,50.0
+minimum_50_percent,NLD,"Netherlands, The",0,5,30,no_higher_engine_signal,16.666666666666664
+minimum_50_percent,NOR,Norway,1,8,30,concentrated_exposure,26.666666666666668
+minimum_50_percent,POL,"Poland, Republic of",2,13,30,concentrated_exposure,43.333333333333336
+minimum_50_percent,PRT,Portugal,3,16,30,multi_engine_exposure,53.333333333333336
+minimum_50_percent,ROU,Romania,3,17,30,multi_engine_exposure,56.666666666666664
+minimum_50_percent,SWE,Sweden,0,6,30,no_higher_engine_signal,20.0
+minimum_two_signals,AUT,Austria,2,6,30,concentrated_exposure,20.0
+minimum_two_signals,BEL,Belgium,3,9,30,multi_engine_exposure,30.0
+minimum_two_signals,CHE,Switzerland,1,5,30,concentrated_exposure,16.666666666666664
+minimum_two_signals,CZE,Czech Republic,3,8,30,multi_engine_exposure,26.666666666666668
+minimum_two_signals,DEU,Germany,1,4,30,concentrated_exposure,13.333333333333334
+minimum_two_signals,DNK,Denmark,0,1,30,no_higher_engine_signal,3.3333333333333335
+minimum_two_signals,ESP,Spain,4,14,30,multi_engine_exposure,46.666666666666664
+minimum_two_signals,FIN,Finland,4,14,30,multi_engine_exposure,46.666666666666664
+minimum_two_signals,FRA,France,3,10,30,multi_engine_exposure,33.33333333333333
+minimum_two_signals,GBR,United Kingdom,3,9,30,multi_engine_exposure,30.0
+minimum_two_signals,GRC,Greece,5,22,30,broad_based_exposure,73.33333333333333
+minimum_two_signals,HUN,Hungary,3,10,30,multi_engine_exposure,33.33333333333333
+minimum_two_signals,IRL,Ireland,4,11,30,multi_engine_exposure,36.666666666666664
+minimum_two_signals,ITA,Italy,5,15,30,broad_based_exposure,50.0
+minimum_two_signals,NLD,"Netherlands, The",1,5,30,concentrated_exposure,16.666666666666664
+minimum_two_signals,NOR,Norway,3,8,30,multi_engine_exposure,26.666666666666668
+minimum_two_signals,POL,"Poland, Republic of",4,13,30,multi_engine_exposure,43.333333333333336
+minimum_two_signals,PRT,Portugal,5,16,30,broad_based_exposure,53.333333333333336
+minimum_two_signals,ROU,Romania,4,17,30,multi_engine_exposure,56.666666666666664
+minimum_two_signals,SWE,Sweden,3,6,30,multi_engine_exposure,20.0

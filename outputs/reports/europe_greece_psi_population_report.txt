@@ -1,0 +1,48 @@
+========================================================================
+GREEK PSI SOVEREIGN RESTRUCTURING POPULATION
+========================================================================
+
+New tranche records: 2
+New episode IDs: 1
+Total registry records: 21
+Source amount total: $250,510.00 million
+
+TRANCHE DETAILS
+------------------------------------------------------------------------
+Instrument: Bonds - guaranteed bonds
+Amount: $8,600.00 million
+Face value reduction: 1.0
+NPV loss: 0.56%
+Start: 2011-10-01
+End: 2012-03-01
+Episode ID: EU_SOV_GRC_PSI_2011_2012
+
+Instrument: Bonds - government bonds
+Amount: $241,910.00 million
+Face value reduction: 1.0
+NPV loss: 0.56%
+Start: 2011-10-01
+End: 2012-03-01
+Episode ID: EU_SOV_GRC_PSI_2011_2012
+
+VALIDATION
+------------------------------------------------------------------------
+two_tranche_records: PASS
+one_shared_episode: PASS
+unique_tranche_ids: PASS
+correct_country: PASS
+correct_event_type: PASS
+source_amount_reconciliation: PASS
+no_duplicate_registry_ids: PASS
+source_dates_valid: PASS
+
+Errors: 0
+
+QUALIFICATION
+------------------------------------------------------------------------
+Two tranche records represent one underlying PSI episode.
+Amounts are preserved in million US dollars as reported.
+The source dataset concerns domestic-law debt.
+Do not infer that this is Greece's complete sovereign debt loss.
+
+STATUS: POPULATION VALIDATED

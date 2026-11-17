@@ -1,0 +1,49 @@
+BOC–BOE DEFAULT COMPOSITION AUDIT
+======================================================================
+
+Positive country-year observations: 158
+Countries represented: 7
+
+CREDITOR COMPONENT RECONCILIATION
+----------------------------------------------------------------------
+Complete component observations: 0
+Matching total within tolerance: 0
+Non-matching totals: 0
+Observations with missing components: 158
+
+INSTRUMENT COMPONENT RECONCILIATION
+----------------------------------------------------------------------
+Complete component observations: 0
+Matching total within tolerance: 0
+Non-matching totals: 0
+Observations with missing components: 158
+
+COMPONENT PROFILE
+----------------------------------------------------------------------
+CREDITOR | DEBT_IMF_2025 | positive=5 | zero=52 | missing=101 | maximum=2222.0
+CREDITOR | DEBT_IBRD_2025 | positive=1 | zero=24 | missing=133 | maximum=103.0
+CREDITOR | DEBT_IDA_2025 | positive=0 | zero=0 | missing=158 | maximum=nan
+CREDITOR | DEBT_IADB_2025 | positive=0 | zero=0 | missing=158 | maximum=nan
+CREDITOR | DEBT_PARIS_CLUB_2025 | positive=8 | zero=72 | missing=78 | maximum=29871.0
+CREDITOR | DEBT_CHINA_2025 | positive=0 | zero=9 | missing=149 | maximum=0.0
+CREDITOR | DEBT_OTHER_OFFICIAL_CREDITORS_2025 | positive=84 | zero=37 | missing=37 | maximum=212819.0
+CREDITOR | DEBT_PRIVATE_CREDITORS_2025 | positive=25 | zero=33 | missing=100 | maximum=3354.0
+INSTRUMENT | DEBT_FC_BANK_LOANS_2025 | positive=18 | zero=68 | missing=72 | maximum=13531.0
+INSTRUMENT | DEBT_FC_BONDS_2025 | positive=57 | zero=55 | missing=46 | maximum=312420.0
+INSTRUMENT | DEBT_LC_DEBT_2025 | positive=0 | zero=0 | missing=158 | maximum=nan
+INSTRUMENT | DEBT_FISCAL_ARREARS_2025 | positive=24 | zero=20 | missing=114 | maximum=12702.89
+
+INTERPRETATION LIMITATIONS
+----------------------------------------------------------------------
+Creditor and instrument classifications are separate dimensions.
+Their subtotals must not be added together.
+A residual does not automatically indicate an error.
+Missing components are not treated as zero.
+Reconciliation does not establish economic exclusivity.
+Annual observations are stocks, not independent default events.
+
+OUTPUT FILES
+----------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\boc_boe_default_composition_reconciliation.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\boc_boe_default_component_profile.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\boc_boe_default_composition_audit.txt

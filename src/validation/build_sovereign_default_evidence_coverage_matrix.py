@@ -1,0 +1,1147 @@
+
+from pathlib import Path
+import pandas as pd
+import re
+import sys
+
+
+# ============================================================
+# PATHS AND CANONICAL COUNTRY GROUP
+# ============================================================
+
+ROOT = Path(__file__).resolve().parents[2]
+
+PROCESSED = ROOT / "data" / "processed"
+EXTERNAL = ROOT / "data" / "external"
+REPORTS = ROOT / "outputs" / "reports"
+
+REPORTS.mkdir(parents=True, exist_ok=True)
+
+COUNTRIES = [
+    ("AUT", "Austria"),
+    ("BEL", "Belgium"),
+    ("CHE", "Switzerland"),
+    ("CZE", "Czech Republic"),
+    ("DEU", "Germany"),
+    ("DNK", "Denmark"),
+    ("ESP", "Spain"),
+    ("FIN", "Finland"),
+    ("FRA", "France"),
+    ("GBR", "United Kingdom"),
+    ("GRC", "Greece"),
+    ("HUN", "Hungary"),
+    ("IRL", "Ireland"),
+    ("ITA", "Italy"),
+    ("NLD", "Netherlands"),
+    ("NOR", "Norway"),
+    ("POL", "Poland"),
+    ("PRT", "Portugal"),
+    ("ROU", "Romania"),
+    ("SWE", "Sweden"),
+]
+
+ISO_TO_NAME = {iso: name for iso, name in COUNTRIES}
+
+COUNTRY_ALIASES = {
+    "czechia": "Czech Republic",
+    "czech republic": "Czech Republic",
+    "uk": "United Kingdom",
+    "great britain": "United Kingdom",
+    "united kingdom": "United Kingdom",
+}
+
+EXPECTED_SOURCES = ["boc_boe", "kiel", "esm"]
+
+
+# ============================================================
+# GENERAL HELPERS
+# ============================================================
+
+def normalise_column(value):
+    return re.sub(
+        r"[^a-z0-9]+",
+        "_",
+        str(value).strip().lower()
+    ).strip("_")
+
+
+def normalise_country(value):
+    if pd.isna(value):
+        return None
+
+    value = str(value).strip()
+
+    if not value:
+        return None
+
+    upper = value.upper()
+
+    if upper in ISO_TO_NAME:
+        return ISO_TO_NAME[upper]
+
+    return COUNTRY_ALIASES.get(value.lower(), value)
+
+
+def read_csv(path, required=True):
+    if not path.exists():
+        if required:
+            raise FileNotFoundError(
+                f"Required input not found: {path}"
+            )
+
+        return pd.DataFrame()
+
+    df = pd.read_csv(path)
+    df.columns = [
+        normalise_column(column)
+        for column in df.columns
+    ]
+
+    return df
+
+
+def find_column(
+    df,
+    candidates,
+    required=False,
+    label="column"
+):
+    for candidate in candidates:
+        candidate = normalise_column(candidate)
+
+        if candidate in df.columns:
+            return candidate
+
+    if required:
+        raise ValueError(
+            f"Could not identify {label}. "
+            f"Expected one of {candidates}. "
+            f"Available columns: {list(df.columns)}"
+        )
+
+    return None
+
+
+def safe_integer(value):
+    if pd.isna(value):
+        return 0
+
+    try:
+        return int(float(value))
+    except (TypeError, ValueError):
+        raise ValueError(
+            f"Expected numeric count but received: {value}"
+        )
+
+
+def clean_values(series):
+    if series is None:
+        return []
+
+    values = []
+
+    for value in series.dropna():
+        value = str(value).strip()
+
+        if value and value.lower() not in {
+            "nan", "none", "null"
+        }:
+            values.append(value)
+
+    return values
+
+
+# ============================================================
+# LOAD AND VALIDATE INPUTS
+# ============================================================
+
+def load_inputs():
+
+    country_coverage = read_csv(
+        PROCESSED /
+        "europe_sovereign_default_country_coverage.csv"
+    )
+
+    source_coverage = read_csv(
+        PROCESSED /
+        "europe_sovereign_default_source_coverage.csv"
+    )
+
+    instruments = read_csv(
+        PROCESSED /
+        "europe_sovereign_default_severity_instruments.csv"
+    )
+
+    episodes = read_csv(
+        PROCESSED /
+        "europe_sovereign_default_severity_episodes.csv"
+    )
+
+    classifications = read_csv(
+        PROCESSED /
+        "europe_sovereign_default_evidence_classification_episodes.csv"
+    )
+
+    registry = read_csv(
+        EXTERNAL /
+        "europe_historical_stress_events.csv"
+    )
+
+    integrity = read_csv(
+        PROCESSED /
+        "europe_sovereign_default_severity_integrity.csv"
+    )
+
+    # --------------------------------------------------------
+    # Integrity gate
+    # --------------------------------------------------------
+
+    status_col = find_column(
+        integrity,
+        ["status", "test_status", "result"],
+        required=True,
+        label="integrity status column"
+    )
+
+    failures = integrity[
+        integrity[status_col]
+        .astype(str)
+        .str.upper()
+        .str.strip()
+        .eq("FAIL")
+    ]
+
+    if not failures.empty:
+        raise RuntimeError(
+            f"Integrity gate failed: {len(failures)} FAIL records. "
+            "Coverage matrix not produced."
+        )
+
+    return {
+        "country_coverage": country_coverage,
+        "source_coverage": source_coverage,
+        "instruments": instruments,
+        "episodes": episodes,
+        "classifications": classifications,
+        "registry": registry,
+    }
+
+
+# ============================================================
+# SOURCE AVAILABILITY
+# ============================================================
+
+def assess_source_availability(source_coverage):
+
+    source_col = find_column(
+        source_coverage,
+        ["source"],
+        required=True,
+        label="source name"
+    )
+
+    status_col = find_column(
+        source_coverage,
+        ["status"],
+        required=True,
+        label="source availability status"
+    )
+
+    statuses = {}
+
+    for _, row in source_coverage.iterrows():
+
+        source = str(row[source_col]).strip().lower()
+
+        status = (
+            str(row[status_col])
+            .strip()
+            .upper()
+        )
+
+        statuses[source] = status
+
+    found_sources = [
+        source for source in EXPECTED_SOURCES
+        if statuses.get(source) == "FOUND"
+    ]
+
+    missing_sources = [
+        source for source in EXPECTED_SOURCES
+        if statuses.get(source) != "FOUND"
+    ]
+
+    if not found_sources:
+        availability = "NO_EXPECTED_SOURCE_AVAILABLE"
+
+    elif missing_sources:
+        availability = "PARTIAL_SOURCE_AVAILABILITY"
+
+    else:
+        availability = "ALL_EXPECTED_SOURCES_FOUND"
+
+    return (
+        statuses,
+        found_sources,
+        missing_sources,
+        availability,
+    )
+
+
+# ============================================================
+# COUNTRY REGISTRY EXTRACTION
+# ============================================================
+
+def get_country_registry(registry, iso, country):
+
+    iso_col = find_column(
+        registry,
+        ["iso", "iso3", "country_iso"],
+        required=False
+    )
+
+    country_col = find_column(
+        registry,
+        ["country", "country_name", "economy"],
+        required=True,
+        label="registry country"
+    )
+
+    if iso_col:
+        subset = registry[
+            registry[iso_col]
+            .astype(str)
+            .str.strip()
+            .str.upper()
+            .eq(iso)
+        ]
+
+        # If ISO exists but produces no matches, do not silently
+        # substitute a potentially inconsistent country match.
+        return subset
+
+    return registry[
+        registry[country_col]
+        .map(normalise_country)
+        .eq(country)
+    ]
+
+
+# ============================================================
+# COUNTRY-LEVEL MATRIX
+# ============================================================
+
+def build_matrix():
+
+    inputs = load_inputs()
+
+    country_coverage = inputs["country_coverage"]
+    source_coverage = inputs["source_coverage"]
+    instruments = inputs["instruments"]
+    episodes = inputs["episodes"]
+    classifications = inputs["classifications"]
+    registry = inputs["registry"]
+
+    (
+        source_statuses,
+        found_sources,
+        missing_sources,
+        source_availability,
+    ) = assess_source_availability(source_coverage)
+
+    # --------------------------------------------------------
+    # Identify country columns
+    # --------------------------------------------------------
+
+    cc_country = find_column(
+        country_coverage,
+        ["country"],
+        required=True,
+        label="country coverage country"
+    )
+
+    inst_country = find_column(
+        instruments,
+        ["country"],
+        required=False
+    )
+
+    episode_country = find_column(
+        episodes,
+        ["country"],
+        required=False
+    )
+
+    class_country = find_column(
+        classifications,
+        ["country"],
+        required=False
+    )
+
+    # --------------------------------------------------------
+    # Country-level ESM coverage fields
+    # --------------------------------------------------------
+
+    esm_records_col = find_column(
+        country_coverage,
+        ["esm_records"],
+        required=True,
+        label="ESM record count"
+    )
+
+    valid_records_col = find_column(
+        country_coverage,
+        ["valid_date_records"],
+        required=False
+    )
+
+    invalid_records_col = find_column(
+        country_coverage,
+        ["invalid_date_records"],
+        required=False
+    )
+
+    esm_status_col = find_column(
+        country_coverage,
+        ["esm_evidence_status"],
+        required=False
+    )
+
+    # --------------------------------------------------------
+    # Registry fields
+    # --------------------------------------------------------
+
+    registry_event_id_col = find_column(
+        registry,
+        ["event_id", "event_record_id", "record_id", "id"],
+        required=False
+    )
+
+    registry_event_type_col = find_column(
+        registry,
+        ["event_type", "type"],
+        required=False
+    )
+
+    registry_verification_col = find_column(
+        registry,
+        ["verification_status"],
+        required=False
+    )
+
+    registry_inclusion_col = find_column(
+        registry,
+        ["inclusion_decision"],
+        required=False
+    )
+
+    registry_episode_col = find_column(
+        registry,
+        [
+            "canonical_episode_id",
+            "episode_id",
+            "episode_key",
+            "episode_code",
+        ],
+        required=False
+    )
+
+    # --------------------------------------------------------
+    # Severity and classification fields
+    # --------------------------------------------------------
+
+    instrument_episode_col = find_column(
+        instruments,
+        [
+            "episode_key",
+            "canonical_episode_id",
+            "episode_id",
+        ],
+        required=False
+    )
+
+    instrument_link_status_col = find_column(
+        instruments,
+        ["episode_link_status", "link_status"],
+        required=False
+    )
+
+    classified_episode_col = find_column(
+        classifications,
+        [
+            "episode_key",
+            "canonical_episode_id",
+            "episode_id",
+        ],
+        required=False
+    )
+
+    classification_col = find_column(
+        classifications,
+        [
+            "episode_evidence_classification",
+            "evidence_classification",
+            "classification",
+            "evidence_status",
+        ],
+        required=False
+    )
+
+    if not class_country:
+        raise ValueError(
+            "Country column is missing from episode classification input."
+        )
+
+    if not classified_episode_col:
+        raise ValueError(
+            "Canonical episode key is missing from episode classification input."
+        )
+
+    if not registry_event_id_col:
+        raise ValueError(
+            "Registry event identifier is missing. "
+            "Expected event_id or an equivalent identifier."
+        )
+
+    # --------------------------------------------------------
+    # Country coverage loop
+    # --------------------------------------------------------
+
+    rows = []
+
+    for iso, country in COUNTRIES:
+
+        cc_rows = country_coverage[
+            country_coverage[cc_country]
+            .map(normalise_country)
+            .eq(country)
+        ]
+
+        if len(cc_rows) > 1:
+            raise ValueError(
+                f"Duplicate country coverage records for {country}"
+            )
+
+        if cc_rows.empty:
+
+            esm_records = 0
+            valid_records = 0
+            invalid_records = 0
+            esm_status = "COUNTRY_NOT_PRESENT_IN_COVERAGE_FILE"
+
+        else:
+
+            cc_row = cc_rows.iloc[0]
+
+            esm_records = safe_integer(
+                cc_row[esm_records_col]
+            )
+
+            valid_records = (
+                safe_integer(cc_row[valid_records_col])
+                if valid_records_col else 0
+            )
+
+            invalid_records = (
+                safe_integer(cc_row[invalid_records_col])
+                if invalid_records_col else 0
+            )
+
+            esm_status = (
+                str(cc_row[esm_status_col])
+                if esm_status_col else "NOT_AVAILABLE"
+            )
+
+        # ----------------------------------------------------
+        # Historical registry records
+        # ----------------------------------------------------
+
+        country_registry = get_country_registry(
+            registry,
+            iso,
+            country
+        )
+
+        registry_events = len(country_registry)
+
+        registry_event_ids = (
+            country_registry[registry_event_id_col]
+            .dropna()
+            .astype(str)
+            .str.strip()
+            .replace("", pd.NA)
+            .dropna()
+            .nunique()
+        )
+
+        if registry_event_ids != registry_events:
+            raise ValueError(
+                f"Registry event identifier uniqueness check failed "
+                f"for {country}: {registry_events} rows, "
+                f"{registry_event_ids} unique event IDs."
+            )
+
+        registry_event_types = (
+            sorted(
+                set(
+                    clean_values(
+                        country_registry[registry_event_type_col]
+                    )
+                )
+            )
+            if registry_event_type_col else []
+        )
+
+        verified_event_count = (
+            int(
+                country_registry[registry_verification_col]
+                .astype(str)
+                .str.strip()
+                .str.lower()
+                .eq("verified")
+                .sum()
+            )
+            if registry_verification_col else 0
+        )
+
+        included_event_count = (
+            int(
+                country_registry[registry_inclusion_col]
+                .astype(str)
+                .str.strip()
+                .str.lower()
+                .eq("include")
+                .sum()
+            )
+            if registry_inclusion_col else 0
+        )
+
+        registry_episode_ids = (
+            set(clean_values(country_registry[registry_episode_col]))
+            if registry_episode_col else set()
+        )
+
+        # ----------------------------------------------------
+        # Severity instrument records
+        # ----------------------------------------------------
+
+        if inst_country:
+
+            country_instruments = instruments[
+                instruments[inst_country]
+                .map(normalise_country)
+                .eq(country)
+            ]
+
+        else:
+            country_instruments = pd.DataFrame()
+
+        instrument_count = len(country_instruments)
+
+        linked_instrument_count = 0
+        unlinked_instrument_count = 0
+
+        if instrument_count > 0:
+
+            if instrument_episode_col:
+
+                linked_mask = (
+                    country_instruments[instrument_episode_col]
+                    .notna()
+                    &
+                    country_instruments[instrument_episode_col]
+                    .astype(str)
+                    .str.strip()
+                    .ne("")
+                )
+
+                if instrument_link_status_col:
+
+                    canonical_mask = (
+                        country_instruments[
+                            instrument_link_status_col
+                        ]
+                        .astype(str)
+                        .str.upper()
+                        .str.contains("CANONICAL", na=False)
+                    )
+
+                    linked_mask = linked_mask & canonical_mask
+
+                linked_instrument_count = int(
+                    linked_mask.sum()
+                )
+
+                unlinked_instrument_count = int(
+                    (~linked_mask).sum()
+                )
+
+            else:
+
+                unlinked_instrument_count = instrument_count
+
+        # ----------------------------------------------------
+        # Severity episodes
+        # ----------------------------------------------------
+
+        if episode_country:
+
+            country_episodes = episodes[
+                episodes[episode_country]
+                .map(normalise_country)
+                .eq(country)
+            ]
+
+            severity_episode_count = len(country_episodes)
+
+        else:
+
+            severity_episode_count = 0
+
+        # ----------------------------------------------------
+        # Classified episodes
+        # ----------------------------------------------------
+
+        country_classifications = classifications[
+            classifications[class_country]
+            .map(normalise_country)
+            .eq(country)
+        ]
+
+        classified_episode_ids = set(
+            clean_values(
+                country_classifications[
+                    classified_episode_col
+                ]
+            )
+        )
+
+        classified_episode_count = len(
+            classified_episode_ids
+        )
+
+        classification_values = (
+            sorted(
+                set(
+                    clean_values(
+                        country_classifications[classification_col]
+                    )
+                )
+            )
+            if classification_col else []
+        )
+
+        # ----------------------------------------------------
+        # Historical events without severity evidence
+        # ----------------------------------------------------
+
+        historical_events_without_severity = (
+            registry_events > 0
+            and classified_episode_count == 0
+        )
+
+        # ----------------------------------------------------
+        # Primary evidence classification
+        # ----------------------------------------------------
+
+        if classified_episode_count > 0:
+
+            primary_status = (
+                "EPISODE_EVIDENCE_IDENTIFIED"
+            )
+
+        elif (
+            instrument_count > 0
+            and unlinked_instrument_count > 0
+        ):
+
+            primary_status = (
+                "SOURCE_RECORDS_UNLINKED"
+            )
+
+        elif historical_events_without_severity:
+
+            primary_status = (
+                "HISTORICAL_EVENTS_WITHOUT_SEVERITY_DATA"
+            )
+
+        elif source_availability != "ALL_EXPECTED_SOURCES_FOUND":
+
+            primary_status = (
+                "SOURCE_COVERAGE_INSUFFICIENT"
+            )
+
+        else:
+
+            primary_status = (
+                "NO_MATCH_IN_AVAILABLE_SOURCES"
+            )
+
+        # ----------------------------------------------------
+        # Evidence-type interpretation
+        # ----------------------------------------------------
+
+        if not registry_event_types:
+
+            event_type_interpretation = (
+                "NO_REGISTRY_EVENT_RECORDED"
+            )
+
+        elif (
+            "sovereign_restructuring" in registry_event_types
+            or "sovereign_default" in registry_event_types
+        ):
+
+            event_type_interpretation = (
+                "SOVEREIGN_RESTRUCTURING_EVENT_RECORDED"
+            )
+
+        elif (
+            "financial_assistance" in registry_event_types
+            and "systemic_banking_crisis" in registry_event_types
+        ):
+
+            event_type_interpretation = (
+                "FINANCIAL_ASSISTANCE_AND_BANKING_CRISIS_RECORDED"
+            )
+
+        elif "financial_assistance" in registry_event_types:
+
+            event_type_interpretation = (
+                "FINANCIAL_ASSISTANCE_RECORDED_NOT_DEFAULT_PROOF"
+            )
+
+        elif "systemic_banking_crisis" in registry_event_types:
+
+            event_type_interpretation = (
+                "BANKING_CRISIS_RECORDED_NOT_DEFAULT_PROOF"
+            )
+
+        else:
+
+            event_type_interpretation = (
+                "OTHER_HISTORICAL_STRESS_EVENT_RECORDED"
+            )
+
+        # ----------------------------------------------------
+        # Append country record
+        # ----------------------------------------------------
+
+        rows.append({
+
+            "iso3": iso,
+            "country": country,
+
+            "primary_evidence_status": primary_status,
+
+            "event_type_interpretation":
+                event_type_interpretation,
+
+            "esm_records": esm_records,
+            "esm_valid_date_records": valid_records,
+            "esm_invalid_date_records": invalid_records,
+            "esm_evidence_status": esm_status,
+
+            "registry_event_records": registry_events,
+            "registry_distinct_event_ids": registry_event_ids,
+            "registry_distinct_episode_ids": len(
+                registry_episode_ids
+            ),
+
+            "registry_event_types": ";".join(
+                registry_event_types
+            ),
+
+            "registry_verified_event_records":
+                verified_event_count,
+
+            "registry_included_event_records":
+                included_event_count,
+
+            "severity_instrument_records":
+                instrument_count,
+
+            "linked_instrument_records":
+                linked_instrument_count,
+
+            "unlinked_instrument_records":
+                unlinked_instrument_count,
+
+            "severity_episode_records":
+                severity_episode_count,
+
+            "classified_episode_count":
+                classified_episode_count,
+
+            "classification_types": ";".join(
+                classification_values
+            ),
+
+            "source_availability_status":
+                source_availability,
+
+            "available_sources": ";".join(
+                found_sources
+            ),
+
+            "missing_sources": ";".join(
+                missing_sources
+            ),
+
+            "interpretation":
+                "Evidence classification only. Historical stress "
+                "events are not automatically sovereign defaults. "
+                "Absence of a source match is not evidence of "
+                "absence of sovereign default.",
+
+        })
+
+    matrix = pd.DataFrame(rows)
+
+    # ========================================================
+    # MATRIX VALIDATION
+    # ========================================================
+
+    if len(matrix) != 20:
+
+        raise RuntimeError(
+            f"Expected 20 countries; found {len(matrix)}."
+        )
+
+    if matrix["iso3"].nunique() != 20:
+
+        raise RuntimeError(
+            "Canonical ISO3 uniqueness validation failed."
+        )
+
+    if matrix["country"].nunique() != 20:
+
+        raise RuntimeError(
+            "Country-name uniqueness validation failed."
+        )
+
+    if int(matrix["registry_event_records"].sum()) != len(registry):
+
+        raise RuntimeError(
+            "Registry event reconciliation failed. "
+            f"Matrix total: {matrix['registry_event_records'].sum()}, "
+            f"registry rows: {len(registry)}."
+        )
+
+    if (
+        matrix["linked_instrument_records"].sum()
+        +
+        matrix["unlinked_instrument_records"].sum()
+        !=
+        matrix["severity_instrument_records"].sum()
+    ):
+
+        raise RuntimeError(
+            "Severity instrument linkage reconciliation failed."
+        )
+
+    # ========================================================
+    # OUTPUT FILES
+    # ========================================================
+
+    matrix_path = (
+        PROCESSED /
+        "europe_sovereign_default_evidence_coverage_matrix.csv"
+    )
+
+    report_path = (
+        REPORTS /
+        "europe_sovereign_default_evidence_coverage_matrix.txt"
+    )
+
+    matrix.to_csv(
+        matrix_path,
+        index=False
+    )
+
+    distribution = (
+        matrix["primary_evidence_status"]
+        .value_counts()
+        .sort_index()
+    )
+
+    event_type_distribution = (
+        matrix["event_type_interpretation"]
+        .value_counts()
+        .sort_index()
+    )
+
+    # ========================================================
+    # REPORT
+    # ========================================================
+
+    with open(
+        report_path,
+        "w",
+        encoding="utf-8"
+    ) as report:
+
+        report.write("=" * 76 + "\n")
+        report.write(
+            "EUROPEAN SOVEREIGN DEFAULT EVIDENCE COVERAGE MATRIX\n"
+        )
+        report.write("=" * 76 + "\n\n")
+
+        report.write("CANONICAL COVERAGE\n")
+        report.write("-" * 76 + "\n")
+
+        report.write(
+            f"Countries assessed: {len(matrix)}\n"
+        )
+
+        report.write(
+            f"Unique countries: {matrix['country'].nunique()}\n"
+        )
+
+        report.write(
+            f"Registry event rows reconciled: "
+            f"{matrix['registry_event_records'].sum()}\n\n"
+        )
+
+        report.write(
+            "PROJECT-WIDE SOURCE INVENTORY "
+            "(LOCAL FILE PRESENCE ONLY)\n"
+        )
+        report.write("-" * 76 + "\n")
+
+        report.write(
+            "FOUND means a configured candidate file exists locally; "
+            "NOT_FOUND means no configured candidate file was found.\n"
+        )
+        report.write(
+            "Neither status establishes public availability, "
+            "dataset completeness, schema validity, or country coverage.\n\n"
+        )
+
+        for source in EXPECTED_SOURCES:
+
+            report.write(
+                f"{source}: "
+                f"{source_statuses.get(source, 'NOT_RECORDED')} "
+                "(local file presence only)\n"
+            )
+
+        report.write("\nPRIMARY EVIDENCE CLASSIFICATION\n")
+        report.write("-" * 76 + "\n")
+
+        for status, count in distribution.items():
+
+            report.write(
+                f"{status}: {count}\n"
+            )
+
+        report.write("\nREGISTRY EVENT-TYPE INTERPRETATION\n")
+        report.write("-" * 76 + "\n")
+
+        for status, count in event_type_distribution.items():
+
+            report.write(
+                f"{status}: {count}\n"
+            )
+
+        report.write("\nCOUNTRY CLASSIFICATION\n")
+        report.write("-" * 76 + "\n")
+
+        for _, row in matrix.iterrows():
+
+            report.write(
+                f"{row['iso3']} | "
+                f"{row['country']} | "
+                f"{row['primary_evidence_status']} | "
+                f"Registry events: "
+                f"{row['registry_event_records']} | "
+                f"Event types: "
+                f"{row['registry_event_types']} | "
+                f"ESM records: "
+                f"{row['esm_records']} | "
+                f"Classified episodes: "
+                f"{row['classified_episode_count']}\n"
+            )
+
+        report.write("\nINTERPRETATION LIMITATIONS\n")
+        report.write("-" * 76 + "\n")
+
+        limitations = [
+            "No record in ESM does not establish that a country had no default.",
+            "The ESM source concerns domestic-law sovereign restructurings and is not comprehensive default coverage.",
+            "BoC-BoE and Kiel availability reflects the supplied source inventory.",
+            "Historical stress events are not automatically equivalent to sovereign defaults.",
+            "Financial assistance is not, by itself, proof of sovereign default.",
+            "Systemic banking crises are not, by themselves, proof of sovereign default.",
+            "Registry event IDs are individual event identifiers, not canonical episode identifiers.",
+            "Blank episode IDs do not mean that a registry event does not exist.",
+            "Registry events without severity evidence remain distinct from quantified severity episodes.",
+            "No country ranking, default probability, or composite severity score is produced.",
+            "The historical stress-event registry and prior audit outputs are read-only inputs.",
+            "No-match classifications must not be interpreted as proof of zero historical defaults.",
+        ]
+
+        for item in limitations:
+
+            report.write(f"- {item}\n")
+
+    # ========================================================
+    # TERMINAL SUMMARY
+    # ========================================================
+
+    print("=" * 76)
+    print(
+        "EUROPEAN SOVEREIGN DEFAULT EVIDENCE COVERAGE MATRIX"
+    )
+    print("=" * 76)
+
+    print(
+        f"Countries assessed: {len(matrix)}"
+    )
+
+    print(
+        f"Registry event rows reconciled: "
+        f"{matrix['registry_event_records'].sum()}"
+    )
+
+    print(
+        f"Severity instruments: "
+        f"{matrix['severity_instrument_records'].sum()}"
+    )
+
+    print(
+        f"Classified severity episodes: "
+        f"{matrix['classified_episode_count'].sum()}"
+    )
+
+    print("\nPRIMARY EVIDENCE CLASSIFICATION")
+    print(distribution.to_string())
+
+    print("\nREGISTRY EVENT-TYPE INTERPRETATION")
+    print(event_type_distribution.to_string())
+
+    print("\nOUTPUTS")
+    print(matrix_path)
+    print(report_path)
+
+    print("\nMATRIX BUILD COMPLETED.")
+
+
+# ============================================================
+# EXECUTION
+# ============================================================
+
+if __name__ == "__main__":
+
+    try:
+
+        build_matrix()
+
+    except Exception as exc:
+
+        print(
+            f"ERROR: {exc}",
+            file=sys.stderr
+        )
+
+        raise

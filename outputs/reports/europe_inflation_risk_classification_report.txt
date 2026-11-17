@@ -1,0 +1,164 @@
+============================================================================
+EUROPEAN INFLATION RISK CLASSIFICATION REPORT
+============================================================================
+
+INPUTS
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_inflation_diagnostics.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_inflation_annual_dynamics.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_inflation_deflation_episodes.csv
+
+CLASSIFICATION DESIGN
+----------------------------------------------------------------------------
+Peer-relative tercile classifications.
+Higher percentile means greater measured exposure.
+Higher risk: percentile >= 2/3.
+Moderate risk: percentile > 1/3 and < 2/3.
+Lower risk: percentile <= 1/3.
+Each production dimension is classified independently.
+No composite inflation risk score is calculated.
+No absolute inflation-risk threshold is asserted.
+
+EIGHT PRODUCTION DIMENSIONS
+----------------------------------------------------------------------------
+1. Recent inflation pressure: median CPI inflation, 2020-2024.
+2. Recent inflation volatility: MAD, 2020-2024.
+3. Recent inflation dispersion: IQR, 2020-2024.
+4. Inflation-change instability: mean absolute annual change, 2020-2024.
+5. Upward inflation shocks: count of unusual positive changes, 2020-2024.
+6. Historical deflation frequency: share of negative-inflation years, 1980-2025.
+7. Historical inflation persistence: long-run median CPI inflation, 1980-2025.
+8. Historical high-inflation exposure: frequency >=10%, 1980-2025.
+
+INTERPRETATION NOTES
+----------------------------------------------------------------------------
+MAD and IQR are separate dimensions; neither is averaged into the other.
+Mean inflation is a sensitivity measure; median is the production pressure metric.
+Mean absolute change measures movement, not directional acceleration.
+Deflation frequency is classified; episode duration is reported separately.
+Long-run median and >=10% frequency are separate historical dimensions.
+The 10% threshold is descriptive, not a universal crisis threshold.
+
+COUNTRY CLASSIFICATIONS
+----------------------------------------------------------------------------
+AUT Austria: recent_inflation_pressure=moderate_risk; recent_inflation_volatility_mad=moderate_risk; recent_inflation_dispersion_iqr=higher_risk; inflation_change_instability=lower_risk; upward_inflation_shocks=moderate_risk; historical_deflation_frequency=lower_risk; historical_inflation_persistence=moderate_risk; historical_high_inflation_exposure=lower_risk
+BEL Belgium: recent_inflation_pressure=higher_risk; recent_inflation_volatility_mad=lower_risk; recent_inflation_dispersion_iqr=lower_risk; inflation_change_instability=higher_risk; upward_inflation_shocks=moderate_risk; historical_deflation_frequency=moderate_risk; historical_inflation_persistence=moderate_risk; historical_high_inflation_exposure=lower_risk
+CHE Switzerland: recent_inflation_pressure=lower_risk; recent_inflation_volatility_mad=lower_risk; recent_inflation_dispersion_iqr=lower_risk; inflation_change_instability=lower_risk; upward_inflation_shocks=lower_risk; historical_deflation_frequency=higher_risk; historical_inflation_persistence=lower_risk; historical_high_inflation_exposure=lower_risk
+CZE Czech Republic: recent_inflation_pressure=higher_risk; recent_inflation_volatility_mad=lower_risk; recent_inflation_dispersion_iqr=higher_risk; inflation_change_instability=higher_risk; upward_inflation_shocks=moderate_risk; historical_deflation_frequency=lower_risk; historical_inflation_persistence=moderate_risk; historical_high_inflation_exposure=moderate_risk
+DEU Germany: recent_inflation_pressure=moderate_risk; recent_inflation_volatility_mad=higher_risk; recent_inflation_dispersion_iqr=moderate_risk; inflation_change_instability=moderate_risk; upward_inflation_shocks=moderate_risk; historical_deflation_frequency=moderate_risk; historical_inflation_persistence=lower_risk; historical_high_inflation_exposure=lower_risk
+DNK Denmark: recent_inflation_pressure=lower_risk; recent_inflation_volatility_mad=lower_risk; recent_inflation_dispersion_iqr=lower_risk; inflation_change_instability=moderate_risk; upward_inflation_shocks=moderate_risk; historical_deflation_frequency=lower_risk; historical_inflation_persistence=lower_risk; historical_high_inflation_exposure=moderate_risk
+ESP Spain: recent_inflation_pressure=moderate_risk; recent_inflation_volatility_mad=lower_risk; recent_inflation_dispersion_iqr=lower_risk; inflation_change_instability=moderate_risk; upward_inflation_shocks=higher_risk; historical_deflation_frequency=higher_risk; historical_inflation_persistence=higher_risk; historical_high_inflation_exposure=higher_risk
+FIN Finland: recent_inflation_pressure=lower_risk; recent_inflation_volatility_mad=moderate_risk; recent_inflation_dispersion_iqr=moderate_risk; inflation_change_instability=lower_risk; upward_inflation_shocks=moderate_risk; historical_deflation_frequency=moderate_risk; historical_inflation_persistence=lower_risk; historical_high_inflation_exposure=lower_risk
+FRA France: recent_inflation_pressure=lower_risk; recent_inflation_volatility_mad=moderate_risk; recent_inflation_dispersion_iqr=moderate_risk; inflation_change_instability=lower_risk; upward_inflation_shocks=moderate_risk; historical_deflation_frequency=lower_risk; historical_inflation_persistence=lower_risk; historical_high_inflation_exposure=moderate_risk
+GBR United Kingdom: recent_inflation_pressure=moderate_risk; recent_inflation_volatility_mad=moderate_risk; recent_inflation_dispersion_iqr=higher_risk; inflation_change_instability=moderate_risk; upward_inflation_shocks=moderate_risk; historical_deflation_frequency=lower_risk; historical_inflation_persistence=moderate_risk; historical_high_inflation_exposure=lower_risk
+GRC Greece: recent_inflation_pressure=moderate_risk; recent_inflation_volatility_mad=higher_risk; recent_inflation_dispersion_iqr=moderate_risk; inflation_change_instability=higher_risk; upward_inflation_shocks=moderate_risk; historical_deflation_frequency=higher_risk; historical_inflation_persistence=higher_risk; historical_high_inflation_exposure=higher_risk
+HUN Hungary: recent_inflation_pressure=higher_risk; recent_inflation_volatility_mad=moderate_risk; recent_inflation_dispersion_iqr=higher_risk; inflation_change_instability=higher_risk; upward_inflation_shocks=moderate_risk; historical_deflation_frequency=moderate_risk; historical_inflation_persistence=higher_risk; historical_high_inflation_exposure=higher_risk
+IRL Ireland: recent_inflation_pressure=lower_risk; recent_inflation_volatility_mad=higher_risk; recent_inflation_dispersion_iqr=moderate_risk; inflation_change_instability=moderate_risk; upward_inflation_shocks=moderate_risk; historical_deflation_frequency=higher_risk; historical_inflation_persistence=moderate_risk; historical_high_inflation_exposure=moderate_risk
+ITA Italy: recent_inflation_pressure=lower_risk; recent_inflation_volatility_mad=higher_risk; recent_inflation_dispersion_iqr=higher_risk; inflation_change_instability=moderate_risk; upward_inflation_shocks=moderate_risk; historical_deflation_frequency=moderate_risk; historical_inflation_persistence=higher_risk; historical_high_inflation_exposure=higher_risk
+NLD Netherlands, The: recent_inflation_pressure=higher_risk; recent_inflation_volatility_mad=lower_risk; recent_inflation_dispersion_iqr=lower_risk; inflation_change_instability=higher_risk; upward_inflation_shocks=moderate_risk; historical_deflation_frequency=moderate_risk; historical_inflation_persistence=moderate_risk; historical_high_inflation_exposure=lower_risk
+NOR Norway: recent_inflation_pressure=higher_risk; recent_inflation_volatility_mad=higher_risk; recent_inflation_dispersion_iqr=lower_risk; inflation_change_instability=lower_risk; upward_inflation_shocks=lower_risk; historical_deflation_frequency=lower_risk; historical_inflation_persistence=moderate_risk; historical_high_inflation_exposure=moderate_risk
+POL Poland, Republic of: recent_inflation_pressure=higher_risk; recent_inflation_volatility_mad=moderate_risk; recent_inflation_dispersion_iqr=higher_risk; inflation_change_instability=higher_risk; upward_inflation_shocks=lower_risk; historical_deflation_frequency=higher_risk; historical_inflation_persistence=higher_risk; historical_high_inflation_exposure=higher_risk
+PRT Portugal: recent_inflation_pressure=moderate_risk; recent_inflation_volatility_mad=higher_risk; recent_inflation_dispersion_iqr=moderate_risk; inflation_change_instability=moderate_risk; upward_inflation_shocks=moderate_risk; historical_deflation_frequency=higher_risk; historical_inflation_persistence=higher_risk; historical_high_inflation_exposure=higher_risk
+ROU Romania: recent_inflation_pressure=higher_risk; recent_inflation_volatility_mad=higher_risk; recent_inflation_dispersion_iqr=higher_risk; inflation_change_instability=higher_risk; upward_inflation_shocks=lower_risk; historical_deflation_frequency=higher_risk; historical_inflation_persistence=higher_risk; historical_high_inflation_exposure=higher_risk
+SWE Sweden: recent_inflation_pressure=moderate_risk; recent_inflation_volatility_mad=moderate_risk; recent_inflation_dispersion_iqr=moderate_risk; inflation_change_instability=lower_risk; upward_inflation_shocks=moderate_risk; historical_deflation_frequency=lower_risk; historical_inflation_persistence=lower_risk; historical_high_inflation_exposure=moderate_risk
+
+CLASSIFICATION DISTRIBUTIONS
+----------------------------------------------------------------------------
+recent_inflation_pressure:
+  higher_risk: 7
+  moderate_risk: 7
+  lower_risk: 6
+  insufficient_data: 0
+recent_inflation_volatility_mad:
+  higher_risk: 7
+  moderate_risk: 7
+  lower_risk: 6
+  insufficient_data: 0
+recent_inflation_dispersion_iqr:
+  higher_risk: 7
+  moderate_risk: 7
+  lower_risk: 6
+  insufficient_data: 0
+inflation_change_instability:
+  higher_risk: 7
+  moderate_risk: 7
+  lower_risk: 6
+  insufficient_data: 0
+upward_inflation_shocks:
+  higher_risk: 1
+  moderate_risk: 15
+  lower_risk: 4
+  insufficient_data: 0
+historical_deflation_frequency:
+  higher_risk: 7
+  moderate_risk: 6
+  lower_risk: 7
+  insufficient_data: 0
+historical_inflation_persistence:
+  higher_risk: 7
+  moderate_risk: 7
+  lower_risk: 6
+  insufficient_data: 0
+historical_high_inflation_exposure:
+  higher_risk: 7
+  moderate_risk: 6
+  lower_risk: 7
+  insufficient_data: 0
+
+RECENT SHOCK DIRECTION
+----------------------------------------------------------------------------
+Total upward shocks, 2020-2024: 17
+Total downward disinflation shocks, 2020-2024: 12
+
+ROBUSTNESS AUDIT
+----------------------------------------------------------------------------
+recent_inflation_pressure | mean_vs_median: changed=6/20; stability=70.0%; Spearman=0.812
+recent_inflation_dispersion | mad_vs_iqr: changed=10/20; stability=50.0%; Spearman=0.462
+inflation_change_instability | mean_absolute_change_vs_maximum_absolute_change: changed=2/20; stability=90.0%; Spearman=0.925
+historical_deflation_frequency | frequency_vs_longest_episode: changed=2/20; stability=90.0%; Spearman=0.955
+historical_inflation_exposure | median_vs_high_inflation_frequency: changed=7/20; stability=65.0%; Spearman=0.839
+
+METHODOLOGICAL LIMITATIONS
+----------------------------------------------------------------------------
+Peer-relative classes are not absolute economic risk ratings.
+Five annual observations provide limited evidence on persistence.
+MAD and IQR capture different aspects of dispersion.
+Shock detection depends on country-specific historical distributions.
+A statistical shock is not automatically an economic crisis.
+Mean absolute annual change does not identify upward acceleration.
+Deflation episode duration is descriptive and separate from frequency.
+Long-run inflation measures can reflect historical monetary transitions.
+The 10% threshold is descriptive, not a universal crisis threshold.
+No causal inference, forecast, or default probability is estimated.
+Robustness comparisons measure sensitivity, not predictive accuracy.
+
+VALIDATION
+----------------------------------------------------------------------------
+PASS: All three input files found.
+PASS: Required columns present.
+PASS: No duplicate country-period diagnostics.
+PASS: No duplicate annual dynamics records.
+PASS: Recent and long-run panels cover the same 20 countries.
+PASS: Five recent numeric annual observations per country.
+PASS: Recent shock panel contains five years per country.
+PASS: Required production metrics contain no missing values.
+PASS: Frequency metrics lie between zero and one.
+PASS: 20 country profiles generated.
+PASS: 160 country-dimension records generated.
+PASS: No duplicate country-dimension records.
+PASS: Risk percentiles lie between zero and one.
+PASS: Risk classification labels valid.
+PASS: Shock counts non-negative.
+PASS: Deflation episode metrics non-negative.
+PASS: Five robustness scenarios generated.
+
+OUTPUTS CREATED
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_inflation_risk_classifications.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_inflation_risk_dimension_detail.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_inflation_risk_robustness.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_inflation_risk_classification_report.txt
+
+============================================================================
+EUROPEAN INFLATION RISK CLASSIFICATION VALIDATION PASSED
+============================================================================

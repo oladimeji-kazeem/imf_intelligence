@@ -1,0 +1,17 @@
+========================================================================
+GREEK PSI NPV LOSS SCALE CORRECTION
+========================================================================
+
+Instrument: Bonds - guaranteed bonds
+Raw source value: 0.564
+Corrected NPV loss: 56.40%
+Validation: PASS
+
+Instrument: Bonds - government bonds
+Raw source value: 0.5585
+Corrected NPV loss: 55.85%
+Validation: PASS
+
+Records corrected: 2
+Unit conversion: decimal fraction to percentage
+STATUS: CORRECTION VALIDATED

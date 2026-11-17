@@ -1,0 +1,81 @@
+scenario,iso,country,active_engine_count,total_higher_dimensions,vulnerability_typology
+baseline_any_higher,AUT,Austria,4,7,multi_engine_exposure
+baseline_any_higher,BEL,Belgium,4,11,multi_engine_exposure
+baseline_any_higher,CHE,Switzerland,3,5,multi_engine_exposure
+baseline_any_higher,CZE,Czech Republic,3,8,multi_engine_exposure
+baseline_any_higher,DEU,Germany,3,4,multi_engine_exposure
+baseline_any_higher,DNK,Denmark,1,1,concentrated_exposure
+baseline_any_higher,ESP,Spain,4,15,multi_engine_exposure
+baseline_any_higher,FIN,Finland,4,15,multi_engine_exposure
+baseline_any_higher,FRA,France,4,11,multi_engine_exposure
+baseline_any_higher,GBR,United Kingdom,4,10,multi_engine_exposure
+baseline_any_higher,GRC,Greece,5,24,broad_based_exposure
+baseline_any_higher,HUN,Hungary,4,11,multi_engine_exposure
+baseline_any_higher,IRL,Ireland,5,12,broad_based_exposure
+baseline_any_higher,ITA,Italy,5,16,broad_based_exposure
+baseline_any_higher,NLD,"Netherlands, The",4,5,multi_engine_exposure
+baseline_any_higher,NOR,Norway,4,9,multi_engine_exposure
+baseline_any_higher,POL,"Poland, Republic of",5,15,broad_based_exposure
+baseline_any_higher,PRT,Portugal,5,17,broad_based_exposure
+baseline_any_higher,ROU,Romania,4,19,multi_engine_exposure
+baseline_any_higher,SWE,Sweden,3,7,multi_engine_exposure
+minimum_2_higher_dimensions,AUT,Austria,2,7,concentrated_exposure
+minimum_2_higher_dimensions,BEL,Belgium,3,11,multi_engine_exposure
+minimum_2_higher_dimensions,CHE,Switzerland,1,5,concentrated_exposure
+minimum_2_higher_dimensions,CZE,Czech Republic,3,8,multi_engine_exposure
+minimum_2_higher_dimensions,DEU,Germany,1,4,concentrated_exposure
+minimum_2_higher_dimensions,DNK,Denmark,0,1,no_higher_engine_signal
+minimum_2_higher_dimensions,ESP,Spain,4,15,multi_engine_exposure
+minimum_2_higher_dimensions,FIN,Finland,4,15,multi_engine_exposure
+minimum_2_higher_dimensions,FRA,France,3,11,multi_engine_exposure
+minimum_2_higher_dimensions,GBR,United Kingdom,3,10,multi_engine_exposure
+minimum_2_higher_dimensions,GRC,Greece,5,24,broad_based_exposure
+minimum_2_higher_dimensions,HUN,Hungary,3,11,multi_engine_exposure
+minimum_2_higher_dimensions,IRL,Ireland,4,12,multi_engine_exposure
+minimum_2_higher_dimensions,ITA,Italy,5,16,broad_based_exposure
+minimum_2_higher_dimensions,NLD,"Netherlands, The",1,5,concentrated_exposure
+minimum_2_higher_dimensions,NOR,Norway,3,9,multi_engine_exposure
+minimum_2_higher_dimensions,POL,"Poland, Republic of",4,15,multi_engine_exposure
+minimum_2_higher_dimensions,PRT,Portugal,5,17,broad_based_exposure
+minimum_2_higher_dimensions,ROU,Romania,4,19,multi_engine_exposure
+minimum_2_higher_dimensions,SWE,Sweden,3,7,multi_engine_exposure
+minimum_25pct_engine_rate,AUT,Austria,2,7,concentrated_exposure
+minimum_25pct_engine_rate,BEL,Belgium,3,11,multi_engine_exposure
+minimum_25pct_engine_rate,CHE,Switzerland,1,5,concentrated_exposure
+minimum_25pct_engine_rate,CZE,Czech Republic,3,8,multi_engine_exposure
+minimum_25pct_engine_rate,DEU,Germany,1,4,concentrated_exposure
+minimum_25pct_engine_rate,DNK,Denmark,0,1,no_higher_engine_signal
+minimum_25pct_engine_rate,ESP,Spain,4,15,multi_engine_exposure
+minimum_25pct_engine_rate,FIN,Finland,4,15,multi_engine_exposure
+minimum_25pct_engine_rate,FRA,France,3,11,multi_engine_exposure
+minimum_25pct_engine_rate,GBR,United Kingdom,3,10,multi_engine_exposure
+minimum_25pct_engine_rate,GRC,Greece,5,24,broad_based_exposure
+minimum_25pct_engine_rate,HUN,Hungary,3,11,multi_engine_exposure
+minimum_25pct_engine_rate,IRL,Ireland,4,12,multi_engine_exposure
+minimum_25pct_engine_rate,ITA,Italy,5,16,broad_based_exposure
+minimum_25pct_engine_rate,NLD,"Netherlands, The",1,5,concentrated_exposure
+minimum_25pct_engine_rate,NOR,Norway,3,9,multi_engine_exposure
+minimum_25pct_engine_rate,POL,"Poland, Republic of",4,15,multi_engine_exposure
+minimum_25pct_engine_rate,PRT,Portugal,5,17,broad_based_exposure
+minimum_25pct_engine_rate,ROU,Romania,4,19,multi_engine_exposure
+minimum_25pct_engine_rate,SWE,Sweden,3,7,multi_engine_exposure
+minimum_50pct_engine_rate,AUT,Austria,0,7,no_higher_engine_signal
+minimum_50pct_engine_rate,BEL,Belgium,1,11,concentrated_exposure
+minimum_50pct_engine_rate,CHE,Switzerland,1,5,concentrated_exposure
+minimum_50pct_engine_rate,CZE,Czech Republic,1,8,concentrated_exposure
+minimum_50pct_engine_rate,DEU,Germany,0,4,no_higher_engine_signal
+minimum_50pct_engine_rate,DNK,Denmark,0,1,no_higher_engine_signal
+minimum_50pct_engine_rate,ESP,Spain,3,15,multi_engine_exposure
+minimum_50pct_engine_rate,FIN,Finland,4,15,multi_engine_exposure
+minimum_50pct_engine_rate,FRA,France,2,11,concentrated_exposure
+minimum_50pct_engine_rate,GBR,United Kingdom,2,10,concentrated_exposure
+minimum_50pct_engine_rate,GRC,Greece,5,24,broad_based_exposure
+minimum_50pct_engine_rate,HUN,Hungary,2,11,concentrated_exposure
+minimum_50pct_engine_rate,IRL,Ireland,2,12,concentrated_exposure
+minimum_50pct_engine_rate,ITA,Italy,3,16,multi_engine_exposure
+minimum_50pct_engine_rate,NLD,"Netherlands, The",0,5,no_higher_engine_signal
+minimum_50pct_engine_rate,NOR,Norway,1,9,concentrated_exposure
+minimum_50pct_engine_rate,POL,"Poland, Republic of",2,15,concentrated_exposure
+minimum_50pct_engine_rate,PRT,Portugal,3,17,multi_engine_exposure
+minimum_50pct_engine_rate,ROU,Romania,3,19,multi_engine_exposure
+minimum_50pct_engine_rate,SWE,Sweden,0,7,no_higher_engine_signal

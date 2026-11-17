@@ -1,0 +1,47 @@
+============================================================================
+EUROPEAN BANKING-CRISIS DURATION VERIFICATION REPORT
+============================================================================
+
+SOURCE
+----------------------------------------------------------------------------
+Laeven and Valencia (2026), IMF WP/26/094
+Appendix I, Table A1, footnote 5/
+
+VERIFICATION RESULTS
+----------------------------------------------------------------------------
+Banking-crisis records: 13
+Confirmed truncated episodes: 6
+Five-year episodes without truncation marker: 1
+Episodes shorter than five years: 6
+
+INDIVIDUAL RESULTS
+----------------------------------------------------------------------------
+AUT | 2008-2012 | 5 years | footnote 5/: yes | confirmed_truncated_by_imf_footnote
+DEU | 2008-2009 | 2 years | footnote 5/: not_applicable | within_five_year_limit_not_marked_truncated
+FIN | 1991-1995 | 5 years | footnote 5/: no | five_year_duration_not_marked_as_truncated
+FRA | 2008-2009 | 2 years | footnote 5/: not_applicable | within_five_year_limit_not_marked_truncated
+GRC | 2008-2012 | 5 years | footnote 5/: yes | confirmed_truncated_by_imf_footnote
+HUN | 1991-1995 | 5 years | footnote 5/: yes | confirmed_truncated_by_imf_footnote
+HUN | 2008-2012 | 5 years | footnote 5/: yes | confirmed_truncated_by_imf_footnote
+IRL | 2008-2012 | 5 years | footnote 5/: yes | confirmed_truncated_by_imf_footnote
+ITA | 2008-2009 | 2 years | footnote 5/: not_applicable | within_five_year_limit_not_marked_truncated
+NOR | 1991-1993 | 3 years | footnote 5/: not_applicable | within_five_year_limit_not_marked_truncated
+POL | 1992-1994 | 3 years | footnote 5/: not_applicable | within_five_year_limit_not_marked_truncated
+PRT | 2008-2012 | 5 years | footnote 5/: yes | confirmed_truncated_by_imf_footnote
+ROU | 1998-1999 | 2 years | footnote 5/: not_applicable | within_five_year_limit_not_marked_truncated
+
+METHODOLOGICAL CONTROLS
+----------------------------------------------------------------------------
+- Footnote status is based on IMF Appendix I, Table A1.
+- Five-year duration alone is not treated as proof of truncation.
+- Finland remains unmarked despite its five-year duration.
+- No end dates have been extended or changed.
+- Actual resolution years remain unestablished.
+- Original event registry remains unchanged.
+
+OUTPUT
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_banking_crisis_duration_verified.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_banking_crisis_duration_verification_report.txt
+
+STATUS: SOURCE-FOOTNOTE VERIFICATION PASSED

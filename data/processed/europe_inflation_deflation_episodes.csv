@@ -1,0 +1,25 @@
+iso,country,episode_type,start_year,end_year,duration_years,worst_inflation_pct,best_inflation_pct,mean_inflation_pct
+BEL,Belgium,deflation,2009,2009,1,-0.004,-0.004,-0.004
+CHE,Switzerland,deflation,2009,2009,1,-0.479,-0.479,-0.479
+CHE,Switzerland,deflation,2012,2016,5,-1.142,-0.012,-0.4999999999999999
+CHE,Switzerland,deflation,2020,2020,1,-0.724,-0.724,-0.724
+DEU,Germany,deflation,1986,1986,1,-0.125,-0.125,-0.125
+ESP,Spain,deflation,2009,2009,1,-0.24,-0.24,-0.24
+ESP,Spain,deflation,2014,2016,3,-0.631,-0.189,-0.385
+ESP,Spain,deflation,2020,2020,1,-0.339,-0.339,-0.339
+FIN,Finland,deflation,2015,2015,1,-0.155,-0.155,-0.155
+GRC,Greece,deflation,2013,2015,3,-1.392,-0.857,-1.1153333333333333
+GRC,Greece,deflation,2020,2020,1,-1.265,-1.265,-1.265
+HUN,Hungary,deflation,2014,2015,2,-0.229,-0.066,-0.14750000000000002
+IRL,Ireland,deflation,2009,2010,2,-1.692,-1.602,-1.647
+IRL,Ireland,deflation,2015,2016,2,-0.213,-0.038,-0.1255
+IRL,Ireland,deflation,2020,2020,1,-0.476,-0.476,-0.476
+ITA,Italy,deflation,2016,2016,1,-0.062,-0.062,-0.062
+ITA,Italy,deflation,2020,2020,1,-0.171,-0.171,-0.171
+NLD,"Netherlands, The",deflation,1987,1987,1,-1.0,-1.0,-1.0
+POL,"Poland, Republic of",deflation,2015,2016,2,-0.9,-0.6,-0.75
+PRT,Portugal,deflation,2009,2009,1,-0.903,-0.903,-0.903
+PRT,Portugal,deflation,2014,2014,1,-0.158,-0.158,-0.158
+PRT,Portugal,deflation,2020,2020,1,-0.12,-0.12,-0.12
+ROU,Romania,deflation,1984,1985,2,-0.32,-0.2,-0.26
+ROU,Romania,deflation,2015,2016,2,-1.555,-0.596,-1.0755

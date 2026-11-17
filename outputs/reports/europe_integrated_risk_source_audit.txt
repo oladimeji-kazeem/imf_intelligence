@@ -1,0 +1,36 @@
+EUROPEAN INTEGRATED RISK SOURCE AUDIT
+============================================================================
+
+Country sets consistent: True
+
+ENGINE: fiscal
+Rows: 160
+Columns: 8
+Countries: 20
+Duplicate ISO rows: 140
+
+ENGINE: growth
+Rows: 20
+Columns: 36
+Countries: 20
+Duplicate ISO rows: 0
+
+ENGINE: inflation
+Rows: 20
+Columns: 33
+Countries: 20
+Duplicate ISO rows: 0
+
+ENGINE: external
+Rows: 20
+Columns: 20
+Countries: 20
+Duplicate ISO rows: 0
+
+ENGINE: labour
+Rows: 100
+Columns: 9
+Countries: 20
+Duplicate ISO rows: 80
+
+All five country sets consistent.

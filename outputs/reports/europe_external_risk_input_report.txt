@@ -1,0 +1,52 @@
+============================================================================
+EUROPEAN EXTERNAL RISK INPUT PANEL REPORT
+============================================================================
+
+SOURCE
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_weo_classified.csv
+Source rows: 11,440
+Historical target records: 2,757
+Countries: 20
+Historical period: 1980-2025
+Numeric observations: 2,672
+Missing numeric observations: 85
+
+INDICATOR COVERAGE
+----------------------------------------------------------------------------
+indicator_code                  indicator_name  records  numeric_observations  missing_numeric_observations  missing_pct
+     BCA_NGDPD current_account_balance_pct_gdp      919                   904                            15       1.6322
+       TX_RPCH       exports_volume_growth_pct      919                   884                            35       3.8085
+       TM_RPCH       imports_volume_growth_pct      919                   884                            35       3.8085
+
+COMMON PERIOD: 2020-2024
+----------------------------------------------------------------------------
+indicator_code                  indicator_name  expected_country_years  records_found  countries_found  numeric_observations  missing_numeric_observations  balanced_20_country_2020_2024
+     BCA_NGDPD current_account_balance_pct_gdp                     100            100               20                   100                             0                           True
+       TX_RPCH       exports_volume_growth_pct                     100            100               20                   100                             0                           True
+       TM_RPCH       imports_volume_growth_pct                     100            100               20                   100                             0                           True
+
+METHODOLOGICAL NOTES
+----------------------------------------------------------------------------
+Only observations classified as historical_actual are included.
+Missing numeric observations are retained; they are not imputed as zero.
+Current-account balance is not, by itself, a measure of financing vulnerability.
+Export and import indicators are volume growth rates, not trade levels or trade balance.
+This panel does not include reserves, external debt, exchange rates or financing structure.
+
+VALIDATION
+----------------------------------------------------------------------------
+PASS: Required source fields resolved.
+PASS: Three target indicators present.
+PASS: Exactly 20 countries represented consistently.
+PASS: No duplicate country-year-indicator keys.
+PASS: 2020-2024 panels balanced and numeric for all indicators.
+PASS: Missing numeric values preserved without imputation.
+
+OUTPUTS
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_external_risk_input_panel.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_external_risk_country_coverage.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_external_risk_missingness.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_external_risk_common_period_coverage.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_external_risk_input_report.txt

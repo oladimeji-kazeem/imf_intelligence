@@ -1,0 +1,52 @@
+============================================================================
+EUROPEAN BANKING-CRISIS DURATION AUDIT
+============================================================================
+
+SOURCE
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\external\europe_historical_stress_events.csv
+
+INPUT RECONCILIATION
+----------------------------------------------------------------------------
+Banking-crisis records: 13
+Unique countries: 12
+Unique event IDs: 13
+
+DURATION CLASSIFICATION
+----------------------------------------------------------------------------
+Five-year truncation candidates: 7
+Within five-year limit: 6
+Exceeding five-year cap: 0
+
+INDIVIDUAL EPISODES
+----------------------------------------------------------------------------
+AUT | 2008-2012 | 5 calendar years | five_year_truncation_candidate
+DEU | 2008-2009 | 2 calendar years | within_five_year_limit
+FIN | 1991-1995 | 5 calendar years | five_year_truncation_candidate
+FRA | 2008-2009 | 2 calendar years | within_five_year_limit
+GRC | 2008-2012 | 5 calendar years | five_year_truncation_candidate
+HUN | 1991-1995 | 5 calendar years | five_year_truncation_candidate
+HUN | 2008-2012 | 5 calendar years | five_year_truncation_candidate
+IRL | 2008-2012 | 5 calendar years | five_year_truncation_candidate
+ITA | 2008-2009 | 2 calendar years | within_five_year_limit
+NOR | 1991-1993 | 3 calendar years | within_five_year_limit
+POL | 1992-1994 | 3 calendar years | within_five_year_limit
+PRT | 2008-2012 | 5 calendar years | five_year_truncation_candidate
+ROU | 1998-1999 | 2 calendar years | within_five_year_limit
+
+METHODOLOGICAL CONTROLS
+----------------------------------------------------------------------------
+- Duration is calculated inclusively.
+- Five calendar years is a truncation candidate, not proof.
+- IMF Appendix I footnote 5/ must be checked for confirmation.
+- No crisis end dates have been changed.
+- No actual resolution dates have been inferred.
+- Original registry has not been modified.
+
+OUTPUT
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_banking_crisis_duration_audit.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_banking_crisis_duration_audit_report.txt
+
+STATUS: STRUCTURAL VALIDATION PASSED
+SOURCE FOOTNOTE REVIEW: PENDING

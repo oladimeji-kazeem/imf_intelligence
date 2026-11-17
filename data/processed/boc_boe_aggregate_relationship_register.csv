@@ -1,0 +1,6 @@
+relationship_id,source_variables,target_variable,relationship_type,formula,audit_status,observations_tested,modelling_implication
+REL_001,DEBT_TOTAL_DEF_SOVEREIGNS_2025,DEBT_DEFRATE_SOVEREIGNS_2025,COUNT_DERIVED_RATE,Defaulted sovereign count / total sovereign count * 100,FORMULA_RECONCILED,65,Avoid treating count and derived rate as independent predictors
+REL_002,DEBT_ARREARS_TOTAL_SOVEREIGNS_2025,DEBT_ARREARS_DEFRATE_SOVEREIGNS_2025,COUNT_DERIVED_RATE,Sovereigns with arrears / total sovereign count * 100,FORMULA_RECONCILED,46,Avoid treating count and derived rate as independent predictors
+REL_003,DEBT_EME_2025 + DEBT_HIPC_2025 + DEBT_OTHER_2025,DEBT_EXAE_2025,EXACT_COMPONENT_SUM,EME + HIPC + Other developing,FORMULA_RECONCILED,65,Do not include aggregate and all components together in a standard linear model
+REL_004,DEBT_GROSS_EME_OTHER_GDP_2025 / DEBT_GROSS_WORLD_PRODUCT_2025,EM_DEVELOPING_GDP_SHARE,DERIVED_RATIO,EM and developing GDP / Gross World Product * 100,CALCULATED_45_OBSERVATIONS,45,Use as relative composition feature; not a direct risk measure
+REL_005,DEBT_GROSS_EME_OTHER_GDP_2025; DEBT_GROSS_WORLD_PRODUCT_2025,,NESTED_NOMINAL_GDP_AGGREGATES,EM and developing GDP is a subset of world product,SEMANTICALLY_SUPPORTED_NUMERICAL_NESTING,45,Avoid interpreting both nominal levels as independent risk signals

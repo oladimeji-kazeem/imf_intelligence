@@ -1,0 +1,7 @@
+dimension,scenario,countries_compared,class_changes,class_stability_pct,spearman_rank_correlation
+recent_unemployment_pressure,recent_mean_vs_median,20,0,100.0,0.993984962406015
+recent_unemployment_volatility,recent_mad_vs_iqr,20,6,70.0,0.806015037593985
+historical_unemployment_pressure,historical_mean_vs_median,20,0,100.0,0.9578947368421054
+historical_unemployment_instability,historical_change_mad_vs_mean_absolute,20,6,70.0,0.7909774436090224
+historical_high_unemployment_persistence,persistence_threshold_8pct_vs_10pct,20,6,70.0,0.7867993078304307
+historical_high_unemployment_persistence,persistence_threshold_12pct_vs_10pct,20,12,40.0,0.88357616057193

@@ -1,0 +1,103 @@
+============================================================================
+EUROPEAN INFLATION DIAGNOSTICS REPORT
+============================================================================
+
+SOURCE AND COVERAGE
+----------------------------------------------------------------------------
+Input: C:\Users\oladi\sources\imf_intelligence\data\processed\europe_inflation_risk_input_panel.csv
+Source: IMF World Economic Outlook
+Vintage: October 2026
+Countries: 20
+Historical records: 920
+Numeric observations: 901
+Missing numeric observations: 19
+Duplicate country-year records: 0
+
+DIAGNOSTIC DESIGN
+----------------------------------------------------------------------------
+Inflation level: mean, median, minimum and maximum.
+Dispersion: standard deviation, MAD and IQR.
+Persistence: lag-one autocorrelation and positive-inflation episode duration.
+Acceleration: annual changes in inflation, in percentage points.
+Deflation: negative annual inflation and consecutive episode duration.
+Shock detection: country-specific robust distribution of annual changes.
+No missing inflation values were imputed.
+
+IMPORTANT INTERPRETATION NOTES
+----------------------------------------------------------------------------
+Positive inflation is not automatically excessive inflation.
+Deflation frequency is not a complete measure of economic weakness.
+Autocorrelation is descriptive and does not establish causation.
+Inflation shocks are statistical outliers, not necessarily economic crises.
+The 10% and 20% flags are supplementary fixed-threshold indicators.
+Historical averages can be dominated by high-inflation transition episodes.
+Country-period comparisons remain sensitive to differing historical regimes.
+
+COUNTRY-PERIOD DIAGNOSTICS
+----------------------------------------------------------------------------
+Records generated: 80
+Periods: 4
+
+2020-2024 INFLATION LEVELS
+----------------------------------------------------------------------------
+HUN Hungary: mean=8.775%; median=5.105%; max=17.140%; deflation years=0
+POL Poland, Republic of: mean=7.580%; median=5.100%; max=14.400%; deflation years=0
+ROU Romania: mean=7.495%; median=5.584%; max=13.800%; deflation years=0
+CZE Czech Republic: mean=7.041%; median=3.852%; max=15.072%; deflation years=0
+AUT Austria: mean=4.680%; median=2.919%; max=8.621%; deflation years=0
+NLD Netherlands, The: mean=4.580%; median=3.226%; max=11.628%; deflation years=0
+GBR United Kingdom: mean=4.468%; median=2.588%; max=9.067%; deflation years=0
+DEU Germany: mean=4.150%; median=3.206%; max=8.666%; deflation years=0
+BEL Belgium: mean=4.117%; median=3.219%; max=10.331%; deflation years=0
+SWE Sweden: mean=3.858%; median=2.658%; max=8.057%; deflation years=0
+NOR Norway: mean=3.843%; median=3.468%; max=5.774%; deflation years=0
+ITA Italy: mean=3.503%; median=1.950%; max=8.747%; deflation years=1
+ESP Spain: mean=3.452%; median=3.009%; max=8.322%; deflation years=1
+PRT Portugal: mean=3.372%; median=2.671%; max=8.100%; deflation years=1
+IRL Ireland: mean=3.309%; median=2.424%; max=8.070%; deflation years=1
+FRA France: mean=3.295%; median=2.317%; max=5.903%; deflation years=0
+GRC Greece: mean=3.152%; median=2.997%; max=9.297%; deflation years=1
+DNK Denmark: mean=3.092%; median=1.936%; max=8.552%; deflation years=0
+FIN Finland: mean=2.988%; median=2.069%; max=7.171%; deflation years=0
+CHE Switzerland: mean=1.178%; median=1.061%; max=2.834%; deflation years=1
+
+DEFLATION EPISODES
+----------------------------------------------------------------------------
+Total episodes: 24
+
+COUNTRIES WITH MOST STATISTICAL INFLATION SHOCKS
+----------------------------------------------------------------------------
+ROU: 10
+POL: 9
+FRA: 7
+ESP: 5
+HUN: 5
+IRL: 4
+PRT: 4
+CZE: 4
+SWE: 4
+DNK: 3
+
+VALIDATION
+----------------------------------------------------------------------------
+PASS: Required columns present.
+PASS: Historical actual observations only.
+PASS: Inflation unit and scale validated.
+PASS: No duplicate country-year observations.
+PASS: Missingness flags agree with numeric values.
+PASS: Deflation flags agree with numeric values.
+PASS: 20 countries represented.
+PASS: 80 country-period records generated.
+PASS: Annual dynamics preserve input row count.
+PASS: Deflation episode durations are valid.
+
+OUTPUTS CREATED
+----------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_inflation_diagnostics.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_inflation_annual_dynamics.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_inflation_deflation_episodes.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_inflation_diagnostics_report.txt
+
+============================================================================
+INFLATION DIAGNOSTICS VALIDATION PASSED
+============================================================================
