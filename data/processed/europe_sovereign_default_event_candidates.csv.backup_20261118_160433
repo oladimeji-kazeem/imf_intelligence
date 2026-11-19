@@ -1,0 +1,3 @@
+esm_row_index,country,start_date,end_date,instrument,amount_mln_usd,npv_loss_pct,date_valid,registry_match_status,registry_row_indices,registry_match_count
+54,Greece,2011-10-01,2012-03-01,Bonds - guaranteed bonds,8600.0,0.564,True,TEMPORAL_OVERLAP,0;1;10;19;20,5
+55,Greece,2011-10-01,2012-03-01,Bonds - government bonds,241910.0,0.5585,True,TEMPORAL_OVERLAP,0;1;10;19;20,5

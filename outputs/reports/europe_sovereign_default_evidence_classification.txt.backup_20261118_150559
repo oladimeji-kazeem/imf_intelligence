@@ -1,0 +1,36 @@
+==============================================================================
+EUROPEAN SOVEREIGN DEFAULT SEVERITY EVIDENCE CLASSIFICATION
+==============================================================================
+
+Instrument records classified: 2
+Episode records classified: 1
+Integrity tests marked FAIL: 0
+
+INSTRUMENT EVIDENCE DISTRIBUTION
+------------------------------------------------------------------------------
+instrument_evidence_classification
+QUANTIFIED_NPV_AND_RESTRUCTURING_EVIDENCE    2
+
+EPISODE EVIDENCE CLASSIFICATION
+------------------------------------------------------------------------------
+country              episode_key                   evidence_classification  instrument_count  npv_observation_count  weighted_npv_pct_indicative
+ Greece EU_SOV_GRC_PSI_2011_2012 QUANTIFIED_NPV_AND_RESTRUCTURING_EVIDENCE                 2                      2                    55.868881
+
+EVIDENCE LIMITATIONS
+------------------------------------------------------------------------------
+- Reported amounts are not verified unique creditor claims.
+- Economic comparability remains unverified.
+- Binary face-value reduction flags are not haircut percentages.
+- NPV values are source fractions, displayed as percentages only for readability.
+- Weighted NPV is indicative and is not a verified aggregate creditor loss.
+- Missing evidence is not interpreted as zero loss or zero exposure.
+- Temporal linkage does not independently prove event identity.
+- No composite severity score or country ranking is assigned.
+- The historical stress-event registry is not modified.
+
+OUTPUT FILES
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_sovereign_default_evidence_classification_instruments.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_sovereign_default_evidence_classification_episodes.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_sovereign_default_evidence_classification.txt
+
+CLASSIFICATION COMPLETED.

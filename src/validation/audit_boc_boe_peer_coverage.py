@@ -90,6 +90,51 @@ for row in ws.iter_rows(min_row=66, values_only=True):
 
 wb.close()
 
+# Historical labels are reported separately and never allocated to
+# modern successor countries.
+HISTORICAL_SERIES = {
+    "Czechoslovakia": "SHARED_PREDECESSOR_CZECHIA_SLOVAKIA",
+    "USSR/Russian Federation": "COMBINED_HISTORICAL_ENTITY_UNALLOCATED",
+    "Yugoslavia": "PREDECESSOR_STATE_UNALLOCATED",
+}
+
+historical_output = []
+
+for label, attribution_status in HISTORICAL_SERIES.items():
+    item = stats.get(label)
+    if item is None:
+        historical_output.append({
+            "historical_label": label,
+            "attribution_status": attribution_status,
+            "record_status": "NO_MATCHING_LABEL",
+            "observation_rows": 0,
+            "first_year": "",
+            "last_year": "",
+            "missing_total_rows": 0,
+            "zero_total_rows": 0,
+            "positive_total_rows": 0,
+        })
+        continue
+
+    years = item["years"]
+    historical_output.append({
+        "historical_label": label,
+        "attribution_status": attribution_status,
+        "record_status": "HISTORICAL_RECORD_FOUND",
+        "observation_rows": item["rows"],
+        "first_year": min(years) if years else "",
+        "last_year": max(years) if years else "",
+        "missing_total_rows": item["missing_total"],
+        "zero_total_rows": item["zero_total"],
+        "positive_total_rows": item["positive_total"],
+    })
+
+historical_csv_path = PROCESSED / "boc_boe_historical_label_coverage.csv"
+with historical_csv_path.open("w", newline="", encoding="utf-8-sig") as f:
+    writer = csv.DictWriter(f, fieldnames=historical_output[0].keys())
+    writer.writeheader()
+    writer.writerows(historical_output)
+
 output = []
 
 for code, name in PEERS.items():
@@ -108,10 +153,18 @@ for code, name in PEERS.items():
         if label in stats
     ]
 
+    if years:
+        coverage_interpretation = "DIRECT_COUNTRY_LABEL_MATCH"
+    elif historical:
+        coverage_interpretation = "HISTORICAL_PREDECESSOR_ONLY_ATTRIBUTION_UNRESOLVED"
+    else:
+        coverage_interpretation = "NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL"
+
     output.append({
         "iso3": code,
         "country": name,
         "coverage_status": "DIRECT_MATCH" if years else "NO_DIRECT_MATCH",
+        "coverage_interpretation": coverage_interpretation,
         "observation_rows": item["rows"],
         "first_year": min(years) if years else "",
         "last_year": max(years) if years else "",
@@ -136,6 +189,8 @@ report = [
     f"Peer countries: {len(PEERS)}",
     f"Directly represented: {direct}",
     f"No direct match: {len(PEERS) - direct}",
+    f"Historical predecessor only, attribution unresolved: "
+    f"{sum(x['coverage_interpretation'] == 'HISTORICAL_PREDECESSOR_ONLY_ATTRIBUTION_UNRESOLVED' for x in output)}",
     "",
     "COUNTRY COVERAGE",
     "-" * 60,
@@ -144,6 +199,7 @@ report = [
 for x in output:
     report.append(
         f"{x['iso3']} | {x['country']} | {x['coverage_status']} | "
+        f"interpretation={x['coverage_interpretation']} | "
         f"rows={x['observation_rows']} | "
         f"years={x['first_year']}-{x['last_year']} | "
         f"positive={x['positive_total_rows']} | "
@@ -152,9 +208,27 @@ for x in output:
         f"historical_review={x['historical_labels_for_review']}"
     )
 
+report.extend([
+    "",
+    "HISTORICAL LABEL COVERAGE — NOT ALLOCATED TO MODERN PEERS",
+    "-" * 60,
+])
+
+for x in historical_output:
+    report.append(
+        f"{x['historical_label']} | {x['record_status']} | "
+        f"attribution={x['attribution_status']} | "
+        f"rows={x['observation_rows']} | "
+        f"years={x['first_year']}-{x['last_year']} | "
+        f"positive={x['positive_total_rows']} | "
+        f"zero={x['zero_total_rows']} | "
+        f"missing={x['missing_total_rows']}"
+    )
+
 txt_path = REPORTS / "boc_boe_europe_peer_coverage.txt"
 txt_path.write_text("\n".join(report), encoding="utf-8")
 
 print("\n".join(report))
 print(f"\nCSV: {csv_path}")
+print(f"Historical CSV: {historical_csv_path}")
 print(f"Report: {txt_path}")

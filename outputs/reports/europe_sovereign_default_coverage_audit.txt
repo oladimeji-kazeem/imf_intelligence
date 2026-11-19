@@ -13,10 +13,10 @@ Registry records: 21
 ESM records with temporal registry overlap: 2
 
 SOURCE AVAILABILITY
- source                                                          expected_files    status                                                                                actual_path
-boc_boe  boc_boe_sovereign_defaults.csv; boc_boe_sovereign_default_database.csv NOT_FOUND                                                                                           
-   kiel kiel_monthly_sovereign_defaults.csv; kiel_sovereign_default_dataset.csv NOT_FOUND                                                                                           
-    esm                                    esm_domestic_sovereign_defaults.xlsx     FOUND C:\Users\oladi\sources\imf_intelligence\data\external\esm_domestic_sovereign_defaults.xlsx
+ source                                     expected_files status                                                                                              actual_path
+boc_boe       boc_boe_sovereign_default_database_2025.xlsx  FOUND       C:\Users\oladi\sources\imf_intelligence\data\external\boc_boe_sovereign_default_database_2025.xlsx
+   kiel kiel_monthly_sovereign_default_1970_2025.xlsx.xlsx  FOUND C:\Users\oladi\sources\imf_intelligence\data\external\kiel_monthly_sovereign_default_1970_2025.xlsx.xlsx
+    esm               esm_domestic_sovereign_defaults.xlsx  FOUND               C:\Users\oladi\sources\imf_intelligence\data\external\esm_domestic_sovereign_defaults.xlsx
 
 COUNTRY COVERAGE
        country  esm_records  valid_date_records  invalid_date_records esm_evidence_status                                      interpretation

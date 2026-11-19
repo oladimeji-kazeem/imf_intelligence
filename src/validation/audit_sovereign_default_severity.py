@@ -365,8 +365,8 @@ def get_registry_year_candidates(row, registry):
 def classify_instrument(row):
     findings = []
 
-    if pd.notna(row["face_value_reduction"]):
-        findings.append("FACE_VALUE_MEASURED")
+    if row["face_value_reduction"] == 1:
+        findings.append("FACE_VALUE_REDUCTION_RECORDED")
 
     if row["maturity_change"] == 1:
         findings.append("MATURITY_CHANGED")
@@ -378,9 +378,6 @@ def classify_instrument(row):
         findings.append("NPV_LOSS_RECORDED")
     else:
         findings.append("NPV_LOSS_MISSING")
-
-    if row["post_default_restructuring"] == 1:
-        findings.append("POST_DEFAULT_RESTRUCTURING")
 
     return ";".join(findings)
 
@@ -816,6 +813,7 @@ def main():
     episodes.to_csv(episode_path, index=False)
 
     total_instruments = len(instruments)
+    countries_with_esm_records = int(instruments["country"].nunique())
     total_episodes = len(episodes)
 
     temporal_matches = int(
@@ -879,7 +877,8 @@ def main():
         "SOVEREIGN DEFAULT EPISODE CLASSIFICATION AND SEVERITY AUDIT",
         "=" * 78,
         "",
-        f"Countries assessed: {len(args.countries)}",
+        f"Countries in requested peer set: {len(args.countries)}",
+        f"Countries with ESM instrument records: {countries_with_esm_records}",
         f"ESM instrument records: {total_instruments}",
         f"Candidate episode groups: {total_episodes}",
         f"Exact-date temporal instrument matches: {temporal_matches}",

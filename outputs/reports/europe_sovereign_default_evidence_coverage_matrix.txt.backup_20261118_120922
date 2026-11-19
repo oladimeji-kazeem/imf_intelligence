@@ -1,0 +1,95 @@
+============================================================================
+EUROPEAN SOVEREIGN DEFAULT EVIDENCE COVERAGE MATRIX
+============================================================================
+
+CANONICAL COVERAGE
+----------------------------------------------------------------------------
+Countries assessed: 20
+Unique countries: 20
+Registry event rows reconciled: 21
+
+PROJECT-WIDE SOURCE INVENTORY (LOCAL FILE PRESENCE ONLY)
+----------------------------------------------------------------------------
+FOUND means a configured candidate file exists locally; NOT_FOUND means no configured candidate file was found.
+Neither status establishes public availability, dataset completeness, schema validity, or country coverage.
+
+boc_boe: FOUND (local file presence only)
+kiel: FOUND (local file presence only)
+esm: FOUND (local file presence only)
+
+BoC-BoE COUNTRY-YEAR COVERAGE
+----------------------------------------------------------------------------
+Direct country-label matches: 7
+Historical predecessor-only, attribution unresolved: 1
+No matching country or configured predecessor label: 12
+Annual positive-value rows are observations, not default episodes. Historical predecessor values are not allocated to successor states.
+
+KIEL FOREIGN-PRIVATE-CREDITOR RESTRUCTURING COVERAGE
+----------------------------------------------------------------------------
+Peer countries with process records: 3
+Peer restructuring-process records: 12
+Kiel records are restructuring processes, not a comprehensive census of sovereign defaults. Raw classification flags are preserved and may overlap.
+
+
+PRIMARY EVIDENCE CLASSIFICATION
+----------------------------------------------------------------------------
+CLASSIFIED_EPISODE_EVIDENCE_PRESENT: 1
+CONTEXTUAL_STRESS_EVENTS_ONLY: 12
+NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS: 7
+
+REGISTRY EVENT-TYPE INTERPRETATION
+----------------------------------------------------------------------------
+BANKING_CRISIS_RECORDED_NOT_DEFAULT_PROOF: 9
+FINANCIAL_ASSISTANCE_AND_BANKING_CRISIS_RECORDED: 2
+FINANCIAL_ASSISTANCE_RECORDED_NOT_DEFAULT_PROOF: 1
+NO_REGISTRY_EVENT_RECORDED: 7
+SOVEREIGN_RESTRUCTURING_EVENT_RECORDED: 1
+
+COUNTRY CLASSIFICATION
+----------------------------------------------------------------------------
+AUT | Austria | Primary evidence: CONTEXTUAL_STRESS_EVENTS_ONLY | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL (rows=0, positive=N/A, zero=N/A, missing=N/A, years=-, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+BEL | Belgium | Primary evidence: NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS | Registry status: NO_EVENT_IN_CURRENT_REGISTRY | Registry events: 0 | Event types:  | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL (rows=0, positive=N/A, zero=N/A, missing=N/A, years=-, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+CHE | Switzerland | Primary evidence: NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS | Registry status: NO_EVENT_IN_CURRENT_REGISTRY | Registry events: 0 | Event types:  | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL (rows=0, positive=N/A, zero=N/A, missing=N/A, years=-, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+CZE | Czech Republic | Primary evidence: NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS | Registry status: NO_EVENT_IN_CURRENT_REGISTRY | Registry events: 0 | Event types:  | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: HISTORICAL_PREDECESSOR_ONLY_ATTRIBUTION_UNRESOLVED (rows=0, positive=N/A, zero=N/A, missing=N/A, years=-, historical_review=Czechoslovakia) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+DEU | Germany | Primary evidence: CONTEXTUAL_STRESS_EVENTS_ONLY | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL (rows=0, positive=N/A, zero=N/A, missing=N/A, years=-, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+DNK | Denmark | Primary evidence: NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS | Registry status: NO_EVENT_IN_CURRENT_REGISTRY | Registry events: 0 | Event types:  | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL (rows=0, positive=N/A, zero=N/A, missing=N/A, years=-, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+ESP | Spain | Primary evidence: CONTEXTUAL_STRESS_EVENTS_ONLY | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: financial_assistance | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL (rows=0, positive=N/A, zero=N/A, missing=N/A, years=-, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+FIN | Finland | Primary evidence: CONTEXTUAL_STRESS_EVENTS_ONLY | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL (rows=0, positive=N/A, zero=N/A, missing=N/A, years=-, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+FRA | France | Primary evidence: CONTEXTUAL_STRESS_EVENTS_ONLY | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL (rows=0, positive=N/A, zero=N/A, missing=N/A, years=-, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+GBR | United Kingdom | Primary evidence: NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS | Registry status: NO_EVENT_IN_CURRENT_REGISTRY | Registry events: 0 | Event types:  | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: DIRECT_COUNTRY_LABEL_MATCH (rows=65, positive=44, zero=21, missing=0, years=1960-2024, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+GRC | Greece | Primary evidence: CLASSIFIED_EPISODE_EVIDENCE_PRESENT | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 6 | Event types: financial_assistance;sovereign_restructuring;systemic_banking_crisis | ESM records: 2 | Severity evidence: CLASSIFIED_EPISODE_EVIDENCE_PRESENT | Classified episodes: 1 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: DIRECT_COUNTRY_LABEL_MATCH (rows=65, positive=10, zero=55, missing=0, years=1960-2024, historical_review=) | Kiel: RESTRUCTURING_RECORDS_FOUND (processes=1, strict=1, weak=1, post=0, strict_weak_overlap=1, missing_default_dates=1, imprecise_starts=0, chronology_inversions=0, WDI=GRC)
+HUN | Hungary | Primary evidence: CONTEXTUAL_STRESS_EVENTS_ONLY | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 2 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: DIRECT_COUNTRY_LABEL_MATCH (rows=65, positive=16, zero=49, missing=0, years=1960-2024, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+IRL | Ireland | Primary evidence: CONTEXTUAL_STRESS_EVENTS_ONLY | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 2 | Event types: financial_assistance;systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: DIRECT_COUNTRY_LABEL_MATCH (rows=65, positive=1, zero=64, missing=0, years=1960-2024, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+ITA | Italy | Primary evidence: CONTEXTUAL_STRESS_EVENTS_ONLY | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL (rows=0, positive=N/A, zero=N/A, missing=N/A, years=-, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+NLD | Netherlands | Primary evidence: NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS | Registry status: NO_EVENT_IN_CURRENT_REGISTRY | Registry events: 0 | Event types:  | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL (rows=0, positive=N/A, zero=N/A, missing=N/A, years=-, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+NOR | Norway | Primary evidence: CONTEXTUAL_STRESS_EVENTS_ONLY | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL (rows=0, positive=N/A, zero=N/A, missing=N/A, years=-, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+POL | Poland | Primary evidence: CONTEXTUAL_STRESS_EVENTS_ONLY | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: DIRECT_COUNTRY_LABEL_MATCH (rows=65, positive=39, zero=26, missing=0, years=1960-2024, historical_review=) | Kiel: RESTRUCTURING_RECORDS_FOUND (processes=8, strict=0, weak=0, post=8, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=POL)
+PRT | Portugal | Primary evidence: CONTEXTUAL_STRESS_EVENTS_ONLY | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 2 | Event types: financial_assistance;systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: DIRECT_COUNTRY_LABEL_MATCH (rows=65, positive=1, zero=64, missing=0, years=1960-2024, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+ROU | Romania | Primary evidence: CONTEXTUAL_STRESS_EVENTS_ONLY | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: DIRECT_COUNTRY_LABEL_MATCH (rows=65, positive=47, zero=18, missing=0, years=1960-2024, historical_review=) | Kiel: RESTRUCTURING_RECORDS_FOUND (processes=3, strict=0, weak=2, post=1, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=ROM)
+SWE | Sweden | Primary evidence: NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS | Registry status: NO_EVENT_IN_CURRENT_REGISTRY | Registry events: 0 | Event types:  | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS | BoC-BoE: NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL (rows=0, positive=N/A, zero=N/A, missing=N/A, years=-, historical_review=) | Kiel: NO_RECORD_IN_KIEL_MAIN_DATASET (processes=0, strict=0, weak=0, post=0, strict_weak_overlap=0, missing_default_dates=0, imprecise_starts=0, chronology_inversions=0, WDI=)
+
+INTERPRETATION LIMITATIONS
+----------------------------------------------------------------------------
+- No record in ESM does not establish that a country had no default.
+- The ESM source concerns domestic-law sovereign restructurings and is not comprehensive default coverage.
+- BoC-BoE peer coverage describes country-label matches and annual country-year observations; positive annual values are not episode counts or independently verified defaults.
+- BoC-BoE historical predecessor labels retain unresolved attribution; no predecessor observations are allocated to successor countries.
+- Kiel coverage describes foreign-private-creditor restructuring processes, not comprehensive sovereign-default coverage; no Kiel record is not evidence of no default.
+- Kiel strict, weak and post-default fields are raw source flags. Strict and weak flags overlap and must not be treated as mutually exclusive counts.
+- Kiel process-record counts are not equivalent to independent default episodes or a complete count of payment defaults.
+- BoC-BoE and Kiel peer coverage inputs are validated for exactly one correctly named row per peer ISO3 code.
+- Historical stress events are not automatically equivalent to sovereign defaults.
+- Countries classified as CONTEXTUAL_STRESS_EVENTS_ONLY have registry records limited to financial assistance and/or systemic banking crises; these are contextual indicators, not sovereign-default evidence.
+- A sovereign restructuring or sovereign-default event type without a classified severity episode is reported separately and does not, by itself, establish payment-default proof.
+- Unrecognised registry event types are kept in a separate category rather than silently treated as contextual stress events.
+- Financial assistance is not, by itself, proof of sovereign default.
+- Systemic banking crises are not, by themselves, proof of sovereign default.
+- Registry event IDs are individual event identifiers, not canonical episode identifiers.
+- Blank episode IDs do not mean that a registry event does not exist.
+- Registry events without severity evidence remain distinct from quantified severity episodes.
+- No country ranking, default probability, or composite severity score is produced.
+- The historical stress-event registry and prior audit outputs are read-only inputs.
+- No-match classifications must not be interpreted as proof of zero historical defaults.
+- Payment-default proof is not assessed by this matrix because the current historical stress-event registry has no default_proof_status field.
+- A classified restructuring episode or quantified NPV observation is not, by itself, proof of payment default.
+- The local source inventory does not establish dataset schema validity, completeness, temporal coverage, or country coverage.

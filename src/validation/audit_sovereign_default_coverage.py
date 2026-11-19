@@ -20,12 +20,10 @@ REGISTRY_FILE = EXTERNAL_DIR / "europe_historical_stress_events.csv"
 
 SOURCE_FILES = {
     "boc_boe": [
-        "boc_boe_sovereign_defaults.csv",
-        "boc_boe_sovereign_default_database.csv",
+        "boc_boe_sovereign_default_database_2025.xlsx",
     ],
     "kiel": [
-        "kiel_monthly_sovereign_defaults.csv",
-        "kiel_sovereign_default_dataset.csv",
+        "kiel_monthly_sovereign_default_1970_2025.xlsx.xlsx",
     ],
     "esm": ["esm_domestic_sovereign_defaults.xlsx"],
 }

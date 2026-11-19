@@ -107,11 +107,20 @@ def validate_integrity_gate(integrity):
             + failed[["test", "status"]].to_string(index=False)
         )
 
-    print("Integrity gate: PASS")
     print(
-        "Integrity tests marked FAIL:",
-        len(failed)
+        "Integrity gate: NO FAILURES DETECTED; "
+        "UNRESOLVED STATUSES MAY REMAIN"
     )
+    print("Integrity status counts:")
+    for status, count in (
+        integrity["status"]
+        .astype(str)
+        .str.upper()
+        .value_counts()
+        .sort_index()
+        .items()
+    ):
+        print(f"  {status}: {count}")
 
 
 def numeric(value):
@@ -181,9 +190,8 @@ def classify_instrument(row):
         row["coupon_change"]
     )
 
-    post_default_status = binary_evidence(
-        row["post_default_restructuring"]
-    )
+    # Raw source value is preserved; its temporal meaning is unresolved.
+    post_default_status = "UNRESOLVED_SOURCE_DEFINITION"
 
     npv = numeric(row["npv_loss_raw"])
 
@@ -201,7 +209,6 @@ def classify_instrument(row):
         face_value_status == "RECORDED",
         maturity_status == "RECORDED",
         coupon_status == "RECORDED",
-        post_default_status == "RECORDED",
     ])
 
     if measured_count == 2 and restructuring_count > 0:
@@ -342,12 +349,20 @@ def build_episode_classification(instruments, episodes):
             .all()
         )
 
-        if npv_available > 0 and restructuring_indicators > 0:
+        amount_available = int(
+            group["amount_evidence_status"]
+            .eq("AMOUNT_REPORTED")
+            .sum()
+        )
+
+        if weighted_count > 0 and restructuring_indicators > 0:
             classification = (
                 "QUANTIFIED_NPV_AND_RESTRUCTURING_EVIDENCE"
             )
-        elif npv_available > 0:
+        elif weighted_count > 0:
             classification = "QUANTIFIED_NPV_EVIDENCE"
+        elif npv_available > 0 or amount_available > 0:
+            classification = "PARTIAL_QUANTIFIED_EVIDENCE"
         elif restructuring_indicators > 0:
             classification = "RESTRUCTURING_INDICATORS_ONLY"
         else:
@@ -395,6 +410,15 @@ def build_episode_classification(instruments, episodes):
 
 
 def build_report(instruments, episodes, integrity):
+    integrity_status_counts = (
+        integrity["status"]
+        .astype(str)
+        .str.upper()
+        .value_counts()
+        .sort_index()
+        .to_dict()
+    )
+
     lines = [
         "=" * 78,
         "EUROPEAN SOVEREIGN DEFAULT SEVERITY EVIDENCE CLASSIFICATION",
@@ -402,6 +426,8 @@ def build_report(instruments, episodes, integrity):
         "",
         f"Instrument records classified: {len(instruments)}",
         f"Episode records classified: {len(episodes)}",
+        "Integrity gate: NO FAILURES DETECTED; QUALIFIED",
+        f"Integrity status counts: {integrity_status_counts}",
         f"Integrity tests marked FAIL: "
         f"{int(integrity['status'].astype(str).str.upper().eq('FAIL').sum())}",
         "",
@@ -430,8 +456,14 @@ def build_report(instruments, episodes, integrity):
         "- Economic comparability remains unverified.",
         "- Binary face-value reduction flags are not haircut percentages.",
         "- NPV values are source fractions, displayed as percentages only for readability.",
-        "- Weighted NPV is indicative and is not a verified aggregate creditor loss.",
+        "- Weighted NPV uses reported instrument amounts as weights; "
+        "economic comparability of those amounts is unverified. The "
+        "weighted result is therefore not an economically validated "
+        "episode-level loss estimate or a verified aggregate creditor loss.",
         "- Missing evidence is not interpreted as zero loss or zero exposure.",
+        "- The ESM temporal restructuring indicator is excluded from classification: "
+        "the README defines it as pre-default, while the worksheet header labels it "
+        "post-default. Raw values are retained, but their temporal meaning is unresolved.",
         "- Temporal linkage does not independently prove event identity.",
         "- No composite severity score or country ranking is assigned.",
         "- The historical stress-event registry is not modified.",

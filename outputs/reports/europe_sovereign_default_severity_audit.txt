@@ -2,7 +2,8 @@
 SOVEREIGN DEFAULT EPISODE CLASSIFICATION AND SEVERITY AUDIT
 ==============================================================================
 
-Countries assessed: 20
+Countries in requested peer set: 20
+Countries with ESM instrument records: 1
 ESM instrument records: 2
 Candidate episode groups: 1
 Exact-date temporal instrument matches: 2
@@ -19,9 +20,9 @@ Year-level contextual candidate pairings: 6
 Year-level restructuring-compatible candidate pairings: 0
 
 INSTRUMENT CLASSIFICATION
-country               Instrument              episode_key        episode_link_status                                             instrument_severity_flags  compatible_registry_match_count             compatibility_status  year_level_candidate_count  year_level_contextual_count                                 year_level_status     match_status
- Greece Bonds - guaranteed bonds EU_SOV_GRC_PSI_2011_2012 CANONICAL_EPISODE_ID_MATCH                  FACE_VALUE_MEASURED;COUPON_CHANGED;NPV_LOSS_RECORDED                                2 RESTRUCTURING_COMPATIBLE_OVERLAP                           3                            3 YEAR_RANGE_OVERLAP_CANDIDATE_NOT_EXACT_DATE_MATCH TEMPORAL_OVERLAP
- Greece Bonds - government bonds EU_SOV_GRC_PSI_2011_2012 CANONICAL_EPISODE_ID_MATCH FACE_VALUE_MEASURED;MATURITY_CHANGED;COUPON_CHANGED;NPV_LOSS_RECORDED                                2 RESTRUCTURING_COMPATIBLE_OVERLAP                           3                            3 YEAR_RANGE_OVERLAP_CANDIDATE_NOT_EXACT_DATE_MATCH TEMPORAL_OVERLAP
+country               Instrument              episode_key        episode_link_status                                                       instrument_severity_flags  compatible_registry_match_count             compatibility_status  year_level_candidate_count  year_level_contextual_count                                 year_level_status     match_status
+ Greece Bonds - guaranteed bonds EU_SOV_GRC_PSI_2011_2012 CANONICAL_EPISODE_ID_MATCH                  FACE_VALUE_REDUCTION_RECORDED;COUPON_CHANGED;NPV_LOSS_RECORDED                                2 RESTRUCTURING_COMPATIBLE_OVERLAP                           3                            3 YEAR_RANGE_OVERLAP_CANDIDATE_NOT_EXACT_DATE_MATCH TEMPORAL_OVERLAP
+ Greece Bonds - government bonds EU_SOV_GRC_PSI_2011_2012 CANONICAL_EPISODE_ID_MATCH FACE_VALUE_REDUCTION_RECORDED;MATURITY_CHANGED;COUPON_CHANGED;NPV_LOSS_RECORDED                                2 RESTRUCTURING_COMPATIBLE_OVERLAP                           3                            3 YEAR_RANGE_OVERLAP_CANDIDATE_NOT_EXACT_DATE_MATCH TEMPORAL_OVERLAP
 
 EPISODE CLASSIFICATION
              episode_key country        episode_link_status  canonical_episode_link  instrument_count                                       instruments episode_start episode_end  instrument_reported_amount_sum_mln_usd  face_value_reduction_observations  maturity_change_observations  coupon_change_observations  npv_loss_observations  npv_loss_missing_observations npv_loss_values_raw     registry_episode_ids                                                                              registry_event_ids compatible_registry_episode_ids                                                                   compatible_registry_event_ids registry_match_status              episode_classification                    severity_assessment

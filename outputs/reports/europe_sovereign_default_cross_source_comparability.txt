@@ -1,0 +1,172 @@
+EUROPEAN SOVEREIGN DEFAULT CROSS-SOURCE COMPARABILITY ASSESSMENT
+========================================================================================
+
+PURPOSE
+This assessment compares the constructs, units, coverage, temporal basis, valuation
+semantics and permissible analytical uses of BoC-BoE, ESM and Kiel.
+It is a source-methodology assessment, not a new event registry or severity model.
+
+INPUT VALIDATION
+----------------------------------------------------------------------------------------
+boc_methodology: 16 rows
+boc_observations: 158 rows
+boc_reliability: 7 rows
+esm_instruments: 2 rows
+esm_episodes: 1 rows
+esm_integrity: 29 rows
+kiel_coverage: 20 rows
+country_matrix: 20 rows
+Source count: 3
+Comparability dimensions: 16
+Source-dimension records: 48
+Pairwise assessments: 3
+
+SOURCE-SPECIFIC FINDINGS
+----------------------------------------------------------------------------------------
+
+BOC_BOE
+- construct_measured [DOCUMENTED]: Estimates stocks of sovereign government obligations affected by default or debt distress; annual totals include amounts affected during the year.
+  Limitation: Not a simple event register; exposure is not equivalent to realised creditor loss.
+- unit_of_observation [AUDIT_VERIFIED]: Country-year observations of debt obligations affected; repeated annual observations may relate to the same underlying debt.
+  Limitation: 158 positive European country-year observations in the current extract across seven countries are not 158 independent default events.
+- temporal_basis [DOCUMENTED]: Annual observations; amounts cover sovereigns in default at any point during the year.
+  Limitation: Does not establish a consistent year-end reference-date balance; do not sum annual values as cumulative losses.
+- date_precision [DOCUMENTED]: Annual country-year precision.
+  Limitation: Cannot establish instrument-level event dates from annual observations alone.
+- currency_and_units [DOCUMENTED]: Default amounts are expressed in nominal US dollars.
+  Limitation: Nominal USD is affected by inflation and exchange-rate movements; component coverage is incomplete.
+- valuation_basis [DOCUMENTED]: Nominal affected-debt exposure; domestic arrears may be derived from reported flows and stock information.
+  Limitation: Not a real-value measure, year-end stock convention or realised creditor loss.
+- creditor_and_instrument_scope [DOCUMENTED]: Includes official and private creditor categories, foreign-currency loans and bonds, local-currency debt and domestic arrears.
+  Limitation: Not all categories have complete country-year coverage; domestic arrears have heterogeneous definitions.
+- geographic_coverage [AUDIT_VERIFIED]: Seven directly matched European peer countries have 158 positive observations in the current extract; historical predecessor labels require separate treatment.
+  Limitation: No direct country-label match is not evidence of no default; predecessor observations are not allocated to successor states.
+- completeness_and_missingness [AUDIT_VERIFIED]: 158 positive observations across seven countries; creditor and instrument components are frequently missing, with no fully complete component observations in the composition audit.
+  Limitation: Missing components must not be treated as zero; aggregate totals cannot be fully reconciled from incomplete components.
+- definition_and_classification_rules [DOCUMENTED]: Operational default/distress includes interruption of scheduled debt service or renegotiation of contractual terms.
+  Limitation: Broader than missed-payment-only definitions; restructuring and payment default are not interchangeable.
+- independence_and_overlap [PARTIALLY_DOCUMENTED]: A distinct exposure-oriented database with multiple underlying sources and estimates.
+  Limitation: Underlying source overlap with other datasets has not been ruled out record by record.
+- internal_validation_and_anomalies [AUDIT_VERIFIED]: 158-observation extract reconciles exactly to its upstream source; duplicate country-year keys are zero; two total fields match exactly in the source-wide workbook across 8,749 observations.
+  Limitation: Exact duplicate total fields are internal consistency, not independent validation; 2025/2026 methodology vintage alignment remains unresolved.
+- cross_source_matching_constraints [AUDIT_VERIFIED]: Use country-year as a screening key only; require debt type, creditor, period and claim scope before linking to an instrument or process.
+  Limitation: Annual exposure does not identify a unique restructuring process or instrument.
+- permissible_analytical_uses [AUDIT_VERIFIED]: Describe nominal affected-debt exposure by country-year and qualify observations using source coverage and reliability evidence.
+  Limitation: Do not describe exposure as realised creditor loss or infer real economic severity from raw nominal USD.
+- unsupported_inferences [AUDIT_VERIFIED]: Cannot establish realised creditor losses, independent default-event counts, complete creditor composition or country-level debt/GDP ratios from the audited extract.
+  Limitation: Do not sum annual exposures, treat missing components as zero or use ordinal reliability scores as probabilities.
+- documentation_vintage_and_reproducibility [AUDIT_VERIFIED]: 2025 workbook/release note audited alongside a methodology document updated 2026-10-06; 16-entry evidence register and reproducible processed extracts exist.
+  Limitation: Do not apply 2026-only methodological revisions retrospectively without the 2025 methodology version.
+
+ESM
+- construct_measured [DOCUMENTED]: Records monthly debt default and restructuring events between governments and private creditors involving local-law instruments; severity fields include amount, restructuring terms and reported NPV loss.
+  Limitation: The source construct is instrument-level and does not establish payment-default proof for every record.
+- unit_of_observation [AUDIT_VERIFIED]: Instrument-level records, with an episode-level aggregate for the two Greek PSI instruments in the current severity output.
+  Limitation: The current severity output contains two Greek PSI instruments and one episode, not a complete 20-country severity sample.
+- temporal_basis [DOCUMENTED]: Monthly event records with start and end dates, sometimes recorded only at year precision.
+  Limitation: Do not treat year-only dates as exact monthly chronology.
+- date_precision [AUDIT_VERIFIED]: Exact dates or year-only dates, depending on source record.
+  Limitation: Temporal matching must preserve date precision; year overlap is contextual, not exact event identity.
+- currency_and_units [AUDIT_VERIFIED]: Instrument amounts are reported in million US dollars; NPV loss values are stored as decimal fractions despite the percentage column label.
+  Limitation: Multiply raw NPV fractions by 100 for percentage expression; do not silently rescale stored source values.
+- valuation_basis [AUDIT_VERIFIED]: Reported instrument amount and source-reported NPV loss; amount comparability and non-overlap of claims are not verified.
+  Limitation: Weighted NPV is indicative only; cash-flow assumptions and unique claim basis are not independently established.
+- creditor_and_instrument_scope [DOCUMENTED]: Private-creditor local-law instruments, with instrument labels including bank loans/commercial credit and bonds in the inspected records.
+  Limitation: Do not assume comprehensive coverage of foreign-law debt or all creditor classes.
+- geographic_coverage [AUDIT_VERIFIED]: The inspected workbook contains country-level records, but the current severity classification output contains only the Greek PSI episode.
+  Limitation: No record in the inspected ESM dataset does not establish absence of default or restructuring.
+- completeness_and_missingness [AUDIT_VERIFIED]: 134 source rows; NPV loss is missing in 86 rows; face-value reduction and coupon change are each missing in 34; maturity change is missing in 17.
+  Limitation: Missing NPV is not zero; missingness limits severity comparisons.
+- definition_and_classification_rules [DOCUMENTED]: Records local-law debt default and restructuring; binary fields indicate whether terms changed.
+  Limitation: Binary face-value reduction is not a haircut percentage; source codebook interpretation must be retained.
+- independence_and_overlap [NOT_ESTABLISHED]: A distinct instrument-level dataset; source independence from every BoC–BoE or Kiel underlying input has not been established.
+  Limitation: A separate database is not automatically independent corroboration.
+- internal_validation_and_anomalies [AUDIT_VERIFIED]: Two Greek PSI instruments are traceable to source rows; source amounts and raw NPV values reconcile; 25 tests PASS, with one NOT_VERIFIABLE, one CALCULATED, one NOT_AVAILABLE and one UNRESOLVED outcome; zero FAIL.
+  Limitation: Economic amount comparability is not verifiable; face-value haircut percentage is unavailable; weighted NPV is not independently validated as creditor loss.
+- cross_source_matching_constraints [AUDIT_VERIFIED]: Use country, instrument/legal scope and date interval; retain exact-date versus year-only provenance.
+  Limitation: Year-range candidates are contextual only and cannot establish canonical event identity.
+- permissible_analytical_uses [AUDIT_VERIFIED]: Describe source-reported instrument terms and NPV observations for traceable records, with missingness and valuation caveats.
+  Limitation: Current severity output supports a Greek PSI case study, not a 20-country severity ranking.
+- unsupported_inferences [AUDIT_VERIFIED]: Cannot establish unique aggregate creditor losses, percentage face-value haircuts from binary flags, or complete cross-country severity.
+  Limitation: Amount arithmetic and weighted NPV do not prove non-overlapping claims or realised cash losses.
+- documentation_vintage_and_reproducibility [AUDIT_VERIFIED]: Workbook inspected: esm_domestic_sovereign_defaults.xlsx; README and 2022 version sheet; severity and integrity outputs are reproducible from the local source.
+  Limitation: Preserve source workbook vintage and raw decimal NPV encoding.
+
+KIEL
+- construct_measured [DOCUMENTED]: Records restructuring processes involving governments and foreign private creditors.
+  Limitation: Not a comprehensive census of sovereign defaults or all restructuring types.
+- unit_of_observation [AUDIT_VERIFIED]: Individual restructuring-process cases; multiple cases may occur for one country.
+  Limitation: 197 main-sheet records were observed against 196 cases stated in the README.
+- temporal_basis [AUDIT_VERIFIED]: Process chronology with start, end, announcement and default-date fields; several dates are missing or imprecise.
+  Limitation: the source-wide audit identified 60 missing default dates and 41 imprecise start-date flags.
+- date_precision [AUDIT_VERIFIED]: Dates may be exact, missing or imprecise; some start dates are estimated.
+  Limitation: the source-wide audit identified 41 imprecise starts, 60 missing default dates and two chronology inversions.
+- currency_and_units [NOT_ESTABLISHED]: The source is a restructuring-process database; no common exposure currency or comparable monetary unit is established by the audited fields.
+  Limitation: Do not manufacture a monetary comparison from process records.
+- valuation_basis [NOT_ESTABLISHED]: Process chronology/classification rather than a common debt valuation measure.
+  Limitation: Cannot compare process counts or flags with monetary exposure as if they were severity amounts.
+- creditor_and_instrument_scope [DOCUMENTED]: Restructuring processes involving foreign private creditors.
+  Limitation: Different creditor and legal scope from ESM local-law instrument coverage.
+- geographic_coverage [AUDIT_VERIFIED]: The audited 20-country peer extract contains 12 restructuring-process cases across Greece, Poland and Romania.
+  Limitation: The other 17 peer countries have no main-sheet records; this is not evidence of no default.
+- completeness_and_missingness [AUDIT_VERIFIED]: Coverage is restricted to the source's restructuring-process universe; date and classification fields have missingness and imprecision.
+  Limitation: No-record countries and missing dates must remain distinct from negative evidence.
+- definition_and_classification_rules [AUDIT_VERIFIED]: Retains strict-preemptive, weak-preemptive and post-default process flags.
+  Limitation: Strict and weak flags overlap in 33 source-wide cases; preserve raw flags rather than force exclusive categories.
+- independence_and_overlap [NOT_ESTABLISHED]: A distinct restructuring-process dataset; source independence from every ESM or BoC–BoE underlying source has not been established.
+  Limitation: Do not infer independence from different database names.
+- internal_validation_and_anomalies [AUDIT_VERIFIED]: 197 unique main-sheet cases were observed; README reports 196; two chronology inversions and overlapping classification flags were found.
+  Limitation: Internal audit checks source consistency and coverage, not independent historical event truth.
+- cross_source_matching_constraints [AUDIT_VERIFIED]: Use country, restructuring-process dates, creditor scope and case-level chronology; retain raw flags and date precision.
+  Limitation: A process case is not automatically the same claim or event as an ESM instrument record.
+- permissible_analytical_uses [AUDIT_VERIFIED]: Describe restructuring-process chronology and source-coded process classifications within its foreign-private-creditor scope.
+  Limitation: Do not use case counts as a comprehensive default census.
+- unsupported_inferences [AUDIT_VERIFIED]: Cannot establish a complete sovereign-default census, payment-default proof for every process, or monetary severity.
+  Limitation: No record is not no default; a source-coded post-default flag is not independent payment-default verification.
+- documentation_vintage_and_reproducibility [AUDIT_VERIFIED]: Workbook inspected: kiel_monthly_sovereign_default_1970_2025.xlsx.xlsx; README, main dataset and ongoing-cases sheet.
+  Limitation: README/main-sheet count discrepancy and date/classification anomalies must accompany reuse.
+
+PAIRWISE COMPATIBILITY
+----------------------------------------------------------------------------------------
+
+boc_boe vs esm: COMPLEMENTARY_CONSTRUCTS_CONDITIONALLY_LINKABLE
+What can be combined: Country and time-window context may be compared when creditor, instrument, legal scope and valuation basis are demonstrably compatible.
+Matching requirements: Country identity; compatible date interval; instrument/debt type; creditor class; non-overlapping claim scope; valuation units and basis.
+Not established: That annual BoC–BoE exposure equals the sum of ESM instrument amounts, or that the two sources independently measure the same creditor loss.
+Independent corroboration: NOT_ESTABLISHED
+
+boc_boe vs kiel: COMPLEMENTARY_CONSTRUCTS_CONDITIONALLY_LINKABLE
+What can be combined: Kiel process chronology may provide contextual process evidence for a country-year in which BoC–BoE reports affected debt.
+Matching requirements: Country identity; compatible chronology; creditor/debt scope; evidence that the exposure relates to the particular restructuring process.
+Not established: That a positive annual exposure identifies a particular Kiel process, or that the process amount equals the affected debt exposure.
+Independent corroboration: NOT_ESTABLISHED
+
+esm vs kiel: OVERLAPPING_SUBJECT_DIFFERENT_COVERAGE_UNIVERSES
+What can be combined: Potentially complementary event/process context where local-law instrument records and foreign-private-creditor restructuring processes are demonstrably part of the same broader episode.
+Matching requirements: Country; event chronology with date precision retained; legal-law instrument scope; creditor class; process identity; evidence that records refer to the same episode rather than separate claims.
+Not established: That ESM local-law instruments and Kiel foreign-private-creditor processes cover the same debt, or that absence in one contradicts presence in the other.
+Independent corroboration: NOT_ESTABLISHED
+
+OVERALL METHODOLOGICAL CONCLUSIONS
+----------------------------------------------------------------------------------------
+1. The three sources measure different constructs and have different observation units.
+2. Country-year overlap alone does not establish that records refer to the same event or debt claims.
+3. BoC-BoE nominal affected-debt exposure is not a realised creditor-loss measure.
+4. ESM reported NPV and instrument amounts are not verified aggregate cash losses.
+5. Kiel process records are not a comprehensive sovereign-default census.
+6. Missing records and missing fields are not zeros or evidence of no default.
+7. No composite severity score or cross-source ranking is justified by these inputs.
+8. Independent corroboration remains NOT ESTABLISHED without record-level provenance and
+   evidence that the sources independently document the same event and compatible claims.
+
+GOVERNANCE
+----------------------------------------------------------------------------------------
+No raw source workbook, primary event classification, or 20-country evidence matrix is modified.
+No missing values are imputed. No source records are merged into a synthetic event count.
+
+OUTPUTS
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_sovereign_default_cross_source_comparability.csv
+C:\Users\oladi\sources\imf_intelligence\data\processed\europe_sovereign_default_pairwise_compatibility.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\europe_sovereign_default_cross_source_comparability.txt
+
+BUILD COMPLETED.

@@ -3,26 +3,33 @@ BOC–BOE EUROPEAN PEER COVERAGE AUDIT
 Peer countries: 20
 Directly represented: 7
 No direct match: 13
+Historical predecessor only, attribution unresolved: 1
 
 COUNTRY COVERAGE
 ------------------------------------------------------------
-AUT | Austria | NO_DIRECT_MATCH | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
-BEL | Belgium | NO_DIRECT_MATCH | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
-CHE | Switzerland | NO_DIRECT_MATCH | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
-CZE | Czech Republic | NO_DIRECT_MATCH | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=Czechoslovakia
-DEU | Germany | NO_DIRECT_MATCH | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
-DNK | Denmark | NO_DIRECT_MATCH | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
-ESP | Spain | NO_DIRECT_MATCH | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
-FIN | Finland | NO_DIRECT_MATCH | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
-FRA | France | NO_DIRECT_MATCH | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
-GBR | United Kingdom | DIRECT_MATCH | rows=65 | years=1960-2024 | positive=44 | zero=21 | missing=0 | historical_review=
-GRC | Greece | DIRECT_MATCH | rows=65 | years=1960-2024 | positive=10 | zero=55 | missing=0 | historical_review=
-HUN | Hungary | DIRECT_MATCH | rows=65 | years=1960-2024 | positive=16 | zero=49 | missing=0 | historical_review=
-IRL | Ireland | DIRECT_MATCH | rows=65 | years=1960-2024 | positive=1 | zero=64 | missing=0 | historical_review=
-ITA | Italy | NO_DIRECT_MATCH | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
-NLD | Netherlands | NO_DIRECT_MATCH | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
-NOR | Norway | NO_DIRECT_MATCH | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
-POL | Poland | DIRECT_MATCH | rows=65 | years=1960-2024 | positive=39 | zero=26 | missing=0 | historical_review=
-PRT | Portugal | DIRECT_MATCH | rows=65 | years=1960-2024 | positive=1 | zero=64 | missing=0 | historical_review=
-ROU | Romania | DIRECT_MATCH | rows=65 | years=1960-2024 | positive=47 | zero=18 | missing=0 | historical_review=
-SWE | Sweden | NO_DIRECT_MATCH | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
+AUT | Austria | NO_DIRECT_MATCH | interpretation=NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
+BEL | Belgium | NO_DIRECT_MATCH | interpretation=NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
+CHE | Switzerland | NO_DIRECT_MATCH | interpretation=NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
+CZE | Czech Republic | NO_DIRECT_MATCH | interpretation=HISTORICAL_PREDECESSOR_ONLY_ATTRIBUTION_UNRESOLVED | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=Czechoslovakia
+DEU | Germany | NO_DIRECT_MATCH | interpretation=NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
+DNK | Denmark | NO_DIRECT_MATCH | interpretation=NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
+ESP | Spain | NO_DIRECT_MATCH | interpretation=NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
+FIN | Finland | NO_DIRECT_MATCH | interpretation=NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
+FRA | France | NO_DIRECT_MATCH | interpretation=NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
+GBR | United Kingdom | DIRECT_MATCH | interpretation=DIRECT_COUNTRY_LABEL_MATCH | rows=65 | years=1960-2024 | positive=44 | zero=21 | missing=0 | historical_review=
+GRC | Greece | DIRECT_MATCH | interpretation=DIRECT_COUNTRY_LABEL_MATCH | rows=65 | years=1960-2024 | positive=10 | zero=55 | missing=0 | historical_review=
+HUN | Hungary | DIRECT_MATCH | interpretation=DIRECT_COUNTRY_LABEL_MATCH | rows=65 | years=1960-2024 | positive=16 | zero=49 | missing=0 | historical_review=
+IRL | Ireland | DIRECT_MATCH | interpretation=DIRECT_COUNTRY_LABEL_MATCH | rows=65 | years=1960-2024 | positive=1 | zero=64 | missing=0 | historical_review=
+ITA | Italy | NO_DIRECT_MATCH | interpretation=NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
+NLD | Netherlands | NO_DIRECT_MATCH | interpretation=NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
+NOR | Norway | NO_DIRECT_MATCH | interpretation=NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
+POL | Poland | DIRECT_MATCH | interpretation=DIRECT_COUNTRY_LABEL_MATCH | rows=65 | years=1960-2024 | positive=39 | zero=26 | missing=0 | historical_review=
+PRT | Portugal | DIRECT_MATCH | interpretation=DIRECT_COUNTRY_LABEL_MATCH | rows=65 | years=1960-2024 | positive=1 | zero=64 | missing=0 | historical_review=
+ROU | Romania | DIRECT_MATCH | interpretation=DIRECT_COUNTRY_LABEL_MATCH | rows=65 | years=1960-2024 | positive=47 | zero=18 | missing=0 | historical_review=
+SWE | Sweden | NO_DIRECT_MATCH | interpretation=NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL | rows=0 | years=- | positive=0 | zero=0 | missing=0 | historical_review=
+
+HISTORICAL LABEL COVERAGE — NOT ALLOCATED TO MODERN PEERS
+------------------------------------------------------------
+Czechoslovakia | HISTORICAL_RECORD_FOUND | attribution=SHARED_PREDECESSOR_CZECHIA_SLOVAKIA | rows=65 | years=1960-2024 | positive=27 | zero=6 | missing=32
+USSR/Russian Federation | HISTORICAL_RECORD_FOUND | attribution=COMBINED_HISTORICAL_ENTITY_UNALLOCATED | rows=65 | years=1960-2024 | positive=56 | zero=9 | missing=0
+Yugoslavia | HISTORICAL_RECORD_FOUND | attribution=PREDECESSOR_STATE_UNALLOCATED | rows=65 | years=1960-2024 | positive=20 | zero=12 | missing=33

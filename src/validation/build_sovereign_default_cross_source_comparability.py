@@ -1,0 +1,345 @@
+from pathlib import Path
+import csv
+import sys
+
+import pandas as pd
+
+ROOT = Path(__file__).resolve().parents[2]
+
+INPUTS = {
+    "boc_methodology": "data/processed/boc_boe_methodology_evidence_register.csv",
+    "boc_observations": "data/processed/boc_boe_europe_positive_default_observations.csv",
+    "boc_reliability": "data/processed/boc_boe_europe_peer_reliability.csv",
+    "esm_instruments": "data/processed/europe_sovereign_default_severity_instruments.csv",
+    "esm_episodes": "data/processed/europe_sovereign_default_severity_episodes.csv",
+    "esm_integrity": "data/processed/europe_sovereign_default_severity_integrity.csv",
+    "kiel_coverage": "data/processed/kiel_europe_peer_coverage.csv",
+    "country_matrix": "data/processed/europe_sovereign_default_evidence_coverage_matrix.csv",
+}
+
+REPORT_INPUTS = [
+    "outputs/reports/boc_boe_methodology_evidence_register.txt",
+    "outputs/reports/boc_boe_default_composition_audit.txt",
+    "outputs/reports/boc_boe_europe_peer_reliability_audit.txt",
+    "outputs/reports/kiel_europe_peer_coverage_audit.txt",
+    "outputs/reports/esm_sovereign_default_source_inspection.txt",
+    "outputs/reports/europe_sovereign_default_severity_integrity_audit.txt",
+    "outputs/reports/europe_sovereign_default_evidence_coverage_matrix.txt",
+]
+
+OUTPUT_MATRIX = ROOT / "data/processed/europe_sovereign_default_cross_source_comparability.csv"
+OUTPUT_PAIRS = ROOT / "data/processed/europe_sovereign_default_pairwise_compatibility.csv"
+OUTPUT_REPORT = ROOT / "outputs/reports/europe_sovereign_default_cross_source_comparability.txt"
+
+SOURCES = ["boc_boe", "esm", "kiel"]
+
+DIMENSIONS = {
+    "construct_measured": {
+        "boc_boe": ("Estimates stocks of sovereign government obligations affected by default or debt distress; annual totals include amounts affected during the year.", "DOCUMENTED", "Not a simple event register; exposure is not equivalent to realised creditor loss."),
+        "esm": ("Records monthly debt default and restructuring events between governments and private creditors involving local-law instruments; severity fields include amount, restructuring terms and reported NPV loss.", "DOCUMENTED", "The source construct is instrument-level and does not establish payment-default proof for every record."),
+        "kiel": ("Records restructuring processes involving governments and foreign private creditors.", "DOCUMENTED", "Not a comprehensive census of sovereign defaults or all restructuring types."),
+    },
+    "unit_of_observation": {
+        "boc_boe": ("Country-year observations of debt obligations affected; repeated annual observations may relate to the same underlying debt.", "AUDIT_VERIFIED", "158 positive European country-year observations in the current extract across seven countries are not 158 independent default events."),
+        "esm": ("Instrument-level records, with an episode-level aggregate for the two Greek PSI instruments in the current severity output.", "AUDIT_VERIFIED", "The current severity output contains two Greek PSI instruments and one episode, not a complete 20-country severity sample."),
+        "kiel": ("Individual restructuring-process cases; multiple cases may occur for one country.", "AUDIT_VERIFIED", "197 main-sheet records were observed against 196 cases stated in the README."),
+    },
+    "temporal_basis": {
+        "boc_boe": ("Annual observations; amounts cover sovereigns in default at any point during the year.", "DOCUMENTED", "Does not establish a consistent year-end reference-date balance; do not sum annual values as cumulative losses."),
+        "esm": ("Monthly event records with start and end dates, sometimes recorded only at year precision.", "DOCUMENTED", "Do not treat year-only dates as exact monthly chronology."),
+        "kiel": ("Process chronology with start, end, announcement and default-date fields; several dates are missing or imprecise.", "AUDIT_VERIFIED", "the source-wide audit identified 60 missing default dates and 41 imprecise start-date flags."),
+    },
+    "date_precision": {
+        "boc_boe": ("Annual country-year precision.", "DOCUMENTED", "Cannot establish instrument-level event dates from annual observations alone."),
+        "esm": ("Exact dates or year-only dates, depending on source record.", "AUDIT_VERIFIED", "Temporal matching must preserve date precision; year overlap is contextual, not exact event identity."),
+        "kiel": ("Dates may be exact, missing or imprecise; some start dates are estimated.", "AUDIT_VERIFIED", "the source-wide audit identified 41 imprecise starts, 60 missing default dates and two chronology inversions."),
+    },
+    "currency_and_units": {
+        "boc_boe": ("Default amounts are expressed in nominal US dollars.", "DOCUMENTED", "Nominal USD is affected by inflation and exchange-rate movements; component coverage is incomplete."),
+        "esm": ("Instrument amounts are reported in million US dollars; NPV loss values are stored as decimal fractions despite the percentage column label.", "AUDIT_VERIFIED", "Multiply raw NPV fractions by 100 for percentage expression; do not silently rescale stored source values."),
+        "kiel": ("The source is a restructuring-process database; no common exposure currency or comparable monetary unit is established by the audited fields.", "NOT_ESTABLISHED", "Do not manufacture a monetary comparison from process records."),
+    },
+    "valuation_basis": {
+        "boc_boe": ("Nominal affected-debt exposure; domestic arrears may be derived from reported flows and stock information.", "DOCUMENTED", "Not a real-value measure, year-end stock convention or realised creditor loss."),
+        "esm": ("Reported instrument amount and source-reported NPV loss; amount comparability and non-overlap of claims are not verified.", "AUDIT_VERIFIED", "Weighted NPV is indicative only; cash-flow assumptions and unique claim basis are not independently established."),
+        "kiel": ("Process chronology/classification rather than a common debt valuation measure.", "NOT_ESTABLISHED", "Cannot compare process counts or flags with monetary exposure as if they were severity amounts."),
+    },
+    "creditor_and_instrument_scope": {
+        "boc_boe": ("Includes official and private creditor categories, foreign-currency loans and bonds, local-currency debt and domestic arrears.", "DOCUMENTED", "Not all categories have complete country-year coverage; domestic arrears have heterogeneous definitions."),
+        "esm": ("Private-creditor local-law instruments, with instrument labels including bank loans/commercial credit and bonds in the inspected records.", "DOCUMENTED", "Do not assume comprehensive coverage of foreign-law debt or all creditor classes."),
+        "kiel": ("Restructuring processes involving foreign private creditors.", "DOCUMENTED", "Different creditor and legal scope from ESM local-law instrument coverage."),
+    },
+    "geographic_coverage": {
+        "boc_boe": ("Seven directly matched European peer countries have 158 positive observations in the current extract; historical predecessor labels require separate treatment.", "AUDIT_VERIFIED", "No direct country-label match is not evidence of no default; predecessor observations are not allocated to successor states."),
+        "esm": ("The inspected workbook contains country-level records, but the current severity classification output contains only the Greek PSI episode.", "AUDIT_VERIFIED", "No record in the inspected ESM dataset does not establish absence of default or restructuring."),
+        "kiel": ("The audited 20-country peer extract contains 12 restructuring-process cases across Greece, Poland and Romania.", "AUDIT_VERIFIED", "The other 17 peer countries have no main-sheet records; this is not evidence of no default."),
+    },
+    "completeness_and_missingness": {
+        "boc_boe": ("158 positive observations across seven countries; creditor and instrument components are frequently missing, with no fully complete component observations in the composition audit.", "AUDIT_VERIFIED", "Missing components must not be treated as zero; aggregate totals cannot be fully reconciled from incomplete components."),
+        "esm": ("134 source rows; NPV loss is missing in 86 rows; face-value reduction and coupon change are each missing in 34; maturity change is missing in 17.", "AUDIT_VERIFIED", "Missing NPV is not zero; missingness limits severity comparisons."),
+        "kiel": ("Coverage is restricted to the source's restructuring-process universe; date and classification fields have missingness and imprecision.", "AUDIT_VERIFIED", "No-record countries and missing dates must remain distinct from negative evidence."),
+    },
+    "definition_and_classification_rules": {
+        "boc_boe": ("Operational default/distress includes interruption of scheduled debt service or renegotiation of contractual terms.", "DOCUMENTED", "Broader than missed-payment-only definitions; restructuring and payment default are not interchangeable."),
+        "esm": ("Records local-law debt default and restructuring; binary fields indicate whether terms changed.", "DOCUMENTED", "Binary face-value reduction is not a haircut percentage; source codebook interpretation must be retained."),
+        "kiel": ("Retains strict-preemptive, weak-preemptive and post-default process flags.", "AUDIT_VERIFIED", "Strict and weak flags overlap in 33 source-wide cases; preserve raw flags rather than force exclusive categories."),
+    },
+    "independence_and_overlap": {
+        "boc_boe": ("A distinct exposure-oriented database with multiple underlying sources and estimates.", "PARTIALLY_DOCUMENTED", "Underlying source overlap with other datasets has not been ruled out record by record."),
+        "esm": ("A distinct instrument-level dataset; source independence from every BoC–BoE or Kiel underlying input has not been established.", "NOT_ESTABLISHED", "A separate database is not automatically independent corroboration."),
+        "kiel": ("A distinct restructuring-process dataset; source independence from every ESM or BoC–BoE underlying source has not been established.", "NOT_ESTABLISHED", "Do not infer independence from different database names."),
+    },
+    "internal_validation_and_anomalies": {
+        "boc_boe": ("158-observation extract reconciles exactly to its upstream source; duplicate country-year keys are zero; two total fields match exactly in the source-wide workbook across 8,749 observations.", "AUDIT_VERIFIED", "Exact duplicate total fields are internal consistency, not independent validation; 2025/2026 methodology vintage alignment remains unresolved."),
+        "esm": ("Two Greek PSI instruments are traceable to source rows; source amounts and raw NPV values reconcile; 25 tests PASS, with one NOT_VERIFIABLE, one CALCULATED, one NOT_AVAILABLE and one UNRESOLVED outcome; zero FAIL.", "AUDIT_VERIFIED", "Economic amount comparability is not verifiable; face-value haircut percentage is unavailable; weighted NPV is not independently validated as creditor loss."),
+        "kiel": ("197 unique main-sheet cases were observed; README reports 196; two chronology inversions and overlapping classification flags were found.", "AUDIT_VERIFIED", "Internal audit checks source consistency and coverage, not independent historical event truth."),
+    },
+    "cross_source_matching_constraints": {
+        "boc_boe": ("Use country-year as a screening key only; require debt type, creditor, period and claim scope before linking to an instrument or process.", "AUDIT_VERIFIED", "Annual exposure does not identify a unique restructuring process or instrument."),
+        "esm": ("Use country, instrument/legal scope and date interval; retain exact-date versus year-only provenance.", "AUDIT_VERIFIED", "Year-range candidates are contextual only and cannot establish canonical event identity."),
+        "kiel": ("Use country, restructuring-process dates, creditor scope and case-level chronology; retain raw flags and date precision.", "AUDIT_VERIFIED", "A process case is not automatically the same claim or event as an ESM instrument record."),
+    },
+    "permissible_analytical_uses": {
+        "boc_boe": ("Describe nominal affected-debt exposure by country-year and qualify observations using source coverage and reliability evidence.", "AUDIT_VERIFIED", "Do not describe exposure as realised creditor loss or infer real economic severity from raw nominal USD."),
+        "esm": ("Describe source-reported instrument terms and NPV observations for traceable records, with missingness and valuation caveats.", "AUDIT_VERIFIED", "Current severity output supports a Greek PSI case study, not a 20-country severity ranking."),
+        "kiel": ("Describe restructuring-process chronology and source-coded process classifications within its foreign-private-creditor scope.", "AUDIT_VERIFIED", "Do not use case counts as a comprehensive default census."),
+    },
+    "unsupported_inferences": {
+        "boc_boe": ("Cannot establish realised creditor losses, independent default-event counts, complete creditor composition or country-level debt/GDP ratios from the audited extract.", "AUDIT_VERIFIED", "Do not sum annual exposures, treat missing components as zero or use ordinal reliability scores as probabilities."),
+        "esm": ("Cannot establish unique aggregate creditor losses, percentage face-value haircuts from binary flags, or complete cross-country severity.", "AUDIT_VERIFIED", "Amount arithmetic and weighted NPV do not prove non-overlapping claims or realised cash losses."),
+        "kiel": ("Cannot establish a complete sovereign-default census, payment-default proof for every process, or monetary severity.", "AUDIT_VERIFIED", "No record is not no default; a source-coded post-default flag is not independent payment-default verification."),
+    },
+    "documentation_vintage_and_reproducibility": {
+        "boc_boe": ("2025 workbook/release note audited alongside a methodology document updated 2026-10-06; 16-entry evidence register and reproducible processed extracts exist.", "AUDIT_VERIFIED", "Do not apply 2026-only methodological revisions retrospectively without the 2025 methodology version."),
+        "esm": ("Workbook inspected: esm_domestic_sovereign_defaults.xlsx; README and 2022 version sheet; severity and integrity outputs are reproducible from the local source.", "AUDIT_VERIFIED", "Preserve source workbook vintage and raw decimal NPV encoding."),
+        "kiel": ("Workbook inspected: kiel_monthly_sovereign_default_1970_2025.xlsx.xlsx; README, main dataset and ongoing-cases sheet.", "AUDIT_VERIFIED", "README/main-sheet count discrepancy and date/classification anomalies must accompany reuse."),
+    },
+}
+
+
+PAIRWISE = [
+    {
+        "source_a": "boc_boe",
+        "source_b": "esm",
+        "relationship": "COMPLEMENTARY_CONSTRUCTS_CONDITIONALLY_LINKABLE",
+        "what_can_be_combined": "Country and time-window context may be compared when creditor, instrument, legal scope and valuation basis are demonstrably compatible.",
+        "matching_requirements": "Country identity; compatible date interval; instrument/debt type; creditor class; non-overlapping claim scope; valuation units and basis.",
+        "not_established": "That annual BoC–BoE exposure equals the sum of ESM instrument amounts, or that the two sources independently measure the same creditor loss.",
+        "independent_corroboration": "NOT_ESTABLISHED",
+    },
+    {
+        "source_a": "boc_boe",
+        "source_b": "kiel",
+        "relationship": "COMPLEMENTARY_CONSTRUCTS_CONDITIONALLY_LINKABLE",
+        "what_can_be_combined": "Kiel process chronology may provide contextual process evidence for a country-year in which BoC–BoE reports affected debt.",
+        "matching_requirements": "Country identity; compatible chronology; creditor/debt scope; evidence that the exposure relates to the particular restructuring process.",
+        "not_established": "That a positive annual exposure identifies a particular Kiel process, or that the process amount equals the affected debt exposure.",
+        "independent_corroboration": "NOT_ESTABLISHED",
+    },
+    {
+        "source_a": "esm",
+        "source_b": "kiel",
+        "relationship": "OVERLAPPING_SUBJECT_DIFFERENT_COVERAGE_UNIVERSES",
+        "what_can_be_combined": "Potentially complementary event/process context where local-law instrument records and foreign-private-creditor restructuring processes are demonstrably part of the same broader episode.",
+        "matching_requirements": "Country; event chronology with date precision retained; legal-law instrument scope; creditor class; process identity; evidence that records refer to the same episode rather than separate claims.",
+        "not_established": "That ESM local-law instruments and Kiel foreign-private-creditor processes cover the same debt, or that absence in one contradicts presence in the other.",
+        "independent_corroboration": "NOT_ESTABLISHED",
+    },
+]
+
+
+def require_columns(df, columns, label):
+    missing = sorted(set(columns) - set(df.columns))
+    if missing:
+        raise ValueError(f"{label}: missing required columns: {missing}")
+
+
+def load_and_validate_inputs():
+    loaded = {}
+    for key, relative in INPUTS.items():
+        path = ROOT / relative
+        if not path.exists():
+            raise FileNotFoundError(f"Missing input: {path}")
+        loaded[key] = pd.read_csv(path)
+
+    for relative in REPORT_INPUTS:
+        path = ROOT / relative
+        if not path.exists():
+            raise FileNotFoundError(f"Missing audit report: {path}")
+
+    require_columns(loaded["boc_methodology"], ["evidence_id", "status", "finding", "limitation"], "BoC methodology register")
+    require_columns(loaded["boc_observations"], ["DEBT_COUNTRY", "DEBT_YEAR", "DEBT_TOTAL_2025"], "BoC observations")
+    require_columns(loaded["boc_reliability"], ["iso3", "official_reliability_score", "score_is_probability", "score_is_annual"], "BoC reliability")
+    require_columns(loaded["esm_instruments"], ["source_row", "country", "amount_mln_usd", "npv_loss_raw"], "ESM instruments")
+    require_columns(loaded["esm_episodes"], ["episode_key", "instrument_count"], "ESM episodes")
+    require_columns(loaded["esm_integrity"], ["test", "status"], "ESM integrity")
+    require_columns(loaded["kiel_coverage"], ["peer_iso3", "source_record_count", "coverage_status"], "Kiel coverage")
+    require_columns(loaded["country_matrix"], ["iso3", "boc_boe_coverage_status", "kiel_coverage_status", "esm_evidence_status"], "Country evidence matrix")
+
+    expected = {
+        "boc_methodology": 16,
+        "boc_observations": 158,
+        "boc_reliability": 7,
+        "esm_instruments": 2,
+        "esm_episodes": 1,
+        "esm_integrity": 29,
+        "kiel_coverage": 20,
+        "country_matrix": 20,
+    }
+    for key, count in expected.items():
+        actual = len(loaded[key])
+        if actual != count:
+            raise ValueError(f"{key}: expected {count} rows, found {actual}")
+
+    if loaded["boc_observations"].duplicated(["DEBT_COUNTRY", "DEBT_YEAR"]).any():
+        raise ValueError("BoC observations contain duplicate country-year keys.")
+    if loaded["kiel_coverage"]["peer_iso3"].nunique() != 20:
+        raise ValueError("Kiel coverage does not contain 20 unique peer ISO3 codes.")
+    if loaded["country_matrix"]["iso3"].nunique() != 20:
+        raise ValueError("Country evidence matrix does not contain 20 unique ISO3 codes.")
+
+    return loaded
+
+
+def build_matrix():
+    rows = []
+    for dimension, source_values in DIMENSIONS.items():
+        for source in SOURCES:
+            finding, status, limitation = source_values[source]
+            rows.append({
+                "dimension": dimension,
+                "source": source,
+                "finding": finding,
+                "evidence_status": status,
+                "limitation": limitation,
+            })
+    return pd.DataFrame(rows)
+
+
+def build_report(loaded, matrix, pairs):
+    lines = [
+        "EUROPEAN SOVEREIGN DEFAULT CROSS-SOURCE COMPARABILITY ASSESSMENT",
+        "=" * 88,
+        "",
+        "PURPOSE",
+        "This assessment compares the constructs, units, coverage, temporal basis, valuation",
+        "semantics and permissible analytical uses of BoC-BoE, ESM and Kiel.",
+        "It is a source-methodology assessment, not a new event registry or severity model.",
+        "",
+        "INPUT VALIDATION",
+        "-" * 88,
+    ]
+
+    for key, df in loaded.items():
+        lines.append(f"{key}: {len(df)} rows")
+
+    lines.extend([
+        f"Source count: {len(SOURCES)}",
+        f"Comparability dimensions: {len(DIMENSIONS)}",
+        f"Source-dimension records: {len(matrix)}",
+        f"Pairwise assessments: {len(pairs)}",
+        "",
+        "SOURCE-SPECIFIC FINDINGS",
+        "-" * 88,
+    ])
+
+    for source in SOURCES:
+        lines.extend(["", source.upper()])
+        subset = matrix[matrix["source"] == source]
+        for _, row in subset.iterrows():
+            lines.append(f"- {row['dimension']} [{row['evidence_status']}]: {row['finding']}")
+            lines.append(f"  Limitation: {row['limitation']}")
+
+    lines.extend([
+        "",
+        "PAIRWISE COMPATIBILITY",
+        "-" * 88,
+    ])
+
+    for pair in pairs.to_dict("records"):
+        lines.extend([
+            "",
+            f"{pair['source_a']} vs {pair['source_b']}: {pair['relationship']}",
+            f"What can be combined: {pair['what_can_be_combined']}",
+            f"Matching requirements: {pair['matching_requirements']}",
+            f"Not established: {pair['not_established']}",
+            f"Independent corroboration: {pair['independent_corroboration']}",
+        ])
+
+    lines.extend([
+        "",
+        "OVERALL METHODOLOGICAL CONCLUSIONS",
+        "-" * 88,
+        "1. The three sources measure different constructs and have different observation units.",
+        "2. Country-year overlap alone does not establish that records refer to the same event or debt claims.",
+        "3. BoC-BoE nominal affected-debt exposure is not a realised creditor-loss measure.",
+        "4. ESM reported NPV and instrument amounts are not verified aggregate cash losses.",
+        "5. Kiel process records are not a comprehensive sovereign-default census.",
+        "6. Missing records and missing fields are not zeros or evidence of no default.",
+        "7. No composite severity score or cross-source ranking is justified by these inputs.",
+        "8. Independent corroboration remains NOT ESTABLISHED without record-level provenance and",
+        "   evidence that the sources independently document the same event and compatible claims.",
+        "",
+        "GOVERNANCE",
+        "-" * 88,
+        "No raw source workbook, primary event classification, or 20-country evidence matrix is modified.",
+        "No missing values are imputed. No source records are merged into a synthetic event count.",
+        "",
+        "OUTPUTS",
+        str(OUTPUT_MATRIX),
+        str(OUTPUT_PAIRS),
+        str(OUTPUT_REPORT),
+        "",
+        "BUILD COMPLETED.",
+    ])
+    return "\n".join(lines)
+
+
+def main():
+    loaded = load_and_validate_inputs()
+    matrix = build_matrix()
+    pairs = pd.DataFrame(PAIRWISE)
+
+    if len(matrix) != 48:
+        raise ValueError(f"Expected 48 source-dimension records, found {len(matrix)}")
+    if matrix.duplicated(["source", "dimension"]).any():
+        raise ValueError("Duplicate source-dimension records detected.")
+    if set(matrix["source"]) != set(SOURCES):
+        raise ValueError("Unexpected source set in comparability matrix.")
+    if matrix["finding"].isna().any() or matrix["limitation"].isna().any():
+        raise ValueError("Blank findings or limitations detected.")
+    if len(pairs) != 3 or pairs.duplicated(["source_a", "source_b"]).any():
+        raise ValueError("Pairwise compatibility output failed uniqueness checks.")
+
+    OUTPUT_MATRIX.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_REPORT.parent.mkdir(parents=True, exist_ok=True)
+
+    matrix.to_csv(OUTPUT_MATRIX, index=False, encoding="utf-8-sig")
+    pairs.to_csv(OUTPUT_PAIRS, index=False, encoding="utf-8-sig")
+    report = build_report(loaded, matrix, pairs)
+    OUTPUT_REPORT.write_text(report, encoding="utf-8")
+
+    # Round-trip verification
+    check_matrix = pd.read_csv(OUTPUT_MATRIX)
+    check_pairs = pd.read_csv(OUTPUT_PAIRS)
+    if len(check_matrix) != 48 or len(check_pairs) != 3:
+        raise RuntimeError("Output round-trip validation failed.")
+    if check_matrix.duplicated(["source", "dimension"]).any():
+        raise RuntimeError("Output matrix contains duplicate keys.")
+
+    print("=" * 88)
+    print("CROSS-SOURCE COMPARABILITY BUILDER CREATED")
+    print("=" * 88)
+    print(f"Matrix rows: {len(matrix)}")
+    print(f"Dimensions: {len(DIMENSIONS)}")
+    print(f"Sources: {len(SOURCES)}")
+    print(f"Pairwise assessments: {len(pairs)}")
+    print("Input validation: PASS")
+    print("Output round-trip validation: PASS")
+    print("No source classifications or existing country matrix modified.")
+    print(f"Builder: {Path(__file__).resolve()}")
+    print("Outputs written and round-trip validated.")
+
+
+if __name__ == "__main__":
+    main()

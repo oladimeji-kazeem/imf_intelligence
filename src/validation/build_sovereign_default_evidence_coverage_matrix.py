@@ -151,6 +151,72 @@ def clean_values(series):
     return values
 
 
+def validated_peer_source_map(dataframe, key_candidates, label):
+
+    key_col = find_column(
+        dataframe, key_candidates, required=True,
+        label=f"{label} ISO3 key"
+    )
+    country_col = find_column(
+        dataframe, ["country"], required=True,
+        label=f"{label} country name"
+    )
+
+    expected = {iso: country for iso, country in COUNTRIES}
+    observed = {}
+
+    for _, row in dataframe.iterrows():
+
+        raw_key = row[key_col]
+
+        if pd.isna(raw_key) or not str(raw_key).strip():
+            raise ValueError(f"{label}: blank ISO3 key detected.")
+
+        iso = str(raw_key).strip().upper()
+
+        if iso in observed:
+            raise ValueError(f"{label}: duplicate ISO3 key {iso}.")
+
+        if iso not in expected:
+            raise ValueError(f"{label}: unexpected ISO3 key {iso}.")
+
+        actual_country = normalise_country(row[country_col])
+
+        if actual_country != expected[iso]:
+            raise ValueError(
+                f"{label}: country mismatch for {iso}: "
+                f"expected {expected[iso]!r}, received {actual_country!r}."
+            )
+
+        observed[iso] = row
+
+    missing = sorted(set(expected) - set(observed))
+
+    if missing:
+        raise ValueError(f"{label}: missing peer ISO3 keys: {missing}")
+
+    if len(dataframe) != len(expected):
+        raise ValueError(
+            f"{label}: expected {len(expected)} rows, "
+            f"received {len(dataframe)}."
+        )
+
+    return observed
+
+
+def source_text(value):
+    if pd.isna(value):
+        return ""
+    return str(value).strip()
+
+
+def display_year(value):
+    if pd.isna(value) or str(value).strip() == "":
+        return ""
+    numeric = float(value)
+    return str(int(numeric)) if numeric.is_integer() else str(value).strip()
+
+
 # ============================================================
 # LOAD AND VALIDATE INPUTS
 # ============================================================
@@ -165,6 +231,14 @@ def load_inputs():
     source_coverage = read_csv(
         PROCESSED /
         "europe_sovereign_default_source_coverage.csv"
+    )
+
+    boc_boe_peer_coverage = read_csv(
+        PROCESSED / "boc_boe_europe_peer_coverage.csv"
+    )
+
+    kiel_peer_coverage = read_csv(
+        PROCESSED / "kiel_europe_peer_coverage.csv"
     )
 
     instruments = read_csv(
@@ -220,6 +294,8 @@ def load_inputs():
     return {
         "country_coverage": country_coverage,
         "source_coverage": source_coverage,
+        "boc_boe_peer_coverage": boc_boe_peer_coverage,
+        "kiel_peer_coverage": kiel_peer_coverage,
         "instruments": instruments,
         "episodes": episodes,
         "classifications": classifications,
@@ -341,6 +417,15 @@ def build_matrix():
     episodes = inputs["episodes"]
     classifications = inputs["classifications"]
     registry = inputs["registry"]
+    boc_boe_peer_coverage = inputs["boc_boe_peer_coverage"]
+    kiel_peer_coverage = inputs["kiel_peer_coverage"]
+
+    boc_boe_by_iso = validated_peer_source_map(
+        boc_boe_peer_coverage, ["iso3"], "BoC-BoE peer coverage"
+    )
+    kiel_by_iso = validated_peer_source_map(
+        kiel_peer_coverage, ["peer_iso3"], "Kiel peer coverage"
+    )
 
     (
         source_statuses,
@@ -484,7 +569,8 @@ def build_matrix():
             "classification",
             "evidence_status",
         ],
-        required=False
+        required=True,
+        label="episode evidence classification"
     )
 
     if not class_country:
@@ -495,6 +581,72 @@ def build_matrix():
     if not classified_episode_col:
         raise ValueError(
             "Canonical episode key is missing from episode classification input."
+        )
+
+    # --------------------------------------------------------
+    # Validate episode classification contract
+    # --------------------------------------------------------
+
+    allowed_classifications = {
+        "QUANTIFIED_NPV_AND_RESTRUCTURING_EVIDENCE",
+        "QUANTIFIED_NPV_EVIDENCE",
+        "PARTIAL_QUANTIFIED_EVIDENCE",
+        "RESTRUCTURING_INDICATORS_ONLY",
+        "INSUFFICIENT_SEVERITY_EVIDENCE",
+    }
+
+    normalised_classifications = (
+        classifications[classification_col]
+        .astype("string")
+        .str.strip()
+        .str.upper()
+    )
+
+    if (
+        normalised_classifications.isna().any()
+        or normalised_classifications.eq("").any()
+    ):
+        raise ValueError(
+            "Episode classification input contains missing or blank "
+            "classification values."
+        )
+
+    unexpected_classifications = (
+        set(normalised_classifications.unique())
+        - allowed_classifications
+    )
+
+    if unexpected_classifications:
+        raise ValueError(
+            "Unrecognised episode classification values: "
+            f"{sorted(unexpected_classifications)}"
+        )
+
+    episode_keys = classifications[classified_episode_col]
+
+    if episode_keys.isna().any() or (
+        episode_keys.astype(str).str.strip().eq("").any()
+    ):
+        raise ValueError(
+            "Episode classification input contains missing or blank "
+            "episode keys."
+        )
+
+    duplicate_episode_keys = (
+        episode_keys.astype(str)
+        .str.strip()
+        .duplicated(keep=False)
+    )
+
+    if duplicate_episode_keys.any():
+        duplicates = sorted(
+            episode_keys.astype(str)
+            .str.strip()[duplicate_episode_keys]
+            .unique()
+        )
+        raise ValueError(
+            "Duplicate episode keys in classification input: "
+            f"{duplicates}"
         )
 
     if not registry_event_id_col:
@@ -708,9 +860,24 @@ def build_matrix():
             .eq(country)
         ]
 
+        evidence_bearing_classifications = {
+            "QUANTIFIED_NPV_AND_RESTRUCTURING_EVIDENCE",
+            "QUANTIFIED_NPV_EVIDENCE",
+            "PARTIAL_QUANTIFIED_EVIDENCE",
+            "RESTRUCTURING_INDICATORS_ONLY",
+        }
+
+        qualifying_classifications = country_classifications[
+            country_classifications[classification_col]
+            .astype(str)
+            .str.strip()
+            .str.upper()
+            .isin(evidence_bearing_classifications)
+        ]
+
         classified_episode_ids = set(
             clean_values(
-                country_classifications[
+                qualifying_classifications[
                     classified_episode_col
                 ]
             )
@@ -732,49 +899,130 @@ def build_matrix():
         )
 
         # ----------------------------------------------------
-        # Historical events without severity evidence
+        # Country-specific evidence dimensions
         # ----------------------------------------------------
 
-        historical_events_without_severity = (
-            registry_events > 0
-            and classified_episode_count == 0
+        registry_event_status = (
+            "REGISTRY_EVENTS_RECORDED"
+            if registry_events > 0
+            else "NO_EVENT_IN_CURRENT_REGISTRY"
         )
 
+        if classified_episode_count > 0:
+
+            severity_evidence_status = (
+                "CLASSIFIED_EPISODE_EVIDENCE_PRESENT"
+            )
+
+        elif severity_episode_count > 0:
+
+            severity_evidence_status = (
+                "SEVERITY_EPISODES_PRESENT_NOT_CLASSIFIED"
+            )
+
+        elif instrument_count > 0 and (
+            linked_instrument_count > 0
+            and unlinked_instrument_count > 0
+        ):
+
+            severity_evidence_status = (
+                "MIXED_LINKED_AND_UNLINKED_INSTRUMENT_RECORDS"
+            )
+
+        elif instrument_count > 0 and unlinked_instrument_count > 0:
+
+            severity_evidence_status = (
+                "UNLINKED_INSTRUMENT_RECORDS"
+            )
+
+        elif instrument_count > 0:
+
+            severity_evidence_status = (
+                "LINKED_INSTRUMENT_RECORDS_NOT_CLASSIFIED"
+            )
+
+        else:
+
+            severity_evidence_status = (
+                "NO_SEVERITY_EVIDENCE_RECORDS"
+            )
+
         # ----------------------------------------------------
-        # Primary evidence classification
+        # Neutral primary evidence summary
         # ----------------------------------------------------
 
         if classified_episode_count > 0:
 
             primary_status = (
-                "EPISODE_EVIDENCE_IDENTIFIED"
+                "CLASSIFIED_EPISODE_EVIDENCE_PRESENT"
             )
 
-        elif (
-            instrument_count > 0
+        elif severity_episode_count > 0:
+
+            primary_status = (
+                "SEVERITY_EPISODES_PRESENT_NOT_CLASSIFIED"
+            )
+
+        elif instrument_count > 0 and (
+            linked_instrument_count > 0
             and unlinked_instrument_count > 0
         ):
 
             primary_status = (
-                "SOURCE_RECORDS_UNLINKED"
+                "MIXED_LINKED_AND_UNLINKED_INSTRUMENT_RECORDS"
             )
 
-        elif historical_events_without_severity:
+        elif instrument_count > 0 and unlinked_instrument_count > 0:
 
             primary_status = (
-                "HISTORICAL_EVENTS_WITHOUT_SEVERITY_DATA"
+                "UNLINKED_INSTRUMENT_RECORDS"
             )
 
-        elif source_availability != "ALL_EXPECTED_SOURCES_FOUND":
+        elif instrument_count > 0:
 
             primary_status = (
-                "SOURCE_COVERAGE_INSUFFICIENT"
+                "LINKED_INSTRUMENT_RECORDS_NOT_CLASSIFIED"
+            )
+
+        elif registry_events > 0:
+
+            sovereign_event_types = {
+                "sovereign_restructuring",
+                "sovereign_default",
+            }
+            contextual_stress_event_types = {
+                "financial_assistance",
+                "systemic_banking_crisis",
+            }
+
+            registry_event_type_set = set(registry_event_types)
+
+            if registry_event_type_set & sovereign_event_types:
+                primary_status = (
+                    "SOVEREIGN_EVENT_TYPE_RECORDED_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE"
+                )
+            elif (
+                registry_event_type_set
+                and registry_event_type_set.issubset(
+                    contextual_stress_event_types
+                )
+            ):
+                primary_status = "CONTEXTUAL_STRESS_EVENTS_ONLY"
+            else:
+                primary_status = (
+                    "OTHER_REGISTRY_EVENTS_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE"
+                )
+
+        elif esm_records > 0:
+
+            primary_status = (
+                "ESM_RECORDS_WITHOUT_CLASSIFIED_EPISODE_EVIDENCE"
             )
 
         else:
 
             primary_status = (
-                "NO_MATCH_IN_AVAILABLE_SOURCES"
+                "NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS"
             )
 
         # ----------------------------------------------------
@@ -834,8 +1082,95 @@ def build_matrix():
 
             "primary_evidence_status": primary_status,
 
+            "registry_event_status": registry_event_status,
+
+            "severity_evidence_status": severity_evidence_status,
+
+            "payment_default_proof_assessment":
+                "NOT_ASSESSED_FROM_CURRENT_INPUTS",
+
             "event_type_interpretation":
                 event_type_interpretation,
+
+            "boc_boe_coverage_status": source_text(
+                boc_boe_by_iso[iso]["coverage_status"]
+            ),
+            "boc_boe_coverage_interpretation": source_text(
+                boc_boe_by_iso[iso]["coverage_interpretation"]
+            ),
+            "boc_boe_observation_rows": safe_integer(
+                boc_boe_by_iso[iso]["observation_rows"]
+            ),
+            "boc_boe_first_year": source_text(
+                boc_boe_by_iso[iso]["first_year"]
+            ),
+            "boc_boe_last_year": source_text(
+                boc_boe_by_iso[iso]["last_year"]
+            ),
+            "boc_boe_missing_total_rows": safe_integer(
+                boc_boe_by_iso[iso]["missing_total_rows"]
+            ),
+            "boc_boe_zero_total_rows": safe_integer(
+                boc_boe_by_iso[iso]["zero_total_rows"]
+            ),
+            "boc_boe_positive_total_rows": safe_integer(
+                boc_boe_by_iso[iso]["positive_total_rows"]
+            ),
+            "boc_boe_historical_labels_for_review": source_text(
+                boc_boe_by_iso[iso]["historical_labels_for_review"]
+            ),
+
+            "kiel_coverage_status": source_text(
+                kiel_by_iso[iso]["coverage_status"]
+            ),
+            "kiel_source_record_count": safe_integer(
+                kiel_by_iso[iso]["source_record_count"]
+            ),
+            "kiel_source_wdi_codes": source_text(
+                kiel_by_iso[iso]["source_wdi_codes"]
+            ),
+            "kiel_first_start_date": source_text(
+                kiel_by_iso[iso]["first_start_date"]
+            ),
+            "kiel_last_start_date": source_text(
+                kiel_by_iso[iso]["last_start_date"]
+            ),
+            "kiel_missing_start_dates": safe_integer(
+                kiel_by_iso[iso]["missing_start_dates"]
+            ),
+            "kiel_missing_end_dates": safe_integer(
+                kiel_by_iso[iso]["missing_end_dates"]
+            ),
+            "kiel_missing_default_dates": safe_integer(
+                kiel_by_iso[iso]["missing_default_dates"]
+            ),
+            "kiel_missing_announcements": safe_integer(
+                kiel_by_iso[iso]["missing_announcements"]
+            ),
+            "kiel_imprecise_start_dates": safe_integer(
+                kiel_by_iso[iso]["imprecise_start_dates"]
+            ),
+            "kiel_strictly_preemptive_raw_flags": safe_integer(
+                kiel_by_iso[iso]["strictly_preemptive_raw_flags"]
+            ),
+            "kiel_weakly_preemptive_raw_flags": safe_integer(
+                kiel_by_iso[iso]["weakly_preemptive_raw_flags"]
+            ),
+            "kiel_post_default_raw_flags": safe_integer(
+                kiel_by_iso[iso]["post_default_raw_flags"]
+            ),
+            "kiel_strict_weak_overlap": safe_integer(
+                kiel_by_iso[iso]["strict_weak_overlap"]
+            ),
+            "kiel_post_preemptive_overlap": safe_integer(
+                kiel_by_iso[iso]["post_preemptive_overlap"]
+            ),
+            "kiel_chronology_inversions": safe_integer(
+                kiel_by_iso[iso]["chronology_inversions"]
+            ),
+            "kiel_interpretation": source_text(
+                kiel_by_iso[iso]["interpretation"]
+            ),
 
             "esm_records": esm_records,
             "esm_valid_date_records": valid_records,
@@ -875,17 +1210,6 @@ def build_matrix():
 
             "classification_types": ";".join(
                 classification_values
-            ),
-
-            "source_availability_status":
-                source_availability,
-
-            "available_sources": ";".join(
-                found_sources
-            ),
-
-            "missing_sources": ";".join(
-                missing_sources
             ),
 
             "interpretation":
@@ -938,6 +1262,185 @@ def build_matrix():
 
         raise RuntimeError(
             "Severity instrument linkage reconciliation failed."
+        )
+
+    # ========================================================
+    # COUNTRY-LEVEL SEMANTIC VALIDATION
+    # ========================================================
+
+    for _, row in matrix.iterrows():
+
+        country = row["country"]
+
+        registry_events = int(row["registry_event_records"])
+        esm_records = int(row["esm_records"])
+        instrument_count = int(row["severity_instrument_records"])
+        linked_count = int(row["linked_instrument_records"])
+        unlinked_count = int(row["unlinked_instrument_records"])
+        episode_count = int(row["severity_episode_records"])
+        classified_count = int(row["classified_episode_count"])
+
+        # Counts must be non-negative.
+        count_fields = [
+            "registry_event_records",
+            "esm_records",
+            "severity_instrument_records",
+            "linked_instrument_records",
+            "unlinked_instrument_records",
+            "severity_episode_records",
+            "classified_episode_count",
+        ]
+
+        if any(int(row[field]) < 0 for field in count_fields):
+            raise RuntimeError(
+                f"Negative evidence count detected for {country}."
+            )
+
+        # Registry status must agree with observed registry rows.
+        expected_registry_status = (
+            "REGISTRY_EVENTS_RECORDED"
+            if registry_events > 0
+            else "NO_EVENT_IN_CURRENT_REGISTRY"
+        )
+
+        if row["registry_event_status"] != expected_registry_status:
+            raise RuntimeError(
+                f"Registry status/count mismatch for {country}."
+            )
+
+        # Severity evidence status must agree with evidence counts.
+        if classified_count > 0:
+            expected_severity_status = (
+                "CLASSIFIED_EPISODE_EVIDENCE_PRESENT"
+            )
+
+        elif episode_count > 0:
+            expected_severity_status = (
+                "SEVERITY_EPISODES_PRESENT_NOT_CLASSIFIED"
+            )
+
+        elif instrument_count > 0 and (
+            linked_count > 0 and unlinked_count > 0
+        ):
+            expected_severity_status = (
+                "MIXED_LINKED_AND_UNLINKED_INSTRUMENT_RECORDS"
+            )
+
+        elif instrument_count > 0 and unlinked_count > 0:
+            expected_severity_status = (
+                "UNLINKED_INSTRUMENT_RECORDS"
+            )
+
+        elif instrument_count > 0:
+            expected_severity_status = (
+                "LINKED_INSTRUMENT_RECORDS_NOT_CLASSIFIED"
+            )
+
+        else:
+            expected_severity_status = (
+                "NO_SEVERITY_EVIDENCE_RECORDS"
+            )
+
+        if row["severity_evidence_status"] != expected_severity_status:
+            raise RuntimeError(
+                f"Severity evidence status/count mismatch for {country}."
+            )
+
+        # Primary status must follow the documented evidence hierarchy.
+        if classified_count > 0:
+            expected_primary_status = (
+                "CLASSIFIED_EPISODE_EVIDENCE_PRESENT"
+            )
+
+        elif episode_count > 0:
+            expected_primary_status = (
+                "SEVERITY_EPISODES_PRESENT_NOT_CLASSIFIED"
+            )
+
+        elif instrument_count > 0 and (
+            linked_count > 0 and unlinked_count > 0
+        ):
+            expected_primary_status = (
+                "MIXED_LINKED_AND_UNLINKED_INSTRUMENT_RECORDS"
+            )
+
+        elif instrument_count > 0 and unlinked_count > 0:
+            expected_primary_status = (
+                "UNLINKED_INSTRUMENT_RECORDS"
+            )
+
+        elif instrument_count > 0:
+            expected_primary_status = (
+                "LINKED_INSTRUMENT_RECORDS_NOT_CLASSIFIED"
+            )
+
+        elif registry_events > 0:
+            registry_event_type_set = {
+                value.strip()
+                for value in str(row["registry_event_types"]).split(";")
+                if value.strip()
+            }
+
+            sovereign_event_types = {
+                "sovereign_restructuring",
+                "sovereign_default",
+            }
+            contextual_stress_event_types = {
+                "financial_assistance",
+                "systemic_banking_crisis",
+            }
+
+            if registry_event_type_set & sovereign_event_types:
+                expected_primary_status = (
+                    "SOVEREIGN_EVENT_TYPE_RECORDED_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE"
+                )
+            elif (
+                registry_event_type_set
+                and registry_event_type_set.issubset(
+                    contextual_stress_event_types
+                )
+            ):
+                expected_primary_status = "CONTEXTUAL_STRESS_EVENTS_ONLY"
+            else:
+                expected_primary_status = (
+                    "OTHER_REGISTRY_EVENTS_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE"
+                )
+
+        elif esm_records > 0:
+            expected_primary_status = (
+                "ESM_RECORDS_WITHOUT_CLASSIFIED_EPISODE_EVIDENCE"
+            )
+
+        else:
+            expected_primary_status = (
+                "NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS"
+            )
+
+        if row["primary_evidence_status"] != expected_primary_status:
+            raise RuntimeError(
+                f"Primary evidence status/count mismatch for {country}."
+            )
+
+        # The matrix must not silently claim payment-default proof.
+        if (
+            row["payment_default_proof_assessment"]
+            != "NOT_ASSESSED_FROM_CURRENT_INPUTS"
+        ):
+            raise RuntimeError(
+                f"Unexpected payment-default proof assessment for {country}."
+            )
+
+    # No primary status may imply an established payment default.
+    prohibited_default_labels = {
+        "DEFAULT_ESTABLISHED",
+        "PAYMENT_DEFAULT_ESTABLISHED",
+        "SOVEREIGN_DEFAULT_CONFIRMED",
+    }
+
+    if set(matrix["primary_evidence_status"]) & prohibited_default_labels:
+        raise RuntimeError(
+            "Primary evidence status contains a prohibited "
+            "payment-default assertion."
         )
 
     # ========================================================
@@ -1026,8 +1529,52 @@ def build_matrix():
                 "(local file presence only)\n"
             )
 
-        report.write("\nPRIMARY EVIDENCE CLASSIFICATION\n")
+        report.write("\nBoC-BoE COUNTRY-YEAR COVERAGE\n")
         report.write("-" * 76 + "\n")
+
+        report.write(
+            f"Direct country-label matches: "
+            f"{(matrix['boc_boe_coverage_interpretation'] == 'DIRECT_COUNTRY_LABEL_MATCH').sum()}\n"
+        )
+        report.write(
+            f"Historical predecessor-only, attribution unresolved: "
+            f"{(matrix['boc_boe_coverage_interpretation'] == 'HISTORICAL_PREDECESSOR_ONLY_ATTRIBUTION_UNRESOLVED').sum()}\n"
+        )
+        report.write(
+            f"No matching country or configured predecessor label: "
+            f"{(matrix['boc_boe_coverage_interpretation'] == 'NO_MATCHING_COUNTRY_OR_CONFIGURED_PREDECESSOR_LABEL').sum()}\n"
+        )
+        report.write(
+            "Annual positive-value rows are observations, not default episodes. "
+            "Historical predecessor values are not allocated to successor states.\n\n"
+        )
+
+        report.write("KIEL FOREIGN-PRIVATE-CREDITOR RESTRUCTURING COVERAGE\n")
+        report.write("-" * 76 + "\n")
+
+        report.write(
+            f"Peer countries with process records: "
+            f"{(matrix['kiel_source_record_count'] > 0).sum()}\n"
+        )
+        report.write(
+            f"Peer restructuring-process records: "
+            f"{matrix['kiel_source_record_count'].sum()}\n"
+        )
+        report.write(
+            "Kiel records are restructuring processes, not a comprehensive "
+            "census of sovereign defaults. Raw classification flags are "
+            "preserved and may overlap.\n\n"
+        )
+
+        report.write("\nREGISTRY / SEVERITY-BASED PRIMARY EVIDENCE CLASSIFICATION\n")
+        report.write("-" * 76 + "\n")
+        report.write(
+            "Scope: this status is determined by registry, severity and ESM evidence "
+            "under the matrix rules. BoC-BoE annual exposure observations and Kiel "
+            "foreign-private-creditor restructuring processes are reported separately "
+            "and do not independently determine this status. An ESM record alone "
+            "does not necessarily constitute a classified severity episode.\n\n"
+        )
 
         for status, count in distribution.items():
 
@@ -1049,18 +1596,47 @@ def build_matrix():
 
         for _, row in matrix.iterrows():
 
+            boc_rows = row["boc_boe_observation_rows"]
+
+            if boc_rows == 0:
+                boc_counts = "positive=N/A, zero=N/A, missing=N/A"
+            else:
+                boc_counts = (
+                    f"positive={row['boc_boe_positive_total_rows']}, "
+                    f"zero={row['boc_boe_zero_total_rows']}, "
+                    f"missing={row['boc_boe_missing_total_rows']}"
+                )
+
+            boc_first_year = display_year(row["boc_boe_first_year"])
+            boc_last_year = display_year(row["boc_boe_last_year"])
+
             report.write(
                 f"{row['iso3']} | "
                 f"{row['country']} | "
-                f"{row['primary_evidence_status']} | "
-                f"Registry events: "
-                f"{row['registry_event_records']} | "
-                f"Event types: "
-                f"{row['registry_event_types']} | "
-                f"ESM records: "
-                f"{row['esm_records']} | "
-                f"Classified episodes: "
-                f"{row['classified_episode_count']}\n"
+                f"Primary evidence: {row['primary_evidence_status']} | "
+                f"Registry status: {row['registry_event_status']} | "
+                f"Registry events: {row['registry_event_records']} | "
+                f"Event types: {row['registry_event_types']} | "
+                f"ESM records: {row['esm_records']} | "
+                f"Severity evidence: {row['severity_evidence_status']} | "
+                f"Classified episodes: {row['classified_episode_count']} | "
+                f"Payment-default proof: "
+                f"{row['payment_default_proof_assessment']} | "
+                f"BoC-BoE: {row['boc_boe_coverage_interpretation']} "
+                f"(rows={boc_rows}, "
+                f"{boc_counts}, "
+                f"years={boc_first_year}-{boc_last_year}, "
+                f"historical_review={row['boc_boe_historical_labels_for_review']}) | "
+                f"Kiel: {row['kiel_coverage_status']} "
+                f"(processes={row['kiel_source_record_count']}, "
+                f"strict={row['kiel_strictly_preemptive_raw_flags']}, "
+                f"weak={row['kiel_weakly_preemptive_raw_flags']}, "
+                f"post={row['kiel_post_default_raw_flags']}, "
+                f"strict_weak_overlap={row['kiel_strict_weak_overlap']}, "
+                f"missing_default_dates={row['kiel_missing_default_dates']}, "
+                f"imprecise_starts={row['kiel_imprecise_start_dates']}, "
+                f"chronology_inversions={row['kiel_chronology_inversions']}, "
+                f"WDI={row['kiel_source_wdi_codes']})\n"
             )
 
         report.write("\nINTERPRETATION LIMITATIONS\n")
@@ -1069,8 +1645,16 @@ def build_matrix():
         limitations = [
             "No record in ESM does not establish that a country had no default.",
             "The ESM source concerns domestic-law sovereign restructurings and is not comprehensive default coverage.",
-            "BoC-BoE and Kiel availability reflects the supplied source inventory.",
+            "BoC-BoE peer coverage describes country-label matches and annual country-year observations; positive annual values are not episode counts or independently verified defaults.",
+            "BoC-BoE historical predecessor labels retain unresolved attribution; no predecessor observations are allocated to successor countries.",
+            "Kiel coverage describes foreign-private-creditor restructuring processes, not comprehensive sovereign-default coverage; no Kiel record is not evidence of no default.",
+            "Kiel strict, weak and post-default fields are raw source flags. Strict and weak flags overlap and must not be treated as mutually exclusive counts.",
+            "Kiel process-record counts are not equivalent to independent default episodes or a complete count of payment defaults.",
+            "BoC-BoE and Kiel peer coverage inputs are validated for exactly one correctly named row per peer ISO3 code.",
             "Historical stress events are not automatically equivalent to sovereign defaults.",
+            "Countries classified as CONTEXTUAL_STRESS_EVENTS_ONLY have registry records limited to financial assistance and/or systemic banking crises; these are contextual indicators, not sovereign-default evidence.",
+            "A sovereign restructuring or sovereign-default event type without a classified severity episode is reported separately and does not, by itself, establish payment-default proof.",
+            "Unrecognised registry event types are kept in a separate category rather than silently treated as contextual stress events.",
             "Financial assistance is not, by itself, proof of sovereign default.",
             "Systemic banking crises are not, by themselves, proof of sovereign default.",
             "Registry event IDs are individual event identifiers, not canonical episode identifiers.",
@@ -1078,7 +1662,10 @@ def build_matrix():
             "Registry events without severity evidence remain distinct from quantified severity episodes.",
             "No country ranking, default probability, or composite severity score is produced.",
             "The historical stress-event registry and prior audit outputs are read-only inputs.",
-            "No-match classifications must not be interpreted as proof of zero historical defaults.",
+            "NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS means no qualifying registry, severity or ESM match under this matrix's rules; it does not mean that no evidence exists in BoC-BoE or Kiel, nor that the country had zero historical defaults.",
+            "Payment-default proof is not assessed by this matrix because the current historical stress-event registry has no default_proof_status field.",
+            "A classified restructuring episode or quantified NPV observation is not, by itself, proof of payment default.",
+            "The local source inventory does not establish dataset schema validity, completeness, temporal coverage, or country coverage.",
         ]
 
         for item in limitations:
@@ -1114,7 +1701,7 @@ def build_matrix():
         f"{matrix['classified_episode_count'].sum()}"
     )
 
-    print("\nPRIMARY EVIDENCE CLASSIFICATION")
+    print("\nREGISTRY / SEVERITY-BASED PRIMARY EVIDENCE CLASSIFICATION")
     print(distribution.to_string())
 
     print("\nREGISTRY EVENT-TYPE INTERPRETATION")

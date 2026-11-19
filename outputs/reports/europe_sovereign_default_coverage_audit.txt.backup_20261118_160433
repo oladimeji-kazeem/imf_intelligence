@@ -1,0 +1,55 @@
+==============================================================================
+EUROPEAN SOVEREIGN DEFAULT COVERAGE AUDIT
+==============================================================================
+
+Project root: C:\Users\oladi\sources\imf_intelligence
+European countries: 20
+Country universe source: explicit_configuration
+ESM global records: 134
+ESM European records: 2
+Valid ESM date records: 2
+Invalid ESM date records: 0
+Registry records: 21
+ESM records with temporal registry overlap: 2
+
+SOURCE AVAILABILITY
+ source                                     expected_files status                                                                                              actual_path
+boc_boe       boc_boe_sovereign_default_database_2025.xlsx  FOUND       C:\Users\oladi\sources\imf_intelligence\data\external\boc_boe_sovereign_default_database_2025.xlsx
+   kiel kiel_monthly_sovereign_default_1970_2025.xlsx.xlsx  FOUND C:\Users\oladi\sources\imf_intelligence\data\external\kiel_monthly_sovereign_default_1970_2025.xlsx.xlsx
+    esm               esm_domestic_sovereign_defaults.xlsx  FOUND               C:\Users\oladi\sources\imf_intelligence\data\external\esm_domestic_sovereign_defaults.xlsx
+
+COUNTRY COVERAGE
+       country  esm_records  valid_date_records  invalid_date_records esm_evidence_status                                      interpretation
+       Austria            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+       Belgium            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+   Switzerland            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+Czech Republic            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+       Germany            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+       Denmark            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+         Spain            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+       Finland            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+        France            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+United Kingdom            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+        Greece            2                   2                     0       RECORDS_FOUND      Domestic-law restructuring evidence identified
+       Hungary            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+       Ireland            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+         Italy            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+   Netherlands            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+        Norway            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+        Poland            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+      Portugal            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+       Romania            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+        Sweden            0                   0                     0    NO_RECORD_IN_ESM No record identified; not evidence of zero defaults
+
+RECONCILIATION LIMITATIONS
+- Temporal overlap is a candidate match, not proof of identical events.
+- Same-country records without overlap require manual review.
+- ESM covers domestic-law instruments, not all sovereign defaults.
+- Missing source files indicate unavailable evidence, not zero defaults.
+- Registry row indices are technical references, not permanent event IDs.
+- Year-only dates are represented as January 1 and may distort overlap.
+- Instrument-level records must not automatically be counted as episodes.
+
+NO SOURCE FILES OR HISTORICAL REGISTRY RECORDS WERE MODIFIED.
+
+AUDIT COMPLETED.

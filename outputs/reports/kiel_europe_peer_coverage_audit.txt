@@ -1,0 +1,78 @@
+====================================================================================================
+KIEL EUROPEAN PEER RESTRUCTURING-PROCESS COVERAGE AUDIT
+====================================================================================================
+Source workbook: kiel_monthly_sovereign_default_1970_2025.xlsx.xlsx
+Source sheet: DATASET Defaults & Restruct.
+Main-sheet records observed: 197
+README-reported main-sheet records: 196
+README/workbook count discrepancy: 1
+Peer countries assessed: 20
+Peer countries with records: 3
+Peer main-sheet records: 12
+
+PEER COUNTRY COVERAGE
+----------------------------------------------------------------------------------------------------
+AUT | Austria | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+BEL | Belgium | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+CHE | Switzerland | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+CZE | Czech Republic | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+DEU | Germany | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+DNK | Denmark | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+ESP | Spain | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+FIN | Finland | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+FRA | France | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+GBR | United Kingdom | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+GRC | Greece | cases=1 | strict=1 | weak=1 | post=0 | missing_default_dates=1 | imprecise_starts=0 | RESTRUCTURING_RECORDS_FOUND
+HUN | Hungary | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+IRL | Ireland | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+ITA | Italy | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+NLD | Netherlands | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+NOR | Norway | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+POL | Poland | cases=8 | strict=0 | weak=0 | post=8 | missing_default_dates=0 | imprecise_starts=0 | RESTRUCTURING_RECORDS_FOUND
+PRT | Portugal | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+ROU | Romania | cases=3 | strict=0 | weak=2 | post=1 | missing_default_dates=0 | imprecise_starts=0 | RESTRUCTURING_RECORDS_FOUND
+SWE | Sweden | cases=0 | strict=0 | weak=0 | post=0 | missing_default_dates=0 | imprecise_starts=0 | NO_RECORD_IN_KIEL_MAIN_DATASET
+
+SOURCE-WIDE CLASSIFICATION AND DATE QUALITY
+----------------------------------------------------------------------------------------------------
+Strict/weak overlapping flags: 33
+Post-default/preemptive overlapping flags: 0
+Chronology inversions (end before start): 2
+Imprecise start-date flags: 41
+
+CLASSIFICATION INTERPRETATION
+----------------------------------------------------------------------------------------------------
+1. Raw strict, weak and post-default flags are retained independently.
+2. Strictly preemptive and weakly preemptive flags overlap in the source;
+   they must not be treated as mutually exclusive categories.
+3. The source README definitions and observed flag combinations require
+   semantic reconciliation before exclusive classification is attempted.
+4. A post-default flag reflects the source's coding definition; it is not
+   an independent verification of payment default by this audit.
+
+COVERAGE AND ATTRIBUTION
+----------------------------------------------------------------------------------------------------
+1. The dataset records restructuring processes involving foreign private
+   creditors; it is not a comprehensive census of sovereign defaults.
+2. No matching record does not establish that a country had no default.
+3. The source WDI code ROM is explicitly mapped to peer ISO3 ROU for Romania.
+4. Original source codes are retained in the peer coverage CSV.
+5. Multiple restructuring records for one country remain separate cases.
+6. Ongoing cases listed separately in the workbook are excluded from the
+   completed main-sheet case count.
+
+SOURCE LIMITATIONS
+----------------------------------------------------------------------------------------------------
+1. The workbook README states 196 main cases; the main sheet contains 197.
+2. Some source start dates are explicitly flagged as imprecise.
+3. The dataset's coverage and coding rules exclude some continuous defaults
+   without an implemented debt exchange.
+4. This audit assesses source coverage and internal coding properties; it
+   does not independently validate the underlying historical events.
+
+OUTPUT
+----------------------------------------------------------------------------------------------------
+C:\Users\oladi\sources\imf_intelligence\data\processed\kiel_europe_peer_coverage.csv
+C:\Users\oladi\sources\imf_intelligence\outputs\reports\kiel_europe_peer_coverage_audit.txt
+
+KIEL PEER COVERAGE AUDIT COMPLETED.

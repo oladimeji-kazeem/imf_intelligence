@@ -1,0 +1,4 @@
+﻿historical_label,attribution_status,record_status,observation_rows,first_year,last_year,missing_total_rows,zero_total_rows,positive_total_rows
+Czechoslovakia,SHARED_PREDECESSOR_CZECHIA_SLOVAKIA,HISTORICAL_RECORD_FOUND,65,1960,2024,32,6,27
+USSR/Russian Federation,COMBINED_HISTORICAL_ENTITY_UNALLOCATED,HISTORICAL_RECORD_FOUND,65,1960,2024,0,9,56
+Yugoslavia,PREDECESSOR_STATE_UNALLOCATED,HISTORICAL_RECORD_FOUND,65,1960,2024,33,12,20

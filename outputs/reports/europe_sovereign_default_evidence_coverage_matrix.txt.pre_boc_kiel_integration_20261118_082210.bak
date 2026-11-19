@@ -1,0 +1,73 @@
+============================================================================
+EUROPEAN SOVEREIGN DEFAULT EVIDENCE COVERAGE MATRIX
+============================================================================
+
+CANONICAL COVERAGE
+----------------------------------------------------------------------------
+Countries assessed: 20
+Unique countries: 20
+Registry event rows reconciled: 21
+
+PROJECT-WIDE SOURCE INVENTORY (LOCAL FILE PRESENCE ONLY)
+----------------------------------------------------------------------------
+FOUND means a configured candidate file exists locally; NOT_FOUND means no configured candidate file was found.
+Neither status establishes public availability, dataset completeness, schema validity, or country coverage.
+
+boc_boe: NOT_FOUND (local file presence only)
+kiel: NOT_FOUND (local file presence only)
+esm: FOUND (local file presence only)
+
+PRIMARY EVIDENCE CLASSIFICATION
+----------------------------------------------------------------------------
+CLASSIFIED_EPISODE_EVIDENCE_PRESENT: 1
+NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS: 7
+REGISTRY_EVENTS_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE: 12
+
+REGISTRY EVENT-TYPE INTERPRETATION
+----------------------------------------------------------------------------
+BANKING_CRISIS_RECORDED_NOT_DEFAULT_PROOF: 9
+FINANCIAL_ASSISTANCE_AND_BANKING_CRISIS_RECORDED: 2
+FINANCIAL_ASSISTANCE_RECORDED_NOT_DEFAULT_PROOF: 1
+NO_REGISTRY_EVENT_RECORDED: 7
+SOVEREIGN_RESTRUCTURING_EVENT_RECORDED: 1
+
+COUNTRY CLASSIFICATION
+----------------------------------------------------------------------------
+AUT | Austria | Primary evidence: REGISTRY_EVENTS_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+BEL | Belgium | Primary evidence: NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS | Registry status: NO_EVENT_IN_CURRENT_REGISTRY | Registry events: 0 | Event types:  | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+CHE | Switzerland | Primary evidence: NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS | Registry status: NO_EVENT_IN_CURRENT_REGISTRY | Registry events: 0 | Event types:  | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+CZE | Czech Republic | Primary evidence: NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS | Registry status: NO_EVENT_IN_CURRENT_REGISTRY | Registry events: 0 | Event types:  | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+DEU | Germany | Primary evidence: REGISTRY_EVENTS_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+DNK | Denmark | Primary evidence: NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS | Registry status: NO_EVENT_IN_CURRENT_REGISTRY | Registry events: 0 | Event types:  | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+ESP | Spain | Primary evidence: REGISTRY_EVENTS_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: financial_assistance | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+FIN | Finland | Primary evidence: REGISTRY_EVENTS_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+FRA | France | Primary evidence: REGISTRY_EVENTS_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+GBR | United Kingdom | Primary evidence: NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS | Registry status: NO_EVENT_IN_CURRENT_REGISTRY | Registry events: 0 | Event types:  | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+GRC | Greece | Primary evidence: CLASSIFIED_EPISODE_EVIDENCE_PRESENT | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 6 | Event types: financial_assistance;sovereign_restructuring;systemic_banking_crisis | ESM records: 2 | Severity evidence: CLASSIFIED_EPISODE_EVIDENCE_PRESENT | Classified episodes: 1 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+HUN | Hungary | Primary evidence: REGISTRY_EVENTS_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 2 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+IRL | Ireland | Primary evidence: REGISTRY_EVENTS_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 2 | Event types: financial_assistance;systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+ITA | Italy | Primary evidence: REGISTRY_EVENTS_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+NLD | Netherlands | Primary evidence: NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS | Registry status: NO_EVENT_IN_CURRENT_REGISTRY | Registry events: 0 | Event types:  | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+NOR | Norway | Primary evidence: REGISTRY_EVENTS_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+POL | Poland | Primary evidence: REGISTRY_EVENTS_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+PRT | Portugal | Primary evidence: REGISTRY_EVENTS_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 2 | Event types: financial_assistance;systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+ROU | Romania | Primary evidence: REGISTRY_EVENTS_WITHOUT_CLASSIFIED_SEVERITY_EVIDENCE | Registry status: REGISTRY_EVENTS_RECORDED | Registry events: 1 | Event types: systemic_banking_crisis | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+SWE | Sweden | Primary evidence: NO_MATCH_IN_CURRENT_EVIDENCE_INPUTS | Registry status: NO_EVENT_IN_CURRENT_REGISTRY | Registry events: 0 | Event types:  | ESM records: 0 | Severity evidence: NO_SEVERITY_EVIDENCE_RECORDS | Classified episodes: 0 | Payment-default proof: NOT_ASSESSED_FROM_CURRENT_INPUTS
+
+INTERPRETATION LIMITATIONS
+----------------------------------------------------------------------------
+- No record in ESM does not establish that a country had no default.
+- The ESM source concerns domestic-law sovereign restructurings and is not comprehensive default coverage.
+- BoC-BoE and Kiel statuses indicate only whether configured candidate filenames were found locally; they do not establish public dataset unavailability.
+- Historical stress events are not automatically equivalent to sovereign defaults.
+- Financial assistance is not, by itself, proof of sovereign default.
+- Systemic banking crises are not, by themselves, proof of sovereign default.
+- Registry event IDs are individual event identifiers, not canonical episode identifiers.
+- Blank episode IDs do not mean that a registry event does not exist.
+- Registry events without severity evidence remain distinct from quantified severity episodes.
+- No country ranking, default probability, or composite severity score is produced.
+- The historical stress-event registry and prior audit outputs are read-only inputs.
+- No-match classifications must not be interpreted as proof of zero historical defaults.
+- Payment-default proof is not assessed by this matrix because the current historical stress-event registry has no default_proof_status field.
+- A classified restructuring episode or quantified NPV observation is not, by itself, proof of payment default.
+- The local source inventory does not establish dataset schema validity, completeness, temporal coverage, or country coverage.

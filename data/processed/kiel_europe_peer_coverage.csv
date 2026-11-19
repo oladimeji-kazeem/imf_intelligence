@@ -1,0 +1,21 @@
+peer_iso3,country,source_record_count,source_wdi_codes,first_start_date,last_start_date,missing_start_dates,missing_end_dates,missing_default_dates,missing_announcements,imprecise_start_dates,strictly_preemptive_raw_flags,weakly_preemptive_raw_flags,post_default_raw_flags,strict_weak_overlap,post_preemptive_overlap,chronology_inversions,coverage_status,interpretation
+AUT,Austria,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+BEL,Belgium,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+CHE,Switzerland,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+CZE,Czech Republic,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+DEU,Germany,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+DNK,Denmark,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+ESP,Spain,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+FIN,Finland,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+FRA,France,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+GBR,United Kingdom,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+GRC,Greece,1,GRC,2011-07-01,2011-07-01,0,0,1,0,0,1,1,0,1,0,0,RESTRUCTURING_RECORDS_FOUND,"Restructuring-process records identified; raw classifications are source flags, not independently verified default findings"
+HUN,Hungary,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+IRL,Ireland,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+ITA,Italy,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+NLD,Netherlands,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+NOR,Norway,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+POL,Poland,8,POL,1981-03-01,1989-10-01,0,0,0,0,0,0,0,8,0,0,0,RESTRUCTURING_RECORDS_FOUND,"Restructuring-process records identified; raw classifications are source flags, not independently verified default findings"
+PRT,Portugal,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults
+ROU,Romania,3,ROM,1981-09-01,1986-06-01,0,0,0,0,0,0,2,1,0,0,0,RESTRUCTURING_RECORDS_FOUND,"Restructuring-process records identified; raw classifications are source flags, not independently verified default findings"
+SWE,Sweden,0,,,,0,0,0,0,0,0,0,0,0,0,0,NO_RECORD_IN_KIEL_MAIN_DATASET,No matching main-dataset record; not evidence of zero defaults

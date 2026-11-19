@@ -4,6 +4,8 @@ EUROPEAN SOVEREIGN DEFAULT SEVERITY EVIDENCE CLASSIFICATION
 
 Instrument records classified: 2
 Episode records classified: 1
+Integrity gate: NO FAILURES DETECTED; QUALIFIED
+Integrity status counts: {'CALCULATED': 1, 'NOT_AVAILABLE': 1, 'NOT_VERIFIABLE': 1, 'PASS': 25, 'UNRESOLVED': 1}
 Integrity tests marked FAIL: 0
 
 INSTRUMENT EVIDENCE DISTRIBUTION
@@ -22,8 +24,9 @@ EVIDENCE LIMITATIONS
 - Economic comparability remains unverified.
 - Binary face-value reduction flags are not haircut percentages.
 - NPV values are source fractions, displayed as percentages only for readability.
-- Weighted NPV is indicative and is not a verified aggregate creditor loss.
+- Weighted NPV uses reported instrument amounts as weights; economic comparability of those amounts is unverified. The weighted result is therefore not an economically validated episode-level loss estimate or a verified aggregate creditor loss.
 - Missing evidence is not interpreted as zero loss or zero exposure.
+- The ESM temporal restructuring indicator is excluded from classification: the README defines it as pre-default, while the worksheet header labels it post-default. Raw values are retained, but their temporal meaning is unresolved.
 - Temporal linkage does not independently prove event identity.
 - No composite severity score or country ranking is assigned.
 - The historical stress-event registry is not modified.

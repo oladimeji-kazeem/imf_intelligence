@@ -40,7 +40,9 @@ Their subtotals must not be added together.
 A residual does not automatically indicate an error.
 Missing components are not treated as zero.
 Reconciliation does not establish economic exclusivity.
-Annual observations are stocks, not independent default events.
+Annual observations are repeated country-year measurements of debt in default; they are not independent default events.
+The workbook does not explicitly establish the stock-versus-flow semantics or reference-date convention of total debt in default.
+Domestic arrears are separately identified as stocks.
 
 OUTPUT FILES
 ----------------------------------------------------------------------

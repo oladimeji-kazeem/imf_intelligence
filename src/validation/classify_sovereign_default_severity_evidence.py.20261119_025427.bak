@@ -1,0 +1,520 @@
+
+from __future__ import annotations
+
+from pathlib import Path
+
+import pandas as pd
+
+
+ROOT = Path(__file__).resolve().parents[2]
+
+PROCESSED = ROOT / "data" / "processed"
+REPORTS = ROOT / "outputs" / "reports"
+
+INSTRUMENT_FILE = (
+    PROCESSED / "europe_sovereign_default_severity_instruments.csv"
+)
+EPISODE_FILE = (
+    PROCESSED / "europe_sovereign_default_severity_episodes.csv"
+)
+INTEGRITY_FILE = (
+    PROCESSED / "europe_sovereign_default_severity_integrity.csv"
+)
+
+INSTRUMENT_OUTPUT = (
+    PROCESSED / "europe_sovereign_default_evidence_classification_instruments.csv"
+)
+EPISODE_OUTPUT = (
+    PROCESSED / "europe_sovereign_default_evidence_classification_episodes.csv"
+)
+REPORT_OUTPUT = (
+    REPORTS / "europe_sovereign_default_evidence_classification.txt"
+)
+
+
+def require_columns(df, columns, filename):
+    missing = [c for c in columns if c not in df.columns]
+
+    if missing:
+        raise ValueError(
+            f"{filename} is missing required columns: {missing}"
+        )
+
+
+def read_inputs():
+    for path in [
+        INSTRUMENT_FILE,
+        EPISODE_FILE,
+        INTEGRITY_FILE,
+    ]:
+        if not path.exists():
+            raise FileNotFoundError(path)
+
+    instruments = pd.read_csv(INSTRUMENT_FILE)
+    episodes = pd.read_csv(EPISODE_FILE)
+    integrity = pd.read_csv(INTEGRITY_FILE)
+
+    require_columns(
+        instruments,
+        [
+            "source_row",
+            "country",
+            "episode_key",
+            "episode_link_status",
+            "Instrument",
+            "amount_mln_usd",
+            "face_value_reduction",
+            "maturity_change",
+            "coupon_change",
+            "npv_loss_raw",
+            "post_default_restructuring",
+            "registry_event_ids",
+            "match_status",
+        ],
+        INSTRUMENT_FILE.name,
+    )
+
+    require_columns(
+        episodes,
+        [
+            "episode_key",
+            "country",
+            "instrument_count",
+            "instrument_reported_amount_sum_mln_usd",
+            "npv_loss_observations",
+            "npv_loss_missing_observations",
+        ],
+        EPISODE_FILE.name,
+    )
+
+    require_columns(
+        integrity,
+        ["test", "status"],
+        INTEGRITY_FILE.name,
+    )
+
+    return instruments, episodes, integrity
+
+
+def validate_integrity_gate(integrity):
+    failed = integrity[
+        integrity["status"].astype(str).str.upper() == "FAIL"
+    ]
+
+    if not failed.empty:
+        raise ValueError(
+            "Integrity gate failed. Evidence classification stopped.\n"
+            + failed[["test", "status"]].to_string(index=False)
+        )
+
+    print(
+        "Integrity gate: NO FAILURES DETECTED; "
+        "UNRESOLVED STATUSES MAY REMAIN"
+    )
+    print("Integrity status counts:")
+    for status, count in (
+        integrity["status"]
+        .astype(str)
+        .str.upper()
+        .value_counts()
+        .sort_index()
+        .items()
+    ):
+        print(f"  {status}: {count}")
+
+
+def numeric(value):
+    return pd.to_numeric(
+        pd.Series([value]),
+        errors="coerce"
+    ).iloc[0]
+
+
+def binary_evidence(value):
+    value = numeric(value)
+
+    if pd.isna(value):
+        return "UNKNOWN"
+
+    if value == 1:
+        return "RECORDED"
+
+    if value == 0:
+        return "NOT_RECORDED"
+
+    return "NON_BINARY_VALUE_REQUIRES_REVIEW"
+
+
+def amount_evidence(value):
+    value = numeric(value)
+
+    if pd.isna(value):
+        return "AMOUNT_MISSING"
+
+    if value <= 0:
+        return "NON_POSITIVE_AMOUNT_REQUIRES_REVIEW"
+
+    return "AMOUNT_REPORTED"
+
+
+def npv_evidence(value):
+    value = numeric(value)
+
+    if pd.isna(value):
+        return "NPV_MISSING"
+
+    if not 0 <= value <= 1:
+        return "NPV_OUTSIDE_EXPECTED_FRACTION_RANGE"
+
+    return "NPV_REPORTED_AS_FRACTION"
+
+
+def classify_instrument(row):
+    amount_status = amount_evidence(
+        row["amount_mln_usd"]
+    )
+
+    npv_status = npv_evidence(
+        row["npv_loss_raw"]
+    )
+
+    face_value_status = binary_evidence(
+        row["face_value_reduction"]
+    )
+
+    maturity_status = binary_evidence(
+        row["maturity_change"]
+    )
+
+    coupon_status = binary_evidence(
+        row["coupon_change"]
+    )
+
+    post_default_status = binary_evidence(
+        row["post_default_restructuring"]
+    )
+
+    npv = numeric(row["npv_loss_raw"])
+
+    if npv_status == "NPV_REPORTED_AS_FRACTION":
+        npv_pct = npv * 100
+    else:
+        npv_pct = float("nan")
+
+    measured_count = sum([
+        npv_status == "NPV_REPORTED_AS_FRACTION",
+        amount_status == "AMOUNT_REPORTED",
+    ])
+
+    restructuring_count = sum([
+        face_value_status == "RECORDED",
+        maturity_status == "RECORDED",
+        coupon_status == "RECORDED",
+        post_default_status == "RECORDED",
+    ])
+
+    if measured_count == 2 and restructuring_count > 0:
+        overall = (
+            "QUANTIFIED_NPV_AND_RESTRUCTURING_EVIDENCE"
+        )
+    elif measured_count > 0:
+        overall = "PARTIAL_QUANTIFIED_EVIDENCE"
+    elif restructuring_count > 0:
+        overall = "RESTRUCTURING_INDICATORS_ONLY"
+    else:
+        overall = "INSUFFICIENT_SEVERITY_EVIDENCE"
+
+    return pd.Series({
+        "amount_evidence_status": amount_status,
+        "npv_evidence_status": npv_status,
+        "npv_loss_pct_display": npv_pct,
+        "face_value_reduction_evidence": face_value_status,
+        "maturity_change_evidence": maturity_status,
+        "coupon_change_evidence": coupon_status,
+        "post_default_restructuring_evidence": post_default_status,
+        "restructuring_indicator_count": restructuring_count,
+        "instrument_evidence_classification": overall,
+        "haircut_percentage_status": (
+            "NOT_AVAILABLE_FROM_BINARY_SOURCE_FLAG"
+            if face_value_status in {
+                "RECORDED", "NOT_RECORDED"
+            }
+            else "REQUIRES_SOURCE_REVIEW"
+        ),
+    })
+
+
+def classify_instruments(instruments):
+    classified = instruments.copy()
+
+    evidence = classified.apply(
+        classify_instrument,
+        axis=1
+    )
+
+    classified = pd.concat(
+        [classified, evidence],
+        axis=1
+    )
+
+    classified["economic_amount_comparability"] = (
+        "NOT_VERIFIABLE_FROM_AVAILABLE_INSTRUMENT_DATA"
+    )
+
+    classified["aggregate_creditor_loss_status"] = (
+        "NOT_ESTABLISHED"
+    )
+
+    classified["severity_score_status"] = (
+        "NOT_ASSIGNED"
+    )
+
+    return classified
+
+
+def weighted_npv(group):
+    amounts = pd.to_numeric(
+        group["amount_mln_usd"],
+        errors="coerce"
+    )
+
+    npv = pd.to_numeric(
+        group["npv_loss_raw"],
+        errors="coerce"
+    )
+
+    valid = (
+        amounts.notna()
+        & npv.notna()
+        & (amounts > 0)
+        & npv.between(0, 1)
+    )
+
+    if not valid.any():
+        return float("nan"), float("nan"), 0
+
+    valid_amounts = amounts[valid]
+    valid_npv = npv[valid]
+
+    denominator = valid_amounts.sum()
+
+    if denominator <= 0:
+        return float("nan"), float("nan"), int(valid.sum())
+
+    weighted = (
+        valid_amounts * valid_npv
+    ).sum() / denominator
+
+    indicative_loss = (
+        valid_amounts * valid_npv
+    ).sum()
+
+    return (
+        weighted,
+        indicative_loss,
+        int(valid.sum())
+    )
+
+
+def build_episode_classification(instruments, episodes):
+    rows = []
+
+    for _, episode in episodes.iterrows():
+        key = episode["episode_key"]
+
+        group = instruments[
+            instruments["episode_key"] == key
+        ].copy()
+
+        weighted, indicative_loss, weighted_count = (
+            weighted_npv(group)
+        )
+
+        if group.empty:
+            raise ValueError(
+                f"No instrument records found for episode: {key}"
+            )
+
+        npv_available = int(
+            group["npv_evidence_status"]
+            .eq("NPV_REPORTED_AS_FRACTION")
+            .sum()
+        )
+
+        restructuring_indicators = int(
+            group["restructuring_indicator_count"].sum()
+        )
+
+        canonical_link = (
+            group["episode_link_status"]
+            .eq("CANONICAL_EPISODE_ID_MATCH")
+            .all()
+        )
+
+        if npv_available > 0 and restructuring_indicators > 0:
+            classification = (
+                "QUANTIFIED_NPV_AND_RESTRUCTURING_EVIDENCE"
+            )
+        elif npv_available > 0:
+            classification = "QUANTIFIED_NPV_EVIDENCE"
+        elif restructuring_indicators > 0:
+            classification = "RESTRUCTURING_INDICATORS_ONLY"
+        else:
+            classification = "INSUFFICIENT_SEVERITY_EVIDENCE"
+
+        rows.append({
+            "episode_key": key,
+            "country": episode["country"],
+            "canonical_episode_link": canonical_link,
+            "instrument_count": len(group),
+            "reported_amount_sum_mln_usd": (
+                pd.to_numeric(
+                    group["amount_mln_usd"],
+                    errors="coerce"
+                ).sum(min_count=1)
+            ),
+            "npv_observation_count": npv_available,
+            "weighted_npv_fraction_indicative": weighted,
+            "weighted_npv_pct_indicative": (
+                weighted * 100
+                if pd.notna(weighted)
+                else float("nan")
+            ),
+            "indicative_weighted_loss_mln_usd": indicative_loss,
+            "weighted_npv_instrument_count": weighted_count,
+            "restructuring_indicator_count": restructuring_indicators,
+            "economic_amount_comparability": (
+                "NOT_VERIFIABLE"
+            ),
+            "face_value_haircut_percentage": (
+                "NOT_AVAILABLE"
+            ),
+            "aggregate_creditor_loss_status": (
+                "NOT_ESTABLISHED"
+            ),
+            "severity_score_status": "NOT_ASSIGNED",
+            "evidence_classification": classification,
+            "interpretation": (
+                "Evidence classification only; not a severity ranking "
+                "or verified aggregate creditor-loss estimate."
+            ),
+        })
+
+    return pd.DataFrame(rows)
+
+
+def build_report(instruments, episodes, integrity):
+    integrity_status_counts = (
+        integrity["status"]
+        .astype(str)
+        .str.upper()
+        .value_counts()
+        .sort_index()
+        .to_dict()
+    )
+
+    lines = [
+        "=" * 78,
+        "EUROPEAN SOVEREIGN DEFAULT SEVERITY EVIDENCE CLASSIFICATION",
+        "=" * 78,
+        "",
+        f"Instrument records classified: {len(instruments)}",
+        f"Episode records classified: {len(episodes)}",
+        "Integrity gate: NO FAILURES DETECTED; QUALIFIED",
+        f"Integrity status counts: {integrity_status_counts}",
+        f"Integrity tests marked FAIL: "
+        f"{int(integrity['status'].astype(str).str.upper().eq('FAIL').sum())}",
+        "",
+        "INSTRUMENT EVIDENCE DISTRIBUTION",
+        "-" * 78,
+        instruments[
+            "instrument_evidence_classification"
+        ].value_counts(dropna=False).to_string(),
+        "",
+        "EPISODE EVIDENCE CLASSIFICATION",
+        "-" * 78,
+        episodes[
+            [
+                "country",
+                "episode_key",
+                "evidence_classification",
+                "instrument_count",
+                "npv_observation_count",
+                "weighted_npv_pct_indicative",
+            ]
+        ].to_string(index=False),
+        "",
+        "EVIDENCE LIMITATIONS",
+        "-" * 78,
+        "- Reported amounts are not verified unique creditor claims.",
+        "- Economic comparability remains unverified.",
+        "- Binary face-value reduction flags are not haircut percentages.",
+        "- NPV values are source fractions, displayed as percentages only for readability.",
+        "- Weighted NPV uses reported instrument amounts as weights; "
+        "economic comparability of those amounts is unverified. The "
+        "weighted result is therefore not an economically validated "
+        "episode-level loss estimate or a verified aggregate creditor loss.",
+        "- Missing evidence is not interpreted as zero loss or zero exposure.",
+        "- Temporal linkage does not independently prove event identity.",
+        "- No composite severity score or country ranking is assigned.",
+        "- The historical stress-event registry is not modified.",
+        "",
+        "OUTPUT FILES",
+        str(INSTRUMENT_OUTPUT),
+        str(EPISODE_OUTPUT),
+        str(REPORT_OUTPUT),
+        "",
+        "CLASSIFICATION COMPLETED.",
+    ]
+
+    return "\n".join(lines)
+
+
+def main():
+    PROCESSED.mkdir(parents=True, exist_ok=True)
+    REPORTS.mkdir(parents=True, exist_ok=True)
+
+    instruments, episodes, integrity = read_inputs()
+
+    validate_integrity_gate(integrity)
+
+    classified_instruments = classify_instruments(
+        instruments
+    )
+
+    classified_episodes = build_episode_classification(
+        classified_instruments,
+        episodes
+    )
+
+    classified_instruments.to_csv(
+        INSTRUMENT_OUTPUT,
+        index=False
+    )
+
+    classified_episodes.to_csv(
+        EPISODE_OUTPUT,
+        index=False
+    )
+
+    report = build_report(
+        classified_instruments,
+        classified_episodes,
+        integrity
+    )
+
+    REPORT_OUTPUT.write_text(
+        report,
+        encoding="utf-8"
+    )
+
+    print("\n" + report)
+
+    print("\nOUTPUTS WRITTEN")
+    print(INSTRUMENT_OUTPUT)
+    print(EPISODE_OUTPUT)
+    print(REPORT_OUTPUT)
+
+
+if __name__ == "__main__":
+    main()

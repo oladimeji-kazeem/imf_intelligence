@@ -16,11 +16,12 @@ npv_range,PASS,"[0.564, 0.5585]","All raw NPV fractions between -1 and 1, equiva
 npv_completeness,PASS,0,0,Missing NPV values must not be interpreted as zero.
 weighted_npv_recalculation,PASS,55.868881481777166,Independent amount-weighted calculation,Indicative only; not a verified aggregate creditor loss.
 indicative_weighted_npv_loss_amount,CALCULATED,139957.13499999998,Amount multiplied by instrument-level NPV loss fractions,Indicative only; not a verified cash loss or unique creditor claim. Instrument amounts may overlap.
-face_value_reduction_semantics,PASS,[1.0],"Binary values 0 or 1, subject to source codebook",Indicator values are not haircut percentages.
-maturity_change_semantics,PASS,[1.0],"Binary values 0 or 1, subject to source codebook",Indicator values are not haircut percentages.
-coupon_change_semantics,PASS,[1.0],"Binary values 0 or 1, subject to source codebook",Indicator values are not haircut percentages.
-post_default_restructuring_semantics,PASS,[0.0],"Binary values 0 or 1, subject to source codebook",Indicator values are not haircut percentages.
+face_value_reduction_binary_domain,PASS,[1.0],"Binary values 0 or 1, subject to source codebook",Indicator values are not haircut percentages.
+maturity_change_binary_domain,PASS,[1.0],"Binary values 0 or 1, subject to source codebook",Indicator values are not haircut percentages.
+coupon_change_binary_domain,PASS,[1.0],"Binary values 0 or 1, subject to source codebook",Indicator values are not haircut percentages.
 face_value_haircut_percentage,NOT_AVAILABLE,"[1.0, 1.0]",A separately documented percentage haircut,Do not infer a haircut percentage from a binary indicator.
+post_default_restructuring_binary_domain,PASS,"[0.0, 1.0]","Observed values restricted to 0 or 1, with missing values retained as unknown","This checks the value domain only, not the temporal meaning."
+post_default_restructuring_definition,UNRESOLVED,"{'worksheet_column': 'Post-default restructuring', 'readme_defines_pre_default': True, 'worksheet_header_says_post_default': True, 'source_rows': 134, 'non_missing_values': 123, 'observed_values': [0.0, 1.0]}",README and worksheet header must describe the same temporal construct,"Source contradiction: README defines Pre-default restructuring, while the worksheet column is Post-default restructuring. No temporal interpretation is used."
 registry_temporal_linkage,PASS,2/2,All Greek PSI instruments have temporal overlap,Temporal overlap is not independent proof of event identity.
 temporal_provenance_schema,PASS,[],All exact-date and year-level provenance columns present,Checks the fields needed to distinguish exact-date evidence from year-level candidates.
 exact_date_restructuring_compatibility,PASS,"{""instrument_count"": 2, ""compatible_counts"": [2, 2], ""contextual_counts"": [0, 0], ""statuses"": [""RESTRUCTURING_COMPATIBLE_OVERLAP"", ""RESTRUCTURING_COMPATIBLE_OVERLAP""]}",2 instruments; 2 compatible and 0 contextual matches each,Verifies semantic compatibility of exact-date registry matches.

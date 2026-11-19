@@ -500,7 +500,6 @@ def validate_contractual_indicators(greek, results):
         "face_value_reduction",
         "maturity_change",
         "coupon_change",
-        "post_default_restructuring",
     ]:
         values = number(greek[column])
         observed = sorted(values.dropna().unique().tolist())
@@ -509,7 +508,7 @@ def validate_contractual_indicators(greek, results):
 
         add_result(
             results,
-            f"{column}_semantics",
+            f"{column}_binary_domain",
             "PASS" if binary else "REVIEW",
             observed,
             "Binary values 0 or 1, subject to source codebook",
@@ -525,6 +524,82 @@ def validate_contractual_indicators(greek, results):
         face_values.tolist(),
         "A separately documented percentage haircut",
         "Do not infer a haircut percentage from a binary indicator."
+    )
+
+
+def validate_esm_temporal_definition(esm, results):
+    source_column = "Post-default restructuring"
+
+    if source_column not in esm.columns:
+        add_result(
+            results,
+            "post_default_restructuring_binary_domain",
+            "REVIEW",
+            "SOURCE_COLUMN_MISSING",
+            "Source temporal indicator column available",
+            "Cannot validate the raw temporal indicator domain."
+        )
+        add_result(
+            results,
+            "post_default_restructuring_definition",
+            "UNRESOLVED",
+            "SOURCE_COLUMN_MISSING",
+            "Consistent source documentation and worksheet definition",
+            "Temporal meaning cannot be established."
+        )
+        return
+
+    values = number(esm[source_column])
+    observed = sorted(values.dropna().unique().tolist())
+    binary = set(observed).issubset({0, 1})
+
+    add_result(
+        results,
+        "post_default_restructuring_binary_domain",
+        "PASS" if binary else "REVIEW",
+        observed,
+        "Observed values restricted to 0 or 1, with missing values retained as unknown",
+        "This checks the value domain only, not the temporal meaning."
+    )
+
+    readme = pd.read_excel(
+        ESM_FILE,
+        sheet_name="README",
+        header=None
+    )
+    readme_text = " ".join(
+        readme.fillna("").astype(str).to_numpy().ravel()
+    ).lower()
+
+    readme_says_pre = "pre-default restructuring" in readme_text
+    worksheet_says_post = (
+        normalize(source_column) == "postdefaultrestructuring"
+    )
+
+    contradiction = readme_says_pre and worksheet_says_post
+
+    add_result(
+        results,
+        "post_default_restructuring_definition",
+        "UNRESOLVED" if contradiction else "REVIEW",
+        {
+            "worksheet_column": source_column,
+            "readme_defines_pre_default": readme_says_pre,
+            "worksheet_header_says_post_default": worksheet_says_post,
+            "source_rows": int(len(esm)),
+            "non_missing_values": int(values.notna().sum()),
+            "observed_values": observed,
+        },
+        "README and worksheet header must describe the same temporal construct",
+        (
+            "Source contradiction: README defines Pre-default restructuring, "
+            "while the worksheet column is Post-default restructuring. "
+            "No temporal interpretation is used."
+            if contradiction
+            else
+            "The expected README/header contradiction was not confirmed. "
+            "Source definition requires manual review; no temporal interpretation is used."
+        )
     )
 
 
@@ -833,6 +908,8 @@ def main():
 
     validate_contractual_indicators(greek, results)
 
+    validate_esm_temporal_definition(esm, results)
+
     validate_registry_matches(greek, results)
 
     validate_temporal_provenance(greek, results)
@@ -851,6 +928,9 @@ def main():
             ["REVIEW", "NOT_VERIFIABLE", "NOT_AVAILABLE"]
         ).sum()
     )
+    unresolved_count = int(
+        result_df["status"].eq("UNRESOLVED").sum()
+    )
 
     report = [
         "=" * 78,
@@ -865,6 +945,7 @@ def main():
         f"PASS: {pass_count}",
         f"FAIL: {fail_count}",
         f"REVIEW / NOT VERIFIABLE: {review_count}",
+        f"UNRESOLVED: {unresolved_count}",
         "",
         "DETAILED TEST RESULTS",
         "-" * 78,
@@ -878,6 +959,8 @@ def main():
         "- NPV values are preserved as source decimal fractions; multiply by 100 to express percentages.",
         "- Weighted NPV is indicative, not a verified aggregate creditor loss.",
         "- Binary face-value reduction flags are not percentage haircuts.",
+        "- ESM temporal restructuring indicator meaning is unresolved because the README says Pre-default while the worksheet header says Post-default.",
+        "- The unresolved ESM temporal indicator is excluded from restructuring evidence counts; raw values are retained.",
         "- Exact-date restructuring compatibility is tested separately from temporal overlap.",
         "- Year-level candidates do not establish exact chronology or canonical episode identity.",
         "- Contextual financial-assistance and banking-crisis records are not restructuring evidence.",
